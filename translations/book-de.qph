@@ -1,0 +1,243 @@
+<!DOCTYPE QPH>
+<QPH language="de_DE">
+<phrase>
+    <source>About</source>
+    <target>über das Programm</target>
+</phrase>
+<phrase>
+    <source>Version: alpha </source>
+    <target>Version: alpha </target>
+</phrase>
+<phrase>
+    <source>This program searches for text in different file types.</source>
+    <target>Das Programm sucht nach text in verschiedenen Filesorten</target>
+</phrase>
+<phrase>
+    <source>File Info </source>
+    <target>File Info </target>
+</phrase>
+<phrase>
+    <source>Install launched</source>
+    <target>Installation wurde gestartet</target>
+</phrase>
+<phrase>
+    <source>This program searches for text in different file types.</source>
+    <target>Das Programm sucht nach text in verschiedenen Filesorten.</target>
+</phrase>
+<phrase>
+    <source>Settings</source>
+    <target>Einstellungen</target>
+</phrase>
+<phrase>
+    <source>default</source>
+    <target>default</target>
+</phrase>
+<phrase>
+    <source>Search hidden files</source>
+    <target>Suche versteckte Dateien</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside hidden files and hidden directories</source>
+    <target>Ermöglicht innerhalb versteckte Dateien und Verzeichnisse suchen</target>
+</phrase>
+<phrase>
+    <source>Search results</source>
+    <target>Suchergebnisse</target>
+</phrase>
+<phrase>
+    <source>max. nr of results per section</source>
+    <target>Max. Anzahl der Ergebnisse pro Abschnitt</target>
+</phrase>
+<phrase>
+    <source>This program searches for text in different file types.</source>
+    <target>Das Programm sucht nach text in verschiedenen Filesorten.</target>
+</phrase>
+<phrase>
+    <source>File info </source>
+    <target>Dateiinformation </target>
+</phrase>
+<phrase>
+    <source>Show cumulative search results</source>
+    <target>Zeige kumulative Suchergebnisse</target>
+</phrase>
+<phrase>
+    <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
+    <target>Zeigt nur die erste Partie der gefundenen Text in einer Datei und zeigt Anzahl aller Treffer in eckigen Klammern [ ]. Alle Ergebnisse können in der Detailansicht angezeigt werden</target>
+</phrase>
+<phrase>
+    <source>Result sections</source>
+    <target>Ergebnis Abschnitte</target>
+</phrase>
+<phrase>
+    <source>Enable TXT section</source>
+    <target>Aktiviere TXT Abschnitt</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.txt files</source>
+    <target>Ermöglicht innen *.txt-Dateien suchen</target>
+</phrase>
+<phrase>
+    <source>Enable HTML section</source>
+    <target>Aktiviere HTML Abschnitt</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.html, *.htm files</source>
+    <target>Ermöglicht innen *.html-, *.htm-Dateien suchen</target>
+</phrase>
+<phrase>
+    <source>Enable SRC section</source>
+    <target>Aktiviere SRC Abschnitt</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.cpp, *.c, *.py, *.sh files</source>
+    <target>Ermöglicht innen *.cpp-, *.c-, *.py-, *.sh-Dateien suchen</target>
+</phrase>
+<phrase>
+    <source>Enable SQLITE section</source>
+    <target>Aktiviere SQLITE Abschnitt</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.sqlite, *.db files</source>
+    <target>Ermöglicht innen *.sqlite-, *.db-Dateien suchen</target>
+</phrase>
+<phrase>
+    <source>Enable NOTES section</source>
+    <target>Aktiviere NOTES Abschnitt</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.txt files</source>
+    <target>Ermöglicht innen *.txt-Dateien durchsuchen</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.html, *.htm files</source>
+    <target>Ermöglicht innen *.html-, *.htm-Dateien durchsuchen</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.cpp, *.c, *.py, *.sh files</source>
+    <target>Ermöglicht innen *.cpp-, *.c-, *.py-, *.sh-Dateien durchsuchen</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.sqlite, *.db files</source>
+    <target>Ermöglicht innen *.sqlite-, *.db-Dateien durchsuchen</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside Notes application database</source>
+    <target>Ermöglicht innen Notes-Application-Datenbank durchsuchen</target>
+</phrase>
+<phrase>
+    <source>Other</source>
+    <target>Andere</target>
+</phrase>
+<phrase>
+    <source>Other</source>
+    <target>Andere</target>
+</phrase>
+<phrase>
+    <source>Language:</source>
+    <target>Sprache:</target>
+</phrase>
+<phrase>
+    <source>Language:</source>
+    <target>Sprache:</target>
+</phrase>
+<phrase>
+    <source>Note: Change of this parameter requires restart of an application</source>
+    <target>Hinweis: Die Änderung dieses Parameters Neustart einer Anwendung erfordert</target>
+</phrase>
+<phrase>
+    <source>Search hidden files</source>
+    <target>Suche versteckte Dateien durch</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside hidden files and hidden directories</source>
+    <target>Es ermöglicht versteckte Dateien und Verzeichnisse durchsuchen</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.txt files</source>
+    <target>Es ermöglicht innen *.txt-Dateien durchsuchen</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.txt files</source>
+    <target>Es ermöglicht *.txt-Dateien durchsuchen</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.html, *.htm files</source>
+    <target>Es ermöglicht *.html-, *.htm-Dateien durchsuchen</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.cpp, *.c, *.py, *.sh files</source>
+    <target>Es ermöglicht *.cpp-, *.c-, *.py-, *.sh-Dateien durchsuchen</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.sqlite, *.db files</source>
+    <target>Es ermöglicht *.sqlite-, *.db-Dateien durchsuchen</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside Notes application database</source>
+    <target>Es ermöglicht Notes-Application-Datenbank durchsuchen</target>
+</phrase>
+<phrase>
+    <source>Note: Change of this parameter requires restart of an application</source>
+    <target>Hinweis: Die Änderung dieses Parameters Neustart der Application erfordert</target>
+</phrase>
+<phrase>
+    <source>Search %1</source>
+    <target>Suche %1</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside Notes application database</source>
+    <target>Es ermöglicht Notizen-Application-Datenbank durchsuchen</target>
+</phrase>
+<phrase>
+    <source>Search options</source>
+    <target>Suchoptionen</target>
+</phrase>
+<phrase>
+    <source>Notes</source>
+    <target>Notizen</target>
+</phrase>
+<phrase>
+    <source>Enable NOTES section</source>
+    <target>Aktiviere NOTIZEN Abschnitt</target>
+</phrase>
+<phrase>
+    <source>%n hit(s)</source>
+    <target>%n Treffer</target>
+</phrase>
+<phrase>
+    <source>Searching</source>
+    <target>Suche</target>
+</phrase>
+<phrase>
+    <source>TXT files content</source>
+    <target>TXT-Dateien Inhalt</target>
+</phrase>
+<phrase>
+    <source>HTML files content</source>
+    <target>HTML-Dateien Inhalt</target>
+</phrase>
+<phrase>
+    <source>PDF files content</source>
+    <target>PDF-Dateien Inhalt</target>
+</phrase>
+<phrase>
+    <source>SRC files content</source>
+    <target>SRC-Dateien Inhalt</target>
+</phrase>
+<phrase>
+    <source>SQLITE files content</source>
+    <target>SQLITE-Dateien Inhalt</target>
+</phrase>
+<phrase>
+    <source>Filenames</source>
+    <target>Dateinamen</target>
+</phrase>
+<phrase>
+    <source>Directory names</source>
+    <target>Verzeichnisnamen</target>
+</phrase>
+<phrase>
+    <source>Search finished:</source>
+    <target>Suche abgeschlossen:</target>
+</phrase>
+</QPH>
