@@ -58,6 +58,7 @@ CONFIG += sailfishapp_i18n
 TRANSLATIONS += translations/harbour-searchnemo-de_DE.ts
 TRANSLATIONS += translations/harbour-searchnemo-pl_PL.ts
 TRANSLATIONS += translations/harbour-searchnemo-en_US.ts
+TRANSLATIONS += translations/harbour-searchnemo-sv_SE.ts
 
 #translations.files = translations/*.qm
 #translations.path = /usr/share/$${TARGET}
@@ -92,7 +93,8 @@ DISTFILES += \
     qml/pages/viewadds/fileviewfunctions.js \
     qml/pages/SettingsPage.qml \
     qml/pages/SqlRecordView.qml \
-    qml/pages/viewadds/AnimatedHeader.qml
+    qml/pages/viewadds/AnimatedHeader.qml \
+    translations/harbour-searchnemo-sv_SE.ts
 
 HEADERS += \
     src/searchengine.h \

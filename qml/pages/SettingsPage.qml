@@ -31,6 +31,7 @@ Page {
         languages.append({ name: "Deutsch - incomplete",  lang: "de_DE" })
         languages.append({ name: "English (US)",  lang: "en_US" })
         languages.append({ name: "Polski",  lang: "pl_PL" })
+        languages.append({ name: "Svenska",  lang: "sv_SE" })
     }
 
     SilicaFlickable {

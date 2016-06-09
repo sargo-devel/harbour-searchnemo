@@ -951,112 +951,112 @@
         <translation>standard</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="48"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="49"/>
         <source>Settings</source>
         <translation>Inställningar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="50"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="51"/>
         <source>Search options</source>
         <translation>Sökalternativ</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="54"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="55"/>
         <source>Search hidden files</source>
         <translation>Sök i dolda filer</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="55"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="56"/>
         <source>Enables searching inside hidden files and hidden directories</source>
         <translation>Aktiverar sökning i dolda filer och mappar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="61"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="62"/>
         <source>Show cumulative search results</source>
         <translation>Visa kumulativa sökresultat</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="62"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="63"/>
         <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
         <translation>Visar endast första träffen på hittad text i en fil, och antalet träffar i hakparantes [ ]. Alla resultat kan visas i detaljerad vy.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="66"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="67"/>
         <source>Search results</source>
         <translation>Sökresultat</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="76"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="77"/>
         <source>max. nr of results per section</source>
         <translation>max antal resultat per sektion</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="80"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="81"/>
         <source>Result sections</source>
         <translation>Resultatsektioner</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="84"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="85"/>
         <source>Enable TXT section</source>
         <translation>Aktivera TXT-sektion</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="85"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="86"/>
         <source>Enables searching inside *.txt files</source>
         <translation>Aktiverar sökning i *.txt-filer</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="91"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="92"/>
         <source>Enable HTML section</source>
         <translation>Aktivera HTML-sektion</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="92"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="93"/>
         <source>Enables searching inside *.html, *.htm files</source>
         <translation>Aktiverar sökning i *.html-, *.htm-filer</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="98"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="99"/>
         <source>Enable SRC section</source>
         <translation>Aktivera SRC-sektion</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="99"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="100"/>
         <source>Enables searching inside *.cpp, *.c, *.py, *.sh files</source>
         <translation>Aktiverar sökning i *.cpp-, *.c-, *.py-, *.sh-filer</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="105"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="106"/>
         <source>Enable SQLITE section</source>
         <translation>Aktivera SQLITE-sektion</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="106"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="107"/>
         <source>Enables searching inside *.sqlite, *.db files</source>
         <translation>Aktiverar sökning i *.sqlite-, *.db-filer</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="112"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="113"/>
         <source>Enable NOTES section</source>
         <translation>Aktivera ANTECKNINGAR-sektion</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="113"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="114"/>
         <source>Enables searching inside Notes application database</source>
         <translation>Aktiverar sökning i Anteckningsappens databas</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="117"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="118"/>
         <source>Other</source>
         <translation>Annat</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="122"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="123"/>
         <source>Language:</source>
         <translation>Språk:</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="123"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="124"/>
         <source>Note: Change of this parameter requires restart of an application</source>
         <translation>OBS! Ändring i denna parameter kräver omstart av appen</translation>
     </message>

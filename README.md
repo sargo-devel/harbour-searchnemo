@@ -35,9 +35,11 @@ Since it is able to open local html files, it is possible to open any links (loc
 
 ### Translations
 Currently supported languages:
-English
-Polish
-German (partially)
+
+ * English
+ * Polish
+ * German (partially)
+ * Swedish (translation made by Åke Engelbrektson)
 
 ### Author's comments and plans
 I didn't find any similar application for Sailfish OS, so I decided to write one.

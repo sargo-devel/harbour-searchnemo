@@ -951,112 +951,112 @@
         <translation>default</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="48"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="49"/>
         <source>Settings</source>
         <translation>Settings</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="50"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="51"/>
         <source>Search options</source>
         <translation>Search options</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="54"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="55"/>
         <source>Search hidden files</source>
         <translation>Search hidden files</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="55"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="56"/>
         <source>Enables searching inside hidden files and hidden directories</source>
         <translation>Enables searching inside hidden files and hidden directories</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="61"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="62"/>
         <source>Show cumulative search results</source>
         <translation>Show cumulative search results</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="62"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="63"/>
         <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
         <translation>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="66"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="67"/>
         <source>Search results</source>
         <translation>Search results</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="76"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="77"/>
         <source>max. nr of results per section</source>
         <translation>max. nr of results per section</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="80"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="81"/>
         <source>Result sections</source>
         <translation>Result sections</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="84"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="85"/>
         <source>Enable TXT section</source>
         <translation>Enable TXT section</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="85"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="86"/>
         <source>Enables searching inside *.txt files</source>
         <translation>Enables searching inside *.txt files</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="91"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="92"/>
         <source>Enable HTML section</source>
         <translation>Enable HTML section</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="92"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="93"/>
         <source>Enables searching inside *.html, *.htm files</source>
         <translation>Enables searching inside *.html, *.htm files</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="98"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="99"/>
         <source>Enable SRC section</source>
         <translation>Enable SRC section</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="99"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="100"/>
         <source>Enables searching inside *.cpp, *.c, *.py, *.sh files</source>
         <translation>Enables searching inside *.cpp, *.c, *.py, *.sh files</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="105"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="106"/>
         <source>Enable SQLITE section</source>
         <translation>Enable SQLITE section</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="106"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="107"/>
         <source>Enables searching inside *.sqlite, *.db files</source>
         <translation>Enables searching inside *.sqlite, *.db files</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="112"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="113"/>
         <source>Enable NOTES section</source>
         <translation>Enable NOTES section</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="113"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="114"/>
         <source>Enables searching inside Notes application database</source>
         <translation>Enables searching inside Notes application database</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="117"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="118"/>
         <source>Other</source>
         <translation>Other</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="122"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="123"/>
         <source>Language:</source>
         <translation>Language:</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="123"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="124"/>
         <source>Note: Change of this parameter requires restart of an application</source>
         <translation>Note: Change of this parameter requires restart of an application</translation>
     </message>
