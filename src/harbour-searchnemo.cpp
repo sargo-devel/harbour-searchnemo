@@ -26,6 +26,7 @@
 #include <QSettings>
 #include <QQmlContext>
 #include <QtQuick/QQuickPaintedItem>
+#include <QStandardPaths>
 
 #include "searchengine.h"
 #include "filedata.h"
