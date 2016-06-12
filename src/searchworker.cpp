@@ -20,6 +20,8 @@
 #include "globals.h"
 #include "dbsqlite.h"
 
+// Max. directory depth when symlinks enabled
+#define MAXDIRDEPTH 20
 //count elapsed time
 //#include <ctime>
 
@@ -85,6 +87,7 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
 
     QSettings settings;
     bool hiddenSetting = settings.value("searchHiddenFiles", true).toBool();
+    bool enableSymlinks = settings.value("enableSymlinks", false).toBool();
     bool singleMatchSetting = settings.value("showOnlyFirstMatch", true).toBool();
     bool enableTxt = settings.value("Sections/enableTxtSection",true).toBool();
     bool enableHtml = settings.value("Sections/enableHtmlSection",true).toBool();
@@ -109,9 +112,15 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
         if (filename.toLower().indexOf(searchTerm) >= 0)
             emit matchFound(fullpath, searchtype, "", matchline, 0);
 
-        QFileInfo info(fullpath); // skip symlinks to prevent infinite loops
-        if (info.isSymLink())
-            continue;
+        if (enableSymlinks) {
+            //skip deep subdirs when symlinks enabled
+            if (fullpath.count("/") > MAXDIRDEPTH) continue;
+        }
+        else {
+            QFileInfo info(fullpath);
+            // skip symlinks to prevent infinite loops
+            if (info.isSymLink()) continue;
+        }
 
         QString errmsg = searchRecursively(fullpath, searchTerm);
         if (!errmsg.isEmpty())

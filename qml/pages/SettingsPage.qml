@@ -97,6 +97,13 @@ Page {
                 }
 
                 TextSwitch {
+                    id: enableSymlinks
+                    text: qsTr("Follow symbolic links")
+                    description: qsTr("When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.")
+                    onCheckedChanged: settings.write("enableSymlinks", checked.toString())
+                }
+
+                TextSwitch {
                     id: showOnlyFirstMatch
                     text: qsTr("Show cumulative search results")
                     description: qsTr("Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view")
@@ -179,6 +186,7 @@ Page {
         if (status === PageStatus.Activating) {
             startDirectory.text = settings.read("startDir","");
             searchHiddenFiles.checked = (settings.read("searchHiddenFiles",true) === "true");
+            enableSymlinks.checked = (settings.read("enableSymlinks", false) === "true");
             showOnlyFirstMatch.checked = (settings.read("showOnlyFirstMatch",true) === "true");
             maxResultsPerSection.value = settings.read("maxResultsPerSection",50);
             enableTxtSection.checked = (settings.read("Sections/enableTxtSection",true) === "true");
