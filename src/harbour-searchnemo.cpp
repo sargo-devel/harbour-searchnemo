@@ -79,7 +79,7 @@ int main(int argc, char *argv[])
     //qDebug() << "homedir=" << homedir;
     QString dirname=settings.value("startDir", "").toString();
     if (dirname.isEmpty()) dirname=homedir;
-    //QDir dir(dirname);
+    if (argc > 1) dirname = QString(argv[1]);
     QString startDir=(QDir(dirname).exists())?dirname:homedir;
     qDebug() << "startDir=" << startDir;
 
@@ -90,4 +90,3 @@ int main(int argc, char *argv[])
 
     return app->exec();
 }
-
