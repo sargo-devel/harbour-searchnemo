@@ -921,17 +921,17 @@
 <context>
     <name>SearchWorker</name>
     <message>
-        <location filename="../src/searchworker.cpp" line="39"/>
+        <location filename="../src/searchworker.cpp" line="41"/>
         <source>Search already in progress</source>
         <translation>Wyszukiwanie nadal trwa</translation>
     </message>
     <message>
-        <location filename="../src/searchworker.cpp" line="43"/>
+        <location filename="../src/searchworker.cpp" line="45"/>
         <source>Bad search parameters</source>
         <translation>Nieprawidłowe parametry wyszukiwania</translation>
     </message>
     <message>
-        <location filename="../src/searchworker.cpp" line="212"/>
+        <location filename="../src/searchworker.cpp" line="221"/>
         <source>Note nr</source>
         <translation>Notatka nr</translation>
     </message>
@@ -988,91 +988,101 @@
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="101"/>
+        <source>Follow symbolic links</source>
+        <translation>Podążaj za dowiązaniami symbolicznymi</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="102"/>
+        <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
+        <translation>Gdy włączone, maksymalna głębokość podkatalogów wynosi 20. Jest to zabezpieczenie przed nieskończonymi pętlami.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="108"/>
         <source>Show cumulative search results</source>
         <translation>Pokazuj skumulowane wyniki wyszukiwania</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="102"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="109"/>
         <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
         <translation>Pokazuje tylko pierwsze znalezienie tekstu w pliku i wyświetla liczbę wszystkich trafień w nawiasach [ ]. Wszystkie wyniki mogą być oglądane w widoku szczegółowym</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="106"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="113"/>
         <source>Search results</source>
         <translation>Wyniki wyszukiwania</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="116"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="123"/>
         <source>max. nr of results per section</source>
         <translation>Maks. liczba wyników w sekcji</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="120"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="127"/>
         <source>Result sections</source>
         <translation>Sekcje wyników</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="124"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="131"/>
         <source>Enable TXT section</source>
         <translation>Włącz sekcję TXT</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="125"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="132"/>
         <source>Enables searching inside *.txt files</source>
         <translation>Zezwala na wyszukiwanie wewnątrz plików *.txt</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="131"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="138"/>
         <source>Enable HTML section</source>
         <translation>Włącz sekcję HTML</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="132"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="139"/>
         <source>Enables searching inside *.html, *.htm files</source>
         <translation>Zezwala na wyszukiwanie wewnątrz plików *.html, *.htm</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="138"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="145"/>
         <source>Enable SRC section</source>
         <translation>Włącz sekcję SRC</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="139"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="146"/>
         <source>Enables searching inside *.cpp, *.c, *.py, *.sh files</source>
         <translation>Zezwala na wyszukiwanie wewnątrz plików *.cpp, *.c, *.py, *.sh</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="145"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="152"/>
         <source>Enable SQLITE section</source>
         <translation>Włącz sekcję SQLITE</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="146"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="153"/>
         <source>Enables searching inside *.sqlite, *.db files</source>
         <translation>Zezwala na wyszukiwanie wewnątrz plików *.sqlite, *.db</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="152"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="159"/>
         <source>Enable NOTES section</source>
         <translation>Włącz sekcję NOTES</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="153"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="160"/>
         <source>Enables searching inside Notes application database</source>
         <translation>Zezwala na wyszukiwanie wewnątrz bazy danych aplikacji Notatki</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="157"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="164"/>
         <source>Other</source>
         <translation>Inny</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="162"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="169"/>
         <source>Language:</source>
         <translation>Język:</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="163"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="170"/>
         <source>Note: Change of this parameter requires restart of an application</source>
         <translation>Uwaga: Zmiana tego parametru wymaga restartu aplikacji</translation>
     </message>

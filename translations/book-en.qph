@@ -880,4 +880,12 @@
     <source>Start directory</source>
     <target>Start directory</target>
 </phrase>
+<phrase>
+    <source>Follow symbolic links</source>
+    <target>Follow symbolic links</target>
+</phrase>
+<phrase>
+    <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
+    <target>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</target>
+</phrase>
 </QPH>

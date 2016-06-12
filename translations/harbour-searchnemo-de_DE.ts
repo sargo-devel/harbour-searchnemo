@@ -6,7 +6,7 @@
     <message>
         <location filename="../qml/pages/About.qml" line="37"/>
         <source>About</source>
-        <translation type="unfinished">über das Programm</translation>
+        <translation>Über das Programm</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="53"/>
@@ -294,7 +294,7 @@
     <message>
         <location filename="../qml/pages/FileView.qml" line="49"/>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Öffne</translation>
     </message>
     <message>
         <location filename="../qml/pages/FileView.qml" line="61"/>
@@ -357,7 +357,7 @@
     <message>
         <location filename="../qml/pages/HtmlView.qml" line="58"/>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Öffne</translation>
     </message>
     <message>
         <location filename="../qml/pages/HtmlView.qml" line="62"/>
@@ -375,7 +375,7 @@
     <message>
         <location filename="../qml/pages/NotesView.qml" line="44"/>
         <source>Text not found.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Der Text nicht gefunden.</translation>
     </message>
     <message>
         <location filename="../qml/pages/NotesView.qml" line="60"/>
@@ -872,7 +872,7 @@
     <message>
         <location filename="../qml/pages/SearchPage.qml" line="181"/>
         <source>About</source>
-        <translation>über das Programm</translation>
+        <translation>Über das Programm</translation>
     </message>
     <message>
         <location filename="../qml/pages/SearchPage.qml" line="185"/>
@@ -887,7 +887,7 @@
     <message>
         <location filename="../qml/pages/SearchPage.qml" line="363"/>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation>Öffne</translation>
     </message>
     <message>
         <location filename="../qml/pages/SearchPage.qml" line="368"/>
@@ -902,7 +902,7 @@
     <message>
         <location filename="../qml/pages/SearchPage.qml" line="510"/>
         <source>SearchNemo</source>
-        <translation type="unfinished"></translation>
+        <translation>SearchNemo</translation>
     </message>
     <message>
         <location filename="../qml/pages/SearchPage.qml" line="517"/>
@@ -918,17 +918,17 @@
 <context>
     <name>SearchWorker</name>
     <message>
-        <location filename="../src/searchworker.cpp" line="39"/>
+        <location filename="../src/searchworker.cpp" line="41"/>
         <source>Search already in progress</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/searchworker.cpp" line="43"/>
+        <location filename="../src/searchworker.cpp" line="45"/>
         <source>Bad search parameters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/searchworker.cpp" line="212"/>
+        <location filename="../src/searchworker.cpp" line="221"/>
         <source>Note nr</source>
         <translation type="unfinished"></translation>
     </message>
@@ -985,91 +985,101 @@
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="101"/>
+        <source>Follow symbolic links</source>
+        <translation>Die symbolischen Links folgen</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="102"/>
+        <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
+        <translation>Wenn es aktiviert ist, maximale Tiefe der Unterverzeichnisse ist 20. Das ist, um endlose Schleifen zu verhindern.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="108"/>
         <source>Show cumulative search results</source>
         <translation>Zeige kumulative Suchergebnisse</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="102"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="109"/>
         <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
         <translation>Zeigt nur die erste Partie der gefundenen Text in einer Datei und zeigt Anzahl aller Treffer in eckigen Klammern [ ]. Alle Ergebnisse können in der Detailansicht angezeigt werden</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="106"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="113"/>
         <source>Search results</source>
         <translation>Suchergebnisse</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="116"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="123"/>
         <source>max. nr of results per section</source>
         <translation>Max. Anzahl der Ergebnisse pro Abschnitt</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="120"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="127"/>
         <source>Result sections</source>
         <translation>Ergebnis Abschnitte</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="124"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="131"/>
         <source>Enable TXT section</source>
         <translation>Aktiviere TXT Abschnitt</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="125"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="132"/>
         <source>Enables searching inside *.txt files</source>
         <translation>Ermöglicht innen *.txt-Dateien suchen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="131"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="138"/>
         <source>Enable HTML section</source>
         <translation>Aktiviere HTML Abschnitt</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="132"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="139"/>
         <source>Enables searching inside *.html, *.htm files</source>
         <translation>Ermöglicht innen *.html-, *.htm-Dateien suchen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="138"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="145"/>
         <source>Enable SRC section</source>
         <translation>Aktiviere SRC Abschnitt</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="139"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="146"/>
         <source>Enables searching inside *.cpp, *.c, *.py, *.sh files</source>
         <translation>Ermöglicht innen *.cpp-, *.c-, *.py-, *.sh-Dateien suchen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="145"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="152"/>
         <source>Enable SQLITE section</source>
         <translation>Aktiviere SQLITE Abschnitt</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="146"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="153"/>
         <source>Enables searching inside *.sqlite, *.db files</source>
         <translation>Ermöglicht innen *.sqlite-, *.db-Dateien suchen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="152"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="159"/>
         <source>Enable NOTES section</source>
         <translation>Aktiviere NOTES Abschnitt</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="153"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="160"/>
         <source>Enables searching inside Notes application database</source>
         <translation>Ermöglicht innen Notes-Application-Datenbank durchsuchen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="157"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="164"/>
         <source>Other</source>
         <translation>Andere</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="162"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="169"/>
         <source>Language:</source>
         <translation>Sprache:</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="163"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="170"/>
         <source>Note: Change of this parameter requires restart of an application</source>
         <translation>Hinweis: Die Änderung dieses Parameters Neustart einer Anwendung erfordert</translation>
     </message>
@@ -1079,7 +1089,7 @@
     <message>
         <location filename="../qml/pages/SqlRecordView.qml" line="40"/>
         <source>Record</source>
-        <translation type="unfinished"></translation>
+        <translation>Der Rekord</translation>
     </message>
 </context>
 <context>
@@ -1087,12 +1097,12 @@
     <message>
         <location filename="../qml/pages/SqlView.qml" line="43"/>
         <source>Text not found.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der Text nicht gefunden.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SqlView.qml" line="60"/>
         <source>Open </source>
-        <translation type="unfinished"></translation>
+        <translation>Öffne </translation>
     </message>
     <message>
         <location filename="../qml/pages/SqlView.qml" line="64"/>
@@ -1131,12 +1141,12 @@
     <message>
         <location filename="../qml/pages/TxtView.qml" line="41"/>
         <source>Text not found.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Der Text nicht gefunden.</translation>
     </message>
     <message>
         <location filename="../qml/pages/TxtView.qml" line="57"/>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Öffne</translation>
     </message>
     <message>
         <location filename="../qml/pages/TxtView.qml" line="61"/>

@@ -252,4 +252,40 @@
     <source>Start directory</source>
     <target>Das Startverzeichnis</target>
 </phrase>
+<phrase>
+    <source>Follow symbolic links</source>
+    <target>Die symbolischen Links folgen</target>
+</phrase>
+<phrase>
+    <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
+    <target>Wenn es aktiviert ist, maximale Tiefe der Unterverzeichnisse ist 20. Das ist, um endlose Schleifen zu verhindern.</target>
+</phrase>
+<phrase>
+    <source>Record</source>
+    <target>Der Rekord</target>
+</phrase>
+<phrase>
+    <source>Text not found.</source>
+    <target>Der Text nicht gefunden.</target>
+</phrase>
+<phrase>
+    <source>Open </source>
+    <target>Öffne </target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Öffne</target>
+</phrase>
+<phrase>
+    <source>SearchNemo</source>
+    <target>SearchNemo</target>
+</phrase>
+<phrase>
+    <source>About</source>
+    <target>Über das Programm</target>
+</phrase>
+<phrase>
+    <source>About</source>
+    <target>Über das Programm</target>
+</phrase>
 </QPH>

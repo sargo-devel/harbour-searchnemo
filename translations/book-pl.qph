@@ -908,4 +908,12 @@
     <source>Start directory</source>
     <target>Katalog startowy</target>
 </phrase>
+<phrase>
+    <source>Follow symbolic links</source>
+    <target>Podążaj za dowiązaniami symbolicznymi</target>
+</phrase>
+<phrase>
+    <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
+    <target>Gdy włączone, maksymalna głębokość podkatalogów wynosi 20. Jest to zabezpieczenie przed nieskończonymi pętlami.</target>
+</phrase>
 </QPH>
