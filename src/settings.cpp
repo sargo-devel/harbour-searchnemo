@@ -14,6 +14,7 @@
 */
 
 #include <QSettings>
+#include <QDir>
 #include "settings.h"
 
 Settings::Settings(QObject *parent) : QObject(parent)
@@ -37,4 +38,9 @@ void Settings::write(QString key, QString value)
     if (settings.value(key) == value) return;
     settings.setValue(key, value);
     emit settingsChanged();
+}
+
+bool Settings::dirExists(QString dir)
+{
+    return QDir(dir).exists();
 }

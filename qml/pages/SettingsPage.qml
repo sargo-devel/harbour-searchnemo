@@ -16,7 +16,7 @@
 import QtQuick 2.2
 import Sailfish.Silica 1.0
 import harbour.searchnemo.Settings 1.0
-
+import "functions.js" as Functions
 
 Page {
     id: settingsPage
@@ -49,6 +49,45 @@ Page {
                 PageHeader { title: qsTr("Settings") }
 
                 SectionHeader { text: qsTr("Search options") }
+
+                Label {
+                    anchors.left: parent.left
+                    anchors.right: parent.right
+                    anchors.leftMargin: Theme.horizontalPageMargin
+                    anchors.rightMargin: Theme.horizontalPageMargin
+                    font.pixelSize: Theme.fontSizeSmall
+                    color: Theme.secondaryColor
+                    text:qsTr("The search begins in the start directory and continues in its subdirectories. If it is empty or incorrect then the home directory is the start directory.")
+                    wrapMode: Text.Wrap
+                }
+
+                TextField {
+                    id: startDirectory
+                    width: parent.width
+                    placeholderText: qsTr("Enter start directory...")
+                    label: qsTr("Start directory")
+                    horizontalAlignment: TextInput.AlignLeft
+                    labelVisible: true
+                    onTextChanged: {
+                        if ( settings.dirExists(text) && (!Functions.endsWith(text,"/") || (text.length === 1)) ) {
+                            color=Theme.highlightColor
+                            EnterKey.enabled=true
+                        }
+                        else {
+                            color=Theme.secondaryHighlightColor
+                            EnterKey.enabled=false
+                        }
+                    }
+                    onFocusChanged: text = settings.read("startDir","")
+                    //onPressAndHold: console.log("Hold")
+                    EnterKey.highlighted: true
+                    EnterKey.iconSource: "image://theme/icon-m-enter-close"
+                    EnterKey.onClicked: {
+                        appWindow.startDir=text
+                        settings.write("startDir", text)
+                        focus = false
+                    }
+                }
 
                 TextSwitch {
                     id: searchHiddenFiles
@@ -138,6 +177,7 @@ Page {
     onStatusChanged: {
         // read settings
         if (status === PageStatus.Activating) {
+            startDirectory.text = settings.read("startDir","");
             searchHiddenFiles.checked = (settings.read("searchHiddenFiles",true) === "true");
             showOnlyFirstMatch.checked = (settings.read("showOnlyFirstMatch",true) === "true");
             maxResultsPerSection.value = settings.read("maxResultsPerSection",50);

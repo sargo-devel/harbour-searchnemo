@@ -16,6 +16,7 @@ public:
     // access settings
     Q_INVOKABLE QString read(QString key, QString defaultValue = QString());
     Q_INVOKABLE void write(QString key, QString value);
+    Q_INVOKABLE bool dirExists(QString dir);
 signals:
     void settingsChanged();
 

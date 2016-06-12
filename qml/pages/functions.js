@@ -29,6 +29,16 @@ function startsWith(s1, s2)
     return start === s2;
 }
 
+// returns true if string s1 ends with string s2
+function endsWith(s1, s2)
+{
+    if (!s1 || !s2)
+        return false;
+
+    var end = s1.substring(s1.length-s2.length,s1.length);
+    return end === s2;
+}
+
 // trims a string from left and right
 function trim(s)
 {

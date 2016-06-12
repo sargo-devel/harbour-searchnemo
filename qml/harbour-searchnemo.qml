@@ -23,8 +23,9 @@ ApplicationWindow
 
     property string coverPlaceText: "Search Nemo"
     property bool newSearch: false
+    property string startDir: "/"
 
-    initialPage: Component { SearchPage { dir:"/home/nemo" } }
+    initialPage: Component { SearchPage { dir: startDir } }
     cover: Qt.resolvedUrl("cover/CoverPage.qml")
 
     allowedOrientations: Orientation.All

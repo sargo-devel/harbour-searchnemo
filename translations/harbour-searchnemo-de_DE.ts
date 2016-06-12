@@ -946,117 +946,132 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="30"/>
         <source>default</source>
-        <translation>default</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="49"/>
         <source>Settings</source>
-        <translation>Einstellungen</translation>
+        <translation type="unfinished">Einstellungen</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="51"/>
         <source>Search options</source>
-        <translation>Suchoptionen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="55"/>
-        <source>Search hidden files</source>
-        <translation>Suche versteckte Dateien durch</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="56"/>
-        <source>Enables searching inside hidden files and hidden directories</source>
-        <translation>Es ermöglicht versteckte Dateien und Verzeichnisse durchsuchen</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="62"/>
-        <source>Show cumulative search results</source>
-        <translation>Zeige kumulative Suchergebnisse</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="63"/>
-        <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
-        <translation>Es zeigt nur die erste Partie der gefundenen Text in einer Datei und zeigt Anzahl aller Treffer in eckigen Klammern [ ]. Alle Ergebnisse können in der Detailansicht angezeigt werden</translation>
+        <location filename="../qml/pages/SettingsPage.qml" line="60"/>
+        <source>The search begins in the start directory and continues in its subdirectories. If it is empty or incorrect then the home directory is the start directory.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="67"/>
-        <source>Search results</source>
-        <translation>Suchergebnisse</translation>
+        <source>Enter start directory...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="77"/>
-        <source>max. nr of results per section</source>
-        <translation>Max. Anzahl der Ergebnisse pro Abschnitt</translation>
+        <location filename="../qml/pages/SettingsPage.qml" line="68"/>
+        <source>Start directory</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="81"/>
-        <source>Result sections</source>
-        <translation>Ergebnis Abschnitte</translation>
+        <location filename="../qml/pages/SettingsPage.qml" line="94"/>
+        <source>Search hidden files</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="85"/>
-        <source>Enable TXT section</source>
-        <translation>Aktiviere TXT Abschnitt</translation>
+        <location filename="../qml/pages/SettingsPage.qml" line="95"/>
+        <source>Enables searching inside hidden files and hidden directories</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="86"/>
-        <source>Enables searching inside *.txt files</source>
-        <translation>Es ermöglicht *.txt-Dateien durchsuchen</translation>
+        <location filename="../qml/pages/SettingsPage.qml" line="101"/>
+        <source>Show cumulative search results</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="92"/>
-        <source>Enable HTML section</source>
-        <translation>Aktiviere HTML Abschnitt</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="93"/>
-        <source>Enables searching inside *.html, *.htm files</source>
-        <translation>Es ermöglicht *.html-, *.htm-Dateien durchsuchen</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="99"/>
-        <source>Enable SRC section</source>
-        <translation>Aktiviere SRC Abschnitt</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="100"/>
-        <source>Enables searching inside *.cpp, *.c, *.py, *.sh files</source>
-        <translation>Es ermöglicht *.cpp-, *.c-, *.py-, *.sh-Dateien durchsuchen</translation>
+        <location filename="../qml/pages/SettingsPage.qml" line="102"/>
+        <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="106"/>
-        <source>Enable SQLITE section</source>
-        <translation>Aktiviere SQLITE Abschnitt</translation>
+        <source>Search results</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="107"/>
-        <source>Enables searching inside *.sqlite, *.db files</source>
-        <translation>Es ermöglicht *.sqlite-, *.db-Dateien durchsuchen</translation>
+        <location filename="../qml/pages/SettingsPage.qml" line="116"/>
+        <source>max. nr of results per section</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="113"/>
-        <source>Enable NOTES section</source>
-        <translation>Aktiviere NOTIZEN Abschnitt</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="114"/>
-        <source>Enables searching inside Notes application database</source>
-        <translation>Es ermöglicht Notizen-Application-Datenbank durchsuchen</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="118"/>
-        <source>Other</source>
-        <translation>Andere</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="123"/>
-        <source>Language:</source>
-        <translation>Sprache:</translation>
+        <location filename="../qml/pages/SettingsPage.qml" line="120"/>
+        <source>Result sections</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="124"/>
+        <source>Enable TXT section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="125"/>
+        <source>Enables searching inside *.txt files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="131"/>
+        <source>Enable HTML section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="132"/>
+        <source>Enables searching inside *.html, *.htm files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="138"/>
+        <source>Enable SRC section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="139"/>
+        <source>Enables searching inside *.cpp, *.c, *.py, *.sh files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="145"/>
+        <source>Enable SQLITE section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="146"/>
+        <source>Enables searching inside *.sqlite, *.db files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="152"/>
+        <source>Enable NOTES section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="153"/>
+        <source>Enables searching inside Notes application database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="157"/>
+        <source>Other</source>
+        <translation type="unfinished">Andere</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="162"/>
+        <source>Language:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="163"/>
         <source>Note: Change of this parameter requires restart of an application</source>
-        <translation>Hinweis: Die Änderung dieses Parameters Neustart der Application erfordert</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

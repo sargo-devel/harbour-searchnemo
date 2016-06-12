@@ -75,10 +75,17 @@ int main(int argc, char *argv[])
     qmlRegisterType<ConsoleModel>("harbour.searchnemo.ConsoleModel", 1, 0, "ConsoleModel");
     qmlRegisterType<Settings>("harbour.searchnemo.Settings", 1, 0, "Settings");
 
-    //QString homdir=QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
-    //qDebug() << "homdir=" << homdir;
+    QString homedir=QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
+    //qDebug() << "homedir=" << homedir;
+    QString dirname=settings.value("startDir", "").toString();
+    if (dirname.isEmpty()) dirname=homedir;
+    //QDir dir(dirname);
+    QString startDir=(QDir(dirname).exists())?dirname:homedir;
+    qDebug() << "startDir=" << startDir;
+
     QScopedPointer<QQuickView> view(SailfishApp::createView());
     view->setSource(SailfishApp::pathTo("qml/harbour-searchnemo.qml"));
+    view->rootObject()->setProperty("startDir", startDir);
     view->show();
 
     return app->exec();
