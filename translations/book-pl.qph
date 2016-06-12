@@ -896,4 +896,16 @@
     <target>Licencja GPL v3
 </target>
 </phrase>
+<phrase>
+    <source>The search begins in the start directory and continues in its subdirectories. If it is empty or incorrect then the home directory is the start directory.</source>
+    <target>Wyszukiwanie rozpoczyna się w katalogu startowym i kontynuuje w podkatalogach. Jeśli jest pusty lub nieprawidłowy, wtedy katalog domowy jest katalogiem startowym.</target>
+</phrase>
+<phrase>
+    <source>Enter start directory...</source>
+    <target>Wpisz katalog startowy...</target>
+</phrase>
+<phrase>
+    <source>Start directory</source>
+    <target>Katalog startowy</target>
+</phrase>
 </QPH>

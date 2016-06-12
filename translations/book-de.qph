@@ -240,4 +240,16 @@
     <source>Search finished:</source>
     <target>Suche abgeschlossen:</target>
 </phrase>
+<phrase>
+    <source>The search begins in the start directory and continues in its subdirectories. If it is empty or incorrect then the home directory is the start directory.</source>
+    <target>Die Suche beginnt in Startverzeichnis und setzt in Unterverzeichnissen fort. Wenn es leer oder falsch ist, das Home-Verzeichnis wird das Startverzeichnis.</target>
+</phrase>
+<phrase>
+    <source>Enter start directory...</source>
+    <target>Das Startverzeichniseingabe...</target>
+</phrase>
+<phrase>
+    <source>Start directory</source>
+    <target>Das Startverzeichnis</target>
+</phrase>
 </QPH>

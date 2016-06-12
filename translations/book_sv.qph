@@ -1,0 +1,855 @@
+<!DOCTYPE QPH>
+<QPH language="sv_SE">
+<phrase>
+    <source>About</source>
+    <target>Om</target>
+</phrase>
+<phrase>
+    <source>version: </source>
+    <target>version: </target>
+</phrase>
+<phrase>
+    <source>Description</source>
+    <target>Beskrivning</target>
+</phrase>
+<phrase>
+    <source>This program searches for a text in files stored locally in the home directory </source>
+    <target>Det här programmet söker efter text i filer, lagrade lokalt i hemkatalogen </target>
+</phrase>
+<phrase>
+    <source>and presents results in a possibly useful form.</source>
+    <target>och presenterar resultatet i ett möjligen användbart format.</target>
+</phrase>
+<phrase>
+    <source>License</source>
+    <target>Licens</target>
+</phrase>
+<phrase>
+    <source>License: GPL v3
+</source>
+    <target>Licens: GPL v3
+</target>
+</phrase>
+<phrase>
+    <source>Source code:</source>
+    <target>Källkod:</target>
+</phrase>
+<phrase>
+    <source>Help and Tips</source>
+    <target>Hjälp och tips</target>
+</phrase>
+<phrase>
+    <source>* Tap on label wit triangle to expand/collapse section.
+</source>
+    <target>* Tryck på pilikonen för att expandera/komprimera sektionen.
+</target>
+</phrase>
+<phrase>
+    <source>* Tap on text in detailed view to enter Select&amp;Copy page.</source>
+    <target>* Tryck på texten i detaljerad vy för att nå Markera &amp; kopiera-sidan.</target>
+</phrase>
+<phrase>
+    <source>File info </source>
+    <target>Filinfo </target>
+</phrase>
+<phrase>
+    <source>Install launched</source>
+    <target>Installation startad</target>
+</phrase>
+<phrase>
+    <source>If nothing happens, then the package is probably faulty.</source>
+    <target>Paketet är troligen felaktigt, om inget händer.</target>
+</phrase>
+<phrase>
+    <source>Open successful</source>
+    <target>Korrekt öppnat</target>
+</phrase>
+<phrase>
+    <source>Sometimes the application stays in the background</source>
+    <target>Ibland stannar programmet i bakgrunden</target>
+</phrase>
+<phrase>
+    <source>Internal error</source>
+    <target>Internt fel</target>
+</phrase>
+<phrase>
+    <source>File not found</source>
+    <target>Filen hittades inte</target>
+</phrase>
+<phrase>
+    <source>No application to open the file</source>
+    <target>Inget program att öppna filen med</target>
+</phrase>
+<phrase>
+    <source>xdg-open found no preferred application</source>
+    <target>xdg-open hittade inget associerat program</target>
+</phrase>
+<phrase>
+    <source>Action failed</source>
+    <target>Åtgärden misslyckades</target>
+</phrase>
+<phrase>
+    <source>xdg-open not found</source>
+    <target>xdg-open hittades inte</target>
+</phrase>
+<phrase>
+    <source>xdg-open crash?</source>
+    <target>xdg-open-krash?</target>
+</phrase>
+<phrase>
+    <source>xdg-open error</source>
+    <target>xdg-open-fel</target>
+</phrase>
+<phrase>
+    <source>** crashed</source>
+    <target>** kraschad</target>
+</phrase>
+<phrase>
+    <source>** error: %1</source>
+    <target>** felr: %1</target>
+</phrase>
+<phrase>
+    <source>** error</source>
+    <target>** fel</target>
+</phrase>
+<phrase>
+    <source>Root (%1)</source>
+    <target>Root (%1)</target>
+</phrase>
+<phrase>
+    <source>Root</source>
+    <target>Root</target>
+</phrase>
+<phrase>
+    <source>SD Card (%1)</source>
+    <target>SD-kort (%1)</target>
+</phrase>
+<phrase>
+    <source>SD Card</source>
+    <target>SD-kort</target>
+</phrase>
+<phrase>
+    <source>Android Storage not found</source>
+    <target>Android-lagring hittades inte</target>
+</phrase>
+<phrase>
+    <source>SD Card not found</source>
+    <target>SD-kort hittades inte</target>
+</phrase>
+<phrase>
+    <source>Home</source>
+    <target>Hem</target>
+</phrase>
+<phrase>
+    <source>Android Storage</source>
+    <target>Android-lagring</target>
+</phrase>
+<phrase>
+    <source>File does not exist</source>
+    <target>Filen finns inte</target>
+</phrase>
+<phrase>
+    <source>block device</source>
+    <target>blockenhet</target>
+</phrase>
+<phrase>
+    <source>character device</source>
+    <target>teckenenhet</target>
+</phrase>
+<phrase>
+    <source>pipe</source>
+    <target>pipe</target>
+</phrase>
+<phrase>
+    <source>socket</source>
+    <target>socket</target>
+</phrase>
+<phrase>
+    <source>folder</source>
+    <target>mapp</target>
+</phrase>
+<phrase>
+    <source>unknown</source>
+    <target>okänd</target>
+</phrase>
+<phrase>
+    <source>Image Size</source>
+    <target>Bildstorlek</target>
+</phrase>
+<phrase>
+    <source>File name</source>
+    <target>Filnamn</target>
+</phrase>
+<phrase>
+    <source>Location</source>
+    <target>Plats</target>
+</phrase>
+<phrase>
+    <source>Type</source>
+    <target>Typ</target>
+</phrase>
+<phrase>
+    <source>Link to %1</source>
+    <target>Länk till %1</target>
+</phrase>
+<phrase>
+    <source>Size</source>
+    <target>Storlek</target>
+</phrase>
+<phrase>
+    <source>Permissions</source>
+    <target>Behörigheter</target>
+</phrase>
+<phrase>
+    <source>Owner</source>
+    <target>Ägare</target>
+</phrase>
+<phrase>
+    <source>Group</source>
+    <target>Grupp</target>
+</phrase>
+<phrase>
+    <source>Last modified</source>
+    <target>Senast ändrad</target>
+</phrase>
+<phrase>
+    <source>Install</source>
+    <target>Installera</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Öppna</target>
+</phrase>
+<phrase>
+    <source>File Info </source>
+    <target>Filinfo</target>
+</phrase>
+<phrase>
+    <source>Location</source>
+    <target>Plats</target>
+</phrase>
+<phrase>
+    <source>Type</source>
+    <target>Typ</target>
+</phrase>
+<phrase>
+    <source>Link to %1</source>
+    <target>Länk till %1</target>
+</phrase>
+<phrase>
+    <source>Size</source>
+    <target>Storlek</target>
+</phrase>
+<phrase>
+    <source>Permissions</source>
+    <target>Behörigheter</target>
+</phrase>
+<phrase>
+    <source>Owner</source>
+    <target>Ägare</target>
+</phrase>
+<phrase>
+    <source>Group</source>
+    <target>Grupp</target>
+</phrase>
+<phrase>
+    <source>Last modified</source>
+    <target>Senast ändrad</target>
+</phrase>
+<phrase>
+    <source>File can&apos;t be opened</source>
+    <target>Filen kan inte öppnas</target>
+</phrase>
+<phrase>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Denna filtyp kan inte öppnas.</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Öppna</target>
+</phrase>
+<phrase>
+    <source>File can&apos;t be opened</source>
+    <target>Filen kan inte öppnas</target>
+</phrase>
+<phrase>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Denna filtyp kan inte öppnas.</target>
+</phrase>
+<phrase>
+    <source>Text not found.</source>
+    <target>Texten hittades inte</target>
+</phrase>
+<phrase>
+    <source>Open Notes</source>
+    <target>Öppna Anteckningar</target>
+</phrase>
+<phrase>
+    <source>File can&apos;t be opened</source>
+    <target>Filen kan inte öppnas</target>
+</phrase>
+<phrase>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Denna filtyp kan inte öppnas.</target>
+</phrase>
+<phrase>
+    <source>Note nr</source>
+    <target>Anteckning nr.</target>
+</phrase>
+<phrase>
+    <source>%1 bytes</source>
+    <target>%1 byte</target>
+</phrase>
+<phrase>
+    <source>%1 kB</source>
+    <target>%1 kB</target>
+</phrase>
+<phrase>
+    <source>%1 MB</source>
+    <target>%1 MB</target>
+</phrase>
+<phrase>
+    <source>%1 GB</source>
+    <target>%1 GB</target>
+</phrase>
+<phrase>
+    <source>Make:%1</source>
+    <target>Tillverkare: %1</target>
+</phrase>
+<phrase>
+    <source>Model:%1</source>
+    <target>Modell: %1</target>
+</phrase>
+<phrase>
+    <source>Date/Time:%1</source>
+    <target>Datum/Tid: %1</target>
+</phrase>
+<phrase>
+    <source>Orientation:%1</source>
+    <target>Orientering: %1</target>
+</phrase>
+<phrase>
+    <source>Color/BW:Black and White</source>
+    <target>Färg/SV:Svartvitt</target>
+</phrase>
+<phrase>
+    <source>(Strobe light not detected)</source>
+    <target>(Inget blixtljus upptäckt)</target>
+</phrase>
+<phrase>
+    <source>(Strobe light detected) </source>
+    <target>(Blixtljus upptäckt) </target>
+</phrase>
+<phrase>
+    <source>(Manual)</source>
+    <target>(Manuell)</target>
+</phrase>
+<phrase>
+    <source>(Manual, return light not detected)</source>
+    <target>(Manuell, inget återsken upptäckt)</target>
+</phrase>
+<phrase>
+    <source>(Manual, return light detected)</source>
+    <target>(Manuell, återsken upptäckt)</target>
+</phrase>
+<phrase>
+    <source>(Auto)</source>
+    <target>(Auto)</target>
+</phrase>
+<phrase>
+    <source>(Auto, return light not detected)</source>
+    <target>(Auto, inget återsken upptäckt)</target>
+</phrase>
+<phrase>
+    <source>(Auto, return light detected)</source>
+    <target>(Auto, återsken upptäckt)</target>
+</phrase>
+<phrase>
+    <source>(Red eye reduction mode)</source>
+    <target>(Röda-ögon-reduktion)</target>
+</phrase>
+<phrase>
+    <source>(Red eye reduction mode return light not detected)</source>
+    <target>(Röda-ögon-reduktion, inget återsken upptäckt)</target>
+</phrase>
+<phrase>
+    <source>(Red eye reduction mode return light detected)</source>
+    <target>(Röda-ögon-reduktion, återsken upptäckt)</target>
+</phrase>
+<phrase>
+    <source>(Manual, red eye reduction mode)</source>
+    <target>(Manuell, röda-ögon-reduktion)</target>
+</phrase>
+<phrase>
+    <source>(Manual, red eye reduction mode, return light not detected)</source>
+    <target>(Manuell, röda-ögon-reduktion, inget återsken upptäckt)</target>
+</phrase>
+<phrase>
+    <source>(Red eye reduction mode, return light detected)</source>
+    <target>(Röda-ögon-reduktion, återsken upptäckt)</target>
+</phrase>
+<phrase>
+    <source>(Auto, red eye reduction mode)</source>
+    <target>(Auto, röda-ögon-reduktion)</target>
+</phrase>
+<phrase>
+    <source>(Auto, red eye reduction mode, return light not detected)</source>
+    <target>(Auto, röda-ögon-reduktion, inget återsken upptäckt)</target>
+</phrase>
+<phrase>
+    <source>(Auto, red eye reduction mode, return light detected)</source>
+    <target>(Auto, röda-ögon-reduktion, återsken upptäckt)</target>
+</phrase>
+<phrase>
+    <source>Flash:Yes</source>
+    <target>Blixt: Ja</target>
+</phrase>
+<phrase>
+    <source>Flash:No</source>
+    <target>Blixt: Nej</target>
+</phrase>
+<phrase>
+    <source>Focal Length:%1mm</source>
+    <target>Brännvidd: %1mm</target>
+</phrase>
+<phrase>
+    <source>(35mm equivalent: %1mm)</source>
+    <target>(35mm: %1mm)</target>
+</phrase>
+<phrase>
+    <source>Digital Zoom:%1x</source>
+    <target>Digital zoom: %1x</target>
+</phrase>
+<phrase>
+    <source>CCD Width:%1</source>
+    <target>CCD: %1</target>
+</phrase>
+<phrase>
+    <source>Exposure Time:%1</source>
+    <target>Exponeringstid: %1</target>
+</phrase>
+<phrase>
+    <source>(1/%1)</source>
+    <target>(1/%1)</target>
+</phrase>
+<phrase>
+    <source>Aperture:f/%1</source>
+    <target>Bländare: f/%1</target>
+</phrase>
+<phrase>
+    <source>Focus Distance:Infinite</source>
+    <target>Fokusavstånd: Oändligt</target>
+</phrase>
+<phrase>
+    <source>Focus Distance:%1m</source>
+    <target>Fokusavstånd: %1m</target>
+</phrase>
+<phrase>
+    <source>ISO Equivalent:%1</source>
+    <target>ISO: %1</target>
+</phrase>
+<phrase>
+    <source>Exposure Bias:%1</source>
+    <target>Exponeringsbias: %1</target>
+</phrase>
+<phrase>
+    <source>White Balance:Manual</source>
+    <target>Vitbalans: Manuell</target>
+</phrase>
+<phrase>
+    <source>White Balance:Auto</source>
+    <target>Vitbalans: Auto</target>
+</phrase>
+<phrase>
+    <source>Light Source:Daylight</source>
+    <target>Ljuskälla: Dagsljus</target>
+</phrase>
+<phrase>
+    <source>Light Source:Fluorescent</source>
+    <target>Ljuskälla: Fluorescerande</target>
+</phrase>
+<phrase>
+    <source>Light Source:Incandescent</source>
+    <target>Ljuskälla: Glödlampa</target>
+</phrase>
+<phrase>
+    <source>Light Source:Flash</source>
+    <target>Ljuskälla: Blixt</target>
+</phrase>
+<phrase>
+    <source>Light Source:Fine weather</source>
+    <target>Ljuskälla: Solljus</target>
+</phrase>
+<phrase>
+    <source>Light Source:Shade</source>
+    <target>Ljuskälla: Skugga</target>
+</phrase>
+<phrase>
+    <source>Metering Mode:</source>
+    <target>Mätläge:</target>
+</phrase>
+<phrase>
+    <source>Average</source>
+    <target>Medel</target>
+</phrase>
+<phrase>
+    <source>Center weighted average</source>
+    <target>Centervägt medel</target>
+</phrase>
+<phrase>
+    <source>Spot</source>
+    <target>Spot</target>
+</phrase>
+<phrase>
+    <source>Multi spot</source>
+    <target>Multispot</target>
+</phrase>
+<phrase>
+    <source>Pattern</source>
+    <target>Mönster</target>
+</phrase>
+<phrase>
+    <source>Partial</source>
+    <target>Partiell</target>
+</phrase>
+<phrase>
+    <source>Other</source>
+    <target>Annat</target>
+</phrase>
+<phrase>
+    <source>Unknown (%1)</source>
+    <target>Okänd (%1)</target>
+</phrase>
+<phrase>
+    <source>Exposure Program:</source>
+    <target>Exponeringsprogram:</target>
+</phrase>
+<phrase>
+    <source>Manual</source>
+    <target>Manuellt</target>
+</phrase>
+<phrase>
+    <source>Program (auto)</source>
+    <target>Program (auto)</target>
+</phrase>
+<phrase>
+    <source>Aperture priority (semi-auto)</source>
+    <target>Bländarautomatik (semiauto)</target>
+</phrase>
+<phrase>
+    <source>Shutter priority (semi-auto)</source>
+    <target>Slutarautomatik (semiauto)</target>
+</phrase>
+<phrase>
+    <source>Creative Program (based towards depth of field)</source>
+    <target>Kreativt program (baserat på fältdjup)</target>
+</phrase>
+<phrase>
+    <source>Action program (based towards fast shutter speed)</source>
+    <target>Rörelseprogram (baserat på hög slutarhastighet)</target>
+</phrase>
+<phrase>
+    <source>Portrait mode</source>
+    <target>Stående läge</target>
+</phrase>
+<phrase>
+    <source>Landscape mode</source>
+    <target>Liggande läge</target>
+</phrase>
+<phrase>
+    <source>Exposure Mode:Manual</source>
+    <target>Exponeringsläge: Manuell</target>
+</phrase>
+<phrase>
+    <source>Exposure Mode:Auto bracketing</source>
+    <target>Exponeringsläge: Autogaffling</target>
+</phrase>
+<phrase>
+    <source>Focus Range:</source>
+    <target>Fokusintervall:</target>
+</phrase>
+<phrase>
+    <source>Macro</source>
+    <target>Makro</target>
+</phrase>
+<phrase>
+    <source>Close</source>
+    <target>Kort avstånd</target>
+</phrase>
+<phrase>
+    <source>Distant</source>
+    <target>Långt avstånd</target>
+</phrase>
+<phrase>
+    <source>JPEG Process:Unknown</source>
+    <target>JPEG-process: Okänd</target>
+</phrase>
+<phrase>
+    <source>JPEG Process:%1</source>
+    <target>JPEG-process: %1</target>
+</phrase>
+<phrase>
+    <source>Latitude:%1</source>
+    <target>Latitud: %1</target>
+</phrase>
+<phrase>
+    <source>Longitude:%1</source>
+    <target>Longitud: %1</target>
+</phrase>
+<phrase>
+    <source>Altitude:%1</source>
+    <target>Altitud: %1</target>
+</phrase>
+<phrase>
+    <source>JPEG Quality:%1</source>
+    <target>JPEG-kvalitet: %1</target>
+</phrase>
+<phrase>
+    <source>Comment:</source>
+    <target>Kommentar:</target>
+</phrase>
+<phrase>
+    <source>Found text:</source>
+    <target>Hittad text:</target>
+</phrase>
+<phrase>
+    <source>Notes</source>
+    <target>Anteckningar</target>
+</phrase>
+<phrase>
+    <source>TXT files content</source>
+    <target>TXT filinnehåll</target>
+</phrase>
+<phrase>
+    <source>HTML files content</source>
+    <target>HTML filinnehåll</target>
+</phrase>
+<phrase>
+    <source>PDF files content</source>
+    <target>PDF filinnehåll</target>
+</phrase>
+<phrase>
+    <source>SRC files content</source>
+    <target>SRC filinnehåll</target>
+</phrase>
+<phrase>
+    <source>SQLITE files content</source>
+    <target>SQLITE filinnehåll</target>
+</phrase>
+<phrase>
+    <source>Filenames</source>
+    <target>Filnamn</target>
+</phrase>
+<phrase>
+    <source>Directory names</source>
+    <target>Mappnamn</target>
+</phrase>
+<phrase>
+    <source>Other</source>
+    <target>Annat</target>
+</phrase>
+<phrase>
+    <source>Search finished:</source>
+    <target>Sökning avslutad:</target>
+</phrase>
+<phrase>
+    <source>%n hit(s)</source>
+    <target>%n träff@%n träffar</target>
+</phrase>
+<phrase>
+    <source>Searching</source>
+    <target>Söker</target>
+</phrase>
+<phrase>
+    <source>About</source>
+    <target>Om</target>
+</phrase>
+<phrase>
+    <source>Settings</source>
+    <target>Inställningar</target>
+</phrase>
+<phrase>
+    <source>Search %1</source>
+    <target>Sök i %1</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Öppna</target>
+</phrase>
+<phrase>
+    <source>Remove from search results</source>
+    <target>Ta bort från sökresultat</target>
+</phrase>
+<phrase>
+    <source>Removing from search results</source>
+    <target>Tar bort från sökresultat</target>
+</phrase>
+<phrase>
+    <source>SearchNemo</source>
+    <target>SearchNemo</target>
+</phrase>
+<phrase>
+    <source>File can&apos;t be opened</source>
+    <target>Filen kan inte öppnas</target>
+</phrase>
+<phrase>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Denna filtyp kan inte öppnas.</target>
+</phrase>
+<phrase>
+    <source>Search already in progress</source>
+    <target>Sökning pågår redan</target>
+</phrase>
+<phrase>
+    <source>Bad search parameters</source>
+    <target>Felaktiga sökparametrar</target>
+</phrase>
+<phrase>
+    <source>Note nr</source>
+    <target>Anteckning nr.</target>
+</phrase>
+<phrase>
+    <source>Select and Copy</source>
+    <target>Markera och kopiera</target>
+</phrase>
+<phrase>
+    <source>default</source>
+    <target>standard</target>
+</phrase>
+<phrase>
+    <source>Settings</source>
+    <target>Inställningar</target>
+</phrase>
+<phrase>
+    <source>Search options</source>
+    <target>Sökalternativ</target>
+</phrase>
+<phrase>
+    <source>Search hidden files</source>
+    <target>Sök i dolda filer</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside hidden files and hidden directories</source>
+    <target>Aktiverar sökning i dolda filer och mappar</target>
+</phrase>
+<phrase>
+    <source>Show cumulative search results</source>
+    <target>Visa kumulativa sökresultat</target>
+</phrase>
+<phrase>
+    <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
+    <target>Visar endast första träffen på hittad text i en fil, och antalet träffar i hakparantes [ ]. Alla resultat kan visas i detaljerad vy.</target>
+</phrase>
+<phrase>
+    <source>Search results</source>
+    <target>Sökresultat</target>
+</phrase>
+<phrase>
+    <source>max. nr of results per section</source>
+    <target>max antal resultat per sektion</target>
+</phrase>
+<phrase>
+    <source>Result sections</source>
+    <target>Resultatsektioner</target>
+</phrase>
+<phrase>
+    <source>Enable TXT section</source>
+    <target>Aktivera TXT-sektion</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.txt files</source>
+    <target>Aktiverar sökning i *.txt-filer</target>
+</phrase>
+<phrase>
+    <source>Enable HTML section</source>
+    <target>Aktivera HTML-sektion</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.html, *.htm files</source>
+    <target>Aktiverar sökning i *.html-, *.htm-filer</target>
+</phrase>
+<phrase>
+    <source>Enable SRC section</source>
+    <target>Aktivera SRC-sektion</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.cpp, *.c, *.py, *.sh files</source>
+    <target>Aktiverar sökning i *.cpp-, *.c-, *.py-, *.sh-filer</target>
+</phrase>
+<phrase>
+    <source>Enable SQLITE section</source>
+    <target>Aktivera SQLITE-sektion</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.sqlite, *.db files</source>
+    <target>Aktiverar sökning i *.sqlite-, *.db-filer</target>
+</phrase>
+<phrase>
+    <source>Enable NOTES section</source>
+    <target>Aktivera ANTECKNINGAR-sektion</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside Notes application database</source>
+    <target>Aktiverar sökning i Anteckningsappens databas</target>
+</phrase>
+<phrase>
+    <source>Other</source>
+    <target>Annat</target>
+</phrase>
+<phrase>
+    <source>Language:</source>
+    <target>Språk:</target>
+</phrase>
+<phrase>
+    <source>Note: Change of this parameter requires restart of an application</source>
+    <target>OBS! Ändring i denna parameter kräver omstart av appen</target>
+</phrase>
+<phrase>
+    <source>Record</source>
+    <target>Post</target>
+</phrase>
+<phrase>
+    <source>Text not found.</source>
+    <target>Ingen text hittad.</target>
+</phrase>
+<phrase>
+    <source>Open </source>
+    <target>Öppna</target>
+</phrase>
+<phrase>
+    <source>File can&apos;t be opened</source>
+    <target>Filen kan inte öppnas</target>
+</phrase>
+<phrase>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Denna filtyp kan inte öppnas.</target>
+</phrase>
+<phrase>
+    <source>Show complete record</source>
+    <target>Visa fullständig post</target>
+</phrase>
+<phrase>
+    <source>db:table:column:row</source>
+    <target>db:tabell:kolumn:rad</target>
+</phrase>
+<phrase>
+    <source>&lt;b&gt;[%1/%n hit(s)]&lt;/b&gt;&lt;br&gt;</source>
+    <target>&lt;b&gt;[%1/%n träff]&lt;/b&gt;&lt;br&gt;@&lt;b&gt;[%1/%n träffar]&lt;/b&gt;&lt;br&gt;</target>
+</phrase>
+<phrase>
+    <source>Text not found.</source>
+    <target>Ingen text hittad.</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Öppna</target>
+</phrase>
+<phrase>
+    <source>File can&apos;t be opened</source>
+    <target>Filen kan inte öppnas</target>
+</phrase>
+<phrase>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Denna filtyp kan inte öppnas.</target>
+</phrase>
+</QPH>

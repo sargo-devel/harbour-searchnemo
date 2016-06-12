@@ -868,4 +868,16 @@
     <source>* Tap on text in detailed view to enter Select&amp;Copy page.</source>
     <target>* Tap on text in detailed view to enter Select&amp;Copy page.</target>
 </phrase>
+<phrase>
+    <source>The search begins in the start directory and continues in its subdirectories. If it is empty or incorrect then the home directory is the start directory.</source>
+    <target>The search begins in the start directory and continues in its subdirectories. If it is empty or incorrect then the home directory is the start directory.</target>
+</phrase>
+<phrase>
+    <source>Enter start directory...</source>
+    <target>Enter start directory...</target>
+</phrase>
+<phrase>
+    <source>Start directory</source>
+    <target>Start directory</target>
+</phrase>
 </QPH>
