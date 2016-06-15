@@ -15,7 +15,7 @@
 
 import QtQuick 2.2
 import Sailfish.Silica 1.0
-
+import "../pages/functions.js" as Functions
 
 CoverBackground {
         id: cover
@@ -55,6 +55,7 @@ CoverBackground {
                 onTriggered: {
                     appWindow.newSearch = !appWindow.newSearch
                     appWindow.activate()
+                    Functions.goToRoot(PageStackAction.Animated)
                 }
             }
 

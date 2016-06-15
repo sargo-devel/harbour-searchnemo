@@ -488,13 +488,6 @@ Page {
 
     }
 
-
-    // update cover
-    onStatusChanged: {
-        if (status === PageStatus.Activating)
-            clearCover();
-    }
-
     NotificationPanel {
         id: notificationPanel
         page: page
