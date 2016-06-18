@@ -190,16 +190,16 @@ Page {
         header: Item {
             id:fileListHeader
             width: parent.width
-            height: 110
+            height: Theme.itemSizeLarge
 
             SearchField {
                 id: searchField
                 anchors.left: parent.left
                 anchors.right: cancelSearchButton.left
-                anchors.top: parent.top
-                anchors.topMargin: 6
+                //anchors.verticalCenter: parent.verticalCenter
+                y: Theme.paddingSmall
                 placeholderText: qsTr("Search %1").arg(Functions.formatPathForSearch(page.dir))
-                inputMethodHints: Qt.ImhNoAutoUppercase
+                inputMethodHints: Qt.ImhNoAutoUppercase | Qt.ImhNoPredictiveText
                 //text: ""
                 property bool appNewSearch: appWindow.newSearch
 
@@ -207,55 +207,50 @@ Page {
                 Component.onCompleted: forceActiveFocus()
                 // return key on virtual keyboard starts or restarts search
                 EnterKey.enabled: true
+                EnterKey.iconSource: "image://theme/icon-m-enter-accept"
                 EnterKey.onClicked: {
                     notificationPanel.hide();
-                    listModel.update(searchField.text);
-                    foundText.visible = true;
                     searchField.focus = false;
+                    foundText.visible = true;
+                    listModel.update(searchField.text);
                 }
                 // get focus on new search pressed on cover
                 onAppNewSearchChanged: {
                     //listModel.update("")
                     text=""
                     forceActiveFocus()
-
+                }
+                // clear search results on press&hold
+                onPressAndHold: {
+                    if (text === "")
+                        listModel.update("")
                 }
 
             }
             // our own "IconButton" to make the mouse area large and easier to tap
-            Rectangle {
+            IconButton {
                 id: cancelSearchButton
                 anchors.right: parent.right
                 anchors.top: searchField.top
                 width: Theme.iconSizeMedium+Theme.paddingLarge
                 height: searchField.height
-                color: cancelSearchMouseArea.pressed ? Theme.secondaryHighlightColor : "transparent"
-                MouseArea {
-                    id: cancelSearchMouseArea
-                    anchors.fill: parent
-                    onClicked: {
+                onClicked: {
                         if (!searchEngine.running) {
-                            listModel.update(searchField.text);
+                            notificationPanel.hide();
                             foundText.visible = true;
+                            searchField.focus = false;
+                            listModel.update(searchField.text);
                         } else {
                             searchEngine.cancel()
                         }
                     }
-                    enabled: true
-                    Image {
-                        id: cancelSearchButtonImage
-                        anchors.verticalCenter: parent.verticalCenter
-                        anchors.right: parent.right
-                        anchors.rightMargin: Theme.paddingLarge
-                        source: searchEngine.running ? "image://theme/icon-m-clear" :
-                                                       "image://theme/icon-m-right"
-                    }
-                    BusyIndicator {
-                        id: searchBusy
-                        anchors.centerIn: cancelSearchButtonImage
-                        running: searchEngine.running
-                        size: BusyIndicatorSize.Small
-                    }
+                icon.source: searchEngine.running ? "image://theme/icon-m-clear" :
+                                                    "image://theme/icon-m-right"
+                BusyIndicator {
+                    id: searchBusy
+                    anchors.centerIn: cancelSearchButton
+                    running: searchEngine.running
+                    size: BusyIndicatorSize.Small
                 }
             }
             Label {
@@ -264,18 +259,18 @@ Page {
                 anchors.left: parent.left
                 anchors.leftMargin: searchField.textLeftMargin
                 anchors.top: searchField.bottom
-                anchors.topMargin: -26
+                anchors.topMargin: -Theme.paddingLarge
                 text: qsTr("%n hit(s)","",backListModel.count)
                 font.pixelSize: Theme.fontSizeTiny
                 color: Theme.secondaryColor
             }
             Label {
                 anchors.left: parent.left
-                anchors.leftMargin: 240
+                anchors.leftMargin: 3*Theme.itemSizeSmall
                 anchors.right: parent.right
                 anchors.rightMargin: Theme.paddingLarge
                 anchors.top: searchField.bottom
-                anchors.topMargin: -26
+                anchors.topMargin: -Theme.paddingLarge
                 text: page.currentDirectory
                 font.pixelSize: Theme.fontSizeTiny
                 color: Theme.secondaryColor
@@ -289,7 +284,6 @@ Page {
             menu: contextMenu
             width: ListView.view.width
             contentHeight: isVisible ? listLabel.height+listAbsoluteDir.height + Theme.paddingSmall : 0
-
             states: [
                 State {
                     name: "closed"; when: !isVisible
