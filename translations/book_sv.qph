@@ -852,4 +852,28 @@
     <source>This type of file can&apos;t be opened.</source>
     <target>Denna filtyp kan inte öppnas.</target>
 </phrase>
+<phrase>
+    <source>The search begins in the start directory and continues in its subdirectories. If it is empty or incorrect then the home directory is the start directory.</source>
+    <target>Sökningen börjar i startmappen och fortsätter i dess undermappar. Om den lämnas tom eller är felaktig, räknas hemkatalogen som startmapp.</target>
+</phrase>
+<phrase>
+    <source>Enter start directory...</source>
+    <target>Ange startmapp...</target>
+</phrase>
+<phrase>
+    <source>Start directory</source>
+    <target>Startmapp</target>
+</phrase>
+<phrase>
+    <source>Follow symbolic links</source>
+    <target>Följ symboliska länkar</target>
+</phrase>
+<phrase>
+    <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
+    <target>Vid aktivering är det maximala undermappsdjupet, 20. Detta för att förhindra oändliga loopar.</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
+    <target>Aktiverar sökning i *.cpp-, *.c-, *.h-, *.py-, *.sh-, *.qml-, *.js-filer</target>
+</phrase>
 </QPH>

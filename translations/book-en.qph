@@ -888,4 +888,8 @@
     <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
     <target>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</target>
 </phrase>
+<phrase>
+    <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
+    <target>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</target>
+</phrase>
 </QPH>

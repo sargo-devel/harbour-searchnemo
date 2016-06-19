@@ -288,4 +288,8 @@
     <source>About</source>
     <target>Über das Programm</target>
 </phrase>
+<phrase>
+    <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
+    <target>Ermöglicht innen *.cpp-, *.c-, *.h-, *.py-, *.sh-, *.qml-, *.js-Dateien suchen</target>
+</phrase>
 </QPH>

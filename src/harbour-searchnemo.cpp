@@ -63,6 +63,8 @@ int main(int argc, char *argv[])
     qDebug() << "get locale=" <<locale;
     if (locale == "default") locale = QLocale::system().name();
     qDebug() << "set locale=" <<locale;
+    qDebug() << "lang=" << QLocale::languageToString(QLocale::system().language());
+    qDebug() << "country=" << QLocale::countryToString(QLocale::system().country());
     if(!translator.load("harbour-searchnemo-" + locale, SailfishApp::pathTo("translations").toLocalFile())) {
         qDebug() << "Couldn't load translation for locale "<< locale << " from " << SailfishApp::pathTo("translations").toLocalFile();
     }

@@ -858,8 +858,8 @@
     </message>
     <message numerus="yes">
         <location filename="../qml/pages/SearchPage.qml" line="94"/>
-        <location filename="../qml/pages/SearchPage.qml" line="268"/>
-        <location filename="../qml/pages/SearchPage.qml" line="413"/>
+        <location filename="../qml/pages/SearchPage.qml" line="263"/>
+        <location filename="../qml/pages/SearchPage.qml" line="407"/>
         <source>%n hit(s)</source>
         <translation>
             <numerusform>%n trafienie</numerusform>
@@ -888,32 +888,32 @@
         <translation>Przeszukaj %1</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchPage.qml" line="376"/>
-        <source>Removing from search results</source>
-        <translation>Usuwanie z wyników wyszukiwania</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SearchPage.qml" line="363"/>
+        <location filename="../qml/pages/SearchPage.qml" line="357"/>
         <source>Open</source>
         <translation>Otwórz</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchPage.qml" line="368"/>
+        <location filename="../qml/pages/SearchPage.qml" line="362"/>
         <source>Remove from search results</source>
         <translation>Usuń z wyników wyszukiwania</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchPage.qml" line="510"/>
+        <location filename="../qml/pages/SearchPage.qml" line="370"/>
+        <source>Removing from search results</source>
+        <translation>Usuwanie z wyników wyszukiwania</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SearchPage.qml" line="497"/>
         <source>SearchNemo</source>
         <translation>SearchNemo</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchPage.qml" line="517"/>
+        <location filename="../qml/pages/SearchPage.qml" line="504"/>
         <source>File can&apos;t be opened</source>
         <translation>Plik nie może być otwarty</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchPage.qml" line="518"/>
+        <location filename="../qml/pages/SearchPage.qml" line="505"/>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Ten typ pliku nie może być otwarty.</translation>
     </message>
@@ -1048,8 +1048,8 @@
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="146"/>
-        <source>Enables searching inside *.cpp, *.c, *.py, *.sh files</source>
-        <translation>Zezwala na wyszukiwanie wewnątrz plików *.cpp, *.c, *.py, *.sh</translation>
+        <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
+        <translation>Zezwala na wyszukiwanie wewnątrz plików *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="152"/>
@@ -1134,7 +1134,7 @@
         <location filename="../src/txtfileview.cpp" line="119"/>
         <source>&lt;b&gt;[%1/%n hit(s)]&lt;/b&gt;&lt;br&gt;</source>
         <translation>
-            <numerusform>&lt;b&gt;[%1/%n trafienia]&lt;/b&gt;&lt;br&gt;</numerusform>
+            <numerusform>&lt;b&gt;[%1/%n trafienie]&lt;/b&gt;&lt;br&gt;</numerusform>
             <numerusform>&lt;b&gt;[%1/%n trafień]&lt;/b&gt;&lt;br&gt;</numerusform>
             <numerusform>&lt;b&gt;[%1/%n trafień]&lt;/b&gt;&lt;br&gt;</numerusform>
         </translation>

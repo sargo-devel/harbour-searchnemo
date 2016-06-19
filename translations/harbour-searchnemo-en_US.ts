@@ -858,8 +858,8 @@
     </message>
     <message numerus="yes">
         <location filename="../qml/pages/SearchPage.qml" line="94"/>
-        <location filename="../qml/pages/SearchPage.qml" line="268"/>
-        <location filename="../qml/pages/SearchPage.qml" line="413"/>
+        <location filename="../qml/pages/SearchPage.qml" line="263"/>
+        <location filename="../qml/pages/SearchPage.qml" line="407"/>
         <source>%n hit(s)</source>
         <translation>
             <numerusform>%n hit</numerusform>
@@ -887,32 +887,32 @@
         <translation>Search %1</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchPage.qml" line="376"/>
-        <source>Removing from search results</source>
-        <translation>Removing from search results</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SearchPage.qml" line="363"/>
+        <location filename="../qml/pages/SearchPage.qml" line="357"/>
         <source>Open</source>
         <translation>Open</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchPage.qml" line="368"/>
+        <location filename="../qml/pages/SearchPage.qml" line="362"/>
         <source>Remove from search results</source>
         <translation>Remove from search results</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchPage.qml" line="510"/>
+        <location filename="../qml/pages/SearchPage.qml" line="370"/>
+        <source>Removing from search results</source>
+        <translation>Removing from search results</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SearchPage.qml" line="497"/>
         <source>SearchNemo</source>
         <translation>SearchNemo</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchPage.qml" line="517"/>
+        <location filename="../qml/pages/SearchPage.qml" line="504"/>
         <source>File can&apos;t be opened</source>
         <translation>File can&apos;t be opened</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchPage.qml" line="518"/>
+        <location filename="../qml/pages/SearchPage.qml" line="505"/>
         <source>This type of file can&apos;t be opened.</source>
         <translation>This type of file can&apos;t be opened.</translation>
     </message>
@@ -1047,8 +1047,8 @@
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="146"/>
-        <source>Enables searching inside *.cpp, *.c, *.py, *.sh files</source>
-        <translation>Enables searching inside *.cpp, *.c, *.py, *.sh files</translation>
+        <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
+        <translation>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="152"/>

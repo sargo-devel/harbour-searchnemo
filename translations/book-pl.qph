@@ -916,4 +916,8 @@
     <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
     <target>Gdy włączone, maksymalna głębokość podkatalogów wynosi 20. Jest to zabezpieczenie przed nieskończonymi pętlami.</target>
 </phrase>
+<phrase>
+    <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
+    <target>Zezwala na wyszukiwanie wewnątrz plików *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js</target>
+</phrase>
 </QPH>

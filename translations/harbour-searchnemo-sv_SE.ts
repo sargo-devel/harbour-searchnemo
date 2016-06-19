@@ -299,9 +299,14 @@
         <translation>Öppna</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FileView.qml" line="61"/>
-        <source>File Info </source>
-        <translation>Filinfo</translation>
+        <location filename="../qml/pages/FileView.qml" line="236"/>
+        <source>File can&apos;t be opened</source>
+        <translation>Filen kan inte öppnas</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FileView.qml" line="237"/>
+        <source>This type of file can&apos;t be opened.</source>
+        <translation>Denna filtyp kan inte öppnas.</translation>
     </message>
     <message>
         <location filename="../qml/pages/FileView.qml" line="163"/>
@@ -344,14 +349,9 @@
         <translation>Senast ändrad</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FileView.qml" line="236"/>
-        <source>File can&apos;t be opened</source>
-        <translation>Filen kan inte öppnas</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FileView.qml" line="237"/>
-        <source>This type of file can&apos;t be opened.</source>
-        <translation>Denna filtyp kan inte öppnas.</translation>
+        <location filename="../qml/pages/FileView.qml" line="61"/>
+        <source>File Info </source>
+        <translation>Filinfo</translation>
     </message>
 </context>
 <context>
@@ -858,8 +858,8 @@
     </message>
     <message numerus="yes">
         <location filename="../qml/pages/SearchPage.qml" line="94"/>
-        <location filename="../qml/pages/SearchPage.qml" line="268"/>
-        <location filename="../qml/pages/SearchPage.qml" line="413"/>
+        <location filename="../qml/pages/SearchPage.qml" line="263"/>
+        <location filename="../qml/pages/SearchPage.qml" line="407"/>
         <source>%n hit(s)</source>
         <translation>
             <numerusform>%n träff</numerusform>
@@ -887,32 +887,32 @@
         <translation>Sök i %1</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchPage.qml" line="363"/>
-        <source>Open</source>
-        <translation>Öppna</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SearchPage.qml" line="368"/>
-        <source>Remove from search results</source>
-        <translation>Ta bort från sökresultat</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SearchPage.qml" line="376"/>
+        <location filename="../qml/pages/SearchPage.qml" line="370"/>
         <source>Removing from search results</source>
         <translation>Tar bort från sökresultat</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchPage.qml" line="510"/>
+        <location filename="../qml/pages/SearchPage.qml" line="357"/>
+        <source>Open</source>
+        <translation>Öppna</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SearchPage.qml" line="362"/>
+        <source>Remove from search results</source>
+        <translation>Ta bort från sökresultat</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SearchPage.qml" line="497"/>
         <source>SearchNemo</source>
         <translation>SearchNemo</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchPage.qml" line="517"/>
+        <location filename="../qml/pages/SearchPage.qml" line="504"/>
         <source>File can&apos;t be opened</source>
         <translation>Filen kan inte öppnas</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchPage.qml" line="518"/>
+        <location filename="../qml/pages/SearchPage.qml" line="505"/>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Denna filtyp kan inte öppnas.</translation>
     </message>
@@ -963,17 +963,17 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="60"/>
         <source>The search begins in the start directory and continues in its subdirectories. If it is empty or incorrect then the home directory is the start directory.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sökningen börjar i startmappen och fortsätter i dess undermappar. Om den lämnas tom eller är felaktig, räknas hemkatalogen som startmapp.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="67"/>
         <source>Enter start directory...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange startmapp...</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="68"/>
         <source>Start directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Startmapp</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="94"/>
@@ -988,12 +988,12 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="101"/>
         <source>Follow symbolic links</source>
-        <translation type="unfinished"></translation>
+        <translation>Följ symboliska länkar</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="102"/>
         <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vid aktivering är det maximala undermappsdjupet, 20. Detta för att förhindra oändliga loopar.</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="108"/>
@@ -1047,8 +1047,8 @@
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="146"/>
-        <source>Enables searching inside *.cpp, *.c, *.py, *.sh files</source>
-        <translation>Aktiverar sökning i *.cpp-, *.c-, *.py-, *.sh-filer</translation>
+        <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
+        <translation>Aktiverar sökning i *.cpp-, *.c-, *.h-, *.py-, *.sh-, *.qml-, *.js-filer</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="152"/>
@@ -1073,7 +1073,7 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="164"/>
         <source>Other</source>
-        <translation type="unfinished">Annat</translation>
+        <translation>Annat</translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="169"/>
@@ -1102,11 +1102,6 @@
         <translation>Ingen text hittad.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SqlView.qml" line="60"/>
-        <source>Open </source>
-        <translation>Öppna</translation>
-    </message>
-    <message>
         <location filename="../qml/pages/SqlView.qml" line="64"/>
         <source>File can&apos;t be opened</source>
         <translation>Filen kan inte öppnas</translation>
@@ -1115,6 +1110,11 @@
         <location filename="../qml/pages/SqlView.qml" line="65"/>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Denna filtyp kan inte öppnas.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SqlView.qml" line="60"/>
+        <source>Open </source>
+        <translation>Öppna</translation>
     </message>
     <message>
         <location filename="../qml/pages/SqlView.qml" line="72"/>
