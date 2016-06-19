@@ -143,7 +143,7 @@ Page {
                 TextSwitch {
                     id: enableSrcSection
                     text: qsTr("Enable SRC section")
-                    description: qsTr("Enables searching inside *.cpp, *.c, *.py, *.sh files")
+                    description: qsTr("Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files")
                     onCheckedChanged: settings.write("Sections/enableSrcSection", checked.toString())
                 }
 

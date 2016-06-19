@@ -151,7 +151,7 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
     if (enableHtml)
         if ( addSearchTXT("HTML", searchTerm, dir, hidden, singleMatchSetting) == QString() ) return QString();
 
-    // search inside filtered files (*.cpp, *.c, *.py, *.sh)
+    // search inside filtered files (*.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js)
     if (enableSrc)
         if ( addSearchTXT("SRC", searchTerm, dir, hidden, singleMatchSetting) == QString() ) return QString();
 
@@ -179,7 +179,7 @@ QString SearchWorker::addSearchTXT(QString searchtype, QString searchTerm, QDir 
     if (searchtype == "HTML") filetypefilters << "*.html" << "*.htm";
     if (searchtype == "TXT") filetypefilters << "*.txt";
     //if (searchtype == "PDF") filetypefilters << "*.pdf";
-    if (searchtype == "SRC") filetypefilters << "*.cpp" << "*.c" << "*.py" << "*.sh";
+    if (searchtype == "SRC") filetypefilters << "*.cpp" << "*.c" << "*.h" << "*.py" << "*.sh" << "*.qml" << "*.js";
 
     QStringList names = dir.entryList(filetypefilters, QDir::Files | hidden);
     for (int i = 0 ; i < names.count() ; ++i) {
