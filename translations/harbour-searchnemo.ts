@@ -20,7 +20,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>This program searches for a text in files stored locally in the home directory </source>
+        <source>This program searches for a text in files stored locally on the device </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -45,7 +45,22 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+11"/>
+        <source>Translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Special thanks for translators:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Swedish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Help and Tips</source>
         <translation type="unfinished"></translation>
     </message>
@@ -57,7 +72,13 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>* Tap on text in detailed view to enter Select&amp;Copy page.</source>
+        <source>* Tap on text in detailed view to enter Select&amp;Copy page.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>* Press and hold on empty search field to clear search results.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

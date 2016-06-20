@@ -920,4 +920,40 @@
     <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
     <target>Zezwala na wyszukiwanie wewnątrz plików *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js</target>
 </phrase>
+<phrase>
+    <source>This program searches for a text in files stored locally on the device </source>
+    <target>Program wyszukuje tekst w plikach przechowywanych lokalnie w urządzeniu </target>
+</phrase>
+<phrase>
+    <source>Translations</source>
+    <target>Tłumaczenia</target>
+</phrase>
+<phrase>
+    <source>* Press and hold on empty search field to clear search results.</source>
+    <target>* Naciśnij i przytrzymaj na pustym polu wyszukiwania aby wyczyścić wyniki wyszukiwania.</target>
+</phrase>
+<phrase>
+    <source>Special thanks for translators:
+</source>
+    <target>Specjalne podziekowania dla tłumaczy:
+</target>
+</phrase>
+<phrase>
+    <source>  Swedish - Åke Engelbrektson</source>
+    <target>  Szwedzki - Åke Engelbrektson</target>
+</phrase>
+<phrase>
+    <source>Special thanks for translators:</source>
+    <target>Specjalne podziękowania dla tłumaczy:</target>
+</phrase>
+<phrase>
+    <source>Swedish</source>
+    <target>Szwedzki</target>
+</phrase>
+<phrase>
+    <source>* Tap on text in detailed view to enter Select&amp;Copy page.
+</source>
+    <target>* Dotknij tekst w widoku szczegółowym by wejść na stronę Wybierz&amp;Kopiuj.
+</target>
+</phrase>
 </QPH>

@@ -16,8 +16,8 @@
         <translation>Beskrivning</translation>
     </message>
     <message>
-        <source>This program searches for a text in files stored locally in the home directory </source>
-        <translation>Det här programmet söker efter text i filer, lagrade lokalt i hemkatalogen </translation>
+        <source>This program searches for a text in files stored locally on the device </source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>and presents results in a possibly useful form.</source>
@@ -38,6 +38,18 @@
         <translation>Källkod:</translation>
     </message>
     <message>
+        <source>Translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Special thanks for translators:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Swedish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Help and Tips</source>
         <translation>Hjälp och tips</translation>
     </message>
@@ -48,8 +60,14 @@
 </translation>
     </message>
     <message>
-        <source>* Tap on text in detailed view to enter Select&amp;Copy page.</source>
-        <translation>* Tryck på texten i detaljerad vy för att nå Markera &amp; kopiera-sidan.</translation>
+        <source>* Tap on text in detailed view to enter Select&amp;Copy page.
+</source>
+        <translation>* Tryck på texten i detaljerad vy för att nå Markera &amp; kopiera-sidan.
+</translation>
+    </message>
+    <message>
+        <source>* Press and hold on empty search field to clear search results.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

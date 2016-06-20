@@ -50,7 +50,7 @@ Page {
                 font.pixelSize: Theme.fontSizeSmall
                 //color: Theme.highlightColor
                 horizontalAlignment: Text.Center
-                text: "SearchNemo, " + qsTr("version: ") + "0.10"
+                text: "SearchNemo, " + qsTr("version: ") + "0.20"
             }
 
             SectionHeader { text: qsTr("Description") }
@@ -62,7 +62,7 @@ Page {
                 //textFormat: Text.StyledText
                 font.pixelSize: Theme.fontSizeSmall
                 wrapMode: Text.Wrap
-                text: qsTr("This program searches for a text in files stored locally in the home directory ")
+                text: qsTr("This program searches for a text in files stored locally on the device ")
                       + qsTr("and presents results in a possibly useful form.")
             }
 
@@ -80,7 +80,20 @@ Page {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 font.pixelSize: Theme.fontSizeTiny
-                text: "https://github.com/sargo-devel/harbour-searchnemo"
+                textFormat: Text.StyledText
+                linkColor: Theme.highlightColor
+                text: "<a href=\"https://github.com/sargo-devel/harbour-searchnemo\">https://github.com/sargo-devel/harbour-searchnemo</a>"
+                onLinkActivated: { console.log(link);Qt.openUrlExternally(link) }
+            }
+            SectionHeader { text: qsTr("Translations") }
+
+            Label {
+                anchors.left: parent.left
+                anchors.right: parent.right
+                font.pixelSize: Theme.fontSizeSmall
+                wrapMode: Text.Wrap
+                text: qsTr("Special thanks for translators:") + "\n  "
+                      + "Åke Engelbrektson - " + qsTr("Swedish")
             }
 
             SectionHeader { text: qsTr("Help and Tips") }
@@ -91,7 +104,8 @@ Page {
                 font.pixelSize: Theme.fontSizeSmall
                 wrapMode: Text.Wrap
                 text: qsTr("* Tap on label wit triangle to expand/collapse section.\n")
-                      + qsTr("* Tap on text in detailed view to enter Select&Copy page.")
+                      + qsTr("* Tap on text in detailed view to enter Select&Copy page.\n")
+                      + qsTr("* Press and hold on empty search field to clear search results.")
             }
         }
     }

@@ -16,8 +16,8 @@
         <translation>Description</translation>
     </message>
     <message>
-        <source>This program searches for a text in files stored locally in the home directory </source>
-        <translation>This program searches for a text in files stored locally in the home directory </translation>
+        <source>This program searches for a text in files stored locally on the device </source>
+        <translation>This program searches for a text in files stored locally on the device </translation>
     </message>
     <message>
         <source>and presents results in a possibly useful form.</source>
@@ -42,14 +42,32 @@
         <translation>Help and Tips</translation>
     </message>
     <message>
+        <source>Translations</source>
+        <translation>Translations</translation>
+    </message>
+    <message>
+        <source>Special thanks for translators:</source>
+        <translation>Special thanks for translators:</translation>
+    </message>
+    <message>
+        <source>Swedish</source>
+        <translation>Swedish</translation>
+    </message>
+    <message>
         <source>* Tap on label wit triangle to expand/collapse section.
 </source>
         <translation>* Tap on label wit triangle to expand/collapse section.
 </translation>
     </message>
     <message>
-        <source>* Tap on text in detailed view to enter Select&amp;Copy page.</source>
-        <translation>* Tap on text in detailed view to enter Select&amp;Copy page.</translation>
+        <source>* Press and hold on empty search field to clear search results.</source>
+        <translation>* Press and hold on empty search field to clear search results.</translation>
+    </message>
+    <message>
+        <source>* Tap on text in detailed view to enter Select&amp;Copy page.
+</source>
+        <translation>* Tap on text in detailed view to enter Select&amp;Copy page.
+</translation>
     </message>
 </context>
 <context>

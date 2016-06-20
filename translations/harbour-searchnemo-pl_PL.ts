@@ -16,8 +16,8 @@
         <translation>Opis</translation>
     </message>
     <message>
-        <source>This program searches for a text in files stored locally in the home directory </source>
-        <translation>Ten program wyszukuje tekst w plikach przechowywanych lokalnie w katalogu domowym </translation>
+        <source>This program searches for a text in files stored locally on the device </source>
+        <translation>Program wyszukuje tekst w plikach przechowywanych lokalnie w urządzeniu </translation>
     </message>
     <message>
         <source>and presents results in a possibly useful form.</source>
@@ -42,14 +42,32 @@
         <translation>Pomoc i wskazówki</translation>
     </message>
     <message>
+        <source>Translations</source>
+        <translation>Tłumaczenia</translation>
+    </message>
+    <message>
+        <source>Special thanks for translators:</source>
+        <translation>Specjalne podziękowania dla tłumaczy:</translation>
+    </message>
+    <message>
+        <source>Swedish</source>
+        <translation>Szwedzki</translation>
+    </message>
+    <message>
         <source>* Tap on label wit triangle to expand/collapse section.
 </source>
         <translation>* Dotknij etykietę z trójkątem by rozwinąć/zwinąć sekcję.
 </translation>
     </message>
     <message>
-        <source>* Tap on text in detailed view to enter Select&amp;Copy page.</source>
-        <translation>* Dotknij tekst w widoku szczegółowym by wejść na stronę Wybierz&amp;Kopiuj.</translation>
+        <source>* Tap on text in detailed view to enter Select&amp;Copy page.
+</source>
+        <translation>* Dotknij tekst w widoku szczegółowym by wejść na stronę Wybierz&amp;Kopiuj.
+</translation>
+    </message>
+    <message>
+        <source>* Press and hold on empty search field to clear search results.</source>
+        <translation>* Naciśnij i przytrzymaj na pustym polu wyszukiwania aby wyczyścić wyniki wyszukiwania.</translation>
     </message>
 </context>
 <context>

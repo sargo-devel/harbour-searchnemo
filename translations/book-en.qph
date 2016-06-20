@@ -892,4 +892,30 @@
     <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
     <target>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</target>
 </phrase>
+<phrase>
+    <source>This program searches for a text in files stored locally on the device </source>
+    <target>This program searches for a text in files stored locally on the device </target>
+</phrase>
+<phrase>
+    <source>Translations</source>
+    <target>Translations</target>
+</phrase>
+<phrase>
+    <source>Special thanks for translators:</source>
+    <target>Special thanks for translators:</target>
+</phrase>
+<phrase>
+    <source>Swedish</source>
+    <target>Swedish</target>
+</phrase>
+<phrase>
+    <source>* Press and hold on empty search field to clear search results.</source>
+    <target>* Press and hold on empty search field to clear search results.</target>
+</phrase>
+<phrase>
+    <source>* Tap on text in detailed view to enter Select&amp;Copy page.
+</source>
+    <target>* Tap on text in detailed view to enter Select&amp;Copy page.
+</target>
+</phrase>
 </QPH>
