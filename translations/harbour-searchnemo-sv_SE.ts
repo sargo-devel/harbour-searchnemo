@@ -17,7 +17,7 @@
     </message>
     <message>
         <source>This program searches for a text in files stored locally on the device </source>
-        <translation type="unfinished"></translation>
+        <translation>Det här programmet söker efter text i filer, lagrade lokalt på enheten</translation>
     </message>
     <message>
         <source>and presents results in a possibly useful form.</source>
@@ -39,15 +39,15 @@
     </message>
     <message>
         <source>Translations</source>
-        <translation type="unfinished"></translation>
+        <translation>Översättningar</translation>
     </message>
     <message>
         <source>Special thanks for translators:</source>
-        <translation type="unfinished"></translation>
+        <translation>Särskilt tack till översättare:</translation>
     </message>
     <message>
         <source>Swedish</source>
-        <translation type="unfinished"></translation>
+        <translation>Svenska</translation>
     </message>
     <message>
         <source>Help and Tips</source>
@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>* Press and hold on empty search field to clear search results.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Långtryck på tomt sökfält för att rensa sökresultat.</translation>
     </message>
 </context>
 <context>
@@ -263,12 +263,8 @@
         <translation>Öppna</translation>
     </message>
     <message>
-        <source>File can&apos;t be opened</source>
-        <translation>Filen kan inte öppnas</translation>
-    </message>
-    <message>
-        <source>This type of file can&apos;t be opened.</source>
-        <translation>Denna filtyp kan inte öppnas.</translation>
+        <source>File Info </source>
+        <translation>Filinfo</translation>
     </message>
     <message>
         <source>Location</source>
@@ -303,8 +299,12 @@
         <translation>Senast ändrad</translation>
     </message>
     <message>
-        <source>File Info </source>
-        <translation>Filinfo</translation>
+        <source>File can&apos;t be opened</source>
+        <translation>Filen kan inte öppnas</translation>
+    </message>
+    <message>
+        <source>This type of file can&apos;t be opened.</source>
+        <translation>Denna filtyp kan inte öppnas.</translation>
     </message>
 </context>
 <context>
@@ -733,16 +733,16 @@
         <translation>Sök i %1</translation>
     </message>
     <message>
-        <source>Removing from search results</source>
-        <translation>Tar bort från sökresultat</translation>
-    </message>
-    <message>
         <source>Open</source>
         <translation>Öppna</translation>
     </message>
     <message>
         <source>Remove from search results</source>
         <translation>Ta bort från sökresultat</translation>
+    </message>
+    <message>
+        <source>Removing from search results</source>
+        <translation>Tar bort från sökresultat</translation>
     </message>
     <message>
         <source>SearchNemo</source>
@@ -908,16 +908,16 @@
         <translation>Ingen text hittad.</translation>
     </message>
     <message>
+        <source>Open </source>
+        <translation>Öppna</translation>
+    </message>
+    <message>
         <source>File can&apos;t be opened</source>
         <translation>Filen kan inte öppnas</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Denna filtyp kan inte öppnas.</translation>
-    </message>
-    <message>
-        <source>Open </source>
-        <translation>Öppna</translation>
     </message>
     <message>
         <source>Show complete record</source>
