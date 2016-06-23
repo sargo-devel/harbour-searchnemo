@@ -1,16 +1,19 @@
 # SearchNemo
 
 A simple text search tool for [Sailfish OS](https://sailfishos.org/) and [Jolla phone](http://jolla.com/) devices.
-It searches user home directory and its subdirectories for a given text inside various file types.
+It searches local directories for a given text inside various file types.
 It can also find file and directory names containing searched text.
 
 ### Features
- * Search local home directory for a given text inside files and return result list divided into sections
+ * Search local directories for a given text inside files and return result list divided into sections
+ * Selectable start directory (also as a command line parameter)
  * Searched text is always case insensitive
  * Currently supported search targets: Notes app database, files (text, html, [sqlite](https://www.sqlite.org/), filenames, directory names
  * Special search inside Notes app database (with indication of note number containing searched text)
+ * Clear search results when press&hold on search field
  * Customization of search (selection of file types, max. nr of displayed search results)
  * On/off search in hidden files and directiories
+ * On/off symbolic links support
  * Dynamically extended sections of search result list
  * Cumulative and plain view of search result list
  * Detailed view of searched text with context
@@ -41,6 +44,8 @@ Currently supported languages:
  * German (partially)
  * Swedish (translation made by Åke Engelbrektson)
 
+[Translation service](https://www.transifex.com/sargoprojects/searchnemo/) is available. Any contributions are very welcome.
+
 ### Author's comments and plans
 I didn't find any similar application for Sailfish OS, so I decided to write one.
 Since I kept a lot of txt and html files locally on device, I needed a tool which could find any text inside files and nicely show results.
@@ -57,6 +62,9 @@ Plans:
  * to open desired app with a parameter (if app allows it)
  * to search inside other files (ie. pdf)
 
+### Release notes
+See [here](https://github.com/sargo-devel/harbour-searchnemo/blob/master/RELEASENOTES.md) for detailed history. 
+ 
 ### Acknowledgements
 The source code is based on the excellent [File Browser](https://github.com/karip/harbour-file-browser).
 Additionaly [JHead](http://www.sentex.net/~mwandel/jhead/) Exif manipulation tool is used for display Exif data of found image files. 

@@ -13,7 +13,7 @@ Name:       harbour-searchnemo
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Search text in Sailfish resources
-Version:    0.1
+Version:    0.2
 Release:    1
 Group:      Qt/Qt
 License:    GPLv3
@@ -28,7 +28,7 @@ BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  desktop-file-utils
 
 %description
-Searches text in files stored locally in home directory.
+Searches text in files stored locally on the Sailfish OS device.
 
 
 %prep
