@@ -16,6 +16,7 @@
 import QtQuick 2.2
 import Sailfish.Silica 1.0
 import harbour.searchnemo.Settings 1.0
+import "../components"
 import "functions.js" as Functions
 
 Page {
@@ -59,6 +60,10 @@ Page {
                     color: Theme.secondaryColor
                     text:qsTr("The search begins in the start directory and continues in its subdirectories. If it is empty or incorrect then the home directory is the start directory.")
                     wrapMode: Text.Wrap
+                }
+
+                Spacer {
+                    height: Theme.paddingMedium
                 }
 
                 TextField {

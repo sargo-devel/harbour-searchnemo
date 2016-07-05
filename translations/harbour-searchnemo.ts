@@ -964,7 +964,7 @@
 <context>
     <name>SettingsPage</name>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="+30"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="+31"/>
         <source>default</source>
         <translation type="unfinished"></translation>
     </message>
@@ -984,7 +984,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+11"/>
         <source>Enter start directory...</source>
         <translation type="unfinished"></translation>
     </message>
