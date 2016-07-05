@@ -1,7 +1,7 @@
 
 # SearchNemo Release Notes
 
-## Version 0.2 (2016-06-23)
+## Version 0.2 (2016-06-23) (Jolla Store 2016-06-23)
 * Added *.h, *.qml, *.js to SRC section
 * Added clear search results when press&hold on search field 
 * Fixed cover behavior

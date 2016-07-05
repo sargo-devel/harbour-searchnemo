@@ -10,7 +10,7 @@ It can also find file and directory names containing searched text.
  * Searched text is always case insensitive
  * Currently supported search targets: Notes app database, files (text, html, [sqlite](https://www.sqlite.org/), filenames, directory names
  * Special search inside Notes app database (with indication of note number containing searched text)
- * Clear search results when press&hold on search field
+ * Clear search results when press&hold on empty search field
  * Customization of search (selection of file types, max. nr of displayed search results)
  * On/off search in hidden files and directiories
  * On/off symbolic links support
