@@ -43,6 +43,7 @@ Currently supported languages:
  * Polish
  * German (partially)
  * Swedish (translation made by Åke Engelbrektson)
+ * Italian (translation made by ghostofasmile)
 
 [Translation service](https://www.transifex.com/sargoprojects/searchnemo/) is available. Any contributions are very welcome.
 

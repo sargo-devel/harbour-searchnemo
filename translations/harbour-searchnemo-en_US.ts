@@ -69,6 +69,10 @@
         <translation>* Tap on text in detailed view to enter Select&amp;Copy page.
 </translation>
     </message>
+    <message>
+        <source>Italian</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AnimatedHeader</name>

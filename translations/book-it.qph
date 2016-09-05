@@ -4,4 +4,8 @@
     <source>* Press and hold on empty search field to clear search results.</source>
     <target>* Tieni premuto sul campo di ricerca vuoto per pulire la vista.</target>
 </phrase>
+<phrase>
+    <source>Found text:</source>
+    <target>Testo trovato:</target>
+</phrase>
 </QPH>

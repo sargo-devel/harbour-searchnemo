@@ -69,6 +69,10 @@
         <source>* Press and hold on empty search field to clear search results.</source>
         <translation>* Långtryck på tomt sökfält för att rensa sökresultat.</translation>
     </message>
+    <message>
+        <source>Italian</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AnimatedHeader</name>

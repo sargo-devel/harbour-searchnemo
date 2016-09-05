@@ -93,7 +93,8 @@ Page {
                 font.pixelSize: Theme.fontSizeSmall
                 wrapMode: Text.Wrap
                 text: qsTr("Special thanks for translators:") + "\n  "
-                      + "Åke Engelbrektson - " + qsTr("Swedish")
+                      + "Åke Engelbrektson - " + qsTr("Swedish") + "\n  "
+		      + "ghostofasmile - " + qsTr("Italian")
             }
 
             SectionHeader { text: qsTr("Help and Tips") }

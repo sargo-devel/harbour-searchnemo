@@ -60,6 +60,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>Italian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+3"/>
         <source>Help and Tips</source>
         <translation type="unfinished"></translation>
@@ -969,7 +974,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+20"/>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>

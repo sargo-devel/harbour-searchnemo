@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="it">
+<TS version="2.1" language="it">
 <context>
     <name>About</name>
     <message>
@@ -9,7 +9,7 @@
     </message>
     <message>
         <source>version: </source>
-        <translation>versione:</translation>
+        <translation>versione: </translation>
     </message>
     <message>
         <source>Description</source>
@@ -17,7 +17,7 @@
     </message>
     <message>
         <source>This program searches for a text in files stored locally on the device </source>
-        <translation>Quest&apos;app cerca testi all&apos;interno dei file memorizzati sul dispositivo</translation>
+        <translation>Quest&apos;app cerca testi all&apos;interno dei file memorizzati sul dispositivo </translation>
     </message>
     <message>
         <source>and presents results in a possibly useful form.</source>
@@ -69,12 +69,16 @@
         <source>* Press and hold on empty search field to clear search results.</source>
         <translation>* Tieni premuto sul campo di ricerca vuoto per pulire la vista.</translation>
     </message>
+    <message>
+        <source>Italian</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AnimatedHeader</name>
     <message>
         <source>File info </source>
-        <translation>Info file</translation>
+        <translation>Info file </translation>
     </message>
 </context>
 <context>
@@ -264,7 +268,7 @@
     </message>
     <message>
         <source>File Info </source>
-        <translation>Info file</translation>
+        <translation>Info file </translation>
     </message>
     <message>
         <source>Location</source>
@@ -657,14 +661,14 @@
     </message>
     <message>
         <source>Comment:</source>
-        <translation>Commento: </translation>
+        <translation>Commento:</translation>
     </message>
 </context>
 <context>
     <name>SearchButtons</name>
     <message>
         <source>Found text:</source>
-        <translation>Testo trovato: </translation>
+        <translation>Testo trovato:</translation>
     </message>
 </context>
 <context>
