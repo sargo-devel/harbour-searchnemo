@@ -876,4 +876,8 @@
     <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
     <target>Aktiverar sökning i *.cpp-, *.c-, *.h-, *.py-, *.sh-, *.qml-, *.js-filer</target>
 </phrase>
+<phrase>
+    <source>Italian</source>
+    <target>Italienska</target>
+</phrase>
 </QPH>

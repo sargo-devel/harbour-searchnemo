@@ -50,7 +50,7 @@ Page {
                 font.pixelSize: Theme.fontSizeSmall
                 //color: Theme.highlightColor
                 horizontalAlignment: Text.Center
-                text: "SearchNemo, " + qsTr("version: ") + "0.20"
+                text: "SearchNemo, " + qsTr("version: ") + "0.2.1"
             }
 
             SectionHeader { text: qsTr("Description") }

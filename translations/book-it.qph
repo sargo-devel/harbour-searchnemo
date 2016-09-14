@@ -1,11 +1,897 @@
 <!DOCTYPE QPH>
 <QPH language="it_IT">
 <phrase>
+    <source>About</source>
+    <target>Info</target>
+</phrase>
+<phrase>
+    <source>version: </source>
+    <target>versione: </target>
+</phrase>
+<phrase>
+    <source>Description</source>
+    <target>Descrizione</target>
+</phrase>
+<phrase>
+    <source>This program searches for a text in files stored locally on the device </source>
+    <target>Quest&apos;app cerca testi all&apos;interno dei file memorizzati sul dispositivo </target>
+</phrase>
+<phrase>
+    <source>and presents results in a possibly useful form.</source>
+    <target>e presenta i risultati ordinatamente.</target>
+</phrase>
+<phrase>
+    <source>License</source>
+    <target>Licenza</target>
+</phrase>
+<phrase>
+    <source>License: GPL v3
+</source>
+    <target>Licenza: GPLv3
+</target>
+</phrase>
+<phrase>
+    <source>Source code:</source>
+    <target>Sorgenti:</target>
+</phrase>
+<phrase>
+    <source>Translations</source>
+    <target>Traduzioni</target>
+</phrase>
+<phrase>
+    <source>Special thanks for translators:</source>
+    <target>Un grazie particolare ai traduttori:</target>
+</phrase>
+<phrase>
+    <source>Swedish</source>
+    <target>Svedese</target>
+</phrase>
+<phrase>
+    <source>Italian</source>
+    <target>Italiano</target>
+</phrase>
+<phrase>
+    <source>Help and Tips</source>
+    <target>Aiuto e scorciatoie</target>
+</phrase>
+<phrase>
+    <source>* Tap on label wit triangle to expand/collapse section.
+</source>
+    <target>* Tocca il triangolo per nascondere o mostrare i risultati della sezione.
+</target>
+</phrase>
+<phrase>
+    <source>* Tap on text in detailed view to enter Select&amp;Copy page.
+</source>
+    <target>* Tocca un testo nella vista dettagli per entrare nella pagina di selezione e copia.
+</target>
+</phrase>
+<phrase>
     <source>* Press and hold on empty search field to clear search results.</source>
     <target>* Tieni premuto sul campo di ricerca vuoto per pulire la vista.</target>
 </phrase>
 <phrase>
+    <source>File info </source>
+    <target>Info file </target>
+</phrase>
+<phrase>
+    <source>Install launched</source>
+    <target>Installazione avviata</target>
+</phrase>
+<phrase>
+    <source>If nothing happens, then the package is probably faulty.</source>
+    <target>Se non succede nulla, probabilmente il pacchetto è danneggiato.</target>
+</phrase>
+<phrase>
+    <source>Open successful</source>
+    <target>Aperto</target>
+</phrase>
+<phrase>
+    <source>Sometimes the application stays in the background</source>
+    <target>Di tanto in tanto l&apos;app rimane in background</target>
+</phrase>
+<phrase>
+    <source>Internal error</source>
+    <target>Errore interno</target>
+</phrase>
+<phrase>
+    <source>File not found</source>
+    <target>File non trovato</target>
+</phrase>
+<phrase>
+    <source>No application to open the file</source>
+    <target>Nessuna app apre il file</target>
+</phrase>
+<phrase>
+    <source>xdg-open found no preferred application</source>
+    <target>xdg-open non ha impostata nessuna app</target>
+</phrase>
+<phrase>
+    <source>Action failed</source>
+    <target>Azione fallita</target>
+</phrase>
+<phrase>
+    <source>xdg-open not found</source>
+    <target>xdg-open non trovato</target>
+</phrase>
+<phrase>
+    <source>xdg-open crash?</source>
+    <target>Crash di xdg-open?</target>
+</phrase>
+<phrase>
+    <source>xdg-open error</source>
+    <target>Errore di xdg-open</target>
+</phrase>
+<phrase>
+    <source>** crashed</source>
+    <target>crash di **</target>
+</phrase>
+<phrase>
+    <source>** error: %1</source>
+    <target>errore di **: %1</target>
+</phrase>
+<phrase>
+    <source>** error</source>
+    <target>Errore di **</target>
+</phrase>
+<phrase>
+    <source>Root (%1)</source>
+    <target>Radice (%1)</target>
+</phrase>
+<phrase>
+    <source>Root</source>
+    <target>Radice</target>
+</phrase>
+<phrase>
+    <source>SD Card (%1)</source>
+    <target>Scheda SD (%1)</target>
+</phrase>
+<phrase>
+    <source>SD Card</source>
+    <target>Scheda SD</target>
+</phrase>
+<phrase>
+    <source>Android Storage not found</source>
+    <target>Memoria Android non trovata</target>
+</phrase>
+<phrase>
+    <source>SD Card not found</source>
+    <target>Scheda SD non trovata</target>
+</phrase>
+<phrase>
+    <source>Home</source>
+    <target>Home</target>
+</phrase>
+<phrase>
+    <source>Android Storage</source>
+    <target>Memoria Android</target>
+</phrase>
+<phrase>
+    <source>File does not exist</source>
+    <target>Il file non esiste</target>
+</phrase>
+<phrase>
+    <source>block device</source>
+    <target>block device</target>
+</phrase>
+<phrase>
+    <source>character device</source>
+    <target>character device</target>
+</phrase>
+<phrase>
+    <source>pipe</source>
+    <target>pipe</target>
+</phrase>
+<phrase>
+    <source>socket</source>
+    <target>socket</target>
+</phrase>
+<phrase>
+    <source>folder</source>
+    <target>cartella</target>
+</phrase>
+<phrase>
+    <source>unknown</source>
+    <target>sconosciuto</target>
+</phrase>
+<phrase>
+    <source>Image Size</source>
+    <target>Dimensione</target>
+</phrase>
+<phrase>
+    <source>File name</source>
+    <target>Nome file</target>
+</phrase>
+<phrase>
+    <source>Location</source>
+    <target>Posizione</target>
+</phrase>
+<phrase>
+    <source>Type</source>
+    <target>Tipo</target>
+</phrase>
+<phrase>
+    <source>Link to %1</source>
+    <target>Link a %1</target>
+</phrase>
+<phrase>
+    <source>Size</source>
+    <target>Dim.</target>
+</phrase>
+<phrase>
+    <source>Permissions</source>
+    <target>Permessi</target>
+</phrase>
+<phrase>
+    <source>Owner</source>
+    <target>Proprietario</target>
+</phrase>
+<phrase>
+    <source>Group</source>
+    <target>Gruppo</target>
+</phrase>
+<phrase>
+    <source>Last modified</source>
+    <target>Ultima modifica</target>
+</phrase>
+<phrase>
+    <source>Install</source>
+    <target>Installa</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Apri</target>
+</phrase>
+<phrase>
+    <source>File Info </source>
+    <target>Info file </target>
+</phrase>
+<phrase>
+    <source>Location</source>
+    <target>Posizione</target>
+</phrase>
+<phrase>
+    <source>Type</source>
+    <target>Tipo</target>
+</phrase>
+<phrase>
+    <source>Link to %1</source>
+    <target>Link a %1</target>
+</phrase>
+<phrase>
+    <source>Size</source>
+    <target>Dimensione</target>
+</phrase>
+<phrase>
+    <source>Permissions</source>
+    <target>Permessi</target>
+</phrase>
+<phrase>
+    <source>Owner</source>
+    <target>Proprietario</target>
+</phrase>
+<phrase>
+    <source>Group</source>
+    <target>Gruppo</target>
+</phrase>
+<phrase>
+    <source>Last modified</source>
+    <target>Ultima modifica</target>
+</phrase>
+<phrase>
+    <source>File can&apos;t be opened</source>
+    <target>Il file non può essere aperto</target>
+</phrase>
+<phrase>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Questo tipo di file non può essere aperto.</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Apri</target>
+</phrase>
+<phrase>
+    <source>File can&apos;t be opened</source>
+    <target>Il file non può essere aperto</target>
+</phrase>
+<phrase>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Questo tipo di file non può essere aperto.</target>
+</phrase>
+<phrase>
+    <source>Text not found.</source>
+    <target>Testo non trovato.</target>
+</phrase>
+<phrase>
+    <source>Open Notes</source>
+    <target>Apri Note</target>
+</phrase>
+<phrase>
+    <source>File can&apos;t be opened</source>
+    <target>Il file non può essere aperto</target>
+</phrase>
+<phrase>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Questo tipo di file non può essere aperto.</target>
+</phrase>
+<phrase>
+    <source>Note nr</source>
+    <target>Nota num</target>
+</phrase>
+<phrase>
+    <source>%1 bytes</source>
+    <target>%1 byte</target>
+</phrase>
+<phrase>
+    <source>%1 kB</source>
+    <target>%1 kB</target>
+</phrase>
+<phrase>
+    <source>%1 MB</source>
+    <target>%1 MB</target>
+</phrase>
+<phrase>
+    <source>%1 GB</source>
+    <target>%1 GB</target>
+</phrase>
+<phrase>
+    <source>Make:%1</source>
+    <target>Make: %1</target>
+</phrase>
+<phrase>
+    <source>Model:%1</source>
+    <target>Model: %1</target>
+</phrase>
+<phrase>
+    <source>Date/Time:%1</source>
+    <target>Data: %1</target>
+</phrase>
+<phrase>
+    <source>Orientation:%1</source>
+    <target>Orientamento: %1</target>
+</phrase>
+<phrase>
+    <source>Color/BW:Black and White</source>
+    <target>Colore: Bianco e nero</target>
+</phrase>
+<phrase>
+    <source>(Strobe light not detected)</source>
+    <target>(Flash non rilevato)</target>
+</phrase>
+<phrase>
+    <source>(Strobe light detected) </source>
+    <target>(Flash rilevato)</target>
+</phrase>
+<phrase>
+    <source>(Manual)</source>
+    <target>(Manuale)</target>
+</phrase>
+<phrase>
+    <source>(Manual, return light not detected)</source>
+    <target>(Manuale, riverbero non rilevato)</target>
+</phrase>
+<phrase>
+    <source>(Manual, return light detected)</source>
+    <target>(Manuale, riverbero rilevato)</target>
+</phrase>
+<phrase>
+    <source>(Auto)</source>
+    <target>(Automatico)</target>
+</phrase>
+<phrase>
+    <source>(Auto, return light not detected)</source>
+    <target>(Auromatico, riverbero non rilevato)</target>
+</phrase>
+<phrase>
+    <source>(Auto, return light detected)</source>
+    <target>(Automatico, riverbero rilevato)</target>
+</phrase>
+<phrase>
+    <source>(Red eye reduction mode)</source>
+    <target>(Riduzione occhi rossi)</target>
+</phrase>
+<phrase>
+    <source>(Red eye reduction mode return light not detected)</source>
+    <target>(Riduzione occhi rossi, riverbero non rilevato)</target>
+</phrase>
+<phrase>
+    <source>(Red eye reduction mode return light detected)</source>
+    <target>(Riduzione occhi rossi, riverbero rilevato)</target>
+</phrase>
+<phrase>
+    <source>(Manual, red eye reduction mode)</source>
+    <target>(Manuale, riduzione occhi rossi)</target>
+</phrase>
+<phrase>
+    <source>(Manual, red eye reduction mode, return light not detected)</source>
+    <target>(Manuale, riduzione occhi rossi, riverbero non rilevato)</target>
+</phrase>
+<phrase>
+    <source>(Red eye reduction mode, return light detected)</source>
+    <target>(Riduzione occhi rossi, riverbero rilevato)</target>
+</phrase>
+<phrase>
+    <source>(Auto, red eye reduction mode)</source>
+    <target>(Automatico, riduzione occhi rossi)</target>
+</phrase>
+<phrase>
+    <source>(Auto, red eye reduction mode, return light not detected)</source>
+    <target>(Automatico, riduzione occhi rossi, riverbero non rilevato)</target>
+</phrase>
+<phrase>
+    <source>(Auto, red eye reduction mode, return light detected)</source>
+    <target>(Automatico, riduzione occhi rossi, riverbero rilevato)</target>
+</phrase>
+<phrase>
+    <source>Flash:Yes</source>
+    <target>Flash: Sì</target>
+</phrase>
+<phrase>
+    <source>Flash:No</source>
+    <target>Flash: No</target>
+</phrase>
+<phrase>
+    <source>Focal Length:%1mm</source>
+    <target>Lunghezza focale: %1mm</target>
+</phrase>
+<phrase>
+    <source>(35mm equivalent: %1mm)</source>
+    <target>(35mm equivalente: %1mm)</target>
+</phrase>
+<phrase>
+    <source>Digital Zoom:%1x</source>
+    <target>Zoom digitale: %1x</target>
+</phrase>
+<phrase>
+    <source>CCD Width:%1</source>
+    <target>Larghezza CCD: %1</target>
+</phrase>
+<phrase>
+    <source>Exposure Time:%1</source>
+    <target>Tempo di esposizione: %1</target>
+</phrase>
+<phrase>
+    <source>(1/%1)</source>
+    <target>(1/ %1)</target>
+</phrase>
+<phrase>
+    <source>Aperture:f/%1</source>
+    <target>Apertura: f/%1</target>
+</phrase>
+<phrase>
+    <source>Focus Distance:Infinite</source>
+    <target>Distanza fuoco: infinita</target>
+</phrase>
+<phrase>
+    <source>Focus Distance:%1m</source>
+    <target>Distanza fuoco: %1m</target>
+</phrase>
+<phrase>
+    <source>ISO Equivalent:%1</source>
+    <target>ISO equivalente: %1</target>
+</phrase>
+<phrase>
+    <source>Exposure Bias:%1</source>
+    <target>Compensazione esposizione: %1</target>
+</phrase>
+<phrase>
+    <source>White Balance:Manual</source>
+    <target>Bilanciamento del bianco: manuale</target>
+</phrase>
+<phrase>
+    <source>White Balance:Auto</source>
+    <target>Bilanciamento del bianco: automatico</target>
+</phrase>
+<phrase>
+    <source>Light Source:Daylight</source>
+    <target>Luce: giorno</target>
+</phrase>
+<phrase>
+    <source>Light Source:Fluorescent</source>
+    <target>Luce: fluorescente</target>
+</phrase>
+<phrase>
+    <source>Light Source:Incandescent</source>
+    <target>Luce: incandescente</target>
+</phrase>
+<phrase>
+    <source>Light Source:Flash</source>
+    <target>Luce: flash</target>
+</phrase>
+<phrase>
+    <source>Light Source:Fine weather</source>
+    <target>Luce: sereno</target>
+</phrase>
+<phrase>
+    <source>Light Source:Shade</source>
+    <target>Luce: ombra</target>
+</phrase>
+<phrase>
+    <source>Metering Mode:</source>
+    <target>Misurazione: </target>
+</phrase>
+<phrase>
+    <source>Average</source>
+    <target>Media</target>
+</phrase>
+<phrase>
+    <source>Center weighted average</source>
+    <target>Media ponderata</target>
+</phrase>
+<phrase>
+    <source>Spot</source>
+    <target>Punto luce</target>
+</phrase>
+<phrase>
+    <source>Multi spot</source>
+    <target>Multispot</target>
+</phrase>
+<phrase>
+    <source>Pattern</source>
+    <target>Modello</target>
+</phrase>
+<phrase>
+    <source>Partial</source>
+    <target>Parziale</target>
+</phrase>
+<phrase>
+    <source>Other</source>
+    <target>Altro</target>
+</phrase>
+<phrase>
+    <source>Unknown (%1)</source>
+    <target>Sconosciuto (%1)</target>
+</phrase>
+<phrase>
+    <source>Exposure Program:</source>
+    <target>Esposizione: </target>
+</phrase>
+<phrase>
+    <source>Manual</source>
+    <target>Manuale</target>
+</phrase>
+<phrase>
+    <source>Program (auto)</source>
+    <target>Automatico</target>
+</phrase>
+<phrase>
+    <source>Aperture priority (semi-auto)</source>
+    <target>Priorità apertura (semiautomatico)</target>
+</phrase>
+<phrase>
+    <source>Shutter priority (semi-auto)</source>
+    <target>Priorità otturatore (semiautomatico)</target>
+</phrase>
+<phrase>
+    <source>Creative Program (based towards depth of field)</source>
+    <target>Creativo (basato sulla profondità di campo)</target>
+</phrase>
+<phrase>
+    <source>Action program (based towards fast shutter speed)</source>
+    <target>Azione (basato sulla rapidità dell&apos;otturatore)</target>
+</phrase>
+<phrase>
+    <source>Portrait mode</source>
+    <target>Ritratto</target>
+</phrase>
+<phrase>
+    <source>Landscape mode</source>
+    <target>Panoramica</target>
+</phrase>
+<phrase>
+    <source>Exposure Mode:Manual</source>
+    <target>Esposizione: manuale</target>
+</phrase>
+<phrase>
+    <source>Exposure Mode:Auto bracketing</source>
+    <target>Esposizione: autobracketing</target>
+</phrase>
+<phrase>
+    <source>Focus Range:</source>
+    <target>Messa a fuoco: </target>
+</phrase>
+<phrase>
+    <source>Macro</source>
+    <target>Macro</target>
+</phrase>
+<phrase>
+    <source>Close</source>
+    <target>Vicina</target>
+</phrase>
+<phrase>
+    <source>Distant</source>
+    <target>Distante</target>
+</phrase>
+<phrase>
+    <source>JPEG Process:Unknown</source>
+    <target>Processo JPEG: sconosciuto</target>
+</phrase>
+<phrase>
+    <source>JPEG Process:%1</source>
+    <target>Processo JPEG: %1</target>
+</phrase>
+<phrase>
+    <source>Latitude:%1</source>
+    <target>Latitudine: %1</target>
+</phrase>
+<phrase>
+    <source>Longitude:%1</source>
+    <target>Longitudine: %1</target>
+</phrase>
+<phrase>
+    <source>Altitude:%1</source>
+    <target>Altitudine: %1</target>
+</phrase>
+<phrase>
+    <source>JPEG Quality:%1</source>
+    <target>Qualità JPEG: %1</target>
+</phrase>
+<phrase>
+    <source>Comment:</source>
+    <target>Commento:</target>
+</phrase>
+<phrase>
     <source>Found text:</source>
     <target>Testo trovato:</target>
+</phrase>
+<phrase>
+    <source>Notes</source>
+    <target>Note</target>
+</phrase>
+<phrase>
+    <source>TXT files content</source>
+    <target>Contenuto file TXT</target>
+</phrase>
+<phrase>
+    <source>HTML files content</source>
+    <target>Contenuto file HTML</target>
+</phrase>
+<phrase>
+    <source>PDF files content</source>
+    <target>Contenuto file PDF</target>
+</phrase>
+<phrase>
+    <source>SRC files content</source>
+    <target>Contenuto file SRC</target>
+</phrase>
+<phrase>
+    <source>SQLITE files content</source>
+    <target>Contenuto file SQLITE</target>
+</phrase>
+<phrase>
+    <source>Filenames</source>
+    <target>Nomi file</target>
+</phrase>
+<phrase>
+    <source>Directory names</source>
+    <target>Nomi cartelle</target>
+</phrase>
+<phrase>
+    <source>Other</source>
+    <target>Altro</target>
+</phrase>
+<phrase>
+    <source>Search finished:</source>
+    <target>Ricerca completata:</target>
+</phrase>
+<phrase>
+    <source>%n hit(s)</source>
+    <target>%n risultato@%n risultati</target>
+</phrase>
+<phrase>
+    <source>Searching</source>
+    <target>Ricerca in corso</target>
+</phrase>
+<phrase>
+    <source>About</source>
+    <target>Info</target>
+</phrase>
+<phrase>
+    <source>Settings</source>
+    <target>Impostazioni</target>
+</phrase>
+<phrase>
+    <source>Search %1</source>
+    <target>Cerca %1</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Apri</target>
+</phrase>
+<phrase>
+    <source>Remove from search results</source>
+    <target>Rimuovi dai risultati</target>
+</phrase>
+<phrase>
+    <source>Removing from search results</source>
+    <target>Rimozione dai risultati</target>
+</phrase>
+<phrase>
+    <source>SearchNemo</source>
+    <target>SearchNemo</target>
+</phrase>
+<phrase>
+    <source>File can&apos;t be opened</source>
+    <target>Il file non può essere aperto</target>
+</phrase>
+<phrase>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Questo tipo di file non può essere aperto.</target>
+</phrase>
+<phrase>
+    <source>Search already in progress</source>
+    <target>Ricerca già in corso</target>
+</phrase>
+<phrase>
+    <source>Bad search parameters</source>
+    <target>Parametri di ricerca errati</target>
+</phrase>
+<phrase>
+    <source>Note nr</source>
+    <target>Nota num</target>
+</phrase>
+<phrase>
+    <source>Select and Copy</source>
+    <target>Seleziona e copia</target>
+</phrase>
+<phrase>
+    <source>default</source>
+    <target>predefinito</target>
+</phrase>
+<phrase>
+    <source>Settings</source>
+    <target>Impostazioni</target>
+</phrase>
+<phrase>
+    <source>Search options</source>
+    <target>Opzioni ricerca</target>
+</phrase>
+<phrase>
+    <source>The search begins in the start directory and continues in its subdirectories. If it is empty or incorrect then the home directory is the start directory.</source>
+    <target>La ricerca inizia nella cartella indicata e continua nelle sottocartelle. Se vuote o percorso non corretto verrà usata la cartella home come cartella di partenza.</target>
+</phrase>
+<phrase>
+    <source>Enter start directory...</source>
+    <target>Inserisci cartella di partenza...</target>
+</phrase>
+<phrase>
+    <source>Start directory</source>
+    <target>Cartella di partenza</target>
+</phrase>
+<phrase>
+    <source>Search hidden files</source>
+    <target>Cerca file nascosti</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside hidden files and hidden directories</source>
+    <target>Abilita la ricerca all&apos;interno di file e cartelle nascoste</target>
+</phrase>
+<phrase>
+    <source>Follow symbolic links</source>
+    <target>Segui link simbolici</target>
+</phrase>
+<phrase>
+    <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
+    <target>Quando abilitato, la profondità massima delle sottocartelle è 20, per prevenire loop.</target>
+</phrase>
+<phrase>
+    <source>Show cumulative search results</source>
+    <target>Raggruppa risultati</target>
+</phrase>
+<phrase>
+    <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
+    <target>Mostra solo il primo risultato trovato nel file e il numero di ricorrenze totali, che potranno essere visualizzate nella vista dettagli</target>
+</phrase>
+<phrase>
+    <source>Search results</source>
+    <target>Risultati ricerca</target>
+</phrase>
+<phrase>
+    <source>max. nr of results per section</source>
+    <target>numero massimo di risultati per sezione</target>
+</phrase>
+<phrase>
+    <source>Result sections</source>
+    <target>Risultati sezioni</target>
+</phrase>
+<phrase>
+    <source>Enable TXT section</source>
+    <target>Sezione TXT</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.txt files</source>
+    <target>Abilita la ricerca all&apos;interno di file *.txt</target>
+</phrase>
+<phrase>
+    <source>Enable HTML section</source>
+    <target>Sezione HTML</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.html, *.htm files</source>
+    <target>Abilita la ricerca all&apos;interno di file *.html e *.htm</target>
+</phrase>
+<phrase>
+    <source>Enable SRC section</source>
+    <target>Sezione SRC</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
+    <target>Abilita la ricerca all&apos;interno di file *.cpp, *.c, *.h, *.py, *.sh, *.qml e *.js</target>
+</phrase>
+<phrase>
+    <source>Enable SQLITE section</source>
+    <target>Sezione SQLITE</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.sqlite, *.db files</source>
+    <target>Abilita la ricerca all&apos;interno di file *.sqlite e *.db</target>
+</phrase>
+<phrase>
+    <source>Enable NOTES section</source>
+    <target>Sezione NOTE</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside Notes application database</source>
+    <target>Abilita la ricerca all&apos;interno dell&apos;app Note</target>
+</phrase>
+<phrase>
+    <source>Other</source>
+    <target>Altro</target>
+</phrase>
+<phrase>
+    <source>Language:</source>
+    <target>Lingua:</target>
+</phrase>
+<phrase>
+    <source>Note: Change of this parameter requires restart of an application</source>
+    <target>Nota: questa impostazione sarà attiva al prossimo avvio dell&apos;app</target>
+</phrase>
+<phrase>
+    <source>Record</source>
+    <target>Record</target>
+</phrase>
+<phrase>
+    <source>Text not found.</source>
+    <target>Testo non trovato.</target>
+</phrase>
+<phrase>
+    <source>Open </source>
+    <target>Apri</target>
+</phrase>
+<phrase>
+    <source>File can&apos;t be opened</source>
+    <target>Il file non può essere aperto</target>
+</phrase>
+<phrase>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Questo tipo di file non può essere aperto.</target>
+</phrase>
+<phrase>
+    <source>Show complete record</source>
+    <target>Mostra record completo</target>
+</phrase>
+<phrase>
+    <source>db:table:column:row</source>
+    <target>db:table:column:row</target>
+</phrase>
+<phrase>
+    <source>&lt;b&gt;[%1/%n hit(s)]&lt;/b&gt;&lt;br&gt;</source>
+    <target>&lt;b&gt;[%1/%n risultato]&lt;/b&gt;&lt;br&gt;@&lt;b&gt;[%1/%n risultati]&lt;/b&gt;&lt;br&gt;</target>
+</phrase>
+<phrase>
+    <source>Text not found.</source>
+    <target>Testo non trovato.</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Apri</target>
+</phrase>
+<phrase>
+    <source>File can&apos;t be opened</source>
+    <target>Il file non può essere aperto</target>
+</phrase>
+<phrase>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Questo tipo di file non può essere aperto.</target>
 </phrase>
 </QPH>

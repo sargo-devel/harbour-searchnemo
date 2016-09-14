@@ -38,10 +38,6 @@
         <translation>Kod źródłowy:</translation>
     </message>
     <message>
-        <source>Help and Tips</source>
-        <translation>Pomoc i wskazówki</translation>
-    </message>
-    <message>
         <source>Translations</source>
         <translation>Tłumaczenia</translation>
     </message>
@@ -52,6 +48,14 @@
     <message>
         <source>Swedish</source>
         <translation>Szwedzki</translation>
+    </message>
+    <message>
+        <source>Italian</source>
+        <translation>Włoski</translation>
+    </message>
+    <message>
+        <source>Help and Tips</source>
+        <translation>Pomoc i wskazówki</translation>
     </message>
     <message>
         <source>* Tap on label wit triangle to expand/collapse section.
@@ -68,10 +72,6 @@
     <message>
         <source>* Press and hold on empty search field to clear search results.</source>
         <translation>* Naciśnij i przytrzymaj na pustym polu wyszukiwania aby wyczyścić wyniki wyszukiwania.</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -267,12 +267,8 @@
         <translation>Otwórz</translation>
     </message>
     <message>
-        <source>File can&apos;t be opened</source>
-        <translation>Plik nie może być otwarty</translation>
-    </message>
-    <message>
-        <source>This type of file can&apos;t be opened.</source>
-        <translation>Ten typ pliku nie może być otwarty.</translation>
+        <source>File Info </source>
+        <translation>Info o pliku</translation>
     </message>
     <message>
         <source>Location</source>
@@ -307,8 +303,12 @@
         <translation>Ostatnio zmodyfikowany</translation>
     </message>
     <message>
-        <source>File Info </source>
-        <translation>Info o pliku</translation>
+        <source>File can&apos;t be opened</source>
+        <translation>Plik nie może być otwarty</translation>
+    </message>
+    <message>
+        <source>This type of file can&apos;t be opened.</source>
+        <translation>Ten typ pliku nie może być otwarty.</translation>
     </message>
 </context>
 <context>
@@ -913,16 +913,16 @@
         <translation>Tekst nie znaleziony.</translation>
     </message>
     <message>
+        <source>Open </source>
+        <translation>Otwórz </translation>
+    </message>
+    <message>
         <source>File can&apos;t be opened</source>
         <translation>Plik nie może być otwarty</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Ten typ pliku nie może być otwarty.</translation>
-    </message>
-    <message>
-        <source>Open </source>
-        <translation>Otwórz </translation>
     </message>
     <message>
         <source>Show complete record</source>

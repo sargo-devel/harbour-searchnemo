@@ -918,4 +918,8 @@
     <target>* Tap on text in detailed view to enter Select&amp;Copy page.
 </target>
 </phrase>
+<phrase>
+    <source>Italian</source>
+    <target>Italian</target>
+</phrase>
 </QPH>

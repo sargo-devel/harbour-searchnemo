@@ -71,7 +71,7 @@
     </message>
     <message>
         <source>Italian</source>
-        <translation type="unfinished"></translation>
+        <translation>Italian</translation>
     </message>
 </context>
 <context>

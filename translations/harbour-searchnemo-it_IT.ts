@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="it">
+<TS version="2.1" language="it_IT">
 <context>
     <name>About</name>
     <message>
@@ -50,6 +50,10 @@
         <translation>Svedese</translation>
     </message>
     <message>
+        <source>Italian</source>
+        <translation>Italiano</translation>
+    </message>
+    <message>
         <source>Help and Tips</source>
         <translation>Aiuto e scorciatoie</translation>
     </message>
@@ -68,10 +72,6 @@
     <message>
         <source>* Press and hold on empty search field to clear search results.</source>
         <translation>* Tieni premuto sul campo di ricerca vuoto per pulire la vista.</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

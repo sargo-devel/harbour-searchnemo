@@ -50,6 +50,10 @@
         <translation>Svenska</translation>
     </message>
     <message>
+        <source>Italian</source>
+        <translation>Italienska</translation>
+    </message>
+    <message>
         <source>Help and Tips</source>
         <translation>Hjälp och tips</translation>
     </message>
@@ -68,10 +72,6 @@
     <message>
         <source>* Press and hold on empty search field to clear search results.</source>
         <translation>* Långtryck på tomt sökfält för att rensa sökresultat.</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

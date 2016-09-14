@@ -1,6 +1,9 @@
 
 # SearchNemo Release Notes
 
+## Version 0.2.1 (2016-09-14)
+* Added Italian translation
+
 ## Version 0.2 (2016-06-23) (Jolla Store 2016-06-23)
 * Added *.h, *.qml, *.js to SRC section
 * Added clear search results when press&hold on search field 
