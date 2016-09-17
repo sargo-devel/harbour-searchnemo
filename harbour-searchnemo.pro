@@ -34,7 +34,8 @@ SOURCES += src/harbour-searchnemo.cpp \
     src/txtfileview.cpp \
     src/notesfileview.cpp \
     src/sqlfileview.cpp \
-    src/settings.cpp
+    src/settings.cpp \
+    src/dirtreemodel.cpp
 
 OTHER_FILES += qml/harbour-searchnemo.qml \
     qml/cover/CoverPage.qml \
@@ -95,7 +96,8 @@ DISTFILES += \
     qml/pages/SettingsPage.qml \
     qml/pages/SqlRecordView.qml \
     qml/pages/viewadds/AnimatedHeader.qml \
-    translations/harbour-searchnemo-sv_SE.ts
+    translations/harbour-searchnemo-sv_SE.ts \
+    qml/pages/DirTree.qml
 
 HEADERS += \
     src/searchengine.h \
@@ -110,7 +112,8 @@ HEADERS += \
     src/txtfileview.h \
     src/notesfileview.h \
     src/sqlfileview.h \
-    src/settings.h
+    src/settings.h \
+    src/dirtreemodel.h
 
 #lupdate_only {
 #    TRANSLATIONS = translations/*.ts

@@ -23,6 +23,20 @@ Page {
     id: settingsPage
     allowedOrientations: Orientation.All
 
+    ListModel {
+        id: dirlistModel
+        onCountChanged: startDirectory.text=dirlistModel.get(0).name
+        ListElement {
+            name: "One"
+        }
+        ListElement {
+            name: "Two"
+        }
+        ListElement {
+            name: "Three"
+        }
+    }
+
     Settings { id: settings }
 
     ListModel { id: languages}
@@ -75,6 +89,7 @@ Page {
                     horizontalAlignment: TextInput.AlignLeft
                     labelVisible: true
                     onTextChanged: {
+                        console.log("text changed=",text)
                         if ( settings.dirExists(text) && (!Functions.endsWith(text,"/") || (text.length === 1)) ) {
                             color=Theme.highlightColor
                             EnterKey.enabled=true
@@ -92,6 +107,18 @@ Page {
                         appWindow.startDir=text
                         settings.write("startDir", text)
                         focus = false
+                    }
+                }
+
+                Button {
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    text: "Dirtree"
+                    onClicked: {
+                        console.log("dirlistModel count1=",dirlistModel.count)
+
+                        pageStack.push(Qt.resolvedUrl("DirTree.qml"), {"dirModel": dirlistModel})
+                        //startdir=dirtreePage.selectedpath
+                        console.log("dirlistModel count2=",dirlistModel.count)
                     }
                 }
 
@@ -188,6 +215,7 @@ Page {
     }
 
     onStatusChanged: {
+        console.log("page status=",status,"(I,A^,A,D:",PageStatus.Inactive,PageStatus.Activating,PageStatus.Active,PageStatus.Deactivating,")")
         // read settings
         if (status === PageStatus.Activating) {
             startDirectory.text = settings.read("startDir","");

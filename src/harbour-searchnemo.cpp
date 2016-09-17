@@ -34,6 +34,7 @@
 #include "notesfileview.h"
 #include "sqlfileview.h"
 #include "consolemodel.h"
+#include "dirtreemodel.h"
 #include "settings.h"
 
 int main(int argc, char *argv[])
@@ -76,6 +77,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<NotesFileView>("harbour.searchnemo.NotesFileView", 1, 0, "NotesFileView");
     qmlRegisterType<SqlFileView>("harbour.searchnemo.SqlFileView", 1, 0, "SqlFileView");
     qmlRegisterType<ConsoleModel>("harbour.searchnemo.ConsoleModel", 1, 0, "ConsoleModel");
+    qmlRegisterType<DirtreeModel>("harbour.searchnemo.DirtreeModel", 1, 0, "DirtreeModel");
     qmlRegisterType<Settings>("harbour.searchnemo.Settings", 1, 0, "Settings");
 
     QString homedir=QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
