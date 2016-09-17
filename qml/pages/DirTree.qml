@@ -18,61 +18,143 @@ import Sailfish.Silica 1.0
 import harbour.searchnemo.DirtreeModel 1.0
 
 
-Page {
-    id: dirtreePage
+Dialog {
+    id: dirtreeDialog
     allowedOrientations: Orientation.All
 
-    property ListModel dirModel
+    //wblistModel contains list of white- and blacklisted directories
+    //list model: dirname=fullpath, enable=true/false (whitelisted/blacklisted)
+    property ListModel wblistModel
 
-    Component.onCompleted: {
-        console.log("dirModel 0=",dirModel.get(0).name)
-}
+    //currentStartDir contains last added whitelist directory
+    property string currentStartDir
+
     DirtreeModel {
         id: dirtreeModel
     }
 
-    SilicaListView {
-        id: view
-        model: dirtreeModel
+    SilicaFlickable {
         anchors.fill: parent
 
-        header: PageHeader {
+        DialogHeader {
+            id: header
+            //title: qsTr("Select directory")
+            acceptText: qsTr("Accept")
+            cancelText: qsTr("Cancel")
+        }
+
+        PageHeader {
+            id: infoHeader
+            y: header.y + header.height
             title: qsTr("Select directory")
+            description: qsTr("Long press on directory to select option")
         }
 
-        delegate: ListItem {
-            id: delegate
+        Label {
+            id: pathLabel
+            anchors.top: infoHeader.bottom
+            anchors.left: parent.left
+            anchors.right: parent.right
+            anchors.leftMargin: Theme.paddingLarge
+            anchors.rightMargin: Theme.paddingLarge
+
+            truncationMode: TruncationMode.Fade
+            text: qsTr("Path:") + " " + dirtreeModel.path
+        }
+
+        SilicaListView {
+            id: viewDir
+            anchors.top: pathLabel.bottom
+            anchors.bottom: parent.bottom
             width: parent.width
+            clip: true
 
-            Image {
-                id: folderIcon
-                anchors.left: parent.left
-                anchors.leftMargin: Theme.paddingLarge
-                anchors.verticalCenter: parent.verticalCenter
-                //   anchors.topMargin: 11
-                source: "../images/small-folder.png"
-            }
-            Label {
-                anchors.left: folderIcon.right
-                anchors.leftMargin: Theme.paddingMedium
-                //anchors.top: parent.top
-                anchors.verticalCenter: parent.verticalCenter
-                //anchors.leftMargin: Theme.paddingLarge
-                text: name
-                //color: delegate.highlighted ? Theme.highlightColor : Theme.primaryColor
-            }
+            model: dirtreeModel
 
-            onClicked: {
-                if (isDir) dirtreeModel.cd(name)
-            }
-            onPressAndHold: {
-                //appWindow.startDir=path
-                dirModel.insert(0, {"name":path})
-                pageStack.pop()
-            }
+            //VerticalScrollDecorator { flickable: viewDir }
 
+            delegate: ListItem {
+                id: delegate
+                width: parent.width
+                //contentHeight: dirName.height + Theme.paddingLarge
+                menu: wbContextMenu
+
+                Image {
+                    id: statusIcon
+                    anchors.left: parent.left
+                    anchors.leftMargin: Theme.paddingLarge
+                    anchors.verticalCenter: parent.verticalCenter
+                    source: isInWhiteList(path) ? "image://theme/icon-s-installed" : "image://theme/icon-s-low-importance"
+//                           (isInBlackList(path) ? "image://theme/icon-s-low-importance" :
+//                                                  "")
+                    opacity: (isInWhiteList(path) || isInBlackList(path)) ? 1 : 0
+                }
+                Image {
+                    id: folderIcon
+                    anchors.left: statusIcon.right
+                    anchors.leftMargin: Theme.paddingSmall
+                    anchors.verticalCenter: parent.verticalCenter
+                    //   anchors.topMargin: 11
+                    source: //isInWhiteList(path) ? "image://theme/icon-s-installed" :
+                           //(isInBlackList(path) ? "image://theme/icon-s-low-importance" :
+                                                  "../images/small-folder.png"
+                }
+                Label {
+                    id: dirName
+                    anchors.left: folderIcon.right
+                    anchors.right: parent.right
+                    anchors.leftMargin: Theme.paddingMedium
+                    anchors.rightMargin: Theme.paddingLarge
+                    anchors.verticalCenter: parent.verticalCenter
+                    truncationMode: TruncationMode.Fade
+                    text: name
+                    color: isInWhiteList(path) ? Theme.highlightColor :
+                          (isInBlackList(path) ? Theme.secondaryHighlightColor :
+                                                  Theme.primaryColor)
+                }
+
+                onClicked: {
+                    if (isDir) {
+                        dirtreeModel.cd(name)
+                        pathLabel.text = qsTr("Path:") + " " + path
+                    }
+                }
+
+                Component {
+                    id: wbContextMenu
+                    ContextMenu {
+                        MenuItem {
+                            text: qsTr("Add to whitelist")
+                            onClicked: {
+                                currentStartDir=model.path
+                                wblistModel.append({ dirname: model.path,  enable: true })
+                            }
+                        }
+                        MenuItem {
+                            text: qsTr("Add to blacklist")
+                            onClicked: wblistModel.append({ dirname: model.path,  enable: false })
+                        }
+                    }
+                }
+            }
         }
-        VerticalScrollDecorator { flickable: view }
+    }
+
+    function isInWhiteList(txt) {
+        var index = 0
+        for (var i = 0; i < wblistModel.count; i++)
+            if( wblistModel.get(i).dirname === txt && wblistModel.get(i).enable ) {
+                return true
+            }
+        return false
+    }
+
+    function isInBlackList(txt) {
+        var index = 0
+        for (var i = 0; i < wblistModel.count; i++)
+            if( wblistModel.get(i).dirname === txt && !wblistModel.get(i).enable ) {
+                return true
+            }
+        return false
     }
 }
-

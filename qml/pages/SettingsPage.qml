@@ -23,29 +23,17 @@ Page {
     id: settingsPage
     allowedOrientations: Orientation.All
 
-    ListModel {
-        id: dirlistModel
-        onCountChanged: startDirectory.text=dirlistModel.get(0).name
-        ListElement {
-            name: "One"
-        }
-        ListElement {
-            name: "Two"
-        }
-        ListElement {
-            name: "Three"
-        }
-    }
-
     Settings { id: settings }
 
     ListModel { id: languages}
+
+    ListModel { id: wblist}
 
     Component.onCompleted: {
         languages.append({ name: qsTr("default"),  lang: "default" })
         languages.append({ name: "Deutsch - incomplete",  lang: "de_DE" })
         languages.append({ name: "English (US)",  lang: "en_US" })
-	languages.append({ name: "Italiano",  lang: "it_IT" })
+        languages.append({ name: "Italiano",  lang: "it_IT" })
         languages.append({ name: "Polski",  lang: "pl_PL" })
         languages.append({ name: "Svenska",  lang: "sv_SE" })
     }
@@ -110,15 +98,27 @@ Page {
                     }
                 }
 
-                Button {
-                    anchors.horizontalCenter: parent.horizontalCenter
-                    text: "Dirtree"
-                    onClicked: {
-                        console.log("dirlistModel count1=",dirlistModel.count)
+                Spacer {
+                    height: Theme.paddingMedium
+                }
 
-                        pageStack.push(Qt.resolvedUrl("DirTree.qml"), {"dirModel": dirlistModel})
-                        //startdir=dirtreePage.selectedpath
-                        console.log("dirlistModel count2=",dirlistModel.count)
+                Button {
+                    id: startDirectoryButton
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    text: qsTr("Select Directory")
+                    onClicked: {
+                        //console.log("dirlistModel count1=",dirlistModel.count)
+
+                        var dirtreeDialog = pageStack.push(Qt.resolvedUrl("DirTree.qml"), {"wblistModel": wblist})
+                        dirtreeDialog.accepted.connect( function() {
+                            console.log("dirtree accepted")
+                            appWindow.startDir=dirtreeDialog.currentStartDir
+                            settings.write("startDir", dirtreeDialog.currentStartDir)
+                            console.log("wblist count=",wblist.count)
+                            for (var i=0; i<wblist.count; i++) {
+                                console.log("wblist["+i+"]",wblist.get(i).dirname, wblist.get(i).enable) }
+                        })
+
                     }
                 }
 
