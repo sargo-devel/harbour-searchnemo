@@ -4,6 +4,7 @@
 #include <QThread>
 #include <QDir>
 #include <QTextStream>
+#include "profile.h"
 
 /**
  * @brief SearchWorker does searching in the background.
@@ -45,6 +46,7 @@ private:
     bool searchTxtLoop(QTextStream *intxt, QString searchtype, QString searchTerm, bool singleMatch, QString fullpath, QString displabel);
     bool m_alreadySearchedNotes;
 
+    Profile m_profile;
     QString m_directory;
     QString m_searchTerm;
     QAtomicInt m_cancelled; // atomic so no locks needed

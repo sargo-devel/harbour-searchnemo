@@ -40,6 +40,33 @@ void Settings::write(QString key, QString value)
     emit settingsChanged();
 }
 
+void Settings::writeStringList(QString group, QStringList list)
+{
+    QSettings settings;
+
+    settings.beginWriteArray(group);
+    for (int i = 0; i < list.size(); ++i) {
+        settings.setArrayIndex(i);
+        settings.setValue("dir", list.at(i));
+    }
+    settings.endArray();
+    emit settingsChanged();
+}
+
+QStringList Settings::readStringList(QString group)
+{
+    QSettings settings;
+    QStringList list;
+
+    int size = settings.beginReadArray(group);
+    for (int i = 0; i < size; ++i) {
+        settings.setArrayIndex(i);
+        list.append( settings.value("dir").toString() );
+    }
+    settings.endArray();
+    return list;
+}
+
 bool Settings::dirExists(QString dir)
 {
     return QDir(dir).exists();

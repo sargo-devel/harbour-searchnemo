@@ -48,9 +48,10 @@ void SearchWorker::startSearch(QString directory, QString searchTerm)
 
     m_directory = directory;
     m_searchTerm = searchTerm;
-    m_currentDirectory = directory;
+    //m_currentDirectory = directory;
     m_cancelled.storeRelease(NotCancelled);
     m_alreadySearchedNotes = false;
+    m_profile.resetWhiteList();
     start();
 }
 
@@ -61,16 +62,21 @@ void SearchWorker::cancel()
 
 void SearchWorker::run() Q_DECL_OVERRIDE
 {
-    QString errMsg = searchRecursively(m_directory, m_searchTerm.toLower());
-    if (!errMsg.isEmpty())
-        emit errorOccurred(errMsg, m_currentDirectory);
-
+    qDebug() << "1 m_directory=" << m_directory;
+    while ( m_profile.isWhiteList() ) {
+        m_directory = m_profile.getNextFromWhiteList();
+        qDebug() << "2 m_directory=" << m_directory;
+        QString errMsg = searchRecursively(m_directory, m_searchTerm.toLower());
+        if (!errMsg.isEmpty())
+            emit errorOccurred(errMsg, m_currentDirectory);
+    }
     emit progressChanged("");
     emit done();
 }
 
 QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
 {
+    qDebug() << "directory=" << directory;
     // skip some system folders - they don't really have any interesting stuff
     if (directory.startsWith("/proc") ||
             directory.startsWith("/sys/block"))
@@ -121,10 +127,11 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
             // skip symlinks to prevent infinite loops
             if (info.isSymLink()) continue;
         }
-
-        QString errmsg = searchRecursively(fullpath, searchTerm);
-        if (!errmsg.isEmpty())
-            return errmsg;
+        if ( !m_profile.isInBlackList(fullpath) ) {
+            QString errmsg = searchRecursively(fullpath, searchTerm);
+            if (!errmsg.isEmpty())
+                return errmsg;
+        }
     }
 
     // search files
