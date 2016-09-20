@@ -7,7 +7,7 @@
 SearchEngine::SearchEngine(QObject *parent) :
     QObject(parent)
 {
-    m_dir = "";
+    m_profilename = "";
     m_searchWorker = new SearchWorker;
     connect(m_searchWorker, SIGNAL(matchFound(QString, QString, QString, QString, int)), this, SLOT(emitMatchFound(QString, QString, QString, QString, int)));
 
@@ -30,14 +30,14 @@ SearchEngine::~SearchEngine()
     delete m_searchWorker;    // delete it
 }
 
-void SearchEngine::setDir(QString dir)
+void SearchEngine::setProfilename(QString profilename)
 {
-    if (m_dir == dir)
+    if (m_profilename == profilename)
         return;
 
-    m_dir = dir;
+    m_profilename = profilename;
 
-    emit dirChanged();
+    emit profilenameChanged();
 }
 
 bool SearchEngine::running() const
@@ -51,7 +51,7 @@ void SearchEngine::search(QString searchTerm)
     if (!searchTerm.isEmpty()) {
         m_searchWorker->cancel();
         m_searchWorker->wait();
-        m_searchWorker->startSearch(m_dir, searchTerm);
+        m_searchWorker->startSearch(m_profilename, searchTerm);
     }
 }
 

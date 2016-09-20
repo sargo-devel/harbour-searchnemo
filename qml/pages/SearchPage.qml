@@ -27,7 +27,7 @@ Page {
     id: page
     allowedOrientations: Orientation.All
 
-    property string dir: "/" // holds the top directory where all searches will be made
+    property string profilename: "Default" // holds the name of profile where all search dirs are defined
     property string currentDirectory: "" // holds the directory which is being searched by SearchEngine
     property string searchFieldText: "" // holds the copy of search text from searchField
     // used to disable SelectionPanel while remorse timer is active
@@ -45,7 +45,7 @@ Page {
     // this and its bg worker thread will be destroyed when page in popped from stack
     SearchEngine {
         id: searchEngine
-        dir: page.dir
+        profilename: page.profilename
         property var categoryTab: { "NOTES":0, "TXT":1, "HTML":2, "PDF":3, "SRC":4, "SQLITE":5, "FILE":6, "DIR":7 }
         property var ord: [0, 0, 0, 0, 0, 0, 0, 0]
         property var backord: [0, 0, 0, 0, 0, 0, 0, 0]
@@ -198,7 +198,8 @@ Page {
                 anchors.right: cancelSearchButton.left
                 //anchors.verticalCenter: parent.verticalCenter
                 y: Theme.paddingSmall
-                placeholderText: qsTr("Search %1").arg(Functions.formatPathForSearch(page.dir))
+                //placeholderText: qsTr("Search %1").arg(Functions.formatPathForSearch(page.dir))
+                placeholderText: qsTr("Search %1").arg(page.profilename)
                 inputMethodHints: Qt.ImhNoAutoUppercase | Qt.ImhNoPredictiveText
                 //text: ""
                 property bool appNewSearch: appWindow.newSearch

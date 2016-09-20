@@ -13,7 +13,7 @@ class SearchWorker;
 class SearchEngine : public QObject
 {
     Q_OBJECT
-    Q_PROPERTY(QString dir READ dir() WRITE setDir(QString) NOTIFY dirChanged())
+    Q_PROPERTY(QString profilename READ profilename() WRITE setProfilename(QString) NOTIFY profilenameChanged())
     Q_PROPERTY(bool running READ running() NOTIFY runningChanged())
 
 public:
@@ -21,8 +21,8 @@ public:
     ~SearchEngine();
 
     // property accessors
-    QString dir() const { return m_dir; }
-    void setDir(QString dir);
+    QString profilename() const { return m_profilename; }
+    void setProfilename(QString profilename);
     bool running() const;
 
     // callable from QML
@@ -30,7 +30,7 @@ public:
     Q_INVOKABLE void cancel();
 
 signals:
-    void dirChanged();
+    void profilenameChanged();
     void runningChanged();
 
     void progressChanged(QString directory);
@@ -43,7 +43,7 @@ private slots:
     void emitMatchFound(QString fullpath, QString searchtype, QString displabel, QString matchline, int matchcount);
 
 private:
-    QString m_dir;
+    QString m_profilename;
     QString m_errorMessage;
     SearchWorker *m_searchWorker;
 };

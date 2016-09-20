@@ -82,15 +82,23 @@ int main(int argc, char *argv[])
 
     QString homedir=QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
     //qDebug() << "homedir=" << homedir;
-    QString dirname=settings.value("startDir", "").toString();
+    QString dirname=settings.value("startDir", "").toString(); //!!! na razie nie kasuj
     if (dirname.isEmpty()) dirname=homedir;
     if (argc > 1) dirname = QString(argv[1]);
     QString startDir=(QDir(dirname).exists())?dirname:homedir;
     qDebug() << "startDir=" << startDir;
 
+    //set start profile
+    QString profilename=settings.value("startProfile", "Default").toString();
+    QString startProfilename=profilename;
+    Settings settings1;
+    if( settings1.readStringList(profilename + " Whitelist").size() == 0 )
+        settings1.writeStringList(profilename + " Whitelist", QStringList(homedir));
+
     QScopedPointer<QQuickView> view(SailfishApp::createView());
     view->setSource(SailfishApp::pathTo("qml/harbour-searchnemo.qml"));
-    view->rootObject()->setProperty("startDir", startDir);
+    view->rootObject()->setProperty("startDir", startDir); //!!! na razie nie kasuj
+    view->rootObject()->setProperty("startProfilename", startProfilename);
     view->show();
 
     return app->exec();

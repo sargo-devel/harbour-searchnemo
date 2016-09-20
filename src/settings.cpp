@@ -31,6 +31,18 @@ QString Settings::read(QString key, QString defaultValue)
     return settings.value(key, defaultValue).toString();
 }
 
+bool Settings::read(QString key, bool defaultValue)
+{
+    QSettings settings;
+    return settings.value(key, defaultValue).toBool();
+}
+
+int Settings::read(QString key, int defaultValue)
+{
+    QSettings settings;
+    return settings.value(key, defaultValue).toInt();
+}
+
 void Settings::write(QString key, QString value)
 {
     QSettings settings;

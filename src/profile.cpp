@@ -20,7 +20,7 @@
 
 Profile::Profile(QObject *parent, QString name) : QObject(parent)
 {
-    m_name=name;
+//    m_name=name;
     //if( m_name.isEmpty() ) m_name=tr("Default");
 
 
@@ -34,15 +34,27 @@ Profile::Profile(QObject *parent, QString name) : QObject(parent)
 //    writeWhiteList();
 //    writeBlackList();
 
-    readWhiteList(); //get whitelist from file
-    resetWhiteList();
-    readBlackList(); //get blacklist from file
+
+//    readWhiteList(); //get whitelist from file
+//    resetWhiteList();
+//    readBlackList(); //get blacklist from file
+
+    setNewName(name);
 
 }
 
 Profile::~Profile()
 {
+}
 
+//Function sets new name of profile, reads all settigs from file, resets index
+void Profile::setNewName(QString profilename)
+{
+    m_name = profilename;
+    readWhiteList(); //get whitelist from file
+    resetWhiteList();
+    readBlackList(); //get blacklist from file
+    readOptions();
 }
 
 //Function checks if whitelist is not empty and compares its size with index
@@ -107,4 +119,54 @@ void Profile::writeBlackList()
     Settings settings;
 
     settings.writeStringList(m_name + " Blacklist", m_blackList);
+}
+
+void Profile::readOptions()
+{
+    Settings settings;
+
+    m_searchHiddenFiles = settings.read(m_name+" Options/searchHiddenFiles", true);
+    m_enableSymlinks = settings.read(m_name+" Options/enableSymlinks", false);
+    m_singleMatchSetting = settings.read(m_name+" Options/showOnlyFirstMatch", true);
+    m_maxResultsPerSection = settings.read(m_name+" Options/maxResultsPerSection", 50);
+    m_enableTxt = settings.read(m_name+" Sections/enableTxtSection", true);
+    m_enableHtml = settings.read(m_name+" Sections/enableHtmlSection", true);
+    m_enableSrc = settings.read(m_name+" Sections/enableSrcSection", true);
+    m_enableSqlite = settings.read(m_name+" Sections/enableSqliteSection", true);
+    m_enableNotes = settings.read(m_name+" Sections/enableNotesSection", true);
+}
+
+bool Profile::getOption(Options key)
+{
+    switch( key )
+    {
+    case searchHiddenFiles:
+        return m_searchHiddenFiles;
+        break;
+    case enableSymlinks:
+        return m_enableSymlinks;
+        break;
+    case singleMatchSetting:
+        return m_singleMatchSetting;
+        break;
+    case enableTxt:
+        return m_enableTxt;
+        break;
+    case enableHtml:
+        return m_enableHtml;
+        break;
+    case enableSrc:
+        return m_enableSrc;
+        break;
+    case enableSqlite:
+        return m_enableSqlite;
+        break;
+    case enableNotes:
+        return m_enableNotes;
+        break;
+
+    default:
+        return false;
+        break;
+    }
 }

@@ -17,7 +17,7 @@ public:
     explicit SearchWorker(QObject *parent = 0);
     ~SearchWorker();
 
-    void startSearch(QString directory, QString searchTerm);
+    void startSearch(QString profilename, QString searchTerm);
 
     void cancel();
 

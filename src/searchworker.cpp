@@ -15,7 +15,7 @@
 
 #include "searchworker.h"
 #include <QDateTime>
-#include <QSettings>
+//#include <QSettings>
 #include <QDebug>
 #include "globals.h"
 #include "dbsqlite.h"
@@ -29,29 +29,37 @@ SearchWorker::SearchWorker(QObject *parent) :
     QThread(parent),
     m_cancelled(NotCancelled)
 {
+    qDebug()<<"Searchworker constructor";
 }
 
 SearchWorker::~SearchWorker()
 {
+    qDebug()<<"Searchworker destructor";
 }
 
-void SearchWorker::startSearch(QString directory, QString searchTerm)
+void SearchWorker::startSearch(QString profilename, QString searchTerm)
 {
     if (isRunning()) {
         emit errorOccurred(tr("Search already in progress"), "");
         return;
     }
-    if (directory.isEmpty() || searchTerm.isEmpty()) {
+    if (profilename.isEmpty() || searchTerm.isEmpty()) {
         emit errorOccurred(tr("Bad search parameters"), "");
         return;
     }
 
-    m_directory = directory;
+    m_profile.setNewName(profilename);
+
+    if (!m_profile.isWhiteList()) {
+        emit errorOccurred(tr("Bad profile configuration"), "");
+        return;
+    }
+
     m_searchTerm = searchTerm;
     //m_currentDirectory = directory;
     m_cancelled.storeRelease(NotCancelled);
     m_alreadySearchedNotes = false;
-    m_profile.resetWhiteList();
+
     start();
 }
 
@@ -91,15 +99,15 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
     emit progressChanged(m_currentDirectory);
 
 
-    QSettings settings;
-    bool hiddenSetting = settings.value("searchHiddenFiles", true).toBool();
-    bool enableSymlinks = settings.value("enableSymlinks", false).toBool();
-    bool singleMatchSetting = settings.value("showOnlyFirstMatch", true).toBool();
-    bool enableTxt = settings.value("Sections/enableTxtSection",true).toBool();
-    bool enableHtml = settings.value("Sections/enableHtmlSection",true).toBool();
-    bool enableSrc = settings.value("Sections/enableSrcSection",true).toBool();
-    bool enableSqlite = settings.value("Sections/enableSqliteSection",true).toBool();
-    bool enableNotes = settings.value("Sections/enableNotesSection",true).toBool();
+    //profile settings;
+    bool hiddenSetting = m_profile.getOption(Profile::searchHiddenFiles);
+    bool enableSymlinks = m_profile.getOption(Profile::enableSymlinks);
+    bool singleMatchSetting = m_profile.getOption(Profile::singleMatchSetting);
+    bool enableTxt = m_profile.getOption(Profile::enableTxt);
+    bool enableHtml = m_profile.getOption(Profile::enableHtml);
+    bool enableSrc = m_profile.getOption(Profile::enableSrc);
+    bool enableSqlite = m_profile.getOption(Profile::enableSqlite);
+    bool enableNotes = m_profile.getOption(Profile::enableNotes);
 
     QDir::Filter hidden = hiddenSetting ? QDir::Hidden : (QDir::Filter)0;
 
