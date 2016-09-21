@@ -25,6 +25,7 @@ Page {
 
     ListModel {
         id: profileListModel
+        property int idxSelected
 
         Component.onCompleted: {
             var list = []
@@ -35,12 +36,20 @@ Page {
             }
         }
 
-        onDataChanged: {
-            console.log("data changed")
+        function removeProfile(idx) {
+            profileListModel.remove(idx)
         }
-        onCountChanged: {
-            console.log("count changed",profileListModel)
 
+        function addProfile(name, desc) {
+            profileListModel.append({"profilename": name,  "profiledescription": desc})
+        }
+
+        function renameProfile(idx, name, desc) {
+            profileListModel.set(idx,{"profilename": name,  "profiledescription": desc})
+        }
+
+        function select(idx) {
+            profileListModel.idxSelected=idx
         }
     }
 
@@ -55,7 +64,7 @@ Page {
 
         model: profileListModel
 
-        VerticalScrollDecorator { flickable: fileList }
+        VerticalScrollDecorator { flickable: viewProfiles }
 
         PullDownMenu {
             MenuItem {
@@ -63,7 +72,7 @@ Page {
                 onClicked: {
                     var add = pageStack.push(addProfile, {}, PageStackAction.Animated)
                     add.accepted.connect( function() {
-                        profileListModel.append({"profilename": add.pnameText,  "profiledescription": add.pdescText})
+                        profileListModel.addProfile(add.pnameText, add.pdescText)
                     })
                 }
             }
@@ -76,6 +85,12 @@ Page {
 
             menu: ContextMenu {
                 MenuItem {
+                    text: qsTr("Select")
+                    onClicked: { profileListModel.select(index);
+                    } //pageStack.pop() }
+                }
+
+                MenuItem {
                     text: qsTr("Rename")
                     onClicked: {
                         var rename = pageStack.push(addProfile, {
@@ -83,21 +98,47 @@ Page {
                                                         "pdescText":profiledescription,
                                                         "pheaderTitle":qsTr("Rename Profile")}, PageStackAction.Animated)
                         rename.accepted.connect( function() {
-                            profileListModel.set(index,{"profilename":rename.pnameText,  "profiledescription": rename.pdescText})
+                            profileListModel.renameProfile(index, rename.pnameText, rename.pdescText)
                         })
                     }
                 }
                 MenuItem {
                     text: qsTr("Delete")
-                    onClicked: deleteProfileItem(index)
+                    onClicked: remorseDeleteProfile(index)
+                }
+            }
+
+            onClicked: {
+                pageStack.push(Qt.resolvedUrl("ProfileSettingsPage.qml"), {"profileName": profilename, "profileDesc": profiledescription})
+            }
+
+            Rectangle {
+                id: currentBar
+                visible: index === profileListModel.idxSelected ? 1 : 0
+                height: columnProfile.height
+                width: Theme.paddingSmall
+                anchors.left: parent.left
+                anchors.top: columnProfile.top
+                anchors.leftMargin: Theme.paddingLarge
+                color: Theme.highlightColor
+                gradient: Gradient {
+                    GradientStop {
+                        position: 0.00; color: Theme.highlightDimmerColor
+                    }
+                    GradientStop {
+                        position: 0.50; color: Theme.highlightColor
+                    }
+                    GradientStop {
+                        position: 1.00; color: Theme.highlightDimmerColor
+                    }
                 }
             }
 
             Column {
                 id: columnProfile
-                anchors.left: parent.left
+                anchors.left: currentBar.right
                 anchors.right: parent.right
-                anchors.leftMargin: Theme.paddingLarge
+                anchors.leftMargin: Theme.paddingMedium
                 anchors.rightMargin: Theme.paddingLarge
                 anchors.verticalCenter: parent.verticalCenter
 
@@ -122,59 +163,55 @@ Page {
 
             RemorseItem { id: remorse }
 
-            function deleteProfileItem(index) {
-                remorse.execute(itemProfile, qsTr("Deleting profile"), function() { profileListModel.remove(index) } )
+            function remorseDeleteProfile(idx) {
+                remorse.execute(itemProfile, qsTr("Deleting profile"), function() {profileListModel.removeProfile(idx)})
             }
         }
     }
 
-        Component {
-            id:addProfile
-            Dialog {
-                id: pp
-                property alias pnameText: pname.text
-                property alias pdescText: pdesc.text
-                property alias pheaderTitle: pheader.title
+    Component {
+        id:addProfile
+        Dialog {
+            property alias pnameText: pname.text
+            property alias pdescText: pdesc.text
+            property alias pheaderTitle: pheader.title
 
-                DialogHeader {
-                    id: dheader
-                    acceptText: qsTr("Accept")
-                    cancelText: qsTr("Cancel")
+            DialogHeader {
+                id: dheader
+                acceptText: qsTr("Accept")
+                cancelText: qsTr("Cancel")
+            }
+
+            Column {
+                width: parent.width
+                anchors.top: dheader.bottom
+                spacing: Theme.paddingLarge
+
+                PageHeader { id: pheader; title: qsTr("Add profile") }
+
+                TextField {
+                    id: pname
+                    width: parent.width
+                    label: qsTr("Profile name")
+                    placeholderText: label
+                    EnterKey.enabled: text || inputMethodComposing
+                    EnterKey.iconSource: "image://theme/icon-m-enter-next"
+                    EnterKey.onClicked: pdesc.focus = true
+                    focus: true;
                 }
 
-                Column {
+                TextField {
+                    id: pdesc
                     width: parent.width
-                    anchors.top: dheader.bottom
-                    spacing: Theme.paddingLarge
-
-                    PageHeader { id: pheader; title: qsTr("Add profile") }
-
-                    TextField {
-                        id: pname
-                        width: parent.width
-                        label: qsTr("Profile name")
-                        placeholderText: label
-                        EnterKey.enabled: text || inputMethodComposing
-                        EnterKey.iconSource: "image://theme/icon-m-enter-next"
-                        EnterKey.onClicked: pdesc.focus = true
-                        focus: true;
-                    }
-
-                    TextField {
-                        id: pdesc
-                        width: parent.width
-                        label: qsTr("Profile description")
-                        placeholderText: label
-                        enabled: pname.text
-                        //EnterKey.enabled: text || inputMethodComposing
-                        EnterKey.enabled: true
-                        EnterKey.iconSource: "image://theme/icon-m-enter-close"
-                        EnterKey.onClicked: {
-                            accept()
-                        }
-                    }
+                    label: qsTr("Profile description")
+                    placeholderText: label
+                    enabled: pname.text
+                    //EnterKey.enabled: text || inputMethodComposing
+                    EnterKey.enabled: true
+                    EnterKey.iconSource: "image://theme/icon-m-enter-close"
+                    EnterKey.onClicked: accept()
                 }
             }
         }
-
+    }
 }
