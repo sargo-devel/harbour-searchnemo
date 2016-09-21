@@ -98,7 +98,8 @@ DISTFILES += \
     qml/pages/SqlRecordView.qml \
     qml/pages/viewadds/AnimatedHeader.qml \
     translations/harbour-searchnemo-sv_SE.ts \
-    qml/pages/DirTree.qml
+    qml/pages/DirTree.qml \
+    qml/pages/ProfilesPage.qml
 
 HEADERS += \
     src/searchengine.h \

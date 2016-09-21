@@ -94,6 +94,8 @@ int main(int argc, char *argv[])
     Settings settings1;
     if( settings1.readStringList(profilename + " Whitelist").size() == 0 )
         settings1.writeStringList(profilename + " Whitelist", QStringList(homedir));
+    if( settings1.readStringList("ProfilesList").size() == 0 )
+        settings1.writeStringList("ProfilesList", QStringList(profilename));
 
     QScopedPointer<QQuickView> view(SailfishApp::createView());
     view->setSource(SailfishApp::pathTo("qml/harbour-searchnemo.qml"));

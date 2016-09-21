@@ -118,7 +118,6 @@ Page {
                             for (var i=0; i<wblist.count; i++) {
                                 console.log("wblist["+i+"]",wblist.get(i).dirname, wblist.get(i).enable) }
                         })
-
                     }
                 }
 

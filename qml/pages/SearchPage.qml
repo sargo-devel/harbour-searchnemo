@@ -185,6 +185,10 @@ Page {
                 text: qsTr("Settings")
                 onClicked: pageStack.push(Qt.resolvedUrl("SettingsPage.qml"))
             }
+            MenuItem {
+                text: qsTr("Profiles")
+                onClicked: pageStack.push(Qt.resolvedUrl("ProfilesPage.qml"))
+            }
         }
 
         header: Item {
