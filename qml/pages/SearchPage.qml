@@ -28,6 +28,7 @@ Page {
     allowedOrientations: Orientation.All
 
     property string profilename: "Default" // holds the name of profile where all search dirs are defined
+    onProfilenameChanged: console.log("search profilename=",profilename)
     property string currentDirectory: "" // holds the directory which is being searched by SearchEngine
     property string searchFieldText: "" // holds the copy of search text from searchField
     // used to disable SelectionPanel while remorse timer is active
@@ -187,7 +188,10 @@ Page {
             }
             MenuItem {
                 text: qsTr("Profiles")
-                onClicked: pageStack.push(Qt.resolvedUrl("ProfilesPage.qml"))
+                onClicked: {
+                    var exit=pageStack.push(Qt.resolvedUrl("ProfilesPage.qml"), {currentProfile: page.profilename})
+                    exit.ret.connect( function() {page.profilename=exit.currentProfile} )
+                }
             }
         }
 
@@ -518,7 +522,7 @@ Page {
     function insertIntoModel(entry) {
         var pos=0
         var i=searchEngine.categoryTab[entry.searchtype]
-        var maxres = settings.read("maxResultsPerSection",50)
+        var maxres = settings.read(profilename+" Options/maxResultsPerSection",50)
 
         for(var j=0; j<=i; j++) {
             pos = pos + searchEngine.ord[j]

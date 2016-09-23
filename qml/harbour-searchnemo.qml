@@ -24,7 +24,7 @@ ApplicationWindow
     property string coverPlaceText: "Search Nemo"
     property bool newSearch: false
     property string startDir: "/"  //!!! na razie nie kasuj
-    property string startProfilename: "Default"
+    property string startProfilename: ""
 
     initialPage: Component { SearchPage { profilename: startProfilename } }
     cover: Qt.resolvedUrl("cover/CoverPage.qml")

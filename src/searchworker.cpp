@@ -48,10 +48,10 @@ void SearchWorker::startSearch(QString profilename, QString searchTerm)
         return;
     }
 
-    m_profile.setNewName(profilename);
+    m_profile.setName(profilename);
 
     if (!m_profile.isWhiteList()) {
-        emit errorOccurred(tr("Bad profile configuration"), "");
+        emit errorOccurred(tr("Profile configuration error!"), tr("Check profile whitelist..."));
         return;
     }
 
@@ -100,14 +100,14 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
 
 
     //profile settings;
-    bool hiddenSetting = m_profile.getOption(Profile::searchHiddenFiles);
-    bool enableSymlinks = m_profile.getOption(Profile::enableSymlinks);
-    bool singleMatchSetting = m_profile.getOption(Profile::singleMatchSetting);
-    bool enableTxt = m_profile.getOption(Profile::enableTxt);
-    bool enableHtml = m_profile.getOption(Profile::enableHtml);
-    bool enableSrc = m_profile.getOption(Profile::enableSrc);
-    bool enableSqlite = m_profile.getOption(Profile::enableSqlite);
-    bool enableNotes = m_profile.getOption(Profile::enableNotes);
+    bool hiddenSetting = m_profile.getBoolOption(Profile::SearchHiddenFiles);
+    bool enableSymlinks = m_profile.getBoolOption(Profile::EnableSymlinks);
+    bool singleMatchSetting = m_profile.getBoolOption(Profile::SingleMatchSetting);
+    bool enableTxt = m_profile.getBoolOption(Profile::EnableTxt);
+    bool enableHtml = m_profile.getBoolOption(Profile::EnableHtml);
+    bool enableSrc = m_profile.getBoolOption(Profile::EnableSrc);
+    bool enableSqlite = m_profile.getBoolOption(Profile::EnableSqlite);
+    bool enableNotes = m_profile.getBoolOption(Profile::EnableNotes);
 
     QDir::Filter hidden = hiddenSetting ? QDir::Hidden : (QDir::Filter)0;
 

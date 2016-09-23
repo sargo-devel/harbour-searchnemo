@@ -36,6 +36,7 @@
 #include "consolemodel.h"
 #include "dirtreemodel.h"
 #include "settings.h"
+#include "profile.h"
 
 int main(int argc, char *argv[])
 {
@@ -79,6 +80,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<ConsoleModel>("harbour.searchnemo.ConsoleModel", 1, 0, "ConsoleModel");
     qmlRegisterType<DirtreeModel>("harbour.searchnemo.DirtreeModel", 1, 0, "DirtreeModel");
     qmlRegisterType<Settings>("harbour.searchnemo.Settings", 1, 0, "Settings");
+    qmlRegisterType<Profile>("harbour.searchnemo.Profile", 1, 0, "Profile");
 
     QString homedir=QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
     //qDebug() << "homedir=" << homedir;
@@ -89,13 +91,15 @@ int main(int argc, char *argv[])
     qDebug() << "startDir=" << startDir;
 
     //set start profile
-    QString profilename=settings.value("startProfile", "Default").toString();
-    QString startProfilename=profilename;
     Settings settings1;
-    if( settings1.readStringList(profilename + " Whitelist").size() == 0 )
-        settings1.writeStringList(profilename + " Whitelist", QStringList(homedir));
+    QStringList plist=settings1.readStringList("ProfilesList");
+    QString profilename=settings.value("startProfile", "Default").toString();
+    if ((plist.indexOf(profilename) < 0) && (plist.size() > 0) ) profilename = plist.at(0);
+    QString startProfilename=profilename;
+    if( settings1.readStringList(startProfilename + " Whitelist").size() == 0 )
+        settings1.writeStringList(startProfilename + " Whitelist", QStringList(homedir));
     if( settings1.readStringList("ProfilesList").size() == 0 )
-        settings1.writeStringList("ProfilesList", QStringList(profilename));
+        settings1.writeStringList("ProfilesList", QStringList(startProfilename));
 
     QScopedPointer<QQuickView> view(SailfishApp::createView());
     view->setSource(SailfishApp::pathTo("qml/harbour-searchnemo.qml"));

@@ -16,18 +16,40 @@
 import QtQuick 2.2
 import Sailfish.Silica 1.0
 import harbour.searchnemo.Settings 1.0
+import "../components"
 
 Page {
     id: profilesPage
     allowedOrientations: Orientation.All
 
+    //profile currently used by search
+    property alias currentProfile: profileListModel.nameSelected
+
+    //signal used for return parameters
+    signal ret
+    Component.onDestruction: ret()
+
+    onStatusChanged: {
+        console.log("ProfilesPage status=",status,"(I,A^,A,D:",PageStatus.Inactive,PageStatus.Activating,PageStatus.Active,PageStatus.Deactivating,")")
+        if (status === PageStatus.Activating) {
+            profileListModel.readProfileList()
+        }
+    }
+
     Settings { id: settings }
 
     ListModel {
         id: profileListModel
-        property int idxSelected
 
-        Component.onCompleted: {
+        //contains index of current profile (search will use this profile)
+        property string nameSelected
+
+        onNameSelectedChanged: console.log("nameSelected=",nameSelected)
+
+        //Component.onCompleted: readProfileList()
+
+        function readProfileList() {
+            profileListModel.clear()
             var list = []
             list=settings.readStringList("ProfilesList")
             for (var i = 0; i < list.length; i++) {
@@ -36,20 +58,70 @@ Page {
             }
         }
 
-        function removeProfile(idx) {
-            profileListModel.remove(idx)
+        function addProfile(name, desc) {
+            if (profileListModel.nameExistsInList(name)) { profileListModel.dispError();return }
+            profileListModel.append({"profilename": name,  "profiledescription": desc})
+            settings.write(name +" Options/description", desc)
+            saveProfilesList()
         }
 
-        function addProfile(name, desc) {
-            profileListModel.append({"profilename": name,  "profiledescription": desc})
+        function removeProfile(idx) {
+            if ( profileListModel.count > 1 ) {
+                var name = profileListModel.get(idx).profilename
+                profileListModel.remove(idx)
+                if (name === profileListModel.nameSelected) {
+                    profileListModel.nameSelected=profileListModel.get(0).profilename
+                }
+                deleteProfileSettings(name)
+                saveProfilesList()
+            }
         }
 
         function renameProfile(idx, name, desc) {
+            if (profileListModel.nameExistsInList(name)) { profileListModel.dispError();return }
+            var oldname = profileListModel.get(idx).profilename
             profileListModel.set(idx,{"profilename": name,  "profiledescription": desc})
+            settings.copyGroups(oldname +" Options", name +" Options")
+            settings.copyGroups(oldname +" Sections", name +" Sections")
+            settings.copyArrays(oldname +" Whitelist", name +" Whitelist")
+            settings.copyArrays(oldname +" Blacklist", name +" Blacklist")
+            deleteProfileSettings(oldname)
+            settings.write(name +" Options/description", desc)
+            saveProfilesList()
+            if (oldname === profileListModel.nameSelected) { profileListModel.nameSelected=name }
         }
 
-        function select(idx) {
-            profileListModel.idxSelected=idx
+        function select(name) {
+            profileListModel.nameSelected=name
+        }
+
+        function saveProfilesList() {
+            var list = []
+            for (var i=0; i < profileListModel.count; i++) {
+                list[i] = profileListModel.get(i).profilename
+            }
+            settings.remove("ProfilesList")
+            settings.writeStringList("ProfilesList",list)
+        }
+
+        function deleteProfileSettings(name) {
+            settings.remove(name +" Options")
+            settings.remove(name +" Sections")
+            settings.remove(name +" Whitelist")
+            settings.remove(name +" Blacklist")
+        }
+
+        function nameExistsInList(name) {
+            var list = []
+            for (var i=0; i < profileListModel.count; i++) {
+                list[i] = profileListModel.get(i).profilename
+            }
+            if (settings.nameExists(list,name)) return true
+            return false
+        }
+
+        function dispError() {
+            notificationPanel.showText(qsTr("Profile name error!"), qsTr("Name exists. Try another one..."))
         }
     }
 
@@ -86,7 +158,7 @@ Page {
             menu: ContextMenu {
                 MenuItem {
                     text: qsTr("Select")
-                    onClicked: { profileListModel.select(index);
+                    onClicked: { profileListModel.select(profilename);
                     } //pageStack.pop() }
                 }
 
@@ -103,18 +175,19 @@ Page {
                     }
                 }
                 MenuItem {
+                    enabled: (profileListModel.count > 1) ? true : false
                     text: qsTr("Delete")
                     onClicked: remorseDeleteProfile(index)
                 }
             }
 
             onClicked: {
-                pageStack.push(Qt.resolvedUrl("ProfileSettingsPage.qml"), {"profileName": profilename, "profileDesc": profiledescription})
+                pageStack.push(Qt.resolvedUrl("ProfileSettingsPage.qml"), {"profileName": profilename})
             }
 
             Rectangle {
                 id: currentBar
-                visible: index === profileListModel.idxSelected ? 1 : 0
+                visible: profilename === profileListModel.nameSelected ? 1 : 0
                 height: columnProfile.height
                 width: Theme.paddingSmall
                 anchors.left: parent.left
@@ -167,6 +240,11 @@ Page {
                 remorse.execute(itemProfile, qsTr("Deleting profile"), function() {profileListModel.removeProfile(idx)})
             }
         }
+    }
+
+    NotificationPanel {
+        id: notificationPanel
+        page: profilesPage
     }
 
     Component {
