@@ -28,7 +28,10 @@ Page {
     allowedOrientations: Orientation.All
 
     property string profilename: "Default" // holds the name of profile where all search dirs are defined
-    onProfilenameChanged: console.log("search profilename=",profilename)
+    onProfilenameChanged: {
+        profList.reload()
+        console.log("search profilename=",profilename)
+    }
     property string currentDirectory: "" // holds the directory which is being searched by SearchEngine
     property string searchFieldText: "" // holds the copy of search text from searchField
     // used to disable SelectionPanel while remorse timer is active
@@ -42,6 +45,18 @@ Page {
     FileData { id: fileData }
 
     ConsModel { id: consoleModel }
+
+    // This model keeps list of available profiles
+    ListModel {
+        id: profList
+        Component.onCompleted: reload()
+        function reload() {
+            profList.clear()
+            var list = []
+            list=settings.readStringList("ProfilesList")
+            for (var i = 0; i < list.length; i++) append({"name": list[i]})
+        }
+    }
 
     // this and its bg worker thread will be destroyed when page in popped from stack
     SearchEngine {
@@ -190,7 +205,7 @@ Page {
                 text: qsTr("Profiles")
                 onClicked: {
                     var exit=pageStack.push(Qt.resolvedUrl("ProfilesPage.qml"), {currentProfile: page.profilename})
-                    exit.ret.connect( function() {page.profilename=exit.currentProfile} )
+                    exit.ret.connect( function() {page.profilename=exit.currentProfile; profList.reload()} )
                 }
             }
         }
@@ -198,8 +213,8 @@ Page {
         header: Item {
             id:fileListHeader
             width: parent.width
-            height: Theme.itemSizeLarge
-
+//            height: Theme.itemSizeLarge
+            height: searchField.height+foundText.height+selectProfile.height
             SearchField {
                 id: searchField
                 anchors.left: parent.left
@@ -236,6 +251,7 @@ Page {
                 }
 
             }
+
             // our own "IconButton" to make the mouse area large and easier to tap
             IconButton {
                 id: cancelSearchButton
@@ -274,6 +290,7 @@ Page {
                 color: Theme.secondaryColor
             }
             Label {
+                id: dispCurDir
                 anchors.left: parent.left
                 anchors.leftMargin: 3*Theme.itemSizeSmall
                 anchors.right: parent.right
@@ -284,6 +301,27 @@ Page {
                 font.pixelSize: Theme.fontSizeTiny
                 color: Theme.secondaryColor
                 elide: Text.ElideRight
+            }
+            ComboBox {
+                id: selectProfile
+                anchors.left: parent.left
+                anchors.right: parent.right
+                anchors.top: dispCurDir.bottom
+                label: qsTr("Profile:")
+                value: page.profilename
+                onClicked: {listModel.update("")}
+                menu: ContextMenu {
+                    id: profMenu
+                    Repeater {
+                        model: profList
+                        MenuItem {
+                            text: name
+                            onClicked: page.profilename = name
+                        }
+                    }
+//                    onActivated: {console.log(profMenu.height)}
+//                    onHeightChanged: selectProfile.height=80+height
+                }
             }
         }
 
