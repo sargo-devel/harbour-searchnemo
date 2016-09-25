@@ -100,7 +100,8 @@ DISTFILES += \
     translations/harbour-searchnemo-sv_SE.ts \
     qml/pages/DirTree.qml \
     qml/pages/ProfilesPage.qml \
-    qml/pages/ProfileSettingsPage.qml
+    qml/pages/ProfileSettingsPage.qml \
+    qml/pages/DirLists.qml
 
 HEADERS += \
     src/searchengine.h \

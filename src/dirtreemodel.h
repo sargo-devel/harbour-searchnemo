@@ -7,7 +7,7 @@
 class DirtreeModel : public QAbstractListModel
 {
     Q_OBJECT
-    Q_PROPERTY(QString path READ getPath WRITE setPath)
+    Q_PROPERTY(QString path READ path() WRITE setPath(QString&) NOTIFY pathChanged())
 
 public:
     enum ItemRole {
@@ -24,10 +24,12 @@ public:
     QVariant data(const QModelIndex& index, int role = Qt::DisplayRole) const;
     QHash<int, QByteArray> roleNames() const;
 
-    QString getPath();
+    QString path();
     void setPath(const QString& path);
 
     Q_INVOKABLE void cd(const QString& path);
+signals:
+    void pathChanged();
 
 private:
     QString m_path;

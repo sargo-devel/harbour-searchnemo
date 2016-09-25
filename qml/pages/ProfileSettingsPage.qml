@@ -85,35 +85,57 @@ Page {
                 }
 
                 SectionHeader { text: qsTr("Search directories lists")}
+                Spacer { height: Theme.paddingLarge }
                 BackgroundItem {
                     id: profLists
                     width: parent.width
-//                    anchors.topMargin: 3*Theme.paddingLarge
 
-                    Spacer {
-                        height: Theme.paddingMedium
+                    onClicked: {
+                        var exit=pageStack.push(Qt.resolvedUrl("DirLists.qml"), {"profileName": profileName})
+                        exit.ret.connect( function() {
+                            profile.reloadWBLists()
+                            profWhite.text = qsTr("Whitelist directories:")+" "+profile.countWhiteList()
+                            profBlack.text = qsTr("Blacklist directories:")+" "+profile.countBlackList()
+                        } )
                     }
 
+                    Image {
+                        id: whiteIcon
+                        anchors.left: parent.left
+                        anchors.top: profWhite.top
+                        anchors.leftMargin: Theme.horizontalPageMargin
+                        //anchors.verticalCenter: parent.verticalCenter
+                        source: "image://theme/icon-s-installed"
+                    }
                     Label {
                         id: profWhite
-                        anchors.left: parent.left
+                        anchors.left: whiteIcon.right
                         anchors.right: parent.right
-                        anchors.leftMargin: Theme.horizontalPageMargin
+                        anchors.leftMargin: Theme.paddingMedium
                         anchors.rightMargin: Theme.horizontalPageMargin
 //                        textFormat: Text.StyledText
                         //text: qsTr("Whitelist directories:")+" "+profile.countWhiteList()
                     }
+                    Image {
+                        id: blackIcon
+                        anchors.left: parent.left
+                        anchors.top: profBlack.top
+                        anchors.leftMargin: Theme.horizontalPageMargin
+                        //anchors.verticalCenter: parent.verticalCenter
+                        source: "image://theme/icon-s-low-importance"
+                    }
                     Label {
                         id: profBlack
-                        anchors.left: parent.left
+                        anchors.left: blackIcon.right
                         anchors.right: parent.right
                         anchors.top: profWhite.bottom
-                        anchors.leftMargin: Theme.horizontalPageMargin
+                        anchors.leftMargin: Theme.paddingMedium
                         anchors.rightMargin: Theme.horizontalPageMargin
 //                        textFormat: Text.StyledText
                         //text: qsTr("Blacklist directories:")+" "+profile.countBlackList()
                     }
                 }
+                Spacer { height: Theme.paddingLarge }
 
                 SectionHeader { text: qsTr("Search options")}
                 TextSwitch {

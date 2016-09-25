@@ -26,9 +26,6 @@ Dialog {
     //list model: dirname=fullpath, enable=true/false (whitelisted/blacklisted)
     property ListModel wblistModel
 
-    //currentStartDir contains last added whitelist directory
-    property string currentStartDir
-
     DirtreeModel {
         id: dirtreeModel
     }
@@ -84,20 +81,15 @@ Dialog {
                     anchors.left: parent.left
                     anchors.leftMargin: Theme.paddingLarge
                     anchors.verticalCenter: parent.verticalCenter
-                    source: isInWhiteList(path) ? "image://theme/icon-s-installed" : "image://theme/icon-s-low-importance"
-//                           (isInBlackList(path) ? "image://theme/icon-s-low-importance" :
-//                                                  "")
-                    opacity: (isInWhiteList(path) || isInBlackList(path)) ? 1 : 0
+                    source: wblistModel.isInWhiteList(path) ? "image://theme/icon-s-installed" : "image://theme/icon-s-low-importance"
+                    opacity: (wblistModel.isInWhiteList(path) || wblistModel.isInBlackList(path)) ? 1 : 0
                 }
                 Image {
                     id: folderIcon
                     anchors.left: statusIcon.right
                     anchors.leftMargin: Theme.paddingSmall
                     anchors.verticalCenter: parent.verticalCenter
-                    //   anchors.topMargin: 11
-                    source: //isInWhiteList(path) ? "image://theme/icon-s-installed" :
-                           //(isInBlackList(path) ? "image://theme/icon-s-low-importance" :
-                                                  "../images/small-folder.png"
+                    source: "../images/small-folder.png"
                 }
                 Label {
                     id: dirName
@@ -108,15 +100,18 @@ Dialog {
                     anchors.verticalCenter: parent.verticalCenter
                     truncationMode: TruncationMode.Fade
                     text: name
-                    color: isInWhiteList(path) ? Theme.highlightColor :
-                          (isInBlackList(path) ? Theme.secondaryHighlightColor :
-                                                  Theme.primaryColor)
+                    color: wblistModel.isInWhiteList(path) ? Theme.highlightColor :
+                          (wblistModel.isInBlackList(path) ? Theme.secondaryHighlightColor : Theme.primaryColor)
                 }
 
                 onClicked: {
                     if (isDir) {
+                        //currentPath=path
+//                        console.log(name, path)
                         dirtreeModel.cd(name)
-                        pathLabel.text = qsTr("Path:") + " " + path
+
+                        //pathLabel.text = qsTr("Path:") + " " + path
+                        //currentPath=name
                     }
                 }
 
@@ -126,35 +121,21 @@ Dialog {
                         MenuItem {
                             text: qsTr("Add to whitelist")
                             onClicked: {
-                                currentStartDir=model.path
-                                wblistModel.append({ dirname: model.path,  enable: true })
+                                //currentStartDir=model.path
+                                wblistModel.addDir(model.path, true)
                             }
                         }
                         MenuItem {
                             text: qsTr("Add to blacklist")
-                            onClicked: wblistModel.append({ dirname: model.path,  enable: false })
+                            onClicked: wblistModel.addDir(model.path, false)
+                        }
+                        MenuItem {
+                            text: qsTr("Remove from lists")
+                            onClicked: wblistModel.removeDirName(model.path)
                         }
                     }
                 }
             }
         }
-    }
-
-    function isInWhiteList(txt) {
-        var index = 0
-        for (var i = 0; i < wblistModel.count; i++)
-            if( wblistModel.get(i).dirname === txt && wblistModel.get(i).enable ) {
-                return true
-            }
-        return false
-    }
-
-    function isInBlackList(txt) {
-        var index = 0
-        for (var i = 0; i < wblistModel.count; i++)
-            if( wblistModel.get(i).dirname === txt && !wblistModel.get(i).enable ) {
-                return true
-            }
-        return false
     }
 }

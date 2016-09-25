@@ -74,6 +74,14 @@ void Profile::resetWhiteList()
         m_indexWhiteList=0;
 }
 
+void Profile::reloadWBLists()
+{
+    m_whiteList.clear();
+    readWhiteList();
+    m_blackList.clear();
+    readBlackList();
+}
+
 //Function reads whitelist from settings file. It assumes valid profile name.
 void Profile::readWhiteList()
 {
@@ -95,6 +103,7 @@ void Profile::writeWhiteList()
 {
     Settings settings;
 
+    settings.remove(m_name + " Whitelist");
     settings.writeStringList(m_name + " Whitelist", m_whiteList);
 }
 
@@ -103,6 +112,7 @@ void Profile::writeBlackList()
 {
     Settings settings;
 
+    settings.remove(m_name + " Blacklist");
     settings.writeStringList(m_name + " Blacklist", m_blackList);
 }
 

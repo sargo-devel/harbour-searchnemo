@@ -66,7 +66,7 @@ void DirtreeModel::load()
     m_files = m_dir.entryInfoList();
 }
 
-QString DirtreeModel::getPath()
+QString DirtreeModel::path()
 {
     return m_dir.path();
 }
@@ -77,6 +77,7 @@ void DirtreeModel::setPath(const QString& path)
     m_dir.setPath(path);
     load();
     endResetModel();
+    emit pathChanged();
 }
 
 void DirtreeModel::cd(const QString& path)
@@ -85,4 +86,5 @@ void DirtreeModel::cd(const QString& path)
     m_dir.cd(path);
     load();
     endResetModel();
+    emit pathChanged();
 }
