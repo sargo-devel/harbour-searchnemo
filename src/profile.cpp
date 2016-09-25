@@ -21,25 +21,6 @@
 
 Profile::Profile(QObject *parent) : QObject(parent)
 {
-//    m_name=name;
-    //if( m_name.isEmpty() ) m_name=tr("Default");
-
-
-//    m_whiteList.append("/home/nemo/Music");
-//    m_whiteList.append("/usr/share/applications");
-//    m_whiteList.append("/home/nemo/Pictures");
-//    m_whiteList.append("/home/nemo/Documents");
-//    m_blackList.append("/home/nemo/Documents/bazy");
-//    m_blackList.append("/home/nemo/Pictures/Jolla");
-
-//    writeWhiteList();
-//    writeBlackList();
-
-
-//    readWhiteList(); //get whitelist from file
-//    resetWhiteList();
-//    readBlackList(); //get blacklist from file
-
     m_unsaved=false;
 }
 
@@ -59,7 +40,6 @@ void Profile::setName(QString profilename)
     readBlackList(); //get blacklist from file
     readOptions();
     emit nameChanged();
-    qDebug()<<"setName="<<m_name;
 }
 
 //Function checks if whitelist is not empty and compares its size with index

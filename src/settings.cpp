@@ -71,7 +71,7 @@ void Settings::write(QString key, bool value)
 {
     QSettings settings;
 
-    if (settings.value(key).toBool() == value) return;
+    //if (settings.value(key).toBool() == value) return;
     settings.setValue(key, value);
     qDebug()<<"bool";
     emit settingsChanged();

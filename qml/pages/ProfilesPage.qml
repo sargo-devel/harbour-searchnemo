@@ -72,6 +72,8 @@ Page {
                 if (name === profileListModel.nameSelected) {
                     profileListModel.nameSelected=profileListModel.get(0).profilename
                 }
+                var defaultProf = settings.read("defaultProfileSetting","Default")
+                if (defaultProf === name) { settings.write("defaultProfileSetting", profileListModel.get(0).profilename) }
                 deleteProfileSettings(name)
                 saveProfilesList()
             }
@@ -89,6 +91,8 @@ Page {
             settings.write(name +" Options/description", desc)
             saveProfilesList()
             if (oldname === profileListModel.nameSelected) { profileListModel.nameSelected=name }
+            var defaultProf = settings.read("defaultProfileSetting","Default")
+            if (defaultProf === oldname) { settings.write("defaultProfileSetting", name) }
         }
 
         function select(name) {

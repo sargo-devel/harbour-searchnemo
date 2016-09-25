@@ -54,7 +54,7 @@ Page {
             profList.clear()
             var list = []
             list=settings.readStringList("ProfilesList")
-            for (var i = 0; i < list.length; i++) append({"name": list[i]})
+            for (var i = 0; i < list.length; i++) profList.append({"name": list[i]})
         }
     }
 

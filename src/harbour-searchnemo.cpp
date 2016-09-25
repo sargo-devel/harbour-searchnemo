@@ -93,7 +93,7 @@ int main(int argc, char *argv[])
     //set start profile
     Settings settings1;
     QStringList plist=settings1.readStringList("ProfilesList");
-    QString profilename=settings.value("startProfile", "Default").toString();
+    QString profilename=settings.value("defaultProfileSetting", "Default").toString();
     if ((plist.indexOf(profilename) < 0) && (plist.size() > 0) ) profilename = plist.at(0);
     QString startProfilename=profilename;
     if( settings1.readStringList(startProfilename + " Whitelist").size() == 0 )

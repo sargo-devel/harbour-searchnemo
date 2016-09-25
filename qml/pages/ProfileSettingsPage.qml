@@ -17,7 +17,7 @@ import QtQuick 2.2
 import Sailfish.Silica 1.0
 //import harbour.searchnemo.Settings 1.0
 import harbour.searchnemo.Profile 1.0
-//import "../components"
+import "../components"
 //import "functions.js" as Functions
 
 Page {
@@ -31,6 +31,7 @@ Page {
         name: profileName
         Component.onCompleted: {
             console.log(name)
+            console.log(Profile.SearchHiddenFiles)
             //nameChanged()
 //            profile.setNewName(profileName)
 //            profName.text=name()
@@ -83,6 +84,120 @@ Page {
                     onFocusChanged: { text=profile.description() }
                 }
 
+                SectionHeader { text: qsTr("Search directories lists")}
+                BackgroundItem {
+                    id: profLists
+                    width: parent.width
+//                    anchors.topMargin: 3*Theme.paddingLarge
+
+                    Spacer {
+                        height: Theme.paddingMedium
+                    }
+
+                    Label {
+                        id: profWhite
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+                        anchors.leftMargin: Theme.horizontalPageMargin
+                        anchors.rightMargin: Theme.horizontalPageMargin
+//                        textFormat: Text.StyledText
+                        //text: qsTr("Whitelist directories:")+" "+profile.countWhiteList()
+                    }
+                    Label {
+                        id: profBlack
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+                        anchors.top: profWhite.bottom
+                        anchors.leftMargin: Theme.horizontalPageMargin
+                        anchors.rightMargin: Theme.horizontalPageMargin
+//                        textFormat: Text.StyledText
+                        //text: qsTr("Blacklist directories:")+" "+profile.countBlackList()
+                    }
+                }
+
+                SectionHeader { text: qsTr("Search options")}
+                TextSwitch {
+                    id: searchHiddenFiles
+                    text: qsTr("Search hidden files")
+                    description: qsTr("Enables searching inside hidden files and hidden directories")
+                    onClicked: profile.setOption(Profile.SearchHiddenFiles, checked)
+                }
+
+                TextSwitch {
+                    id: enableSymlinks
+                    text: qsTr("Follow symbolic links")
+                    description: qsTr("When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.")
+                    onClicked: profile.setOption(Profile.EnableSymlinks, checked)
+                }
+
+                TextSwitch {
+                    id: showOnlyFirstMatch
+                    text: qsTr("Show cumulative search results")
+                    description: qsTr("Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view")
+                    onClicked: profile.setOption(Profile.SingleMatchSetting, checked)
+                }
+
+                SectionHeader { text: qsTr("Search results") }
+                Slider {
+                    id: maxResultsPerSection
+                    //value: 50
+                    minimumValue:10
+                    maximumValue:200
+                    stepSize: 10
+                    width: parent.width
+                    valueText: value
+                    label: qsTr("max. nr of results per section")
+                    //onValueChanged: settings.write("maxResultsPerSection", value.toString())
+                    onValueChanged: {
+                        console.log("slider")
+                        if (profile.getIntOption(Profile.MaxResultsPerSection) !== value)
+                            profile.setOption(Profile.MaxResultsPerSection, value)
+                    }
+                }
+
+                SectionHeader { text: qsTr("Result sections") }
+                TextSwitch {
+                    id: enableTxtSection
+                    text: qsTr("Enable TXT section")
+                    description: qsTr("Enables searching inside *.txt files")
+                    onClicked: profile.setOption(Profile.EnableTxt, checked)
+//                    onCheckedChanged: settings.write("Sections/enableTxtSection", checked.toString())
+                }
+
+                TextSwitch {
+                    id: enableHtmlSection
+                    text: qsTr("Enable HTML section")
+                    description: qsTr("Enables searching inside *.html, *.htm files")
+                    onClicked: profile.setOption(Profile.EnableHtml, checked)
+//                    onCheckedChanged: settings.write("Sections/enableHtmlSection", checked.toString())
+                }
+
+                TextSwitch {
+                    id: enableSrcSection
+                    text: qsTr("Enable SRC section")
+                    description: qsTr("Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files")
+                    onClicked: profile.setOption(Profile.EnableSrc, checked)
+//                    onCheckedChanged: settings.write("Sections/enableSrcSection", checked.toString())
+                }
+
+                TextSwitch {
+                    id: enableSqliteSection
+                    text: qsTr("Enable SQLITE section")
+                    description: qsTr("Enables searching inside *.sqlite, *.db files")
+                    onClicked: profile.setOption(Profile.EnableSqlite, checked)
+//                    onCheckedChanged: settings.write("Sections/enableSqliteSection", checked.toString())
+                }
+
+                TextSwitch {
+                    id: enableNotesSection
+                    text: qsTr("Enable NOTES section")
+                    description: qsTr("Enables searching inside Notes application database")
+                    onClicked: profile.setOption(Profile.EnableNotes, checked)
+//                    onCheckedChanged: settings.write("Sections/enableNotesSection", checked.toString())
+                }
+
+
+
             }
 
     }
@@ -91,23 +206,26 @@ Page {
         console.log("ProfileSettingPage status=",status,"(I,A^,A,D:",PageStatus.Inactive,PageStatus.Activating,PageStatus.Active,PageStatus.Deactivating,")")
         // read settings
         if (status === PageStatus.Activating) {
+            profWhite.text = qsTr("Whitelist directories:")+" "+profile.countWhiteList()
+            profBlack.text = qsTr("Blacklist directories:")+" "+profile.countBlackList()
             profDesc.text = profile.description()
 //            startDirectory.text = settings.read("startDir","");
-//            searchHiddenFiles.checked = (settings.read("searchHiddenFiles",true) === "true");
-//            enableSymlinks.checked = (settings.read("enableSymlinks", false) === "true");
-//            showOnlyFirstMatch.checked = (settings.read("showOnlyFirstMatch",true) === "true");
-//            maxResultsPerSection.value = settings.read("maxResultsPerSection",50);
-//            enableTxtSection.checked = (settings.read("Sections/enableTxtSection",true) === "true");
-//            enableHtmlSection.checked = (settings.read("Sections/enableHtmlSection",true) === "true");
-//            enableSrcSection.checked = (settings.read("Sections/enableSrcSection",true) === "true");
-//            enableSqliteSection.checked = (settings.read("Sections/enableSqliteSection",true) === "true");
-//            enableNotesSection.checked = (settings.read("Sections/enableNotesSection",true) === "true");
+            searchHiddenFiles.checked = profile.getBoolOption(Profile.SearchHiddenFiles)
+            enableSymlinks.checked = profile.getBoolOption(Profile.EnableSymlinks)
+            showOnlyFirstMatch.checked = profile.getBoolOption(Profile.SingleMatchSetting)
+            maxResultsPerSection.value = profile.getIntOption(Profile.MaxResultsPerSection)
+            enableTxtSection.checked = profile.getBoolOption(Profile.EnableTxt)
+            enableHtmlSection.checked = profile.getBoolOption(Profile.EnableHtml)
+            enableSrcSection.checked = profile.getBoolOption(Profile.EnableSrc)
+            enableSqliteSection.checked = profile.getBoolOption(Profile.EnableSqlite)
+            enableNotesSection.checked = profile.getBoolOption(Profile.EnableNotes)
 //            langSetting.currentIndex = getLangIndex( settings.read("langSetting","default") )
 //            langSetting.currentItem = langSetting.menu.children[langSetting.currentIndex]
         }
 
         if (status === PageStatus.Deactivating) {
-            profile.writeAll()
+            console.log("deactivating")
+            //profile.writeAll()
         }
     }
 }

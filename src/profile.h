@@ -3,6 +3,7 @@
 
 #include <QObject>
 #include <QStringList>
+#include <QDebug>
 
 class Profile: public QObject
 {
@@ -36,6 +37,8 @@ public:
     Q_INVOKABLE void setOption(Options key, int value);     //sets value of a given option key (+unsaved)
     Q_INVOKABLE void setOption(Options key, bool value);    //sets value of a given option key (+unsaved)
     Q_INVOKABLE void writeAll();                            //Writes all settings to file (if changes detected)
+    Q_INVOKABLE int countWhiteList() {return m_whiteList.size();}
+    Q_INVOKABLE int countBlackList() {return m_blackList.size();}
 
     bool isWhiteList();                   //Function checks if whitelist is not empty and compares its size with index
     bool isInBlackList(QString dir);      //returns true if dir belongs to blacklist
