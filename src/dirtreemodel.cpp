@@ -20,7 +20,7 @@ DirtreeModel::DirtreeModel() :
     m_dir(QStandardPaths::writableLocation(QStandardPaths::HomeLocation),
           QString(),
           QDir::Name | QDir::IgnoreCase | QDir::LocaleAware,
-          QDir::AllDirs | QDir::NoDot | QDir::Hidden)
+          QDir::AllDirs | QDir::NoDot)
 {
     load();
     m_start=true;

@@ -62,24 +62,30 @@ Dialog {
             cancelText: qsTr("Cancel")
         }
 
-        SectionHeader {
+        Label {
             id: infoHeader
             y: header.y + header.height
-            text: qsTr("Long press on directory to select option")
+            anchors.left: parent.left
+            anchors.right: parent.right
+            anchors.leftMargin: Theme.horizontalPageMargin
+            anchors.rightMargin: Theme.horizontalPageMargin
+            verticalAlignment: Text.AlignVCenter
+            horizontalAlignment: Text.AlignHCenter
+            truncationMode: TruncationMode.Fade
+            font.pixelSize: Theme.fontSizeSmall
+            color: Theme.highlightColor
+            text: qsTr("Select directories by long press")
         }
 
         Label {
             id: pathLabel
             anchors.top: infoHeader.bottom
-//            anchors.left: pathLabel.righr
             anchors.left: parent.left
             anchors.right: parent.right
+            anchors.topMargin: Theme.paddingMedium
             anchors.leftMargin: Theme.horizontalPageMargin
             anchors.rightMargin: Theme.horizontalPageMargin
-//            height: Theme.itemSizeExtraSmall
-//            horizontalAlignment: Text.AlignRight
             verticalAlignment: Text.AlignVCenter
-//            truncationMode: TruncationMode.Fade
             wrapMode: Text.Wrap
             font.pixelSize: Theme.fontSizeSmall
             color: Theme.secondaryColor
@@ -141,12 +147,10 @@ Dialog {
                 Component {
                     id: wbContextMenu
                     ContextMenu {
+                        onActiveChanged: { if (name === "..") hide() }
                         MenuItem {
                             text: qsTr("Add to whitelist")
-                            onClicked: {
-                                //currentStartDir=model.path
-                                wblistModel.addDir(model.path, true)
-                            }
+                            onClicked: wblistModel.addDir(model.path, true)
                         }
                         MenuItem {
                             text: qsTr("Add to blacklist")
