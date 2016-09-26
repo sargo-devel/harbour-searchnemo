@@ -15,8 +15,10 @@
 
 #include <QSettings>
 #include <QDir>
+#include <QStandardPaths>
 #include <QDebug>
 #include "settings.h"
+#include "dirtreemodel.h"
 
 Settings::Settings(QObject *parent) : QObject(parent)
 {
@@ -24,6 +26,35 @@ Settings::Settings(QObject *parent) : QObject(parent)
 
 Settings::~Settings()
 {
+}
+
+void Settings::addDefaultSet()
+{
+    QString name = tr("Home dir");
+    remove(name + " Whitelist");
+    remove(name + " Blacklist");
+    remove(name + " Options");
+    remove(name + " Sections");
+    QStringList list = readStringList("ProfilesList");
+    remove("ProfilesList");
+    if(!list.contains(name)) list.append(name);
+    writeStringList("ProfilesList",list);
+    write(name + " Options/description", tr("Entire home directory with hidden files"));
+    writeStringList(name + " Whitelist",
+                    QStringList(QStandardPaths::writableLocation(QStandardPaths::HomeLocation)));
+
+    name = tr("SD card");
+    remove(name + " Whitelist");
+    remove(name + " Blacklist");
+    remove(name + " Options");
+    remove(name + " Sections");
+    list.clear();
+    list = readStringList("ProfilesList");
+    remove("ProfilesList");
+    if(!list.contains(name)) list.append(name);
+    writeStringList("ProfilesList",list);
+    write(name + " Options/description", tr("Entire SD card with hidden files"));
+    writeStringList(name + " Whitelist", QStringList(DirtreeModel::sdcardPath()));
 }
 
 QString Settings::read(QString key, QString defaultValue)

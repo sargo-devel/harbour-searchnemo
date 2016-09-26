@@ -90,14 +90,26 @@ int main(int argc, char *argv[])
     QString startDir=(QDir(dirname).exists())?dirname:homedir;
     qDebug() << "startDir=" << startDir;
 
-    //set start profile
+    //Set start profile
     Settings settings1;
     QStringList plist=settings1.readStringList("ProfilesList");
+    //Add default set if list empty
+    if (plist.size() == 0) {
+        //settings1.remove("");
+        settings1.remove("Sections");
+        settings1.addDefaultSet();
+        plist.clear();
+        plist=settings1.readStringList("ProfilesList");
+    }
+    //Read default profile
     QString profilename=settings.value("defaultProfileSetting", "Default").toString();
-    if ((plist.indexOf(profilename) < 0) && (plist.size() > 0) ) profilename = plist.at(0);
+    if ((!plist.contains(profilename)) && (plist.size() > 0) ) profilename = plist.at(0);
     QString startProfilename=profilename;
+    qDebug()<<"startProfile="<<startProfilename;
+    //Check whitelist of start profile
     if( settings1.readStringList(startProfilename + " Whitelist").size() == 0 )
         settings1.writeStringList(startProfilename + " Whitelist", QStringList(homedir));
+    //Write start profile to list if empty
     if( settings1.readStringList("ProfilesList").size() == 0 )
         settings1.writeStringList("ProfilesList", QStringList(startProfilename));
 

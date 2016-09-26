@@ -36,6 +36,7 @@ public:
     Q_INVOKABLE void copyGroups(QString srcgrp, QString dstgrp);
     Q_INVOKABLE void copyArrays(QString srcarr, QString dstarr);
     Q_INVOKABLE bool nameExists(QStringList list, QString name);
+    Q_INVOKABLE void addDefaultSet();
 
 signals:
     void settingsChanged();

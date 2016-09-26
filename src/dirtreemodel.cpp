@@ -157,7 +157,7 @@ void DirtreeModel::cd(const QString& path)
     emit pathChanged();
 }
 
-QString DirtreeModel::sdcardPath() const
+QString DirtreeModel::sdcardPath()
 {
     // get sdcard dir candidates
     QDir dir("/media/sdcard");
@@ -190,7 +190,7 @@ QString DirtreeModel::sdcardPath() const
     return "/media/sdcard";
 }
 
-QStringList DirtreeModel::mountPoints() const
+QStringList DirtreeModel::mountPoints()
 {
     // read /proc/mounts and return all mount points for the filesystem
     QFile file("/proc/mounts");

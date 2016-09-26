@@ -33,6 +33,8 @@ public:
     Q_INVOKABLE bool isFilterHidden();
     Q_INVOKABLE void loadStartList();
 
+    static QString sdcardPath();
+
 signals:
     void pathChanged();
 
@@ -52,8 +54,8 @@ private:
 
     void load();
     void initStartList();
-    QString sdcardPath() const;
-    QStringList mountPoints() const;
+    //QString sdcardPath() const;
+    static QStringList mountPoints();
 
 };
 

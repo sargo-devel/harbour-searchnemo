@@ -32,7 +32,7 @@ Page {
     onStatusChanged: {
         console.log("ProfilesPage status=",status,"(I,A^,A,D:",PageStatus.Inactive,PageStatus.Activating,PageStatus.Active,PageStatus.Deactivating,")")
         if (status === PageStatus.Activating) {
-            profileListModel.readProfileList()
+            profileListModel.readProfilesList()
         }
     }
 
@@ -46,9 +46,9 @@ Page {
 
         onNameSelectedChanged: console.log("nameSelected=",nameSelected)
 
-        //Component.onCompleted: readProfileList()
+        //Component.onCompleted: readProfilesList()
 
-        function readProfileList() {
+        function readProfilesList() {
             profileListModel.clear()
             var list = []
             list=settings.readStringList("ProfilesList")
@@ -144,9 +144,20 @@ Page {
 
         PullDownMenu {
             MenuItem {
+                text: qsTr("Add default set")
+                onClicked: {
+                    var adddef = pageStack.push(addDefaultSet, {})
+                    adddef.accepted.connect( function() {
+                        profileListModel.saveProfilesList()
+                        settings.addDefaultSet()
+                        profileListModel.readProfilesList()
+                    })
+                }
+            }
+            MenuItem {
                 text: qsTr("Add profile")
                 onClicked: {
-                    var add = pageStack.push(addProfile, {}, PageStackAction.Animated)
+                    var add = pageStack.push(addProfile, {})
                     add.accepted.connect( function() {
                         profileListModel.addProfile(add.pnameText, add.pdescText)
                     })
@@ -161,18 +172,16 @@ Page {
 
             menu: ContextMenu {
                 MenuItem {
-                    text: qsTr("Select")
-                    onClicked: { profileListModel.select(profilename);
-                    } //pageStack.pop() }
+                    text: qsTr("Set as current")
+                    onClicked: { profileListModel.select(profilename); }
                 }
-
                 MenuItem {
                     text: qsTr("Rename")
                     onClicked: {
                         var rename = pageStack.push(addProfile, {
                                                         "pnameText":profilename,
                                                         "pdescText":profiledescription,
-                                                        "pheaderTitle":qsTr("Rename Profile")}, PageStackAction.Animated)
+                                                        "pheaderTitle":qsTr("Rename Profile")})
                         rename.accepted.connect( function() {
                             profileListModel.renameProfile(index, rename.pnameText, rename.pdescText)
                         })
@@ -296,4 +305,40 @@ Page {
             }
         }
     }
+
+    Component {
+        id:addDefaultSet
+        Dialog {
+
+            DialogHeader {
+                id: dheader
+                acceptText: qsTr("Accept")
+                cancelText: qsTr("Cancel")
+            }
+
+            Column {
+                width: parent.width
+                anchors.top: dheader.bottom
+                spacing: Theme.paddingLarge
+
+                PageHeader { id: pheader; title: qsTr("Add default set") }
+
+                Label {
+                    id: addSetLabel
+                    //                    anchors.top: pheader.bottom
+                    anchors.left: parent.left
+                    anchors.right: parent.right
+                    anchors.leftMargin: Theme.horizontalPageMargin
+                    anchors.rightMargin: Theme.horizontalPageMargin
+                    wrapMode: Text.Wrap
+                    textFormat: Text.StyledText
+                    text: qsTr("The following profiles will be created:") + "<br>" +
+                          "&nbsp; &nbsp; &nbsp; &nbsp; <b>" + qsTr("Home dir") + "</b><br>" +
+                          "&nbsp; &nbsp; &nbsp; &nbsp; <b>" + qsTr("SD Card") + "</b><br>" +
+                          qsTr("If such profiles exist, they will be overwritten.")
+                }
+            }
+        }
+    }
+
 }
