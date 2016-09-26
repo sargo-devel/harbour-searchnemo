@@ -26,8 +26,41 @@ Dialog {
     //list model: dirname=fullpath, enable=true/false (whitelisted/blacklisted)
     property ListModel wblistModel
 
+    property string dName
+    property string dPath
+    property bool dIsDir
+    property bool dStart
+
+
     DirtreeModel {
         id: dirtreeModel
+    }
+
+    NumberAnimation {
+        id: outAnimation
+        target: viewDir
+        property: "opacity"
+        duration: 100; from: 1.0; to: 0.0
+        easing.type: Easing.InOutQuad
+        running: false
+        onStopped: {
+            if (dStart) { dStart = false; dirtreeModel.loadStartList() }
+            else {
+                if (dIsDir && (dName !== "..")) { dirtreeModel.cd(dName) }
+                else { dIsDir=true; dirtreeModel.cd(dPath) }
+            }
+            inAnimation.start()
+        }
+    }
+
+    NumberAnimation {
+        id: inAnimation
+        target: viewDir
+        property: "opacity"
+        duration: 100; from: 0.0; to: 1.0
+        easing.type: Easing.OutInQuad
+        running: false
+        onStopped: { viewDir.enabled = true; }
     }
 
     SilicaFlickable {
@@ -37,9 +70,10 @@ Dialog {
         PullDownMenu {
             MenuItem {
                 text: qsTr("Main tree")
-                onClicked: { dirtreeModel.loadStartList() }
+                onClicked: { dStart=true; dIsDir=false; outAnimation.start() }
             }
             MenuItem {
+                enabled: dIsDir
                 text: dirtreeModel.isFilterHidden() ? qsTr("Show hidden directories") : qsTr("Hide hidden directories")
                 onClicked: {
                     if ( dirtreeModel.isFilterHidden() ) {
@@ -50,7 +84,7 @@ Dialog {
                         text=qsTr("Show hidden directories")
                         dirtreeModel.filterHidden(true)
                     }
-                    dirtreeModel.path=dirtreeModel.path
+                    outAnimation.start()
                 }
             }
         }
@@ -108,7 +142,6 @@ Dialog {
             delegate: ListItem {
                 id: delegate
                 width: parent.width
-                //contentHeight: dirName.height + Theme.paddingLarge
                 menu: wbContextMenu
 
                 Image {
@@ -140,8 +173,11 @@ Dialog {
                 }
 
                 onClicked: {
-                    if (isDir) { dirtreeModel.cd(name) }
-                    else { dirtreeModel.cd(path) }
+                    viewDir.enabled = false;
+                    dName = name
+                    dPath = (path === "/..") ? "/" : path
+                    dIsDir = isDir
+                    outAnimation.start()
                 }
 
                 Component {

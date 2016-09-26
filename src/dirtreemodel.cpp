@@ -33,21 +33,12 @@ DirtreeModel::~DirtreeModel()
 
 void DirtreeModel::filterHidden(bool hidden)
 {
-    if(hidden) {
-        m_dir.setFilter(QDir::AllDirs | QDir::NoDot);
-    qDebug()<<"Filter on="<<m_dir.filter();
-    }
-    else {
-        m_dir.setFilter(QDir::AllDirs | QDir::NoDot | QDir::Hidden);
-        qDebug()<<"Filter off="<<m_dir.filter();
-    }
+    if(hidden) m_dir.setFilter(QDir::AllDirs | QDir::NoDot);
+    else m_dir.setFilter(QDir::AllDirs | QDir::NoDot | QDir::Hidden);
 }
 
 bool DirtreeModel::isFilterHidden()
 {
-    qDebug()<<"aaa="<<QDir::Filters( QDir::AllDirs|QDir::NoDot );
-    qDebug()<<"bbb="<<m_dir.filter();
-    if (m_dir.filter() == QDir::Filters( QDir::AllDirs|QDir::NoDot|QDir::Hidden )) qDebug()<<"ok";
     if (m_dir.filter() == QDir::Filters( QDir::AllDirs|QDir::NoDot ) ) return true;
     return false;
 }
