@@ -33,6 +33,28 @@ Dialog {
     SilicaFlickable {
         anchors.fill: parent
 
+
+        PullDownMenu {
+            MenuItem {
+                text: qsTr("Main tree")
+                onClicked: { dirtreeModel.loadStartList() }
+            }
+            MenuItem {
+                text: dirtreeModel.isFilterHidden() ? qsTr("Show hidden directories") : qsTr("Hide hidden directories")
+                onClicked: {
+                    if ( dirtreeModel.isFilterHidden() ) {
+                        text=qsTr("Hide hidden directories")
+                        dirtreeModel.filterHidden(false)
+                    }
+                    else {
+                        text=qsTr("Show hidden directories")
+                        dirtreeModel.filterHidden(true)
+                    }
+                    dirtreeModel.path=dirtreeModel.path
+                }
+            }
+        }
+
         DialogHeader {
             id: header
             //title: qsTr("Select directory")
@@ -40,22 +62,27 @@ Dialog {
             cancelText: qsTr("Cancel")
         }
 
-        PageHeader {
+        SectionHeader {
             id: infoHeader
             y: header.y + header.height
-            title: qsTr("Select directory")
-            description: qsTr("Long press on directory to select option")
+            text: qsTr("Long press on directory to select option")
         }
 
         Label {
             id: pathLabel
             anchors.top: infoHeader.bottom
+//            anchors.left: pathLabel.righr
             anchors.left: parent.left
             anchors.right: parent.right
-            anchors.leftMargin: Theme.paddingLarge
-            anchors.rightMargin: Theme.paddingLarge
-
-            truncationMode: TruncationMode.Fade
+            anchors.leftMargin: Theme.horizontalPageMargin
+            anchors.rightMargin: Theme.horizontalPageMargin
+//            height: Theme.itemSizeExtraSmall
+//            horizontalAlignment: Text.AlignRight
+            verticalAlignment: Text.AlignVCenter
+//            truncationMode: TruncationMode.Fade
+            wrapMode: Text.Wrap
+            font.pixelSize: Theme.fontSizeSmall
+            color: Theme.secondaryColor
             text: qsTr("Path:") + " " + dirtreeModel.path
         }
 
@@ -63,7 +90,9 @@ Dialog {
             id: viewDir
             anchors.top: pathLabel.bottom
             anchors.bottom: parent.bottom
+            anchors.topMargin: Theme.paddingMedium
             width: parent.width
+            //height: parent.height - y
             clip: true
 
             model: dirtreeModel
@@ -105,14 +134,8 @@ Dialog {
                 }
 
                 onClicked: {
-                    if (isDir) {
-                        //currentPath=path
-//                        console.log(name, path)
-                        dirtreeModel.cd(name)
-
-                        //pathLabel.text = qsTr("Path:") + " " + path
-                        //currentPath=name
-                    }
+                    if (isDir) { dirtreeModel.cd(name) }
+                    else { dirtreeModel.cd(path) }
                 }
 
                 Component {

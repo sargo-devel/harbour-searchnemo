@@ -168,10 +168,9 @@ Page {
                 anchors.leftMargin: Theme.horizontalPageMargin
                 anchors.rightMargin: Theme.horizontalPageMargin
                 anchors.verticalCenter: parent.verticalCenter
-                //truncationMode: TruncationMode.Fade
                 wrapMode: Text.Wrap
                 text: dirname
-                //font.pixelSize: Theme.fontSizeMedium
+                //font.pixelSize: Theme.fontSizeSmall
             }
 
             RemorseItem { id: remorse }

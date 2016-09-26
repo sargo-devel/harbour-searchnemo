@@ -28,15 +28,33 @@ public:
     void setPath(const QString& path);
 
     Q_INVOKABLE void cd(const QString& path);
+    Q_INVOKABLE bool isStartSet() { return m_start; }
+    Q_INVOKABLE void filterHidden(bool hidden);
+    Q_INVOKABLE bool isFilterHidden();
+    Q_INVOKABLE void loadStartList();
+
 signals:
     void pathChanged();
 
 private:
+
+    struct SPar {
+        QString fileName;
+        QString filePath;
+        bool isDir;
+    };
+    QList<SPar> m_startlist;
+
     QString m_path;
     QDir m_dir;
     QFileInfoList m_files;
+    bool m_start;
 
     void load();
+    void initStartList();
+    QString sdcardPath() const;
+    QStringList mountPoints() const;
+
 };
 
 #endif // DIRTREEMODEL_H
