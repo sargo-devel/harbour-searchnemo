@@ -35,8 +35,6 @@ Page {
         }
     }
 
-    ListModel { id: wblist}
-
     // This model keeps list of available profiles
     ListModel {
         id: profiles
@@ -77,7 +75,7 @@ Page {
                 anchors.left: parent.left
                 anchors.right: parent.right
 
-                PageHeader { title: qsTr("General Settings") }
+                PageHeader { title: qsTr("General Options") }
 
 //                SectionHeader { text: qsTr("Search options") }
 
@@ -120,28 +118,6 @@ Page {
 //                        focus = false
 //                    }
 //                }
-
-
-                Button {
-                    id: startDirectoryButton
-                    anchors.horizontalCenter: parent.horizontalCenter
-                    text: qsTr("Select Directory")
-                    onClicked: {
-                        //console.log("dirlistModel count1=",dirlistModel.count)
-
-                        var dirtreeDialog = pageStack.push(Qt.resolvedUrl("DirTree.qml"), {"wblistModel": wblist})
-                        dirtreeDialog.accepted.connect( function() {
-                            console.log("dirtree accepted")
-                            appWindow.startDir=dirtreeDialog.currentStartDir
-                            settings.write("startDir", dirtreeDialog.currentStartDir)
-                            console.log("wblist count=",wblist.count)
-                            for (var i=0; i<wblist.count; i++) {
-                                console.log("wblist["+i+"]",wblist.get(i).dirname, wblist.get(i).enable) }
-                        })
-                    }
-                }
-
-//                SectionHeader { text: qsTr("Other") }
 
                 ComboBox {
                     id: profileSetting

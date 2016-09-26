@@ -198,7 +198,7 @@ Page {
                 onClicked: pageStack.push(Qt.resolvedUrl("About.qml"))
             }
             MenuItem {
-                text: qsTr("Settings")
+                text: qsTr("Options")
                 onClicked: pageStack.push(Qt.resolvedUrl("SettingsPage.qml"))
             }
             MenuItem {
@@ -206,6 +206,12 @@ Page {
                 onClicked: {
                     var exit=pageStack.push(Qt.resolvedUrl("ProfilesPage.qml"), {currentProfile: page.profilename})
                     exit.ret.connect( function() {page.profilename=exit.currentProfile; profList.reload()} )
+                }
+            }
+            MenuItem {
+                text: qsTr("Current profile setup")
+                onClicked: {
+                    pageStack.push(Qt.resolvedUrl("ProfileSettingsPage.qml"), {"profileName": page.profilename})
                 }
             }
         }
