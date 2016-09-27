@@ -396,7 +396,10 @@ Page {
                 elide: displabel === "" ? Text.ElideLeft : Text.ElideRight
             }
 
-            onClicked: openViewPage(searchtype, fullname, matchcount, displabel)
+            onClicked: {
+                if(searchtype === "APPS") delegateMenuOpen(model.fullname)
+                       else openViewPage(searchtype, fullname, matchcount, displabel)
+            }
 
             RemorseItem {
                 id: remorseItem
@@ -413,8 +416,10 @@ Page {
                  id: contextMenu
                  ContextMenu {
                      MenuItem {
-                         text: qsTr("Open")
-                         onClicked: delegateMenuOpen(model.fullname)
+                         text: (model.searchtype === "APPS") ? qsTr("View details") : qsTr("Open")
+                         onClicked: (model.searchtype === "APPS") ?
+                                        openViewPage(model.searchtype, model.fullname, model.matchcount, model.displabel)
+                                      : delegateMenuOpen(model.fullname)
                          //onClicked: engine.copyFiles([ model.fullname ]);
                      }                     
                      MenuItem {
