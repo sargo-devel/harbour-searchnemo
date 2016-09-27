@@ -150,7 +150,11 @@ Dialog {
                     anchors.left: parent.left
                     anchors.leftMargin: Theme.paddingLarge
                     anchors.verticalCenter: parent.verticalCenter
-                    source: wblistModel.isInWhiteList(path) ? "image://theme/icon-s-installed" : "image://theme/icon-s-low-importance"
+                    height: Theme.iconSizeSmall
+                    width: Theme.iconSizeSmall
+                    source: wblistModel.isInWhiteList(path) ?
+                                "image://theme/icon-m-acknowledge" + "?" + Theme.highlightColor
+                              : "image://theme/icon-m-dismiss" + "?" + Theme.secondaryHighlightColor
                     opacity: (wblistModel.isInWhiteList(path) || wblistModel.isInBlackList(path)) ? 1 : 0
                 }
                 Image {

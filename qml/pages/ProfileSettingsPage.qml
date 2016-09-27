@@ -102,10 +102,11 @@ Page {
                     Image {
                         id: whiteIcon
                         anchors.left: parent.left
-                        anchors.top: profWhite.top
                         anchors.leftMargin: Theme.horizontalPageMargin
-                        //anchors.verticalCenter: parent.verticalCenter
-                        source: "image://theme/icon-s-installed"
+                        height: Theme.iconSizeSmall
+                        width: Theme.iconSizeSmall
+                        anchors.verticalCenter: profWhite.verticalCenter
+                        source: "image://theme/icon-m-acknowledge" + "?" + Theme.highlightColor
                     }
                     Label {
                         id: profWhite
@@ -113,16 +114,16 @@ Page {
                         anchors.right: parent.right
                         anchors.leftMargin: Theme.paddingMedium
                         anchors.rightMargin: Theme.horizontalPageMargin
-//                        textFormat: Text.StyledText
                         //text: qsTr("Whitelist directories:")+" "+profile.countWhiteList()
                     }
                     Image {
                         id: blackIcon
                         anchors.left: parent.left
-                        anchors.top: profBlack.top
                         anchors.leftMargin: Theme.horizontalPageMargin
-                        //anchors.verticalCenter: parent.verticalCenter
-                        source: "image://theme/icon-s-low-importance"
+                        height: Theme.iconSizeSmall
+                        width: Theme.iconSizeSmall
+                        anchors.verticalCenter: profBlack.verticalCenter
+                        source: "image://theme/icon-m-dismiss" + "?" + Theme.secondaryHighlightColor
                     }
                     Label {
                         id: profBlack
@@ -131,7 +132,6 @@ Page {
                         anchors.top: profWhite.bottom
                         anchors.leftMargin: Theme.paddingMedium
                         anchors.rightMargin: Theme.horizontalPageMargin
-//                        textFormat: Text.StyledText
                         //text: qsTr("Blacklist directories:")+" "+profile.countBlackList()
                     }
                 }
