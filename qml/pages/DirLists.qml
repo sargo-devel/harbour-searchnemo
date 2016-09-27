@@ -139,9 +139,9 @@ Page {
                     var dirtreeDialog = pageStack.push(Qt.resolvedUrl("DirTree.qml"), {"wblistModel": dirListModel})
                     dirtreeDialog.accepted.connect( function() {
                         dirListModel.writeList()
-                        console.log("dirListModel count=",dirListModel.count)
-                        for (var i=0; i<dirListModel.count; i++) {
-                            console.log("wblist["+i+"]",dirListModel.get(i).dirname, dirListModel.get(i).enable) }
+//                        console.log("dirListModel count=",dirListModel.count)
+//                        for (var i=0; i<dirListModel.count; i++) {
+//                            console.log("wblist["+i+"]",dirListModel.get(i).dirname, dirListModel.get(i).enable) }
                     })
                 }
             }
@@ -159,8 +159,10 @@ Page {
                 }
             }
 
-            onClicked: {}
-
+            onClicked: {
+                var dirtreeDialog = pageStack.push(Qt.resolvedUrl("DirTree.qml"), {"wblistModel": dirListModel, "startPath": dirname})
+                dirtreeDialog.accepted.connect(function() { dirListModel.writeList() })
+            }
             Label {
                 id: dirLabel
                 anchors.left: parent.left

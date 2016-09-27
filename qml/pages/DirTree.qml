@@ -26,15 +26,17 @@ Dialog {
     //list model: dirname=fullpath, enable=true/false (whitelisted/blacklisted)
     property ListModel wblistModel
 
+    //used only as a start parameter
+    property string startPath
+    onStartPathChanged: { dirtreeModel.path = startPath }
+
+    //used internally with animation
     property string dName
     property string dPath
     property bool dIsDir
     property bool dStart
 
-
-    DirtreeModel {
-        id: dirtreeModel
-    }
+    DirtreeModel { id: dirtreeModel }
 
     NumberAnimation {
         id: outAnimation
@@ -65,7 +67,6 @@ Dialog {
 
     SilicaFlickable {
         anchors.fill: parent
-
 
         PullDownMenu {
             MenuItem {
