@@ -106,6 +106,7 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
     bool enableTxt = m_profile.getBoolOption(Profile::EnableTxt);
     bool enableHtml = m_profile.getBoolOption(Profile::EnableHtml);
     bool enableSrc = m_profile.getBoolOption(Profile::EnableSrc);
+    bool enableApps = m_profile.getBoolOption(Profile::EnableApps);
     bool enableSqlite = m_profile.getBoolOption(Profile::EnableSqlite);
     bool enableNotes = m_profile.getBoolOption(Profile::EnableNotes);
 
@@ -170,6 +171,10 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
     if (enableSrc)
         if ( addSearchTXT("SRC", searchTerm, dir, hidden, singleMatchSetting) == QString() ) return QString();
 
+    // search inside filtered files (*.desktop)
+    if (enableApps)
+        if ( addSearchTXT("APPS", searchTerm, dir, hidden, singleMatchSetting) == QString() ) return QString();
+
     // search inside raw sqlite files (*.sqlite, *db)
     if (enableSqlite)
         if ( addSearchSqlite("SQLITE", searchTerm, dir, hidden, singleMatchSetting) == QString() ) return QString();
@@ -185,7 +190,7 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
     return QString();
 }
 
-// additional search module for searchRecursively (TXT,HTML,SRC)
+// additional search module for searchRecursively (TXT,HTML,SRC,APPS)
 QString SearchWorker::addSearchTXT(QString searchtype, QString searchTerm, QDir dir, QDir::Filter hidden, bool singleMatch)
 {
 
@@ -195,6 +200,7 @@ QString SearchWorker::addSearchTXT(QString searchtype, QString searchTerm, QDir 
     if (searchtype == "TXT") filetypefilters << "*.txt";
     //if (searchtype == "PDF") filetypefilters << "*.pdf";
     if (searchtype == "SRC") filetypefilters << "*.cpp" << "*.c" << "*.h" << "*.py" << "*.sh" << "*.qml" << "*.js";
+    if (searchtype == "APPS") filetypefilters << "*.desktop";
 
     QStringList names = dir.entryList(filetypefilters, QDir::Files | hidden);
     for (int i = 0 ; i < names.count() ; ++i) {

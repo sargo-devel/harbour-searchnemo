@@ -62,14 +62,14 @@ Page {
     SearchEngine {
         id: searchEngine
         profilename: page.profilename
-        property var categoryTab: { "NOTES":0, "TXT":1, "HTML":2, "PDF":3, "SRC":4, "SQLITE":5, "FILE":6, "DIR":7 }
-        property var ord: [0, 0, 0, 0, 0, 0, 0, 0]
-        property var backord: [0, 0, 0, 0, 0, 0, 0, 0]
-        property var opensection: [true, true, true, true, true, true, true, true]
+        property var categoryTab: { "NOTES":0, "TXT":1, "HTML":2, "PDF":3, "SRC":4, "SQLITE":5, "APPS":6, "FILE":7, "DIR":8 }
+        property var ord: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+        property var backord: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+        property var opensection: [true, true, true, true, true, true, true, true, true]
         function cleartabs() {
-            ord = [0, 0, 0, 0, 0, 0, 0, 0]
-            backord = [0, 0, 0, 0, 0, 0, 0, 0]
-            opensection = [true, true, true, true, true, true, true, true]
+            ord = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+            backord = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+            opensection = [true, true, true, true, true, true, true, true, true]
         }
         function getCategoryText(cat) {
             switch (cat) {
@@ -85,6 +85,8 @@ Page {
                 return qsTr("SRC files content");
             case "SQLITE":
                 return qsTr("SQLITE files content");
+            case "APPS":
+                return qsTr("Applications");
             case "FILE":
                 return qsTr("Filenames");
             case "DIR":
@@ -132,6 +134,10 @@ Page {
                            { file: fullname, searchedtext: page.searchFieldText, matchcount: matchcount, isFileInfoOpen: true});
             break;
         case "SRC":
+            pageStack.push(Qt.resolvedUrl("TxtView.qml"),
+                           { file: fullname, searchedtext: page.searchFieldText, matchcount: matchcount, isFileInfoOpen: false})
+            break;
+        case "APPS":
             pageStack.push(Qt.resolvedUrl("TxtView.qml"),
                            { file: fullname, searchedtext: page.searchFieldText, matchcount: matchcount, isFileInfoOpen: false})
             break;

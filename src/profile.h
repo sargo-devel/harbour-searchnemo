@@ -19,6 +19,7 @@ public:
         EnableTxt,
         EnableHtml,
         EnableSrc,
+        EnableApps,
         EnableSqlite,
         EnableNotes,
         MaxResultsPerSection
@@ -64,6 +65,7 @@ private:
     bool m_enableTxt;           //enable/disable TXT section
     bool m_enableHtml;          //enable/disable HTML section
     bool m_enableSrc;           //enable/disable SRC section
+    bool m_enableApps;           //enable/disable APPS section
     bool m_enableSqlite;        //enable/disable SQLITE section
     bool m_enableNotes;         //enable/disable NOTES section
 

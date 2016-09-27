@@ -128,6 +128,7 @@ void Profile::readOptions()
     m_enableTxt = settings.read(m_name+" Sections/enableTxtSection", true);
     m_enableHtml = settings.read(m_name+" Sections/enableHtmlSection", true);
     m_enableSrc = settings.read(m_name+" Sections/enableSrcSection", true);
+    m_enableApps = settings.read(m_name+" Sections/enableAppsSection", true);
     m_enableSqlite = settings.read(m_name+" Sections/enableSqliteSection", true);
     m_enableNotes = settings.read(m_name+" Sections/enableNotesSection", true);
 
@@ -145,6 +146,7 @@ void Profile::writeOptions()
     settings.write(m_name+" Sections/enableTxtSection", m_enableTxt);
     settings.write(m_name+" Sections/enableHtmlSection", m_enableHtml);
     settings.write(m_name+" Sections/enableSrcSection", m_enableSrc);
+    settings.write(m_name+" Sections/enableAppsSection", m_enableApps);
     settings.write(m_name+" Sections/enableSqliteSection", m_enableSqlite);
     settings.write(m_name+" Sections/enableNotesSection", m_enableNotes);
 }
@@ -180,6 +182,9 @@ bool Profile::getBoolOption(Options key)
         break;
     case EnableSrc:
         return m_enableSrc;
+        break;
+    case EnableApps:
+        return m_enableApps;
         break;
     case EnableSqlite:
         return m_enableSqlite;
@@ -234,6 +239,10 @@ void Profile::setOption(Options key, bool value)
         break;
     case EnableSrc:
         m_enableSrc=value;
+        m_unsaved=true;
+        break;
+    case EnableApps:
+        m_enableApps=value;
         m_unsaved=true;
         break;
     case EnableSqlite:

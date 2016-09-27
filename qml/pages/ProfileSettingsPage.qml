@@ -203,6 +203,13 @@ Page {
                 }
 
                 TextSwitch {
+                    id: enableAppsSection
+                    text: qsTr("Enable APPS section")
+                    description: qsTr("Enables searching inside *.desktop files")
+                    onClicked: profile.setOption(Profile.EnableApps, checked)
+                }
+
+                TextSwitch {
                     id: enableSqliteSection
                     text: qsTr("Enable SQLITE section")
                     description: qsTr("Enables searching inside *.sqlite, *.db files")
@@ -239,6 +246,7 @@ Page {
             enableTxtSection.checked = profile.getBoolOption(Profile.EnableTxt)
             enableHtmlSection.checked = profile.getBoolOption(Profile.EnableHtml)
             enableSrcSection.checked = profile.getBoolOption(Profile.EnableSrc)
+            enableAppsSection.checked = profile.getBoolOption(Profile.EnableApps)
             enableSqliteSection.checked = profile.getBoolOption(Profile.EnableSqlite)
             enableNotesSection.checked = profile.getBoolOption(Profile.EnableNotes)
 //            langSetting.currentIndex = getLangIndex( settings.read("langSetting","default") )
