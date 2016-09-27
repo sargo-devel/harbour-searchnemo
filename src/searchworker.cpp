@@ -15,7 +15,7 @@
 
 #include "searchworker.h"
 #include <QDateTime>
-//#include <QSettings>
+#include <QSettings>
 #include <QDebug>
 #include "globals.h"
 #include "dbsqlite.h"
@@ -306,7 +306,11 @@ bool SearchWorker::searchTxtLoop(QTextStream *intxt, QString searchtype, QString
             if (findpos>5) matchline = "..." + linetxt.mid(findpos-5,120);
             else matchline = linetxt.left(120);
             if(matchcount==0) firstmatchline=matchline;
-            if(!singleMatch) emit matchFound(fullpath, searchtype, displabel, matchline, 0);
+            if(!singleMatch) {
+                //found result
+                //APPS only on single match
+                if(searchtype != "APPS") emit matchFound(fullpath, searchtype, displabel, matchline, 0);
+            }
             //search for several occurences of search text in one line
             int mcnt=0;
             while ((mcnt = linetxtcopy.indexOf(searchTerm, mcnt, Qt::CaseInsensitive)) != -1) {
@@ -318,7 +322,36 @@ bool SearchWorker::searchTxtLoop(QTextStream *intxt, QString searchtype, QString
         }
     }
     if( singleMatch && (matchcount >0) ) {
+        //found result
+        if(searchtype == "APPS") {
+            displabel = prepareForApps(intxt);
+            matchcount = 0;
+        }
+        qDebug()<<"info:"<<fullpath;
         emit matchFound(fullpath, searchtype, displabel, firstmatchline, matchcount);
     }
     return true;
+}
+
+QString SearchWorker::prepareForApps(QTextStream *stream)
+{
+    bool isDesktop = false;
+    bool isApp = false;
+    QString name, icon;
+
+    stream->seek(0);
+    while (!stream->atEnd()) {
+        if (m_cancelled.loadAcquire() == Cancelled) return QString();
+        QString line = stream->readLine();
+        qDebug()<<"line="<<line;
+        if(line.contains("[Desktop Entry]")) isDesktop = true;
+        if(line.contains("Type=Application")) isApp = true;
+        if(line.startsWith("Name=")) name = line.right(line.size()-5);
+//        if(line.startsWith("Exec=")) exec = line.right(line.size()-5);
+        if(line.startsWith("Icon=")) icon = line.right(line.size()-5);
+        qDebug() << "lang=" << QLocale::languageToString(QLocale::system().language());
+
+    }
+    if(isDesktop && isApp) return name + ":" + icon;
+    return QString();
 }

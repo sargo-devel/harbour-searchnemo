@@ -44,6 +44,7 @@ private:
     QString addSearchNotes(QString searchtype, QString searchTerm, bool singleMatch);
     QString addSearchSqlite(QString searchtype, QString searchTerm, QDir dir, QDir::Filter hidden, bool singleMatch);
     bool searchTxtLoop(QTextStream *intxt, QString searchtype, QString searchTerm, bool singleMatch, QString fullpath, QString displabel);
+    QString prepareForApps(QTextStream *stream);
     bool m_alreadySearchedNotes;
 
     Profile m_profile;
