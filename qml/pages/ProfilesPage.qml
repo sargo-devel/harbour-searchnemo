@@ -332,9 +332,12 @@ Page {
                     anchors.rightMargin: Theme.horizontalPageMargin
                     wrapMode: Text.Wrap
                     textFormat: Text.StyledText
+                    color: Theme.highlightColor
                     text: qsTr("The following profiles will be created:") + "<br>" +
                           "&nbsp; &nbsp; &nbsp; &nbsp; <b>" + qsTr("Home dir") + "</b><br>" +
                           "&nbsp; &nbsp; &nbsp; &nbsp; <b>" + qsTr("SD Card") + "</b><br>" +
+                          "&nbsp; &nbsp; &nbsp; &nbsp; <b>" + qsTr("Applications") + "</b><br>" +
+                          "&nbsp; &nbsp; &nbsp; &nbsp; <b>" + qsTr("Entire tree") + "</b><br>" +
                           qsTr("If such profiles exist, they will be overwritten.")
                 }
             }
