@@ -175,6 +175,10 @@ Page {
         // locks sections until search is finished
         property bool lockSection: true
 
+        //additional paddings sizes
+        property int theme_paddingSmall15: Theme.paddingSmall*1.5
+        property int theme_paddingSmall05: Theme.paddingSmall*0.5
+
         model: ListModel {
             id: listModel
 
@@ -342,7 +346,8 @@ Page {
             opacity: isVisible ? 1.0 : 0.0
             menu: contextMenu
             width: ListView.view.width
-            contentHeight: isVisible ? listLabel.height+listAbsoluteDir.height + Theme.paddingSmall : 0
+            //contentHeight: isVisible ? listLabel.height+listAbsoluteDir.height + Theme.paddingMedium : 0
+            //The above is set in states
             states: [
                 State {
                     name: "closed"; when: !isVisible
@@ -350,7 +355,7 @@ Page {
                 }
                 ,State {
                     name: "opened"; when: isVisible
-                    PropertyChanges { target: fileItem; opacity: 1.0; contentHeight: listLabel.height+listAbsoluteDir.height + Theme.paddingSmall }
+                    PropertyChanges { target: fileItem; opacity: 1.0; contentHeight: listLabel.height+listAbsoluteDir.height + Theme.paddingMedium }
                 }
             ]
             transitions: Transition {
@@ -361,33 +366,36 @@ Page {
             Image {
                 id: listIcon
                 anchors.left: parent.left
-                anchors.leftMargin: Theme.paddingLarge
+                anchors.leftMargin: Theme.horizontalPageMargin
                 anchors.top: parent.top
-                anchors.topMargin: 11
-                source: "../images/small-"+fileIcon+".png"
+                anchors.topMargin: fileList.theme_paddingSmall15
+                fillMode: Image.PreserveAspectFit
+                height: (searchtype === "APPS") ? Theme.iconSizeMedium : sourceSize.height
+                source: (searchtype === "APPS") ? fileIcon : "../images/small-"+fileIcon+".png"
             }
 
             Label {
                 id: listLabel
                 anchors.left: listIcon.right
-                anchors.leftMargin: 10
                 anchors.right: parent.right
-                anchors.rightMargin: Theme.paddingLarge
+                anchors.leftMargin: Theme.paddingMedium
+                anchors.rightMargin: Theme.horizontalPageMargin
                 anchors.top: parent.top
-                anchors.topMargin: 5
+                anchors.topMargin: fileList.theme_paddingSmall05
                 property string disptxt: displabel === "" ? filename : displabel
                 text: matchcount>0 ? "[" + matchcount + "] " + disptxt : disptxt
                 textFormat: Text.PlainText
                 elide: Text.ElideRight
+                font.pixelSize: Theme.fontSizeMedium
                 color: fileItem.highlighted || isSelected ? Theme.highlightColor : Theme.primaryColor
             }
 
             Label {
                 id: listAbsoluteDir
                 anchors.left: listIcon.right
-                anchors.leftMargin: 10
                 anchors.right: parent.right
-                anchors.rightMargin: Theme.paddingLarge
+                anchors.leftMargin: Theme.paddingMedium
+                anchors.rightMargin: Theme.horizontalPageMargin
                 anchors.top: listLabel.bottom
                 text: displabel === "" ? absoluteDir : matchline
                 textFormat: Text.PlainText

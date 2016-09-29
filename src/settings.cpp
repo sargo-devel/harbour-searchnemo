@@ -55,6 +55,39 @@ void Settings::addDefaultSet()
     writeStringList("ProfilesList",list);
     write(name + " Options/description", tr("Entire SD card with hidden files"));
     writeStringList(name + " Whitelist", QStringList(DirtreeModel::sdcardPath()));
+
+    name = tr("Applications");
+    remove(name + " Whitelist");
+    remove(name + " Blacklist");
+    remove(name + " Options");
+    remove(name + " Sections");
+    list.clear();
+    list = readStringList("ProfilesList");
+    remove("ProfilesList");
+    if(!list.contains(name)) list.append(name);
+    writeStringList("ProfilesList",list);
+    write(name + " Options/description", tr("All installed applications"));
+    writeStringList(name + " Whitelist", QStringList("/usr/share/applications"));
+    write(name+" Options/maxResultsPerSection", 200);
+    write(name+" Sections/enableTxtSection", false);
+    write(name+" Sections/enableHtmlSection", false);
+    write(name+" Sections/enableSrcSection", false);
+    write(name+" Sections/enableAppsSection", true);
+    write(name+" Sections/enableSqliteSection", false);
+    write(name+" Sections/enableNotesSection", false);
+
+    name = tr("Entire tree");
+    remove(name + " Whitelist");
+    remove(name + " Blacklist");
+    remove(name + " Options");
+    remove(name + " Sections");
+    list.clear();
+    list = readStringList("ProfilesList");
+    remove("ProfilesList");
+    if(!list.contains(name)) list.append(name);
+    writeStringList("ProfilesList",list);
+    write(name + " Options/description", tr("Entire dir tree. Warning: Very long search"));
+    writeStringList(name + " Whitelist", QStringList("/"));
 }
 
 QString Settings::read(QString key, QString defaultValue)

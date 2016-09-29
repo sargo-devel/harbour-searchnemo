@@ -46,6 +46,9 @@ private:
     QString m_profilename;
     QString m_errorMessage;
     SearchWorker *m_searchWorker;
+    QStringList m_iconPathList;
+    void createIconPathList();
+    QString getIconPath(QString name);
 };
 
 #endif // SEARCHENGINE_H

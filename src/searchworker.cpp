@@ -337,8 +337,10 @@ QString SearchWorker::prepareForApps(QTextStream *stream)
 {
     bool isDesktop = false;
     bool isApp = false;
-    QString name, icon;
+    QString name, namelang, lang, icon, comment;
 
+    //qDebug() << "lang=" << QLocale::languageToString(QLocale::system().language());
+    //lang = QLocale::languageToString(QLocale::system().language());
     stream->seek(0);
     while (!stream->atEnd()) {
         if (m_cancelled.loadAcquire() == Cancelled) return QString();
@@ -347,11 +349,10 @@ QString SearchWorker::prepareForApps(QTextStream *stream)
         if(line.contains("[Desktop Entry]")) isDesktop = true;
         if(line.contains("Type=Application")) isApp = true;
         if(line.startsWith("Name=")) name = line.right(line.size()-5);
-//        if(line.startsWith("Exec=")) exec = line.right(line.size()-5);
         if(line.startsWith("Icon=")) icon = line.right(line.size()-5);
-        qDebug() << "lang=" << QLocale::languageToString(QLocale::system().language());
-
+        if(line.startsWith("Comment=")) comment = line.right(line.size()-8);
+        if(line.startsWith("X-apkd-packageName=")) comment = line.right(line.size()-19);
     }
-    if(isDesktop && isApp) return name + ":" + icon;
+    if(isDesktop && isApp) return name + "::" + icon + "::" + comment;
     return QString();
 }

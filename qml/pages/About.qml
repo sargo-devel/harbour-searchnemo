@@ -49,7 +49,7 @@ Page {
                 anchors.right: parent.right
                 font.pixelSize: Theme.fontSizeSmall
                 //color: Theme.highlightColor
-                horizontalAlignment: Text.Center
+                horizontalAlignment: Text.AlignHCenter
                 text: "SearchNemo, " + qsTr("version: ") + "0.2.1"
             }
 
