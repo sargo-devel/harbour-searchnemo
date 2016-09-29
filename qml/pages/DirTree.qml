@@ -67,7 +67,6 @@ Dialog {
 
     SilicaFlickable {
         anchors.fill: parent
-
         PullDownMenu {
             MenuItem {
                 text: qsTr("Main tree")
@@ -136,9 +135,12 @@ Dialog {
             //height: parent.height - y
             clip: true
 
-            model: dirtreeModel
+            //VerticalScrollDecorator creates warning:
+            //[W] unknown:38 - file:///usr/lib/qt5/qml/Sailfish/Silica/private/Util.js:38: TypeError: Cannot read property 'parent' of null
+            //no idea how to solve it...
+            VerticalScrollDecorator { flickable: viewDir }
 
-            //VerticalScrollDecorator { flickable: viewDir }
+            model: dirtreeModel
 
             delegate: ListItem {
                 id: delegate
@@ -146,30 +148,47 @@ Dialog {
                 menu: wbContextMenu
 
                 Image {
-                    id: statusIcon
-                    anchors.left: parent.left
-                    anchors.leftMargin: Theme.paddingLarge
-                    anchors.verticalCenter: parent.verticalCenter
-                    height: Theme.iconSizeSmall
-                    width: Theme.iconSizeSmall
-                    source: wblistModel.isInWhiteList(path) ?
-                                "image://theme/icon-m-acknowledge" + "?" + Theme.highlightColor
-                              : "image://theme/icon-m-dismiss" + "?" + Theme.secondaryHighlightColor
-                    opacity: (wblistModel.isInWhiteList(path) || wblistModel.isInBlackList(path)) ? 1 : 0
-                }
-                Image {
                     id: folderIcon
-                    anchors.left: statusIcon.right
-                    anchors.leftMargin: Theme.paddingSmall
+                    opacity: (wblistModel.isInWhiteList(path) || wblistModel.isInBlackList(path)) ? 0.3 : 0.8
+                    anchors.left: parent.left
+                    anchors.leftMargin: Theme.horizontalPageMargin
                     anchors.verticalCenter: parent.verticalCenter
-                    source: "../images/small-folder.png"
+                    source: wblistModel.isInWhiteList(path) ?
+                                "image://theme/icon-m-folder" + "?" + Theme.highlightColor
+                              : wblistModel.isInBlackList(path) ?
+                                    "image://theme/icon-m-folder" + "?" + Theme.secondaryHighlightColor
+                                  : "image://theme/icon-m-folder" + "?" + Theme.secondaryColor
+                    Behavior on opacity { NumberAnimation { duration: 250; easing.type: Easing.InOutQuad } }
                 }
+
+                Image {
+                    id: statusWhiteIcon
+                    anchors.left: parent.left
+                    //anchors.leftMargin: Theme.paddingSmall
+                    anchors.leftMargin: Theme.horizontalPageMargin
+                    anchors.verticalCenter: parent.verticalCenter
+                    source: "image://theme/icon-m-acknowledge"
+                    opacity: wblistModel.isInWhiteList(path) ? 1 : 0
+                    Behavior on opacity { NumberAnimation { duration: 250; easing.type: Easing.InOutQuad } }
+                }
+
+                Image {
+                    id: statusBlackIcon
+                    anchors.left: parent.left
+                    //anchors.leftMargin: Theme.paddingSmall
+                    anchors.leftMargin: Theme.horizontalPageMargin
+                    anchors.verticalCenter: parent.verticalCenter
+                    source: "image://theme/icon-m-dismiss"
+                    opacity: wblistModel.isInBlackList(path) ? 1 : 0
+                    Behavior on opacity { NumberAnimation { duration: 250; easing.type: Easing.InOutQuad } }
+                }
+
                 Label {
                     id: dirName
                     anchors.left: folderIcon.right
                     anchors.right: parent.right
                     anchors.leftMargin: Theme.paddingMedium
-                    anchors.rightMargin: Theme.paddingLarge
+                    anchors.rightMargin: Theme.horizontalPageMargin
                     anchors.verticalCenter: parent.verticalCenter
                     truncationMode: TruncationMode.Fade
                     text: name
@@ -190,14 +209,18 @@ Dialog {
                     ContextMenu {
                         onActiveChanged: { if (name === "..") hide() }
                         MenuItem {
+                            visible: wblistModel.isInWhiteList(model.path) ? false : true
                             text: qsTr("Add to whitelist")
                             onClicked: wblistModel.addDir(model.path, true)
                         }
                         MenuItem {
+                            visible: wblistModel.isInBlackList(model.path) ? false : true
                             text: qsTr("Add to blacklist")
                             onClicked: wblistModel.addDir(model.path, false)
                         }
                         MenuItem {
+                            visible: (wblistModel.isInWhiteList(model.path) || wblistModel.isInBlackList(model.path)) ? true : false
+                            //enabled: (wblistModel.isInWhiteList(model.path) || wblistModel.isInBlackList(model.path)) ? true : false
                             text: qsTr("Remove from lists")
                             onClicked: wblistModel.removeDirName(model.path)
                         }

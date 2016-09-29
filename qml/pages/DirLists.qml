@@ -187,11 +187,20 @@ Page {
         section.delegate: ListItem {
             id: sectionDir
             width: parent.width
-            //height: sectionDirLabel.height + Theme.paddingLarge
+            enabled: true
+            Image {
+                id: whiteIcon
+                anchors.left: parent.left
+                anchors.bottom: parent.bottom
+                anchors.leftMargin: Theme.horizontalPageMargin
+                source: (section === "true") ? "image://theme/icon-m-acknowledge"  + "?" + Theme.highlightColor
+                            : "image://theme/icon-m-dismiss"  + "?" + Theme.highlightColor
+            }
             SectionHeader {
                 id: sectionDirLabel
                 text: (section === "true") ? qsTr("Whitelist directories") : qsTr("Blacklist directories")
                 verticalAlignment: Text.AlignBottom
+
             }
 
         }

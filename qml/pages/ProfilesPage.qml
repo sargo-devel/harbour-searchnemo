@@ -99,6 +99,11 @@ Page {
             profileListModel.nameSelected=name
         }
 
+        function isSelected(name) {
+            if (profileListModel.nameSelected === name) return true
+            return false
+        }
+
         function saveProfilesList() {
             var list = []
             for (var i=0; i < profileListModel.count; i++) {
@@ -172,6 +177,7 @@ Page {
 
             menu: ContextMenu {
                 MenuItem {
+                    visible: profileListModel.isSelected(profilename) ? false : true
                     text: qsTr("Set as current")
                     onClicked: { profileListModel.select(profilename); }
                 }

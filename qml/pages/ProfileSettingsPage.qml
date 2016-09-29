@@ -63,6 +63,7 @@ Page {
                     anchors.rightMargin: Theme.horizontalPageMargin
                     truncationMode: TruncationMode.Fade
                     text: profile.name
+                    color: Theme.highlightColor
                     font.pixelSize: Theme.fontSizeLarge
                 }
 
@@ -85,10 +86,11 @@ Page {
                 }
 
                 SectionHeader { text: qsTr("Search directories lists")}
-                Spacer { height: Theme.paddingLarge }
+                //Spacer { height: Theme.paddingLarge }
                 BackgroundItem {
                     id: profLists
                     width: parent.width
+                    height: whiteIcon.height + blackIcon.height
 
                     onClicked: {
                         var exit=pageStack.push(Qt.resolvedUrl("DirLists.qml"), {"profileName": profileName})
@@ -102,40 +104,39 @@ Page {
                     Image {
                         id: whiteIcon
                         anchors.left: parent.left
-                        anchors.leftMargin: Theme.horizontalPageMargin
-                        height: Theme.iconSizeSmall
-                        width: Theme.iconSizeSmall
-                        anchors.verticalCenter: profWhite.verticalCenter
-                        source: "image://theme/icon-m-acknowledge" + "?" + Theme.highlightColor
+                        anchors.top: parent.top
+                        anchors.leftMargin: Theme.paddingSmall
+                        source: "image://theme/icon-m-acknowledge" // + "?" + Theme.highlightColor
                     }
                     Label {
                         id: profWhite
+                        height: whiteIcon.height
+                        anchors.verticalCenter: whiteIcon.verticalCenter
+                        verticalAlignment: Text.AlignVCenter
                         anchors.left: whiteIcon.right
                         anchors.right: parent.right
-                        anchors.leftMargin: Theme.paddingMedium
                         anchors.rightMargin: Theme.horizontalPageMargin
                         //text: qsTr("Whitelist directories:")+" "+profile.countWhiteList()
                     }
                     Image {
                         id: blackIcon
                         anchors.left: parent.left
-                        anchors.leftMargin: Theme.horizontalPageMargin
-                        height: Theme.iconSizeSmall
-                        width: Theme.iconSizeSmall
-                        anchors.verticalCenter: profBlack.verticalCenter
-                        source: "image://theme/icon-m-dismiss" + "?" + Theme.secondaryHighlightColor
+                        anchors.top: whiteIcon.bottom
+                        anchors.leftMargin: Theme.paddingSmall
+                        source: "image://theme/icon-m-dismiss" // + "?" + Theme.secondaryHighlightColor
                     }
                     Label {
                         id: profBlack
+                        height: blackIcon.height
+                        anchors.verticalCenter: blackIcon.verticalCenter
+                        verticalAlignment: Text.AlignVCenter
                         anchors.left: blackIcon.right
                         anchors.right: parent.right
-                        anchors.top: profWhite.bottom
-                        anchors.leftMargin: Theme.paddingMedium
                         anchors.rightMargin: Theme.horizontalPageMargin
                         //text: qsTr("Blacklist directories:")+" "+profile.countBlackList()
                     }
                 }
-                Spacer { height: Theme.paddingLarge }
+                //Spacer { height: Theme.paddingLarge }
 
                 SectionHeader { text: qsTr("Search options")}
                 TextSwitch {
