@@ -40,6 +40,7 @@ void Profile::setName(QString profilename)
     readBlackList(); //get blacklist from file
     readOptions();
     emit nameChanged();
+    emit settingsChanged();
 }
 
 //Function checks if whitelist is not empty and compares its size with index
@@ -158,6 +159,7 @@ void Profile::writeAll()
         writeWhiteList();
         writeBlackList();
         m_unsaved=false;
+        emit settingsChanged();
     }
 }
 

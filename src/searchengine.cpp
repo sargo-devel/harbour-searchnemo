@@ -22,6 +22,8 @@ SearchEngine::SearchEngine(QObject *parent) :
     connect(m_searchWorker, SIGNAL(started()), this, SIGNAL(runningChanged()));
     connect(m_searchWorker, SIGNAL(finished()), this, SIGNAL(runningChanged()));
 
+    connect(m_searchWorker, SIGNAL(profileSettingsChanged()), this, SIGNAL(profileSettingsChanged()));
+
     //for icons recognition
     createIconPathList();
 }

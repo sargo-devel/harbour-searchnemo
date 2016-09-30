@@ -39,6 +39,8 @@ signals:
     void workerDone();
     void workerErrorOccurred(QString message, QString filename);
 
+    void profileSettingsChanged();
+
 private slots:
     void emitMatchFound(QString fullpath, QString searchtype, QString displabel, QString matchline, int matchcount);
 

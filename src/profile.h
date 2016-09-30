@@ -48,7 +48,8 @@ public:
     void resetWhiteList();                  //resets whitelist index
 
 signals:
-    void nameChanged();
+    void nameChanged();                     //emitted when new name is loaded (and all settings)
+    void settingsChanged();                 //emitted when some settings has changed
 
 public slots:
 private:

@@ -29,6 +29,7 @@ SearchWorker::SearchWorker(QObject *parent) :
     QThread(parent),
     m_cancelled(NotCancelled)
 {
+    connect(&m_profile, SIGNAL(settingsChanged()), this, SIGNAL(profileSettingsChanged()));
     qDebug()<<"Searchworker constructor";
 }
 
@@ -70,7 +71,6 @@ void SearchWorker::cancel()
 
 void SearchWorker::run() Q_DECL_OVERRIDE
 {
-    qDebug() << "1 m_directory=" << m_directory;
     while ( m_profile.isWhiteList() ) {
         m_directory = m_profile.getNextFromWhiteList();
         qDebug() << "2 m_directory=" << m_directory;
@@ -84,7 +84,6 @@ void SearchWorker::run() Q_DECL_OVERRIDE
 
 QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
 {
-    qDebug() << "directory=" << directory;
     // skip some system folders - they don't really have any interesting stuff
     if (directory.startsWith("/proc") ||
             directory.startsWith("/sys/block"))
@@ -327,7 +326,6 @@ bool SearchWorker::searchTxtLoop(QTextStream *intxt, QString searchtype, QString
             displabel = prepareForApps(intxt);
             matchcount = 0;
         }
-        qDebug()<<"info:"<<fullpath;
         emit matchFound(fullpath, searchtype, displabel, firstmatchline, matchcount);
     }
     return true;

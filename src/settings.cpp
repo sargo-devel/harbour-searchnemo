@@ -107,7 +107,7 @@ bool Settings::read(QString key, bool defaultValue)
 int Settings::read(QString key, int defaultValue)
 {
     QSettings settings;
-    qDebug()<<"int";
+    qDebug()<<"int"<<key;
     return settings.value(key, defaultValue).toInt();
 }
 

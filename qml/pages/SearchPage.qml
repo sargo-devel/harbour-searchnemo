@@ -62,6 +62,7 @@ Page {
     SearchEngine {
         id: searchEngine
         profilename: page.profilename
+        property int maxResultsPerSection
         property var categoryTab: { "NOTES":0, "TXT":1, "HTML":2, "PDF":3, "SRC":4, "SQLITE":5, "APPS":6, "FILE":7, "DIR":8 }
         property var ord: [0, 0, 0, 0, 0, 0, 0, 0, 0]
         property var backord: [0, 0, 0, 0, 0, 0, 0, 0, 0]
@@ -94,6 +95,10 @@ Page {
             default:
                 return qsTr("Other");
             }
+        }
+
+        onProfileSettingsChanged: {
+            maxResultsPerSection = settings.read(profilename+" Options/maxResultsPerSection",50)
         }
 
         // react on signals from SearchEngine
@@ -592,8 +597,7 @@ Page {
     function insertIntoModel(entry) {
         var pos=0
         var i=searchEngine.categoryTab[entry.searchtype]
-        var maxres = settings.read(profilename+" Options/maxResultsPerSection",50)
-
+        var maxres = searchEngine.maxResultsPerSection
         for(var j=0; j<=i; j++) {
             pos = pos + searchEngine.ord[j]
         }

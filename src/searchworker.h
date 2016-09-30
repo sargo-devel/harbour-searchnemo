@@ -31,6 +31,9 @@ signals: // signals, can be connected from a thread to another
     void done();
     void errorOccurred(QString message, QString filename);
 
+    //this is related to changes in m_profile
+    void profileSettingsChanged();
+
 protected:
     void run();
 
@@ -48,6 +51,7 @@ private:
     bool m_alreadySearchedNotes;
 
     Profile m_profile;
+    Profile *m_profile1;
     QString m_directory;
     QString m_searchTerm;
     QAtomicInt m_cancelled; // atomic so no locks needed
