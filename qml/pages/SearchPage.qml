@@ -230,7 +230,7 @@ Page {
             id:fileListHeader
             width: parent.width
 //            height: Theme.itemSizeLarge
-            height: searchField.height+foundText.height+selectProfile.height
+            height: searchField.height+Theme.paddingSmall+selectProfile.height
             SearchField {
                 id: searchField
                 anchors.left: parent.left
@@ -299,8 +299,10 @@ Page {
                 visible: false
                 anchors.left: parent.left
                 anchors.leftMargin: searchField.textLeftMargin
-                anchors.top: searchField.bottom
-                anchors.topMargin: -Theme.paddingLarge
+//                anchors.top: searchField.bottom
+                anchors.top: parent.top
+                anchors.topMargin: searchField.height + Theme.paddingSmall - Theme.paddingLarge
+//                anchors.topMargin: -Theme.paddingLarge
                 text: qsTr("%n hit(s)","",backListModel.count)
                 font.pixelSize: Theme.fontSizeTiny
                 color: Theme.secondaryColor
@@ -311,8 +313,10 @@ Page {
                 anchors.leftMargin: 3*Theme.itemSizeSmall
                 anchors.right: parent.right
                 anchors.rightMargin: Theme.paddingLarge
-                anchors.top: searchField.bottom
-                anchors.topMargin: -Theme.paddingLarge
+//                anchors.top: searchField.bottom
+                anchors.top: parent.top
+                anchors.topMargin: searchField.height + Theme.paddingSmall - Theme.paddingLarge
+//                anchors.topMargin: -Theme.paddingLarge
                 text: page.currentDirectory
                 font.pixelSize: Theme.fontSizeTiny
                 color: Theme.secondaryColor
@@ -323,6 +327,8 @@ Page {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.top: dispCurDir.bottom
+//                anchors.top: parent.top
+//                anchors.topMargin: 2*Theme.paddingLarge
                 label: qsTr("Profile:")
                 value: page.profilename
                 onClicked: {listModel.update("")}
@@ -405,8 +411,9 @@ Page {
             }
 
             onClicked: {
-                if(searchtype === "APPS") delegateMenuOpen(model.fullname)
-                       else openViewPage(searchtype, fullname, matchcount, displabel)
+                //if(searchtype === "APPS") delegateMenuOpen(model.fullname)
+                //else
+                    openViewPage(searchtype, fullname, matchcount, displabel)
             }
 
             RemorseItem {
@@ -424,11 +431,11 @@ Page {
                  id: contextMenu
                  ContextMenu {
                      MenuItem {
-                         text: (model.searchtype === "APPS") ? qsTr("View details") : qsTr("Open")
-                         onClicked: (model.searchtype === "APPS") ?
-                                        openViewPage(model.searchtype, model.fullname, model.matchcount, model.displabel)
-                                      : delegateMenuOpen(model.fullname)
-                         //onClicked: engine.copyFiles([ model.fullname ]);
+                         text: (model.searchtype === "APPS") ? qsTr("Run") : qsTr("Open")
+                         onClicked: { //(model.searchtype === "APPS") ?
+                                      //  openViewPage(model.searchtype, model.fullname, model.matchcount, model.displabel) :
+                                      delegateMenuOpen(model.fullname)
+                         }
                      }                     
                      MenuItem {
                          text: qsTr("Remove from search results")

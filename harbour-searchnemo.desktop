@@ -4,6 +4,7 @@ X-Nemo-Application-Type=silica-qt5
 Icon=harbour-searchnemo
 Exec=harbour-searchnemo
 Name=SearchNemo
+Comment=Text and files search tool
 # translation example:
 # your app name in German locale (de)
 #

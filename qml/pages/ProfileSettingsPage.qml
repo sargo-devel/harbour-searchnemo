@@ -206,7 +206,7 @@ Page {
                 TextSwitch {
                     id: enableAppsSection
                     text: qsTr("Enable APPS section")
-                    description: qsTr("Enables searching inside *.desktop files")
+                    description: qsTr("Enables special searching inside *.desktop files")
                     onClicked: profile.setOption(Profile.EnableApps, checked)
                 }
 
