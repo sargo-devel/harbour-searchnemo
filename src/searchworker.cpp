@@ -109,6 +109,7 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
     bool enableApps = m_profile.getBoolOption(Profile::EnableApps);
     bool enableSqlite = m_profile.getBoolOption(Profile::EnableSqlite);
     bool enableNotes = m_profile.getBoolOption(Profile::EnableNotes);
+    bool enableFileDir = m_profile.getBoolOption(Profile::EnableFileDir);
 
     QDir::Filter hidden = hiddenSetting ? QDir::Hidden : (QDir::Filter)0;
 
@@ -124,8 +125,9 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
         QString filename = names.at(i);
         QString fullpath = dir.absoluteFilePath(filename);
 
-        if (filename.toLower().indexOf(searchTerm) >= 0)
-            emit matchFound(fullpath, searchtype, "", matchline, 0);
+        if (enableFileDir)
+            if (filename.toLower().indexOf(searchTerm) >= 0)
+                emit matchFound(fullpath, searchtype, "", matchline, 0);
 
         if (enableSymlinks) {
             //skip deep subdirs when symlinks enabled
@@ -144,19 +146,21 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
     }
 
     // search files
-    searchtype = "FILE";
-    matchline = "";
-    names = dir.entryList(QDir::Files | hidden);
-    for (int i = 0 ; i < names.count() ; ++i) {
-        // stop if cancelled
-        if (m_cancelled.loadAcquire() == Cancelled)
-            return QString();
+    if (enableFileDir) {
+        searchtype = "FILE";
+        matchline = "";
+        names = dir.entryList(QDir::Files | hidden);
+        for (int i = 0 ; i < names.count() ; ++i) {
+            // stop if cancelled
+            if (m_cancelled.loadAcquire() == Cancelled)
+                return QString();
 
-        QString filename = names.at(i);
-        QString fullpath = dir.absoluteFilePath(filename);
+            QString filename = names.at(i);
+            QString fullpath = dir.absoluteFilePath(filename);
 
-        if (filename.toLower().indexOf(searchTerm) >= 0)
-            emit matchFound(fullpath, searchtype, "", matchline, 0);
+            if (filename.toLower().indexOf(searchTerm) >= 0)
+                emit matchFound(fullpath, searchtype, "", matchline, 0);
+        }
     }
 
     // search inside filtered files (*.txt)

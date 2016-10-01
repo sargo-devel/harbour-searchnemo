@@ -75,6 +75,7 @@ void Settings::addDefaultSet()
     write(name+" Sections/enableAppsSection", true);
     write(name+" Sections/enableSqliteSection", false);
     write(name+" Sections/enableNotesSection", false);
+    write(name+" Sections/enableFileDirSections", false);
 
     name = tr("Entire tree");
     remove(name + " Whitelist");

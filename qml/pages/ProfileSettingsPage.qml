@@ -226,7 +226,12 @@ Page {
 //                    onCheckedChanged: settings.write("Sections/enableNotesSection", checked.toString())
                 }
 
-
+                TextSwitch {
+                    id: enableFileDirSection
+                    text: qsTr("Enable Files and Directories sections")
+                    description: qsTr("Enables searching for file and directory names")
+                    onClicked: profile.setOption(Profile.EnableFileDir, checked)
+                }
 
             }
 
@@ -250,6 +255,7 @@ Page {
             enableAppsSection.checked = profile.getBoolOption(Profile.EnableApps)
             enableSqliteSection.checked = profile.getBoolOption(Profile.EnableSqlite)
             enableNotesSection.checked = profile.getBoolOption(Profile.EnableNotes)
+            enableFileDirSection.checked = profile.getBoolOption(Profile.EnableFileDir)
 //            langSetting.currentIndex = getLangIndex( settings.read("langSetting","default") )
 //            langSetting.currentItem = langSetting.menu.children[langSetting.currentIndex]
         }

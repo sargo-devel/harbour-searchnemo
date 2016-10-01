@@ -133,7 +133,8 @@ void Profile::readOptions()
     m_enableApps = settings.read(m_name+" Sections/enableAppsSection", true);
     m_enableSqlite = settings.read(m_name+" Sections/enableSqliteSection", true);
     m_enableNotes = settings.read(m_name+" Sections/enableNotesSection", true);
-
+    m_enableNotes = settings.read(m_name+" Sections/enableNotesSection", true);
+    m_enableFileDir = settings.read(m_name+" Sections/enableFileDirSections", true);
 }
 
 void Profile::writeOptions()
@@ -151,6 +152,7 @@ void Profile::writeOptions()
     settings.write(m_name+" Sections/enableAppsSection", m_enableApps);
     settings.write(m_name+" Sections/enableSqliteSection", m_enableSqlite);
     settings.write(m_name+" Sections/enableNotesSection", m_enableNotes);
+    settings.write(m_name+" Sections/enableFileDirSections", m_enableFileDir);
 }
 
 void Profile::writeAll()
@@ -194,6 +196,9 @@ bool Profile::getBoolOption(Options key)
         break;
     case EnableNotes:
         return m_enableNotes;
+        break;
+    case EnableFileDir:
+        return m_enableFileDir;
         break;
 
     default:
@@ -254,6 +259,10 @@ void Profile::setOption(Options key, bool value)
         break;
     case EnableNotes:
         m_enableNotes=value;
+        m_unsaved=true;
+        break;
+    case EnableFileDir:
+        m_enableFileDir=value;
         m_unsaved=true;
         break;
 

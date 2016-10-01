@@ -22,6 +22,7 @@ public:
         EnableApps,
         EnableSqlite,
         EnableNotes,
+        EnableFileDir,
         MaxResultsPerSection
     };
 
@@ -69,6 +70,7 @@ private:
     bool m_enableApps;           //enable/disable APPS section
     bool m_enableSqlite;        //enable/disable SQLITE section
     bool m_enableNotes;         //enable/disable NOTES section
+    bool m_enableFileDir;         //enable/disable FILE and DIR sections
 
     void readWhiteList();       //Function reads whitelist from settings file
     void readBlackList();       //Function reads whitelist from settings file
