@@ -22,6 +22,7 @@
 Profile::Profile(QObject *parent) : QObject(parent)
 {
     m_unsaved=false;
+    qDebug()<<"profile constructed";
 }
 
 Profile::~Profile()

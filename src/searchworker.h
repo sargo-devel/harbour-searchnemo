@@ -21,6 +21,9 @@ public:
 
     void cancel();
 
+    void setProfile(QString name) { m_profile.setName(name); }
+    int getProfileOption_MaxResultsPerSection() { return m_profile.getIntOption(Profile::MaxResultsPerSection); }
+
 signals: // signals, can be connected from a thread to another
 
     void progressChanged(QString directory);
@@ -33,6 +36,7 @@ signals: // signals, can be connected from a thread to another
 
     //this is related to changes in m_profile
     void profileSettingsChanged();
+    void profileNameChanged();
 
 protected:
     void run();
@@ -51,7 +55,6 @@ private:
     bool m_alreadySearchedNotes;
 
     Profile m_profile;
-    Profile *m_profile1;
     QString m_directory;
     QString m_searchTerm;
     QAtomicInt m_cancelled; // atomic so no locks needed

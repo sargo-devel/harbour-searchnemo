@@ -2,6 +2,7 @@
 #define SEARCHENGINE_H
 
 #include <QDir>
+#include <QDebug>
 
 class SearchWorker;
 
@@ -14,6 +15,7 @@ class SearchEngine : public QObject
 {
     Q_OBJECT
     Q_PROPERTY(QString profilename READ profilename() WRITE setProfilename(QString) NOTIFY profilenameChanged())
+    Q_PROPERTY(int maxResultsPerSection READ maxResultsPerSection() NOTIFY maxResultsPerSectionChanged())
     Q_PROPERTY(bool running READ running() NOTIFY runningChanged())
 
 public:
@@ -23,6 +25,7 @@ public:
     // property accessors
     QString profilename() const { return m_profilename; }
     void setProfilename(QString profilename);
+    int maxResultsPerSection() const { return m_maxResultsPerSection; }
     bool running() const;
 
     // callable from QML
@@ -30,7 +33,6 @@ public:
     Q_INVOKABLE void cancel();
 
 signals:
-    void profilenameChanged();
     void runningChanged();
 
     void progressChanged(QString directory);
@@ -39,13 +41,17 @@ signals:
     void workerDone();
     void workerErrorOccurred(QString message, QString filename);
 
+    void profilenameChanged();
     void profileSettingsChanged();
+    void maxResultsPerSectionChanged();
 
 private slots:
     void emitMatchFound(QString fullpath, QString searchtype, QString displabel, QString matchline, int matchcount);
+    void emitMaxResultsPerSection();
 
 private:
     QString m_profilename;
+    int m_maxResultsPerSection;
     QString m_errorMessage;
     SearchWorker *m_searchWorker;
     QStringList m_iconPathList;

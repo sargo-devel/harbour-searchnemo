@@ -23,6 +23,8 @@ SearchEngine::SearchEngine(QObject *parent) :
     connect(m_searchWorker, SIGNAL(finished()), this, SIGNAL(runningChanged()));
 
     connect(m_searchWorker, SIGNAL(profileSettingsChanged()), this, SIGNAL(profileSettingsChanged()));
+    connect(m_searchWorker, SIGNAL(profileSettingsChanged()), this, SLOT(emitMaxResultsPerSection()));
+    connect(m_searchWorker, SIGNAL(profileNameChanged()), this, SIGNAL(profilenameChanged()));
 
     //for icons recognition
     createIconPathList();
@@ -42,8 +44,14 @@ void SearchEngine::setProfilename(QString profilename)
         return;
 
     m_profilename = profilename;
+    m_searchWorker->setProfile(m_profilename);
+//    emit profilenameChanged();
+}
 
-    emit profilenameChanged();
+void SearchEngine::emitMaxResultsPerSection()
+{
+    m_maxResultsPerSection = m_searchWorker->getProfileOption_MaxResultsPerSection();
+    emit maxResultsPerSectionChanged();
 }
 
 bool SearchEngine::running() const

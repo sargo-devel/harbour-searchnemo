@@ -30,6 +30,7 @@ SearchWorker::SearchWorker(QObject *parent) :
     m_cancelled(NotCancelled)
 {
     connect(&m_profile, SIGNAL(settingsChanged()), this, SIGNAL(profileSettingsChanged()));
+    connect(&m_profile, SIGNAL(nameChanged()), this, SIGNAL(profileNameChanged()));
     qDebug()<<"Searchworker constructor";
 }
 
