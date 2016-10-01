@@ -176,8 +176,8 @@ Page {
         property bool lockSection: true
 
         //additional paddings sizes
-        property int theme_paddingSmall15: Theme.paddingSmall*1.5
-        property int theme_paddingSmall05: Theme.paddingSmall*0.5
+        //property int theme_paddingSmall15: Theme.paddingSmall*1.5
+        //property int theme_paddingSmall05: Theme.paddingSmall*0.5
 
         model: ListModel {
             id: listModel
@@ -208,7 +208,7 @@ Page {
                 onClicked: pageStack.push(Qt.resolvedUrl("About.qml"))
             }
             MenuItem {
-                text: qsTr("Options")
+                text: qsTr("General Options")
                 onClicked: pageStack.push(Qt.resolvedUrl("SettingsPage.qml"))
             }
             MenuItem {
@@ -361,7 +361,7 @@ Page {
                 }
                 ,State {
                     name: "opened"; when: isVisible
-                    PropertyChanges { target: fileItem; opacity: 1.0; contentHeight: listLabel.height+listAbsoluteDir.height + Theme.paddingMedium }
+                    PropertyChanges { target: fileItem; opacity: 1.0; contentHeight: listLabel.height+listAbsoluteDir.height + Theme.paddingMedium + Theme.paddingSmall}
                 }
             ]
             transitions: Transition {
@@ -374,7 +374,8 @@ Page {
                 anchors.left: parent.left
                 anchors.leftMargin: Theme.horizontalPageMargin
                 anchors.top: parent.top
-                anchors.topMargin: fileList.theme_paddingSmall15
+                //anchors.topMargin: fileList.theme_paddingSmall15
+                anchors.topMargin: Theme.paddingMedium
                 fillMode: Image.PreserveAspectFit
                 height: (searchtype === "APPS") ? Theme.iconSizeMedium : sourceSize.height
                 source: (searchtype === "APPS") ? fileIcon : "../images/small-"+fileIcon+".png"
@@ -387,7 +388,8 @@ Page {
                 anchors.leftMargin: Theme.paddingMedium
                 anchors.rightMargin: Theme.horizontalPageMargin
                 anchors.top: parent.top
-                anchors.topMargin: fileList.theme_paddingSmall05
+                //anchors.topMargin: fileList.theme_paddingSmall05
+                anchors.topMargin: Theme.paddingSmall
                 property string disptxt: displabel === "" ? filename : displabel
                 text: matchcount>0 ? "[" + matchcount + "] " + disptxt : disptxt
                 textFormat: Text.PlainText
@@ -466,17 +468,27 @@ Page {
             property bool openSection: searchEngine.opensection[ searchEngine.categoryTab[section] ]
             property bool restore: false
 
-            Label {
+//            Label {
+//                id: sectionIcon
+//                anchors.left: parent.left
+//                anchors.leftMargin: Theme.paddingLarge
+//                anchors.verticalCenter: parent.verticalCenter
+//                text: Functions.unicodeBlackDownPointingTriangle()
+//                font.pixelSize: Theme.fontSizeExtraLarge
+//                color: Theme.highlightColor
+//                rotation:  openSection ? 0 : -90
+//                Behavior on rotation { NumberAnimation { duration: 250; easing.type: Easing.OutBack } }
+//            }
+            Image {
                 id: sectionIcon
                 anchors.left: parent.left
                 anchors.leftMargin: Theme.paddingLarge
                 anchors.verticalCenter: parent.verticalCenter
-                text: Functions.unicodeBlackDownPointingTriangle()
-                font.pixelSize: Theme.fontSizeExtraLarge
-                color: Theme.highlightColor
-                rotation:  openSection ? 0 : -90
+                source: "image://theme/icon-m-forward" // + "?" + Theme.highlightColor
+                rotation:  openSection ? 90 : 0
                 Behavior on rotation { NumberAnimation { duration: 250; easing.type: Easing.OutBack } }
             }
+
             Label {
                 id: sectionCountLabel
                 anchors.left: sectionIcon.right
