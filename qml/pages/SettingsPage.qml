@@ -123,7 +123,7 @@ Page {
                     id: profileSetting
                     width: parent.width
                     label: qsTr("Default profile:")
-                    description: qsTr("This profile will be used at the application startup")
+                    description: qsTr("This profile will be used on the application startup")
                     //value: page.profilename
                     //onClicked: {listModel.update("")}
                     menu: ContextMenu {

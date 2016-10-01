@@ -305,7 +305,7 @@ Page {
                     enabled: pname.text
                     //EnterKey.enabled: text || inputMethodComposing
                     EnterKey.enabled: true
-                    EnterKey.iconSource: "image://theme/icon-m-enter-close"
+                    EnterKey.iconSource: "image://theme/icon-m-enter-accept"
                     EnterKey.onClicked: accept()
                 }
             }

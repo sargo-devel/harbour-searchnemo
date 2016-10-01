@@ -28,12 +28,18 @@ Row {
         font.pixelSize: Theme.fontSizeLarge
         text: qsTr("File info ")
     }
-    Label {
+//    Label {
+//        id: triangle
+//        color: Theme.highlightColor
+//        font.pixelSize: Theme.fontSizeExtraLarge
+//        text: Functions.unicodeBlackDownPointingTriangle()
+//        rotation:  dataColumn.isEnabled ? 0 : 90
+//        Behavior on rotation { NumberAnimation { duration: 250; easing.type: Easing.OutBack } }
+//    }
+    Image {
         id: triangle
-        color: Theme.highlightColor
-        font.pixelSize: Theme.fontSizeExtraLarge
-        text: Functions.unicodeBlackDownPointingTriangle()
-        rotation:  dataColumn.isEnabled ? 0 : 90
+        source: "image://theme/icon-m-forward" // + "?" + Theme.highlightColor
+        rotation:  dataColumn.isEnabled ? 90 : 180
         Behavior on rotation { NumberAnimation { duration: 250; easing.type: Easing.OutBack } }
     }
 }

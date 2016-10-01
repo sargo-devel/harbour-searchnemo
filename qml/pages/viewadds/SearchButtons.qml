@@ -34,6 +34,7 @@ Row {
                    text: qsTr("Found text:")
                    verticalAlignment: Text.AlignVCenter
                    anchors.verticalCenter: findFirst.verticalCenter
+                   color: Theme.highlightColor
                }
                IconButton {
                    id: findNext

@@ -76,7 +76,7 @@ Page {
                     //text:
                     //Connections {target: profile; onNameChanged: {console.log("profDesc");profDesc.text=profile.description()}}
                     EnterKey.enabled: true
-                    EnterKey.iconSource: "image://theme/icon-m-enter-next"
+                    EnterKey.iconSource: "image://theme/icon-m-enter-accept"
                     EnterKey.onClicked: {
                         profile.setDescription(text)
                         profile.writeAll()
