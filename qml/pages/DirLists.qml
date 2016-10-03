@@ -126,7 +126,10 @@ Page {
         width: parent.width
 //        clip: true
 
-        header: PageHeader { title: qsTr("List of Directories") }
+        header: PageHeader {
+            title: qsTr("List of Directories")
+            description: qsTr("Profile") +" "+ dirsPage.profileName
+        }
 
         model: dirListModel
 
@@ -186,7 +189,7 @@ Page {
         section.delegate: ListItem {
             id: sectionDir
             width: parent.width
-            enabled: true
+            enabled: false
             Image {
                 id: whiteIcon
                 anchors.left: parent.left
