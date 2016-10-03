@@ -28,11 +28,11 @@ Page {
     //signal used for return parameters
     signal ret
     Component.onDestruction: { dirListModel.writeList(); ret() }
-
+    Component.onCompleted: {dirListModel.readList()}
     onStatusChanged: {
         console.log("DirsPage status=",status,"(I,A^,A,D:",PageStatus.Inactive,PageStatus.Activating,PageStatus.Active,PageStatus.Deactivating,")")
         if (status === PageStatus.Activating) {
-           dirListModel.readList()
+//           dirListModel.readList()
         }
         if (status === PageStatus.Deactivating) {
 //            dirListModel.writeList()
@@ -46,7 +46,6 @@ Page {
     //list model: dirname=fullpath, enable=true/false (whitelisted/blacklisted)
     ListModel {
         id: dirListModel
-
         //Component.onCompleted: dirListModel.readList()
 
         function readList() {
@@ -73,6 +72,7 @@ Page {
             settings.writeStringList(profileName+" Whitelist",wlist)
             settings.remove(profileName+" Blacklist");
             settings.writeStringList(profileName+" Blacklist",blist)
+
         }
 
         function removeDir(idx) {
@@ -136,13 +136,10 @@ Page {
             MenuItem {
                 text: qsTr("Add/Modify directories")
                 onClicked: {
+                    dirListModel.writeList()
                     var dirtreeDialog = pageStack.push(Qt.resolvedUrl("DirTree.qml"), {"wblistModel": dirListModel})
-                    dirtreeDialog.accepted.connect( function() {
-                        dirListModel.writeList()
-//                        console.log("dirListModel count=",dirListModel.count)
-//                        for (var i=0; i<dirListModel.count; i++) {
-//                            console.log("wblist["+i+"]",dirListModel.get(i).dirname, dirListModel.get(i).enable) }
-                    })
+                    dirtreeDialog.accepted.connect( function() { dirListModel.writeList(); dirListModel.readList() })
+                    dirtreeDialog.rejected.connect( function() { dirListModel.readList() })
                 }
             }
         }
@@ -155,13 +152,15 @@ Page {
             menu: ContextMenu {
                 MenuItem {
                     text: qsTr("Remove from list")
-                    onClicked: remorseDeleteDir(index)
+                    onClicked: remorseDeleteDir(dirname)
                 }
             }
 
             onClicked: {
+                dirListModel.writeList()
                 var dirtreeDialog = pageStack.push(Qt.resolvedUrl("DirTree.qml"), {"wblistModel": dirListModel, "startPath": dirname})
-                dirtreeDialog.accepted.connect(function() { dirListModel.writeList() })
+                dirtreeDialog.accepted.connect(function() { dirListModel.writeList(); dirListModel.readList() })
+                dirtreeDialog.rejected.connect( function() { dirListModel.readList() })
             }
             Label {
                 id: dirLabel
@@ -177,8 +176,8 @@ Page {
 
             RemorseItem { id: remorse }
 
-            function remorseDeleteDir(idx) {
-                remorse.execute(itemDir, qsTr("Removing directory from list"), function() {dirListModel.removeDir(idx)})
+            function remorseDeleteDir(name) {
+                remorse.execute(itemDir, qsTr("Removing directory from list"), function() {dirListModel.removeDirName(name)})
             }
         }
 
