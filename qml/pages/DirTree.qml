@@ -28,7 +28,7 @@ Dialog {
 
     //used only as a start parameter
     property string startPath
-    onStartPathChanged: { dirtreeModel.path = startPath }
+    onStartPathChanged: { dIsDir = true; dirtreeModel.path = startPath }
 
     //used internally with animation
     property string dName
@@ -197,10 +197,12 @@ Dialog {
                 }
 
                 onClicked: {
+                    console.log("path=",path)
                     viewDir.enabled = false;
                     dName = name
-                    dPath = (path === "/..") ? "/" : path
-                    dIsDir = isDir
+                    dPath = path
+                    dIsDir = (path === "//..") ? false : isDir
+                    dStart = (path === "//..") ? true : false
                     outAnimation.start()
                 }
 

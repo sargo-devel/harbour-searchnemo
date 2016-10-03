@@ -20,7 +20,7 @@ DirtreeModel::DirtreeModel() :
     m_dir(QStandardPaths::writableLocation(QStandardPaths::HomeLocation),
           QString(),
           QDir::Name | QDir::IgnoreCase | QDir::LocaleAware,
-          QDir::AllDirs | QDir::NoDot)
+          QDir::AllDirs | QDir::NoDot | QDir::NoDotDot)
 {
     load();
     m_start=true;
@@ -33,14 +33,14 @@ DirtreeModel::~DirtreeModel()
 
 void DirtreeModel::filterHidden(bool hidden)
 {
-    if(hidden) m_dir.setFilter(QDir::AllDirs | QDir::NoDot);
-    else m_dir.setFilter(QDir::AllDirs | QDir::NoDot | QDir::Hidden);
+    if(hidden) m_dir.setFilter(m_dir.filter() & (~QDir::Hidden));
+    else m_dir.setFilter(m_dir.filter() | QDir::Hidden);
 }
 
 bool DirtreeModel::isFilterHidden()
 {
-    if (m_dir.filter() == QDir::Filters( QDir::AllDirs|QDir::NoDot ) ) return true;
-    return false;
+    if (m_dir.filter() & QDir::Hidden) return false;
+    return true;
 }
 
 void DirtreeModel::loadStartList()
@@ -93,7 +93,6 @@ QVariant DirtreeModel::data(const QModelIndex& index, int role) const
             return QVariant();
         }
     }
-
     const QFileInfo& info = m_files[index.row()];
     switch (role)
     {
@@ -119,7 +118,11 @@ QHash<int, QByteArray> DirtreeModel::roleNames() const
 
 void DirtreeModel::load()
 {
+    if( !m_dir.isReadable()) m_dir.cdUp();
     m_files = m_dir.entryInfoList();
+    //the below is to ensure ".." on the first place on list
+    m_files.prepend(QFileInfo(m_dir.absolutePath()+"/.."));
+
 }
 
 QString DirtreeModel::path()
