@@ -33,7 +33,7 @@ Page {
             anchors.right: parent.right
             anchors.leftMargin: Theme.horizontalPageMargin
             anchors.rightMargin: Theme.horizontalPageMargin
-            property string color: Theme.highlightColor
+            property string color: Theme.primaryColor
 
             PageHeader { title: qsTr("About") }
 
@@ -51,7 +51,7 @@ Page {
                 font.pixelSize: Theme.fontSizeSmall
                 horizontalAlignment: Text.AlignHCenter
                 color: parent.color
-                text: "SearchNemo, " + qsTr("version: ") + "0.2.1" + "\n"
+                text: "SearchNemo, " + qsTr("version:") + " " + "0.2.1" + "\n"
                       +qsTr("Text and files search tool")
             }
 
@@ -65,7 +65,7 @@ Page {
                 font.pixelSize: Theme.fontSizeSmall
                 wrapMode: Text.Wrap
                 color: parent.color
-                text: qsTr("This program searches for a text in files stored locally on the device ")
+                text: qsTr("This program searches for a text in files stored locally on the device") + " "
                       + qsTr("and presents results in a possibly useful form.")
             }
 
@@ -77,7 +77,7 @@ Page {
                 anchors.right: parent.right
                 font.pixelSize: Theme.fontSizeSmall
                 color: parent.color
-                text: "Copyright © by SargoDevel\n" + qsTr("License: GPL v3\n")
+                text: "Copyright © by SargoDevel\n" + qsTr("License: GPL v3") +"\n"
                 + qsTr("Source code:")
             }
             Label {
@@ -85,7 +85,7 @@ Page {
                 anchors.right: parent.right
                 font.pixelSize: Theme.fontSizeTiny
                 textFormat: Text.StyledText
-                linkColor: Theme.primaryColor
+                linkColor: Theme.highlightColor
                 color: parent.color
                 text: "<a href=\"https://github.com/sargo-devel/harbour-searchnemo\">https://github.com/sargo-devel/harbour-searchnemo</a>"
                 onLinkActivated: { console.log(link);Qt.openUrlExternally(link) }
@@ -112,11 +112,11 @@ Page {
                 horizontalAlignment: Text.AlignJustify
                 wrapMode: Text.Wrap
                 color: parent.color
-                text: qsTr("* Tap on section label with arrow to expand/collapse section.") + qsTr("\n")
-                      + qsTr("* Tap on text in detailed view to enter 'Select and copy' page.") + qsTr("\n")
-                      + qsTr("* Press and hold on empty search field or choose another profile to clear search results.") + qsTr("\n")
+                text: qsTr("* Tap on section label with arrow to expand/collapse section.") + "\n"
+                      + qsTr("* Tap on text in detailed view to enter 'Select and copy' page.") + "\n"
+                      + qsTr("* Press and hold on empty search field or choose another profile to clear search results.") + "\n"
                       + qsTr("* Choosing profile via 'Profiles list' doesn't delete search results.")
-                      + qsTr("\n")
+                      + "\n"
             }
             Label {
                 anchors.left: parent.left
@@ -126,7 +126,7 @@ Page {
                 textFormat: Text.StyledText
                 wrapMode: Text.Wrap
                 color: parent.color
-                text: qsTr("<u>Profiles</u>")
+                text: "<u>" + qsTr("Profiles") + "</u>"
             }
             Label {
                 anchors.left: parent.left
@@ -135,13 +135,13 @@ Page {
                 horizontalAlignment: Text.AlignJustify
                 wrapMode: Text.Wrap
                 color: parent.color
-                text: qsTr("Profiles give possibility to keep different search options unden one short name.") + qsTr(" ")
-                      + qsTr("Each profile can contain different search paths groupped as whitelist and blacklist directories.") + qsTr("\n")
-                      + qsTr("* The searching always begins in a directory belonging to the whitelist and skips unneeded subdirectories from subtree if they are in the blacklist.") + qsTr("\n")
-                      + qsTr("* Whitelist and blacklist are independent, it means if the next directory from whitelist is a subdirectory of one of dirs from blacklist, the program will start to search there.") + qsTr("\n")
-                      + qsTr("This gives a huge flexibility of creating own complex search paths.") + qsTr(" ")
+                text: qsTr("Profiles give possibility to keep different search options under one short name.") + " "
+                      + qsTr("Each profile may contain different search paths groupped as whitelist or blacklist directories.") + "\n"
+                      + qsTr("* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.") + "\n"
+                      + qsTr("* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.") + "\n"
+                      + qsTr("This gives a huge flexibility of creating own complex search paths.") + " "
                       + qsTr("Some example profiles are available in 'Profiles list' menu.")
-                      + qsTr("\n")
+                      + "\n"
             }
             Label {
                 anchors.left: parent.left
@@ -151,7 +151,7 @@ Page {
                 textFormat: Text.StyledText
                 wrapMode: Text.Wrap
                 color: parent.color
-                text: qsTr("<u>Applications section (experimental)</u>")
+                text: "<u>" + qsTr("Applications section (experimental)") + "</u>"
             }
             Label {
                 anchors.left: parent.left
@@ -160,11 +160,11 @@ Page {
                 horizontalAlignment: Text.AlignJustify
                 wrapMode: Text.Wrap
                 color: parent.color
-                text: qsTr("The program searches only through .desktop files in a directory given by whielist and It can find only text included in these files.") + qsTr(" ")
-                      + qsTr("This fact has some implications:") + qsTr("\n")
-                      + qsTr("* It gives only original (English) names unless it finds localized names there.") + qsTr("\n")
-                      + qsTr("* It can give results not expected by user, because it checks the whole text in these files.") + qsTr("\n")
-                      + qsTr("* This can be useful, for example: searching for '=' will return all found apps, searching for 'jolla' will give all apps created by Jolla") + qsTr("\n")
+                text: qsTr("To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.") + " "
+                      + qsTr("This fact has some implications:") + "\n"
+                      + qsTr("* It gives only original (English) names unless it finds localized names there.") + "\n"
+                      + qsTr("* It can give results not expected by user, because it checks the entire text in these files.") + "\n"
+                      + qsTr("* This can be useful, for example: searching for '=' will return all found apps, searching for 'jolla' will give all apps created by Jolla") + "\n"
             }
         }
     }
