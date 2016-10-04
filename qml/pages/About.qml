@@ -50,7 +50,8 @@ Page {
                 font.pixelSize: Theme.fontSizeSmall
                 //color: Theme.highlightColor
                 horizontalAlignment: Text.AlignHCenter
-                text: "SearchNemo, " + qsTr("version: ") + "0.2.1"
+                text: "SearchNemo, " + qsTr("version: ") + "0.2.1" + "\n"
+                      +qsTr("Text and files search tool")
             }
 
             SectionHeader { text: qsTr("Description") }
@@ -103,10 +104,57 @@ Page {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 font.pixelSize: Theme.fontSizeSmall
+                horizontalAlignment: Text.AlignJustify
                 wrapMode: Text.Wrap
-                text: qsTr("* Tap on label wit triangle to expand/collapse section.\n")
-                      + qsTr("* Tap on text in detailed view to enter Select&Copy page.\n")
-                      + qsTr("* Press and hold on empty search field to clear search results.")
+                text: qsTr("* Tap on section label with arrow to expand/collapse section.") + qsTr("\n")
+                      + qsTr("* Tap on text in detailed view to enter 'Select and copy' page.") + qsTr("\n")
+                      + qsTr("* Press and hold on empty search field or choose another profile to clear search results.") + qsTr("\n")
+                      + qsTr("* Choosing profile via 'Profiles list' doesn't delete search results.")
+                      + qsTr("\n")
+            }
+            Label {
+                anchors.left: parent.left
+                anchors.right: parent.right
+                font.pixelSize: Theme.fontSizeSmall
+                horizontalAlignment: Text.AlignLeft
+                textFormat: Text.StyledText
+                wrapMode: Text.Wrap
+                text: qsTr("<u>Profiles</u>")
+            }
+            Label {
+                anchors.left: parent.left
+                anchors.right: parent.right
+                font.pixelSize: Theme.fontSizeSmall
+                horizontalAlignment: Text.AlignJustify
+                wrapMode: Text.Wrap
+                text: qsTr("Profiles give possibility to keep different search options unden one short name.") + qsTr(" ")
+                      + qsTr("Each profile can contain different search paths groupped as whitelist and blacklist directories.") + qsTr("\n")
+                      + qsTr("* The searching always begins in a directory belonging to the whitelist and skips unneeded subdirectories from subtree if they are in the blacklist.") + qsTr("\n")
+                      + qsTr("* Whitelist and blacklist are independent, it means if the next directory from whitelist is a subdirectory of one of dirs from blacklist, the program will start to search there.") + qsTr("\n")
+                      + qsTr("This gives a huge flexibility of creating own complex search paths.") + qsTr(" ")
+                      + qsTr("Some example profiles are available in 'Profiles list' menu.")
+                      + qsTr("\n")
+            }
+            Label {
+                anchors.left: parent.left
+                anchors.right: parent.right
+                font.pixelSize: Theme.fontSizeSmall
+                horizontalAlignment: Text.AlignLeft
+                textFormat: Text.StyledText
+                wrapMode: Text.Wrap
+                text: qsTr("<u>Applications section (experimental)</u>")
+            }
+            Label {
+                anchors.left: parent.left
+                anchors.right: parent.right
+                font.pixelSize: Theme.fontSizeSmall
+                horizontalAlignment: Text.AlignJustify
+                wrapMode: Text.Wrap
+                text: qsTr("The program searches only through .desktop files in a directory given by whielist and It can find only text included in these files.") + qsTr(" ")
+                      + qsTr("This fact has some implications:") + qsTr("\n")
+                      + qsTr("* It gives only original (English) names unless it finds localized names there.") + qsTr("\n")
+                      + qsTr("* It can give results not expected by user, because it checks the whole text in these files.") + qsTr("\n")
+                      + qsTr("* This can be useful, for example: searching for '=' will return all found apps, searching for 'jolla' will give all apps created by Jolla") + qsTr("\n")
             }
         }
     }

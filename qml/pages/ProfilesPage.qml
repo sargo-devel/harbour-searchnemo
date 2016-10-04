@@ -141,7 +141,7 @@ Page {
         width: parent.width
         clip: true
 
-        header: PageHeader { title: qsTr("List of Profiles") }
+        header: PageHeader { title: qsTr("Profiles list") }
 
         model: profileListModel
 

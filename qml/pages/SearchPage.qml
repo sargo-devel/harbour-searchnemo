@@ -208,11 +208,11 @@ Page {
                 onClicked: pageStack.push(Qt.resolvedUrl("About.qml"))
             }
             MenuItem {
-                text: qsTr("General Options")
+                text: qsTr("General options")
                 onClicked: pageStack.push(Qt.resolvedUrl("SettingsPage.qml"))
             }
             MenuItem {
-                text: qsTr("Profiles")
+                text: qsTr("Profiles list")
                 onClicked: {
                     var exit=pageStack.push(Qt.resolvedUrl("ProfilesPage.qml"), {currentProfile: page.profilename})
                     exit.ret.connect( function() {page.profilename=exit.currentProfile; profList.reload()} )
