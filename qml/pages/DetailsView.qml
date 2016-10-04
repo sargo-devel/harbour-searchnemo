@@ -71,7 +71,7 @@ Column {
         anchors.left: parent.left
         anchors.right: parent.right
         anchors.topMargin: Theme.paddingLarge
-        font.pixelSize: Theme.fontSizeExtraSmall
+        font.pixelSize: Theme.fontSizeSmall
         color: Theme.highlightColor
         wrapMode: Text.Wrap
         text: fileModel.disptxt

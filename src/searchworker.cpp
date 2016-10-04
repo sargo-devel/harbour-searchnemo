@@ -332,7 +332,7 @@ bool SearchWorker::searchTxtLoop(QTextStream *intxt, QString searchtype, QString
         //found result
         if(searchtype == "APPS") {
             displabel = prepareForApps(intxt);
-            matchcount = 0;
+            matchcount = (-1)*matchcount;
             if(displabel.size()>0)
                 emit matchFound(fullpath, searchtype, displabel, firstmatchline, matchcount);
         }

@@ -413,9 +413,7 @@ Page {
             }
 
             onClicked: {
-                //if(searchtype === "APPS") delegateMenuOpen(model.fullname)
-                //else
-                    openViewPage(searchtype, fullname, matchcount, displabel)
+                openViewPage(searchtype, fullname, (matchcount<0)?-matchcount:matchcount, displabel)
             }
 
             RemorseItem {
@@ -434,10 +432,7 @@ Page {
                  ContextMenu {
                      MenuItem {
                          text: (model.searchtype === "APPS") ? qsTr("Run") : qsTr("Open")
-                         onClicked: { //(model.searchtype === "APPS") ?
-                                      //  openViewPage(model.searchtype, model.fullname, model.matchcount, model.displabel) :
-                                      delegateMenuOpen(model.fullname)
-                         }
+                         onClicked: delegateMenuOpen(model.fullname)
                      }                     
                      MenuItem {
                          text: qsTr("Remove from search results")
