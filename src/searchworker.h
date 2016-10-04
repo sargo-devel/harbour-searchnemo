@@ -59,6 +59,7 @@ private:
     QString m_searchTerm;
     QAtomicInt m_cancelled; // atomic so no locks needed
     QString m_currentDirectory;
+    QString m_defLang; //keeps default app language
 };
 
 #endif // SEARCHWORKER_H

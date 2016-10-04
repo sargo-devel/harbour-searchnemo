@@ -29,8 +29,11 @@ SearchWorker::SearchWorker(QObject *parent) :
     QThread(parent),
     m_cancelled(NotCancelled)
 {
+    QSettings settings;
+
     connect(&m_profile, SIGNAL(settingsChanged()), this, SIGNAL(profileSettingsChanged()));
     connect(&m_profile, SIGNAL(nameChanged()), this, SIGNAL(profileNameChanged()));
+    m_defLang = settings.value("langSetting", "default").toString();
     qDebug()<<"Searchworker constructor";
 }
 
@@ -330,8 +333,10 @@ bool SearchWorker::searchTxtLoop(QTextStream *intxt, QString searchtype, QString
         if(searchtype == "APPS") {
             displabel = prepareForApps(intxt);
             matchcount = 0;
+            if(displabel.size()>0)
+                emit matchFound(fullpath, searchtype, displabel, firstmatchline, matchcount);
         }
-        emit matchFound(fullpath, searchtype, displabel, firstmatchline, matchcount);
+        else emit matchFound(fullpath, searchtype, displabel, firstmatchline, matchcount);
     }
     return true;
 }
@@ -340,10 +345,16 @@ QString SearchWorker::prepareForApps(QTextStream *stream)
 {
     bool isDesktop = false;
     bool isApp = false;
-    QString name, namelang, lang, icon, comment;
+    bool isEnabled = true;
+    QString name, name_l, lang, locale, icon, comment, comment_l, defLang;
 
-    //qDebug() << "lang=" << QLocale::languageToString(QLocale::system().language());
-    //lang = QLocale::languageToString(QLocale::system().language());
+
+    if(m_defLang == "default") locale = QLocale::system().name();
+    else locale = m_defLang;
+
+    lang = locale.split("_")[0];
+    qDebug() << "lang=" << lang;
+    qDebug() << "locale=" << locale;
     stream->seek(0);
     while (!stream->atEnd()) {
         if (m_cancelled.loadAcquire() == Cancelled) return QString();
@@ -351,11 +362,20 @@ QString SearchWorker::prepareForApps(QTextStream *stream)
         qDebug()<<"line="<<line;
         if(line.contains("[Desktop Entry]")) isDesktop = true;
         if(line.contains("Type=Application")) isApp = true;
-        if(line.startsWith("Name=")) name = line.right(line.size()-5);
-        if(line.startsWith("Icon=")) icon = line.right(line.size()-5);
-        if(line.startsWith("Comment=")) comment = line.right(line.size()-8);
-        if(line.startsWith("X-apkd-packageName=")) comment = line.right(line.size()-19);
+        if(line.startsWith("Icon=")) icon = line.split("=")[1];
+        if(line.startsWith("Name=")) name = line.split("=")[1];
+        if(line.startsWith("Name[" +lang+ "]=")) name_l = line;
+        if(line.startsWith("Name[" +locale+ "]=")) name_l = line;
+        if(line.startsWith("Comment=")) comment = line.split("=")[1];
+        if(line.startsWith("Comment[" +lang+ "]=")) comment_l = line;
+        if(line.startsWith("Comment[" +locale+ "]=")) comment_l = line;
+        if(line.startsWith("X-apkd-packageName=")) comment = line.split("=")[1];
+        if(line.startsWith("NoDisplay=true")) isEnabled = false;
     }
-    if(isDesktop && isApp) return name + "::" + icon + "::" + comment;
+
+    if(name_l.size()>0) name = name_l.split("=")[1];
+    if(comment_l.size()>0) comment = comment_l.split("=")[1];
+    qDebug()<<"name&comment="<<name<<"&"<<comment<<"&"<<comment_l;
+    if(isDesktop && isApp && isEnabled) return name + "::" + icon + "::" + comment;
     return QString();
 }

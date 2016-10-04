@@ -5,9 +5,4 @@ Icon=harbour-searchnemo
 Exec=harbour-searchnemo
 Name=SearchNemo
 Comment=Text and files search tool
-# translation example:
-# your app name in German locale (de)
-#
-# Remember to comment out the following line, if you do not want to use
-# a different app name in German locale (de).
-#Name[de]=SearchNemo
+Comment[pl]=Narzędzie wyszukiwania tekstu i plików
