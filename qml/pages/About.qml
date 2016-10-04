@@ -33,6 +33,7 @@ Page {
             anchors.right: parent.right
             anchors.leftMargin: Theme.horizontalPageMargin
             anchors.rightMargin: Theme.horizontalPageMargin
+            property string color: Theme.highlightColor
 
             PageHeader { title: qsTr("About") }
 
@@ -48,8 +49,8 @@ Page {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 font.pixelSize: Theme.fontSizeSmall
-                //color: Theme.highlightColor
                 horizontalAlignment: Text.AlignHCenter
+                color: parent.color
                 text: "SearchNemo, " + qsTr("version: ") + "0.2.1" + "\n"
                       +qsTr("Text and files search tool")
             }
@@ -63,6 +64,7 @@ Page {
                 //textFormat: Text.StyledText
                 font.pixelSize: Theme.fontSizeSmall
                 wrapMode: Text.Wrap
+                color: parent.color
                 text: qsTr("This program searches for a text in files stored locally on the device ")
                       + qsTr("and presents results in a possibly useful form.")
             }
@@ -74,6 +76,7 @@ Page {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 font.pixelSize: Theme.fontSizeSmall
+                color: parent.color
                 text: "Copyright © by SargoDevel\n" + qsTr("License: GPL v3\n")
                 + qsTr("Source code:")
             }
@@ -82,7 +85,8 @@ Page {
                 anchors.right: parent.right
                 font.pixelSize: Theme.fontSizeTiny
                 textFormat: Text.StyledText
-                linkColor: Theme.highlightColor
+                linkColor: Theme.primaryColor
+                color: parent.color
                 text: "<a href=\"https://github.com/sargo-devel/harbour-searchnemo\">https://github.com/sargo-devel/harbour-searchnemo</a>"
                 onLinkActivated: { console.log(link);Qt.openUrlExternally(link) }
             }
@@ -93,6 +97,7 @@ Page {
                 anchors.right: parent.right
                 font.pixelSize: Theme.fontSizeSmall
                 wrapMode: Text.Wrap
+                color: parent.color
                 text: qsTr("Special thanks for translators:") + "\n  "
                       + "Åke Engelbrektson - " + qsTr("Swedish") + "\n  "
 		      + "ghostofasmile - " + qsTr("Italian")
@@ -106,6 +111,7 @@ Page {
                 font.pixelSize: Theme.fontSizeSmall
                 horizontalAlignment: Text.AlignJustify
                 wrapMode: Text.Wrap
+                color: parent.color
                 text: qsTr("* Tap on section label with arrow to expand/collapse section.") + qsTr("\n")
                       + qsTr("* Tap on text in detailed view to enter 'Select and copy' page.") + qsTr("\n")
                       + qsTr("* Press and hold on empty search field or choose another profile to clear search results.") + qsTr("\n")
@@ -119,6 +125,7 @@ Page {
                 horizontalAlignment: Text.AlignLeft
                 textFormat: Text.StyledText
                 wrapMode: Text.Wrap
+                color: parent.color
                 text: qsTr("<u>Profiles</u>")
             }
             Label {
@@ -127,6 +134,7 @@ Page {
                 font.pixelSize: Theme.fontSizeSmall
                 horizontalAlignment: Text.AlignJustify
                 wrapMode: Text.Wrap
+                color: parent.color
                 text: qsTr("Profiles give possibility to keep different search options unden one short name.") + qsTr(" ")
                       + qsTr("Each profile can contain different search paths groupped as whitelist and blacklist directories.") + qsTr("\n")
                       + qsTr("* The searching always begins in a directory belonging to the whitelist and skips unneeded subdirectories from subtree if they are in the blacklist.") + qsTr("\n")
@@ -142,6 +150,7 @@ Page {
                 horizontalAlignment: Text.AlignLeft
                 textFormat: Text.StyledText
                 wrapMode: Text.Wrap
+                color: parent.color
                 text: qsTr("<u>Applications section (experimental)</u>")
             }
             Label {
@@ -150,6 +159,7 @@ Page {
                 font.pixelSize: Theme.fontSizeSmall
                 horizontalAlignment: Text.AlignJustify
                 wrapMode: Text.Wrap
+                color: parent.color
                 text: qsTr("The program searches only through .desktop files in a directory given by whielist and It can find only text included in these files.") + qsTr(" ")
                       + qsTr("This fact has some implications:") + qsTr("\n")
                       + qsTr("* It gives only original (English) names unless it finds localized names there.") + qsTr("\n")
