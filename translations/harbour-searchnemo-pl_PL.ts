@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="pl_PL">
+<TS version="2.1" language="pl_PL">
 <context>
     <name>About</name>
     <message>
@@ -131,8 +131,8 @@
 <context>
     <name>AnimatedHeader</name>
     <message>
-        <source>File info </source>
-        <translation>Info o pliku </translation>
+        <source>File info</source>
+        <translation>Info o pliku</translation>
     </message>
 </context>
 <context>
@@ -414,10 +414,6 @@
         <translation>Otwórz</translation>
     </message>
     <message>
-        <source>File Info </source>
-        <translation>Info o pliku</translation>
-    </message>
-    <message>
         <source>Location</source>
         <translation>Położenie</translation>
     </message>
@@ -456,6 +452,10 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Ten typ pliku nie może być otwarty.</translation>
+    </message>
+    <message>
+        <source>File info</source>
+        <translation>Info o pliku</translation>
     </message>
 </context>
 <context>

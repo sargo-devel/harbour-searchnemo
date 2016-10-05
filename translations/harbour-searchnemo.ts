@@ -163,7 +163,7 @@
     <name>AnimatedHeader</name>
     <message>
         <location filename="../qml/pages/viewadds/AnimatedHeader.qml" line="+29"/>
-        <source>File info </source>
+        <source>File info</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -511,12 +511,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+12"/>
-        <source>File Info </source>
+        <location line="+23"/>
+        <source>File info</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+102"/>
+        <location line="+109"/>
         <source>Location</source>
         <translation type="unfinished"></translation>
     </message>

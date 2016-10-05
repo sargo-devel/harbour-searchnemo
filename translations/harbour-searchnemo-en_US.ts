@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="en_US">
+<TS version="2.1" language="en_US">
 <context>
     <name>About</name>
     <message>
@@ -131,8 +131,8 @@
 <context>
     <name>AnimatedHeader</name>
     <message>
-        <source>File info </source>
-        <translation>File info </translation>
+        <source>File info</source>
+        <translation>File info</translation>
     </message>
 </context>
 <context>
@@ -454,8 +454,8 @@
         <translation>Last modified</translation>
     </message>
     <message>
-        <source>File Info </source>
-        <translation>File Info </translation>
+        <source>File info</source>
+        <translation>File info</translation>
     </message>
 </context>
 <context>

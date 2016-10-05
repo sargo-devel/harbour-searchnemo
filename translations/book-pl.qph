@@ -1288,4 +1288,8 @@
     <source>Note: Change of this parameter requires restart of the application</source>
     <target>Uwaga: Zmiana tego parametru wymaga restartu aplikacji</target>
 </phrase>
+<phrase>
+    <source>File info</source>
+    <target>Info o pliku</target>
+</phrase>
 </QPH>
