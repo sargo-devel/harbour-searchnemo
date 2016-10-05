@@ -26,7 +26,7 @@ Row {
         anchors.verticalCenter: triangle.verticalCenter
         color: Theme.highlightColor
         font.pixelSize: Theme.fontSizeLarge
-        text: qsTr("File info ")
+        text: qsTr("File info") + " "
     }
 //    Label {
 //        id: triangle

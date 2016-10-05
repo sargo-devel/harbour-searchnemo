@@ -56,9 +56,27 @@ Page {
             id: column
             anchors.left: parent.left
             anchors.right: parent.right
+            anchors.leftMargin: Theme.paddingLarge
+            anchors.rightMargin: Theme.paddingLarge
 
             PageHeader {
-                title: qsTr("File Info ") + Functions.unicodeBlackDownPointingTriangle()
+                Row {
+                    anchors.topMargin: Theme.paddingLarge
+                    anchors.top: parent.top
+                    anchors.right: parent.right
+
+                    Label {
+                        anchors.verticalCenter: triangle.verticalCenter
+                        color: Theme.highlightColor
+                        font.pixelSize: Theme.fontSizeLarge
+                        text: qsTr("File info") + " "
+                    }
+                    Image {
+                        id: triangle
+                        rotation: 90
+                        source: "image://theme/icon-m-forward" + "?" + Theme.highlightColor
+                    }
+                }
             }
 
             // file info texts, visible if error is not set
