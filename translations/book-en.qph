@@ -922,4 +922,372 @@
     <source>Italian</source>
     <target>Italian</target>
 </phrase>
+<phrase>
+    <source>version:</source>
+    <target>version:</target>
+</phrase>
+<phrase>
+    <source>Text and files search tool</source>
+    <target>Text and files search tool</target>
+</phrase>
+<phrase>
+    <source>This program searches for a text in files stored locally on the device</source>
+    <target>This program searches for a text in files stored locally on the device</target>
+</phrase>
+<phrase>
+    <source>License: GPL v3</source>
+    <target>License: GPL v3</target>
+</phrase>
+<phrase>
+    <source>* Tap on section label with arrow to expand/collapse section.</source>
+    <target>* Tap on section label with arrow to expand/collapse section.</target>
+</phrase>
+<phrase>
+    <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
+    <target>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</target>
+</phrase>
+<phrase>
+    <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
+    <target>* Press and hold on empty search field or choose another profile to clear search results.</target>
+</phrase>
+<phrase>
+    <source>* Choosing profile via &apos;Profiles list&apos; doesn&apos;t delete search results.</source>
+    <target>* Choosing profile via &apos;Profiles list&apos; doesn&apos;t delete search results.</target>
+</phrase>
+<phrase>
+    <source>Profiles</source>
+    <target>Profiles</target>
+</phrase>
+<phrase>
+    <source>Profiles give possibility to keep different search options under one short name.</source>
+    <target>Profiles give possibility to keep different search options under one short name.</target>
+</phrase>
+<phrase>
+    <source>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</source>
+    <target>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</target>
+</phrase>
+<phrase>
+    <source>* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.</source>
+    <target>* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.</target>
+</phrase>
+<phrase>
+    <source>This gives a huge flexibility of creating own complex search paths.</source>
+    <target>This gives a huge flexibility of creating own complex search paths.</target>
+</phrase>
+<phrase>
+    <source>Some example profiles are available in &apos;Profiles list&apos; menu.</source>
+    <target>Some example profiles are available in &apos;Profiles list&apos; menu.</target>
+</phrase>
+<phrase>
+    <source>Applications section (experimental)</source>
+    <target>Applications section (experimental)</target>
+</phrase>
+<phrase>
+    <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
+    <target>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</target>
+</phrase>
+<phrase>
+    <source>This fact has some implications:</source>
+    <target>This fact has some implications:</target>
+</phrase>
+<phrase>
+    <source>* It gives only original (English) names unless it finds localized names there.</source>
+    <target>* It gives only original (English) names unless it finds localized names there.</target>
+</phrase>
+<phrase>
+    <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
+    <target>* It can give results not expected by user, because it checks the entire text in these files.</target>
+</phrase>
+<phrase>
+    <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
+    <target>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</target>
+</phrase>
+<phrase>
+    <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
+    <target>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</target>
+</phrase>
+<phrase>
+    <source>Profile</source>
+    <target>Profile</target>
+</phrase>
+<phrase>
+    <source>Remove from list</source>
+    <target>Remove from list</target>
+</phrase>
+<phrase>
+    <source>Removing directory from list</source>
+    <target>Removing directory from list</target>
+</phrase>
+<phrase>
+    <source>List of directories</source>
+    <target>List of directories</target>
+</phrase>
+<phrase>
+    <source>Add/modify directories</source>
+    <target>Add/modify directories</target>
+</phrase>
+<phrase>
+    <source>Whitelist directories</source>
+    <target>Whitelist directories</target>
+</phrase>
+<phrase>
+    <source>Blacklist directories</source>
+    <target>Blacklist directories</target>
+</phrase>
+<phrase>
+    <source>Add to whitelist</source>
+    <target>Add to whitelist</target>
+</phrase>
+<phrase>
+    <source>Add to blacklist</source>
+    <target>Add to blacklist</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Cancel</target>
+</phrase>
+<phrase>
+    <source>Accept</source>
+    <target>Accept</target>
+</phrase>
+<phrase>
+    <source>Path:</source>
+    <target>Path:</target>
+</phrase>
+<phrase>
+    <source>Main tree</source>
+    <target>Main tree</target>
+</phrase>
+<phrase>
+    <source>Show hidden directories</source>
+    <target>Show hidden directories</target>
+</phrase>
+<phrase>
+    <source>Hide hidden directories</source>
+    <target>Hide hidden directories</target>
+</phrase>
+<phrase>
+    <source>Select directories by long press</source>
+    <target>Select directories by long press</target>
+</phrase>
+<phrase>
+    <source>Remove from lists</source>
+    <target>Remove from lists</target>
+</phrase>
+<phrase>
+    <source>SD card</source>
+    <target>SD card</target>
+</phrase>
+<phrase>
+    <source>Android storage</source>
+    <target>Android storage</target>
+</phrase>
+<phrase>
+    <source>Select</source>
+    <target>Select</target>
+</phrase>
+<phrase>
+    <source>Name</source>
+    <target>Name</target>
+</phrase>
+<phrase>
+    <source>Description</source>
+    <target>Description</target>
+</phrase>
+<phrase>
+    <source>Profile description</source>
+    <target>Profile description</target>
+</phrase>
+<phrase>
+    <source>Search directories lists</source>
+    <target>Search directories lists</target>
+</phrase>
+<phrase>
+    <source>Enable APPS section</source>
+    <target>Enable APPS section</target>
+</phrase>
+<phrase>
+    <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
+    <target>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</target>
+</phrase>
+<phrase>
+    <source>Enable Files and Directories sections</source>
+    <target>Enable Files and Directories sections</target>
+</phrase>
+<phrase>
+    <source>Enables searching for file and directory names</source>
+    <target>Enables searching for file and directory names</target>
+</phrase>
+<phrase>
+    <source>Whitelist directories:</source>
+    <target>Whitelist directories:</target>
+</phrase>
+<phrase>
+    <source>Blacklist directories:</source>
+    <target>Blacklist directories:</target>
+</phrase>
+<phrase>
+    <source>Profile settings</source>
+    <target>Profile settings</target>
+</phrase>
+<phrase>
+    <source>Profile name error!</source>
+    <target>Profile name error!</target>
+</phrase>
+<phrase>
+    <source>Name exists. Try another one...</source>
+    <target>Name exists. Try another one...</target>
+</phrase>
+<phrase>
+    <source>Profiles list</source>
+    <target>Profiles list</target>
+</phrase>
+<phrase>
+    <source>Add default set</source>
+    <target>Add default set</target>
+</phrase>
+<phrase>
+    <source>Add profile</source>
+    <target>Add profile</target>
+</phrase>
+<phrase>
+    <source>Set as current</source>
+    <target>Set as current</target>
+</phrase>
+<phrase>
+    <source>Rename</source>
+    <target>Rename</target>
+</phrase>
+<phrase>
+    <source>Delete</source>
+    <target>Delete</target>
+</phrase>
+<phrase>
+    <source>Deleting profile</source>
+    <target>Deleting profile</target>
+</phrase>
+<phrase>
+    <source>Accept</source>
+    <target>Accept</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Cancel</target>
+</phrase>
+<phrase>
+    <source>Profile name</source>
+    <target>Profile name</target>
+</phrase>
+<phrase>
+    <source>Profile description</source>
+    <target>Profile description</target>
+</phrase>
+<phrase>
+    <source>The following profiles will be created:</source>
+    <target>The following profiles will be created:</target>
+</phrase>
+<phrase>
+    <source>Home dir</source>
+    <target>Home dir</target>
+</phrase>
+<phrase>
+    <source>Applications</source>
+    <target>Applications</target>
+</phrase>
+<phrase>
+    <source>Entire tree</source>
+    <target>Entire tree</target>
+</phrase>
+<phrase>
+    <source>If such profiles exist, they will be overwritten.</source>
+    <target>If such profiles exist, they will be overwritten.</target>
+</phrase>
+<phrase>
+    <source>Rename profile</source>
+    <target>Rename profile</target>
+</phrase>
+<phrase>
+    <source>Application</source>
+    <target>Application</target>
+</phrase>
+<phrase>
+    <source>Applications</source>
+    <target>Applications</target>
+</phrase>
+<phrase>
+    <source>General options</source>
+    <target>General options</target>
+</phrase>
+<phrase>
+    <source>Profiles list</source>
+    <target>Profiles list</target>
+</phrase>
+<phrase>
+    <source>Current profile setup</source>
+    <target>Current profile setup</target>
+</phrase>
+<phrase>
+    <source>Profile:</source>
+    <target>Profile:</target>
+</phrase>
+<phrase>
+    <source>Run</source>
+    <target>Run</target>
+</phrase>
+<phrase>
+    <source>Profile configuration error!</source>
+    <target>Profile configuration error!</target>
+</phrase>
+<phrase>
+    <source>Check profile whitelist...</source>
+    <target>Check profile whitelist...</target>
+</phrase>
+<phrase>
+    <source>Home dir</source>
+    <target>Home dir</target>
+</phrase>
+<phrase>
+    <source>Entire home directory with hidden files</source>
+    <target>Entire home directory with hidden files</target>
+</phrase>
+<phrase>
+    <source>SD card</source>
+    <target>SD card</target>
+</phrase>
+<phrase>
+    <source>Entire SD card with hidden files</source>
+    <target>Entire SD card with hidden files</target>
+</phrase>
+<phrase>
+    <source>Applications</source>
+    <target>Applications</target>
+</phrase>
+<phrase>
+    <source>All installed applications</source>
+    <target>All installed applications</target>
+</phrase>
+<phrase>
+    <source>Entire tree</source>
+    <target>Entire tree</target>
+</phrase>
+<phrase>
+    <source>Entire dir tree. Warning: very long search</source>
+    <target>Entire dir tree. Warning: very long search</target>
+</phrase>
+<phrase>
+    <source>Default profile:</source>
+    <target>Default profile:</target>
+</phrase>
+<phrase>
+    <source>This profile will be used on the application startup</source>
+    <target>This profile will be used on the application startup</target>
+</phrase>
+<phrase>
+    <source>Note: Change of this parameter requires restart of the application</source>
+    <target>Note: Change of this parameter requires restart of the application</target>
+</phrase>
+<phrase>
+    <source>General options</source>
+    <target>General options</target>
+</phrase>
 </QPH>

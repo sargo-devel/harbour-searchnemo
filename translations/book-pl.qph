@@ -960,4 +960,332 @@
     <source>Italian</source>
     <target>Włoski</target>
 </phrase>
+<phrase>
+    <source>version:</source>
+    <target>wersja:</target>
+</phrase>
+<phrase>
+    <source>Text and files search tool</source>
+    <target>Narzędzie wyszukiwania tekstu i plików</target>
+</phrase>
+<phrase>
+    <source>This program searches for a text in files stored locally on the device</source>
+    <target>Program wyszukuje tekst w plikach przechowywanych lokalnie w urządzeniu</target>
+</phrase>
+<phrase>
+    <source>License: GPL v3</source>
+    <target>Licencja GPL v3</target>
+</phrase>
+<phrase>
+    <source>* Tap on section label with arrow to expand/collapse section.</source>
+    <target>* Dotknij etykietę sekcji ze strzałką by rozwinąć/zwinąć sekcję.</target>
+</phrase>
+<phrase>
+    <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
+    <target>* Dotknij tekst w widoku szczegółowym by wejść na stronę &apos;Wybierz i kopiuj&apos;.</target>
+</phrase>
+<phrase>
+    <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
+    <target>* Naciśnij i przytrzymaj na pustym polu wyszukiwania lub wybierz inny profil aby wyczyścić wyniki wyszukiwania.</target>
+</phrase>
+<phrase>
+    <source>* Choosing profile via &apos;Profiles list&apos; doesn&apos;t delete search results.</source>
+    <target>* Wybór profilu w &apos;Lista profili&apos; nie usuwa wyników wyszukiwania.</target>
+</phrase>
+<phrase>
+    <source>Profiles</source>
+    <target>Profile</target>
+</phrase>
+<phrase>
+    <source>Profiles give possibility to keep different search options under one short name.</source>
+    <target>Profile dają możliwość przechowywania różnych opcji wyszukiwania pod jedną krótką nazwą.</target>
+</phrase>
+<phrase>
+    <source>Each profile may contain different search paths groupped as whitelist or blacklist directories.</source>
+    <target>Każdy profil może zawierać różne ścieżki wyszukiwania pogrupowane w formie białej i czarnej listy katalogów.</target>
+</phrase>
+<phrase>
+    <source>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</source>
+    <target>* Wyszukiwanie zaczyna się zawsze w katalogu należącym do białej listy i pomija w drzewie niepotrzebne podkatalogi z czarnej listy.</target>
+</phrase>
+<phrase>
+    <source>* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.</source>
+    <target>* Biała i czarna lista są niezależne, oznacza to, że jeśli następny katalog z białej listy jest podkatalogiem jednego z katalogów z czarnej listy, to program rozpocznie tam wyszukiwanie.</target>
+</phrase>
+<phrase>
+    <source>This gives a huge flexibility of creating own complex search paths.</source>
+    <target>Daje to ogromną elastycznosć w tworzeniu złożonych ścieżek wyszukiwania.</target>
+</phrase>
+<phrase>
+    <source>Some example profiles are available in &apos;Profiles list&apos; menu.</source>
+    <target>Kilka przykładowych profili jest dostępnych w menu &apos;Lista profili&apos;.</target>
+</phrase>
+<phrase>
+    <source>Applications section (experimental)</source>
+    <target>Sekcja aplikacji (eksperymentalne)</target>
+</phrase>
+<phrase>
+    <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
+    <target>W celu znalezienia aplikacji program przeszukuje pliki .desktop w katalogu podanym w białej liście i potrafi znaleźć tylko tekst zawarty w tych plikach.</target>
+</phrase>
+<phrase>
+    <source>This fact has some implications:</source>
+    <target>Ten fakt ma pewne konsekwencje:</target>
+</phrase>
+<phrase>
+    <source>* It gives only original (English) names unless it finds localized names there.</source>
+    <target>* Podaje tylko oryginalne (angielskie) nazwy, o ile nie znajdzie tam przetłumaczonych nazw.</target>
+</phrase>
+<phrase>
+    <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
+    <target>* Może podać wyniki niespodziewane dla użytkownika, ponieważ sprawdza cały tekst w tych plikach.</target>
+</phrase>
+<phrase>
+    <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
+    <target>* Może to być użyteczne, np.: wyszukiwanie &apos;=&apos; zwróci wszystkie znalezione aplikacje, wyszukiwanie &apos;jolla&apos; poda wszystkie aplikacje stworzone przez Jolla</target>
+</phrase>
+<phrase>
+    <source>License: GPL v3</source>
+    <target>Licencja: GPL v3</target>
+</phrase>
+<phrase>
+    <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
+    <target>Każdy profil może zawierać różne ścieżki wyszukiwania pogrupowane w białej lub czarnej liście katalogów.</target>
+</phrase>
+<phrase>
+    <source>Profile</source>
+    <target>Profil</target>
+</phrase>
+<phrase>
+    <source>Remove from list</source>
+    <target>Usuń z listy</target>
+</phrase>
+<phrase>
+    <source>Removing directory from list</source>
+    <target>Usuń katalog z listy</target>
+</phrase>
+<phrase>
+    <source>List of directories</source>
+    <target>Lista katalogów</target>
+</phrase>
+<phrase>
+    <source>Add/modify directories</source>
+    <target>Dodaj/modyfikuj katalogi</target>
+</phrase>
+<phrase>
+    <source>Whitelist directories</source>
+    <target>Katalogi białej listy</target>
+</phrase>
+<phrase>
+    <source>Blacklist directories</source>
+    <target>Katalogi czarnej listy</target>
+</phrase>
+<phrase>
+    <source>Add to whitelist</source>
+    <target>Dodaj do białej listy</target>
+</phrase>
+<phrase>
+    <source>Add to blacklist</source>
+    <target>Dodaj do czarnej listy</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Anuluj</target>
+</phrase>
+<phrase>
+    <source>Accept</source>
+    <target>Akceptuj</target>
+</phrase>
+<phrase>
+    <source>Accept</source>
+    <target>Akceptuj</target>
+</phrase>
+<phrase>
+    <source>Accept</source>
+    <target>Akceptuj</target>
+</phrase>
+<phrase>
+    <source>Path:</source>
+    <target>Ścieżka:</target>
+</phrase>
+<phrase>
+    <source>Main tree</source>
+    <target>Drzewo główne</target>
+</phrase>
+<phrase>
+    <source>Show hidden directories</source>
+    <target>Pokaż ukryte katalogi</target>
+</phrase>
+<phrase>
+    <source>Hide hidden directories</source>
+    <target>Schowaj ukryte katalogi</target>
+</phrase>
+<phrase>
+    <source>Select directories by long press</source>
+    <target>Wybierz katalogi przez długie naciśnięcie</target>
+</phrase>
+<phrase>
+    <source>Remove from lists</source>
+    <target>Usuń z list</target>
+</phrase>
+<phrase>
+    <source>Select</source>
+    <target>Wybierz</target>
+</phrase>
+<phrase>
+    <source>Profile settings</source>
+    <target>Ustawienia profilu</target>
+</phrase>
+<phrase>
+    <source>Name</source>
+    <target>Nazwa</target>
+</phrase>
+<phrase>
+    <source>Profile description</source>
+    <target>Opis profilu</target>
+</phrase>
+<phrase>
+    <source>Search directories lists</source>
+    <target>Listy przeszukiwanych katalogów</target>
+</phrase>
+<phrase>
+    <source>Enable APPS section</source>
+    <target>Włącz sekcję APPS</target>
+</phrase>
+<phrase>
+    <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
+    <target>Zezwala na specjalne wyszukiwanie wewnątrz plików *.desktop. Jest to opcja eksperymentalna. Szczegóły - patrz menu &apos;About&apos;.</target>
+</phrase>
+<phrase>
+    <source>Enable Files and Directories sections</source>
+    <target>Włącz sekcje Pliki i Katalogi</target>
+</phrase>
+<phrase>
+    <source>Enables searching for file and directory names</source>
+    <target>Zezwala na wyszukiwanie nazw plików i katalogów</target>
+</phrase>
+<phrase>
+    <source>Whitelist directories:</source>
+    <target>Katalogi białej listy:</target>
+</phrase>
+<phrase>
+    <source>Blacklist directories:</source>
+    <target>Katalogi czarnej listy:</target>
+</phrase>
+<phrase>
+    <source>Profile name error!</source>
+    <target>Błąd nazwy profilu!</target>
+</phrase>
+<phrase>
+    <source>Name exists. Try another one...</source>
+    <target>Nazwa istnieje. Spróbuj inną...</target>
+</phrase>
+<phrase>
+    <source>Profiles list</source>
+    <target>Lista profili</target>
+</phrase>
+<phrase>
+    <source>Add default set</source>
+    <target>Dodaj domyślny zestaw</target>
+</phrase>
+<phrase>
+    <source>Add profile</source>
+    <target>Dodaj profil</target>
+</phrase>
+<phrase>
+    <source>Set as current</source>
+    <target>Ustaw jako bieżący</target>
+</phrase>
+<phrase>
+    <source>Rename</source>
+    <target>Zmień nazwę</target>
+</phrase>
+<phrase>
+    <source>Rename profile</source>
+    <target>Zmień nazwę profilu</target>
+</phrase>
+<phrase>
+    <source>Delete</source>
+    <target>Usuń</target>
+</phrase>
+<phrase>
+    <source>Deleting profile</source>
+    <target>Usuwanie profilu</target>
+</phrase>
+<phrase>
+    <source>Profile name</source>
+    <target>Nazwa profilu</target>
+</phrase>
+<phrase>
+    <source>The following profiles will be created:</source>
+    <target>Zostaną utworzone następujące profile:</target>
+</phrase>
+<phrase>
+    <source>Home dir</source>
+    <target>Katalog domowy</target>
+</phrase>
+<phrase>
+    <source>Entire tree</source>
+    <target>Całe drzewo</target>
+</phrase>
+<phrase>
+    <source>Application</source>
+    <target>Aplikacja</target>
+</phrase>
+<phrase>
+    <source>General options</source>
+    <target>Opcje ogólne</target>
+</phrase>
+<phrase>
+    <source>Current profile setup</source>
+    <target>Ustawienia bieżącego profilu</target>
+</phrase>
+<phrase>
+    <source>Profile:</source>
+    <target>Profil:</target>
+</phrase>
+<phrase>
+    <source>Run</source>
+    <target>Uruchom</target>
+</phrase>
+<phrase>
+    <source>Profile configuration error!</source>
+    <target>Błąd konfiguracji profilu!</target>
+</phrase>
+<phrase>
+    <source>Check profile whitelist...</source>
+    <target>Sprawdź białą listę profilu...</target>
+</phrase>
+<phrase>
+    <source>Entire home directory with hidden files</source>
+    <target>Cały katalog domowy z ukrytymi plikami</target>
+</phrase>
+<phrase>
+    <source>Entire SD card with hidden files</source>
+    <target>Cała karta SD z ukrytymi plikami</target>
+</phrase>
+<phrase>
+    <source>All installed applications</source>
+    <target>Wszystkie zainstalowane aplikacje</target>
+</phrase>
+<phrase>
+    <source>Entire tree</source>
+    <target>Całe drzewo</target>
+</phrase>
+<phrase>
+    <source>Entire dir tree. Warning: very long search</source>
+    <target>Całe drzewo katalogów. Uwaga: bardzo długie wyszukiwanie</target>
+</phrase>
+<phrase>
+    <source>Default profile:</source>
+    <target>Profil domyślny:</target>
+</phrase>
+<phrase>
+    <source>This profile will be used on the application startup</source>
+    <target>Ten profil będzie użyty przy starcie aplikacji</target>
+</phrase>
+<phrase>
+    <source>Note: Change of this parameter requires restart of the application</source>
+    <target>Uwaga: Zmiana tego parametru wymaga restartu aplikacji</target>
+</phrase>
 </QPH>

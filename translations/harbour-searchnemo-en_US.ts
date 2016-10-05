@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="en_US">
+<TS version="2.0" language="en_US">
 <context>
     <name>About</name>
     <message>
@@ -8,16 +8,8 @@
         <translation>About</translation>
     </message>
     <message>
-        <source>version: </source>
-        <translation>version: </translation>
-    </message>
-    <message>
         <source>Description</source>
         <translation>Description</translation>
-    </message>
-    <message>
-        <source>This program searches for a text in files stored locally on the device </source>
-        <translation>This program searches for a text in files stored locally on the device </translation>
     </message>
     <message>
         <source>and presents results in a possibly useful form.</source>
@@ -26,12 +18,6 @@
     <message>
         <source>License</source>
         <translation>License</translation>
-    </message>
-    <message>
-        <source>License: GPL v3
-</source>
-        <translation>License: GPL v3
-</translation>
     </message>
     <message>
         <source>Source code:</source>
@@ -54,24 +40,92 @@
         <translation>Swedish</translation>
     </message>
     <message>
-        <source>* Tap on label wit triangle to expand/collapse section.
-</source>
-        <translation>* Tap on label wit triangle to expand/collapse section.
-</translation>
-    </message>
-    <message>
-        <source>* Press and hold on empty search field to clear search results.</source>
-        <translation>* Press and hold on empty search field to clear search results.</translation>
-    </message>
-    <message>
-        <source>* Tap on text in detailed view to enter Select&amp;Copy page.
-</source>
-        <translation>* Tap on text in detailed view to enter Select&amp;Copy page.
-</translation>
-    </message>
-    <message>
         <source>Italian</source>
         <translation>Italian</translation>
+    </message>
+    <message>
+        <source>version:</source>
+        <translation>version:</translation>
+    </message>
+    <message>
+        <source>Text and files search tool</source>
+        <translation>Text and files search tool</translation>
+    </message>
+    <message>
+        <source>This program searches for a text in files stored locally on the device</source>
+        <translation>This program searches for a text in files stored locally on the device</translation>
+    </message>
+    <message>
+        <source>License: GPL v3</source>
+        <translation>License: GPL v3</translation>
+    </message>
+    <message>
+        <source>* Tap on section label with arrow to expand/collapse section.</source>
+        <translation>* Tap on section label with arrow to expand/collapse section.</translation>
+    </message>
+    <message>
+        <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
+        <translation>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</translation>
+    </message>
+    <message>
+        <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
+        <translation>* Press and hold on empty search field or choose another profile to clear search results.</translation>
+    </message>
+    <message>
+        <source>* Choosing profile via &apos;Profiles list&apos; doesn&apos;t delete search results.</source>
+        <translation>* Choosing profile via &apos;Profiles list&apos; doesn&apos;t delete search results.</translation>
+    </message>
+    <message>
+        <source>Profiles</source>
+        <translation>Profiles</translation>
+    </message>
+    <message>
+        <source>Profiles give possibility to keep different search options under one short name.</source>
+        <translation>Profiles give possibility to keep different search options under one short name.</translation>
+    </message>
+    <message>
+        <source>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</source>
+        <translation>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</translation>
+    </message>
+    <message>
+        <source>* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.</source>
+        <translation>* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.</translation>
+    </message>
+    <message>
+        <source>This gives a huge flexibility of creating own complex search paths.</source>
+        <translation>This gives a huge flexibility of creating own complex search paths.</translation>
+    </message>
+    <message>
+        <source>Some example profiles are available in &apos;Profiles list&apos; menu.</source>
+        <translation>Some example profiles are available in &apos;Profiles list&apos; menu.</translation>
+    </message>
+    <message>
+        <source>Applications section (experimental)</source>
+        <translation>Applications section (experimental)</translation>
+    </message>
+    <message>
+        <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
+        <translation>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</translation>
+    </message>
+    <message>
+        <source>This fact has some implications:</source>
+        <translation>This fact has some implications:</translation>
+    </message>
+    <message>
+        <source>* It gives only original (English) names unless it finds localized names there.</source>
+        <translation>* It gives only original (English) names unless it finds localized names there.</translation>
+    </message>
+    <message>
+        <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
+        <translation>* It can give results not expected by user, because it checks the entire text in these files.</translation>
+    </message>
+    <message>
+        <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
+        <translation>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</translation>
+    </message>
+    <message>
+        <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
+        <translation>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</translation>
     </message>
 </context>
 <context>
@@ -148,6 +202,37 @@
     </message>
 </context>
 <context>
+    <name>DirLists</name>
+    <message>
+        <source>Profile</source>
+        <translation>Profile</translation>
+    </message>
+    <message>
+        <source>Remove from list</source>
+        <translation>Remove from list</translation>
+    </message>
+    <message>
+        <source>Removing directory from list</source>
+        <translation>Removing directory from list</translation>
+    </message>
+    <message>
+        <source>List of directories</source>
+        <translation>List of directories</translation>
+    </message>
+    <message>
+        <source>Add/modify directories</source>
+        <translation>Add/modify directories</translation>
+    </message>
+    <message>
+        <source>Whitelist directories</source>
+        <translation>Whitelist directories</translation>
+    </message>
+    <message>
+        <source>Blacklist directories</source>
+        <translation>Blacklist directories</translation>
+    </message>
+</context>
+<context>
     <name>DirPopup</name>
     <message>
         <source>Root (%1)</source>
@@ -180,6 +265,68 @@
     <message>
         <source>Android Storage</source>
         <translation>Android Storage</translation>
+    </message>
+</context>
+<context>
+    <name>DirTree</name>
+    <message>
+        <source>Add to whitelist</source>
+        <translation>Add to whitelist</translation>
+    </message>
+    <message>
+        <source>Add to blacklist</source>
+        <translation>Add to blacklist</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Cancel</translation>
+    </message>
+    <message>
+        <source>Accept</source>
+        <translation>Accept</translation>
+    </message>
+    <message>
+        <source>Path:</source>
+        <translation>Path:</translation>
+    </message>
+    <message>
+        <source>Main tree</source>
+        <translation>Main tree</translation>
+    </message>
+    <message>
+        <source>Show hidden directories</source>
+        <translation>Show hidden directories</translation>
+    </message>
+    <message>
+        <source>Hide hidden directories</source>
+        <translation>Hide hidden directories</translation>
+    </message>
+    <message>
+        <source>Select directories by long press</source>
+        <translation>Select directories by long press</translation>
+    </message>
+    <message>
+        <source>Remove from lists</source>
+        <translation>Remove from lists</translation>
+    </message>
+</context>
+<context>
+    <name>DirtreeModel</name>
+    <message>
+        <source>Home</source>
+        <translation>Home</translation>
+    </message>
+    <message>
+        <source>SD card</source>
+        <translation>SD card</translation>
+    </message>
+    <message>
+        <source>Android storage</source>
+        <translation>Android storage</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Select</translation>
     </message>
 </context>
 <context>
@@ -347,6 +494,216 @@
     <message>
         <source>Note nr</source>
         <translation>Note nr</translation>
+    </message>
+</context>
+<context>
+    <name>ProfileSettingsPage</name>
+    <message>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Description</translation>
+    </message>
+    <message>
+        <source>Profile description</source>
+        <translation>Profile description</translation>
+    </message>
+    <message>
+        <source>Search directories lists</source>
+        <translation>Search directories lists</translation>
+    </message>
+    <message>
+        <source>Search options</source>
+        <translation>Search options</translation>
+    </message>
+    <message>
+        <source>Search hidden files</source>
+        <translation>Search hidden files</translation>
+    </message>
+    <message>
+        <source>Enables searching inside hidden files and hidden directories</source>
+        <translation>Enables searching inside hidden files and hidden directories</translation>
+    </message>
+    <message>
+        <source>Follow symbolic links</source>
+        <translation>Follow symbolic links</translation>
+    </message>
+    <message>
+        <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
+        <translation>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</translation>
+    </message>
+    <message>
+        <source>Show cumulative search results</source>
+        <translation>Show cumulative search results</translation>
+    </message>
+    <message>
+        <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
+        <translation>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</translation>
+    </message>
+    <message>
+        <source>Search results</source>
+        <translation>Search results</translation>
+    </message>
+    <message>
+        <source>max. nr of results per section</source>
+        <translation>max. nr of results per section</translation>
+    </message>
+    <message>
+        <source>Result sections</source>
+        <translation>Result sections</translation>
+    </message>
+    <message>
+        <source>Enable TXT section</source>
+        <translation>Enable TXT section</translation>
+    </message>
+    <message>
+        <source>Enables searching inside *.txt files</source>
+        <translation>Enables searching inside *.txt files</translation>
+    </message>
+    <message>
+        <source>Enable HTML section</source>
+        <translation>Enable HTML section</translation>
+    </message>
+    <message>
+        <source>Enables searching inside *.html, *.htm files</source>
+        <translation>Enables searching inside *.html, *.htm files</translation>
+    </message>
+    <message>
+        <source>Enable SRC section</source>
+        <translation>Enable SRC section</translation>
+    </message>
+    <message>
+        <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
+        <translation>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</translation>
+    </message>
+    <message>
+        <source>Enable APPS section</source>
+        <translation>Enable APPS section</translation>
+    </message>
+    <message>
+        <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
+        <translation>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</translation>
+    </message>
+    <message>
+        <source>Enable SQLITE section</source>
+        <translation>Enable SQLITE section</translation>
+    </message>
+    <message>
+        <source>Enables searching inside *.sqlite, *.db files</source>
+        <translation>Enables searching inside *.sqlite, *.db files</translation>
+    </message>
+    <message>
+        <source>Enable NOTES section</source>
+        <translation>Enable NOTES section</translation>
+    </message>
+    <message>
+        <source>Enables searching inside Notes application database</source>
+        <translation>Enables searching inside Notes application database</translation>
+    </message>
+    <message>
+        <source>Enable Files and Directories sections</source>
+        <translation>Enable Files and Directories sections</translation>
+    </message>
+    <message>
+        <source>Enables searching for file and directory names</source>
+        <translation>Enables searching for file and directory names</translation>
+    </message>
+    <message>
+        <source>Whitelist directories:</source>
+        <translation>Whitelist directories:</translation>
+    </message>
+    <message>
+        <source>Blacklist directories:</source>
+        <translation>Blacklist directories:</translation>
+    </message>
+    <message>
+        <source>Profile settings</source>
+        <translation>Profile settings</translation>
+    </message>
+</context>
+<context>
+    <name>ProfilesPage</name>
+    <message>
+        <source>Profile name error!</source>
+        <translation>Profile name error!</translation>
+    </message>
+    <message>
+        <source>Name exists. Try another one...</source>
+        <translation>Name exists. Try another one...</translation>
+    </message>
+    <message>
+        <source>Profiles list</source>
+        <translation>Profiles list</translation>
+    </message>
+    <message>
+        <source>Add default set</source>
+        <translation>Add default set</translation>
+    </message>
+    <message>
+        <source>Add profile</source>
+        <translation>Add profile</translation>
+    </message>
+    <message>
+        <source>Set as current</source>
+        <translation>Set as current</translation>
+    </message>
+    <message>
+        <source>Rename</source>
+        <translation>Rename</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Delete</translation>
+    </message>
+    <message>
+        <source>Deleting profile</source>
+        <translation>Deleting profile</translation>
+    </message>
+    <message>
+        <source>Accept</source>
+        <translation>Accept</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Cancel</translation>
+    </message>
+    <message>
+        <source>Profile name</source>
+        <translation>Profile name</translation>
+    </message>
+    <message>
+        <source>Profile description</source>
+        <translation>Profile description</translation>
+    </message>
+    <message>
+        <source>The following profiles will be created:</source>
+        <translation>The following profiles will be created:</translation>
+    </message>
+    <message>
+        <source>Home dir</source>
+        <translation>Home dir</translation>
+    </message>
+    <message>
+        <source>SD Card</source>
+        <translation>SD Card</translation>
+    </message>
+    <message>
+        <source>Applications</source>
+        <translation>Applications</translation>
+    </message>
+    <message>
+        <source>Entire tree</source>
+        <translation>Entire tree</translation>
+    </message>
+    <message>
+        <source>If such profiles exist, they will be overwritten.</source>
+        <translation>If such profiles exist, they will be overwritten.</translation>
+    </message>
+    <message>
+        <source>Rename profile</source>
+        <translation>Rename profile</translation>
     </message>
 </context>
 <context>
@@ -672,6 +1029,13 @@
     </message>
 </context>
 <context>
+    <name>SearchEngine</name>
+    <message>
+        <source>Application</source>
+        <translation>Application</translation>
+    </message>
+</context>
+<context>
     <name>SearchPage</name>
     <message>
         <source>Notes</source>
@@ -729,10 +1093,6 @@
         <translation>About</translation>
     </message>
     <message>
-        <source>Settings</source>
-        <translation>Settings</translation>
-    </message>
-    <message>
         <source>Search %1</source>
         <translation>Search %1</translation>
     </message>
@@ -760,6 +1120,30 @@
         <source>This type of file can&apos;t be opened.</source>
         <translation>This type of file can&apos;t be opened.</translation>
     </message>
+    <message>
+        <source>Applications</source>
+        <translation>Applications</translation>
+    </message>
+    <message>
+        <source>General options</source>
+        <translation>General options</translation>
+    </message>
+    <message>
+        <source>Profiles list</source>
+        <translation>Profiles list</translation>
+    </message>
+    <message>
+        <source>Current profile setup</source>
+        <translation>Current profile setup</translation>
+    </message>
+    <message>
+        <source>Profile:</source>
+        <translation>Profile:</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Run</translation>
+    </message>
 </context>
 <context>
     <name>SearchWorker</name>
@@ -775,6 +1159,14 @@
         <source>Note nr</source>
         <translation>Note nr</translation>
     </message>
+    <message>
+        <source>Profile configuration error!</source>
+        <translation>Profile configuration error!</translation>
+    </message>
+    <message>
+        <source>Check profile whitelist...</source>
+        <translation>Check profile whitelist...</translation>
+    </message>
 </context>
 <context>
     <name>SelectCopy</name>
@@ -784,118 +1176,65 @@
     </message>
 </context>
 <context>
+    <name>Settings</name>
+    <message>
+        <source>Home dir</source>
+        <translation>Home dir</translation>
+    </message>
+    <message>
+        <source>Entire home directory with hidden files</source>
+        <translation>Entire home directory with hidden files</translation>
+    </message>
+    <message>
+        <source>SD card</source>
+        <translation>SD card</translation>
+    </message>
+    <message>
+        <source>Entire SD card with hidden files</source>
+        <translation>Entire SD card with hidden files</translation>
+    </message>
+    <message>
+        <source>Applications</source>
+        <translation>Applications</translation>
+    </message>
+    <message>
+        <source>All installed applications</source>
+        <translation>All installed applications</translation>
+    </message>
+    <message>
+        <source>Entire tree</source>
+        <translation>Entire tree</translation>
+    </message>
+    <message>
+        <source>Entire dir tree. Warning: very long search</source>
+        <translation>Entire dir tree. Warning: very long search</translation>
+    </message>
+</context>
+<context>
     <name>SettingsPage</name>
     <message>
         <source>default</source>
         <translation>default</translation>
     </message>
     <message>
-        <source>Settings</source>
-        <translation>Settings</translation>
-    </message>
-    <message>
-        <source>Search options</source>
-        <translation>Search options</translation>
-    </message>
-    <message>
-        <source>The search begins in the start directory and continues in its subdirectories. If it is empty or incorrect then the home directory is the start directory.</source>
-        <translation>The search begins in the start directory and continues in its subdirectories. If it is empty or incorrect then the home directory is the start directory.</translation>
-    </message>
-    <message>
-        <source>Enter start directory...</source>
-        <translation>Enter start directory...</translation>
-    </message>
-    <message>
-        <source>Start directory</source>
-        <translation>Start directory</translation>
-    </message>
-    <message>
-        <source>Search hidden files</source>
-        <translation>Search hidden files</translation>
-    </message>
-    <message>
-        <source>Enables searching inside hidden files and hidden directories</source>
-        <translation>Enables searching inside hidden files and hidden directories</translation>
-    </message>
-    <message>
-        <source>Follow symbolic links</source>
-        <translation>Follow symbolic links</translation>
-    </message>
-    <message>
-        <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
-        <translation>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</translation>
-    </message>
-    <message>
-        <source>Show cumulative search results</source>
-        <translation>Show cumulative search results</translation>
-    </message>
-    <message>
-        <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
-        <translation>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</translation>
-    </message>
-    <message>
-        <source>Search results</source>
-        <translation>Search results</translation>
-    </message>
-    <message>
-        <source>max. nr of results per section</source>
-        <translation>max. nr of results per section</translation>
-    </message>
-    <message>
-        <source>Result sections</source>
-        <translation>Result sections</translation>
-    </message>
-    <message>
-        <source>Enable TXT section</source>
-        <translation>Enable TXT section</translation>
-    </message>
-    <message>
-        <source>Enables searching inside *.txt files</source>
-        <translation>Enables searching inside *.txt files</translation>
-    </message>
-    <message>
-        <source>Enable HTML section</source>
-        <translation>Enable HTML section</translation>
-    </message>
-    <message>
-        <source>Enables searching inside *.html, *.htm files</source>
-        <translation>Enables searching inside *.html, *.htm files</translation>
-    </message>
-    <message>
-        <source>Enable SRC section</source>
-        <translation>Enable SRC section</translation>
-    </message>
-    <message>
-        <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
-        <translation>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</translation>
-    </message>
-    <message>
-        <source>Enable SQLITE section</source>
-        <translation>Enable SQLITE section</translation>
-    </message>
-    <message>
-        <source>Enables searching inside *.sqlite, *.db files</source>
-        <translation>Enables searching inside *.sqlite, *.db files</translation>
-    </message>
-    <message>
-        <source>Enable NOTES section</source>
-        <translation>Enable NOTES section</translation>
-    </message>
-    <message>
-        <source>Enables searching inside Notes application database</source>
-        <translation>Enables searching inside Notes application database</translation>
-    </message>
-    <message>
-        <source>Other</source>
-        <translation>Other</translation>
-    </message>
-    <message>
         <source>Language:</source>
         <translation>Language:</translation>
     </message>
     <message>
-        <source>Note: Change of this parameter requires restart of an application</source>
-        <translation>Note: Change of this parameter requires restart of an application</translation>
+        <source>Default profile:</source>
+        <translation>Default profile:</translation>
+    </message>
+    <message>
+        <source>This profile will be used on the application startup</source>
+        <translation>This profile will be used on the application startup</translation>
+    </message>
+    <message>
+        <source>Note: Change of this parameter requires restart of the application</source>
+        <translation>Note: Change of this parameter requires restart of the application</translation>
+    </message>
+    <message>
+        <source>General options</source>
+        <translation>General options</translation>
     </message>
 </context>
 <context>
