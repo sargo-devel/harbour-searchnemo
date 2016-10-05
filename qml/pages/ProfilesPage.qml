@@ -187,7 +187,7 @@ Page {
                         var rename = pageStack.push(addProfile, {
                                                         "pnameText":profilename,
                                                         "pdescText":profiledescription,
-                                                        "pheaderTitle":qsTr("Rename Profile")})
+                                                        "pheaderTitle":qsTr("Rename profile")})
                         rename.accepted.connect( function() {
                             profileListModel.renameProfile(index, rename.pnameText, rename.pdescText)
                         })

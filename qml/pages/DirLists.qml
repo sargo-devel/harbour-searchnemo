@@ -127,7 +127,7 @@ Page {
 //        clip: true
 
         header: PageHeader {
-            title: qsTr("List of Directories")
+            title: qsTr("List of directories")
             description: qsTr("Profile") +" "+ dirsPage.profileName
         }
 
@@ -137,7 +137,7 @@ Page {
 
         PullDownMenu {
             MenuItem {
-                text: qsTr("Add/Modify directories")
+                text: qsTr("Add/modify directories")
                 onClicked: {
                     dirListModel.writeList()
                     var dirtreeDialog = pageStack.push(Qt.resolvedUrl("DirTree.qml"), {"wblistModel": dirListModel})

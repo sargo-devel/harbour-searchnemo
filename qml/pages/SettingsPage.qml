@@ -75,7 +75,7 @@ Page {
                 anchors.left: parent.left
                 anchors.right: parent.right
 
-                PageHeader { title: qsTr("General Options") }
+                PageHeader { title: qsTr("General options") }
 
 //                SectionHeader { text: qsTr("Search options") }
 

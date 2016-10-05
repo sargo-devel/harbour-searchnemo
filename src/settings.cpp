@@ -87,7 +87,7 @@ void Settings::addDefaultSet()
     remove("ProfilesList");
     if(!list.contains(name)) list.append(name);
     writeStringList("ProfilesList",list);
-    write(name + " Options/description", tr("Entire dir tree. Warning: Very long search"));
+    write(name + " Options/description", tr("Entire dir tree. Warning: very long search"));
     writeStringList(name + " Whitelist", QStringList("/"));
 }
 

@@ -136,7 +136,7 @@ Page {
                 wrapMode: Text.Wrap
                 color: parent.color
                 text: qsTr("Profiles give possibility to keep different search options under one short name.") + " "
-                      + qsTr("Each profile may contain different search paths groupped as whitelist or blacklist directories.") + "\n"
+                      + qsTr("Each profile may contain different search paths groupped as whitelist or blacklist of directories.") + "\n"
                       + qsTr("* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.") + "\n"
                       + qsTr("* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.") + "\n"
                       + qsTr("This gives a huge flexibility of creating own complex search paths.") + " "

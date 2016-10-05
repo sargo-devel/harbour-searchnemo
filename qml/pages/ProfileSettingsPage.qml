@@ -52,7 +52,7 @@ Page {
                 anchors.left: parent.left
                 anchors.right: parent.right
 
-                PageHeader { title: qsTr("Profile Settings") }
+                PageHeader { title: qsTr("Profile settings") }
 
                 SectionHeader { text: qsTr("Name")}
                 Label {
