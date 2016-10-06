@@ -276,7 +276,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+20"/>
+        <location line="+21"/>
         <source>Whitelist directories</source>
         <translation type="unfinished"></translation>
     </message>
@@ -791,18 +791,18 @@
     </message>
     <message>
         <location line="+8"/>
-        <location line="+178"/>
+        <location line="+179"/>
         <source>Add default set</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-167"/>
-        <location line="+124"/>
+        <location line="-168"/>
+        <location line="+125"/>
         <source>Add profile</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-106"/>
+        <location line="-107"/>
         <source>Set as current</source>
         <translation type="unfinished"></translation>
     </message>
@@ -827,7 +827,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+20"/>
         <location line="+43"/>
         <source>Accept</source>
         <translation type="unfinished"></translation>

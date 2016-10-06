@@ -268,7 +268,8 @@ Page {
             RemorseItem { id: remorse }
 
             function remorseDeleteProfile(name) {
-                remorse.execute(itemProfile, qsTr("Deleting profile"), function() {profileListModel.removeProfileName(name)})
+                remorse.execute(itemProfile, qsTr("Deleting profile"),
+                                function() {profileListModel.removeProfileName(name)}, appWindow.remorseTimeout)
             }
         }
     }

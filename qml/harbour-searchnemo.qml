@@ -25,6 +25,7 @@ ApplicationWindow
     property bool newSearch: false
     property string startDir: "/"  //!!! na razie nie kasuj
     property string startProfilename: ""
+    property int remorseTimeout: 3000
 
     initialPage: Component { SearchPage { profilename: startProfilename } }
     cover: Qt.resolvedUrl("cover/CoverPage.qml")

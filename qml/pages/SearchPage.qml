@@ -450,7 +450,7 @@ Page {
                     listModel.remove(index)
                     backListModel.remove(index)
                     //console.log(searchEngine.ord,searchEngine.backord)
-                })
+                }, appWindow.remorseTimeout)
             }
         }
 

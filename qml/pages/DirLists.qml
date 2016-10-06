@@ -180,7 +180,8 @@ Page {
             RemorseItem { id: remorse }
 
             function remorseDeleteDir(name) {
-                remorse.execute(itemDir, qsTr("Removing directory from list"), function() {dirListModel.removeDirName(name)})
+                remorse.execute(itemDir, qsTr("Removing directory from list"),
+                                function() {dirListModel.removeDirName(name)}, appWindow.remorseTimeout)
             }
         }
 
