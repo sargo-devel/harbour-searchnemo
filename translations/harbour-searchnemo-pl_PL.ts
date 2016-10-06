@@ -20,6 +20,22 @@
         <translation>Licencja</translation>
     </message>
     <message>
+        <source>version:</source>
+        <translation>wersja:</translation>
+    </message>
+    <message>
+        <source>Text and files search tool</source>
+        <translation>Narzędzie wyszukiwania tekstu i plików</translation>
+    </message>
+    <message>
+        <source>This program searches for a text in files stored locally on the device</source>
+        <translation>Program wyszukuje tekst w plikach przechowywanych lokalnie w urządzeniu</translation>
+    </message>
+    <message>
+        <source>License: GPL v3</source>
+        <translation>Licencja: GPL v3</translation>
+    </message>
+    <message>
         <source>Source code:</source>
         <translation>Kod źródłowy:</translation>
     </message>
@@ -44,22 +60,6 @@
         <translation>Pomoc i wskazówki</translation>
     </message>
     <message>
-        <source>version:</source>
-        <translation>wersja:</translation>
-    </message>
-    <message>
-        <source>Text and files search tool</source>
-        <translation>Narzędzie wyszukiwania tekstu i plików</translation>
-    </message>
-    <message>
-        <source>This program searches for a text in files stored locally on the device</source>
-        <translation>Program wyszukuje tekst w plikach przechowywanych lokalnie w urządzeniu</translation>
-    </message>
-    <message>
-        <source>License: GPL v3</source>
-        <translation>Licencja: GPL v3</translation>
-    </message>
-    <message>
         <source>* Tap on section label with arrow to expand/collapse section.</source>
         <translation>* Dotknij etykietę sekcji ze strzałką by rozwinąć/zwinąć sekcję.</translation>
     </message>
@@ -82,6 +82,10 @@
     <message>
         <source>Profiles give possibility to keep different search options under one short name.</source>
         <translation>Profile dają możliwość przechowywania różnych opcji wyszukiwania pod jedną krótką nazwą.</translation>
+    </message>
+    <message>
+        <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
+        <translation>Każdy profil może zawierać różne ścieżki wyszukiwania pogrupowane w białej lub czarnej liście katalogów.</translation>
     </message>
     <message>
         <source>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</source>
@@ -122,10 +126,6 @@
     <message>
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
         <translation>* Może to być użyteczne, np.: wyszukiwanie &apos;=&apos; zwróci wszystkie znalezione aplikacje, wyszukiwanie &apos;jolla&apos; poda wszystkie aplikacje stworzone przez Jolla</translation>
-    </message>
-    <message>
-        <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
-        <translation>Każdy profil może zawierać różne ścieżki wyszukiwania pogrupowane w białej lub czarnej liście katalogów.</translation>
     </message>
 </context>
 <context>
@@ -208,20 +208,20 @@
         <translation>Profil</translation>
     </message>
     <message>
-        <source>Remove from list</source>
-        <translation>Usuń z listy</translation>
-    </message>
-    <message>
-        <source>Removing directory from list</source>
-        <translation>Usuń katalog z listy</translation>
-    </message>
-    <message>
         <source>List of directories</source>
         <translation>Lista katalogów</translation>
     </message>
     <message>
         <source>Add/modify directories</source>
         <translation>Dodaj/modyfikuj katalogi</translation>
+    </message>
+    <message>
+        <source>Remove from list</source>
+        <translation>Usuń z listy</translation>
+    </message>
+    <message>
+        <source>Removing directory from list</source>
+        <translation>Usuń katalog z listy</translation>
     </message>
     <message>
         <source>Whitelist directories</source>
@@ -270,26 +270,6 @@
 <context>
     <name>DirTree</name>
     <message>
-        <source>Add to whitelist</source>
-        <translation>Dodaj do białej listy</translation>
-    </message>
-    <message>
-        <source>Add to blacklist</source>
-        <translation>Dodaj do czarnej listy</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Anuluj</translation>
-    </message>
-    <message>
-        <source>Accept</source>
-        <translation>Akceptuj</translation>
-    </message>
-    <message>
-        <source>Path:</source>
-        <translation>Ścieżka:</translation>
-    </message>
-    <message>
         <source>Main tree</source>
         <translation>Drzewo główne</translation>
     </message>
@@ -302,12 +282,32 @@
         <translation>Schowaj ukryte katalogi</translation>
     </message>
     <message>
+        <source>Accept</source>
+        <translation>Akceptuj</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Anuluj</translation>
+    </message>
+    <message>
         <source>Select directories by long press</source>
         <translation>Wybierz katalogi przez długie naciśnięcie</translation>
     </message>
     <message>
+        <source>Path:</source>
+        <translation>Ścieżka:</translation>
+    </message>
+    <message>
         <source>Remove from lists</source>
         <translation>Usuń z list</translation>
+    </message>
+    <message>
+        <source>Add to whitelist</source>
+        <translation>Dodaj do białej listy</translation>
+    </message>
+    <message>
+        <source>Add to blacklist</source>
+        <translation>Dodaj do czarnej listy</translation>
     </message>
 </context>
 <context>
@@ -414,6 +414,10 @@
         <translation>Otwórz</translation>
     </message>
     <message>
+        <source>File info</source>
+        <translation>Info o pliku</translation>
+    </message>
+    <message>
         <source>Location</source>
         <translation>Położenie</translation>
     </message>
@@ -452,10 +456,6 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Ten typ pliku nie może być otwarty.</translation>
-    </message>
-    <message>
-        <source>File info</source>
-        <translation>Info o pliku</translation>
     </message>
 </context>
 <context>
@@ -517,6 +517,14 @@
     <message>
         <source>Search directories lists</source>
         <translation>Listy przeszukiwanych katalogów</translation>
+    </message>
+    <message>
+        <source>Whitelist directories:</source>
+        <translation>Katalogi białej listy:</translation>
+    </message>
+    <message>
+        <source>Blacklist directories:</source>
+        <translation>Katalogi czarnej listy:</translation>
     </message>
     <message>
         <source>Search options</source>
@@ -614,14 +622,6 @@
         <source>Enables searching for file and directory names</source>
         <translation>Zezwala na wyszukiwanie nazw plików i katalogów</translation>
     </message>
-    <message>
-        <source>Whitelist directories:</source>
-        <translation>Katalogi białej listy:</translation>
-    </message>
-    <message>
-        <source>Blacklist directories:</source>
-        <translation>Katalogi czarnej listy:</translation>
-    </message>
 </context>
 <context>
     <name>ProfilesPage</name>
@@ -652,6 +652,10 @@
     <message>
         <source>Rename</source>
         <translation>Zmień nazwę</translation>
+    </message>
+    <message>
+        <source>Rename profile</source>
+        <translation>Zmień nazwę profilu</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -699,11 +703,7 @@
     </message>
     <message>
         <source>If such profiles exist, they will be overwritten.</source>
-        <translation>Jęsli takie profile istnieją, zostaną usunięte.</translation>
-    </message>
-    <message>
-        <source>Rename profile</source>
-        <translation>Zmień nazwę profilu</translation>
+        <translation>Jeśli takie profile istnieją, zostaną usunięte.</translation>
     </message>
 </context>
 <context>
@@ -1062,6 +1062,10 @@
         <translation>zawartość plików SQLITE</translation>
     </message>
     <message>
+        <source>Applications</source>
+        <translation>Aplikacje</translation>
+    </message>
+    <message>
         <source>Filenames</source>
         <translation>Nazwy plików</translation>
     </message>
@@ -1094,12 +1098,32 @@
         <translation>O programie</translation>
     </message>
     <message>
+        <source>General options</source>
+        <translation>Opcje ogólne</translation>
+    </message>
+    <message>
+        <source>Profiles list</source>
+        <translation>Lista profili</translation>
+    </message>
+    <message>
+        <source>Current profile setup</source>
+        <translation>Ustawienia bieżącego profilu</translation>
+    </message>
+    <message>
         <source>Search %1</source>
         <translation>Przeszukaj %1</translation>
     </message>
     <message>
+        <source>Profile:</source>
+        <translation>Profil:</translation>
+    </message>
+    <message>
         <source>Open</source>
         <translation>Otwórz</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Uruchom</translation>
     </message>
     <message>
         <source>Remove from search results</source>
@@ -1121,30 +1145,6 @@
         <source>This type of file can&apos;t be opened.</source>
         <translation>Ten typ pliku nie może być otwarty.</translation>
     </message>
-    <message>
-        <source>Applications</source>
-        <translation>Aplikacje</translation>
-    </message>
-    <message>
-        <source>General options</source>
-        <translation>Opcje ogólne</translation>
-    </message>
-    <message>
-        <source>Profiles list</source>
-        <translation>Lista profili</translation>
-    </message>
-    <message>
-        <source>Current profile setup</source>
-        <translation>Ustawienia bieżącego profilu</translation>
-    </message>
-    <message>
-        <source>Profile:</source>
-        <translation>Profil:</translation>
-    </message>
-    <message>
-        <source>Run</source>
-        <translation>Uruchom</translation>
-    </message>
 </context>
 <context>
     <name>SearchWorker</name>
@@ -1157,16 +1157,16 @@
         <translation>Nieprawidłowe parametry wyszukiwania</translation>
     </message>
     <message>
-        <source>Note nr</source>
-        <translation>Notatka nr</translation>
-    </message>
-    <message>
         <source>Profile configuration error!</source>
         <translation>Błąd konfiguracji profilu!</translation>
     </message>
     <message>
         <source>Check profile whitelist...</source>
         <translation>Sprawdź białą listę profilu...</translation>
+    </message>
+    <message>
+        <source>Note nr</source>
+        <translation>Notatka nr</translation>
     </message>
 </context>
 <context>
@@ -1218,8 +1218,8 @@
         <translation>domyślny</translation>
     </message>
     <message>
-        <source>Language:</source>
-        <translation>Język:</translation>
+        <source>General options</source>
+        <translation>Opcje ogólne</translation>
     </message>
     <message>
         <source>Default profile:</source>
@@ -1234,8 +1234,8 @@
         <translation>Uwaga: Zmiana tego parametru wymaga restartu aplikacji</translation>
     </message>
     <message>
-        <source>General options</source>
-        <translation>Opcje ogólne</translation>
+        <source>Language:</source>
+        <translation>Język:</translation>
     </message>
 </context>
 <context>
