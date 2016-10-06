@@ -50,6 +50,7 @@ Page {
                 anchors.right: parent.right
                 font.pixelSize: Theme.fontSizeSmall
                 horizontalAlignment: Text.AlignHCenter
+                wrapMode: Text.Wrap
                 color: parent.color
                 text: "SearchNemo, " + qsTr("version:") + " " + "0.2.1" + "\n"
                       +qsTr("Text and files search tool")
