@@ -79,6 +79,18 @@ Page {
             }
         }
 
+        function removeProfileName(name) {
+            removeProfile(profileListModel.getIndex(name))
+        }
+
+        function getIndex(name) {
+            for (var i = 0; i < profileListModel.count; i++)
+                if( profileListModel.get(i).profilename === name ) {
+                    return i
+                }
+            return -1
+        }
+
         function renameProfile(idx, name, desc) {
             if (profileListModel.nameExistsInList(name)) { profileListModel.dispError();return }
             var oldname = profileListModel.get(idx).profilename
@@ -196,7 +208,7 @@ Page {
                 MenuItem {
                     enabled: (profileListModel.count > 1) ? true : false
                     text: qsTr("Delete")
-                    onClicked: remorseDeleteProfile(index)
+                    onClicked: remorseDeleteProfile(profilename)
                 }
             }
 
@@ -255,8 +267,8 @@ Page {
 
             RemorseItem { id: remorse }
 
-            function remorseDeleteProfile(idx) {
-                remorse.execute(itemProfile, qsTr("Deleting profile"), function() {profileListModel.removeProfile(idx)})
+            function remorseDeleteProfile(name) {
+                remorse.execute(itemProfile, qsTr("Deleting profile"), function() {profileListModel.removeProfileName(name)})
             }
         }
     }

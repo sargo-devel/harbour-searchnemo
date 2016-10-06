@@ -775,7 +775,7 @@
 <context>
     <name>ProfilesPage</name>
     <message>
-        <location filename="../qml/pages/ProfilesPage.qml" line="+133"/>
+        <location filename="../qml/pages/ProfilesPage.qml" line="+145"/>
         <source>Profile name error!</source>
         <translation type="unfinished"></translation>
     </message>
