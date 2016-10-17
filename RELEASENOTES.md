@@ -1,7 +1,13 @@
 
 # SearchNemo Release Notes
 
-## Version 0.2.1 (2016-09-14)
+## Version 0.3.0 (2016-10-18)
+* Added profiles with custom search settings
+* Each profile contains its own search path with white- and blacklisted directories
+* Added applications search
+* Removed startDir as command line parameter
+
+## Version 0.2.1 (2016-09-14) (Jolla Store 2016-09-16)
 * Added Italian translation
 
 ## Version 0.2 (2016-06-23) (Jolla Store 2016-06-23)

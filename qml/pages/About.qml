@@ -52,7 +52,7 @@ Page {
                 horizontalAlignment: Text.AlignHCenter
                 wrapMode: Text.Wrap
                 color: parent.color
-                text: "SearchNemo, " + qsTr("version:") + " " + "0.2.1" + "\n"
+                text: "SearchNemo, " + qsTr("version:") + " " + "0.3.0" + "\n"
                       +qsTr("Text and files search tool")
             }
 
