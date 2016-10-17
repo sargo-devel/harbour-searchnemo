@@ -54,7 +54,6 @@ private:
 
     void load();
     void initStartList();
-    //QString sdcardPath() const;
     static QStringList mountPoints();
 
 };

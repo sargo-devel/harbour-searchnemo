@@ -3,7 +3,7 @@
 
 #include <QObject>
 #include <QStringList>
-#include <QDebug>
+
 
 class Profile: public QObject
 {

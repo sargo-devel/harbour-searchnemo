@@ -16,7 +16,7 @@
 #include "searchworker.h"
 #include <QDateTime>
 #include <QSettings>
-#include <QDebug>
+//#include <QDebug>
 #include "globals.h"
 #include "dbsqlite.h"
 
@@ -34,12 +34,12 @@ SearchWorker::SearchWorker(QObject *parent) :
     connect(&m_profile, SIGNAL(settingsChanged()), this, SIGNAL(profileSettingsChanged()));
     connect(&m_profile, SIGNAL(nameChanged()), this, SIGNAL(profileNameChanged()));
     m_defLang = settings.value("langSetting", "default").toString();
-    qDebug()<<"Searchworker constructor";
+    //qDebug()<<"Searchworker constructor";
 }
 
 SearchWorker::~SearchWorker()
 {
-    qDebug()<<"Searchworker destructor";
+    //qDebug()<<"Searchworker destructor";
 }
 
 void SearchWorker::startSearch(QString profilename, QString searchTerm)
@@ -77,7 +77,6 @@ void SearchWorker::run() Q_DECL_OVERRIDE
 {
     while ( m_profile.isWhiteList() ) {
         m_directory = m_profile.getNextFromWhiteList();
-        qDebug() << "2 m_directory=" << m_directory;
         QString errMsg = searchRecursively(m_directory, m_searchTerm.toLower());
         if (!errMsg.isEmpty())
             emit errorOccurred(errMsg, m_currentDirectory);
@@ -234,7 +233,6 @@ QString SearchWorker::addSearchNotes(QString searchtype, QString searchTerm, boo
     QString displabel = "";
 
     QString fullpath = DbSqlite::findNotesFileName();
-    //qDebug() << "fullpath=" << fullpath;
     if ( fullpath == QString() ) return QString(); //Notes folder does not exist
     DbSqlite db( fullpath );
 
@@ -353,13 +351,10 @@ QString SearchWorker::prepareForApps(QTextStream *stream)
     else locale = m_defLang;
 
     lang = locale.split("_")[0];
-    qDebug() << "lang=" << lang;
-    qDebug() << "locale=" << locale;
     stream->seek(0);
     while (!stream->atEnd()) {
         if (m_cancelled.loadAcquire() == Cancelled) return QString();
         QString line = stream->readLine();
-        qDebug()<<"line="<<line;
         if(line.contains("[Desktop Entry]")) isDesktop = true;
         if(line.contains("Type=Application")) isApp = true;
         if(line.startsWith("Icon=")) icon = line.split("=")[1];
@@ -375,7 +370,6 @@ QString SearchWorker::prepareForApps(QTextStream *stream)
 
     if(name_l.size()>0) name = name_l.split("=")[1];
     if(comment_l.size()>0) comment = comment_l.split("=")[1];
-    qDebug()<<"name&comment="<<name<<"&"<<comment<<"&"<<comment_l;
     if(isDesktop && isApp && isEnabled) return name + "::" + icon + "::" + comment;
     return QString();
 }

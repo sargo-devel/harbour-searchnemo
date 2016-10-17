@@ -84,8 +84,6 @@ void SearchEngine::emitMatchFound(QString fullpath, QString searchtype, QString 
         displabel = list[0];
         icon = getIconPath(list[1]);
         matchline = list[2].size() == 0 ? tr("Application") : list[2];
-
-        qDebug()<<"ikonka="<<icon;
     }
     emit matchFound(fullpath, info.fileName(), info.absoluteDir().absolutePath(),
                     icon, info.kind(), searchtype, displabel, matchline, matchcount);

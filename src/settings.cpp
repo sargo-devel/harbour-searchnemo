@@ -16,7 +16,7 @@
 #include <QSettings>
 #include <QDir>
 #include <QStandardPaths>
-#include <QDebug>
+//#include <QDebug>
 #include "settings.h"
 #include "dirtreemodel.h"
 
@@ -94,21 +94,21 @@ void Settings::addDefaultSet()
 QString Settings::read(QString key, QString defaultValue)
 {
     QSettings settings;
-    qDebug()<<"string";
+    //qDebug()<<"string";
     return settings.value(key, defaultValue).toString();
 }
 
 bool Settings::read(QString key, bool defaultValue)
 {
     QSettings settings;
-    qDebug()<<"bool";
+    //qDebug()<<"bool";
     return settings.value(key, defaultValue).toBool();
 }
 
 int Settings::read(QString key, int defaultValue)
 {
     QSettings settings;
-    qDebug()<<"int"<<key;
+    //qDebug()<<"int"<<key;
     return settings.value(key, defaultValue).toInt();
 }
 
@@ -118,7 +118,7 @@ void Settings::write(QString key, QString value)
 
     if (settings.value(key).toString() == value) return;
     settings.setValue(key, value);
-    qDebug()<<"string";
+    //qDebug()<<"string";
     emit settingsChanged();
 }
 
@@ -128,7 +128,7 @@ void Settings::write(QString key, int value)
 
     if (settings.value(key).toInt() == value) return;
     settings.setValue(key, value);
-    qDebug()<<"int";
+    //qDebug()<<"int";
     emit settingsChanged();
 }
 
@@ -138,7 +138,7 @@ void Settings::write(QString key, bool value)
 
     //if (settings.value(key).toBool() == value) return;
     settings.setValue(key, value);
-    qDebug()<<"bool";
+    //qDebug()<<"bool";
     emit settingsChanged();
 }
 
@@ -177,33 +177,6 @@ QStringList Settings::readStringList(QString group)
     return list;
 }
 
-//QList<KeyValue> Settings::readAll(QString group)
-//{
-//    QSettings settings;
-//    QStringList keys;
-//    QList<KeyValue> list;
-
-//    settings.beginGroup(group);
-//    keys=settings.childKeys();
-//    for (int i=0; i<keys.size(); i++) {
-//        list.at(i).key = keys.at(i);
-//        list.at(i).value = read(keys.at(i));
-//    }
-//    return list;
-//}
-
-//void Settings::writeAll(QString group, QList<KeyValue> list)
-//{
-//    QSettings settings;
-
-//    settings.beginGroup(group);
-//    for(int i=0; i<list.size(); i++) {
-//        write(list.at(i).key, list.at(i).value);
-//    }
-//    settings.endGroup();
-//    emit settingsChanged();
-//}
-
 void Settings::copyGroups(QString srcgrp, QString dstgrp)
 {
     QSettings settings;
@@ -214,7 +187,6 @@ void Settings::copyGroups(QString srcgrp, QString dstgrp)
     keys=settings.childKeys();
     for (int i=0; i<keys.size(); i++) {
         values.append(settings.value(keys.at(i)).toString());
-            qDebug()<<keys.at(i)<<" "<<values.at(i);
     }
     settings.endGroup();
 

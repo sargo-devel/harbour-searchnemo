@@ -13,22 +13,20 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-//#include <QSettings>
-#include <QDebug>
+//#include <QDebug>
 #include "profile.h"
 #include "settings.h"
-//#include <QList>
 
 Profile::Profile(QObject *parent) : QObject(parent)
 {
     m_unsaved=false;
-    qDebug()<<"profile constructed";
+    //qDebug()<<"profile constructed";
 }
 
 Profile::~Profile()
 {
     writeAll();
-    qDebug()<<"profile destructed";
+    //qDebug()<<"profile destructed";
 }
 
 //Function sets new name of profile, reads all settigs from file, resets index

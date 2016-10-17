@@ -2,7 +2,7 @@
 #define SEARCHENGINE_H
 
 #include <QDir>
-#include <QDebug>
+//#include <QDebug>
 
 class SearchWorker;
 

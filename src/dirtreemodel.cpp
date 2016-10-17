@@ -14,7 +14,6 @@
 */
 
 #include "dirtreemodel.h"
-#include <QDebug>
 
 DirtreeModel::DirtreeModel() :
     m_dir(QStandardPaths::writableLocation(QStandardPaths::HomeLocation),

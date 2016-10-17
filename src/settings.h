@@ -15,11 +15,6 @@ public:
     ~Settings();
     //types
 
-//    struct KeyValue {
-//        QString key;
-//        QString value;
-//    };
-
     // access settings
     Q_INVOKABLE QString read(QString key, QString defaultValue = QString());
     Q_INVOKABLE bool read(QString key, bool defaultValue);
@@ -31,8 +26,6 @@ public:
     Q_INVOKABLE bool dirExists(QString dir);
     Q_INVOKABLE QStringList readStringList(QString group);
     Q_INVOKABLE void writeStringList(QString group, QStringList list);
-//    Q_INVOKABLE void writeAll(QString group, QList<KeyValue> list);
-//    Q_INVOKABLE QList<KeyValue> readAll(QString group);
     Q_INVOKABLE void copyGroups(QString srcgrp, QString dstgrp);
     Q_INVOKABLE void copyArrays(QString srcarr, QString dstarr);
     Q_INVOKABLE bool nameExists(QStringList list, QString name);
