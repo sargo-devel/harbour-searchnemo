@@ -5,15 +5,15 @@ It searches local directories for a given text inside various file types.
 It can also find file and directory names containing searched text.
 
 ### Features
- * Search local directories for a given text inside files and return result list divided into sections
- * Selectable start directory (also as a command line parameter)
- * Searched text is always case insensitive
- * Currently supported search targets: Notes app database, files (text, html, [sqlite](https://www.sqlite.org/), filenames, directory names
+ * Search local directories for a given text inside files (and file/dir names) and return results list divided into sections
+ * Selectable search paths with white- and blacklisted directiories
+ * Customization of search by quickly selectable profiles (selection of search paths, file types, max. nr of displayed search results)
+ * Currently supported search targets: Notes app database, files (text, html, [sqlite](https://www.sqlite.org/)), applications, filenames, directory names
  * Special search inside Notes app database (with indication of note number containing searched text)
- * Clear search results when press&hold on empty search field
- * Customization of search (selection of file types, max. nr of displayed search results)
+ * Searched text is always case insensitive
  * On/off search in hidden files and directiories
  * On/off symbolic links support
+ * Clear search results when press&hold on empty search field
  * Dynamically extended sections of search result list
  * Cumulative and plain view of search result list
  * Detailed view of searched text with context
@@ -23,6 +23,7 @@ It can also find file and directory names containing searched text.
  * Preview html files
  * Open app to which found database belongs to
  * Open files (if xdg-open finds a preferred application)
+ * Open found applications
  * Preview JPEG, PNG and GIF files
  * Play back WAV, MP3, OGG and FLAC audio
  * Install Android APK and Sailfish RPM packages
@@ -41,7 +42,7 @@ Currently supported languages:
 
  * English
  * Polish
- * German (partially)
+ * German (partially, not maintained)
  * Swedish (translation made by Åke Engelbrektson)
  * Italian (translation made by ghostofasmile)
 
@@ -54,14 +55,13 @@ It is always possible to do the same task using find program in command line, bu
 
 As a starting point I took very good app: File Browser (see Acknowledgements) and adopted search function to my needs.
 Current developement state suites me well for simple tasks, but it can be just a starting point for further development.
-Application is currently in alpha state.
 Any comments, new ideas and pull requests are very welcome.
 
 Plans:
 
  * to introduce regular expression search
  * to open desired app with a parameter (if app allows it)
- * to search inside other files (ie. pdf)
+ * to search inside other files (e.g. pdf)
 
 ### Release notes
 See [here](https://github.com/sargo-devel/harbour-searchnemo/blob/master/RELEASENOTES.md) for detailed history. 

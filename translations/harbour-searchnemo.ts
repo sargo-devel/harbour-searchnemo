@@ -251,7 +251,7 @@
 <context>
     <name>DirLists</name>
     <message>
-        <location filename="../qml/pages/DirLists.qml" line="+131"/>
+        <location filename="../qml/pages/DirLists.qml" line="+119"/>
         <source>Profile</source>
         <translation type="unfinished"></translation>
     </message>
@@ -369,7 +369,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+100"/>
+        <location line="+98"/>
         <source>Remove from lists</source>
         <translation type="unfinished"></translation>
     </message>
@@ -387,7 +387,7 @@
 <context>
     <name>DirtreeModel</name>
     <message>
-        <location filename="../src/dirtreemodel.cpp" line="+59"/>
+        <location filename="../src/dirtreemodel.cpp" line="+58"/>
         <source>Home</source>
         <translation type="unfinished"></translation>
     </message>
@@ -615,7 +615,7 @@
 <context>
     <name>ProfileSettingsPage</name>
     <message>
-        <location filename="../qml/pages/ProfileSettingsPage.qml" line="+55"/>
+        <location filename="../qml/pages/ProfileSettingsPage.qml" line="+43"/>
         <source>Profile settings</source>
         <translation type="unfinished"></translation>
     </message>
@@ -635,24 +635,24 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+13"/>
         <source>Search directories lists</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
-        <location line="+145"/>
+        <location line="+138"/>
         <source>Whitelist directories:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-144"/>
-        <location line="+145"/>
+        <location line="-137"/>
+        <location line="+138"/>
         <source>Blacklist directories:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-104"/>
+        <location line="-97"/>
         <source>Search options</source>
         <translation type="unfinished"></translation>
     </message>
@@ -697,7 +697,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+7"/>
         <source>Result sections</source>
         <translation type="unfinished"></translation>
     </message>
@@ -712,7 +712,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
         <source>Enable HTML section</source>
         <translation type="unfinished"></translation>
     </message>
@@ -722,7 +722,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
         <source>Enable SRC section</source>
         <translation type="unfinished"></translation>
     </message>
@@ -732,7 +732,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
         <source>Enable APPS section</source>
         <translation type="unfinished"></translation>
     </message>
@@ -752,7 +752,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
         <source>Enable NOTES section</source>
         <translation type="unfinished"></translation>
     </message>
@@ -762,7 +762,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
         <source>Enable Files and Directories sections</source>
         <translation type="unfinished"></translation>
     </message>
@@ -775,7 +775,7 @@
 <context>
     <name>ProfilesPage</name>
     <message>
-        <location filename="../qml/pages/ProfilesPage.qml" line="+145"/>
+        <location filename="../qml/pages/ProfilesPage.qml" line="+141"/>
         <source>Profile name error!</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1350,15 +1350,15 @@
     </message>
     <message numerus="yes">
         <location line="+2"/>
-        <location line="+194"/>
-        <location line="+187"/>
+        <location line="+185"/>
+        <location line="+168"/>
         <source>%n hit(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location line="-296"/>
+        <location line="-272"/>
         <source>Searching</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1383,17 +1383,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+16"/>
         <source>Search %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+91"/>
+        <location line="+85"/>
         <source>Profile:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+102"/>
+        <location line="+100"/>
         <source>Open</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1413,7 +1413,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+137"/>
+        <location line="+124"/>
         <source>SearchNemo</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1451,7 +1451,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+190"/>
+        <location line="+188"/>
         <source>Note nr</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1510,7 +1510,7 @@
 <context>
     <name>SettingsPage</name>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="+57"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="+56"/>
         <source>default</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1520,7 +1520,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+47"/>
+        <location line="+5"/>
         <source>Default profile:</source>
         <translation type="unfinished"></translation>
     </message>
