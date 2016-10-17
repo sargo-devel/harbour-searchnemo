@@ -29,16 +29,6 @@ Page {
     signal ret
     Component.onDestruction: { dirListModel.writeList(); ret() }
     Component.onCompleted: {dirListModel.readList()}
-    onStatusChanged: {
-        console.log("DirsPage status=",status,"(I,A^,A,D:",PageStatus.Inactive,PageStatus.Activating,PageStatus.Active,PageStatus.Deactivating,")")
-        if (status === PageStatus.Activating) {
-//           dirListModel.readList()
-        }
-        if (status === PageStatus.Deactivating) {
-//            dirListModel.writeList()
-        }
-    }
-
 
     Settings { id: settings }
 
@@ -46,7 +36,6 @@ Page {
     //list model: dirname=fullpath, enable=true/false (whitelisted/blacklisted)
     ListModel {
         id: dirListModel
-        //Component.onCompleted: dirListModel.readList()
 
         function readList() {
             dirListModel.clear()
@@ -124,7 +113,6 @@ Page {
         anchors.top: parent.top
         anchors.bottom: parent.bottom
         width: parent.width
-//        clip: true
 
         header: PageHeader {
             title: qsTr("List of directories")

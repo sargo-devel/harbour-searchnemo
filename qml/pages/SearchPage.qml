@@ -30,7 +30,7 @@ Page {
     property string profilename: "Default" // holds the name of profile where all search dirs are defined
     onProfilenameChanged: {
         profList.reload()
-        console.log("search profilename=",profilename)
+        //console.log("search profilename=",profilename)
     }
     property string currentDirectory: "" // holds the directory which is being searched by SearchEngine
     property string searchFieldText: "" // holds the copy of search text from searchField
@@ -175,10 +175,6 @@ Page {
         // locks sections until search is finished
         property bool lockSection: true
 
-        //additional paddings sizes
-        //property int theme_paddingSmall15: Theme.paddingSmall*1.5
-        //property int theme_paddingSmall05: Theme.paddingSmall*0.5
-
         model: ListModel {
             id: listModel
 
@@ -229,15 +225,12 @@ Page {
         header: Item {
             id:fileListHeader
             width: parent.width
-//            height: Theme.itemSizeLarge
             height: searchField.height+Theme.paddingSmall+selectProfile.height
             SearchField {
                 id: searchField
                 anchors.left: parent.left
                 anchors.right: cancelSearchButton.left
-                //anchors.verticalCenter: parent.verticalCenter
                 y: Theme.paddingSmall
-                //placeholderText: qsTr("Search %1").arg(Functions.formatPathForSearch(page.dir))
                 placeholderText: qsTr("Search %1").arg(page.profilename)
                 inputMethodHints: Qt.ImhNoAutoUppercase | Qt.ImhNoPredictiveText
                 //text: ""
@@ -299,10 +292,8 @@ Page {
                 visible: false
                 anchors.left: parent.left
                 anchors.leftMargin: searchField.textLeftMargin
-//                anchors.top: searchField.bottom
                 anchors.top: parent.top
                 anchors.topMargin: searchField.height + Theme.paddingSmall - Theme.paddingLarge
-//                anchors.topMargin: -Theme.paddingLarge
                 text: qsTr("%n hit(s)","",backListModel.count)
                 font.pixelSize: Theme.fontSizeTiny
                 color: Theme.secondaryColor
@@ -313,10 +304,8 @@ Page {
                 anchors.leftMargin: 3*Theme.itemSizeSmall
                 anchors.right: parent.right
                 anchors.rightMargin: Theme.paddingLarge
-//                anchors.top: searchField.bottom
                 anchors.top: parent.top
                 anchors.topMargin: searchField.height + Theme.paddingSmall - Theme.paddingLarge
-//                anchors.topMargin: -Theme.paddingLarge
                 text: page.currentDirectory
                 font.pixelSize: Theme.fontSizeTiny
                 color: Theme.secondaryColor
@@ -327,8 +316,6 @@ Page {
                 anchors.left: parent.left
                 anchors.right: parent.right
                 anchors.top: dispCurDir.bottom
-//                anchors.top: parent.top
-//                anchors.topMargin: 2*Theme.paddingLarge
                 label: qsTr("Profile:")
                 value: page.profilename
                 onClicked: {listModel.update("")}
@@ -341,8 +328,6 @@ Page {
                             onClicked: page.profilename = name
                         }
                     }
-//                    onActivated: {console.log(profMenu.height)}
-//                    onHeightChanged: selectProfile.height=80+height
                 }
             }
         }
@@ -444,12 +429,10 @@ Page {
             function delegateMenuDelete (index) {
                 remorseItemActive = true
                 remorseItem.execute(fileItem, qsTr("Removing from search results"), function() {
-                    //console.log(searchEngine.ord, listModel.get(index).searchtype)
                     searchEngine.ord[ searchEngine.categoryTab[listModel.get(index).searchtype] ] --
                     searchEngine.backord[ searchEngine.categoryTab[backListModel.get(index).searchtype] ] --
                     listModel.remove(index)
                     backListModel.remove(index)
-                    //console.log(searchEngine.ord,searchEngine.backord)
                 }, appWindow.remorseTimeout)
             }
         }
@@ -463,17 +446,6 @@ Page {
             property bool openSection: searchEngine.opensection[ searchEngine.categoryTab[section] ]
             property bool restore: false
 
-//            Label {
-//                id: sectionIcon
-//                anchors.left: parent.left
-//                anchors.leftMargin: Theme.paddingLarge
-//                anchors.verticalCenter: parent.verticalCenter
-//                text: Functions.unicodeBlackDownPointingTriangle()
-//                font.pixelSize: Theme.fontSizeExtraLarge
-//                color: Theme.highlightColor
-//                rotation:  openSection ? 0 : -90
-//                Behavior on rotation { NumberAnimation { duration: 250; easing.type: Easing.OutBack } }
-//            }
             Image {
                 id: sectionIcon
                 anchors.left: parent.left

@@ -30,7 +30,7 @@ Page {
     Component.onDestruction: ret()
 
     onStatusChanged: {
-        console.log("ProfilesPage status=",status,"(I,A^,A,D:",PageStatus.Inactive,PageStatus.Activating,PageStatus.Active,PageStatus.Deactivating,")")
+        //console.log("ProfilesPage status=",status,"(I,A^,A,D:",PageStatus.Inactive,PageStatus.Activating,PageStatus.Active,PageStatus.Deactivating,")")
         if (status === PageStatus.Activating) {
             profileListModel.readProfilesList()
         }
@@ -43,10 +43,6 @@ Page {
 
         //contains index of current profile (search will use this profile)
         property string nameSelected
-
-        onNameSelectedChanged: console.log("nameSelected=",nameSelected)
-
-        //Component.onCompleted: readProfilesList()
 
         function readProfilesList() {
             profileListModel.clear()

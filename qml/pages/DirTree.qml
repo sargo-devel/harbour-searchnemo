@@ -132,7 +132,6 @@ Dialog {
             anchors.bottom: parent.bottom
             anchors.topMargin: Theme.paddingMedium
             width: parent.width
-            //height: parent.height - y
             clip: true
 
             //VerticalScrollDecorator creates warning:
@@ -197,7 +196,6 @@ Dialog {
                 }
 
                 onClicked: {
-                    console.log("path=",path)
                     viewDir.enabled = false;
                     dName = name
                     dPath = path

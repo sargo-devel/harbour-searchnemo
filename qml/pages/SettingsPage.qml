@@ -38,7 +38,6 @@ Page {
     // This model keeps list of available profiles
     ListModel {
         id: profiles
-        //Component.onCompleted: reload()
         function reload() {
             profiles.clear()
             var list = []
@@ -76,48 +75,6 @@ Page {
                 anchors.right: parent.right
 
                 PageHeader { title: qsTr("General options") }
-
-//                SectionHeader { text: qsTr("Search options") }
-
-//                Label {
-//                    anchors.left: parent.left
-//                    anchors.right: parent.right
-//                    anchors.leftMargin: Theme.horizontalPageMargin
-//                    anchors.rightMargin: Theme.horizontalPageMargin
-//                    font.pixelSize: Theme.fontSizeSmall
-//                    color: Theme.secondaryColor
-//                    text:qsTr("The search begins in the start directory and continues in its subdirectories. If it is empty or incorrect then the home directory is the start directory.")
-//                    wrapMode: Text.Wrap
-//                }
-
-//                TextField {
-//                    id: startDirectory
-//                    width: parent.width
-//                    placeholderText: qsTr("Enter start directory...")
-//                    label: qsTr("Start directory")
-//                    horizontalAlignment: TextInput.AlignLeft
-//                    labelVisible: true
-//                    onTextChanged: {
-//                        console.log("text changed=",text)
-//                        if ( settings.dirExists(text) && (!Functions.endsWith(text,"/") || (text.length === 1)) ) {
-//                            color=Theme.highlightColor
-//                            EnterKey.enabled=true
-//                        }
-//                        else {
-//                            color=Theme.secondaryHighlightColor
-//                            EnterKey.enabled=false
-//                        }
-//                    }
-//                    onFocusChanged: text = settings.read("startDir","")
-//                    //onPressAndHold: console.log("Hold")
-//                    EnterKey.highlighted: true
-//                    EnterKey.iconSource: "image://theme/icon-m-enter-close"
-//                    EnterKey.onClicked: {
-//                        appWindow.startDir=text
-//                        settings.write("startDir", text)
-//                        focus = false
-//                    }
-//                }
 
                 ComboBox {
                     id: profileSetting
@@ -157,10 +114,8 @@ Page {
     }
 
     onStatusChanged: {
-        console.log("page status=",status,"(I,A^,A,D:",PageStatus.Inactive,PageStatus.Activating,PageStatus.Active,PageStatus.Deactivating,")")
         // read settings
         if (status === PageStatus.Activating) {
-            //startDirectory.text = settings.read("startDir","");
             profileSetting.currentIndex = profiles.getIndex( settings.read("defaultProfileSetting","Default") )
             profileSetting.currentItem = profileSetting.menu.children[profileSetting.currentIndex]
             langSetting.currentIndex = languages.getIndex( settings.read("langSetting","default") )

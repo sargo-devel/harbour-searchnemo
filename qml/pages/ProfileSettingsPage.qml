@@ -15,10 +15,8 @@
 
 import QtQuick 2.2
 import Sailfish.Silica 1.0
-//import harbour.searchnemo.Settings 1.0
 import harbour.searchnemo.Profile 1.0
 import "../components"
-//import "functions.js" as Functions
 
 Page {
     id: profileSettingsPage
@@ -29,16 +27,6 @@ Page {
     Profile {
         id: profile
         name: profileName
-        Component.onCompleted: {
-            console.log(name)
-            console.log(Profile.SearchHiddenFiles)
-            //nameChanged()
-//            profile.setNewName(profileName)
-//            profName.text=name()
-//            profDesc.text=description()
-        }
-        onNameChanged: console.log("zmiana name")
-
     }
 
     SilicaFlickable {
@@ -74,7 +62,6 @@ Page {
                     label: qsTr("Profile description")
                     placeholderText: label
                     //text:
-                    //Connections {target: profile; onNameChanged: {console.log("profDesc");profDesc.text=profile.description()}}
                     EnterKey.enabled: true
                     EnterKey.iconSource: "image://theme/icon-m-enter-accept"
                     EnterKey.onClicked: {
@@ -170,9 +157,7 @@ Page {
                     width: parent.width
                     valueText: value
                     label: qsTr("max. nr of results per section")
-                    //onValueChanged: settings.write("maxResultsPerSection", value.toString())
                     onValueChanged: {
-                        console.log("slider")
                         if (profile.getIntOption(Profile.MaxResultsPerSection) !== value)
                             profile.setOption(Profile.MaxResultsPerSection, value)
                     }
@@ -184,7 +169,6 @@ Page {
                     text: qsTr("Enable TXT section")
                     description: qsTr("Enables searching inside *.txt files")
                     onClicked: profile.setOption(Profile.EnableTxt, checked)
-//                    onCheckedChanged: settings.write("Sections/enableTxtSection", checked.toString())
                 }
 
                 TextSwitch {
@@ -192,7 +176,6 @@ Page {
                     text: qsTr("Enable HTML section")
                     description: qsTr("Enables searching inside *.html, *.htm files")
                     onClicked: profile.setOption(Profile.EnableHtml, checked)
-//                    onCheckedChanged: settings.write("Sections/enableHtmlSection", checked.toString())
                 }
 
                 TextSwitch {
@@ -200,7 +183,6 @@ Page {
                     text: qsTr("Enable SRC section")
                     description: qsTr("Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files")
                     onClicked: profile.setOption(Profile.EnableSrc, checked)
-//                    onCheckedChanged: settings.write("Sections/enableSrcSection", checked.toString())
                 }
 
                 TextSwitch {
@@ -215,7 +197,6 @@ Page {
                     text: qsTr("Enable SQLITE section")
                     description: qsTr("Enables searching inside *.sqlite, *.db files")
                     onClicked: profile.setOption(Profile.EnableSqlite, checked)
-//                    onCheckedChanged: settings.write("Sections/enableSqliteSection", checked.toString())
                 }
 
                 TextSwitch {
@@ -223,7 +204,6 @@ Page {
                     text: qsTr("Enable NOTES section")
                     description: qsTr("Enables searching inside Notes application database")
                     onClicked: profile.setOption(Profile.EnableNotes, checked)
-//                    onCheckedChanged: settings.write("Sections/enableNotesSection", checked.toString())
                 }
 
                 TextSwitch {
@@ -238,13 +218,12 @@ Page {
     }
 
     onStatusChanged: {
-        console.log("ProfileSettingPage status=",status,"(I,A^,A,D:",PageStatus.Inactive,PageStatus.Activating,PageStatus.Active,PageStatus.Deactivating,")")
+        //console.log("ProfileSettingPage status=",status,"(I,A^,A,D:",PageStatus.Inactive,PageStatus.Activating,PageStatus.Active,PageStatus.Deactivating,")")
         // read settings
         if (status === PageStatus.Activating) {
             profWhite.text = qsTr("Whitelist directories:")+" "+profile.countWhiteList()
             profBlack.text = qsTr("Blacklist directories:")+" "+profile.countBlackList()
             profDesc.text = profile.description()
-//            startDirectory.text = settings.read("startDir","");
             searchHiddenFiles.checked = profile.getBoolOption(Profile.SearchHiddenFiles)
             enableSymlinks.checked = profile.getBoolOption(Profile.EnableSymlinks)
             showOnlyFirstMatch.checked = profile.getBoolOption(Profile.SingleMatchSetting)
@@ -256,13 +235,6 @@ Page {
             enableSqliteSection.checked = profile.getBoolOption(Profile.EnableSqlite)
             enableNotesSection.checked = profile.getBoolOption(Profile.EnableNotes)
             enableFileDirSection.checked = profile.getBoolOption(Profile.EnableFileDir)
-//            langSetting.currentIndex = getLangIndex( settings.read("langSetting","default") )
-//            langSetting.currentItem = langSetting.menu.children[langSetting.currentIndex]
-        }
-
-        if (status === PageStatus.Deactivating) {
-            console.log("deactivating")
-            //profile.writeAll()
         }
     }
 }
