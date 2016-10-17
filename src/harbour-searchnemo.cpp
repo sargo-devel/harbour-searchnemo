@@ -82,30 +82,34 @@ int main(int argc, char *argv[])
     qmlRegisterType<Settings>("harbour.searchnemo.Settings", 1, 0, "Settings");
     qmlRegisterType<Profile>("harbour.searchnemo.Profile", 1, 0, "Profile");
 
+
     QString homedir=QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
+/*
     //qDebug() << "homedir=" << homedir;
-    QString dirname=settings.value("startDir", "").toString(); //!!! na razie nie kasuj
+    QString dirname=settings.value("startDir", "").toString();
     if (dirname.isEmpty()) dirname=homedir;
     if (argc > 1) dirname = QString(argv[1]);
     QString startDir=(QDir(dirname).exists())?dirname:homedir;
     qDebug() << "startDir=" << startDir;
+*/
 
-    //Set start profile
+    //get profiles list
     Settings settings1;
     QStringList plist=settings1.readStringList("ProfilesList");
-    //Add default set if list empty
+
+    //Add default set if profiles list empty
     if (plist.size() == 0) {
-        //settings1.remove("");
         settings1.remove("Sections");
         settings1.addDefaultSet();
         plist.clear();
         plist=settings1.readStringList("ProfilesList");
     }
+
     //Read default profile
     QString profilename=settings.value("defaultProfileSetting", "Default").toString();
     if ((!plist.contains(profilename)) && (plist.size() > 0) ) profilename = plist.at(0);
     QString startProfilename=profilename;
-    qDebug()<<"startProfile="<<startProfilename;
+
     //Check whitelist of start profile
     if( settings1.readStringList(startProfilename + " Whitelist").size() == 0 )
         settings1.writeStringList(startProfilename + " Whitelist", QStringList(homedir));
@@ -115,7 +119,7 @@ int main(int argc, char *argv[])
 
     QScopedPointer<QQuickView> view(SailfishApp::createView());
     view->setSource(SailfishApp::pathTo("qml/harbour-searchnemo.qml"));
-    view->rootObject()->setProperty("startDir", startDir); //!!! na razie nie kasuj
+    //view->rootObject()->setProperty("startDir", startDir);
     view->rootObject()->setProperty("startProfilename", startProfilename);
     view->show();
 

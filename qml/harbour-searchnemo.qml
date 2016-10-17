@@ -23,7 +23,7 @@ ApplicationWindow
 
     property string coverPlaceText: "Search Nemo"
     property bool newSearch: false
-    property string startDir: "/"  //!!! na razie nie kasuj
+    //property string startDir: "/"
     property string startProfilename: ""
     property int remorseTimeout: 3000
 
