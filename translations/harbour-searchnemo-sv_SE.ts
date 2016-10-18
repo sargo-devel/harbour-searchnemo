@@ -20,6 +20,22 @@
         <translation>Licens</translation>
     </message>
     <message>
+        <source>version:</source>
+        <translation>version: </translation>
+    </message>
+    <message>
+        <source>Text and files search tool</source>
+        <translation>Text- och filsökverktyg</translation>
+    </message>
+    <message>
+        <source>This program searches for a text in files stored locally on the device</source>
+        <translation>Det här programmet söker efter text i filer, lagrade lokalt på enheten</translation>
+    </message>
+    <message>
+        <source>License: GPL v3</source>
+        <translation>Licens: GPL v3</translation>
+    </message>
+    <message>
         <source>Source code:</source>
         <translation>Källkod:</translation>
     </message>
@@ -44,95 +60,79 @@
         <translation>Hjälp och tips</translation>
     </message>
     <message>
-        <source>version:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Text and files search tool</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This program searches for a text in files stored locally on the device</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>License: GPL v3</source>
-        <translation>Licens: GPL v3</translation>
-    </message>
-    <message>
         <source>* Tap on section label with arrow to expand/collapse section.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Tryck på pilikonen för att expandera/komprimera en sektion.</translation>
     </message>
     <message>
         <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Tryck på texten i detaljerad vy för att nå &apos;Markera &amp; kopiera&apos;.</translation>
     </message>
     <message>
         <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Långtryck på tomt sökfält eller välj en annan profil, för att rensa sökresultat.</translation>
     </message>
     <message>
         <source>* Choosing profile via &apos;Profiles list&apos; doesn&apos;t delete search results.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Att välja profil via menyn &apos;Profillista&apos;, rensar inte sökresultaten.</translation>
     </message>
     <message>
         <source>Profiles</source>
-        <translation type="unfinished"></translation>
+        <translation>Profiler</translation>
     </message>
     <message>
         <source>Profiles give possibility to keep different search options under one short name.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This gives a huge flexibility of creating own complex search paths.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Some example profiles are available in &apos;Profiles list&apos; menu.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Applications section (experimental)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This fact has some implications:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>* It gives only original (English) names unless it finds localized names there.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
-        <translation type="unfinished"></translation>
+        <translation>Profiler gör det möjligt att spara olika sökalternativ under ett kort namn.</translation>
     </message>
     <message>
         <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
-        <translation type="unfinished"></translation>
+        <translation>Varje profil kan innehålla olika sökvägar, grupperade som vitlistade eller svartlistade mappar.</translation>
+    </message>
+    <message>
+        <source>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</source>
+        <translation>* Sökningen börjar alltid i en vitlistad mapp och undantar oönskade svartlistade undermappar från trädvyn.</translation>
+    </message>
+    <message>
+        <source>* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.</source>
+        <translation>Vitlista och och svartlista är oberoende. Det innebär att om nästa vitlistade mapp är undermapp till en svartlistad mapp, kommer programmet att börja söka där.</translation>
+    </message>
+    <message>
+        <source>This gives a huge flexibility of creating own complex search paths.</source>
+        <translation>Detta ger stor flexibilitet vid skapande av egna komplexa sökprofiler.</translation>
+    </message>
+    <message>
+        <source>Some example profiles are available in &apos;Profiles list&apos; menu.</source>
+        <translation>Det finns några profilexempel i menyn &apos;Profillista&apos;.</translation>
+    </message>
+    <message>
+        <source>Applications section (experimental)</source>
+        <translation>App-sektion (experimentell)</translation>
+    </message>
+    <message>
+        <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
+        <translation>För att hitta en app, söker programmet igenom .desktop-filer i en mapp angiven i vitlistan och kan endast hitta text inkluderad i dessa filer.</translation>
+    </message>
+    <message>
+        <source>This fact has some implications:</source>
+        <translation>Detta faktum har vissa konsekvenser:</translation>
+    </message>
+    <message>
+        <source>* It gives only original (English) names unless it finds localized names there.</source>
+        <translation>* Det visas bara originalnamn (Engelska), såvida där inte hittas några översatta namn.</translation>
+    </message>
+    <message>
+        <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
+        <translation>* Oväntade resultat kan visas, eftersom all text i dessa filer genomsöks.</translation>
+    </message>
+    <message>
+        <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
+        <translation>* Detta kan vara användbart, då t.ex. sökning på &apos;=&apos; visar alla hittade appar och sökning på &apos;jolla&apos;, visar alla appar skapade av Jolla.</translation>
     </message>
 </context>
 <context>
     <name>AnimatedHeader</name>
     <message>
         <source>File info</source>
-        <translation type="unfinished"></translation>
+        <translation>Filinformation</translation>
     </message>
 </context>
 <context>
@@ -205,31 +205,31 @@
     <name>DirLists</name>
     <message>
         <source>Profile</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Remove from list</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Removing directory from list</source>
-        <translation type="unfinished"></translation>
+        <translation>Profil</translation>
     </message>
     <message>
         <source>List of directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapplista</translation>
     </message>
     <message>
         <source>Add/modify directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till/Redigera mappar</translation>
+    </message>
+    <message>
+        <source>Remove from list</source>
+        <translation>Ta bort från listan</translation>
+    </message>
+    <message>
+        <source>Removing directory from list</source>
+        <translation>Tar bort mapp från listan</translation>
     </message>
     <message>
         <source>Whitelist directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Vitlistade mappar</translation>
     </message>
     <message>
         <source>Blacklist directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Svartlistade mappar</translation>
     </message>
 </context>
 <context>
@@ -270,44 +270,44 @@
 <context>
     <name>DirTree</name>
     <message>
-        <source>Add to whitelist</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Add to blacklist</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Accept</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Path:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Main tree</source>
-        <translation type="unfinished"></translation>
+        <translation>Mappträd</translation>
     </message>
     <message>
         <source>Show hidden directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa dolda mappar</translation>
     </message>
     <message>
         <source>Hide hidden directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölj dolda mappar</translation>
+    </message>
+    <message>
+        <source>Accept</source>
+        <translation>Acceptera</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Select directories by long press</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj mappar med långtryck</translation>
+    </message>
+    <message>
+        <source>Path:</source>
+        <translation>Sökväg:</translation>
     </message>
     <message>
         <source>Remove from lists</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort från listor</translation>
+    </message>
+    <message>
+        <source>Add to whitelist</source>
+        <translation>Lägg till i vitlistan</translation>
+    </message>
+    <message>
+        <source>Add to blacklist</source>
+        <translation>Lägg till i svartlistan</translation>
     </message>
 </context>
 <context>
@@ -318,15 +318,15 @@
     </message>
     <message>
         <source>SD card</source>
-        <translation type="unfinished"></translation>
+        <translation>SD-kort</translation>
     </message>
     <message>
         <source>Android storage</source>
-        <translation type="unfinished"></translation>
+        <translation>Android-lagring</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj</translation>
     </message>
 </context>
 <context>
@@ -414,6 +414,10 @@
         <translation>Öppna</translation>
     </message>
     <message>
+        <source>File info</source>
+        <translation>Filinformation</translation>
+    </message>
+    <message>
         <source>Location</source>
         <translation>Plats</translation>
     </message>
@@ -452,10 +456,6 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Denna filtyp kan inte öppnas.</translation>
-    </message>
-    <message>
-        <source>File info</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -499,8 +499,12 @@
 <context>
     <name>ProfileSettingsPage</name>
     <message>
+        <source>Profile settings</source>
+        <translation>Profilinställningar</translation>
+    </message>
+    <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn</translation>
     </message>
     <message>
         <source>Description</source>
@@ -508,11 +512,19 @@
     </message>
     <message>
         <source>Profile description</source>
-        <translation type="unfinished"></translation>
+        <translation>Profilbeskrivning</translation>
     </message>
     <message>
         <source>Search directories lists</source>
-        <translation type="unfinished"></translation>
+        <translation>Sökvägslistor</translation>
+    </message>
+    <message>
+        <source>Whitelist directories:</source>
+        <translation>Vitlistade mappar:</translation>
+    </message>
+    <message>
+        <source>Blacklist directories:</source>
+        <translation>Svartlistade mappar:</translation>
     </message>
     <message>
         <source>Search options</source>
@@ -580,11 +592,11 @@
     </message>
     <message>
         <source>Enable APPS section</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera APP-sektion</translation>
     </message>
     <message>
         <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiverar specialsökning inuti *.desktop-filer. Detta är en experimentell funktion. Läs detaljerad info i &apos;Om&apos;.</translation>
     </message>
     <message>
         <source>Enable SQLITE section</source>
@@ -604,86 +616,78 @@
     </message>
     <message>
         <source>Enable Files and Directories sections</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera fil- och mappsektioner</translation>
     </message>
     <message>
         <source>Enables searching for file and directory names</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Whitelist directories:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Blacklist directories:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Profile settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiverar sökning efter fil- och mappnamn</translation>
     </message>
 </context>
 <context>
     <name>ProfilesPage</name>
     <message>
         <source>Profile name error!</source>
-        <translation type="unfinished"></translation>
+        <translation>Profilnamnsfel!</translation>
     </message>
     <message>
         <source>Name exists. Try another one...</source>
-        <translation type="unfinished"></translation>
+        <translation>Namnet finns redan. Försök med ett annat...</translation>
     </message>
     <message>
         <source>Profiles list</source>
-        <translation type="unfinished"></translation>
+        <translation>Profillista</translation>
     </message>
     <message>
         <source>Add default set</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till standarduppsättning</translation>
     </message>
     <message>
         <source>Add profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till profil</translation>
     </message>
     <message>
         <source>Set as current</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange som aktuell</translation>
     </message>
     <message>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>Byt namn</translation>
+    </message>
+    <message>
+        <source>Rename profile</source>
+        <translation>Namnändra profil</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>Deleting profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Tar bort profil</translation>
     </message>
     <message>
         <source>Accept</source>
-        <translation type="unfinished"></translation>
+        <translation>Acceptera</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Profile name</source>
-        <translation type="unfinished"></translation>
+        <translation>Profilnamn</translation>
     </message>
     <message>
         <source>Profile description</source>
-        <translation type="unfinished"></translation>
+        <translation>Profilbeskrivning</translation>
     </message>
     <message>
         <source>The following profiles will be created:</source>
-        <translation type="unfinished"></translation>
+        <translation>Följande profiler kommer att skapas:</translation>
     </message>
     <message>
         <source>Home dir</source>
-        <translation type="unfinished"></translation>
+        <translation>Hemkatalog</translation>
     </message>
     <message>
         <source>SD Card</source>
@@ -691,19 +695,15 @@
     </message>
     <message>
         <source>Applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Appar</translation>
     </message>
     <message>
         <source>Entire tree</source>
-        <translation type="unfinished"></translation>
+        <translation>Hela mappträdet</translation>
     </message>
     <message>
         <source>If such profiles exist, they will be overwritten.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Rename profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Om profilerna redan finns, kommer de att skrivas över.</translation>
     </message>
 </context>
 <context>
@@ -1032,7 +1032,7 @@
     <name>SearchEngine</name>
     <message>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>App</translation>
     </message>
 </context>
 <context>
@@ -1060,6 +1060,10 @@
     <message>
         <source>SQLITE files content</source>
         <translation>SQLITE filinnehåll</translation>
+    </message>
+    <message>
+        <source>Applications</source>
+        <translation>Appar</translation>
     </message>
     <message>
         <source>Filenames</source>
@@ -1093,12 +1097,32 @@
         <translation>Om</translation>
     </message>
     <message>
+        <source>General options</source>
+        <translation>Allmänna alternativ</translation>
+    </message>
+    <message>
+        <source>Profiles list</source>
+        <translation>Profillista</translation>
+    </message>
+    <message>
+        <source>Current profile setup</source>
+        <translation>Aktuell profilinställning</translation>
+    </message>
+    <message>
         <source>Search %1</source>
         <translation>Sök i %1</translation>
     </message>
     <message>
+        <source>Profile:</source>
+        <translation>Profil:</translation>
+    </message>
+    <message>
         <source>Open</source>
         <translation>Öppna</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Kör</translation>
     </message>
     <message>
         <source>Remove from search results</source>
@@ -1120,30 +1144,6 @@
         <source>This type of file can&apos;t be opened.</source>
         <translation>Denna filtyp kan inte öppnas.</translation>
     </message>
-    <message>
-        <source>Applications</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>General options</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Profiles list</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Current profile setup</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Profile:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Run</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>SearchWorker</name>
@@ -1156,16 +1156,16 @@
         <translation>Felaktiga sökparametrar</translation>
     </message>
     <message>
-        <source>Note nr</source>
-        <translation>Anteckning nr.</translation>
-    </message>
-    <message>
         <source>Profile configuration error!</source>
-        <translation type="unfinished"></translation>
+        <translation>Profilinställningsfel!</translation>
     </message>
     <message>
         <source>Check profile whitelist...</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrollera profilens vitlista...</translation>
+    </message>
+    <message>
+        <source>Note nr</source>
+        <translation>Anteckning nr.</translation>
     </message>
 </context>
 <context>
@@ -1179,35 +1179,35 @@
     <name>Settings</name>
     <message>
         <source>Home dir</source>
-        <translation type="unfinished"></translation>
+        <translation>Hemkatalog</translation>
     </message>
     <message>
         <source>Entire home directory with hidden files</source>
-        <translation type="unfinished"></translation>
+        <translation>Hela hemkatalogen med dolda filer</translation>
     </message>
     <message>
         <source>SD card</source>
-        <translation type="unfinished"></translation>
+        <translation>SD-kort</translation>
     </message>
     <message>
         <source>Entire SD card with hidden files</source>
-        <translation type="unfinished"></translation>
+        <translation>Hela SD-kortet med dolda filer</translation>
     </message>
     <message>
         <source>Applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Appar</translation>
     </message>
     <message>
         <source>All installed applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Alla installerade appar</translation>
     </message>
     <message>
         <source>Entire tree</source>
-        <translation type="unfinished"></translation>
+        <translation>Hela mappträdet</translation>
     </message>
     <message>
         <source>Entire dir tree. Warning: very long search</source>
-        <translation type="unfinished"></translation>
+        <translation>Hela mappträdet. Varning för mycket lång söktid!</translation>
     </message>
 </context>
 <context>
@@ -1217,24 +1217,24 @@
         <translation>standard</translation>
     </message>
     <message>
-        <source>Language:</source>
-        <translation>Språk:</translation>
+        <source>General options</source>
+        <translation>Allmänna alternativ</translation>
     </message>
     <message>
         <source>Default profile:</source>
-        <translation type="unfinished"></translation>
+        <translation>Standardprofil:</translation>
     </message>
     <message>
         <source>This profile will be used on the application startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Denna profil kommer att användas vid programstart.</translation>
     </message>
     <message>
         <source>Note: Change of this parameter requires restart of the application</source>
-        <translation type="unfinished"></translation>
+        <translation>OBS! Ändring i denna parameter kräver omstart av appen</translation>
     </message>
     <message>
-        <source>General options</source>
-        <translation type="unfinished"></translation>
+        <source>Language:</source>
+        <translation>Språk:</translation>
     </message>
 </context>
 <context>
