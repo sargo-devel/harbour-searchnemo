@@ -1,7 +1,10 @@
 
 # SearchNemo Release Notes
 
-## Version 0.3.0 (2016-10-18)
+## Version 0.3.1 (2016-10-18)
+* Updated Swedish translation
+
+## Version 0.3.0 (2016-10-18) (Jolla Store 2016-10-18)
 * Added profiles with custom search settings
 * Each profile contains its own search path with white- and blacklisted directories
 * Added applications search
