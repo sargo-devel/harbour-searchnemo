@@ -1,7 +1,7 @@
 
 # SearchNemo Release Notes
 
-## Version 0.3.1 (2016-10-18)
+## Version 0.3.1 (2016-10-18) (Jolla Store 2016-10-19)
 * Updated Swedish translation
 
 ## Version 0.3.0 (2016-10-18) (Jolla Store 2016-10-18)

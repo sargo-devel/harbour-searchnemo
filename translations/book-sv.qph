@@ -5,16 +5,8 @@
     <target>Om</target>
 </phrase>
 <phrase>
-    <source>version: </source>
-    <target>version: </target>
-</phrase>
-<phrase>
     <source>Description</source>
     <target>Beskrivning</target>
-</phrase>
-<phrase>
-    <source>This program searches for a text in files stored locally in the home directory </source>
-    <target>Det här programmet söker efter text i filer, lagrade lokalt i hemkatalogen </target>
 </phrase>
 <phrase>
     <source>and presents results in a possibly useful form.</source>
@@ -25,32 +17,116 @@
     <target>Licens</target>
 </phrase>
 <phrase>
-    <source>License: GPL v3
-</source>
-    <target>Licens: GPL v3
-</target>
+    <source>version:</source>
+    <target>version: </target>
+</phrase>
+<phrase>
+    <source>Text and files search tool</source>
+    <target>Text- och filsökverktyg</target>
+</phrase>
+<phrase>
+    <source>This program searches for a text in files stored locally on the device</source>
+    <target>Det här programmet söker efter text i filer, lagrade lokalt på enheten</target>
+</phrase>
+<phrase>
+    <source>License: GPL v3</source>
+    <target>Licens: GPL v3</target>
 </phrase>
 <phrase>
     <source>Source code:</source>
     <target>Källkod:</target>
 </phrase>
 <phrase>
+    <source>Translations</source>
+    <target>Översättningar</target>
+</phrase>
+<phrase>
+    <source>Special thanks for translators:</source>
+    <target>Särskilt tack till översättare:</target>
+</phrase>
+<phrase>
+    <source>Swedish</source>
+    <target>Svenska</target>
+</phrase>
+<phrase>
+    <source>Italian</source>
+    <target>Italienska</target>
+</phrase>
+<phrase>
     <source>Help and Tips</source>
     <target>Hjälp och tips</target>
 </phrase>
 <phrase>
-    <source>* Tap on label wit triangle to expand/collapse section.
-</source>
-    <target>* Tryck på pilikonen för att expandera/komprimera sektionen.
-</target>
+    <source>* Tap on section label with arrow to expand/collapse section.</source>
+    <target>* Tryck på pilikonen för att expandera/komprimera en sektion.</target>
 </phrase>
 <phrase>
-    <source>* Tap on text in detailed view to enter Select&amp;Copy page.</source>
-    <target>* Tryck på texten i detaljerad vy för att nå Markera &amp; kopiera-sidan.</target>
+    <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
+    <target>* Tryck på texten i detaljerad vy för att nå &apos;Markera &amp; kopiera&apos;.</target>
 </phrase>
 <phrase>
-    <source>File info </source>
-    <target>Filinfo </target>
+    <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
+    <target>* Långtryck på tomt sökfält eller välj en annan profil, för att rensa sökresultat.</target>
+</phrase>
+<phrase>
+    <source>* Choosing profile via &apos;Profiles list&apos; doesn&apos;t delete search results.</source>
+    <target>* Att välja profil via menyn &apos;Profillista&apos;, rensar inte sökresultaten.</target>
+</phrase>
+<phrase>
+    <source>Profiles</source>
+    <target>Profiler</target>
+</phrase>
+<phrase>
+    <source>Profiles give possibility to keep different search options under one short name.</source>
+    <target>Profiler gör det möjligt att spara olika sökalternativ under ett kort namn.</target>
+</phrase>
+<phrase>
+    <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
+    <target>Varje profil kan innehålla olika sökvägar, grupperade som vitlistade eller svartlistade mappar.</target>
+</phrase>
+<phrase>
+    <source>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</source>
+    <target>* Sökningen börjar alltid i en vitlistad mapp och undantar oönskade svartlistade undermappar från trädvyn.</target>
+</phrase>
+<phrase>
+    <source>* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.</source>
+    <target>Vitlista och och svartlista är oberoende. Det innebär att om nästa vitlistade mapp är undermapp till en svartlistad mapp, kommer programmet att börja söka där.</target>
+</phrase>
+<phrase>
+    <source>This gives a huge flexibility of creating own complex search paths.</source>
+    <target>Detta ger stor flexibilitet vid skapande av egna komplexa sökprofiler.</target>
+</phrase>
+<phrase>
+    <source>Some example profiles are available in &apos;Profiles list&apos; menu.</source>
+    <target>Det finns några profilexempel i menyn &apos;Profillista&apos;.</target>
+</phrase>
+<phrase>
+    <source>Applications section (experimental)</source>
+    <target>App-sektion (experimentell)</target>
+</phrase>
+<phrase>
+    <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
+    <target>För att hitta en app, söker programmet igenom .desktop-filer i en mapp angiven i vitlistan och kan endast hitta text inkluderad i dessa filer.</target>
+</phrase>
+<phrase>
+    <source>This fact has some implications:</source>
+    <target>Detta faktum har vissa konsekvenser:</target>
+</phrase>
+<phrase>
+    <source>* It gives only original (English) names unless it finds localized names there.</source>
+    <target>* Det visas bara originalnamn (Engelska), såvida där inte hittas några översatta namn.</target>
+</phrase>
+<phrase>
+    <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
+    <target>* Oväntade resultat kan visas, eftersom all text i dessa filer genomsöks.</target>
+</phrase>
+<phrase>
+    <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
+    <target>* Detta kan vara användbart, då t.ex. sökning på &apos;=&apos; visar alla hittade appar och sökning på &apos;jolla&apos;, visar alla appar skapade av Jolla.</target>
+</phrase>
+<phrase>
+    <source>File info</source>
+    <target>Filinformation</target>
 </phrase>
 <phrase>
     <source>Install launched</source>
@@ -113,6 +189,34 @@
     <target>** fel</target>
 </phrase>
 <phrase>
+    <source>Profile</source>
+    <target>Profil</target>
+</phrase>
+<phrase>
+    <source>List of directories</source>
+    <target>Mapplista</target>
+</phrase>
+<phrase>
+    <source>Add/modify directories</source>
+    <target>Lägg till/Redigera mappar</target>
+</phrase>
+<phrase>
+    <source>Remove from list</source>
+    <target>Ta bort från listan</target>
+</phrase>
+<phrase>
+    <source>Removing directory from list</source>
+    <target>Tar bort mapp från listan</target>
+</phrase>
+<phrase>
+    <source>Whitelist directories</source>
+    <target>Vitlistade mappar</target>
+</phrase>
+<phrase>
+    <source>Blacklist directories</source>
+    <target>Svartlistade mappar</target>
+</phrase>
+<phrase>
     <source>Root (%1)</source>
     <target>Root (%1)</target>
 </phrase>
@@ -143,6 +247,62 @@
 <phrase>
     <source>Android Storage</source>
     <target>Android-lagring</target>
+</phrase>
+<phrase>
+    <source>Main tree</source>
+    <target>Mappträd</target>
+</phrase>
+<phrase>
+    <source>Show hidden directories</source>
+    <target>Visa dolda mappar</target>
+</phrase>
+<phrase>
+    <source>Hide hidden directories</source>
+    <target>Dölj dolda mappar</target>
+</phrase>
+<phrase>
+    <source>Accept</source>
+    <target>Acceptera</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Avbryt</target>
+</phrase>
+<phrase>
+    <source>Select directories by long press</source>
+    <target>Välj mappar med långtryck</target>
+</phrase>
+<phrase>
+    <source>Path:</source>
+    <target>Sökväg:</target>
+</phrase>
+<phrase>
+    <source>Remove from lists</source>
+    <target>Ta bort från listor</target>
+</phrase>
+<phrase>
+    <source>Add to whitelist</source>
+    <target>Lägg till i vitlistan</target>
+</phrase>
+<phrase>
+    <source>Add to blacklist</source>
+    <target>Lägg till i svartlistan</target>
+</phrase>
+<phrase>
+    <source>Home</source>
+    <target>Hem</target>
+</phrase>
+<phrase>
+    <source>SD card</source>
+    <target>SD-kort</target>
+</phrase>
+<phrase>
+    <source>Android storage</source>
+    <target>Android-lagring</target>
+</phrase>
+<phrase>
+    <source>Select</source>
+    <target>Välj</target>
 </phrase>
 <phrase>
     <source>File does not exist</source>
@@ -221,8 +381,8 @@
     <target>Öppna</target>
 </phrase>
 <phrase>
-    <source>File Info </source>
-    <target>Filinfo</target>
+    <source>File info</source>
+    <target>Filinformation</target>
 </phrase>
 <phrase>
     <source>Location</source>
@@ -295,6 +455,210 @@
 <phrase>
     <source>Note nr</source>
     <target>Anteckning nr.</target>
+</phrase>
+<phrase>
+    <source>Profile settings</source>
+    <target>Profilinställningar</target>
+</phrase>
+<phrase>
+    <source>Name</source>
+    <target>Namn</target>
+</phrase>
+<phrase>
+    <source>Description</source>
+    <target>Beskrivning</target>
+</phrase>
+<phrase>
+    <source>Profile description</source>
+    <target>Profilbeskrivning</target>
+</phrase>
+<phrase>
+    <source>Search directories lists</source>
+    <target>Sökvägslistor</target>
+</phrase>
+<phrase>
+    <source>Whitelist directories:</source>
+    <target>Vitlistade mappar:</target>
+</phrase>
+<phrase>
+    <source>Blacklist directories:</source>
+    <target>Svartlistade mappar:</target>
+</phrase>
+<phrase>
+    <source>Search options</source>
+    <target>Sökalternativ</target>
+</phrase>
+<phrase>
+    <source>Search hidden files</source>
+    <target>Sök i dolda filer</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside hidden files and hidden directories</source>
+    <target>Aktiverar sökning i dolda filer och mappar</target>
+</phrase>
+<phrase>
+    <source>Follow symbolic links</source>
+    <target>Följ symboliska länkar</target>
+</phrase>
+<phrase>
+    <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
+    <target>Vid aktivering är det maximala undermappsdjupet, 20. Detta för att förhindra oändliga loopar.</target>
+</phrase>
+<phrase>
+    <source>Show cumulative search results</source>
+    <target>Visa kumulativa sökresultat</target>
+</phrase>
+<phrase>
+    <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
+    <target>Visar endast första träffen på hittad text i en fil, och antalet träffar i hakparantes [ ]. Alla resultat kan visas i detaljerad vy.</target>
+</phrase>
+<phrase>
+    <source>Search results</source>
+    <target>Sökresultat</target>
+</phrase>
+<phrase>
+    <source>max. nr of results per section</source>
+    <target>max antal resultat per sektion</target>
+</phrase>
+<phrase>
+    <source>Result sections</source>
+    <target>Resultatsektioner</target>
+</phrase>
+<phrase>
+    <source>Enable TXT section</source>
+    <target>Aktivera TXT-sektion</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.txt files</source>
+    <target>Aktiverar sökning i *.txt-filer</target>
+</phrase>
+<phrase>
+    <source>Enable HTML section</source>
+    <target>Aktivera HTML-sektion</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.html, *.htm files</source>
+    <target>Aktiverar sökning i *.html-, *.htm-filer</target>
+</phrase>
+<phrase>
+    <source>Enable SRC section</source>
+    <target>Aktivera SRC-sektion</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
+    <target>Aktiverar sökning i *.cpp-, *.c-, *.h-, *.py-, *.sh-, *.qml-, *.js-filer</target>
+</phrase>
+<phrase>
+    <source>Enable APPS section</source>
+    <target>Aktivera APP-sektion</target>
+</phrase>
+<phrase>
+    <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
+    <target>Aktiverar specialsökning inuti *.desktop-filer. Detta är en experimentell funktion. Läs detaljerad info i &apos;Om&apos;.</target>
+</phrase>
+<phrase>
+    <source>Enable SQLITE section</source>
+    <target>Aktivera SQLITE-sektion</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.sqlite, *.db files</source>
+    <target>Aktiverar sökning i *.sqlite-, *.db-filer</target>
+</phrase>
+<phrase>
+    <source>Enable NOTES section</source>
+    <target>Aktivera ANTECKNINGAR-sektion</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside Notes application database</source>
+    <target>Aktiverar sökning i Anteckningsappens databas</target>
+</phrase>
+<phrase>
+    <source>Enable Files and Directories sections</source>
+    <target>Aktivera fil- och mappsektioner</target>
+</phrase>
+<phrase>
+    <source>Enables searching for file and directory names</source>
+    <target>Aktiverar sökning efter fil- och mappnamn</target>
+</phrase>
+<phrase>
+    <source>Profile name error!</source>
+    <target>Profilnamnsfel!</target>
+</phrase>
+<phrase>
+    <source>Name exists. Try another one...</source>
+    <target>Namnet finns redan. Försök med ett annat...</target>
+</phrase>
+<phrase>
+    <source>Profiles list</source>
+    <target>Profillista</target>
+</phrase>
+<phrase>
+    <source>Add default set</source>
+    <target>Lägg till standarduppsättning</target>
+</phrase>
+<phrase>
+    <source>Add profile</source>
+    <target>Lägg till profil</target>
+</phrase>
+<phrase>
+    <source>Set as current</source>
+    <target>Ange som aktuell</target>
+</phrase>
+<phrase>
+    <source>Rename</source>
+    <target>Byt namn</target>
+</phrase>
+<phrase>
+    <source>Rename profile</source>
+    <target>Namnändra profil</target>
+</phrase>
+<phrase>
+    <source>Delete</source>
+    <target>Ta bort</target>
+</phrase>
+<phrase>
+    <source>Deleting profile</source>
+    <target>Tar bort profil</target>
+</phrase>
+<phrase>
+    <source>Accept</source>
+    <target>Acceptera</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Avbryt</target>
+</phrase>
+<phrase>
+    <source>Profile name</source>
+    <target>Profilnamn</target>
+</phrase>
+<phrase>
+    <source>Profile description</source>
+    <target>Profilbeskrivning</target>
+</phrase>
+<phrase>
+    <source>The following profiles will be created:</source>
+    <target>Följande profiler kommer att skapas:</target>
+</phrase>
+<phrase>
+    <source>Home dir</source>
+    <target>Hemkatalog</target>
+</phrase>
+<phrase>
+    <source>SD Card</source>
+    <target>SD-kort</target>
+</phrase>
+<phrase>
+    <source>Applications</source>
+    <target>Appar</target>
+</phrase>
+<phrase>
+    <source>Entire tree</source>
+    <target>Hela mappträdet</target>
+</phrase>
+<phrase>
+    <source>If such profiles exist, they will be overwritten.</source>
+    <target>Om profilerna redan finns, kommer de att skrivas över.</target>
 </phrase>
 <phrase>
     <source>%1 bytes</source>
@@ -613,6 +977,10 @@
     <target>Hittad text:</target>
 </phrase>
 <phrase>
+    <source>Application</source>
+    <target>App</target>
+</phrase>
+<phrase>
     <source>Notes</source>
     <target>Anteckningar</target>
 </phrase>
@@ -635,6 +1003,10 @@
 <phrase>
     <source>SQLITE files content</source>
     <target>SQLITE filinnehåll</target>
+</phrase>
+<phrase>
+    <source>Applications</source>
+    <target>Appar</target>
 </phrase>
 <phrase>
     <source>Filenames</source>
@@ -665,16 +1037,32 @@
     <target>Om</target>
 </phrase>
 <phrase>
-    <source>Settings</source>
-    <target>Inställningar</target>
+    <source>General options</source>
+    <target>Allmänna alternativ</target>
+</phrase>
+<phrase>
+    <source>Profiles list</source>
+    <target>Profillista</target>
+</phrase>
+<phrase>
+    <source>Current profile setup</source>
+    <target>Aktuell profilinställning</target>
 </phrase>
 <phrase>
     <source>Search %1</source>
     <target>Sök i %1</target>
 </phrase>
 <phrase>
+    <source>Profile:</source>
+    <target>Profil:</target>
+</phrase>
+<phrase>
     <source>Open</source>
     <target>Öppna</target>
+</phrase>
+<phrase>
+    <source>Run</source>
+    <target>Kör</target>
 </phrase>
 <phrase>
     <source>Remove from search results</source>
@@ -705,6 +1093,14 @@
     <target>Felaktiga sökparametrar</target>
 </phrase>
 <phrase>
+    <source>Profile configuration error!</source>
+    <target>Profilinställningsfel!</target>
+</phrase>
+<phrase>
+    <source>Check profile whitelist...</source>
+    <target>Kontrollera profilens vitlista...</target>
+</phrase>
+<phrase>
     <source>Note nr</source>
     <target>Anteckning nr.</target>
 </phrase>
@@ -713,96 +1109,60 @@
     <target>Markera och kopiera</target>
 </phrase>
 <phrase>
+    <source>Home dir</source>
+    <target>Hemkatalog</target>
+</phrase>
+<phrase>
+    <source>Entire home directory with hidden files</source>
+    <target>Hela hemkatalogen med dolda filer</target>
+</phrase>
+<phrase>
+    <source>SD card</source>
+    <target>SD-kort</target>
+</phrase>
+<phrase>
+    <source>Entire SD card with hidden files</source>
+    <target>Hela SD-kortet med dolda filer</target>
+</phrase>
+<phrase>
+    <source>Applications</source>
+    <target>Appar</target>
+</phrase>
+<phrase>
+    <source>All installed applications</source>
+    <target>Alla installerade appar</target>
+</phrase>
+<phrase>
+    <source>Entire tree</source>
+    <target>Hela mappträdet</target>
+</phrase>
+<phrase>
+    <source>Entire dir tree. Warning: very long search</source>
+    <target>Hela mappträdet. Varning för mycket lång söktid!</target>
+</phrase>
+<phrase>
     <source>default</source>
     <target>standard</target>
 </phrase>
 <phrase>
-    <source>Settings</source>
-    <target>Inställningar</target>
+    <source>General options</source>
+    <target>Allmänna alternativ</target>
 </phrase>
 <phrase>
-    <source>Search options</source>
-    <target>Sökalternativ</target>
+    <source>Default profile:</source>
+    <target>Standardprofil:</target>
 </phrase>
 <phrase>
-    <source>Search hidden files</source>
-    <target>Sök i dolda filer</target>
+    <source>This profile will be used on the application startup</source>
+    <target>Denna profil kommer att användas vid programstart.</target>
 </phrase>
 <phrase>
-    <source>Enables searching inside hidden files and hidden directories</source>
-    <target>Aktiverar sökning i dolda filer och mappar</target>
-</phrase>
-<phrase>
-    <source>Show cumulative search results</source>
-    <target>Visa kumulativa sökresultat</target>
-</phrase>
-<phrase>
-    <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
-    <target>Visar endast första träffen på hittad text i en fil, och antalet träffar i hakparantes [ ]. Alla resultat kan visas i detaljerad vy.</target>
-</phrase>
-<phrase>
-    <source>Search results</source>
-    <target>Sökresultat</target>
-</phrase>
-<phrase>
-    <source>max. nr of results per section</source>
-    <target>max antal resultat per sektion</target>
-</phrase>
-<phrase>
-    <source>Result sections</source>
-    <target>Resultatsektioner</target>
-</phrase>
-<phrase>
-    <source>Enable TXT section</source>
-    <target>Aktivera TXT-sektion</target>
-</phrase>
-<phrase>
-    <source>Enables searching inside *.txt files</source>
-    <target>Aktiverar sökning i *.txt-filer</target>
-</phrase>
-<phrase>
-    <source>Enable HTML section</source>
-    <target>Aktivera HTML-sektion</target>
-</phrase>
-<phrase>
-    <source>Enables searching inside *.html, *.htm files</source>
-    <target>Aktiverar sökning i *.html-, *.htm-filer</target>
-</phrase>
-<phrase>
-    <source>Enable SRC section</source>
-    <target>Aktivera SRC-sektion</target>
-</phrase>
-<phrase>
-    <source>Enables searching inside *.cpp, *.c, *.py, *.sh files</source>
-    <target>Aktiverar sökning i *.cpp-, *.c-, *.py-, *.sh-filer</target>
-</phrase>
-<phrase>
-    <source>Enable SQLITE section</source>
-    <target>Aktivera SQLITE-sektion</target>
-</phrase>
-<phrase>
-    <source>Enables searching inside *.sqlite, *.db files</source>
-    <target>Aktiverar sökning i *.sqlite-, *.db-filer</target>
-</phrase>
-<phrase>
-    <source>Enable NOTES section</source>
-    <target>Aktivera ANTECKNINGAR-sektion</target>
-</phrase>
-<phrase>
-    <source>Enables searching inside Notes application database</source>
-    <target>Aktiverar sökning i Anteckningsappens databas</target>
-</phrase>
-<phrase>
-    <source>Other</source>
-    <target>Annat</target>
+    <source>Note: Change of this parameter requires restart of the application</source>
+    <target>OBS! Ändring i denna parameter kräver omstart av appen</target>
 </phrase>
 <phrase>
     <source>Language:</source>
     <target>Språk:</target>
-</phrase>
-<phrase>
-    <source>Note: Change of this parameter requires restart of an application</source>
-    <target>OBS! Ändring i denna parameter kräver omstart av appen</target>
 </phrase>
 <phrase>
     <source>Record</source>
@@ -851,33 +1211,5 @@
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
     <target>Denna filtyp kan inte öppnas.</target>
-</phrase>
-<phrase>
-    <source>The search begins in the start directory and continues in its subdirectories. If it is empty or incorrect then the home directory is the start directory.</source>
-    <target>Sökningen börjar i startmappen och fortsätter i dess undermappar. Om den lämnas tom eller är felaktig, räknas hemkatalogen som startmapp.</target>
-</phrase>
-<phrase>
-    <source>Enter start directory...</source>
-    <target>Ange startmapp...</target>
-</phrase>
-<phrase>
-    <source>Start directory</source>
-    <target>Startmapp</target>
-</phrase>
-<phrase>
-    <source>Follow symbolic links</source>
-    <target>Följ symboliska länkar</target>
-</phrase>
-<phrase>
-    <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
-    <target>Vid aktivering är det maximala undermappsdjupet, 20. Detta för att förhindra oändliga loopar.</target>
-</phrase>
-<phrase>
-    <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
-    <target>Aktiverar sökning i *.cpp-, *.c-, *.h-, *.py-, *.sh-, *.qml-, *.js-filer</target>
-</phrase>
-<phrase>
-    <source>Italian</source>
-    <target>Italienska</target>
 </phrase>
 </QPH>
