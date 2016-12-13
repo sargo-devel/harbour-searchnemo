@@ -216,7 +216,7 @@ QString SearchWorker::addSearchTXT(QString searchtype, QString searchTerm, QDir 
         //QString filename = "In file: " + names.at(i);
         QString filename = names.at(i);
         QString fullpath = dir.absoluteFilePath(filename);
-        QString displabel = filename;
+        QString displabel = fullpath;
 
         QFile file(fullpath);
         if (file.open(QIODevice::ReadOnly | QIODevice::Text))  {

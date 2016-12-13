@@ -367,18 +367,29 @@ Page {
             }
 
             Label {
-                id: listLabel
+                id:nrLabel
                 anchors.left: listIcon.right
-                anchors.right: parent.right
                 anchors.leftMargin: Theme.paddingMedium
+                anchors.top: parent.top
+                anchors.topMargin: Theme.paddingSmall
+                text: matchcount>0 ? "[" + matchcount + "] " : ""
+                textFormat: Text.PlainText
+                font.pixelSize: Theme.fontSizeMedium
+                color: fileItem.highlighted || isSelected ? Theme.highlightColor : Theme.primaryColor
+            }
+
+            Label {
+                id: listLabel
+                anchors.left: nrLabel.right
                 anchors.rightMargin: Theme.horizontalPageMargin
                 anchors.top: parent.top
-                //anchors.topMargin: fileList.theme_paddingSmall05
                 anchors.topMargin: Theme.paddingSmall
-                property string disptxt: displabel === "" ? filename : displabel
-                text: matchcount>0 ? "[" + matchcount + "] " + disptxt : disptxt
+                width: Math.min(parent.width - 2*Theme.horizontalPageMargin - Theme.paddingMedium - listIcon.width - nrLabel.width, implicitWidth)
+                horizontalAlignment: Text.AlignRight
+                truncationMode: TruncationMode.Fade
+                //elide: Text.ElideLeft
+                text: displabel === "" ? filename : displabel
                 textFormat: Text.PlainText
-                elide: Text.ElideRight
                 font.pixelSize: Theme.fontSizeMedium
                 color: fileItem.highlighted || isSelected ? Theme.highlightColor : Theme.primaryColor
             }
