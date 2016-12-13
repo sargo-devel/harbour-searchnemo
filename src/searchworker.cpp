@@ -308,7 +308,7 @@ bool SearchWorker::searchTxtLoop(QTextStream *intxt, QString searchtype, QString
             QString linetxtcopy = linetxt;
             //prepate line for output
             int findpos=linetxt.indexOf(searchTerm, 0, Qt::CaseInsensitive);
-            if (findpos>5) matchline = "..." + linetxt.mid(findpos-5,120);
+            if (findpos>10) matchline = "\u2026" + linetxt.mid(findpos-10,120);
             else matchline = linetxt.left(120);
             if(matchcount==0) firstmatchline=matchline;
             if(!singleMatch) {

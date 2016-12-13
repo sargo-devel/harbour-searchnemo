@@ -1,6 +1,9 @@
 
 # SearchNemo Release Notes
 
+## Development version
+* Modification: display fullpath in a first row of the TXT-like sections, fixed elide in a second row
+
 ## Version 0.3.1 (2016-10-18) (Jolla Store 2016-10-19)
 * Updated Swedish translation
 
