@@ -391,7 +391,10 @@ Page {
                 text: displabel === "" ? filename : displabel
                 textFormat: Text.PlainText
                 font.pixelSize: Theme.fontSizeMedium
-                color: fileItem.highlighted || isSelected ? Theme.highlightColor : Theme.primaryColor
+                color: (fileItem.highlighted || isSelected) ?
+                           (displabel === "" ? Theme.highlightColor : Theme.secondaryHighlightColor) :
+                           (displabel === "" ? Theme.primaryColor : Theme.secondaryColor )
+
             }
 
             Label {
@@ -403,7 +406,9 @@ Page {
                 anchors.top: listLabel.bottom
                 text: displabel === "" ? absoluteDir : matchline
                 textFormat: Text.PlainText
-                color: fileItem.highlighted || isSelected ? Theme.secondaryHighlightColor : Theme.secondaryColor
+                color: (fileItem.highlighted || isSelected) ?
+                           (displabel === "" ? Theme.secondaryHighlightColor : Theme.highlightColor) :
+                           (displabel === "" ? Theme.secondaryColor : Theme.primaryColor)
                 font.pixelSize: Theme.fontSizeExtraSmall
                 elide: displabel === "" ? Text.ElideLeft : Text.ElideRight
             }
