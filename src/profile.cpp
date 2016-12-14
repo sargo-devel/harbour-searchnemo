@@ -53,7 +53,7 @@ bool Profile::isWhiteList()
 bool Profile::isInBlackList(QString dir)
 {
     for ( int i = 0; i < m_blackList.size(); i++ ) {
-       if( m_blackList.at(i).indexOf(dir) >= 0 ) return true;
+       if( m_blackList.at(i) == dir ) return true;
     }
     return false;
 }

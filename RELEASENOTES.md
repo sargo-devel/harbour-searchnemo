@@ -4,6 +4,7 @@
 ## Development version
 * Modification: display fullpath in a first row of the TXT-like sections, fixed elide in a second row
 * Modification: new highlight style of search results
+* Fixed wrong blacklist handling
 
 ## Version 0.3.1 (2016-10-18) (Jolla Store 2016-10-19)
 * Updated Swedish translation
