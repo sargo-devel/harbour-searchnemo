@@ -77,7 +77,7 @@ void SearchWorker::run() Q_DECL_OVERRIDE
 {
     while ( m_profile.isWhiteList() ) {
         m_directory = m_profile.getNextFromWhiteList();
-        QString errMsg = searchRecursively(m_directory, m_searchTerm.toLower());
+        QString errMsg = searchRecursively(m_directory, m_searchTerm);
         if (!errMsg.isEmpty())
             emit errorOccurred(errMsg, m_currentDirectory);
     }
@@ -128,7 +128,7 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
         QString fullpath = dir.absoluteFilePath(filename);
 
         if (enableFileDir)
-            if (filename.toLower().indexOf(searchTerm) >= 0)
+            if ( filename.contains(searchTerm, Qt::CaseInsensitive) )
                 emit matchFound(fullpath, searchtype, "", matchline, 0);
 
         if (enableSymlinks) {
@@ -160,7 +160,7 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
             QString filename = names.at(i);
             QString fullpath = dir.absoluteFilePath(filename);
 
-            if (filename.toLower().indexOf(searchTerm) >= 0)
+            if ( filename.contains(searchTerm, Qt::CaseInsensitive) )
                 emit matchFound(fullpath, searchtype, "", matchline, 0);
         }
     }
