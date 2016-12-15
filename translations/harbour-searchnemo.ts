@@ -748,7 +748,7 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Enables searching inside *.sqlite, *.db files</source>
+        <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1351,14 +1351,14 @@
     <message numerus="yes">
         <location line="+2"/>
         <location line="+185"/>
-        <location line="+168"/>
+        <location line="+184"/>
         <source>%n hit(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location line="-272"/>
+        <location line="-288"/>
         <source>Searching</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1393,7 +1393,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+100"/>
+        <location line="+116"/>
         <source>Open</source>
         <translation type="unfinished"></translation>
     </message>

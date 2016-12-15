@@ -181,7 +181,7 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
     if (enableApps)
         if ( addSearchTXT("APPS", searchTerm, dir, hidden, singleMatchSetting) == QString() ) return QString();
 
-    // search inside raw sqlite files (*.sqlite, *db)
+    // search inside raw sqlite files (*.sqlite, *.sqlite3, *db)
     if (enableSqlite)
         if ( addSearchSqlite("SQLITE", searchTerm, dir, hidden, singleMatchSetting) == QString() ) return QString();
 
@@ -256,7 +256,7 @@ QString SearchWorker::addSearchSqlite(QString searchtype, QString searchTerm, QD
     QString displabel = "";
     QStringList filetypefilters;
 
-    if (searchtype == "SQLITE") filetypefilters << "*.sqlite" << "*.db";
+    if (searchtype == "SQLITE") filetypefilters << "*.sqlite" << "*.sqlite3" << "*.db";
     QStringList names = dir.entryList(filetypefilters, QDir::Files | hidden);
     QString notesfullpath = DbSqlite::findNotesFileName();
     for (int i = 0 ; i < names.count(); ++i) {

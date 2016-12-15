@@ -195,7 +195,7 @@ Page {
                 TextSwitch {
                     id: enableSqliteSection
                     text: qsTr("Enable SQLITE section")
-                    description: qsTr("Enables searching inside *.sqlite, *.db files")
+                    description: qsTr("Enables searching inside *.sqlite, *.sqlite3, *.db files")
                     onClicked: profile.setOption(Profile.EnableSqlite, checked)
                 }
 
