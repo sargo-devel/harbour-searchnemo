@@ -705,6 +705,10 @@
     <target>Enables searching inside *.sqlite, *.db files</target>
 </phrase>
 <phrase>
+    <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
+    <target>Enables searching inside *.sqlite, *.sqlite3, *.db files</target>
+</phrase>
+<phrase>
     <source>Enables searching inside *.txt files</source>
     <target>Enables searching inside *.txt files</target>
 </phrase>

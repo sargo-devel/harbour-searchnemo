@@ -101,6 +101,10 @@
     <target>Ermöglicht innen *.sqlite-, *.db-Dateien suchen</target>
 </phrase>
 <phrase>
+    <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
+    <target>Ermöglicht innen *.sqlite-, *.sqlite3-, *.db-Dateien suchen</target>
+</phrase>
+<phrase>
     <source>Enable NOTES section</source>
     <target>Aktiviere NOTES Abschnitt</target>
 </phrase>

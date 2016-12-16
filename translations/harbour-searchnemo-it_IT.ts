@@ -20,6 +20,22 @@
         <translation>Licenza</translation>
     </message>
     <message>
+        <source>version:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Text and files search tool</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This program searches for a text in files stored locally on the device</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>License: GPL v3</source>
+        <translation>Licenza: GPLv3</translation>
+    </message>
+    <message>
         <source>Source code:</source>
         <translation>Sorgenti:</translation>
     </message>
@@ -44,22 +60,6 @@
         <translation>Aiuto e scorciatoie</translation>
     </message>
     <message>
-        <source>version:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Text and files search tool</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This program searches for a text in files stored locally on the device</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>License: GPL v3</source>
-        <translation>Licenza: GPLv3</translation>
-    </message>
-    <message>
         <source>* Tap on section label with arrow to expand/collapse section.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -81,6 +81,10 @@
     </message>
     <message>
         <source>Profiles give possibility to keep different search options under one short name.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -121,10 +125,6 @@
     </message>
     <message>
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -208,19 +208,19 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Remove from list</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Removing directory from list</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>List of directories</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Add/modify directories</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Remove from list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Removing directory from list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -270,26 +270,6 @@
 <context>
     <name>DirTree</name>
     <message>
-        <source>Add to whitelist</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Add to blacklist</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Accept</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Path:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Main tree</source>
         <translation type="unfinished"></translation>
     </message>
@@ -302,11 +282,31 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Accept</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Select directories by long press</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Path:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Remove from lists</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add to whitelist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add to blacklist</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -414,6 +414,10 @@
         <translation>Apri</translation>
     </message>
     <message>
+        <source>File info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Location</source>
         <translation>Posizione</translation>
     </message>
@@ -452,10 +456,6 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Questo tipo di file non può essere aperto.</translation>
-    </message>
-    <message>
-        <source>File info</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -499,6 +499,10 @@
 <context>
     <name>ProfileSettingsPage</name>
     <message>
+        <source>Profile settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Name</source>
         <translation type="unfinished"></translation>
     </message>
@@ -512,6 +516,14 @@
     </message>
     <message>
         <source>Search directories lists</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Whitelist directories:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Blacklist directories:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -591,8 +603,8 @@
         <translation>Sezione SQLITE</translation>
     </message>
     <message>
-        <source>Enables searching inside *.sqlite, *.db files</source>
-        <translation>Abilita la ricerca all&apos;interno di file *.sqlite e *.db</translation>
+        <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
+        <translation>Abilita la ricerca all&apos;interno di file *.sqlite, *.sqlite3 e *.db</translation>
     </message>
     <message>
         <source>Enable NOTES section</source>
@@ -608,18 +620,6 @@
     </message>
     <message>
         <source>Enables searching for file and directory names</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Whitelist directories:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Blacklist directories:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Profile settings</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -651,6 +651,10 @@
     </message>
     <message>
         <source>Rename</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rename profile</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -699,10 +703,6 @@
     </message>
     <message>
         <source>If such profiles exist, they will be overwritten.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Rename profile</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1062,6 +1062,10 @@
         <translation>Contenuto file SQLITE</translation>
     </message>
     <message>
+        <source>Applications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Filenames</source>
         <translation>Nomi file</translation>
     </message>
@@ -1093,12 +1097,32 @@
         <translation>Info</translation>
     </message>
     <message>
+        <source>General options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Profiles list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Current profile setup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Search %1</source>
         <translation>Cerca %1</translation>
     </message>
     <message>
+        <source>Profile:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Open</source>
         <translation>Apri</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Remove from search results</source>
@@ -1120,30 +1144,6 @@
         <source>This type of file can&apos;t be opened.</source>
         <translation>Questo tipo di file non può essere aperto.</translation>
     </message>
-    <message>
-        <source>Applications</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>General options</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Profiles list</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Current profile setup</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Profile:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Run</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>SearchWorker</name>
@@ -1156,16 +1156,16 @@
         <translation>Parametri di ricerca errati</translation>
     </message>
     <message>
-        <source>Note nr</source>
-        <translation>Nota num</translation>
-    </message>
-    <message>
         <source>Profile configuration error!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Check profile whitelist...</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Note nr</source>
+        <translation>Nota num</translation>
     </message>
 </context>
 <context>
@@ -1217,8 +1217,8 @@
         <translation>predefinito</translation>
     </message>
     <message>
-        <source>Language:</source>
-        <translation>Lingua:</translation>
+        <source>General options</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Default profile:</source>
@@ -1233,8 +1233,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>General options</source>
-        <translation type="unfinished"></translation>
+        <source>Language:</source>
+        <translation>Lingua:</translation>
     </message>
 </context>
 <context>

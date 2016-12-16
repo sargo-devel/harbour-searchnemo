@@ -565,6 +565,10 @@
     <target>Aktiverar sökning i *.sqlite-, *.db-filer</target>
 </phrase>
 <phrase>
+    <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
+    <target>Aktiverar sökning i *.sqlite-, *.sqlite3-, *.db-filer</target>
+</phrase>
+<phrase>
     <source>Enable NOTES section</source>
     <target>Aktivera ANTECKNINGAR-sektion</target>
 </phrase>

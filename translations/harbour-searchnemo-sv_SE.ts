@@ -603,8 +603,8 @@
         <translation>Aktivera SQLITE-sektion</translation>
     </message>
     <message>
-        <source>Enables searching inside *.sqlite, *.db files</source>
-        <translation>Aktiverar sökning i *.sqlite-, *.db-filer</translation>
+        <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
+        <translation>Aktiverar sökning i *.sqlite-, *.sqlite3-, *.db-filer</translation>
     </message>
     <message>
         <source>Enable NOTES section</source>

@@ -827,6 +827,10 @@
     <target>Abilita la ricerca all&apos;interno di file *.sqlite e *.db</target>
 </phrase>
 <phrase>
+    <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
+    <target>Abilita la ricerca all&apos;interno di file *.sqlite, *.sqlite3 e *.db</target>
+</phrase>
+<phrase>
     <source>Enable NOTES section</source>
     <target>Sezione NOTE</target>
 </phrase>

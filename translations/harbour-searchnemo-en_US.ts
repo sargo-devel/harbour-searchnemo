@@ -591,10 +591,6 @@
         <translation>Enable SQLITE section</translation>
     </message>
     <message>
-        <source>Enables searching inside *.sqlite, *.db files</source>
-        <translation>Enables searching inside *.sqlite, *.db files</translation>
-    </message>
-    <message>
         <source>Enable NOTES section</source>
         <translation>Enable NOTES section</translation>
     </message>
@@ -621,6 +617,10 @@
     <message>
         <source>Profile settings</source>
         <translation>Profile settings</translation>
+    </message>
+    <message>
+        <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
+        <translation>Enables searching inside *.sqlite, *.sqlite3, *.db files</translation>
     </message>
 </context>
 <context>
