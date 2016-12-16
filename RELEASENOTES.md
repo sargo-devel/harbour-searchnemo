@@ -1,7 +1,7 @@
 
 # SearchNemo Release Notes
 
-## Development version
+## Version 0.3.2 (2016-12-16)
 * Modification: display fullpath in a first row of the TXT-like sections, fixed elide in a second row
 * Modification: new highlight style of search results
 * Fixed wrong blacklist handling
