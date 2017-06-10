@@ -138,8 +138,7 @@ Page {
                            { file: fullname, searchedtext: page.searchFieldText, matchcount: matchcount, isFileInfoOpen: false})
             break;
         case "APPS":
-            pageStack.push(Qt.resolvedUrl("TxtView.qml"),
-                           { file: fullname, searchedtext: page.searchFieldText, matchcount: matchcount, isFileInfoOpen: false})
+            delegateMenuOpen(fullname)
             break;
         case "SQLITE":
             pageStack.push(Qt.resolvedUrl("SqlView.qml"),
@@ -432,8 +431,11 @@ Page {
                  id: contextMenu
                  ContextMenu {
                      MenuItem {
-                         text: (model.searchtype === "APPS") ? qsTr("Run") : qsTr("Open")
-                         onClicked: delegateMenuOpen(model.fullname)
+                         text: qsTr("Open")
+                         onClicked: {
+                            pageStack.push(Qt.resolvedUrl("TxtView.qml"),
+                           { file: fullname, searchedtext: page.searchFieldText, matchcount: matchcount, isFileInfoOpen: false})
+                        }
                      }                     
                      MenuItem {
                          text: qsTr("Remove from search results")
