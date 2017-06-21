@@ -47,16 +47,7 @@ Page {
     ConsModel { id: consoleModel }
 
     // This model keeps list of available profiles
-    ListModel {
-        id: profList
-        Component.onCompleted: reload()
-        function reload() {
-            profList.clear()
-            var list = []
-            list=settings.readStringList("ProfilesList")
-            for (var i = 0; i < list.length; i++) profList.append({"name": list[i]})
-        }
-    }
+    ProfilesModel { id: profList }
 
     // this and its bg worker thread will be destroyed when page in popped from stack
     SearchEngine {
@@ -318,7 +309,10 @@ Page {
                 anchors.top: dispCurDir.bottom
                 label: qsTr("Profile:")
                 value: page.profilename
-                onClicked: {listModel.update("")}
+                onClicked: {
+                    listModel.update("")
+                    currentIndex=profList.getIndex(value)
+                }
                 menu: ContextMenu {
                     id: profMenu
                     Repeater {

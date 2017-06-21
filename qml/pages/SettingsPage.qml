@@ -36,21 +36,7 @@ Page {
     }
 
     // This model keeps list of available profiles
-    ListModel {
-        id: profiles
-        function reload() {
-            profiles.clear()
-            var list = []
-            list=settings.readStringList("ProfilesList")
-            for (var i = 0; i < list.length; i++) profiles.append({"name": list[i]})
-        }
-        function getIndex(name) {
-            var index = 0
-            for (var i = 0; i < profiles.count; i++)
-                if( profiles.get(i).name === name ) { index = i; break }
-            return index
-        }
-    }
+    ProfilesModel { id: profiles }
 
     Component.onCompleted: {
         languages.append({ name: qsTr("default"),  lang: "default" })

@@ -101,7 +101,8 @@ DISTFILES += \
     qml/pages/DirTree.qml \
     qml/pages/ProfilesPage.qml \
     qml/pages/ProfileSettingsPage.qml \
-    qml/pages/DirLists.qml
+    qml/pages/DirLists.qml \
+    qml/pages/ProfilesModel.qml
 
 HEADERS += \
     src/searchengine.h \
