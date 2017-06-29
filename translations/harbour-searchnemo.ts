@@ -615,7 +615,7 @@
 <context>
     <name>ProfileSettingsPage</name>
     <message>
-        <location filename="../qml/pages/ProfileSettingsPage.qml" line="+43"/>
+        <location filename="../qml/pages/ProfileSettingsPage.qml" line="+46"/>
         <source>Profile settings</source>
         <translation type="unfinished"></translation>
     </message>
@@ -641,18 +641,18 @@
     </message>
     <message>
         <location line="+11"/>
-        <location line="+138"/>
+        <location line="+147"/>
         <source>Whitelist directories:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-137"/>
-        <location line="+138"/>
+        <location line="-146"/>
+        <location line="+147"/>
         <source>Blacklist directories:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-97"/>
+        <location line="-106"/>
         <source>Search options</source>
         <translation type="unfinished"></translation>
     </message>
@@ -739,6 +739,16 @@
     <message>
         <location line="+1"/>
         <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Run apps directly</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enables direct app launch from APPS section on the search page</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1286,7 +1296,7 @@
 <context>
     <name>SearchEngine</name>
     <message>
-        <location filename="../src/searchengine.cpp" line="+86"/>
+        <location filename="../src/searchengine.cpp" line="+98"/>
         <source>Application</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1294,7 +1304,7 @@
 <context>
     <name>SearchPage</name>
     <message>
-        <location filename="../qml/pages/SearchPage.qml" line="+77"/>
+        <location filename="../qml/pages/SearchPage.qml" line="+68"/>
         <source>Notes</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1350,15 +1360,15 @@
     </message>
     <message numerus="yes">
         <location line="+2"/>
-        <location line="+185"/>
-        <location line="+184"/>
+        <location line="+186"/>
+        <location line="+196"/>
         <source>%n hit(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location line="-288"/>
+        <location line="-301"/>
         <source>Searching</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1383,7 +1393,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+17"/>
         <source>Search %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1393,17 +1403,22 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+116"/>
-        <source>Open</source>
+        <location line="+122"/>
+        <source>View</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+0"/>
+        <location line="+1"/>
         <source>Run</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+0"/>
+        <source>Open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Remove from search results</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1510,7 +1525,7 @@
 <context>
     <name>SettingsPage</name>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="+56"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="+42"/>
         <source>default</source>
         <translation type="unfinished"></translation>
     </message>

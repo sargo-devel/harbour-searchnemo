@@ -622,6 +622,14 @@
         <source>Enables searching for file and directory names</source>
         <translation>Aktiverar sökning efter fil- och mappnamn</translation>
     </message>
+    <message>
+        <source>Run apps directly</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables direct app launch from APPS section on the search page</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ProfilesPage</name>
@@ -1143,6 +1151,10 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Denna filtyp kan inte öppnas.</translation>
+    </message>
+    <message>
+        <source>View</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

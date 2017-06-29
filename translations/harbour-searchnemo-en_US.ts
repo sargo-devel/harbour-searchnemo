@@ -622,6 +622,14 @@
         <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
         <translation>Enables searching inside *.sqlite, *.sqlite3, *.db files</translation>
     </message>
+    <message>
+        <source>Run apps directly</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables direct app launch from APPS section on the search page</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ProfilesPage</name>
@@ -1143,6 +1151,10 @@
     <message>
         <source>Run</source>
         <translation>Run</translation>
+    </message>
+    <message>
+        <source>View</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
