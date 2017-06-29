@@ -24,6 +24,9 @@ Page {
 
     property string profileName
 
+    //signal used for monitoring profile changes (can be activated on page exit)
+    signal settingsChanged()
+
     Profile {
         id: profile
         name: profileName
@@ -193,6 +196,15 @@ Page {
                 }
 
                 TextSwitch {
+                    id: enableAppsRunDirectSub
+                    visible: enableAppsSection.checked
+                    leftMargin: Theme.horizontalPageMargin + Theme.paddingLarge *2
+                    text: qsTr("Run apps directly")
+                    description: qsTr("Enables direct app launch from APPS section on the search page")
+                    onClicked: profile.setOption(Profile.EnableAppsRunDirect, checked)
+                }
+
+                TextSwitch {
                     id: enableSqliteSection
                     text: qsTr("Enable SQLITE section")
                     description: qsTr("Enables searching inside *.sqlite, *.sqlite3, *.db files")
@@ -232,9 +244,14 @@ Page {
             enableHtmlSection.checked = profile.getBoolOption(Profile.EnableHtml)
             enableSrcSection.checked = profile.getBoolOption(Profile.EnableSrc)
             enableAppsSection.checked = profile.getBoolOption(Profile.EnableApps)
+            enableAppsRunDirectSub.checked = profile.getBoolOption(Profile.EnableAppsRunDirect)
             enableSqliteSection.checked = profile.getBoolOption(Profile.EnableSqlite)
             enableNotesSection.checked = profile.getBoolOption(Profile.EnableNotes)
             enableFileDirSection.checked = profile.getBoolOption(Profile.EnableFileDir)
+        }
+        if (status === PageStatus.Deactivating) {
+            profile.settingsChanged.connect(profileSettingsPage.settingsChanged)
+            profile.writeAll()
         }
     }
 }

@@ -24,6 +24,7 @@ SearchEngine::SearchEngine(QObject *parent) :
 
     connect(m_searchWorker, SIGNAL(profileSettingsChanged()), this, SIGNAL(profileSettingsChanged()));
     connect(m_searchWorker, SIGNAL(profileSettingsChanged()), this, SLOT(emitMaxResultsPerSection()));
+    connect(m_searchWorker, SIGNAL(profileSettingsChanged()), this, SLOT(emitEnableAppsRunDirect()));
     connect(m_searchWorker, SIGNAL(profileNameChanged()), this, SIGNAL(profilenameChanged()));
 
     //for icons recognition
@@ -48,10 +49,21 @@ void SearchEngine::setProfilename(QString profilename)
 //    emit profilenameChanged();
 }
 
+void SearchEngine::reloadProfile()
+{
+    m_searchWorker->setProfile(m_profilename);
+}
+
 void SearchEngine::emitMaxResultsPerSection()
 {
     m_maxResultsPerSection = m_searchWorker->getProfileOption_MaxResultsPerSection();
     emit maxResultsPerSectionChanged();
+}
+
+void SearchEngine::emitEnableAppsRunDirect()
+{
+    m_enableAppsRunDirect = m_searchWorker->getProfileOption_EnableAppsRunDirect();
+    emit enableAppsRunDirectChanged();
 }
 
 bool SearchEngine::running() const

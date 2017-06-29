@@ -202,13 +202,14 @@ Page {
                 text: qsTr("Profiles list")
                 onClicked: {
                     var exit=pageStack.push(Qt.resolvedUrl("ProfilesPage.qml"), {currentProfile: page.profilename})
-                    exit.ret.connect( function() {page.profilename=exit.currentProfile; profList.reload()} )
+                    exit.ret.connect( function() {page.profilename=exit.currentProfile; profList.reload(); searchEngine.reloadProfile()} )
                 }
             }
             MenuItem {
                 text: qsTr("Current profile setup")
                 onClicked: {
-                    pageStack.push(Qt.resolvedUrl("ProfileSettingsPage.qml"), {"profileName": page.profilename})
+                    var exit=pageStack.push(Qt.resolvedUrl("ProfileSettingsPage.qml"), {"profileName": page.profilename})
+                    exit.settingsChanged.connect( function() {searchEngine.reloadProfile()} )
                 }
             }
         }
@@ -408,7 +409,10 @@ Page {
             }
 
             onClicked: {
-                openViewPage(searchtype, fullname, (matchcount<0)?-matchcount:matchcount, displabel)
+                if ((model.searchtype === "APPS") && searchEngine.enableAppsRunDirect)
+                    delegateMenuOpen(model.fullname)
+                else
+                    openViewPage(searchtype, fullname, (matchcount<0)?-matchcount:matchcount, displabel)
             }
 
             RemorseItem {
@@ -426,8 +430,14 @@ Page {
                  id: contextMenu
                  ContextMenu {
                      MenuItem {
-                         text: (model.searchtype === "APPS") ? qsTr("Run") : qsTr("Open")
-                         onClicked: delegateMenuOpen(model.fullname)
+                         text: ((model.searchtype === "APPS") && searchEngine.enableAppsRunDirect) ? qsTr("View") :
+                                 ( (model.searchtype === "APPS") ? qsTr("Run") : qsTr("Open") )
+                         onClicked: {
+                             if ((model.searchtype === "APPS") && searchEngine.enableAppsRunDirect)
+                                 openViewPage(searchtype, fullname, (matchcount<0)?-matchcount:matchcount, displabel)
+                             else
+                                 delegateMenuOpen(model.fullname)
+                         }
                      }                     
                      MenuItem {
                          text: qsTr("Remove from search results")

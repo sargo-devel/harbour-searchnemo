@@ -129,6 +129,7 @@ void Profile::readOptions()
     m_enableHtml = settings.read(m_name+" Sections/enableHtmlSection", true);
     m_enableSrc = settings.read(m_name+" Sections/enableSrcSection", true);
     m_enableApps = settings.read(m_name+" Sections/enableAppsSection", true);
+    m_enableAppsRunDirect = settings.read(m_name+" Sections/enableAppsRunDirectSuboption", false);
     m_enableSqlite = settings.read(m_name+" Sections/enableSqliteSection", true);
     m_enableNotes = settings.read(m_name+" Sections/enableNotesSection", true);
     m_enableNotes = settings.read(m_name+" Sections/enableNotesSection", true);
@@ -148,6 +149,7 @@ void Profile::writeOptions()
     settings.write(m_name+" Sections/enableHtmlSection", m_enableHtml);
     settings.write(m_name+" Sections/enableSrcSection", m_enableSrc);
     settings.write(m_name+" Sections/enableAppsSection", m_enableApps);
+    settings.write(m_name+" Sections/enableAppsRunDirectSuboption", m_enableAppsRunDirect);
     settings.write(m_name+" Sections/enableSqliteSection", m_enableSqlite);
     settings.write(m_name+" Sections/enableNotesSection", m_enableNotes);
     settings.write(m_name+" Sections/enableFileDirSections", m_enableFileDir);
@@ -188,6 +190,9 @@ bool Profile::getBoolOption(Options key)
         break;
     case EnableApps:
         return m_enableApps;
+        break;
+    case EnableAppsRunDirect:
+        return m_enableAppsRunDirect;
         break;
     case EnableSqlite:
         return m_enableSqlite;
@@ -251,6 +256,10 @@ void Profile::setOption(Options key, bool value)
         m_enableApps=value;
         m_unsaved=true;
         break;
+    case EnableAppsRunDirect:
+        m_enableAppsRunDirect=value;
+        m_unsaved=true;
+        break;
     case EnableSqlite:
         m_enableSqlite=value;
         m_unsaved=true;
@@ -267,6 +276,8 @@ void Profile::setOption(Options key, bool value)
     default:
         break;
     }
+
+//    if(m_unsaved) emit settingsChanged();
 }
 
 void Profile::setOption(Options key, int value)
@@ -281,4 +292,6 @@ void Profile::setOption(Options key, int value)
     default:
         break;
     }
+
+//    if(m_unsaved) emit settingsChanged();
 }
