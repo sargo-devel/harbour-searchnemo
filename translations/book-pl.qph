@@ -5,16 +5,128 @@
     <target>O programie</target>
 </phrase>
 <phrase>
-    <source>Version: alpha </source>
-    <target>Wersja: alfa </target>
+    <source>version:</source>
+    <target>wersja:</target>
 </phrase>
 <phrase>
-    <source>This program searches for text in different file types.</source>
-    <target>Ten program wyszukuje tekst w plikach różnego typu.</target>
+    <source>Text and files search tool</source>
+    <target>Narzędzie wyszukiwania tekstu i plików</target>
 </phrase>
 <phrase>
-    <source>File Info </source>
-    <target>Info o pliku </target>
+    <source>Description</source>
+    <target>Opis</target>
+</phrase>
+<phrase>
+    <source>This program searches for a text in files stored locally on the device</source>
+    <target>Program wyszukuje tekst w plikach przechowywanych lokalnie w urządzeniu</target>
+</phrase>
+<phrase>
+    <source>and presents results in a possibly useful form.</source>
+    <target>i przedstawia wyniki w możliwie użytecznej formie.</target>
+</phrase>
+<phrase>
+    <source>License</source>
+    <target>Licencja</target>
+</phrase>
+<phrase>
+    <source>License: GPL v3</source>
+    <target>Licencja: GPL v3</target>
+</phrase>
+<phrase>
+    <source>Source code:</source>
+    <target>Kod źródłowy:</target>
+</phrase>
+<phrase>
+    <source>Translations</source>
+    <target>Tłumaczenia</target>
+</phrase>
+<phrase>
+    <source>Special thanks for translators:</source>
+    <target>Specjalne podziękowania dla tłumaczy:</target>
+</phrase>
+<phrase>
+    <source>Swedish</source>
+    <target>Szwedzki</target>
+</phrase>
+<phrase>
+    <source>Italian</source>
+    <target>Włoski</target>
+</phrase>
+<phrase>
+    <source>Help and Tips</source>
+    <target>Pomoc i wskazówki</target>
+</phrase>
+<phrase>
+    <source>* Tap on section label with arrow to expand/collapse section.</source>
+    <target>* Dotknij etykietę sekcji ze strzałką by rozwinąć/zwinąć sekcję.</target>
+</phrase>
+<phrase>
+    <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
+    <target>* Dotknij tekst w widoku szczegółowym by wejść na stronę &apos;Wybierz i kopiuj&apos;.</target>
+</phrase>
+<phrase>
+    <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
+    <target>* Naciśnij i przytrzymaj na pustym polu wyszukiwania lub wybierz inny profil aby wyczyścić wyniki wyszukiwania.</target>
+</phrase>
+<phrase>
+    <source>* Choosing profile via &apos;Profiles list&apos; doesn&apos;t delete search results.</source>
+    <target>* Wybór profilu w &apos;Lista profili&apos; nie usuwa wyników wyszukiwania.</target>
+</phrase>
+<phrase>
+    <source>Profiles</source>
+    <target>Profile</target>
+</phrase>
+<phrase>
+    <source>Profiles give possibility to keep different search options under one short name.</source>
+    <target>Profile dają możliwość przechowywania różnych opcji wyszukiwania pod jedną krótką nazwą.</target>
+</phrase>
+<phrase>
+    <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
+    <target>Każdy profil może zawierać różne ścieżki wyszukiwania pogrupowane w białej lub czarnej liście katalogów.</target>
+</phrase>
+<phrase>
+    <source>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</source>
+    <target>* Wyszukiwanie zaczyna się zawsze w katalogu należącym do białej listy i pomija w drzewie niepotrzebne podkatalogi z czarnej listy.</target>
+</phrase>
+<phrase>
+    <source>* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.</source>
+    <target>* Biała i czarna lista są niezależne, oznacza to, że jeśli następny katalog z białej listy jest podkatalogiem jednego z katalogów z czarnej listy, to program rozpocznie tam wyszukiwanie.</target>
+</phrase>
+<phrase>
+    <source>This gives a huge flexibility of creating own complex search paths.</source>
+    <target>Daje to ogromną elastycznosć w tworzeniu złożonych ścieżek wyszukiwania.</target>
+</phrase>
+<phrase>
+    <source>Some example profiles are available in &apos;Profiles list&apos; menu.</source>
+    <target>Kilka przykładowych profili jest dostępnych w menu &apos;Lista profili&apos;.</target>
+</phrase>
+<phrase>
+    <source>Applications section (experimental)</source>
+    <target>Sekcja aplikacji (eksperymentalne)</target>
+</phrase>
+<phrase>
+    <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
+    <target>W celu znalezienia aplikacji program przeszukuje pliki .desktop w katalogu podanym w białej liście i potrafi znaleźć tylko tekst zawarty w tych plikach.</target>
+</phrase>
+<phrase>
+    <source>This fact has some implications:</source>
+    <target>Ten fakt ma pewne konsekwencje:</target>
+</phrase>
+<phrase>
+    <source>* It gives only original (English) names unless it finds localized names there.</source>
+    <target>* Podaje tylko oryginalne (angielskie) nazwy, o ile nie znajdzie tam przetłumaczonych nazw.</target>
+</phrase>
+<phrase>
+    <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
+    <target>* Może podać wyniki niespodziewane dla użytkownika, ponieważ sprawdza cały tekst w tych plikach.</target>
+</phrase>
+<phrase>
+    <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
+    <target>* Może to być użyteczne, np.: wyszukiwanie &apos;=&apos; zwróci wszystkie znalezione aplikacje, wyszukiwanie &apos;jolla&apos; poda wszystkie aplikacje stworzone przez Jolla</target>
+</phrase>
+<phrase>
+    <source>File info</source>
+    <target>Info o pliku</target>
 </phrase>
 <phrase>
     <source>Install launched</source>
@@ -77,6 +189,34 @@
     <target>** błąd</target>
 </phrase>
 <phrase>
+    <source>List of directories</source>
+    <target>Lista katalogów</target>
+</phrase>
+<phrase>
+    <source>Profile</source>
+    <target>Profil</target>
+</phrase>
+<phrase>
+    <source>Add/modify directories</source>
+    <target>Dodaj/modyfikuj katalogi</target>
+</phrase>
+<phrase>
+    <source>Remove from list</source>
+    <target>Usuń z listy</target>
+</phrase>
+<phrase>
+    <source>Removing directory from list</source>
+    <target>Usuń katalog z listy</target>
+</phrase>
+<phrase>
+    <source>Whitelist directories</source>
+    <target>Katalogi białej listy</target>
+</phrase>
+<phrase>
+    <source>Blacklist directories</source>
+    <target>Katalogi czarnej listy</target>
+</phrase>
+<phrase>
     <source>Root (%1)</source>
     <target>Katalog główny (%1)</target>
 </phrase>
@@ -107,6 +247,62 @@
 <phrase>
     <source>Android Storage</source>
     <target>Katalog Android</target>
+</phrase>
+<phrase>
+    <source>Main tree</source>
+    <target>Drzewo główne</target>
+</phrase>
+<phrase>
+    <source>Show hidden directories</source>
+    <target>Pokaż ukryte katalogi</target>
+</phrase>
+<phrase>
+    <source>Hide hidden directories</source>
+    <target>Schowaj ukryte katalogi</target>
+</phrase>
+<phrase>
+    <source>Accept</source>
+    <target>Akceptuj</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Anuluj</target>
+</phrase>
+<phrase>
+    <source>Select directories by long press</source>
+    <target>Wybierz katalogi przez długie naciśnięcie</target>
+</phrase>
+<phrase>
+    <source>Path:</source>
+    <target>Ścieżka:</target>
+</phrase>
+<phrase>
+    <source>Add to whitelist</source>
+    <target>Dodaj do białej listy</target>
+</phrase>
+<phrase>
+    <source>Add to blacklist</source>
+    <target>Dodaj do czarnej listy</target>
+</phrase>
+<phrase>
+    <source>Remove from lists</source>
+    <target>Usuń z list</target>
+</phrase>
+<phrase>
+    <source>Home</source>
+    <target>Katalog domowy</target>
+</phrase>
+<phrase>
+    <source>SD card</source>
+    <target>Karta SD</target>
+</phrase>
+<phrase>
+    <source>Android storage</source>
+    <target>Katalog Android</target>
+</phrase>
+<phrase>
+    <source>Select</source>
+    <target>Wybierz</target>
 </phrase>
 <phrase>
     <source>File does not exist</source>
@@ -185,12 +381,8 @@
     <target>Otwórz</target>
 </phrase>
 <phrase>
-    <source>File can&apos;t be opened</source>
-    <target>Plik nie może być otwarty</target>
-</phrase>
-<phrase>
-    <source>This type of file can&apos;t be opened.</source>
-    <target>Ten typ pliku nie może być otwarty.</target>
+    <source>File info</source>
+    <target>Info o pliku</target>
 </phrase>
 <phrase>
     <source>Location</source>
@@ -225,8 +417,12 @@
     <target>Ostatnio zmodyfikowany</target>
 </phrase>
 <phrase>
-    <source>File Info </source>
-    <target>Info o pliku</target>
+    <source>File can&apos;t be opened</source>
+    <target>Plik nie może być otwarty</target>
+</phrase>
+<phrase>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Ten typ pliku nie może być otwarty.</target>
 </phrase>
 <phrase>
     <source>Open</source>
@@ -259,6 +455,218 @@
 <phrase>
     <source>Note nr</source>
     <target>Notatka nr</target>
+</phrase>
+<phrase>
+    <source>Profile settings</source>
+    <target>Ustawienia profilu</target>
+</phrase>
+<phrase>
+    <source>Name</source>
+    <target>Nazwa</target>
+</phrase>
+<phrase>
+    <source>Description</source>
+    <target>Opis</target>
+</phrase>
+<phrase>
+    <source>Profile description</source>
+    <target>Opis profilu</target>
+</phrase>
+<phrase>
+    <source>Search directories lists</source>
+    <target>Listy przeszukiwanych katalogów</target>
+</phrase>
+<phrase>
+    <source>Whitelist directories:</source>
+    <target>Katalogi białej listy:</target>
+</phrase>
+<phrase>
+    <source>Blacklist directories:</source>
+    <target>Katalogi czarnej listy:</target>
+</phrase>
+<phrase>
+    <source>Search options</source>
+    <target>Opcje wyszukiwania</target>
+</phrase>
+<phrase>
+    <source>Search hidden files</source>
+    <target>Przeszukuj ukryte pliki</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside hidden files and hidden directories</source>
+    <target>Pozwala na wyszukiwanie wewnątrz ukrytych plików i ukrytych katalogów</target>
+</phrase>
+<phrase>
+    <source>Follow symbolic links</source>
+    <target>Podążaj za dowiązaniami symbolicznymi</target>
+</phrase>
+<phrase>
+    <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
+    <target>Gdy włączone, maksymalna głębokość podkatalogów wynosi 20. Jest to zabezpieczenie przed nieskończonymi pętlami.</target>
+</phrase>
+<phrase>
+    <source>Show cumulative search results</source>
+    <target>Pokazuj skumulowane wyniki wyszukiwania</target>
+</phrase>
+<phrase>
+    <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
+    <target>Pokazuje tylko pierwsze znalezienie tekstu w pliku i wyświetla liczbę wszystkich trafień w nawiasach [ ]. Wszystkie wyniki mogą być oglądane w widoku szczegółowym</target>
+</phrase>
+<phrase>
+    <source>Search results</source>
+    <target>Wyniki wyszukiwania</target>
+</phrase>
+<phrase>
+    <source>max. nr of results per section</source>
+    <target>Maks. liczba wyników w sekcji</target>
+</phrase>
+<phrase>
+    <source>Result sections</source>
+    <target>Sekcje wyników</target>
+</phrase>
+<phrase>
+    <source>Enable TXT section</source>
+    <target>Włącz sekcję TXT</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.txt files</source>
+    <target>Zezwala na wyszukiwanie wewnątrz plików *.txt</target>
+</phrase>
+<phrase>
+    <source>Enable HTML section</source>
+    <target>Włącz sekcję HTML</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.html, *.htm files</source>
+    <target>Zezwala na wyszukiwanie wewnątrz plików *.html, *.htm</target>
+</phrase>
+<phrase>
+    <source>Enable SRC section</source>
+    <target>Włącz sekcję SRC</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
+    <target>Zezwala na wyszukiwanie wewnątrz plików *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js</target>
+</phrase>
+<phrase>
+    <source>Enable APPS section</source>
+    <target>Włącz sekcję APPS</target>
+</phrase>
+<phrase>
+    <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
+    <target>Zezwala na specjalne wyszukiwanie wewnątrz plików *.desktop. Jest to opcja eksperymentalna. Szczegóły - patrz menu &apos;About&apos;.</target>
+</phrase>
+<phrase>
+    <source>Run apps directly</source>
+    <target>Uruchamiaj aplikacje bezpośrednio</target>
+</phrase>
+<phrase>
+    <source>Enables direct app launch from APPS section on the search page</source>
+    <target>Pozwala na bezpośrednie uruchamianie aplikacji w sekcji APPS na stronie wyszukiwania</target>
+</phrase>
+<phrase>
+    <source>Enable SQLITE section</source>
+    <target>Włącz sekcję SQLITE</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
+    <target>Zezwala na wyszukiwanie wewnątrz plików *.sqlite, *.sqlite3, *.db</target>
+</phrase>
+<phrase>
+    <source>Enable NOTES section</source>
+    <target>Włącz sekcję NOTES</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside Notes application database</source>
+    <target>Zezwala na wyszukiwanie wewnątrz bazy danych aplikacji Notatki</target>
+</phrase>
+<phrase>
+    <source>Enable Files and Directories sections</source>
+    <target>Włącz sekcje Pliki i Katalogi</target>
+</phrase>
+<phrase>
+    <source>Enables searching for file and directory names</source>
+    <target>Zezwala na wyszukiwanie nazw plików i katalogów</target>
+</phrase>
+<phrase>
+    <source>Profile name error!</source>
+    <target>Błąd nazwy profilu!</target>
+</phrase>
+<phrase>
+    <source>Name exists. Try another one...</source>
+    <target>Nazwa istnieje. Spróbuj inną...</target>
+</phrase>
+<phrase>
+    <source>Profiles list</source>
+    <target>Lista profili</target>
+</phrase>
+<phrase>
+    <source>Add default set</source>
+    <target>Dodaj domyślny zestaw</target>
+</phrase>
+<phrase>
+    <source>Add profile</source>
+    <target>Dodaj profil</target>
+</phrase>
+<phrase>
+    <source>Set as current</source>
+    <target>Ustaw jako bieżący</target>
+</phrase>
+<phrase>
+    <source>Rename</source>
+    <target>Zmień nazwę</target>
+</phrase>
+<phrase>
+    <source>Rename profile</source>
+    <target>Zmień nazwę profilu</target>
+</phrase>
+<phrase>
+    <source>Delete</source>
+    <target>Usuń</target>
+</phrase>
+<phrase>
+    <source>Deleting profile</source>
+    <target>Usuwanie profilu</target>
+</phrase>
+<phrase>
+    <source>Accept</source>
+    <target>Akceptuj</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Anuluj</target>
+</phrase>
+<phrase>
+    <source>Profile name</source>
+    <target>Nazwa profilu</target>
+</phrase>
+<phrase>
+    <source>Profile description</source>
+    <target>Opis profilu</target>
+</phrase>
+<phrase>
+    <source>The following profiles will be created:</source>
+    <target>Zostaną utworzone następujące profile:</target>
+</phrase>
+<phrase>
+    <source>Home dir</source>
+    <target>Katalog domowy</target>
+</phrase>
+<phrase>
+    <source>SD Card</source>
+    <target>Karta SD</target>
+</phrase>
+<phrase>
+    <source>Applications</source>
+    <target>Aplikacje</target>
+</phrase>
+<phrase>
+    <source>Entire tree</source>
+    <target>Całe drzewo</target>
+</phrase>
+<phrase>
+    <source>If such profiles exist, they will be overwritten.</source>
+    <target>Jeśli takie profile istnieją, zostaną usunięte.</target>
 </phrase>
 <phrase>
     <source>%1 bytes</source>
@@ -577,6 +985,10 @@
     <target>Znaleziony tekst:</target>
 </phrase>
 <phrase>
+    <source>Application</source>
+    <target>Aplikacja</target>
+</phrase>
+<phrase>
     <source>Notes</source>
     <target>Notatki</target>
 </phrase>
@@ -599,6 +1011,10 @@
 <phrase>
     <source>SQLITE files content</source>
     <target>zawartość plików SQLITE</target>
+</phrase>
+<phrase>
+    <source>Applications</source>
+    <target>Aplikacje</target>
 </phrase>
 <phrase>
     <source>Filenames</source>
@@ -629,16 +1045,32 @@
     <target>O programie</target>
 </phrase>
 <phrase>
-    <source>Settings</source>
-    <target>Ustawienia</target>
+    <source>General options</source>
+    <target>Opcje ogólne</target>
+</phrase>
+<phrase>
+    <source>Profiles list</source>
+    <target>Lista profili</target>
+</phrase>
+<phrase>
+    <source>Current profile setup</source>
+    <target>Ustawienia bieżącego profilu</target>
 </phrase>
 <phrase>
     <source>Search %1</source>
     <target>Przeszukaj %1</target>
 </phrase>
 <phrase>
-    <source>Removing from search results</source>
-    <target>Usuwanie z wyników wyszukiwania</target>
+    <source>Profile:</source>
+    <target>Profil:</target>
+</phrase>
+<phrase>
+    <source>View</source>
+    <target>Podgląd</target>
+</phrase>
+<phrase>
+    <source>Run</source>
+    <target>Uruchom</target>
 </phrase>
 <phrase>
     <source>Open</source>
@@ -647,6 +1079,10 @@
 <phrase>
     <source>Remove from search results</source>
     <target>Usuń z wyników wyszukiwania</target>
+</phrase>
+<phrase>
+    <source>Removing from search results</source>
+    <target>Usuwanie z wyników wyszukiwania</target>
 </phrase>
 <phrase>
     <source>SearchNemo</source>
@@ -669,6 +1105,14 @@
     <target>Nieprawidłowe parametry wyszukiwania</target>
 </phrase>
 <phrase>
+    <source>Profile configuration error!</source>
+    <target>Błąd konfiguracji profilu!</target>
+</phrase>
+<phrase>
+    <source>Check profile whitelist...</source>
+    <target>Sprawdź białą listę profilu...</target>
+</phrase>
+<phrase>
     <source>Note nr</source>
     <target>Notatka nr</target>
 </phrase>
@@ -677,96 +1121,60 @@
     <target>Zaznacz i kopiuj</target>
 </phrase>
 <phrase>
+    <source>Home dir</source>
+    <target>Katalog domowy</target>
+</phrase>
+<phrase>
+    <source>Entire home directory with hidden files</source>
+    <target>Cały katalog domowy z ukrytymi plikami</target>
+</phrase>
+<phrase>
+    <source>SD card</source>
+    <target>Karta SD</target>
+</phrase>
+<phrase>
+    <source>Entire SD card with hidden files</source>
+    <target>Cała karta SD z ukrytymi plikami</target>
+</phrase>
+<phrase>
+    <source>Applications</source>
+    <target>Aplikacje</target>
+</phrase>
+<phrase>
+    <source>All installed applications</source>
+    <target>Wszystkie zainstalowane aplikacje</target>
+</phrase>
+<phrase>
+    <source>Entire tree</source>
+    <target>Całe drzewo</target>
+</phrase>
+<phrase>
+    <source>Entire dir tree. Warning: very long search</source>
+    <target>Całe drzewo katalogów. Uwaga: bardzo długie wyszukiwanie</target>
+</phrase>
+<phrase>
     <source>default</source>
     <target>domyślny</target>
 </phrase>
 <phrase>
-    <source>Settings</source>
-    <target>Ustawienia</target>
+    <source>General options</source>
+    <target>Opcje ogólne</target>
 </phrase>
 <phrase>
-    <source>Search hidden files</source>
-    <target>Przeszukuj ukryte pliki</target>
+    <source>Default profile:</source>
+    <target>Profil domyślny:</target>
 </phrase>
 <phrase>
-    <source>Enables searching inside hidden files and hidden directories</source>
-    <target>Pozwala na wyszukiwanie wewnątrz ukrytych plików i ukrytych katalogów</target>
-</phrase>
-<phrase>
-    <source>Show cumulative search results</source>
-    <target>Pokazuj skumulowane wyniki wyszukiwania</target>
-</phrase>
-<phrase>
-    <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
-    <target>Pokazuje tylko pierwsze znalezienie tekstu w pliku i wyświetla liczbę wszystkich trafień w nawiasach [ ]. Wszystkie wyniki mogą być oglądane w widoku szczegółowym</target>
-</phrase>
-<phrase>
-    <source>Search results</source>
-    <target>Wyniki wyszukiwania</target>
-</phrase>
-<phrase>
-    <source>max. nr of results per section</source>
-    <target>Maks. liczba wyników w sekcji</target>
-</phrase>
-<phrase>
-    <source>Result sections</source>
-    <target>Sekcje wyników</target>
-</phrase>
-<phrase>
-    <source>Enable TXT section</source>
-    <target>Włącz sekcję TXT</target>
-</phrase>
-<phrase>
-    <source>Enables searching inside *.txt files</source>
-    <target>Zezwala na wyszukiwanie wewnątrz plików *.txt</target>
-</phrase>
-<phrase>
-    <source>Enable HTML section</source>
-    <target>Włącz sekcję HTML</target>
-</phrase>
-<phrase>
-    <source>Enables searching inside *.html, *.htm files</source>
-    <target>Zezwala na wyszukiwanie wewnątrz plików *.html, *.htm</target>
-</phrase>
-<phrase>
-    <source>Enable SRC section</source>
-    <target>Włącz sekcję SRC</target>
-</phrase>
-<phrase>
-    <source>Enables searching inside *.cpp, *.c, *.py, *.sh files</source>
-    <target>Zezwala na wyszukiwanie wewnątrz plików *.cpp, *.c, *.py, *.sh</target>
-</phrase>
-<phrase>
-    <source>Enable SQLITE section</source>
-    <target>Włącz sekcję SQLITE</target>
-</phrase>
-<phrase>
-    <source>Enables searching inside *.sqlite, *.db files</source>
-    <target>Zezwala na wyszukiwanie wewnątrz plików *.sqlite, *.db</target>
-</phrase>
-<phrase>
-    <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
-    <target>Zezwala na wyszukiwanie wewnątrz plików *.sqlite, *.sqlite3, *.db</target>
-</phrase>
-<phrase>
-    <source>Enable NOTES section</source>
-    <target>Włącz sekcję NOTES</target>
-</phrase>
-<phrase>
-    <source>Enables searching inside Notes application database</source>
-    <target>Zezwala na wyszukiwanie wewnątrz bazy danych aplikacji Notatki</target>
-</phrase>
-<phrase>
-    <source>Other</source>
-    <target>Inne</target>
+    <source>This profile will be used on the application startup</source>
+    <target>Ten profil będzie użyty przy starcie aplikacji</target>
 </phrase>
 <phrase>
     <source>Language:</source>
     <target>Język:</target>
 </phrase>
 <phrase>
-    <source>Note: Change requires restart of an application</source>
-    <target>Uwaga: Zmiana wymaga restartu aplikacji</target>
+    <source>Note: Change of this parameter requires restart of the application</source>
+    <target>Uwaga: Zmiana tego parametru wymaga restartu aplikacji</target>
 </phrase>
 <phrase>
     <source>Record</source>
@@ -777,16 +1185,16 @@
     <target>Tekst nie znaleziony.</target>
 </phrase>
 <phrase>
+    <source>Open </source>
+    <target>Otwórz </target>
+</phrase>
+<phrase>
     <source>File can&apos;t be opened</source>
     <target>Plik nie może być otwarty</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
     <target>Ten typ pliku nie może być otwarty.</target>
-</phrase>
-<phrase>
-    <source>Open </source>
-    <target>Otwórz </target>
 </phrase>
 <phrase>
     <source>Show complete record</source>
@@ -798,7 +1206,7 @@
 </phrase>
 <phrase>
     <source>&lt;b&gt;[%1/%n hit(s)]&lt;/b&gt;&lt;br&gt;</source>
-    <target>&lt;b&gt;[%1/%n trafienia]&lt;/b&gt;&lt;br&gt;@&lt;b&gt;[%1/%n trafień]&lt;/b&gt;&lt;br&gt;@&lt;b&gt;[%1/%n trafień]&lt;/b&gt;&lt;br&gt;</target>
+    <target>&lt;b&gt;[%1/%n trafienie]&lt;/b&gt;&lt;br&gt;@&lt;b&gt;[%1/%n trafienia]&lt;/b&gt;&lt;br&gt;@&lt;b&gt;[%1/%n trafień]&lt;/b&gt;&lt;br&gt;</target>
 </phrase>
 <phrase>
     <source>Text not found.</source>
@@ -815,485 +1223,5 @@
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
     <target>Ten typ pliku nie może być otwarty.</target>
-</phrase>
-<phrase>
-    <source>File info </source>
-    <target>Info o pliku </target>
-</phrase>
-<phrase>
-    <source>Note: Change of this parameter requires restart of an application</source>
-    <target>Uwaga: Zmiana tego parametru wymaga restartu aplikacji</target>
-</phrase>
-<phrase>
-    <source>Enable NOTES section</source>
-    <target>Włącz sekcję NOTATKI</target>
-</phrase>
-<phrase>
-    <source>Search options</source>
-    <target>Opcje wyszukiwania</target>
-</phrase>
-<phrase>
-    <source>version: </source>
-    <target>wersja: </target>
-</phrase>
-<phrase>
-    <source>Description</source>
-    <target>Opis</target>
-</phrase>
-<phrase>
-    <source>This program searches for a text in files stored locally in the home directory </source>
-    <target>Ten program wyszukuje tekst w plikach przechowywanych lokalnie w katalogu domowym </target>
-</phrase>
-<phrase>
-    <source>License</source>
-    <target>Licencja</target>
-</phrase>
-<phrase>
-    <source>and presents results in a possibly useful form.</source>
-    <target>i przedstawia wyniki w możliwie użytecznej formie.</target>
-</phrase>
-<phrase>
-    <source>License: GPL v3
-</source>
-    <target>Licencja GPL v3</target>
-</phrase>
-<phrase>
-    <source>Source code:</source>
-    <target>Kod źródłowy:</target>
-</phrase>
-<phrase>
-    <source>Help and Tips</source>
-    <target>Pomoc i wskazówki</target>
-</phrase>
-<phrase>
-    <source>* Tap on label wit triangle to expand/collapse section.
-</source>
-    <target>* Dotknij etykiety z trójkątem by rozwinąć/zwinąć sekcję.</target>
-</phrase>
-<phrase>
-    <source>* Tap on label wit triangle to expand/collapse section.
-</source>
-    <target>* Dotknij etykietę z trójkątem by rozwinąć/zwinąć sekcję.</target>
-</phrase>
-<phrase>
-    <source>* Tap on text in detailed view to enter Select&amp;Copy page.</source>
-    <target>* Dotknij tekst w widoku szczegółowym by wejść na stronę Wybierz&amp;Kopiuj</target>
-</phrase>
-<phrase>
-    <source>* Tap on text in detailed view to enter Select&amp;Copy page.</source>
-    <target>* Dotknij tekst w widoku szczegółowym by wejść na stronę Wybierz&amp;Kopiuj.</target>
-</phrase>
-<phrase>
-    <source>* Tap on label wit triangle to expand/collapse section.
-</source>
-    <target>* Dotknij etykietę z trójkątem by rozwinąć/zwinąć sekcję.\n</target>
-</phrase>
-<phrase>
-    <source>* Tap on label wit triangle to expand/collapse section.
-</source>
-    <target>* Dotknij etykietę z trójkątem by rozwinąć/zwinąć sekcję.
-</target>
-</phrase>
-<phrase>
-    <source>License: GPL v3
-</source>
-    <target>Licencja GPL v3
-</target>
-</phrase>
-<phrase>
-    <source>The search begins in the start directory and continues in its subdirectories. If it is empty or incorrect then the home directory is the start directory.</source>
-    <target>Wyszukiwanie rozpoczyna się w katalogu startowym i kontynuuje w podkatalogach. Jeśli jest pusty lub nieprawidłowy, wtedy katalog domowy jest katalogiem startowym.</target>
-</phrase>
-<phrase>
-    <source>Enter start directory...</source>
-    <target>Wpisz katalog startowy...</target>
-</phrase>
-<phrase>
-    <source>Start directory</source>
-    <target>Katalog startowy</target>
-</phrase>
-<phrase>
-    <source>Follow symbolic links</source>
-    <target>Podążaj za dowiązaniami symbolicznymi</target>
-</phrase>
-<phrase>
-    <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
-    <target>Gdy włączone, maksymalna głębokość podkatalogów wynosi 20. Jest to zabezpieczenie przed nieskończonymi pętlami.</target>
-</phrase>
-<phrase>
-    <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
-    <target>Zezwala na wyszukiwanie wewnątrz plików *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js</target>
-</phrase>
-<phrase>
-    <source>This program searches for a text in files stored locally on the device </source>
-    <target>Program wyszukuje tekst w plikach przechowywanych lokalnie w urządzeniu </target>
-</phrase>
-<phrase>
-    <source>Translations</source>
-    <target>Tłumaczenia</target>
-</phrase>
-<phrase>
-    <source>* Press and hold on empty search field to clear search results.</source>
-    <target>* Naciśnij i przytrzymaj na pustym polu wyszukiwania aby wyczyścić wyniki wyszukiwania.</target>
-</phrase>
-<phrase>
-    <source>Special thanks for translators:
-</source>
-    <target>Specjalne podziekowania dla tłumaczy:
-</target>
-</phrase>
-<phrase>
-    <source>  Swedish - Åke Engelbrektson</source>
-    <target>  Szwedzki - Åke Engelbrektson</target>
-</phrase>
-<phrase>
-    <source>Special thanks for translators:</source>
-    <target>Specjalne podziękowania dla tłumaczy:</target>
-</phrase>
-<phrase>
-    <source>Swedish</source>
-    <target>Szwedzki</target>
-</phrase>
-<phrase>
-    <source>* Tap on text in detailed view to enter Select&amp;Copy page.
-</source>
-    <target>* Dotknij tekst w widoku szczegółowym by wejść na stronę Wybierz&amp;Kopiuj.
-</target>
-</phrase>
-<phrase>
-    <source>Italian</source>
-    <target>Włoski</target>
-</phrase>
-<phrase>
-    <source>version:</source>
-    <target>wersja:</target>
-</phrase>
-<phrase>
-    <source>Text and files search tool</source>
-    <target>Narzędzie wyszukiwania tekstu i plików</target>
-</phrase>
-<phrase>
-    <source>This program searches for a text in files stored locally on the device</source>
-    <target>Program wyszukuje tekst w plikach przechowywanych lokalnie w urządzeniu</target>
-</phrase>
-<phrase>
-    <source>License: GPL v3</source>
-    <target>Licencja GPL v3</target>
-</phrase>
-<phrase>
-    <source>* Tap on section label with arrow to expand/collapse section.</source>
-    <target>* Dotknij etykietę sekcji ze strzałką by rozwinąć/zwinąć sekcję.</target>
-</phrase>
-<phrase>
-    <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
-    <target>* Dotknij tekst w widoku szczegółowym by wejść na stronę &apos;Wybierz i kopiuj&apos;.</target>
-</phrase>
-<phrase>
-    <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
-    <target>* Naciśnij i przytrzymaj na pustym polu wyszukiwania lub wybierz inny profil aby wyczyścić wyniki wyszukiwania.</target>
-</phrase>
-<phrase>
-    <source>* Choosing profile via &apos;Profiles list&apos; doesn&apos;t delete search results.</source>
-    <target>* Wybór profilu w &apos;Lista profili&apos; nie usuwa wyników wyszukiwania.</target>
-</phrase>
-<phrase>
-    <source>Profiles</source>
-    <target>Profile</target>
-</phrase>
-<phrase>
-    <source>Profiles give possibility to keep different search options under one short name.</source>
-    <target>Profile dają możliwość przechowywania różnych opcji wyszukiwania pod jedną krótką nazwą.</target>
-</phrase>
-<phrase>
-    <source>Each profile may contain different search paths groupped as whitelist or blacklist directories.</source>
-    <target>Każdy profil może zawierać różne ścieżki wyszukiwania pogrupowane w formie białej i czarnej listy katalogów.</target>
-</phrase>
-<phrase>
-    <source>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</source>
-    <target>* Wyszukiwanie zaczyna się zawsze w katalogu należącym do białej listy i pomija w drzewie niepotrzebne podkatalogi z czarnej listy.</target>
-</phrase>
-<phrase>
-    <source>* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.</source>
-    <target>* Biała i czarna lista są niezależne, oznacza to, że jeśli następny katalog z białej listy jest podkatalogiem jednego z katalogów z czarnej listy, to program rozpocznie tam wyszukiwanie.</target>
-</phrase>
-<phrase>
-    <source>This gives a huge flexibility of creating own complex search paths.</source>
-    <target>Daje to ogromną elastycznosć w tworzeniu złożonych ścieżek wyszukiwania.</target>
-</phrase>
-<phrase>
-    <source>Some example profiles are available in &apos;Profiles list&apos; menu.</source>
-    <target>Kilka przykładowych profili jest dostępnych w menu &apos;Lista profili&apos;.</target>
-</phrase>
-<phrase>
-    <source>Applications section (experimental)</source>
-    <target>Sekcja aplikacji (eksperymentalne)</target>
-</phrase>
-<phrase>
-    <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
-    <target>W celu znalezienia aplikacji program przeszukuje pliki .desktop w katalogu podanym w białej liście i potrafi znaleźć tylko tekst zawarty w tych plikach.</target>
-</phrase>
-<phrase>
-    <source>This fact has some implications:</source>
-    <target>Ten fakt ma pewne konsekwencje:</target>
-</phrase>
-<phrase>
-    <source>* It gives only original (English) names unless it finds localized names there.</source>
-    <target>* Podaje tylko oryginalne (angielskie) nazwy, o ile nie znajdzie tam przetłumaczonych nazw.</target>
-</phrase>
-<phrase>
-    <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
-    <target>* Może podać wyniki niespodziewane dla użytkownika, ponieważ sprawdza cały tekst w tych plikach.</target>
-</phrase>
-<phrase>
-    <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
-    <target>* Może to być użyteczne, np.: wyszukiwanie &apos;=&apos; zwróci wszystkie znalezione aplikacje, wyszukiwanie &apos;jolla&apos; poda wszystkie aplikacje stworzone przez Jolla</target>
-</phrase>
-<phrase>
-    <source>License: GPL v3</source>
-    <target>Licencja: GPL v3</target>
-</phrase>
-<phrase>
-    <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
-    <target>Każdy profil może zawierać różne ścieżki wyszukiwania pogrupowane w białej lub czarnej liście katalogów.</target>
-</phrase>
-<phrase>
-    <source>Profile</source>
-    <target>Profil</target>
-</phrase>
-<phrase>
-    <source>Remove from list</source>
-    <target>Usuń z listy</target>
-</phrase>
-<phrase>
-    <source>Removing directory from list</source>
-    <target>Usuń katalog z listy</target>
-</phrase>
-<phrase>
-    <source>List of directories</source>
-    <target>Lista katalogów</target>
-</phrase>
-<phrase>
-    <source>Add/modify directories</source>
-    <target>Dodaj/modyfikuj katalogi</target>
-</phrase>
-<phrase>
-    <source>Whitelist directories</source>
-    <target>Katalogi białej listy</target>
-</phrase>
-<phrase>
-    <source>Blacklist directories</source>
-    <target>Katalogi czarnej listy</target>
-</phrase>
-<phrase>
-    <source>Add to whitelist</source>
-    <target>Dodaj do białej listy</target>
-</phrase>
-<phrase>
-    <source>Add to blacklist</source>
-    <target>Dodaj do czarnej listy</target>
-</phrase>
-<phrase>
-    <source>Cancel</source>
-    <target>Anuluj</target>
-</phrase>
-<phrase>
-    <source>Accept</source>
-    <target>Akceptuj</target>
-</phrase>
-<phrase>
-    <source>Accept</source>
-    <target>Akceptuj</target>
-</phrase>
-<phrase>
-    <source>Accept</source>
-    <target>Akceptuj</target>
-</phrase>
-<phrase>
-    <source>Path:</source>
-    <target>Ścieżka:</target>
-</phrase>
-<phrase>
-    <source>Main tree</source>
-    <target>Drzewo główne</target>
-</phrase>
-<phrase>
-    <source>Show hidden directories</source>
-    <target>Pokaż ukryte katalogi</target>
-</phrase>
-<phrase>
-    <source>Hide hidden directories</source>
-    <target>Schowaj ukryte katalogi</target>
-</phrase>
-<phrase>
-    <source>Select directories by long press</source>
-    <target>Wybierz katalogi przez długie naciśnięcie</target>
-</phrase>
-<phrase>
-    <source>Remove from lists</source>
-    <target>Usuń z list</target>
-</phrase>
-<phrase>
-    <source>Select</source>
-    <target>Wybierz</target>
-</phrase>
-<phrase>
-    <source>Profile settings</source>
-    <target>Ustawienia profilu</target>
-</phrase>
-<phrase>
-    <source>Name</source>
-    <target>Nazwa</target>
-</phrase>
-<phrase>
-    <source>Profile description</source>
-    <target>Opis profilu</target>
-</phrase>
-<phrase>
-    <source>Search directories lists</source>
-    <target>Listy przeszukiwanych katalogów</target>
-</phrase>
-<phrase>
-    <source>Enable APPS section</source>
-    <target>Włącz sekcję APPS</target>
-</phrase>
-<phrase>
-    <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
-    <target>Zezwala na specjalne wyszukiwanie wewnątrz plików *.desktop. Jest to opcja eksperymentalna. Szczegóły - patrz menu &apos;About&apos;.</target>
-</phrase>
-<phrase>
-    <source>Enable Files and Directories sections</source>
-    <target>Włącz sekcje Pliki i Katalogi</target>
-</phrase>
-<phrase>
-    <source>Enables searching for file and directory names</source>
-    <target>Zezwala na wyszukiwanie nazw plików i katalogów</target>
-</phrase>
-<phrase>
-    <source>Whitelist directories:</source>
-    <target>Katalogi białej listy:</target>
-</phrase>
-<phrase>
-    <source>Blacklist directories:</source>
-    <target>Katalogi czarnej listy:</target>
-</phrase>
-<phrase>
-    <source>Profile name error!</source>
-    <target>Błąd nazwy profilu!</target>
-</phrase>
-<phrase>
-    <source>Name exists. Try another one...</source>
-    <target>Nazwa istnieje. Spróbuj inną...</target>
-</phrase>
-<phrase>
-    <source>Profiles list</source>
-    <target>Lista profili</target>
-</phrase>
-<phrase>
-    <source>Add default set</source>
-    <target>Dodaj domyślny zestaw</target>
-</phrase>
-<phrase>
-    <source>Add profile</source>
-    <target>Dodaj profil</target>
-</phrase>
-<phrase>
-    <source>Set as current</source>
-    <target>Ustaw jako bieżący</target>
-</phrase>
-<phrase>
-    <source>Rename</source>
-    <target>Zmień nazwę</target>
-</phrase>
-<phrase>
-    <source>Rename profile</source>
-    <target>Zmień nazwę profilu</target>
-</phrase>
-<phrase>
-    <source>Delete</source>
-    <target>Usuń</target>
-</phrase>
-<phrase>
-    <source>Deleting profile</source>
-    <target>Usuwanie profilu</target>
-</phrase>
-<phrase>
-    <source>Profile name</source>
-    <target>Nazwa profilu</target>
-</phrase>
-<phrase>
-    <source>The following profiles will be created:</source>
-    <target>Zostaną utworzone następujące profile:</target>
-</phrase>
-<phrase>
-    <source>Home dir</source>
-    <target>Katalog domowy</target>
-</phrase>
-<phrase>
-    <source>Entire tree</source>
-    <target>Całe drzewo</target>
-</phrase>
-<phrase>
-    <source>Application</source>
-    <target>Aplikacja</target>
-</phrase>
-<phrase>
-    <source>General options</source>
-    <target>Opcje ogólne</target>
-</phrase>
-<phrase>
-    <source>Current profile setup</source>
-    <target>Ustawienia bieżącego profilu</target>
-</phrase>
-<phrase>
-    <source>Profile:</source>
-    <target>Profil:</target>
-</phrase>
-<phrase>
-    <source>Run</source>
-    <target>Uruchom</target>
-</phrase>
-<phrase>
-    <source>Profile configuration error!</source>
-    <target>Błąd konfiguracji profilu!</target>
-</phrase>
-<phrase>
-    <source>Check profile whitelist...</source>
-    <target>Sprawdź białą listę profilu...</target>
-</phrase>
-<phrase>
-    <source>Entire home directory with hidden files</source>
-    <target>Cały katalog domowy z ukrytymi plikami</target>
-</phrase>
-<phrase>
-    <source>Entire SD card with hidden files</source>
-    <target>Cała karta SD z ukrytymi plikami</target>
-</phrase>
-<phrase>
-    <source>All installed applications</source>
-    <target>Wszystkie zainstalowane aplikacje</target>
-</phrase>
-<phrase>
-    <source>Entire tree</source>
-    <target>Całe drzewo</target>
-</phrase>
-<phrase>
-    <source>Entire dir tree. Warning: very long search</source>
-    <target>Całe drzewo katalogów. Uwaga: bardzo długie wyszukiwanie</target>
-</phrase>
-<phrase>
-    <source>Default profile:</source>
-    <target>Profil domyślny:</target>
-</phrase>
-<phrase>
-    <source>This profile will be used on the application startup</source>
-    <target>Ten profil będzie użyty przy starcie aplikacji</target>
-</phrase>
-<phrase>
-    <source>Note: Change of this parameter requires restart of the application</source>
-    <target>Uwaga: Zmiana tego parametru wymaga restartu aplikacji</target>
-</phrase>
-<phrase>
-    <source>File info</source>
-    <target>Info o pliku</target>
 </phrase>
 </QPH>

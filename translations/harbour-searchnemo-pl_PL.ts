@@ -8,18 +8,6 @@
         <translation>O programie</translation>
     </message>
     <message>
-        <source>Description</source>
-        <translation>Opis</translation>
-    </message>
-    <message>
-        <source>and presents results in a possibly useful form.</source>
-        <translation>i przedstawia wyniki w możliwie użytecznej formie.</translation>
-    </message>
-    <message>
-        <source>License</source>
-        <translation>Licencja</translation>
-    </message>
-    <message>
         <source>version:</source>
         <translation>wersja:</translation>
     </message>
@@ -28,8 +16,20 @@
         <translation>Narzędzie wyszukiwania tekstu i plików</translation>
     </message>
     <message>
+        <source>Description</source>
+        <translation>Opis</translation>
+    </message>
+    <message>
         <source>This program searches for a text in files stored locally on the device</source>
         <translation>Program wyszukuje tekst w plikach przechowywanych lokalnie w urządzeniu</translation>
+    </message>
+    <message>
+        <source>and presents results in a possibly useful form.</source>
+        <translation>i przedstawia wyniki w możliwie użytecznej formie.</translation>
+    </message>
+    <message>
+        <source>License</source>
+        <translation>Licencja</translation>
     </message>
     <message>
         <source>License: GPL v3</source>
@@ -204,12 +204,12 @@
 <context>
     <name>DirLists</name>
     <message>
-        <source>Profile</source>
-        <translation>Profil</translation>
-    </message>
-    <message>
         <source>List of directories</source>
         <translation>Lista katalogów</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profil</translation>
     </message>
     <message>
         <source>Add/modify directories</source>
@@ -298,16 +298,16 @@
         <translation>Ścieżka:</translation>
     </message>
     <message>
-        <source>Remove from lists</source>
-        <translation>Usuń z list</translation>
-    </message>
-    <message>
         <source>Add to whitelist</source>
         <translation>Dodaj do białej listy</translation>
     </message>
     <message>
         <source>Add to blacklist</source>
         <translation>Dodaj do czarnej listy</translation>
+    </message>
+    <message>
+        <source>Remove from lists</source>
+        <translation>Usuń z list</translation>
     </message>
 </context>
 <context>
@@ -599,6 +599,14 @@
         <translation>Zezwala na specjalne wyszukiwanie wewnątrz plików *.desktop. Jest to opcja eksperymentalna. Szczegóły - patrz menu &apos;About&apos;.</translation>
     </message>
     <message>
+        <source>Run apps directly</source>
+        <translation>Uruchamiaj aplikacje bezpośrednio</translation>
+    </message>
+    <message>
+        <source>Enables direct app launch from APPS section on the search page</source>
+        <translation>Pozwala na bezpośrednie uruchamianie aplikacji w sekcji APPS na stronie wyszukiwania</translation>
+    </message>
+    <message>
         <source>Enable SQLITE section</source>
         <translation>Włącz sekcję SQLITE</translation>
     </message>
@@ -621,14 +629,6 @@
     <message>
         <source>Enables searching for file and directory names</source>
         <translation>Zezwala na wyszukiwanie nazw plików i katalogów</translation>
-    </message>
-    <message>
-        <source>Run apps directly</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables direct app launch from APPS section on the search page</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1126,12 +1126,16 @@
         <translation>Profil:</translation>
     </message>
     <message>
-        <source>Open</source>
-        <translation>Otwórz</translation>
+        <source>View</source>
+        <translation>Podgląd</translation>
     </message>
     <message>
         <source>Run</source>
         <translation>Uruchom</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Otwórz</translation>
     </message>
     <message>
         <source>Remove from search results</source>
@@ -1152,10 +1156,6 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Ten typ pliku nie może być otwarty.</translation>
-    </message>
-    <message>
-        <source>View</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1242,12 +1242,12 @@
         <translation>Ten profil będzie użyty przy starcie aplikacji</translation>
     </message>
     <message>
-        <source>Note: Change of this parameter requires restart of the application</source>
-        <translation>Uwaga: Zmiana tego parametru wymaga restartu aplikacji</translation>
-    </message>
-    <message>
         <source>Language:</source>
         <translation>Język:</translation>
+    </message>
+    <message>
+        <source>Note: Change of this parameter requires restart of the application</source>
+        <translation>Uwaga: Zmiana tego parametru wymaga restartu aplikacji</translation>
     </message>
 </context>
 <context>
@@ -1290,7 +1290,7 @@
         <source>&lt;b&gt;[%1/%n hit(s)]&lt;/b&gt;&lt;br&gt;</source>
         <translation>
             <numerusform>&lt;b&gt;[%1/%n trafienie]&lt;/b&gt;&lt;br&gt;</numerusform>
-            <numerusform>&lt;b&gt;[%1/%n trafień]&lt;/b&gt;&lt;br&gt;</numerusform>
+            <numerusform>&lt;b&gt;[%1/%n trafienia]&lt;/b&gt;&lt;br&gt;</numerusform>
             <numerusform>&lt;b&gt;[%1/%n trafień]&lt;/b&gt;&lt;br&gt;</numerusform>
         </translation>
     </message>

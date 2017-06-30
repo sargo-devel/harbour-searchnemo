@@ -5,18 +5,6 @@
     <target>Om</target>
 </phrase>
 <phrase>
-    <source>Description</source>
-    <target>Beskrivning</target>
-</phrase>
-<phrase>
-    <source>and presents results in a possibly useful form.</source>
-    <target>och presenterar resultatet i ett möjligen användbart format.</target>
-</phrase>
-<phrase>
-    <source>License</source>
-    <target>Licens</target>
-</phrase>
-<phrase>
     <source>version:</source>
     <target>version: </target>
 </phrase>
@@ -25,8 +13,20 @@
     <target>Text- och filsökverktyg</target>
 </phrase>
 <phrase>
+    <source>Description</source>
+    <target>Beskrivning</target>
+</phrase>
+<phrase>
     <source>This program searches for a text in files stored locally on the device</source>
     <target>Det här programmet söker efter text i filer, lagrade lokalt på enheten</target>
+</phrase>
+<phrase>
+    <source>and presents results in a possibly useful form.</source>
+    <target>och presenterar resultatet i ett möjligen användbart format.</target>
+</phrase>
+<phrase>
+    <source>License</source>
+    <target>Licens</target>
 </phrase>
 <phrase>
     <source>License: GPL v3</source>
@@ -189,12 +189,12 @@
     <target>** fel</target>
 </phrase>
 <phrase>
-    <source>Profile</source>
-    <target>Profil</target>
-</phrase>
-<phrase>
     <source>List of directories</source>
     <target>Mapplista</target>
+</phrase>
+<phrase>
+    <source>Profile</source>
+    <target>Profil</target>
 </phrase>
 <phrase>
     <source>Add/modify directories</source>
@@ -277,16 +277,16 @@
     <target>Sökväg:</target>
 </phrase>
 <phrase>
-    <source>Remove from lists</source>
-    <target>Ta bort från listor</target>
-</phrase>
-<phrase>
     <source>Add to whitelist</source>
     <target>Lägg till i vitlistan</target>
 </phrase>
 <phrase>
     <source>Add to blacklist</source>
     <target>Lägg till i svartlistan</target>
+</phrase>
+<phrase>
+    <source>Remove from lists</source>
+    <target>Ta bort från listor</target>
 </phrase>
 <phrase>
     <source>Home</source>
@@ -557,12 +557,16 @@
     <target>Aktiverar specialsökning inuti *.desktop-filer. Detta är en experimentell funktion. Läs detaljerad info i &apos;Om&apos;.</target>
 </phrase>
 <phrase>
-    <source>Enable SQLITE section</source>
-    <target>Aktivera SQLITE-sektion</target>
+    <source>Run apps directly</source>
+    <target>Starta appar direkt</target>
 </phrase>
 <phrase>
-    <source>Enables searching inside *.sqlite, *.db files</source>
-    <target>Aktiverar sökning i *.sqlite-, *.db-filer</target>
+    <source>Enables direct app launch from APPS section on the search page</source>
+    <target>Aktiverar direkt app-start från APP-sektionen på söksidan</target>
+</phrase>
+<phrase>
+    <source>Enable SQLITE section</source>
+    <target>Aktivera SQLITE-sektion</target>
 </phrase>
 <phrase>
     <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
@@ -1061,12 +1065,16 @@
     <target>Profil:</target>
 </phrase>
 <phrase>
-    <source>Open</source>
-    <target>Öppna</target>
+    <source>View</source>
+    <target>Visa</target>
 </phrase>
 <phrase>
     <source>Run</source>
     <target>Kör</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Öppna</target>
 </phrase>
 <phrase>
     <source>Remove from search results</source>
@@ -1161,12 +1169,12 @@
     <target>Denna profil kommer att användas vid programstart.</target>
 </phrase>
 <phrase>
-    <source>Note: Change of this parameter requires restart of the application</source>
-    <target>OBS! Ändring i denna parameter kräver omstart av appen</target>
-</phrase>
-<phrase>
     <source>Language:</source>
     <target>Språk:</target>
+</phrase>
+<phrase>
+    <source>Note: Change of this parameter requires restart of the application</source>
+    <target>OBS! Ändring i denna parameter kräver omstart av appen</target>
 </phrase>
 <phrase>
     <source>Record</source>

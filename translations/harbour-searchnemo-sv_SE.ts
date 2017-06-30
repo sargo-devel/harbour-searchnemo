@@ -8,18 +8,6 @@
         <translation>Om</translation>
     </message>
     <message>
-        <source>Description</source>
-        <translation>Beskrivning</translation>
-    </message>
-    <message>
-        <source>and presents results in a possibly useful form.</source>
-        <translation>och presenterar resultatet i ett möjligen användbart format.</translation>
-    </message>
-    <message>
-        <source>License</source>
-        <translation>Licens</translation>
-    </message>
-    <message>
         <source>version:</source>
         <translation>version: </translation>
     </message>
@@ -28,8 +16,20 @@
         <translation>Text- och filsökverktyg</translation>
     </message>
     <message>
+        <source>Description</source>
+        <translation>Beskrivning</translation>
+    </message>
+    <message>
         <source>This program searches for a text in files stored locally on the device</source>
         <translation>Det här programmet söker efter text i filer, lagrade lokalt på enheten</translation>
+    </message>
+    <message>
+        <source>and presents results in a possibly useful form.</source>
+        <translation>och presenterar resultatet i ett möjligen användbart format.</translation>
+    </message>
+    <message>
+        <source>License</source>
+        <translation>Licens</translation>
     </message>
     <message>
         <source>License: GPL v3</source>
@@ -204,12 +204,12 @@
 <context>
     <name>DirLists</name>
     <message>
-        <source>Profile</source>
-        <translation>Profil</translation>
-    </message>
-    <message>
         <source>List of directories</source>
         <translation>Mapplista</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profil</translation>
     </message>
     <message>
         <source>Add/modify directories</source>
@@ -298,16 +298,16 @@
         <translation>Sökväg:</translation>
     </message>
     <message>
-        <source>Remove from lists</source>
-        <translation>Ta bort från listor</translation>
-    </message>
-    <message>
         <source>Add to whitelist</source>
         <translation>Lägg till i vitlistan</translation>
     </message>
     <message>
         <source>Add to blacklist</source>
         <translation>Lägg till i svartlistan</translation>
+    </message>
+    <message>
+        <source>Remove from lists</source>
+        <translation>Ta bort från listor</translation>
     </message>
 </context>
 <context>
@@ -599,6 +599,14 @@
         <translation>Aktiverar specialsökning inuti *.desktop-filer. Detta är en experimentell funktion. Läs detaljerad info i &apos;Om&apos;.</translation>
     </message>
     <message>
+        <source>Run apps directly</source>
+        <translation>Starta appar direkt</translation>
+    </message>
+    <message>
+        <source>Enables direct app launch from APPS section on the search page</source>
+        <translation>Aktiverar direkt app-start från APP-sektionen på söksidan</translation>
+    </message>
+    <message>
         <source>Enable SQLITE section</source>
         <translation>Aktivera SQLITE-sektion</translation>
     </message>
@@ -621,14 +629,6 @@
     <message>
         <source>Enables searching for file and directory names</source>
         <translation>Aktiverar sökning efter fil- och mappnamn</translation>
-    </message>
-    <message>
-        <source>Run apps directly</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables direct app launch from APPS section on the search page</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1125,12 +1125,16 @@
         <translation>Profil:</translation>
     </message>
     <message>
-        <source>Open</source>
-        <translation>Öppna</translation>
+        <source>View</source>
+        <translation>Visa</translation>
     </message>
     <message>
         <source>Run</source>
         <translation>Kör</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Öppna</translation>
     </message>
     <message>
         <source>Remove from search results</source>
@@ -1151,10 +1155,6 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Denna filtyp kan inte öppnas.</translation>
-    </message>
-    <message>
-        <source>View</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1241,12 +1241,12 @@
         <translation>Denna profil kommer att användas vid programstart.</translation>
     </message>
     <message>
-        <source>Note: Change of this parameter requires restart of the application</source>
-        <translation>OBS! Ändring i denna parameter kräver omstart av appen</translation>
-    </message>
-    <message>
         <source>Language:</source>
         <translation>Språk:</translation>
+    </message>
+    <message>
+        <source>Note: Change of this parameter requires restart of the application</source>
+        <translation>OBS! Ändring i denna parameter kräver omstart av appen</translation>
     </message>
 </context>
 <context>

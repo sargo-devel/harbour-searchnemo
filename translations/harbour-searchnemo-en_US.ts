@@ -8,8 +8,20 @@
         <translation>About</translation>
     </message>
     <message>
+        <source>version:</source>
+        <translation>version:</translation>
+    </message>
+    <message>
+        <source>Text and files search tool</source>
+        <translation>Text and files search tool</translation>
+    </message>
+    <message>
         <source>Description</source>
         <translation>Description</translation>
+    </message>
+    <message>
+        <source>This program searches for a text in files stored locally on the device</source>
+        <translation>This program searches for a text in files stored locally on the device</translation>
     </message>
     <message>
         <source>and presents results in a possibly useful form.</source>
@@ -20,12 +32,12 @@
         <translation>License</translation>
     </message>
     <message>
-        <source>Source code:</source>
-        <translation>Source code:</translation>
+        <source>License: GPL v3</source>
+        <translation>License: GPL v3</translation>
     </message>
     <message>
-        <source>Help and Tips</source>
-        <translation>Help and Tips</translation>
+        <source>Source code:</source>
+        <translation>Source code:</translation>
     </message>
     <message>
         <source>Translations</source>
@@ -44,20 +56,8 @@
         <translation>Italian</translation>
     </message>
     <message>
-        <source>version:</source>
-        <translation>version:</translation>
-    </message>
-    <message>
-        <source>Text and files search tool</source>
-        <translation>Text and files search tool</translation>
-    </message>
-    <message>
-        <source>This program searches for a text in files stored locally on the device</source>
-        <translation>This program searches for a text in files stored locally on the device</translation>
-    </message>
-    <message>
-        <source>License: GPL v3</source>
-        <translation>License: GPL v3</translation>
+        <source>Help and Tips</source>
+        <translation>Help and Tips</translation>
     </message>
     <message>
         <source>* Tap on section label with arrow to expand/collapse section.</source>
@@ -82,6 +82,10 @@
     <message>
         <source>Profiles give possibility to keep different search options under one short name.</source>
         <translation>Profiles give possibility to keep different search options under one short name.</translation>
+    </message>
+    <message>
+        <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
+        <translation>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</translation>
     </message>
     <message>
         <source>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</source>
@@ -123,10 +127,6 @@
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
         <translation>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</translation>
     </message>
-    <message>
-        <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
-        <translation>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</translation>
-    </message>
 </context>
 <context>
     <name>AnimatedHeader</name>
@@ -147,7 +147,7 @@
     </message>
     <message>
         <source>Open successful</source>
-        <translation>No application to open the file</translation>
+        <translation>Open successful</translation>
     </message>
     <message>
         <source>Sometimes the application stays in the background</source>
@@ -204,8 +204,16 @@
 <context>
     <name>DirLists</name>
     <message>
+        <source>List of directories</source>
+        <translation>List of directories</translation>
+    </message>
+    <message>
         <source>Profile</source>
         <translation>Profile</translation>
+    </message>
+    <message>
+        <source>Add/modify directories</source>
+        <translation>Add/modify directories</translation>
     </message>
     <message>
         <source>Remove from list</source>
@@ -214,14 +222,6 @@
     <message>
         <source>Removing directory from list</source>
         <translation>Removing directory from list</translation>
-    </message>
-    <message>
-        <source>List of directories</source>
-        <translation>List of directories</translation>
-    </message>
-    <message>
-        <source>Add/modify directories</source>
-        <translation>Add/modify directories</translation>
     </message>
     <message>
         <source>Whitelist directories</source>
@@ -270,26 +270,6 @@
 <context>
     <name>DirTree</name>
     <message>
-        <source>Add to whitelist</source>
-        <translation>Add to whitelist</translation>
-    </message>
-    <message>
-        <source>Add to blacklist</source>
-        <translation>Add to blacklist</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Cancel</translation>
-    </message>
-    <message>
-        <source>Accept</source>
-        <translation>Accept</translation>
-    </message>
-    <message>
-        <source>Path:</source>
-        <translation>Path:</translation>
-    </message>
-    <message>
         <source>Main tree</source>
         <translation>Main tree</translation>
     </message>
@@ -302,8 +282,28 @@
         <translation>Hide hidden directories</translation>
     </message>
     <message>
+        <source>Accept</source>
+        <translation>Accept</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Cancel</translation>
+    </message>
+    <message>
         <source>Select directories by long press</source>
         <translation>Select directories by long press</translation>
+    </message>
+    <message>
+        <source>Path:</source>
+        <translation>Path:</translation>
+    </message>
+    <message>
+        <source>Add to whitelist</source>
+        <translation>Add to whitelist</translation>
+    </message>
+    <message>
+        <source>Add to blacklist</source>
+        <translation>Add to blacklist</translation>
     </message>
     <message>
         <source>Remove from lists</source>
@@ -414,12 +414,8 @@
         <translation>Open</translation>
     </message>
     <message>
-        <source>File can&apos;t be opened</source>
-        <translation>File can&apos;t be opened</translation>
-    </message>
-    <message>
-        <source>This type of file can&apos;t be opened.</source>
-        <translation>This type of file can&apos;t be opened.</translation>
+        <source>File info</source>
+        <translation>File info</translation>
     </message>
     <message>
         <source>Location</source>
@@ -454,8 +450,12 @@
         <translation>Last modified</translation>
     </message>
     <message>
-        <source>File info</source>
-        <translation>File info</translation>
+        <source>File can&apos;t be opened</source>
+        <translation>File can&apos;t be opened</translation>
+    </message>
+    <message>
+        <source>This type of file can&apos;t be opened.</source>
+        <translation>This type of file can&apos;t be opened.</translation>
     </message>
 </context>
 <context>
@@ -499,6 +499,10 @@
 <context>
     <name>ProfileSettingsPage</name>
     <message>
+        <source>Profile settings</source>
+        <translation>Profile settings</translation>
+    </message>
+    <message>
         <source>Name</source>
         <translation>Name</translation>
     </message>
@@ -513,6 +517,14 @@
     <message>
         <source>Search directories lists</source>
         <translation>Search directories lists</translation>
+    </message>
+    <message>
+        <source>Whitelist directories:</source>
+        <translation>Whitelist directories:</translation>
+    </message>
+    <message>
+        <source>Blacklist directories:</source>
+        <translation>Blacklist directories:</translation>
     </message>
     <message>
         <source>Search options</source>
@@ -587,8 +599,20 @@
         <translation>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</translation>
     </message>
     <message>
+        <source>Run apps directly</source>
+        <translation>Run apps directly</translation>
+    </message>
+    <message>
+        <source>Enables direct app launch from APPS section on the search page</source>
+        <translation>Enables direct app launch from APPS section on the search page</translation>
+    </message>
+    <message>
         <source>Enable SQLITE section</source>
         <translation>Enable SQLITE section</translation>
+    </message>
+    <message>
+        <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
+        <translation>Enables searching inside *.sqlite, *.sqlite3, *.db files</translation>
     </message>
     <message>
         <source>Enable NOTES section</source>
@@ -605,30 +629,6 @@
     <message>
         <source>Enables searching for file and directory names</source>
         <translation>Enables searching for file and directory names</translation>
-    </message>
-    <message>
-        <source>Whitelist directories:</source>
-        <translation>Whitelist directories:</translation>
-    </message>
-    <message>
-        <source>Blacklist directories:</source>
-        <translation>Blacklist directories:</translation>
-    </message>
-    <message>
-        <source>Profile settings</source>
-        <translation>Profile settings</translation>
-    </message>
-    <message>
-        <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
-        <translation>Enables searching inside *.sqlite, *.sqlite3, *.db files</translation>
-    </message>
-    <message>
-        <source>Run apps directly</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables direct app launch from APPS section on the search page</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -660,6 +660,10 @@
     <message>
         <source>Rename</source>
         <translation>Rename</translation>
+    </message>
+    <message>
+        <source>Rename profile</source>
+        <translation>Rename profile</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -708,10 +712,6 @@
     <message>
         <source>If such profiles exist, they will be overwritten.</source>
         <translation>If such profiles exist, they will be overwritten.</translation>
-    </message>
-    <message>
-        <source>Rename profile</source>
-        <translation>Rename profile</translation>
     </message>
 </context>
 <context>
@@ -1070,6 +1070,10 @@
         <translation>SQLITE files content</translation>
     </message>
     <message>
+        <source>Applications</source>
+        <translation>Applications</translation>
+    </message>
+    <message>
         <source>Filenames</source>
         <translation>Filenames</translation>
     </message>
@@ -1101,8 +1105,32 @@
         <translation>About</translation>
     </message>
     <message>
+        <source>General options</source>
+        <translation>General options</translation>
+    </message>
+    <message>
+        <source>Profiles list</source>
+        <translation>Profiles list</translation>
+    </message>
+    <message>
+        <source>Current profile setup</source>
+        <translation>Current profile setup</translation>
+    </message>
+    <message>
         <source>Search %1</source>
         <translation>Search %1</translation>
+    </message>
+    <message>
+        <source>Profile:</source>
+        <translation>Profile:</translation>
+    </message>
+    <message>
+        <source>View</source>
+        <translation>View</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Run</translation>
     </message>
     <message>
         <source>Open</source>
@@ -1128,34 +1156,6 @@
         <source>This type of file can&apos;t be opened.</source>
         <translation>This type of file can&apos;t be opened.</translation>
     </message>
-    <message>
-        <source>Applications</source>
-        <translation>Applications</translation>
-    </message>
-    <message>
-        <source>General options</source>
-        <translation>General options</translation>
-    </message>
-    <message>
-        <source>Profiles list</source>
-        <translation>Profiles list</translation>
-    </message>
-    <message>
-        <source>Current profile setup</source>
-        <translation>Current profile setup</translation>
-    </message>
-    <message>
-        <source>Profile:</source>
-        <translation>Profile:</translation>
-    </message>
-    <message>
-        <source>Run</source>
-        <translation>Run</translation>
-    </message>
-    <message>
-        <source>View</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>SearchWorker</name>
@@ -1168,16 +1168,16 @@
         <translation>Bad search parameters</translation>
     </message>
     <message>
-        <source>Note nr</source>
-        <translation>Note nr</translation>
-    </message>
-    <message>
         <source>Profile configuration error!</source>
         <translation>Profile configuration error!</translation>
     </message>
     <message>
         <source>Check profile whitelist...</source>
         <translation>Check profile whitelist...</translation>
+    </message>
+    <message>
+        <source>Note nr</source>
+        <translation>Note nr</translation>
     </message>
 </context>
 <context>
@@ -1229,8 +1229,8 @@
         <translation>default</translation>
     </message>
     <message>
-        <source>Language:</source>
-        <translation>Language:</translation>
+        <source>General options</source>
+        <translation>General options</translation>
     </message>
     <message>
         <source>Default profile:</source>
@@ -1241,12 +1241,12 @@
         <translation>This profile will be used on the application startup</translation>
     </message>
     <message>
-        <source>Note: Change of this parameter requires restart of the application</source>
-        <translation>Note: Change of this parameter requires restart of the application</translation>
+        <source>Language:</source>
+        <translation>Language:</translation>
     </message>
     <message>
-        <source>General options</source>
-        <translation>General options</translation>
+        <source>Note: Change of this parameter requires restart of the application</source>
+        <translation>Note: Change of this parameter requires restart of the application</translation>
     </message>
 </context>
 <context>
@@ -1263,16 +1263,16 @@
         <translation>Text not found.</translation>
     </message>
     <message>
+        <source>Open </source>
+        <translation>Open </translation>
+    </message>
+    <message>
         <source>File can&apos;t be opened</source>
         <translation>File can&apos;t be opened</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>This type of file can&apos;t be opened.</translation>
-    </message>
-    <message>
-        <source>Open </source>
-        <translation>Open </translation>
     </message>
     <message>
         <source>Show complete record</source>

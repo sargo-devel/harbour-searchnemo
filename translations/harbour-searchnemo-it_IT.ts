@@ -8,8 +8,20 @@
         <translation>Info</translation>
     </message>
     <message>
+        <source>version:</source>
+        <translation>versione:</translation>
+    </message>
+    <message>
+        <source>Text and files search tool</source>
+        <translation>Strumento di ricerca file</translation>
+    </message>
+    <message>
         <source>Description</source>
         <translation>Descrizione</translation>
+    </message>
+    <message>
+        <source>This program searches for a text in files stored locally on the device</source>
+        <translation>Questo programma cerca testo nei file salvati localmente sul dispositivo</translation>
     </message>
     <message>
         <source>and presents results in a possibly useful form.</source>
@@ -18,18 +30,6 @@
     <message>
         <source>License</source>
         <translation>Licenza</translation>
-    </message>
-    <message>
-        <source>version:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Text and files search tool</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This program searches for a text in files stored locally on the device</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>License: GPL v3</source>
@@ -61,78 +61,78 @@
     </message>
     <message>
         <source>* Tap on section label with arrow to expand/collapse section.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Tocca la freccia nel nome della sezione per ridurre/espandere la sezione.</translation>
     </message>
     <message>
         <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Tocca il testo nella pagina dettagli per accedere alla pagina di selezione e copia.</translation>
     </message>
     <message>
         <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Tieni premuto sul campo di ricerca vuoto o scegli un altro profilo per pulire i risultati della ricerca.</translation>
     </message>
     <message>
         <source>* Choosing profile via &apos;Profiles list&apos; doesn&apos;t delete search results.</source>
-        <translation type="unfinished"></translation>
+        <translation>* La scelta di un profilo nella lista profili non pulisce i risultati della ricerca.</translation>
     </message>
     <message>
         <source>Profiles</source>
-        <translation type="unfinished"></translation>
+        <translation>Profili</translation>
     </message>
     <message>
         <source>Profiles give possibility to keep different search options under one short name.</source>
-        <translation type="unfinished"></translation>
+        <translation>I profili permettono di utilizzare differenti opzioni di ricerca velocemente.</translation>
     </message>
     <message>
         <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ciascun profilo contiene differenti percorsi e opzioni di ricerca.</translation>
     </message>
     <message>
         <source>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</source>
-        <translation type="unfinished"></translation>
+        <translation>* La ricerca avviene nelle cartelle incluse e non include le cartelle escluse.</translation>
     </message>
     <message>
         <source>* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.</source>
-        <translation type="unfinished"></translation>
+        <translation>* È possibile cercare all&apos;interno di una cartella anche se essa è una sottocartella di una cartella esclusa.</translation>
     </message>
     <message>
         <source>This gives a huge flexibility of creating own complex search paths.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ciò offre ampie possibilità di personalizzare i percorsi di ricerca.</translation>
     </message>
     <message>
         <source>Some example profiles are available in &apos;Profiles list&apos; menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Alcuni profili di esempio sono disponibili nel menu &apos;Lista profili&apos;.</translation>
     </message>
     <message>
         <source>Applications section (experimental)</source>
-        <translation type="unfinished"></translation>
+        <translation>Sezione applicazioni (sperimentale)</translation>
     </message>
     <message>
         <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cerca un&apos;applicazione all&apos;interno delle cartelle incluse, attraverso la ricerca nei file .desktop.</translation>
     </message>
     <message>
         <source>This fact has some implications:</source>
-        <translation type="unfinished"></translation>
+        <translation>Note:</translation>
     </message>
     <message>
         <source>* It gives only original (English) names unless it finds localized names there.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Viene presentato il nome originale, a meno che non il nome localizzato non sia presente all&apos;interno del file.</translation>
     </message>
     <message>
         <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Potrebbe dare alcuni risultati non aspettati, perché cerca all&apos;interno dell&apos;intero file.</translation>
     </message>
     <message>
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
-        <translation type="unfinished"></translation>
+        <translation>* Ciò potrebbe rivelarsi utile, ad esempio cercando &apos;=&apos; verranno mostrate tutte le app installate o cercando &apos;jolla&apos; verranno mostrate tutte le app create da Jolla</translation>
     </message>
 </context>
 <context>
     <name>AnimatedHeader</name>
     <message>
         <source>File info</source>
-        <translation type="unfinished"></translation>
+        <translation>Info file</translation>
     </message>
 </context>
 <context>
@@ -167,7 +167,7 @@
     </message>
     <message>
         <source>xdg-open found no preferred application</source>
-        <translation>xdg-open non ha impostata nessuna app</translation>
+        <translation>xdg-open non ha impostato nessuna app</translation>
     </message>
     <message>
         <source>Action failed</source>
@@ -190,11 +190,11 @@
     <name>ConsoleModel</name>
     <message>
         <source>** crashed</source>
-        <translation>crash di **</translation>
+        <translation>Crash di **</translation>
     </message>
     <message>
         <source>** error: %1</source>
-        <translation>errore di **: %1</translation>
+        <translation>Errore di **: %1</translation>
     </message>
     <message>
         <source>** error</source>
@@ -204,43 +204,43 @@
 <context>
     <name>DirLists</name>
     <message>
-        <source>Profile</source>
-        <translation type="unfinished"></translation>
+        <source>List of directories</source>
+        <translation>Cartelle</translation>
     </message>
     <message>
-        <source>List of directories</source>
-        <translation type="unfinished"></translation>
+        <source>Profile</source>
+        <translation>Profilo</translation>
     </message>
     <message>
         <source>Add/modify directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungi/modifica cartelle</translation>
     </message>
     <message>
         <source>Remove from list</source>
-        <translation type="unfinished"></translation>
+        <translation>Rimuovi dalla lista</translation>
     </message>
     <message>
         <source>Removing directory from list</source>
-        <translation type="unfinished"></translation>
+        <translation>Rimozione della cartella dalla lista</translation>
     </message>
     <message>
         <source>Whitelist directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Cartelle incluse</translation>
     </message>
     <message>
         <source>Blacklist directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Cartelle escluse</translation>
     </message>
 </context>
 <context>
     <name>DirPopup</name>
     <message>
         <source>Root (%1)</source>
-        <translation>Radice (%1)</translation>
+        <translation>/ (%1)</translation>
     </message>
     <message>
         <source>Root</source>
-        <translation>Radice</translation>
+        <translation>/</translation>
     </message>
     <message>
         <source>SD Card (%1)</source>
@@ -271,43 +271,43 @@
     <name>DirTree</name>
     <message>
         <source>Main tree</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista principale</translation>
     </message>
     <message>
         <source>Show hidden directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra cartelle nascoste</translation>
     </message>
     <message>
         <source>Hide hidden directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Nascondi cartelle nascoste</translation>
     </message>
     <message>
         <source>Accept</source>
-        <translation type="unfinished"></translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Annulla</translation>
     </message>
     <message>
         <source>Select directories by long press</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleziona cartelle con un tap lungo</translation>
     </message>
     <message>
         <source>Path:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Remove from lists</source>
-        <translation type="unfinished"></translation>
+        <translation>Percorso:</translation>
     </message>
     <message>
         <source>Add to whitelist</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungi a cartelle incluse</translation>
     </message>
     <message>
         <source>Add to blacklist</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungi a cartelle escluse</translation>
+    </message>
+    <message>
+        <source>Remove from lists</source>
+        <translation>Rimuovi dalla lista</translation>
     </message>
 </context>
 <context>
@@ -318,15 +318,15 @@
     </message>
     <message>
         <source>SD card</source>
-        <translation type="unfinished"></translation>
+        <translation>Scheda SD</translation>
     </message>
     <message>
         <source>Android storage</source>
-        <translation type="unfinished"></translation>
+        <translation>Memoria Android</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleziona</translation>
     </message>
 </context>
 <context>
@@ -415,7 +415,7 @@
     </message>
     <message>
         <source>File info</source>
-        <translation type="unfinished"></translation>
+        <translation>Info file</translation>
     </message>
     <message>
         <source>Location</source>
@@ -500,11 +500,11 @@
     <name>ProfileSettingsPage</name>
     <message>
         <source>Profile settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Impostazioni profilo</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <source>Description</source>
@@ -512,19 +512,19 @@
     </message>
     <message>
         <source>Profile description</source>
-        <translation type="unfinished"></translation>
+        <translation>Descrizione profilo</translation>
     </message>
     <message>
         <source>Search directories lists</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista cartelle di ricerca</translation>
     </message>
     <message>
         <source>Whitelist directories:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cartelle incluse:</translation>
     </message>
     <message>
         <source>Blacklist directories:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cartelle escluse:</translation>
     </message>
     <message>
         <source>Search options</source>
@@ -564,7 +564,7 @@
     </message>
     <message>
         <source>Result sections</source>
-        <translation>Risultati sezioni</translation>
+        <translation>Sezioni risultati</translation>
     </message>
     <message>
         <source>Enable TXT section</source>
@@ -592,10 +592,18 @@
     </message>
     <message>
         <source>Enable APPS section</source>
-        <translation type="unfinished"></translation>
+        <translation>Sezione APP</translation>
     </message>
     <message>
         <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
+        <translation>Abilita la ricerca di app. Questa è una funzione sperimentale.</translation>
+    </message>
+    <message>
+        <source>Run apps directly</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables direct app launch from APPS section on the search page</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -616,86 +624,78 @@
     </message>
     <message>
         <source>Enable Files and Directories sections</source>
-        <translation type="unfinished"></translation>
+        <translation>File e cartelle</translation>
     </message>
     <message>
         <source>Enables searching for file and directory names</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Run apps directly</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables direct app launch from APPS section on the search page</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita la ricerca di nomi di file e cartelle</translation>
     </message>
 </context>
 <context>
     <name>ProfilesPage</name>
     <message>
         <source>Profile name error!</source>
-        <translation type="unfinished"></translation>
+        <translation>Errore nome profilo!</translation>
     </message>
     <message>
         <source>Name exists. Try another one...</source>
-        <translation type="unfinished"></translation>
+        <translation>Il nome esiste. Inseriscine un altro...</translation>
     </message>
     <message>
         <source>Profiles list</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista profili</translation>
     </message>
     <message>
         <source>Add default set</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungi set predefinito</translation>
     </message>
     <message>
         <source>Add profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungi profilo</translation>
     </message>
     <message>
         <source>Set as current</source>
-        <translation type="unfinished"></translation>
+        <translation>Attiva</translation>
     </message>
     <message>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>Rinomina</translation>
     </message>
     <message>
         <source>Rename profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Rinomina profilo</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Elimina</translation>
     </message>
     <message>
         <source>Deleting profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Eliminazione profilo</translation>
     </message>
     <message>
         <source>Accept</source>
-        <translation type="unfinished"></translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Annulla</translation>
     </message>
     <message>
         <source>Profile name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nome profilo</translation>
     </message>
     <message>
         <source>Profile description</source>
-        <translation type="unfinished"></translation>
+        <translation>Descrizione profilo</translation>
     </message>
     <message>
         <source>The following profiles will be created:</source>
-        <translation type="unfinished"></translation>
+        <translation>I seguenti profili saranno creati:</translation>
     </message>
     <message>
         <source>Home dir</source>
-        <translation type="unfinished"></translation>
+        <translation>Cartella home</translation>
     </message>
     <message>
         <source>SD Card</source>
@@ -703,15 +703,15 @@
     </message>
     <message>
         <source>Applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Applicazioni</translation>
     </message>
     <message>
         <source>Entire tree</source>
-        <translation type="unfinished"></translation>
+        <translation>Cartella /</translation>
     </message>
     <message>
         <source>If such profiles exist, they will be overwritten.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se il profilo esiste già, sarà sovrascritto.</translation>
     </message>
 </context>
 <context>
@@ -1040,7 +1040,7 @@
     <name>SearchEngine</name>
     <message>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Applicazione</translation>
     </message>
 </context>
 <context>
@@ -1071,7 +1071,7 @@
     </message>
     <message>
         <source>Applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Applicazioni</translation>
     </message>
     <message>
         <source>Filenames</source>
@@ -1106,15 +1106,15 @@
     </message>
     <message>
         <source>General options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opzioni generali</translation>
     </message>
     <message>
         <source>Profiles list</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista profili</translation>
     </message>
     <message>
         <source>Current profile setup</source>
-        <translation type="unfinished"></translation>
+        <translation>Impostazioni profilo attivo</translation>
     </message>
     <message>
         <source>Search %1</source>
@@ -1122,15 +1122,19 @@
     </message>
     <message>
         <source>Profile:</source>
+        <translation>Profilo:</translation>
+    </message>
+    <message>
+        <source>View</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Lancia</translation>
     </message>
     <message>
         <source>Open</source>
         <translation>Apri</translation>
-    </message>
-    <message>
-        <source>Run</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Remove from search results</source>
@@ -1152,10 +1156,6 @@
         <source>This type of file can&apos;t be opened.</source>
         <translation>Questo tipo di file non può essere aperto.</translation>
     </message>
-    <message>
-        <source>View</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>SearchWorker</name>
@@ -1169,11 +1169,11 @@
     </message>
     <message>
         <source>Profile configuration error!</source>
-        <translation type="unfinished"></translation>
+        <translation>Errore configurazione profilo!</translation>
     </message>
     <message>
         <source>Check profile whitelist...</source>
-        <translation type="unfinished"></translation>
+        <translation>Controlla le cartelle incluse nel profilo...</translation>
     </message>
     <message>
         <source>Note nr</source>
@@ -1191,35 +1191,35 @@
     <name>Settings</name>
     <message>
         <source>Home dir</source>
-        <translation type="unfinished"></translation>
+        <translation>Cartella home</translation>
     </message>
     <message>
         <source>Entire home directory with hidden files</source>
-        <translation type="unfinished"></translation>
+        <translation>Intera cartella home con file nascosti</translation>
     </message>
     <message>
         <source>SD card</source>
-        <translation type="unfinished"></translation>
+        <translation>Scheda SD</translation>
     </message>
     <message>
         <source>Entire SD card with hidden files</source>
-        <translation type="unfinished"></translation>
+        <translation>Intera scheda SD con file nascosti</translation>
     </message>
     <message>
         <source>Applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Applicazioni</translation>
     </message>
     <message>
         <source>All installed applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Tutte le applicazioni installate</translation>
     </message>
     <message>
         <source>Entire tree</source>
-        <translation type="unfinished"></translation>
+        <translation>Cartella /</translation>
     </message>
     <message>
         <source>Entire dir tree. Warning: very long search</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;intero dispositivo. Attenzione: ricerca molto lunga</translation>
     </message>
 </context>
 <context>
@@ -1230,23 +1230,23 @@
     </message>
     <message>
         <source>General options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opzioni generali</translation>
     </message>
     <message>
         <source>Default profile:</source>
-        <translation type="unfinished"></translation>
+        <translation>Profilo predefinito:</translation>
     </message>
     <message>
         <source>This profile will be used on the application startup</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Note: Change of this parameter requires restart of the application</source>
-        <translation type="unfinished"></translation>
+        <translation>Questo profilo sarà usato all&apos;avvio dell&apos;applicazione</translation>
     </message>
     <message>
         <source>Language:</source>
         <translation>Lingua:</translation>
+    </message>
+    <message>
+        <source>Note: Change of this parameter requires restart of the application</source>
+        <translation>Nota: questa impostazione richiede il riavvio dell&apos;applicazione</translation>
     </message>
 </context>
 <context>
