@@ -130,6 +130,13 @@ Page {
 
                 SectionHeader { text: qsTr("Search options")}
                 TextSwitch {
+                    id: enableRegEx
+                    text: qsTr("Enable regular expressions")
+                    description: qsTr("Enables regular expressions in serched text")
+                    onClicked: profile.setOption(Profile.EnableRegEx, checked)
+                }
+
+                TextSwitch {
                     id: searchHiddenFiles
                     text: qsTr("Search hidden files")
                     description: qsTr("Enables searching inside hidden files and hidden directories")
@@ -236,6 +243,7 @@ Page {
             profWhite.text = qsTr("Whitelist directories:")+" "+profile.countWhiteList()
             profBlack.text = qsTr("Blacklist directories:")+" "+profile.countBlackList()
             profDesc.text = profile.description()
+            enableRegEx.checked = profile.getBoolOption(Profile.EnableRegEx)
             searchHiddenFiles.checked = profile.getBoolOption(Profile.SearchHiddenFiles)
             enableSymlinks.checked = profile.getBoolOption(Profile.EnableSymlinks)
             showOnlyFirstMatch.checked = profile.getBoolOption(Profile.SingleMatchSetting)

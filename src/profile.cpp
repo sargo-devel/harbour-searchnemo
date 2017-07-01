@@ -121,6 +121,7 @@ void Profile::readOptions()
     Settings settings;
 
     m_description = settings.read(m_name+" Options/description", QString(""));
+    m_enableRegEx = settings.read(m_name+" Options/enableRegEx", false);
     m_searchHiddenFiles = settings.read(m_name+" Options/searchHiddenFiles", true);
     m_enableSymlinks = settings.read(m_name+" Options/enableSymlinks", false);
     m_singleMatchSetting = settings.read(m_name+" Options/showOnlyFirstMatch", true);
@@ -141,6 +142,7 @@ void Profile::writeOptions()
     Settings settings;
 
     settings.write(m_name+" Options/description", m_description);
+    settings.write(m_name+" Options/enableRegEx", m_enableRegEx);
     settings.write(m_name+" Options/searchHiddenFiles", m_searchHiddenFiles);
     settings.write(m_name+" Options/enableSymlinks", m_enableSymlinks);
     settings.write(m_name+" Options/showOnlyFirstMatch", m_singleMatchSetting);
@@ -170,6 +172,9 @@ bool Profile::getBoolOption(Options key)
 {
     switch( key )
     {
+    case EnableRegEx:
+        return m_enableRegEx;
+        break;
     case SearchHiddenFiles:
         return m_searchHiddenFiles;
         break;
@@ -228,6 +233,10 @@ void Profile::setOption(Options key, bool value)
 {
     switch( key )
     {
+    case EnableRegEx:
+        m_enableRegEx=value;
+        m_unsaved=true;
+        break;
     case SearchHiddenFiles:
         m_searchHiddenFiles=value;
         m_unsaved=true;

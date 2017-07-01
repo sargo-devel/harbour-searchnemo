@@ -13,6 +13,7 @@ class Profile: public QObject
 
 public:
     enum Options {
+        EnableRegEx,
         SearchHiddenFiles,
         EnableSymlinks,
         SingleMatchSetting,
@@ -61,6 +62,7 @@ private:
     QStringList m_whiteList;    //whitelist of search directories
     int m_indexWhiteList;       //indicates current position in white list
     QStringList m_blackList;    //blacklist of search directories
+    bool m_enableRegEx;         //enable/disable regular expression in searched text
     bool m_searchHiddenFiles;   //enable/disable search in hidden files
     bool m_enableSymlinks;      //enable/disable follow symlinks
     bool m_singleMatchSetting;  //enable/disable cumulative (single) results match

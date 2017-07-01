@@ -16,6 +16,7 @@
 #include "searchworker.h"
 #include <QDateTime>
 #include <QSettings>
+#include <QRegularExpression>
 //#include <QDebug>
 #include "globals.h"
 #include "dbsqlite.h"
@@ -100,8 +101,8 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
     m_currentDirectory = directory;
     emit progressChanged(m_currentDirectory);
 
-
     //profile settings;
+    bool enableRegEx = m_profile.getBoolOption(Profile::EnableRegEx);
     bool hiddenSetting = m_profile.getBoolOption(Profile::SearchHiddenFiles);
     bool enableSymlinks = m_profile.getBoolOption(Profile::EnableSymlinks);
     bool singleMatchSetting = m_profile.getBoolOption(Profile::SingleMatchSetting);
@@ -112,6 +113,10 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
     bool enableSqlite = m_profile.getBoolOption(Profile::EnableSqlite);
     bool enableNotes = m_profile.getBoolOption(Profile::EnableNotes);
     bool enableFileDir = m_profile.getBoolOption(Profile::EnableFileDir);
+
+    //prepare for regEx
+    const QRegularExpression searchExpr(searchTerm);
+    if(!searchExpr.isValid()) enableRegEx=false;
 
     QDir::Filter hidden = hiddenSetting ? QDir::Hidden : (QDir::Filter)0;
 
@@ -128,7 +133,7 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
         QString fullpath = dir.absoluteFilePath(filename);
 
         if (enableFileDir)
-            if ( filename.contains(searchTerm, Qt::CaseInsensitive) )
+            if ( enableRegEx ? filename.contains(searchExpr) : filename.contains(searchTerm, Qt::CaseInsensitive) )
                 emit matchFound(fullpath, searchtype, "", matchline, 0);
 
         if (enableSymlinks) {
@@ -160,7 +165,7 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
             QString filename = names.at(i);
             QString fullpath = dir.absoluteFilePath(filename);
 
-            if ( filename.contains(searchTerm, Qt::CaseInsensitive) )
+            if ( enableRegEx ? filename.contains(searchExpr) : filename.contains(searchTerm, Qt::CaseInsensitive) )
                 emit matchFound(fullpath, searchtype, "", matchline, 0);
         }
     }
@@ -300,30 +305,33 @@ bool SearchWorker::searchTxtLoop(QTextStream *intxt, QString searchtype, QString
     int matchcount=0;
     QString matchline = "";
     QString firstmatchline = "";
+
+    //prepare fo RegEx
+    bool enableRegEx = m_profile.getBoolOption(Profile::EnableRegEx);
+    const QRegularExpression searchExpr(searchTerm);
+    if(!searchExpr.isValid()) enableRegEx=false;
+
     while (!intxt->atEnd()) {
         if (m_cancelled.loadAcquire() == Cancelled)
             return false;
         QString linetxt = intxt->readLine();
-        if (linetxt.contains(searchTerm, Qt::CaseInsensitive)) {
-            QString linetxtcopy = linetxt;
+        int findpos=0;
+        //search for several occurences of search text in one line
+        while ( (findpos = (enableRegEx ? linetxt.indexOf(searchExpr, findpos)
+                                     : linetxt.indexOf(searchTerm, findpos, Qt::CaseInsensitive))) != -1) {
             //prepate line for output
-            int findpos=linetxt.indexOf(searchTerm, 0, Qt::CaseInsensitive);
             if (findpos>10) matchline = "\u2026" + linetxt.mid(findpos-10,120);
             else matchline = linetxt.left(120);
             if(matchcount==0) firstmatchline=matchline;
+            findpos++;
+            matchcount++;
             if(!singleMatch) {
                 //found result
                 //APPS only on single match
                 if(searchtype != "APPS") emit matchFound(fullpath, searchtype, displabel, matchline, 0);
             }
-            //search for several occurences of search text in one line
-            int mcnt=0;
-            while ((mcnt = linetxtcopy.indexOf(searchTerm, mcnt, Qt::CaseInsensitive)) != -1) {
-                mcnt++;
-                matchcount++;
-                if (m_cancelled.loadAcquire() == Cancelled)
-                    return false;
-            }
+            if (m_cancelled.loadAcquire() == Cancelled)
+                return false;
         }
     }
     if( singleMatch && (matchcount >0) ) {
