@@ -17,6 +17,7 @@
 #include <QDateTime>
 #include <QSettings>
 #include <QRegularExpression>
+#include <QRegularExpressionMatch>
 //#include <QDebug>
 #include "globals.h"
 #include "dbsqlite.h"
@@ -316,15 +317,17 @@ bool SearchWorker::searchTxtLoop(QTextStream *intxt, QString searchtype, QString
             return false;
         QString linetxt = intxt->readLine();
         int findpos=0;
+        QRegularExpressionMatch matchR;
         //search for several occurences of search text in one line
-        while ( (findpos = (enableRegEx ? linetxt.indexOf(searchExpr, findpos)
-                                     : linetxt.indexOf(searchTerm, findpos, Qt::CaseInsensitive))) != -1) {
+        while ( (findpos = (enableRegEx ? (matchR = searchExpr.match(linetxt, findpos)).capturedStart()
+                                        : linetxt.indexOf(searchTerm, findpos, Qt::CaseInsensitive))) != -1) {
             //prepate line for output
             if (findpos>10) matchline = "\u2026" + linetxt.mid(findpos-10,120);
             else matchline = linetxt.left(120);
             if(matchcount==0) firstmatchline=matchline;
-            findpos++;
+            enableRegEx ? findpos=matchR.capturedEnd() : findpos+=searchTerm.size();
             matchcount++;
+
             if(!singleMatch) {
                 //found result
                 //APPS only on single match
