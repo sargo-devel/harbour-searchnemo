@@ -25,6 +25,7 @@ TxtFileView::TxtFileView(QObject *parent) : QObject(parent)
 {
    m_fullpath = "";
    m_stxt = "";
+   m_isRegEx = false;
    m_disptxt = "";
    m_allmatchcount = 0;
    m_hits = 0;
@@ -33,6 +34,7 @@ TxtFileView::TxtFileView(QObject *parent) : QObject(parent)
    m_maxbuflen = M_MAXBUFLEN;
    m_maxlinelen = M_MAXLINELEN;
    m_txtbuffer = QStringList();
+   m_plaintxtbuffer = QStringList();
    m_txtbufidx = QList<int>();
    m_stxtidx = -1;
    //qDebug() << "Konstruktor TxtFileView";
@@ -94,12 +96,14 @@ void TxtFileView::getBlock()
     while ( (!isBufferSizeOk() || (m_stxtidx < 0)) && (!m_stream.atEnd()) ) {
         QString line =  m_stream.readLine();
         m_txtbufidx.append(line.count());
-        if (line.contains(m_stxt, Qt::CaseInsensitive)) {
+        m_plaintxtbuffer.append(line);
+        if (m_isRegEx ? line.contains(m_stxtRe) : line.contains(m_stxt, Qt::CaseInsensitive)) {
             line=addBoldMarks(line);
             if( m_stxtidx < 0 ) m_stxtidx = m_txtbufidx.count() - 1;
         }
         m_txtbuffer.append(line);
         if (!isMaxBeforeOk()) {
+            m_plaintxtbuffer.removeFirst();
             m_txtbuffer.removeFirst();
             m_txtbufidx.removeFirst();
             if (m_stxtidx > -1) m_stxtidx--;
@@ -107,13 +111,10 @@ void TxtFileView::getBlock()
     }
 
     // prepare plain output text
-    QStringList tmpbuf = m_txtbuffer;
-    tmpbuf.replaceInStrings("<b><u>" + m_stxt + "</u></b>", m_stxt, Qt::CaseInsensitive);
-    m_disptxtplain = tmpbuf.join("\n");
+    m_disptxtplain = m_plaintxtbuffer.join("\n");
 
     // prepare output text with markups
-    QSettings settings;
-    bool singleMatchSetting = settings.value("showOnlyFirstMatch", true).toBool();
+    bool singleMatchSetting = m_profile.getBoolOption(Profile::SingleMatchSetting);
     QString header = "";
     if (singleMatchSetting)
         header = QString(tr("<b>[%1/%n hit(s)]</b><br>", "", m_allmatchcount)).arg(m_hits);
@@ -124,12 +125,14 @@ void TxtFileView::getBlock()
 
 void TxtFileView::getFirst()
 {
-
     m_txtbuffer.clear();
+    m_plaintxtbuffer.clear();
     m_txtbufidx.clear();
     m_stxtidx = -1;
     m_hits = 0;
     m_stream.seek(0);
+
+    prepareRegex();
     getBlock();
 }
 
@@ -138,6 +141,7 @@ void TxtFileView::getNext()
     if( !m_stream.atEnd() && (m_hits != m_allmatchcount) ) {
         if (!m_txtbuffer.isEmpty()) {
             m_txtbuffer.removeFirst();
+            m_plaintxtbuffer.removeFirst();
             m_txtbufidx.removeFirst();
             if (m_stxtidx > -1) m_stxtidx=-1;
         }
@@ -148,12 +152,22 @@ void TxtFileView::getNext()
 QString TxtFileView::addBoldMarks(QString txtline)
 {
     int i=0;
-
-    while ((i = txtline.indexOf(m_stxt, i, Qt::CaseInsensitive)) != -1) {
-        txtline.insert(i+m_stxt.size(),"</u></b>");
-        txtline.insert(i,"<b><u>");
-        i+=7;
-        m_hits++;
+    if(m_isRegEx) {
+        QRegularExpressionMatch match;
+        while( (match = m_stxtRe.match(txtline, i)).hasMatch() )  {
+            txtline.insert(match.capturedEnd(),"</u></b>");
+            txtline.insert(match.capturedStart(),"<b><u>");
+            i=match.capturedEnd()+6+8;
+            m_hits++;
+       }
+    }
+    else {
+        while ((i = txtline.indexOf(m_stxt, i, Qt::CaseInsensitive)) != -1) {
+            txtline.insert(i+m_stxt.size(),"</u></b>");
+            txtline.insert(i,"<b><u>");
+            i+=m_stxt.size()+6+8;
+            m_hits++;
+        }
     }
     return txtline;
 }
@@ -181,4 +195,14 @@ bool TxtFileView::isBufferSizeOk()
         sum+= qCeil( qreal(m_txtbufidx.at(i))/qreal(m_maxlinelen));
     if( sum < m_maxbuflen) return false;
     return true;
+}
+
+void TxtFileView::prepareRegex()
+// prepares regular expression
+{
+    m_isRegEx = m_profile.getBoolOption(Profile::EnableRegEx);
+    if(m_isRegEx) {
+        m_stxtRe.setPattern(m_stxt);
+        if(!m_stxtRe.isValid()) m_isRegEx = false;
+    }
 }

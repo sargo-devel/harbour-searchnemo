@@ -23,6 +23,7 @@ import "../components"
 Page {
     id: page
     allowedOrientations: Orientation.All
+    property string profilename: ""
     property string file: "/"
     property string searchedtext: ""
     property alias isFileInfoOpen: detailsView.isInfoColumnEnabled
@@ -35,6 +36,7 @@ Page {
 
     TxtFileView {
         id: txtFileView
+        profilename: page.profilename
         fullpath: page.file
         stxt: page.searchedtext
         allmatchcount: page.matchcount

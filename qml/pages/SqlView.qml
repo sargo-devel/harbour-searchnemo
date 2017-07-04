@@ -23,6 +23,7 @@ import "../components"
 Page {
     id: page
     allowedOrientations: Orientation.All
+    property string profilename: ""
     property string file: "/"
     property string displabel: ""
     property string searchedtext: ""
@@ -36,6 +37,7 @@ Page {
 
     SqlFileView {
         id: sqlFileView
+        profilename: page.profilename
         fullpath: page.file
         displabel: page.displabel
         stxt: page.searchedtext

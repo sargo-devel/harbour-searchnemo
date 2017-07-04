@@ -110,11 +110,11 @@ Page {
         switch (searchtype) {
         case "NOTES":
             pageStack.push(Qt.resolvedUrl("NotesView.qml"),
-                           { file: fullname, searchedtext: page.searchFieldText, matchcount: matchcount, notenr: displabel, isFileInfoOpen: false});
+                           { profilename: page.profilename, file: fullname, searchedtext: page.searchFieldText, matchcount: matchcount, notenr: displabel, isFileInfoOpen: false});
             break;
         case "TXT":
             pageStack.push(Qt.resolvedUrl("TxtView.qml"),
-                           { file: fullname, searchedtext: page.searchFieldText, matchcount: matchcount, isFileInfoOpen: false});
+                           { profilename: page.profilename, file: fullname, searchedtext: page.searchFieldText, matchcount: matchcount, isFileInfoOpen: false});
             break;
         case "HTML":
             pageStack.push(Qt.resolvedUrl("HtmlView.qml"),
@@ -122,19 +122,19 @@ Page {
             break;
         case "PDF":
             pageStack.push(Qt.resolvedUrl("TxtView.qml"),
-                           { file: fullname, searchedtext: page.searchFieldText, matchcount: matchcount, isFileInfoOpen: true});
+                           { profilename: page.profilename, file: fullname, searchedtext: page.searchFieldText, matchcount: matchcount, isFileInfoOpen: true});
             break;
         case "SRC":
             pageStack.push(Qt.resolvedUrl("TxtView.qml"),
-                           { file: fullname, searchedtext: page.searchFieldText, matchcount: matchcount, isFileInfoOpen: false})
+                           { profilename: page.profilename, file: fullname, searchedtext: page.searchFieldText, matchcount: matchcount, isFileInfoOpen: false})
             break;
         case "APPS":
             pageStack.push(Qt.resolvedUrl("TxtView.qml"),
-                           { file: fullname, searchedtext: page.searchFieldText, matchcount: matchcount, isFileInfoOpen: false})
+                           { profilename: page.profilename, file: fullname, searchedtext: page.searchFieldText, matchcount: matchcount, isFileInfoOpen: false})
             break;
         case "SQLITE":
             pageStack.push(Qt.resolvedUrl("SqlView.qml"),
-                           { file: fullname, searchedtext: page.searchFieldText, matchcount: matchcount, displabel: displabel, isFileInfoOpen: false})
+                           { profilename: page.profilename, file: fullname, searchedtext: page.searchFieldText, matchcount: matchcount, displabel: displabel, isFileInfoOpen: false})
             break;
         case "FILE":
             pageStack.push(Qt.resolvedUrl("FileView.qml"),

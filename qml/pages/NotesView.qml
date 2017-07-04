@@ -20,10 +20,10 @@ import harbour.searchnemo.NotesFileView 1.0
 import "functions.js" as Functions
 import "../components"
 
-
 Page {
     id: page
     allowedOrientations: Orientation.All
+    property string profilename: ""
     property string file: "/"
     property string notenr: ""
     property string searchedtext: ""
@@ -37,6 +37,7 @@ Page {
 
     NotesFileView {
         id: notesFileView
+        profilename: page.profilename
         fullpath: page.file
         notenr: page.notenr
         stxt: page.searchedtext
