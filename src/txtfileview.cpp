@@ -203,6 +203,7 @@ void TxtFileView::prepareRegex()
     m_isRegEx = m_profile.getBoolOption(Profile::EnableRegEx);
     if(m_isRegEx) {
         m_stxtRe.setPattern(m_stxt);
+        m_stxtRe.setPatternOptions(QRegularExpression::UseUnicodePropertiesOption);
         if(!m_stxtRe.isValid()) m_isRegEx = false;
     }
 }

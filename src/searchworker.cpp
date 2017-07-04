@@ -116,7 +116,7 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
     bool enableFileDir = m_profile.getBoolOption(Profile::EnableFileDir);
 
     //prepare for regEx
-    const QRegularExpression searchExpr(searchTerm);
+    const QRegularExpression searchExpr(searchTerm, QRegularExpression::UseUnicodePropertiesOption);
     if(!searchExpr.isValid()) enableRegEx=false;
 
     QDir::Filter hidden = hiddenSetting ? QDir::Hidden : (QDir::Filter)0;
@@ -309,7 +309,7 @@ bool SearchWorker::searchTxtLoop(QTextStream *intxt, QString searchtype, QString
 
     //prepare fo RegEx
     bool enableRegEx = m_profile.getBoolOption(Profile::EnableRegEx);
-    const QRegularExpression searchExpr(searchTerm);
+    const QRegularExpression searchExpr(searchTerm, QRegularExpression::UseUnicodePropertiesOption);
     if(!searchExpr.isValid()) enableRegEx=false;
 
     while (!intxt->atEnd()) {
