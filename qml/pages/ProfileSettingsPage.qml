@@ -132,7 +132,7 @@ Page {
                 TextSwitch {
                     id: enableRegEx
                     text: qsTr("Enable regular expressions")
-                    description: qsTr("Enables regular expressions in serched text")
+                    description: qsTr("Enables regular expressions in searched text")
                     onClicked: profile.setOption(Profile.EnableRegEx, checked)
                 }
 

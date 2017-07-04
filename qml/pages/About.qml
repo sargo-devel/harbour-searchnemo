@@ -115,6 +115,7 @@ Page {
                 color: parent.color
                 text: qsTr("* Tap on section label with arrow to expand/collapse section.") + "\n"
                       + qsTr("* Tap on text in detailed view to enter 'Select and copy' page.") + "\n"
+                      + qsTr("* Tap on magnifying glass to set Regexp search on/off.") + "\n"
                       + qsTr("* Press and hold on empty search field or choose another profile to clear search results.") + "\n"
                       + qsTr("* Choosing profile via 'Profiles list' doesn't delete search results.")
                       + "\n"
@@ -143,6 +144,41 @@ Page {
                       + qsTr("This gives a huge flexibility of creating own complex search paths.") + " "
                       + qsTr("Some example profiles are available in 'Profiles list' menu.")
                       + "\n"
+            }
+            Label {
+                anchors.left: parent.left
+                anchors.right: parent.right
+                font.pixelSize: Theme.fontSizeSmall
+                horizontalAlignment: Text.AlignLeft
+                textFormat: Text.StyledText
+                wrapMode: Text.Wrap
+                color: parent.color
+                text: "<u>" + qsTr("Regular expressions (Regexp)") + "</u>"
+            }
+            Label {
+                anchors.left: parent.left
+                anchors.right: parent.right
+                font.pixelSize: Theme.fontSizeSmall
+                horizontalAlignment: Text.AlignJustify
+                wrapMode: Text.Wrap
+                color: parent.color
+                text: qsTr("Regexp is a powerful tool for finding complex text patterns.") + " "
+                      + qsTr("Engine in this app uses 'QRegularExpression' type which implements Perl-compatible (PCRE) regular expressions.") + "\n"
+                      + qsTr("There are some rules used here:") + "\n"
+                      + qsTr("* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. '(?i)hello').") + "\n"
+                      + qsTr("* Unicode properties are set by default. Character classes (e.g. \\w \\d) are unicode compatible.") + "\n"
+                      + qsTr("* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.") + "\n"
+                      + qsTr("Reference:")
+            }
+            Label {
+                anchors.left: parent.left
+                anchors.right: parent.right
+                font.pixelSize: Theme.fontSizeTiny
+                textFormat: Text.StyledText
+                linkColor: Theme.highlightColor
+                color: parent.color
+                text: "<a href=\"http://doc.qt.io/qt-5/qregularexpression.html#details\">http://doc.qt.io/qt-5/qregularexpression.html</a><br><br>"
+                onLinkActivated: { console.log(link);Qt.openUrlExternally(link) }
             }
             Label {
                 anchors.left: parent.left
