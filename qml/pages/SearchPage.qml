@@ -279,6 +279,23 @@ Page {
                     size: BusyIndicatorSize.Small
                 }
             }
+
+            // Switch regex on/off
+            Label {
+                id: dispRegEx
+                opacity: searchEngine.enableRegEx ? 1 : 0
+                anchors.left: searchField.left
+                anchors.top: searchField.top
+                anchors.leftMargin: Theme.itemSizeSmall/2
+                anchors.topMargin: Theme.paddingLarge
+                //font.bold: true
+                text: "R"
+                MouseArea {
+                    anchors.fill: parent
+                    onClicked: searchEngine.enableRegEx = !searchEngine.enableRegEx
+                }
+            }
+
             Label {
                 id: foundText
                 visible: false

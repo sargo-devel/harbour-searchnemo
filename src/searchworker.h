@@ -24,6 +24,8 @@ public:
     void setProfile(QString name) { m_profile.setName(name); }
     int getProfileOption_MaxResultsPerSection() { return m_profile.getIntOption(Profile::MaxResultsPerSection); }
     bool getProfileOption_EnableAppsRunDirect() { return m_profile.getBoolOption(Profile::EnableAppsRunDirect); }
+    bool getProfileOption_EnableRegEx() { return m_profile.getBoolOption(Profile::EnableRegEx); }
+    void setProfileOption_EnableRegEx(bool regex) { m_profile.setOption(Profile::EnableRegEx,regex); }
 
 signals: // signals, can be connected from a thread to another
 

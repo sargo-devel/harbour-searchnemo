@@ -25,6 +25,7 @@ SearchEngine::SearchEngine(QObject *parent) :
     connect(m_searchWorker, SIGNAL(profileSettingsChanged()), this, SIGNAL(profileSettingsChanged()));
     connect(m_searchWorker, SIGNAL(profileSettingsChanged()), this, SLOT(emitMaxResultsPerSection()));
     connect(m_searchWorker, SIGNAL(profileSettingsChanged()), this, SLOT(emitEnableAppsRunDirect()));
+    connect(m_searchWorker, SIGNAL(profileSettingsChanged()), this, SLOT(emitEnableRegEx()));
     connect(m_searchWorker, SIGNAL(profileNameChanged()), this, SIGNAL(profilenameChanged()));
 
     //for icons recognition
@@ -64,6 +65,19 @@ void SearchEngine::emitEnableAppsRunDirect()
 {
     m_enableAppsRunDirect = m_searchWorker->getProfileOption_EnableAppsRunDirect();
     emit enableAppsRunDirectChanged();
+}
+
+void SearchEngine::emitEnableRegEx()
+{
+    m_enableRegEx = m_searchWorker->getProfileOption_EnableRegEx();
+    emit enableRegExChanged();
+}
+
+void SearchEngine::setEnableRegEx(bool regex)
+{
+    m_enableRegEx = regex;
+    m_searchWorker->setProfileOption_EnableRegEx(regex);
+    emit enableRegExChanged();
 }
 
 bool SearchEngine::running() const
