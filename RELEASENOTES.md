@@ -1,7 +1,11 @@
 
 # SearchNemo Release Notes
 
-## Version 0.3.2 (2016-12-16)
+## Version 0.3.3 (2017-07-05)
+* Added option: Run apps directly
+* Fixed profile selection
+
+## Version 0.3.2 (2016-12-16) (Jolla Store 2016-12-19)
 * Modification: display fullpath in a first row of the TXT-like sections, fixed elide in a second row
 * Modification: new highlight style of search results
 * Fixed wrong blacklist handling
