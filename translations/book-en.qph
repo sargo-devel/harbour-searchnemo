@@ -125,6 +125,58 @@
     <target>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</target>
 </phrase>
 <phrase>
+    <source>* Tap on magnifying glass to set Regexp search on/off.</source>
+    <target>* Tap on magnifying glass to set Regexp search on/off.</target>
+</phrase>
+<phrase>
+    <source>Regular expressions (Regexp)</source>
+    <target>Regular expressions (Regexp)</target>
+</phrase>
+<phrase>
+    <source>Regexp is a powerful tool for finding complex text patterns.</source>
+    <target>Regexp is a powerful tool for finding complex text patterns.</target>
+</phrase>
+<phrase>
+    <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
+    <target>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</target>
+</phrase>
+<phrase>
+    <source>There are some rules used here:</source>
+    <target>There are some rules used here:</target>
+</phrase>
+<phrase>
+    <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
+    <target>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</target>
+</phrase>
+<phrase>
+    <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
+    <target>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</target>
+</phrase>
+<phrase>
+    <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
+    <target>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</target>
+</phrase>
+<phrase>
+    <source>Reference:</source>
+    <target>Reference:</target>
+</phrase>
+<phrase>
+    <source>If you want to contribute to translate into your language, plese join in:</source>
+    <target>If you want to contribute to translate into your language, plese join in:</target>
+</phrase>
+<phrase>
+    <source>Translation service</source>
+    <target>Translation service</target>
+</phrase>
+<phrase>
+    <source>Donations</source>
+    <target>Donations</target>
+</phrase>
+<phrase>
+    <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
+    <target>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</target>
+</phrase>
+<phrase>
     <source>File info</source>
     <target>File info</target>
 </phrase>
@@ -587,6 +639,14 @@
 <phrase>
     <source>Enables searching for file and directory names</source>
     <target>Enables searching for file and directory names</target>
+</phrase>
+<phrase>
+    <source>Enable regular expressions</source>
+    <target>Enable regular expressions</target>
+</phrase>
+<phrase>
+    <source>Enables regular expressions in searched text</source>
+    <target>Enables regular expressions in searched text</target>
 </phrase>
 <phrase>
     <source>Profile name error!</source>

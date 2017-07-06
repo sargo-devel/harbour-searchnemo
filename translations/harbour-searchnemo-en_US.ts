@@ -127,6 +127,58 @@
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
         <translation>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</translation>
     </message>
+    <message>
+        <source>* Tap on magnifying glass to set Regexp search on/off.</source>
+        <translation>* Tap on magnifying glass to set Regexp search on/off.</translation>
+    </message>
+    <message>
+        <source>Regular expressions (Regexp)</source>
+        <translation>Regular expressions (Regexp)</translation>
+    </message>
+    <message>
+        <source>Regexp is a powerful tool for finding complex text patterns.</source>
+        <translation>Regexp is a powerful tool for finding complex text patterns.</translation>
+    </message>
+    <message>
+        <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
+        <translation>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</translation>
+    </message>
+    <message>
+        <source>There are some rules used here:</source>
+        <translation>There are some rules used here:</translation>
+    </message>
+    <message>
+        <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
+        <translation>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</translation>
+    </message>
+    <message>
+        <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
+        <translation>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</translation>
+    </message>
+    <message>
+        <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
+        <translation>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</translation>
+    </message>
+    <message>
+        <source>Reference:</source>
+        <translation>Reference:</translation>
+    </message>
+    <message>
+        <source>If you want to contribute to translate into your language, plese join in:</source>
+        <translation>If you want to contribute to translate into your language, plese join in:</translation>
+    </message>
+    <message>
+        <source>Translation service</source>
+        <translation>Translation service</translation>
+    </message>
+    <message>
+        <source>Donations</source>
+        <translation>Donations</translation>
+    </message>
+    <message>
+        <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
+        <translation>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</translation>
+    </message>
 </context>
 <context>
     <name>AnimatedHeader</name>
@@ -629,6 +681,14 @@
     <message>
         <source>Enables searching for file and directory names</source>
         <translation>Enables searching for file and directory names</translation>
+    </message>
+    <message>
+        <source>Enable regular expressions</source>
+        <translation>Enable regular expressions</translation>
+    </message>
+    <message>
+        <source>Enables regular expressions in searched text</source>
+        <translation>Enables regular expressions in searched text</translation>
     </message>
 </context>
 <context>

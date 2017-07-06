@@ -127,6 +127,58 @@
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
         <translation>* Detta kan vara användbart, då t.ex. sökning på &apos;=&apos; visar alla hittade appar och sökning på &apos;jolla&apos;, visar alla appar skapade av Jolla.</translation>
     </message>
+    <message>
+        <source>* Tap on magnifying glass to set Regexp search on/off.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Regular expressions (Regexp)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Regexp is a powerful tool for finding complex text patterns.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There are some rules used here:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reference:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you want to contribute to translate into your language, plese join in:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translation service</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Donations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AnimatedHeader</name>
@@ -629,6 +681,14 @@
     <message>
         <source>Enables searching for file and directory names</source>
         <translation>Aktiverar sökning efter fil- och mappnamn</translation>
+    </message>
+    <message>
+        <source>Enable regular expressions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables regular expressions in searched text</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

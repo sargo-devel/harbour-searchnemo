@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="en">
 <context>
     <name>About</name>
     <message>
@@ -9,22 +9,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+21"/>
-        <source>Description</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>and presents results in a possibly useful form.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>License</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-18"/>
+        <location line="+17"/>
         <source>version:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -34,12 +19,27 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+3"/>
+        <source>Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
         <source>This program searches for a text in files stored locally on the device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+1"/>
+        <source>and presents results in a possibly useful form.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>License</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
         <source>License: GPL v3</source>
         <translation type="unfinished"></translation>
     </message>
@@ -49,7 +49,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+15"/>
         <source>Translations</source>
         <translation type="unfinished"></translation>
     </message>
@@ -69,7 +69,27 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+11"/>
+        <source>If you want to contribute to translate into your language, plese join in:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Translation service</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Donations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>Help and Tips</source>
         <translation type="unfinished"></translation>
     </message>
@@ -81,6 +101,11 @@
     <message>
         <location line="+1"/>
         <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>* Tap on magnifying glass to set Regexp search on/off.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -130,6 +155,46 @@
     </message>
     <message>
         <location line="+11"/>
+        <source>Regular expressions (Regexp)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Regexp is a powerful tool for finding complex text patterns.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>There are some rules used here:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reference:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
         <source>Applications section (experimental)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -251,17 +316,17 @@
 <context>
     <name>DirLists</name>
     <message>
-        <location filename="../qml/pages/DirLists.qml" line="+119"/>
-        <source>Profile</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-1"/>
+        <location filename="../qml/pages/DirLists.qml" line="+118"/>
         <source>List of directories</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+1"/>
+        <source>Profile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Add/modify directories</source>
         <translation type="unfinished"></translation>
     </message>
@@ -369,18 +434,18 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+98"/>
-        <source>Remove from lists</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-11"/>
+        <location line="+87"/>
         <source>Add to whitelist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Add to blacklist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Remove from lists</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -587,7 +652,7 @@
 <context>
     <name>NotesView</name>
     <message>
-        <location filename="../qml/pages/NotesView.qml" line="+44"/>
+        <location filename="../qml/pages/NotesView.qml" line="+45"/>
         <source>Text not found.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -641,23 +706,33 @@
     </message>
     <message>
         <location line="+11"/>
-        <location line="+147"/>
+        <location line="+154"/>
         <source>Whitelist directories:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-146"/>
-        <location line="+147"/>
+        <location line="-153"/>
+        <location line="+154"/>
         <source>Blacklist directories:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-106"/>
+        <location line="-113"/>
         <source>Search options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>Enable regular expressions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enables regular expressions in searched text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
         <source>Search hidden files</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1296,7 +1371,7 @@
 <context>
     <name>SearchEngine</name>
     <message>
-        <location filename="../src/searchengine.cpp" line="+98"/>
+        <location filename="../src/searchengine.cpp" line="+112"/>
         <source>Application</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1360,15 +1435,16 @@
     </message>
     <message numerus="yes">
         <location line="+2"/>
-        <location line="+186"/>
+        <location line="+205"/>
         <location line="+196"/>
         <source>%n hit(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location line="-301"/>
+        <location line="-320"/>
         <source>Searching</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1398,7 +1474,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+85"/>
+        <location line="+104"/>
         <source>Profile:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1446,7 +1522,7 @@
 <context>
     <name>SearchWorker</name>
     <message>
-        <location filename="../src/searchworker.cpp" line="+48"/>
+        <location filename="../src/searchworker.cpp" line="+50"/>
         <source>Search already in progress</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1466,7 +1542,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+188"/>
+        <location line="+192"/>
         <source>Note nr</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1545,13 +1621,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Note: Change of this parameter requires restart of the application</source>
+        <location line="+18"/>
+        <source>Language:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-1"/>
-        <source>Language:</source>
+        <location line="+1"/>
+        <source>Note: Change of this parameter requires restart of the application</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1566,7 +1642,7 @@
 <context>
     <name>SqlView</name>
     <message>
-        <location filename="../qml/pages/SqlView.qml" line="+43"/>
+        <location filename="../qml/pages/SqlView.qml" line="+45"/>
         <source>Text not found.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1599,9 +1675,10 @@
 <context>
     <name>TxtFileView</name>
     <message numerus="yes">
-        <location filename="../src/txtfileview.cpp" line="+119"/>
+        <location filename="../src/txtfileview.cpp" line="+120"/>
         <source>&lt;b&gt;[%1/%n hit(s)]&lt;/b&gt;&lt;br&gt;</source>
         <translation type="unfinished">
+            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -1609,7 +1686,7 @@
 <context>
     <name>TxtView</name>
     <message>
-        <location filename="../qml/pages/TxtView.qml" line="+41"/>
+        <location filename="../qml/pages/TxtView.qml" line="+43"/>
         <source>Text not found.</source>
         <translation type="unfinished"></translation>
     </message>
