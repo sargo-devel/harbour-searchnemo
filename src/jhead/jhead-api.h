@@ -15,6 +15,7 @@
 // gets used in more than one file.
 //--------------------------------------------------------------------------
 #include <QStringList>
+#include <QObject>
 
 #ifdef __cplusplus
 extern "C" {

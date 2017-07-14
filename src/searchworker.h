@@ -42,7 +42,7 @@ signals: // signals, can be connected from a thread to another
     void profileNameChanged();
 
 protected:
-    void run();
+    void run() Q_DECL_OVERRIDE;
 
 private:
     enum CancelStatus {
