@@ -284,11 +284,13 @@ Page {
             Label {
                 id: dispRegEx
                 opacity: searchEngine.enableRegEx ? 1 : 0
-                anchors.left: searchField.left
-                anchors.top: searchField.top
-                anchors.leftMargin: Theme.itemSizeSmall/2
-                anchors.topMargin: Theme.paddingLarge
-                //font.bold: true
+                anchors.fill: searchField
+                anchors.leftMargin: Theme.horizontalPageMargin
+                anchors.rightMargin: searchField.width - searchField.textLeftMargin + Theme.paddingSmall + Theme.itemSizeSmall/6
+                anchors.bottomMargin: Theme.paddingSmall*2
+                horizontalAlignment: Text.AlignHCenter
+                verticalAlignment: Text.AlignVCenter
+                font.pixelSize: Theme.fontSizeSmall
                 text: "R"
                 MouseArea {
                     anchors.fill: parent
