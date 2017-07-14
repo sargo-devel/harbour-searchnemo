@@ -56,6 +56,22 @@
         <translation>Włoski</translation>
     </message>
     <message>
+        <source>If you want to contribute to translate into your language, plese join in:</source>
+        <translation>Jeśli chcesz przyczynić się do tłumaczenia na Twój język, przyłącz się, proszę:</translation>
+    </message>
+    <message>
+        <source>Translation service</source>
+        <translation>Strona z tłumaczeniami</translation>
+    </message>
+    <message>
+        <source>Donations</source>
+        <translation>Dotacje</translation>
+    </message>
+    <message>
+        <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
+        <translation>Jeśli używanie tej apki sprawia Ci tyle radości, co mi, kiedy ją tworzyłem, rozważ proszę dotację, aby uczynić nas oboje bardziej zadowolymi z dobrze wykonanej roboty.</translation>
+    </message>
+    <message>
         <source>Help and Tips</source>
         <translation>Pomoc i wskazówki</translation>
     </message>
@@ -66,6 +82,10 @@
     <message>
         <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
         <translation>* Dotknij tekst w widoku szczegółowym by wejść na stronę &apos;Wybierz i kopiuj&apos;.</translation>
+    </message>
+    <message>
+        <source>* Tap on magnifying glass to set Regexp search on/off.</source>
+        <translation>* Dotknij lupę w celu włączenia/wyłączenia wyrażeń regularnych.</translation>
     </message>
     <message>
         <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
@@ -104,6 +124,38 @@
         <translation>Kilka przykładowych profili jest dostępnych w menu &apos;Lista profili&apos;.</translation>
     </message>
     <message>
+        <source>Regular expressions (Regexp)</source>
+        <translation>Wyrażenia regularne (Regexp)</translation>
+    </message>
+    <message>
+        <source>Regexp is a powerful tool for finding complex text patterns.</source>
+        <translation>Regexp to potężne narzędzie do znajdowania złożonych wzorców tekstowych.</translation>
+    </message>
+    <message>
+        <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
+        <translation>Silnik tej aplikacji używa typu &apos;QRegularExpression&apos;, który implementuje wyrażenia regularne Perl-kompatybilne (PCRE).</translation>
+    </message>
+    <message>
+        <source>There are some rules used here:</source>
+        <translation>Oto kilka obowiązujących tu zasad:</translation>
+    </message>
+    <message>
+        <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
+        <translation>* Wyszukiwanie domyślnie rozróżnia wielkość liter. Można to zmienić we wzorcu Regexp (np. &apos;(?i)hello&apos;).</translation>
+    </message>
+    <message>
+        <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
+        <translation>* Właściwości unikodu są domyślnie włączone. Klasy znaków (np. \w \d) są kompatybilne z unikodem.</translation>
+    </message>
+    <message>
+        <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
+        <translation>* Wyszukiwanie jest ZAWSZE według linii niezależnie od ustawień Regexp. Oznacza to, że Regexp nigdy nie jest stosowane do całego pliku, operuje na pojedynczych liniach.</translation>
+    </message>
+    <message>
+        <source>Reference:</source>
+        <translation>Odnośnik:</translation>
+    </message>
+    <message>
         <source>Applications section (experimental)</source>
         <translation>Sekcja aplikacji (eksperymentalne)</translation>
     </message>
@@ -126,58 +178,6 @@
     <message>
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
         <translation>* Może to być użyteczne, np.: wyszukiwanie &apos;=&apos; zwróci wszystkie znalezione aplikacje, wyszukiwanie &apos;jolla&apos; poda wszystkie aplikacje stworzone przez Jolla</translation>
-    </message>
-    <message>
-        <source>If you want to contribute to translate into your language, plese join in:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Translation service</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Donations</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>* Tap on magnifying glass to set Regexp search on/off.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Regular expressions (Regexp)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Regexp is a powerful tool for finding complex text patterns.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>There are some rules used here:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference:</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -583,6 +583,14 @@
         <translation>Opcje wyszukiwania</translation>
     </message>
     <message>
+        <source>Enable regular expressions</source>
+        <translation>Włącz wyrażenia regularne</translation>
+    </message>
+    <message>
+        <source>Enables regular expressions in searched text</source>
+        <translation>Zezwala na wyrażenia regularne w wyszukiwanym tekście</translation>
+    </message>
+    <message>
         <source>Search hidden files</source>
         <translation>Przeszukuj ukryte pliki</translation>
     </message>
@@ -681,14 +689,6 @@
     <message>
         <source>Enables searching for file and directory names</source>
         <translation>Zezwala na wyszukiwanie nazw plików i katalogów</translation>
-    </message>
-    <message>
-        <source>Enable regular expressions</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables regular expressions in searched text</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
