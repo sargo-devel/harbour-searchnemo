@@ -88,9 +88,12 @@ Page {
                 textFormat: Text.StyledText
                 linkColor: Theme.highlightColor
                 color: parent.color
-                text: "<a href=\"https://github.com/sargo-devel/harbour-searchnemo\">https://github.com/sargo-devel/harbour-searchnemo</a>"
+                truncationMode: TruncationMode.Fade
+                anchors.rightMargin: Theme.horizontalPageMargin
+                text: "&nbsp;&nbsp;&nbsp;<a href=\"https://github.com/sargo-devel/harbour-searchnemo\">https://github.com/sargo-devel/harbour-searchnemo</a>"
                 onLinkActivated: { console.log(link);Qt.openUrlExternally(link) }
             }
+
             SectionHeader { text: qsTr("Translations") }
 
             Label {
@@ -99,9 +102,54 @@ Page {
                 font.pixelSize: Theme.fontSizeSmall
                 wrapMode: Text.Wrap
                 color: parent.color
-                text: qsTr("Special thanks for translators:") + "\n  "
-                      + "Åke Engelbrektson - " + qsTr("Swedish") + "\n  "
-		      + "ghostofasmile - " + qsTr("Italian")
+                text: qsTr("Special thanks for translators:") + "\n   "
+                      + "Åke Engelbrektson (eson) - " + qsTr("Swedish") + "\n   "
+                      + "fravaccaro (ghostofasmile) - " + qsTr("Italian")
+            }
+
+            Label {
+                anchors.left: parent.left
+                anchors.right: parent.right
+                font.pixelSize: Theme.fontSizeSmall
+                textFormat: Text.StyledText
+                wrapMode: Text.Wrap
+                linkColor: Theme.highlightColor
+                color: parent.color
+                text: qsTr("If you want to contribute to translate into your language, plese join in:") + "<br>&nbsp;&nbsp;&nbsp;"
+                      + "<a href=\"https://www.transifex.com/sargoprojects/searchnemo\">" + qsTr("Translation service") + "</a>"
+                onLinkActivated: { console.log(link);Qt.openUrlExternally(link) }
+            }
+
+            SectionHeader { text: qsTr("Donations") }
+
+            Label {
+                anchors.left: parent.left
+                anchors.right: parent.right
+                font.pixelSize: Theme.fontSizeSmall
+                textFormat: Text.StyledText
+                wrapMode: Text.Wrap
+                color: parent.color
+                text: qsTr("If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.")
+            }
+
+            Row {
+                anchors.right: parent.right
+                anchors.left: parent.left
+                spacing: Theme.paddingLarge*2
+                height: Theme.itemSizeMedium
+
+                Button {
+                    anchors.verticalCenter: parent.verticalCenter
+                    width: (parent.width / 2) - Theme.paddingLarge
+                    text: "Flattr"
+                    onClicked: { Qt.openUrlExternally("https://flattr.com/submit/auto?url=https%3A%2F%2Fgithub.com%2Fsargo-devel%2Fharbour-searchnemo&user-id=sargodevel&description=A+simple+text+search+tool+for+various+local+file+types.&title=SearchNemo")}
+                }
+                Button {
+                    anchors.verticalCenter: parent.verticalCenter
+                    width: (parent.width / 2) - Theme.paddingLarge
+                    text: "PayPal"
+                    onClicked: Qt.openUrlExternally("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PD3P36MFVKJAE")
+                }
             }
 
             SectionHeader { text: qsTr("Help and Tips") }
