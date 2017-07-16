@@ -34,6 +34,8 @@ public:
     QHash<QString, QString> getSingleRow(QString table, int idx) const;
     // returns pointer to an executed search query (value0=index, value1=txtfield)
     QSqlQuery* getTxtColumnQuery(QString table, QString field, QString searchtxt);
+    // returns pointer to an executed query (value0=index, value1=txtfield)
+    QSqlQuery* getTxtColumnQueryAll(QString table, QString field);
     // returns the owner of the given filename
     QString getOwner(QString fullpath);
 

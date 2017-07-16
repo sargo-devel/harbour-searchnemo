@@ -193,6 +193,9 @@ QHash<QString, QString> DbSqlite::getSingleRow(QString table, int idx) const
 // returns pointer to an executed search query (value0=index, value1=txtfield)
 QSqlQuery* DbSqlite::getTxtColumnQuery(QString table, QString field, QString searchtxt)
 {
+    //check searchtext against " character
+    if(searchtxt.contains("\""))return NULL;
+
     //get index field
     QSqlQuery query;
     QString idxfield = "";
@@ -207,6 +210,24 @@ QSqlQuery* DbSqlite::getTxtColumnQuery(QString table, QString field, QString sea
     QString maxres = settings.value("maxResultsPerSection", 50).toString();
     m_queryp->prepare("SELECT " +idxfield+ "," +field+ " FROM " +table+ " WHERE " +field+ " LIKE \"%" +searchtxt+
                     "%\" LIMIT " +maxres );
+    if(m_queryp->exec()) return m_queryp;
+    return NULL;
+}
+
+// returns pointer to an executed query (value0=index, value1=txtfield)
+QSqlQuery* DbSqlite::getTxtColumnQueryAll(QString table, QString field)
+{
+    //get index field
+    QSqlQuery query;
+    QString idxfield = "";
+    query.prepare("PRAGMA table_info(" + table + ")");
+    if(query.exec())
+        while (query.next())
+            if( query.value(5).toInt() == 1 ) idxfield = query.value(1).toString();
+    if (idxfield == "") idxfield = "_rowid_";
+    //popraw z _rowid_ dla tabel, gdzie primary key nie jest int
+
+    m_queryp->prepare("SELECT " +idxfield+ "," +field+ " FROM " +table);
     if(m_queryp->exec()) return m_queryp;
     return NULL;
 }

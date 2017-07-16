@@ -278,18 +278,19 @@ QString SearchWorker::addSearchSqlite(QString searchtype, QString searchTerm, QD
             for (int j = 0; j < tables.count(); ++j) {
                 QStringList fields = db.getAllTxtColumns(tables.at(j));
                 for (int k = 0; k < fields.count(); ++k) {
-                    QSqlQuery* query = db.getTxtColumnQuery(tables.at(j), fields.at(k), searchTerm);
-                    while (query->next())
-                    {
-                        // stop if cancelled
-                        if (m_cancelled.loadAcquire() == Cancelled) return QString();
+                    QSqlQuery* query = db.getTxtColumnQueryAll(tables.at(j), fields.at(k));
+                    if (query != NULL)
+                        while (query->next())
+                        {
+                            // stop if cancelled
+                            if (m_cancelled.loadAcquire() == Cancelled) return QString();
 
-                        QString idxel = query->value(0).toString();
-                        QString singleelement = query->value(1).toString();
-                        QTextStream intxt(&singleelement);
-                        displabel=  db.getOwner(fullpath) + ":" + tables.at(j) + ":" + fields.at(k) + ":" + idxel;
-                        if(!searchTxtLoop(&intxt, searchtype, searchTerm, singleMatch, fullpath, displabel)) return QString();
-                    }
+                            QString idxel = query->value(0).toString();
+                            QString singleelement = query->value(1).toString();
+                            QTextStream intxt(&singleelement);
+                            displabel=  db.getOwner(fullpath) + ":" + tables.at(j) + ":" + fields.at(k) + ":" + idxel;
+                            if(!searchTxtLoop(&intxt, searchtype, searchTerm, singleMatch, fullpath, displabel)) return QString();
+                        }
                 }
                 fields.clear();
             }
