@@ -172,18 +172,25 @@ Page {
             // updates the model by clearing all data and starting searchEngine search() method async
             // using the given txt as the search string
             function update(txt) {
-                if (txt === "") searchEngine.cancel();
+                if ((txt === "") || searchEngine.running) searchEngine.cancel();
+
                 clear(); backListModel.clear()
                 searchEngine.cleartabs()
                 clearCover()
 
                 if (txt !== "") {
-                    fileList.lockSection = true;
-                    searchEngine.search(txt);
-                    searchFieldText = txt;
-                    coverPlaceText = qsTr("Searching")+"\n"+txt;
+                    modelTimer.txt = txt;
+                    modelTimer.start();  //it triggers function modelDelaySearch()
                 }
             }
+
+            function modelDelaySearch(txt){
+                fileList.lockSection = true;
+                searchEngine.search(txt);
+                searchFieldText = txt;
+                coverPlaceText = qsTr("Searching")+"\n"+txt;
+            }
+
             Component.onCompleted: update("");
         }
 
@@ -235,9 +242,9 @@ Page {
                 EnterKey.iconSource: "image://theme/icon-m-enter-accept"
                 EnterKey.onClicked: {
                     notificationPanel.hide();
-                    searchField.focus = false;
-                    foundText.visible = true;
                     listModel.update(searchField.text);
+                    foundText.visible = true;
+                    searchField.focus = false;
                 }
                 // get focus on new search pressed on cover
                 onAppNewSearchChanged: {
@@ -250,7 +257,6 @@ Page {
                     if (text === "")
                         listModel.update("")
                 }
-
             }
 
             // our own "IconButton" to make the mouse area large and easier to tap
@@ -263,9 +269,9 @@ Page {
                 onClicked: {
                         if (!searchEngine.running) {
                             notificationPanel.hide();
+                            listModel.update(searchField.text);
                             foundText.visible = true;
                             searchField.focus = false;
-                            listModel.update(searchField.text);
                         } else {
                             searchEngine.cancel()
                         }
@@ -622,4 +628,16 @@ Page {
             backListModel.insert(pos, entry)
         }
     }
+
+    // timer for delayed listModel refresh
+    Timer {
+        id: modelTimer
+        property string txt: ""
+        Component.onCompleted: {
+            modelTimer.interval = 200;
+            modelTimer.repeat = false;
+        }
+        onTriggered: listModel.modelDelaySearch(modelTimer.txt)
+    }
+
 }
