@@ -53,6 +53,22 @@
     <target>Italienska</target>
 </phrase>
 <phrase>
+    <source>If you want to contribute to translate into your language, plese join in:</source>
+    <target>Om du vill översätta till ditt språk, kan du göra det i:</target>
+</phrase>
+<phrase>
+    <source>Translation service</source>
+    <target>Översättningstjänst</target>
+</phrase>
+<phrase>
+    <source>Donations</source>
+    <target>Donationer</target>
+</phrase>
+<phrase>
+    <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
+    <target>Om du har lika roligt när du använder den här appen, som jag hade när jag skapade den, kanske du kan överväga att donera, för att göra oss bägge glada över väl utfört arbete.</target>
+</phrase>
+<phrase>
     <source>Help and Tips</source>
     <target>Hjälp och tips</target>
 </phrase>
@@ -63,6 +79,10 @@
 <phrase>
     <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
     <target>* Tryck på texten i detaljerad vy för att nå &apos;Markera &amp; kopiera&apos;.</target>
+</phrase>
+<phrase>
+    <source>* Tap on magnifying glass to set Regexp search on/off.</source>
+    <target>* Tryck på förstoringsglaset för att slå på/av Regexp-sökning.</target>
 </phrase>
 <phrase>
     <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
@@ -99,6 +119,38 @@
 <phrase>
     <source>Some example profiles are available in &apos;Profiles list&apos; menu.</source>
     <target>Det finns några profilexempel i menyn &apos;Profillista&apos;.</target>
+</phrase>
+<phrase>
+    <source>Regular expressions (Regexp)</source>
+    <target>Regular expressions (Regexp)</target>
+</phrase>
+<phrase>
+    <source>Regexp is a powerful tool for finding complex text patterns.</source>
+    <target>Regexp är ett kraftfullt verktyg för att hitta komplexa textmönster.</target>
+</phrase>
+<phrase>
+    <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
+    <target>Motorn i den här appen använder &quot;QRegularExpression&quot;, vilket implementerar Perl-kompatibla (PCRE) regular expression.</target>
+</phrase>
+<phrase>
+    <source>There are some rules used here:</source>
+    <target>Några regler som används här:</target>
+</phrase>
+<phrase>
+    <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
+    <target>* Sökningar är skiftlägeskänsliga som standard. Detta kan ändras i Regexp-strängen (ex. &apos;(?i)hej&apos;).</target>
+</phrase>
+<phrase>
+    <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
+    <target>* Unicode-egenskaper anges som standard. Teckenklasser (ex. \w \d) är unicode-kompatibla.</target>
+</phrase>
+<phrase>
+    <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
+    <target>Sökning är ALLTID radorienterad, oavsett Regexp-strängens inställningar. Det innebär att Regexp aldrig tillämpas på hela filen, den arbetar på enskilda rader.</target>
+</phrase>
+<phrase>
+    <source>Reference:</source>
+    <target>Referens:</target>
 </phrase>
 <phrase>
     <source>Applications section (experimental)</source>
@@ -487,6 +539,14 @@
 <phrase>
     <source>Search options</source>
     <target>Sökalternativ</target>
+</phrase>
+<phrase>
+    <source>Enable regular expressions</source>
+    <target>Aktivera Regular expression</target>
+</phrase>
+<phrase>
+    <source>Enables regular expressions in searched text</source>
+    <target>Aktiverar regular expression i genomsökt text</target>
 </phrase>
 <phrase>
     <source>Search hidden files</source>

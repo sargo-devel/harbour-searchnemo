@@ -56,6 +56,22 @@
         <translation>Italienska</translation>
     </message>
     <message>
+        <source>If you want to contribute to translate into your language, plese join in:</source>
+        <translation>Om du vill översätta till ditt språk, kan du göra det i:</translation>
+    </message>
+    <message>
+        <source>Translation service</source>
+        <translation>Översättningstjänst</translation>
+    </message>
+    <message>
+        <source>Donations</source>
+        <translation>Donationer</translation>
+    </message>
+    <message>
+        <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
+        <translation>Om du har lika roligt när du använder den här appen, som jag hade när jag skapade den, kanske du kan överväga att donera, för att göra oss bägge glada över väl utfört arbete.</translation>
+    </message>
+    <message>
         <source>Help and Tips</source>
         <translation>Hjälp och tips</translation>
     </message>
@@ -66,6 +82,10 @@
     <message>
         <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
         <translation>* Tryck på texten i detaljerad vy för att nå &apos;Markera &amp; kopiera&apos;.</translation>
+    </message>
+    <message>
+        <source>* Tap on magnifying glass to set Regexp search on/off.</source>
+        <translation>* Tryck på förstoringsglaset för att slå på/av Regexp-sökning.</translation>
     </message>
     <message>
         <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
@@ -104,6 +124,38 @@
         <translation>Det finns några profilexempel i menyn &apos;Profillista&apos;.</translation>
     </message>
     <message>
+        <source>Regular expressions (Regexp)</source>
+        <translation>Regular expressions (Regexp)</translation>
+    </message>
+    <message>
+        <source>Regexp is a powerful tool for finding complex text patterns.</source>
+        <translation>Regexp är ett kraftfullt verktyg för att hitta komplexa textmönster.</translation>
+    </message>
+    <message>
+        <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
+        <translation>Motorn i den här appen använder &quot;QRegularExpression&quot;, vilket implementerar Perl-kompatibla (PCRE) regular expression.</translation>
+    </message>
+    <message>
+        <source>There are some rules used here:</source>
+        <translation>Några regler som används här:</translation>
+    </message>
+    <message>
+        <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
+        <translation>* Sökningar är skiftlägeskänsliga som standard. Detta kan ändras i Regexp-strängen (ex. &apos;(?i)hej&apos;).</translation>
+    </message>
+    <message>
+        <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
+        <translation>* Unicode-egenskaper anges som standard. Teckenklasser (ex. \w \d) är unicode-kompatibla.</translation>
+    </message>
+    <message>
+        <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
+        <translation>Sökning är ALLTID radorienterad, oavsett Regexp-strängens inställningar. Det innebär att Regexp aldrig tillämpas på hela filen, den arbetar på enskilda rader.</translation>
+    </message>
+    <message>
+        <source>Reference:</source>
+        <translation>Referens:</translation>
+    </message>
+    <message>
         <source>Applications section (experimental)</source>
         <translation>App-sektion (experimentell)</translation>
     </message>
@@ -126,58 +178,6 @@
     <message>
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
         <translation>* Detta kan vara användbart, då t.ex. sökning på &apos;=&apos; visar alla hittade appar och sökning på &apos;jolla&apos;, visar alla appar skapade av Jolla.</translation>
-    </message>
-    <message>
-        <source>* Tap on magnifying glass to set Regexp search on/off.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Regular expressions (Regexp)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Regexp is a powerful tool for finding complex text patterns.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>There are some rules used here:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>If you want to contribute to translate into your language, plese join in:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Translation service</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Donations</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -583,6 +583,14 @@
         <translation>Sökalternativ</translation>
     </message>
     <message>
+        <source>Enable regular expressions</source>
+        <translation>Aktivera Regular expression</translation>
+    </message>
+    <message>
+        <source>Enables regular expressions in searched text</source>
+        <translation>Aktiverar regular expression i genomsökt text</translation>
+    </message>
+    <message>
         <source>Search hidden files</source>
         <translation>Sök i dolda filer</translation>
     </message>
@@ -681,14 +689,6 @@
     <message>
         <source>Enables searching for file and directory names</source>
         <translation>Aktiverar sökning efter fil- och mappnamn</translation>
-    </message>
-    <message>
-        <source>Enable regular expressions</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables regular expressions in searched text</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
