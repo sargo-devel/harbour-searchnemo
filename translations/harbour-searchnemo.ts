@@ -1435,7 +1435,7 @@
     </message>
     <message numerus="yes">
         <location line="+2"/>
-        <location line="+205"/>
+        <location line="+211"/>
         <location line="+196"/>
         <source>%n hit(s)</source>
         <translation type="unfinished">
@@ -1444,7 +1444,7 @@
         </translation>
     </message>
     <message>
-        <location line="-320"/>
+        <location line="-319"/>
         <source>Searching</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1474,7 +1474,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+104"/>
+        <location line="+103"/>
         <source>Profile:</source>
         <translation type="unfinished"></translation>
     </message>
