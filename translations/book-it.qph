@@ -53,6 +53,22 @@
     <target>Italiano</target>
 </phrase>
 <phrase>
+    <source>If you want to contribute to translate into your language, plese join in:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Translation service</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Donations</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
+    <target></target>
+</phrase>
+<phrase>
     <source>Help and Tips</source>
     <target>Aiuto e scorciatoie</target>
 </phrase>
@@ -63,6 +79,10 @@
 <phrase>
     <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
     <target>* Tocca il testo nella pagina dettagli per accedere alla pagina di selezione e copia.</target>
+</phrase>
+<phrase>
+    <source>* Tap on magnifying glass to set Regexp search on/off.</source>
+    <target></target>
 </phrase>
 <phrase>
     <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
@@ -99,6 +119,38 @@
 <phrase>
     <source>Some example profiles are available in &apos;Profiles list&apos; menu.</source>
     <target>Alcuni profili di esempio sono disponibili nel menu &apos;Lista profili&apos;.</target>
+</phrase>
+<phrase>
+    <source>Regular expressions (Regexp)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Regexp is a powerful tool for finding complex text patterns.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>There are some rules used here:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Reference:</source>
+    <target></target>
 </phrase>
 <phrase>
     <source>Applications section (experimental)</source>
@@ -487,6 +539,14 @@
 <phrase>
     <source>Search options</source>
     <target>Opzioni ricerca</target>
+</phrase>
+<phrase>
+    <source>Enable regular expressions</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Enables regular expressions in searched text</source>
+    <target></target>
 </phrase>
 <phrase>
     <source>Search hidden files</source>

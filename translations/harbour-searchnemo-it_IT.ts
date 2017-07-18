@@ -56,6 +56,22 @@
         <translation>Italiano</translation>
     </message>
     <message>
+        <source>If you want to contribute to translate into your language, plese join in:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translation service</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Donations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Help and Tips</source>
         <translation>Aiuto e scorciatoie</translation>
     </message>
@@ -66,6 +82,10 @@
     <message>
         <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
         <translation>* Tocca il testo nella pagina dettagli per accedere alla pagina di selezione e copia.</translation>
+    </message>
+    <message>
+        <source>* Tap on magnifying glass to set Regexp search on/off.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
@@ -104,34 +124,6 @@
         <translation>Alcuni profili di esempio sono disponibili nel menu &apos;Lista profili&apos;.</translation>
     </message>
     <message>
-        <source>Applications section (experimental)</source>
-        <translation>Sezione applicazioni (sperimentale)</translation>
-    </message>
-    <message>
-        <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
-        <translation>Cerca un&apos;applicazione all&apos;interno delle cartelle incluse, attraverso la ricerca nei file .desktop.</translation>
-    </message>
-    <message>
-        <source>This fact has some implications:</source>
-        <translation>Note:</translation>
-    </message>
-    <message>
-        <source>* It gives only original (English) names unless it finds localized names there.</source>
-        <translation>* Viene presentato il nome originale, a meno che non il nome localizzato non sia presente all&apos;interno del file.</translation>
-    </message>
-    <message>
-        <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
-        <translation>* Potrebbe dare alcuni risultati non aspettati, perché cerca all&apos;interno dell&apos;intero file.</translation>
-    </message>
-    <message>
-        <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
-        <translation>* Ciò potrebbe rivelarsi utile, ad esempio cercando &apos;=&apos; verranno mostrate tutte le app installate o cercando &apos;jolla&apos; verranno mostrate tutte le app create da Jolla</translation>
-    </message>
-    <message>
-        <source>* Tap on magnifying glass to set Regexp search on/off.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Regular expressions (Regexp)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -164,20 +156,28 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>If you want to contribute to translate into your language, plese join in:</source>
-        <translation type="unfinished"></translation>
+        <source>Applications section (experimental)</source>
+        <translation>Sezione applicazioni (sperimentale)</translation>
     </message>
     <message>
-        <source>Translation service</source>
-        <translation type="unfinished"></translation>
+        <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
+        <translation>Cerca un&apos;applicazione all&apos;interno delle cartelle incluse, attraverso la ricerca nei file .desktop.</translation>
     </message>
     <message>
-        <source>Donations</source>
-        <translation type="unfinished"></translation>
+        <source>This fact has some implications:</source>
+        <translation>Note:</translation>
     </message>
     <message>
-        <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
-        <translation type="unfinished"></translation>
+        <source>* It gives only original (English) names unless it finds localized names there.</source>
+        <translation>* Viene presentato il nome originale, a meno che non il nome localizzato non sia presente all&apos;interno del file.</translation>
+    </message>
+    <message>
+        <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
+        <translation>* Potrebbe dare alcuni risultati non aspettati, perché cerca all&apos;interno dell&apos;intero file.</translation>
+    </message>
+    <message>
+        <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
+        <translation>* Ciò potrebbe rivelarsi utile, ad esempio cercando &apos;=&apos; verranno mostrate tutte le app installate o cercando &apos;jolla&apos; verranno mostrate tutte le app create da Jolla</translation>
     </message>
 </context>
 <context>
@@ -583,6 +583,14 @@
         <translation>Opzioni ricerca</translation>
     </message>
     <message>
+        <source>Enable regular expressions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables regular expressions in searched text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Search hidden files</source>
         <translation>Cerca file nascosti</translation>
     </message>
@@ -681,14 +689,6 @@
     <message>
         <source>Enables searching for file and directory names</source>
         <translation>Abilita la ricerca di nomi di file e cartelle</translation>
-    </message>
-    <message>
-        <source>Enable regular expressions</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables regular expressions in searched text</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
