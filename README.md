@@ -6,6 +6,7 @@ It can also find file and directory names containing searched text.
 
 ### Features
  * Search local directories for a given text inside files (and file/dir names) and return results list divided into sections
+ * It is possible to search for a plain text or regular expression
  * Selectable search paths with white- and blacklisted directiories
  * Customization of search by quickly selectable profiles (selection of search paths, file types, max. nr of displayed search results)
  * Currently supported search targets: Notes app database, files (text, html, [sqlite](https://www.sqlite.org/)), applications, filenames, directory names
@@ -44,7 +45,7 @@ Currently supported languages:
  * Polish
  * German (partially, not maintained)
  * Swedish (translation made by Åke Engelbrektson)
- * Italian (translation made by ghostofasmile)
+ * Italian (translation made by fravaccaro)
 
 [Translation service](https://www.transifex.com/sargoprojects/searchnemo/) is available. Any contributions are very welcome.
 
@@ -59,13 +60,15 @@ Any comments, new ideas and pull requests are very welcome.
 
 Plans:
 
- * to introduce regular expression search
+ * ~~to introduce regular expression search~~ done!
  * to open desired app with a parameter (if app allows it)
  * to search inside other files (e.g. pdf)
 
 ### Release notes
 See [here](https://github.com/sargo-devel/harbour-searchnemo/blob/master/RELEASENOTES.md) for detailed history. 
- 
+
+
+
 ### Acknowledgements
 The source code is based on the excellent [File Browser](https://github.com/karip/harbour-file-browser).
 Additionaly [JHead](http://www.sentex.net/~mwandel/jhead/) Exif manipulation tool is used for display Exif data of found image files. 
