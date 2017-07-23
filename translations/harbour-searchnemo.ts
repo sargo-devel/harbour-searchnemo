@@ -65,6 +65,11 @@
     </message>
     <message>
         <location line="+1"/>
+        <source>Spanish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Italian</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1606,7 +1611,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+22"/>
         <source>General options</source>
         <translation type="unfinished"></translation>
     </message>

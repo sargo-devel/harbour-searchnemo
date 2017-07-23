@@ -104,6 +104,7 @@ Page {
                 color: parent.color
                 text: qsTr("Special thanks for translators:") + "\n   "
                       + "Åke Engelbrektson (eson) - " + qsTr("Swedish") + "\n   "
+                      + "Carmen Fernández B. (carmenfdezb) - " + qsTr("Spanish") + "\n   "
                       + "fravaccaro (ghostofasmile) - " + qsTr("Italian")
             }
 
