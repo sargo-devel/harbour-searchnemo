@@ -179,6 +179,10 @@
         <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Spanish</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AnimatedHeader</name>
