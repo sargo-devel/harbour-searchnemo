@@ -44,8 +44,9 @@ Currently supported languages:
  * English
  * Polish
  * German (partially, not maintained)
- * Swedish (translation made by Åke Engelbrektson)
  * Italian (translation made by fravaccaro)
+ * Spanish (translation made by Carmen Fernández B.) 
+ * Swedish (translation made by Åke Engelbrektson)
 
 [Translation service](https://www.transifex.com/sargoprojects/searchnemo/) is available. Any contributions are very welcome.
 

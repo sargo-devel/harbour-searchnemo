@@ -1,376 +1,376 @@
 <!DOCTYPE QPH>
-<QPH language="sv_SE">
+<QPH language="es_ES">
 <phrase>
     <source>About</source>
-    <target>Om</target>
+    <target>Acerca de</target>
 </phrase>
 <phrase>
     <source>version:</source>
-    <target>version: </target>
+    <target>versión:</target>
 </phrase>
 <phrase>
     <source>Text and files search tool</source>
-    <target>Text- och filsökverktyg</target>
+    <target>Herramienta para buscar texto y ficheros</target>
 </phrase>
 <phrase>
     <source>Description</source>
-    <target>Beskrivning</target>
+    <target>Descripción</target>
 </phrase>
 <phrase>
     <source>This program searches for a text in files stored locally on the device</source>
-    <target>Det här programmet söker efter text i filer, lagrade lokalt på enheten</target>
+    <target>Este programa busca texto en los ficheros almacenados localmente en el dispositivo</target>
 </phrase>
 <phrase>
     <source>and presents results in a possibly useful form.</source>
-    <target>och presenterar resultatet i ett möjligen användbart format.</target>
+    <target>y presenta resultados de forma útil.</target>
 </phrase>
 <phrase>
     <source>License</source>
-    <target>Licens</target>
+    <target>Licencia</target>
 </phrase>
 <phrase>
     <source>License: GPL v3</source>
-    <target>Licens: GPL v3</target>
+    <target>Licencia: GPL v3</target>
 </phrase>
 <phrase>
     <source>Source code:</source>
-    <target>Källkod:</target>
+    <target>Código fuente:</target>
 </phrase>
 <phrase>
     <source>Translations</source>
-    <target>Översättningar</target>
+    <target>Traducciones</target>
 </phrase>
 <phrase>
     <source>Special thanks for translators:</source>
-    <target>Särskilt tack till översättare:</target>
+    <target>Agradecimiento especial a los traductores:</target>
 </phrase>
 <phrase>
     <source>Swedish</source>
-    <target>Svenska</target>
+    <target>Sueco</target>
 </phrase>
 <phrase>
     <source>Spanish</source>
-    <target>Spanska</target>
+    <target>Español</target>
 </phrase>
 <phrase>
     <source>Italian</source>
-    <target>Italienska</target>
+    <target>Italiano</target>
 </phrase>
 <phrase>
     <source>If you want to contribute to translate into your language, plese join in:</source>
-    <target>Om du vill översätta till ditt språk, kan du göra det i:</target>
+    <target>Si quieres colaborar en la traducción, por favor, participa:</target>
 </phrase>
 <phrase>
     <source>Translation service</source>
-    <target>Översättningstjänst</target>
+    <target>Servicio de traducción</target>
 </phrase>
 <phrase>
     <source>Donations</source>
-    <target>Donationer</target>
+    <target>Donaciones</target>
 </phrase>
 <phrase>
     <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
-    <target>Om du har lika roligt när du använder den här appen, som jag hade när jag skapade den, kanske du kan överväga att donera, för att göra oss bägge glada över väl utfört arbete.</target>
+    <target>Si la aplicación te agrada tanto como a mí el haberla creado, por favor, considera hacer una donación para que estemos más contentos por el buen trabajo realizado.</target>
 </phrase>
 <phrase>
     <source>Help and Tips</source>
-    <target>Hjälp och tips</target>
+    <target>Ayuda y atajos</target>
 </phrase>
 <phrase>
     <source>* Tap on section label with arrow to expand/collapse section.</source>
-    <target>* Tryck på pilikonen för att expandera/komprimera en sektion.</target>
+    <target>* Da un toque en la flecha del nombre de sección para ampliar/reducir la sección.</target>
 </phrase>
 <phrase>
     <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
-    <target>* Tryck på texten i detaljerad vy för att nå &apos;Markera &amp; kopiera&apos;.</target>
+    <target>* Da un toque en el texto en la vista detallada para entrar en la página &apos;Seleccionar y copiar&apos;.</target>
 </phrase>
 <phrase>
     <source>* Tap on magnifying glass to set Regexp search on/off.</source>
-    <target>* Tryck på förstoringsglaset för att slå på/av Regexp-sökning.</target>
+    <target>* Da un toque en la lupa para activar/desactivar la búsqueda mediante expresiones regulares.</target>
 </phrase>
 <phrase>
     <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
-    <target>* Långtryck på tomt sökfält eller välj en annan profil, för att rensa sökresultat.</target>
+    <target>* Mantén pulsado el campo de búsqueda vacío o cambia de perfil para borrar los resultados de la búsqueda.</target>
 </phrase>
 <phrase>
     <source>* Choosing profile via &apos;Profiles list&apos; doesn&apos;t delete search results.</source>
-    <target>* Att välja profil via menyn &apos;Profillista&apos;, rensar inte sökresultaten.</target>
+    <target>* Al cambiar el perfil desde la &apos;Lista de perfiles&apos; no se borran los resultados de la búsqueda.</target>
 </phrase>
 <phrase>
     <source>Profiles</source>
-    <target>Profiler</target>
+    <target>Perfiles</target>
 </phrase>
 <phrase>
     <source>Profiles give possibility to keep different search options under one short name.</source>
-    <target>Profiler gör det möjligt att spara olika sökalternativ under ett kort namn.</target>
+    <target>Los perfiles te permiten usar diferentes opciones de búsqueda bajo un nombre abreviado.</target>
 </phrase>
 <phrase>
     <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
-    <target>Varje profil kan innehålla olika sökvägar, grupperade som vitlistade eller svartlistade mappar.</target>
+    <target>Cada perfil puede contener diferentes rutas de búsqueda agrupados como la lista blanca o lista negra de directorios.</target>
 </phrase>
 <phrase>
     <source>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</source>
-    <target>* Sökningen börjar alltid i en vitlistad mapp och undantar oönskade svartlistade undermappar från trädvyn.</target>
+    <target>* La búsqueda siempre comienza en un directorio de la lista blanca y omite los subdirectorios de éste incluidos en la lista negra.</target>
 </phrase>
 <phrase>
     <source>* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.</source>
-    <target>Vitlista och och svartlista är oberoende. Det innebär att om nästa vitlistade mapp är undermapp till en svartlistad mapp, kommer programmet att börja söka där.</target>
+    <target>* La lista blanca y la lista negra son independientes, esto significa que si el siguiente directorio de la lista blanca es un subdirectorio de uno de los directorios de la lista negra, el programa iniciará la búsqueda allí.</target>
 </phrase>
 <phrase>
     <source>This gives a huge flexibility of creating own complex search paths.</source>
-    <target>Detta ger stor flexibilitet vid skapande av egna komplexa sökprofiler.</target>
+    <target>Esto da una gran flexibilidad a la hora de crear rutas de búsquedas complejas.</target>
 </phrase>
 <phrase>
     <source>Some example profiles are available in &apos;Profiles list&apos; menu.</source>
-    <target>Det finns några profilexempel i menyn &apos;Profillista&apos;.</target>
+    <target>Algunos ejemplos de perfiles están disponibles en &apos;Lista de perfiles&apos;.</target>
 </phrase>
 <phrase>
     <source>Regular expressions (Regexp)</source>
-    <target>Regular expressions (Regexp)</target>
+    <target>Expresiones regulares (Regexp)</target>
 </phrase>
 <phrase>
     <source>Regexp is a powerful tool for finding complex text patterns.</source>
-    <target>Regexp är ett kraftfullt verktyg för att hitta komplexa textmönster.</target>
+    <target>Regexp es una herramienta potente para la búsqueda de patrones de texto complejos.</target>
 </phrase>
 <phrase>
     <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
-    <target>Motorn i den här appen använder &quot;QRegularExpression&quot;, vilket implementerar Perl-kompatibla (PCRE) regular expression.</target>
+    <target>El motor de esta aplicación usa el tipo &apos;QRegularExpression&apos; que implementa expresiones regulares compatibles con Perl (PCRE).</target>
 </phrase>
 <phrase>
     <source>There are some rules used here:</source>
-    <target>Några regler som används här:</target>
+    <target>Algunas reglas usadas aquí:</target>
 </phrase>
 <phrase>
     <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
-    <target>* Sökningar är skiftlägeskänsliga som standard. Detta kan ändras i Regexp-strängen (ex. &apos;(?i)hej&apos;).</target>
+    <target>* La búsqueda es sensible a mayúsculas. Esto se puede cambiar en el patrón de Regexp (p.e. &apos;(?i)hola&apos;).</target>
 </phrase>
 <phrase>
     <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
-    <target>* Unicode-egenskaper anges som standard. Teckenklasser (ex. \w \d) är unicode-kompatibla.</target>
+    <target>* Las propiedades de unicode se establecen por defecto. Las clases de caracteres (p.e. \w \d) son compatibles con unicode.</target>
 </phrase>
 <phrase>
     <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
-    <target>Sökning är ALLTID radorienterad, oavsett Regexp-strängens inställningar. Det innebär att Regexp aldrig tillämpas på hela filen, den arbetar på enskilda rader.</target>
+    <target>* La búsqueda SIEMPRE está orientada a la línea con independencia de la configuración del patrón Regexp. Esto significa que Regexp nunca se va a aplicar al fichero completo, sólo a líneas individuales.</target>
 </phrase>
 <phrase>
     <source>Reference:</source>
-    <target>Referens:</target>
+    <target>Referencia:</target>
 </phrase>
 <phrase>
     <source>Applications section (experimental)</source>
-    <target>App-sektion (experimentell)</target>
+    <target>Sección aplicaciones (experimental)</target>
 </phrase>
 <phrase>
     <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
-    <target>För att hitta en app, söker programmet igenom .desktop-filer i en mapp angiven i vitlistan och kan endast hitta text inkluderad i dessa filer.</target>
+    <target>Para buscar una aplicación el programa analiza los ficheros .desktop de un directorio de la lista blanca y sólo puede buscar texto incluido en estos archivos.</target>
 </phrase>
 <phrase>
     <source>This fact has some implications:</source>
-    <target>Detta faktum har vissa konsekvenser:</target>
+    <target>Este hecho tiene algunas implicaciones:</target>
 </phrase>
 <phrase>
     <source>* It gives only original (English) names unless it finds localized names there.</source>
-    <target>* Det visas bara originalnamn (Engelska), såvida där inte hittas några översatta namn.</target>
+    <target>* Sólo devuelve nombres originales (en inglés) a menos que encuentre nombres ubicados allí. </target>
 </phrase>
 <phrase>
     <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
-    <target>* Oväntade resultat kan visas, eftersom all text i dessa filer genomsöks.</target>
+    <target>* Puede devolver resultados inesperados porque comprueba el texto completo en estos ficheros.</target>
 </phrase>
 <phrase>
     <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
-    <target>* Detta kan vara användbart, då t.ex. sökning på &apos;=&apos; visar alla hittade appar och sökning på &apos;jolla&apos;, visar alla appar skapade av Jolla.</target>
+    <target>* Esto podría ser útil, por ejemplo: al buscar &apos;=&apos; devuelve todas las aplicaciones instaladas, al buscar &apos;jolla&apos; devuelve todas las aplicaciones creadas por Jolla</target>
 </phrase>
 <phrase>
     <source>File info</source>
-    <target>Filinformation</target>
+    <target>Info fichero</target>
 </phrase>
 <phrase>
     <source>Install launched</source>
-    <target>Installation startad</target>
+    <target>Instalación iniciada</target>
 </phrase>
 <phrase>
     <source>If nothing happens, then the package is probably faulty.</source>
-    <target>Paketet är troligen felaktigt, om inget händer.</target>
+    <target>Si no ocurre nada es probable que el paquete esté defectuoso.</target>
 </phrase>
 <phrase>
     <source>Open successful</source>
-    <target>Korrekt öppnat</target>
+    <target>Abierto correctamente</target>
 </phrase>
 <phrase>
     <source>Sometimes the application stays in the background</source>
-    <target>Ibland stannar programmet i bakgrunden</target>
+    <target>A veces la aplicación está en segundo plano</target>
 </phrase>
 <phrase>
     <source>Internal error</source>
-    <target>Internt fel</target>
+    <target>Error interno</target>
 </phrase>
 <phrase>
     <source>File not found</source>
-    <target>Filen hittades inte</target>
+    <target>Fichero no encontrado</target>
 </phrase>
 <phrase>
     <source>No application to open the file</source>
-    <target>Inget program att öppna filen med</target>
+    <target>No existe aplicación para abrir el fichero</target>
 </phrase>
 <phrase>
     <source>xdg-open found no preferred application</source>
-    <target>xdg-open hittade inget associerat program</target>
+    <target>xdg-open no encontró ninguna aplicación preferida</target>
 </phrase>
 <phrase>
     <source>Action failed</source>
-    <target>Åtgärden misslyckades</target>
+    <target>Falló la acción</target>
 </phrase>
 <phrase>
     <source>xdg-open not found</source>
-    <target>xdg-open hittades inte</target>
+    <target>xdg-open no encontrado</target>
 </phrase>
 <phrase>
     <source>xdg-open crash?</source>
-    <target>xdg-open-krash?</target>
+    <target>¿se colgó xdg-open?</target>
 </phrase>
 <phrase>
     <source>xdg-open error</source>
-    <target>xdg-open-fel</target>
+    <target>error xdg-open</target>
 </phrase>
 <phrase>
     <source>** crashed</source>
-    <target>** kraschad</target>
+    <target>** se colgó</target>
 </phrase>
 <phrase>
     <source>** error: %1</source>
-    <target>** felr: %1</target>
+    <target>** error: %1</target>
 </phrase>
 <phrase>
     <source>** error</source>
-    <target>** fel</target>
+    <target>** error</target>
 </phrase>
 <phrase>
     <source>List of directories</source>
-    <target>Mapplista</target>
+    <target>Lista de directorios</target>
 </phrase>
 <phrase>
     <source>Profile</source>
-    <target>Profil</target>
+    <target>Perfil</target>
 </phrase>
 <phrase>
     <source>Add/modify directories</source>
-    <target>Lägg till/Redigera mappar</target>
+    <target>Añadir/modificar directorios</target>
 </phrase>
 <phrase>
     <source>Remove from list</source>
-    <target>Ta bort från listan</target>
+    <target>Eliminar de la lista</target>
 </phrase>
 <phrase>
     <source>Removing directory from list</source>
-    <target>Tar bort mapp från listan</target>
+    <target>Eliminando directo de la lista</target>
 </phrase>
 <phrase>
     <source>Whitelist directories</source>
-    <target>Vitlistade mappar</target>
+    <target>Directorios en lista blanca</target>
 </phrase>
 <phrase>
     <source>Blacklist directories</source>
-    <target>Svartlistade mappar</target>
+    <target>Directorios en lista negra</target>
 </phrase>
 <phrase>
     <source>Root (%1)</source>
-    <target>Root (%1)</target>
+    <target>Raíz (%1)</target>
 </phrase>
 <phrase>
     <source>Root</source>
-    <target>Root</target>
+    <target>Raíz</target>
 </phrase>
 <phrase>
     <source>SD Card (%1)</source>
-    <target>SD-kort (%1)</target>
+    <target>Tarjeta SD (%1)</target>
 </phrase>
 <phrase>
     <source>SD Card</source>
-    <target>SD-kort</target>
+    <target>Tarjeta SD</target>
 </phrase>
 <phrase>
     <source>Android Storage not found</source>
-    <target>Android-lagring hittades inte</target>
+    <target>Almacenamiento Android no encontrado</target>
 </phrase>
 <phrase>
     <source>SD Card not found</source>
-    <target>SD-kort hittades inte</target>
+    <target>Tarjeta SD no encontrada</target>
 </phrase>
 <phrase>
     <source>Home</source>
-    <target>Hem</target>
+    <target>Home</target>
 </phrase>
 <phrase>
     <source>Android Storage</source>
-    <target>Android-lagring</target>
+    <target>Almacenamiento Android</target>
 </phrase>
 <phrase>
     <source>Main tree</source>
-    <target>Mappträd</target>
+    <target>Árbol principal</target>
 </phrase>
 <phrase>
     <source>Show hidden directories</source>
-    <target>Visa dolda mappar</target>
+    <target>Mostrar directorios ocultos</target>
 </phrase>
 <phrase>
     <source>Hide hidden directories</source>
-    <target>Dölj dolda mappar</target>
+    <target>Ocultar directorios ocultos</target>
 </phrase>
 <phrase>
     <source>Accept</source>
-    <target>Acceptera</target>
+    <target>Aceptar</target>
 </phrase>
 <phrase>
     <source>Cancel</source>
-    <target>Avbryt</target>
+    <target>Cancelar</target>
 </phrase>
 <phrase>
     <source>Select directories by long press</source>
-    <target>Välj mappar med långtryck</target>
+    <target>Mantener pulsado para añadir directorios</target>
 </phrase>
 <phrase>
     <source>Path:</source>
-    <target>Sökväg:</target>
+    <target>Ruta:</target>
 </phrase>
 <phrase>
     <source>Add to whitelist</source>
-    <target>Lägg till i vitlistan</target>
+    <target>Añadir a la lista blanca</target>
 </phrase>
 <phrase>
     <source>Add to blacklist</source>
-    <target>Lägg till i svartlistan</target>
+    <target>Añadir a la lista negra</target>
 </phrase>
 <phrase>
     <source>Remove from lists</source>
-    <target>Ta bort från listor</target>
+    <target>Eliminar de las listas</target>
 </phrase>
 <phrase>
     <source>Home</source>
-    <target>Hem</target>
+    <target>Home</target>
 </phrase>
 <phrase>
     <source>SD card</source>
-    <target>SD-kort</target>
+    <target>Tarjeta SD</target>
 </phrase>
 <phrase>
     <source>Android storage</source>
-    <target>Android-lagring</target>
+    <target>Almacenamiento Android</target>
 </phrase>
 <phrase>
     <source>Select</source>
-    <target>Välj</target>
+    <target>Seleccionar</target>
 </phrase>
 <phrase>
     <source>File does not exist</source>
-    <target>Filen finns inte</target>
+    <target>El fichero no existe</target>
 </phrase>
 <phrase>
     <source>block device</source>
-    <target>blockenhet</target>
+    <target>dispositivo de bloques</target>
 </phrase>
 <phrase>
     <source>character device</source>
-    <target>teckenenhet</target>
+    <target>dispositivo de caracteres</target>
 </phrase>
 <phrase>
     <source>pipe</source>
@@ -382,359 +382,359 @@
 </phrase>
 <phrase>
     <source>folder</source>
-    <target>mapp</target>
+    <target>carpeta</target>
 </phrase>
 <phrase>
     <source>unknown</source>
-    <target>okänd</target>
+    <target>desconocido</target>
 </phrase>
 <phrase>
     <source>Image Size</source>
-    <target>Bildstorlek</target>
+    <target>Tamaño de imagen</target>
 </phrase>
 <phrase>
     <source>File name</source>
-    <target>Filnamn</target>
+    <target>Nombre de fichero</target>
 </phrase>
 <phrase>
     <source>Location</source>
-    <target>Plats</target>
+    <target>Ubicación</target>
 </phrase>
 <phrase>
     <source>Type</source>
-    <target>Typ</target>
+    <target>Tipo</target>
 </phrase>
 <phrase>
     <source>Link to %1</source>
-    <target>Länk till %1</target>
+    <target>Enlace a %1</target>
 </phrase>
 <phrase>
     <source>Size</source>
-    <target>Storlek</target>
+    <target>Tamaño</target>
 </phrase>
 <phrase>
     <source>Permissions</source>
-    <target>Behörigheter</target>
+    <target>Permisos</target>
 </phrase>
 <phrase>
     <source>Owner</source>
-    <target>Ägare</target>
+    <target>Propietario</target>
 </phrase>
 <phrase>
     <source>Group</source>
-    <target>Grupp</target>
+    <target>Grupo</target>
 </phrase>
 <phrase>
     <source>Last modified</source>
-    <target>Senast ändrad</target>
+    <target>Última actualización</target>
 </phrase>
 <phrase>
     <source>Install</source>
-    <target>Installera</target>
+    <target>Instalar</target>
 </phrase>
 <phrase>
     <source>Open</source>
-    <target>Öppna</target>
+    <target>Abrir</target>
 </phrase>
 <phrase>
     <source>File info</source>
-    <target>Filinformation</target>
+    <target>Info del fichero</target>
 </phrase>
 <phrase>
     <source>Location</source>
-    <target>Plats</target>
+    <target>Ubicación</target>
 </phrase>
 <phrase>
     <source>Type</source>
-    <target>Typ</target>
+    <target>Tipo</target>
 </phrase>
 <phrase>
     <source>Link to %1</source>
-    <target>Länk till %1</target>
+    <target>Enlace a %1</target>
 </phrase>
 <phrase>
     <source>Size</source>
-    <target>Storlek</target>
+    <target>Tamaño</target>
 </phrase>
 <phrase>
     <source>Permissions</source>
-    <target>Behörigheter</target>
+    <target>Permisos</target>
 </phrase>
 <phrase>
     <source>Owner</source>
-    <target>Ägare</target>
+    <target>Propietario</target>
 </phrase>
 <phrase>
     <source>Group</source>
-    <target>Grupp</target>
+    <target>Grupo</target>
 </phrase>
 <phrase>
     <source>Last modified</source>
-    <target>Senast ändrad</target>
+    <target>Última actualización</target>
 </phrase>
 <phrase>
     <source>File can&apos;t be opened</source>
-    <target>Filen kan inte öppnas</target>
+    <target>No se puede abrir el fichero</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
-    <target>Denna filtyp kan inte öppnas.</target>
+    <target>Este tipo de fichero no se puede abrir.</target>
 </phrase>
 <phrase>
     <source>Open</source>
-    <target>Öppna</target>
+    <target>Abrir</target>
 </phrase>
 <phrase>
     <source>File can&apos;t be opened</source>
-    <target>Filen kan inte öppnas</target>
+    <target>No se puede abrir el fichero</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
-    <target>Denna filtyp kan inte öppnas.</target>
+    <target>Este tipo de fichero no se puede abrir.</target>
 </phrase>
 <phrase>
     <source>Text not found.</source>
-    <target>Texten hittades inte</target>
+    <target>Texto no encontrado.</target>
 </phrase>
 <phrase>
     <source>Open Notes</source>
-    <target>Öppna Anteckningar</target>
+    <target>Abrir Notas</target>
 </phrase>
 <phrase>
     <source>File can&apos;t be opened</source>
-    <target>Filen kan inte öppnas</target>
+    <target>No se puede abrir el fichero</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
-    <target>Denna filtyp kan inte öppnas.</target>
+    <target>Este tipo de fichero no se puede abrir.</target>
 </phrase>
 <phrase>
     <source>Note nr</source>
-    <target>Anteckning nr.</target>
+    <target>Nota núm.</target>
 </phrase>
 <phrase>
     <source>Profile settings</source>
-    <target>Profilinställningar</target>
+    <target>Ajustes del perfil</target>
 </phrase>
 <phrase>
     <source>Name</source>
-    <target>Namn</target>
+    <target>Nombre</target>
 </phrase>
 <phrase>
     <source>Description</source>
-    <target>Beskrivning</target>
+    <target>Descripción</target>
 </phrase>
 <phrase>
     <source>Profile description</source>
-    <target>Profilbeskrivning</target>
+    <target>Descripción del perfil</target>
 </phrase>
 <phrase>
     <source>Search directories lists</source>
-    <target>Sökvägslistor</target>
+    <target>Listas de directorios de búsqueda</target>
 </phrase>
 <phrase>
     <source>Whitelist directories:</source>
-    <target>Vitlistade mappar:</target>
+    <target>Directorios en lista blanca:</target>
 </phrase>
 <phrase>
     <source>Blacklist directories:</source>
-    <target>Svartlistade mappar:</target>
+    <target>Directorios en lista negra</target>
 </phrase>
 <phrase>
     <source>Search options</source>
-    <target>Sökalternativ</target>
+    <target>Opciones de búsqueda</target>
 </phrase>
 <phrase>
     <source>Enable regular expressions</source>
-    <target>Aktivera Regular expression</target>
+    <target>Activar expresiones regulares</target>
 </phrase>
 <phrase>
     <source>Enables regular expressions in searched text</source>
-    <target>Aktiverar regular expression i genomsökt text</target>
+    <target>Permite expresiones regulares en la búsqueda de texto</target>
 </phrase>
 <phrase>
     <source>Search hidden files</source>
-    <target>Sök i dolda filer</target>
+    <target>Buscar en ficheros ocultos</target>
 </phrase>
 <phrase>
     <source>Enables searching inside hidden files and hidden directories</source>
-    <target>Aktiverar sökning i dolda filer och mappar</target>
+    <target>Permite la búsqueda dentro de ficheros y directorios ocultos</target>
 </phrase>
 <phrase>
     <source>Follow symbolic links</source>
-    <target>Följ symboliska länkar</target>
+    <target>Seguir enlaces simbólicos</target>
 </phrase>
 <phrase>
     <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
-    <target>Vid aktivering är det maximala undermappsdjupet, 20. Detta för att förhindra oändliga loopar.</target>
+    <target>Cuando se activa, la profundidad máxima de subdirectorios es 20. Esto evita bucles sin fin.</target>
 </phrase>
 <phrase>
     <source>Show cumulative search results</source>
-    <target>Visa kumulativa sökresultat</target>
+    <target>Mostrar resultados de búsqueda acumulados</target>
 </phrase>
 <phrase>
     <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
-    <target>Visar endast första träffen på hittad text i en fil, och antalet träffar i hakparantes [ ]. Alla resultat kan visas i detaljerad vy.</target>
+    <target>Sólo muestra la primera coincidencia del texto encontrado en el fichero y entre corchetes [] el número de coincidencias. En la vista detallada se muestran todos los resultados</target>
 </phrase>
 <phrase>
     <source>Search results</source>
-    <target>Sökresultat</target>
+    <target>Resultados de la búsqueda</target>
 </phrase>
 <phrase>
     <source>max. nr of results per section</source>
-    <target>max antal resultat per sektion</target>
+    <target>núm. máx. de resultados por sección</target>
 </phrase>
 <phrase>
     <source>Result sections</source>
-    <target>Resultatsektioner</target>
+    <target>Secciones de resultados</target>
 </phrase>
 <phrase>
     <source>Enable TXT section</source>
-    <target>Aktivera TXT-sektion</target>
+    <target>Activar sección TXT</target>
 </phrase>
 <phrase>
     <source>Enables searching inside *.txt files</source>
-    <target>Aktiverar sökning i *.txt-filer</target>
+    <target>Permite la búsqueda dentro de ficheros *.txt</target>
 </phrase>
 <phrase>
     <source>Enable HTML section</source>
-    <target>Aktivera HTML-sektion</target>
+    <target>Activar sección HTML</target>
 </phrase>
 <phrase>
     <source>Enables searching inside *.html, *.htm files</source>
-    <target>Aktiverar sökning i *.html-, *.htm-filer</target>
+    <target>Permite la búsqueda en ficheros *.html, *.htm</target>
 </phrase>
 <phrase>
     <source>Enable SRC section</source>
-    <target>Aktivera SRC-sektion</target>
+    <target>Activar sección SRC</target>
 </phrase>
 <phrase>
     <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
-    <target>Aktiverar sökning i *.cpp-, *.c-, *.h-, *.py-, *.sh-, *.qml-, *.js-filer</target>
+    <target>Permite la búsqueda en ficheros *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js</target>
 </phrase>
 <phrase>
     <source>Enable APPS section</source>
-    <target>Aktivera APP-sektion</target>
+    <target>Activar sección Aplicaciones</target>
 </phrase>
 <phrase>
     <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
-    <target>Aktiverar specialsökning inuti *.desktop-filer. Detta är en experimentell funktion. Läs detaljerad info i &apos;Om&apos;.</target>
+    <target>Permite una búsqueda especial dentro de ficheros *.desktop. Esta es una funcionalidad experimental. Consulta los detalles en &apos;Acerca de&apos;.</target>
 </phrase>
 <phrase>
     <source>Run apps directly</source>
-    <target>Starta appar direkt</target>
+    <target>Abrir aplicaciones directamente</target>
 </phrase>
 <phrase>
     <source>Enables direct app launch from APPS section on the search page</source>
-    <target>Aktiverar direkt app-start från APP-sektionen på söksidan</target>
+    <target>Permite abrir la aplicación directamente desde la sección Aplicaciones en la página de búsqueda</target>
 </phrase>
 <phrase>
     <source>Enable SQLITE section</source>
-    <target>Aktivera SQLITE-sektion</target>
+    <target>Activar sección SQLITE</target>
 </phrase>
 <phrase>
     <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
-    <target>Aktiverar sökning i *.sqlite-, *.sqlite3-, *.db-filer</target>
+    <target>Permite la búsqueda en ficheros *.sqlite, *.sqlite3, *.db</target>
 </phrase>
 <phrase>
     <source>Enable NOTES section</source>
-    <target>Aktivera ANTECKNINGAR-sektion</target>
+    <target>Activar sección NOTAS</target>
 </phrase>
 <phrase>
     <source>Enables searching inside Notes application database</source>
-    <target>Aktiverar sökning i Anteckningsappens databas</target>
+    <target>Permite la búsqueda dentro de la base de datos de la aplicación Notas</target>
 </phrase>
 <phrase>
     <source>Enable Files and Directories sections</source>
-    <target>Aktivera fil- och mappsektioner</target>
+    <target>Activar sección de Ficheros y Directorios</target>
 </phrase>
 <phrase>
     <source>Enables searching for file and directory names</source>
-    <target>Aktiverar sökning efter fil- och mappnamn</target>
+    <target>Permite la búsqueda de nombres de ficheros y directorios</target>
 </phrase>
 <phrase>
     <source>Profile name error!</source>
-    <target>Profilnamnsfel!</target>
+    <target>¡Error en nombre de perfil!</target>
 </phrase>
 <phrase>
     <source>Name exists. Try another one...</source>
-    <target>Namnet finns redan. Försök med ett annat...</target>
+    <target>El nombre existe. Prueba con otro...</target>
 </phrase>
 <phrase>
     <source>Profiles list</source>
-    <target>Profillista</target>
+    <target>Lista de perfiles</target>
 </phrase>
 <phrase>
     <source>Add default set</source>
-    <target>Lägg till standarduppsättning</target>
+    <target>Aplicar ajustes por defecto</target>
 </phrase>
 <phrase>
     <source>Add profile</source>
-    <target>Lägg till profil</target>
+    <target>Añadir perfil</target>
 </phrase>
 <phrase>
     <source>Set as current</source>
-    <target>Ange som aktuell</target>
+    <target>Establecer como actual</target>
 </phrase>
 <phrase>
     <source>Rename</source>
-    <target>Byt namn</target>
+    <target>Renombrar</target>
 </phrase>
 <phrase>
     <source>Rename profile</source>
-    <target>Namnändra profil</target>
+    <target>Renombrar perfil</target>
 </phrase>
 <phrase>
     <source>Delete</source>
-    <target>Ta bort</target>
+    <target>Borrar</target>
 </phrase>
 <phrase>
     <source>Deleting profile</source>
-    <target>Tar bort profil</target>
+    <target>Borrando perfil</target>
 </phrase>
 <phrase>
     <source>Accept</source>
-    <target>Acceptera</target>
+    <target>Aceptar</target>
 </phrase>
 <phrase>
     <source>Cancel</source>
-    <target>Avbryt</target>
+    <target>Cancelar</target>
 </phrase>
 <phrase>
     <source>Profile name</source>
-    <target>Profilnamn</target>
+    <target>Nombre de perfil</target>
 </phrase>
 <phrase>
     <source>Profile description</source>
-    <target>Profilbeskrivning</target>
+    <target>Descripción del perfil</target>
 </phrase>
 <phrase>
     <source>The following profiles will be created:</source>
-    <target>Följande profiler kommer att skapas:</target>
+    <target>Se crearán los siguientes perfiles:</target>
 </phrase>
 <phrase>
     <source>Home dir</source>
-    <target>Hemkatalog</target>
+    <target>Directorio Home</target>
 </phrase>
 <phrase>
     <source>SD Card</source>
-    <target>SD-kort</target>
+    <target>Tarjeta SD</target>
 </phrase>
 <phrase>
     <source>Applications</source>
-    <target>Appar</target>
+    <target>Aplicaciones</target>
 </phrase>
 <phrase>
     <source>Entire tree</source>
-    <target>Hela mappträdet</target>
+    <target>Árbol completo</target>
 </phrase>
 <phrase>
     <source>If such profiles exist, they will be overwritten.</source>
-    <target>Om profilerna redan finns, kommer de att skrivas över.</target>
+    <target>Si dichos perfiles existen, se sobrescribirán.</target>
 </phrase>
 <phrase>
     <source>%1 bytes</source>
-    <target>%1 byte</target>
+    <target>%1 bytes</target>
 </phrase>
 <phrase>
     <source>%1 kB</source>
@@ -750,43 +750,43 @@
 </phrase>
 <phrase>
     <source>Make:%1</source>
-    <target>Tillverkare: %1</target>
+    <target>Fabricante:%1</target>
 </phrase>
 <phrase>
     <source>Model:%1</source>
-    <target>Modell: %1</target>
+    <target>Modelo:%1</target>
 </phrase>
 <phrase>
     <source>Date/Time:%1</source>
-    <target>Datum/Tid: %1</target>
+    <target>Fecha/Hora:%1</target>
 </phrase>
 <phrase>
     <source>Orientation:%1</source>
-    <target>Orientering: %1</target>
+    <target>Orientación:%1</target>
 </phrase>
 <phrase>
     <source>Color/BW:Black and White</source>
-    <target>Färg/SV:Svartvitt</target>
+    <target>Color/BN:Blanco y Negro</target>
 </phrase>
 <phrase>
     <source>(Strobe light not detected)</source>
-    <target>(Inget blixtljus upptäckt)</target>
+    <target>(Luz estroboscópica no detectada)</target>
 </phrase>
 <phrase>
     <source>(Strobe light detected) </source>
-    <target>(Blixtljus upptäckt) </target>
+    <target>(Luz estroboscópica detectada)</target>
 </phrase>
 <phrase>
     <source>(Manual)</source>
-    <target>(Manuell)</target>
+    <target>(Manual)</target>
 </phrase>
 <phrase>
     <source>(Manual, return light not detected)</source>
-    <target>(Manuell, inget återsken upptäckt)</target>
+    <target>(Manual, flash no detectado)</target>
 </phrase>
 <phrase>
     <source>(Manual, return light detected)</source>
-    <target>(Manuell, återsken upptäckt)</target>
+    <target>(Manual, flash detectado)</target>
 </phrase>
 <phrase>
     <source>(Auto)</source>
@@ -794,75 +794,75 @@
 </phrase>
 <phrase>
     <source>(Auto, return light not detected)</source>
-    <target>(Auto, inget återsken upptäckt)</target>
+    <target>(Auto, flash no detectado)</target>
 </phrase>
 <phrase>
     <source>(Auto, return light detected)</source>
-    <target>(Auto, återsken upptäckt)</target>
+    <target>(Auto, flash detectado)</target>
 </phrase>
 <phrase>
     <source>(Red eye reduction mode)</source>
-    <target>(Röda-ögon-reduktion)</target>
+    <target>(Modo de reducción de ojos rojos)</target>
 </phrase>
 <phrase>
     <source>(Red eye reduction mode return light not detected)</source>
-    <target>(Röda-ögon-reduktion, inget återsken upptäckt)</target>
+    <target>(Modo de reducción de ojos rojos con flash no detectado)</target>
 </phrase>
 <phrase>
     <source>(Red eye reduction mode return light detected)</source>
-    <target>(Röda-ögon-reduktion, återsken upptäckt)</target>
+    <target>(Modo de reducción de ojos rojos con flash detectado)</target>
 </phrase>
 <phrase>
     <source>(Manual, red eye reduction mode)</source>
-    <target>(Manuell, röda-ögon-reduktion)</target>
+    <target>(Manual, modo de reducción de ojos rojos)</target>
 </phrase>
 <phrase>
     <source>(Manual, red eye reduction mode, return light not detected)</source>
-    <target>(Manuell, röda-ögon-reduktion, inget återsken upptäckt)</target>
+    <target>(Manual, modo de reducción de ojos rojos, flash no detectado)</target>
 </phrase>
 <phrase>
     <source>(Red eye reduction mode, return light detected)</source>
-    <target>(Röda-ögon-reduktion, återsken upptäckt)</target>
+    <target>(Modo de reducción de ojos rojos, flash detectado)</target>
 </phrase>
 <phrase>
     <source>(Auto, red eye reduction mode)</source>
-    <target>(Auto, röda-ögon-reduktion)</target>
+    <target>(Auto, modo de reducción de ojos rojos)</target>
 </phrase>
 <phrase>
     <source>(Auto, red eye reduction mode, return light not detected)</source>
-    <target>(Auto, röda-ögon-reduktion, inget återsken upptäckt)</target>
+    <target>(Auto, modo de reducción de ojos rojos, flash no detectado)</target>
 </phrase>
 <phrase>
     <source>(Auto, red eye reduction mode, return light detected)</source>
-    <target>(Auto, röda-ögon-reduktion, återsken upptäckt)</target>
+    <target>(Auto, modo de reducción de ojos rojos, flash detectado)</target>
 </phrase>
 <phrase>
     <source>Flash:Yes</source>
-    <target>Blixt: Ja</target>
+    <target>Flash:Sí</target>
 </phrase>
 <phrase>
     <source>Flash:No</source>
-    <target>Blixt: Nej</target>
+    <target>Flash:No</target>
 </phrase>
 <phrase>
     <source>Focal Length:%1mm</source>
-    <target>Brännvidd: %1mm</target>
+    <target>Longitud focal:%1mm</target>
 </phrase>
 <phrase>
     <source>(35mm equivalent: %1mm)</source>
-    <target>(35mm: %1mm)</target>
+    <target>(equivalente a 35mm: %1mm)</target>
 </phrase>
 <phrase>
     <source>Digital Zoom:%1x</source>
-    <target>Digital zoom: %1x</target>
+    <target>Zoom digital:%1x</target>
 </phrase>
 <phrase>
     <source>CCD Width:%1</source>
-    <target>CCD: %1</target>
+    <target>Ancho CCD:%1</target>
 </phrase>
 <phrase>
     <source>Exposure Time:%1</source>
-    <target>Exponeringstid: %1</target>
+    <target>Tiempo de exposición:%1</target>
 </phrase>
 <phrase>
     <source>(1/%1)</source>
@@ -870,283 +870,283 @@
 </phrase>
 <phrase>
     <source>Aperture:f/%1</source>
-    <target>Bländare: f/%1</target>
+    <target>Apertura:f/%1</target>
 </phrase>
 <phrase>
     <source>Focus Distance:Infinite</source>
-    <target>Fokusavstånd: Oändligt</target>
+    <target>Distancia de enfoque:Infinito</target>
 </phrase>
 <phrase>
     <source>Focus Distance:%1m</source>
-    <target>Fokusavstånd: %1m</target>
+    <target>Distancia de enfoque:%1</target>
 </phrase>
 <phrase>
     <source>ISO Equivalent:%1</source>
-    <target>ISO: %1</target>
+    <target>ISO:%1</target>
 </phrase>
 <phrase>
     <source>Exposure Bias:%1</source>
-    <target>Exponeringsbias: %1</target>
+    <target>Compensación de exposición:%1</target>
 </phrase>
 <phrase>
     <source>White Balance:Manual</source>
-    <target>Vitbalans: Manuell</target>
+    <target>Balance de blancos:Manual</target>
 </phrase>
 <phrase>
     <source>White Balance:Auto</source>
-    <target>Vitbalans: Auto</target>
+    <target>Balance de blancos:Auto</target>
 </phrase>
 <phrase>
     <source>Light Source:Daylight</source>
-    <target>Ljuskälla: Dagsljus</target>
+    <target>Fuente luminosa:Luz del sol</target>
 </phrase>
 <phrase>
     <source>Light Source:Fluorescent</source>
-    <target>Ljuskälla: Fluorescerande</target>
+    <target>Fuente luminosa:Tubo fluorescente</target>
 </phrase>
 <phrase>
     <source>Light Source:Incandescent</source>
-    <target>Ljuskälla: Glödlampa</target>
+    <target>Fuente luminosa:Lámpara incandescente</target>
 </phrase>
 <phrase>
     <source>Light Source:Flash</source>
-    <target>Ljuskälla: Blixt</target>
+    <target>Fuente luminosa:Flash</target>
 </phrase>
 <phrase>
     <source>Light Source:Fine weather</source>
-    <target>Ljuskälla: Solljus</target>
+    <target>Fuente luminosa:Día soleado</target>
 </phrase>
 <phrase>
     <source>Light Source:Shade</source>
-    <target>Ljuskälla: Skugga</target>
+    <target>Fuente luminosa:Nublado</target>
 </phrase>
 <phrase>
     <source>Metering Mode:</source>
-    <target>Mätläge:</target>
+    <target>Modo de medición:</target>
 </phrase>
 <phrase>
     <source>Average</source>
-    <target>Medel</target>
+    <target>Normal</target>
 </phrase>
 <phrase>
     <source>Center weighted average</source>
-    <target>Centervägt medel</target>
+    <target>Ponderada al centro</target>
 </phrase>
 <phrase>
     <source>Spot</source>
-    <target>Spot</target>
+    <target>Puntual</target>
 </phrase>
 <phrase>
     <source>Multi spot</source>
-    <target>Multispot</target>
+    <target>Matricial</target>
 </phrase>
 <phrase>
     <source>Pattern</source>
-    <target>Mönster</target>
+    <target>Patrón</target>
 </phrase>
 <phrase>
     <source>Partial</source>
-    <target>Partiell</target>
+    <target>Parcial</target>
 </phrase>
 <phrase>
     <source>Other</source>
-    <target>Annat</target>
+    <target>Otro</target>
 </phrase>
 <phrase>
     <source>Unknown (%1)</source>
-    <target>Okänd (%1)</target>
+    <target>Desconocido (%1)</target>
 </phrase>
 <phrase>
     <source>Exposure Program:</source>
-    <target>Exponeringsprogram:</target>
+    <target>Programa de exposición:</target>
 </phrase>
 <phrase>
     <source>Manual</source>
-    <target>Manuellt</target>
+    <target>Manual</target>
 </phrase>
 <phrase>
     <source>Program (auto)</source>
-    <target>Program (auto)</target>
+    <target>Programa (auto)</target>
 </phrase>
 <phrase>
     <source>Aperture priority (semi-auto)</source>
-    <target>Bländarautomatik (semiauto)</target>
+    <target>Prioridad a la apertura (semi-auto)</target>
 </phrase>
 <phrase>
     <source>Shutter priority (semi-auto)</source>
-    <target>Slutarautomatik (semiauto)</target>
+    <target>Prioridad al obturador (semi-auto)</target>
 </phrase>
 <phrase>
     <source>Creative Program (based towards depth of field)</source>
-    <target>Kreativt program (baserat på fältdjup)</target>
+    <target>Programa creativo (en base a la profundidad de campo)</target>
 </phrase>
 <phrase>
     <source>Action program (based towards fast shutter speed)</source>
-    <target>Rörelseprogram (baserat på hög slutarhastighet)</target>
+    <target>Programa de acción (en base a la velocidad de obturación)</target>
 </phrase>
 <phrase>
     <source>Portrait mode</source>
-    <target>Stående läge</target>
+    <target>Modo retrato</target>
 </phrase>
 <phrase>
     <source>Landscape mode</source>
-    <target>Liggande läge</target>
+    <target>Modo apaisado</target>
 </phrase>
 <phrase>
     <source>Exposure Mode:Manual</source>
-    <target>Exponeringsläge: Manuell</target>
+    <target>Modo de exposición:Manual</target>
 </phrase>
 <phrase>
     <source>Exposure Mode:Auto bracketing</source>
-    <target>Exponeringsläge: Autogaffling</target>
+    <target>Modo de exposición:Automático</target>
 </phrase>
 <phrase>
     <source>Focus Range:</source>
-    <target>Fokusintervall:</target>
+    <target>Rango de enfoque</target>
 </phrase>
 <phrase>
     <source>Macro</source>
-    <target>Makro</target>
+    <target>Macro</target>
 </phrase>
 <phrase>
     <source>Close</source>
-    <target>Kort avstånd</target>
+    <target>Cerrar</target>
 </phrase>
 <phrase>
     <source>Distant</source>
-    <target>Långt avstånd</target>
+    <target>Distancia larga</target>
 </phrase>
 <phrase>
     <source>JPEG Process:Unknown</source>
-    <target>JPEG-process: Okänd</target>
+    <target>Proceso JPEG:Desconocido</target>
 </phrase>
 <phrase>
     <source>JPEG Process:%1</source>
-    <target>JPEG-process: %1</target>
+    <target>Proceso JPEG:%1</target>
 </phrase>
 <phrase>
     <source>Latitude:%1</source>
-    <target>Latitud: %1</target>
+    <target>Latitud:%1</target>
 </phrase>
 <phrase>
     <source>Longitude:%1</source>
-    <target>Longitud: %1</target>
+    <target>Longitud:%1</target>
 </phrase>
 <phrase>
     <source>Altitude:%1</source>
-    <target>Altitud: %1</target>
+    <target>Altitud:%1</target>
 </phrase>
 <phrase>
     <source>JPEG Quality:%1</source>
-    <target>JPEG-kvalitet: %1</target>
+    <target>Calidad JPEG:%1</target>
 </phrase>
 <phrase>
     <source>Comment:</source>
-    <target>Kommentar:</target>
+    <target>Comentario:</target>
 </phrase>
 <phrase>
     <source>Found text:</source>
-    <target>Hittad text:</target>
+    <target>Texto encontrado:</target>
 </phrase>
 <phrase>
     <source>Application</source>
-    <target>App</target>
+    <target>Aplicación</target>
 </phrase>
 <phrase>
     <source>Notes</source>
-    <target>Anteckningar</target>
+    <target>Notas</target>
 </phrase>
 <phrase>
     <source>TXT files content</source>
-    <target>TXT filinnehåll</target>
+    <target>Contenido de ficheros TXT</target>
 </phrase>
 <phrase>
     <source>HTML files content</source>
-    <target>HTML filinnehåll</target>
+    <target>Contenido de ficheros HTML</target>
 </phrase>
 <phrase>
     <source>PDF files content</source>
-    <target>PDF filinnehåll</target>
+    <target>Contenido de ficheros PDF</target>
 </phrase>
 <phrase>
     <source>SRC files content</source>
-    <target>SRC filinnehåll</target>
+    <target>Contenido de ficheros SRC</target>
 </phrase>
 <phrase>
     <source>SQLITE files content</source>
-    <target>SQLITE filinnehåll</target>
+    <target>Contenido de ficheros SQLITE</target>
 </phrase>
 <phrase>
     <source>Applications</source>
-    <target>Appar</target>
+    <target>Aplicaciones</target>
 </phrase>
 <phrase>
     <source>Filenames</source>
-    <target>Filnamn</target>
+    <target>Nombres de fichero</target>
 </phrase>
 <phrase>
     <source>Directory names</source>
-    <target>Mappnamn</target>
+    <target>Nombres de directorios</target>
 </phrase>
 <phrase>
     <source>Other</source>
-    <target>Annat</target>
+    <target>Otro</target>
 </phrase>
 <phrase>
     <source>Search finished:</source>
-    <target>Sökning avslutad:</target>
+    <target>Búsqueda finalizada:</target>
 </phrase>
 <phrase>
     <source>%n hit(s)</source>
-    <target>%n träff@%n träffar</target>
+    <target>%n coincidencia@%n coincidencias</target>
 </phrase>
 <phrase>
     <source>Searching</source>
-    <target>Söker</target>
+    <target>Buscando</target>
 </phrase>
 <phrase>
     <source>About</source>
-    <target>Om</target>
+    <target>Acerca de</target>
 </phrase>
 <phrase>
     <source>General options</source>
-    <target>Allmänna alternativ</target>
+    <target>Opciones generales</target>
 </phrase>
 <phrase>
     <source>Profiles list</source>
-    <target>Profillista</target>
+    <target>Lista de perfiles</target>
 </phrase>
 <phrase>
     <source>Current profile setup</source>
-    <target>Aktuell profilinställning</target>
+    <target>Configuración del perfil actual</target>
 </phrase>
 <phrase>
     <source>Search %1</source>
-    <target>Sök i %1</target>
+    <target>Buscar %1</target>
 </phrase>
 <phrase>
     <source>Profile:</source>
-    <target>Profil:</target>
+    <target>Perfil:</target>
 </phrase>
 <phrase>
     <source>View</source>
-    <target>Visa</target>
+    <target>Vista</target>
 </phrase>
 <phrase>
     <source>Run</source>
-    <target>Kör</target>
+    <target>Ejecutar</target>
 </phrase>
 <phrase>
     <source>Open</source>
-    <target>Öppna</target>
+    <target>Abrir</target>
 </phrase>
 <phrase>
     <source>Remove from search results</source>
-    <target>Ta bort från sökresultat</target>
+    <target>Eliminar de los resultados de búsqueda</target>
 </phrase>
 <phrase>
     <source>Removing from search results</source>
-    <target>Tar bort från sökresultat</target>
+    <target>Eliminando de los resultados de búsqueda</target>
 </phrase>
 <phrase>
     <source>SearchNemo</source>
@@ -1154,138 +1154,138 @@
 </phrase>
 <phrase>
     <source>File can&apos;t be opened</source>
-    <target>Filen kan inte öppnas</target>
+    <target>No se puede abrir el fichero</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
-    <target>Denna filtyp kan inte öppnas.</target>
+    <target>Este tipo de fichero no se puede abrir.</target>
 </phrase>
 <phrase>
     <source>Search already in progress</source>
-    <target>Sökning pågår redan</target>
+    <target>Búsqueda en curso</target>
 </phrase>
 <phrase>
     <source>Bad search parameters</source>
-    <target>Felaktiga sökparametrar</target>
+    <target>Parámetros incorrectos de búsqueda</target>
 </phrase>
 <phrase>
     <source>Profile configuration error!</source>
-    <target>Profilinställningsfel!</target>
+    <target>¡Error en la configuración del perfil!</target>
 </phrase>
 <phrase>
     <source>Check profile whitelist...</source>
-    <target>Kontrollera profilens vitlista...</target>
+    <target>Comprueba lista blanca del perfil...</target>
 </phrase>
 <phrase>
     <source>Note nr</source>
-    <target>Anteckning nr.</target>
+    <target>Nota núm.</target>
 </phrase>
 <phrase>
     <source>Select and Copy</source>
-    <target>Markera och kopiera</target>
+    <target>Seleccionar y copiar</target>
 </phrase>
 <phrase>
     <source>Home dir</source>
-    <target>Hemkatalog</target>
+    <target>Directorio Home</target>
 </phrase>
 <phrase>
     <source>Entire home directory with hidden files</source>
-    <target>Hela hemkatalogen med dolda filer</target>
+    <target>Directorio home completo con ficheros ocultos</target>
 </phrase>
 <phrase>
     <source>SD card</source>
-    <target>SD-kort</target>
+    <target>Tarjeta SD</target>
 </phrase>
 <phrase>
     <source>Entire SD card with hidden files</source>
-    <target>Hela SD-kortet med dolda filer</target>
+    <target>Tarjeta SD completa con ficheros ocultos</target>
 </phrase>
 <phrase>
     <source>Applications</source>
-    <target>Appar</target>
+    <target>Aplicaciones</target>
 </phrase>
 <phrase>
     <source>All installed applications</source>
-    <target>Alla installerade appar</target>
+    <target>Todas las aplicaciones instaladas</target>
 </phrase>
 <phrase>
     <source>Entire tree</source>
-    <target>Hela mappträdet</target>
+    <target>Árbol completo</target>
 </phrase>
 <phrase>
     <source>Entire dir tree. Warning: very long search</source>
-    <target>Hela mappträdet. Varning för mycket lång söktid!</target>
+    <target>Todo el árbol de directorios. Advertencia: búsqueda muy larga</target>
 </phrase>
 <phrase>
     <source>default</source>
-    <target>standard</target>
+    <target>por defecto</target>
 </phrase>
 <phrase>
     <source>General options</source>
-    <target>Allmänna alternativ</target>
+    <target>Opciones generales</target>
 </phrase>
 <phrase>
     <source>Default profile:</source>
-    <target>Standardprofil:</target>
+    <target>Perfil por defecto:</target>
 </phrase>
 <phrase>
     <source>This profile will be used on the application startup</source>
-    <target>Denna profil kommer att användas vid programstart.</target>
+    <target>Este es el perfil que se usará al iniciar la aplicación</target>
 </phrase>
 <phrase>
     <source>Language:</source>
-    <target>Språk:</target>
+    <target>Idioma:</target>
 </phrase>
 <phrase>
     <source>Note: Change of this parameter requires restart of the application</source>
-    <target>OBS! Ändring i denna parameter kräver omstart av appen</target>
+    <target>Nota: Si cambias este parámetro es necesario reiniciar la aplicación</target>
 </phrase>
 <phrase>
     <source>Record</source>
-    <target>Post</target>
+    <target>Registro</target>
 </phrase>
 <phrase>
     <source>Text not found.</source>
-    <target>Ingen text hittad.</target>
+    <target>Texto no encontrado.</target>
 </phrase>
 <phrase>
     <source>Open </source>
-    <target>Öppna</target>
+    <target>Abrir</target>
 </phrase>
 <phrase>
     <source>File can&apos;t be opened</source>
-    <target>Filen kan inte öppnas</target>
+    <target>No se puede abrir el fichero</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
-    <target>Denna filtyp kan inte öppnas.</target>
+    <target>Este tipo de fichero no se puede abrir.</target>
 </phrase>
 <phrase>
     <source>Show complete record</source>
-    <target>Visa fullständig post</target>
+    <target>Mostrar registro completo</target>
 </phrase>
 <phrase>
     <source>db:table:column:row</source>
-    <target>db:tabell:kolumn:rad</target>
+    <target>bd:tabla:columna:fila</target>
 </phrase>
 <phrase>
     <source>&lt;b&gt;[%1/%n hit(s)]&lt;/b&gt;&lt;br&gt;</source>
-    <target>&lt;b&gt;[%1/%n träff]&lt;/b&gt;&lt;br&gt;@&lt;b&gt;[%1/%n träffar]&lt;/b&gt;&lt;br&gt;</target>
+    <target>&lt;b&gt;[%1/%n coincidencia]&lt;/b&gt;&lt;br&gt;@&lt;b&gt;[%1/%n coincidencias]&lt;/b&gt;&lt;br&gt;</target>
 </phrase>
 <phrase>
     <source>Text not found.</source>
-    <target>Ingen text hittad.</target>
+    <target>Texto no encontrado.</target>
 </phrase>
 <phrase>
     <source>Open</source>
-    <target>Öppna</target>
+    <target>Abrir</target>
 </phrase>
 <phrase>
     <source>File can&apos;t be opened</source>
-    <target>Filen kan inte öppnas</target>
+    <target>No se puede abrir el fichero</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
-    <target>Denna filtyp kan inte öppnas.</target>
+    <target>Este tipo de fichero no se puede abrir.</target>
 </phrase>
 </QPH>

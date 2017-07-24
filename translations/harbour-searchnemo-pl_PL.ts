@@ -49,11 +49,15 @@
     </message>
     <message>
         <source>Swedish</source>
-        <translation>Szwedzki</translation>
+        <translation>szwedzki</translation>
+    </message>
+    <message>
+        <source>Spanish</source>
+        <translation>hiszpański</translation>
     </message>
     <message>
         <source>Italian</source>
-        <translation>Włoski</translation>
+        <translation>włoski</translation>
     </message>
     <message>
         <source>If you want to contribute to translate into your language, plese join in:</source>

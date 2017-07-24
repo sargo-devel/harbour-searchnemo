@@ -52,6 +52,10 @@
         <translation>Svenska</translation>
     </message>
     <message>
+        <source>Spanish</source>
+        <translation>Spanska</translation>
+    </message>
+    <message>
         <source>Italian</source>
         <translation>Italienska</translation>
     </message>
