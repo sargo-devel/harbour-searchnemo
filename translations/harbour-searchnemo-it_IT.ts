@@ -52,20 +52,24 @@
         <translation>Svedese</translation>
     </message>
     <message>
+        <source>Spanish</source>
+        <translation>Spagnolo</translation>
+    </message>
+    <message>
         <source>Italian</source>
         <translation>Italiano</translation>
     </message>
     <message>
         <source>If you want to contribute to translate into your language, plese join in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Se vuoi contribuire alla traduzione unisciti al</translation>
     </message>
     <message>
         <source>Translation service</source>
-        <translation type="unfinished"></translation>
+        <translation>team traduttori</translation>
     </message>
     <message>
         <source>Donations</source>
-        <translation type="unfinished"></translation>
+        <translation>Donazioni</translation>
     </message>
     <message>
         <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
@@ -85,7 +89,7 @@
     </message>
     <message>
         <source>* Tap on magnifying glass to set Regexp search on/off.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Clicca sulla lente d&apos;ingrandimento per abilitare/disabilitare la ricerca Regexp.</translation>
     </message>
     <message>
         <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
@@ -125,35 +129,35 @@
     </message>
     <message>
         <source>Regular expressions (Regexp)</source>
-        <translation type="unfinished"></translation>
+        <translation>Espressioni regolari (Regexp)</translation>
     </message>
     <message>
         <source>Regexp is a powerful tool for finding complex text patterns.</source>
-        <translation type="unfinished"></translation>
+        <translation>Regexp è uno strumento molto potente per la ricerca di schemi di testo complessi.</translation>
     </message>
     <message>
         <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Quest&apos;app utilizza il tipo &apos;QRegularExpression&apos;, che implementa espressioni regolari (PCRE) compatibili con Perl.</translation>
     </message>
     <message>
         <source>There are some rules used here:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ecco alcune regole utilizzate:</translation>
     </message>
     <message>
         <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
-        <translation type="unfinished"></translation>
+        <translation>* La ricerca è case sensitive. Puoi cambiare questa impostazione nello schema Regexp (ad esempio &apos;(?i)hello&apos;).</translation>
     </message>
     <message>
         <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Sono utilizzate le proprietà Unicode come impostazione predefinita. Le classi di caratteri (ad esempio \w \d) sono compabili con Unicode.</translation>
     </message>
     <message>
         <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
-        <translation type="unfinished"></translation>
+        <translation>* La ricerca è avviene SEMPRE su righe a prescindere dallo schema Regexp impostato. Questo significa che Regexp non è mai applicato all&apos;intero file, ma alle singole righe.</translation>
     </message>
     <message>
         <source>Reference:</source>
-        <translation type="unfinished"></translation>
+        <translation>Riferimento:</translation>
     </message>
     <message>
         <source>Applications section (experimental)</source>
@@ -584,11 +588,11 @@
     </message>
     <message>
         <source>Enable regular expressions</source>
-        <translation type="unfinished"></translation>
+        <translation>Espressioni regolari</translation>
     </message>
     <message>
         <source>Enables regular expressions in searched text</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita le espressioni regolari nel testo cercato</translation>
     </message>
     <message>
         <source>Search hidden files</source>
@@ -660,11 +664,11 @@
     </message>
     <message>
         <source>Run apps directly</source>
-        <translation type="unfinished"></translation>
+        <translation>Avvia app</translation>
     </message>
     <message>
         <source>Enables direct app launch from APPS section on the search page</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita l&apos;avvio diretto dell&apos;app dalla pagina di ricerca</translation>
     </message>
     <message>
         <source>Enable SQLITE section</source>
@@ -1186,7 +1190,7 @@
     </message>
     <message>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>Vedi</translation>
     </message>
     <message>
         <source>Run</source>

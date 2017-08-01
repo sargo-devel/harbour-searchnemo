@@ -49,20 +49,24 @@
     <target>Svedese</target>
 </phrase>
 <phrase>
+    <source>Spanish</source>
+    <target>Spagnolo</target>
+</phrase>
+<phrase>
     <source>Italian</source>
     <target>Italiano</target>
 </phrase>
 <phrase>
     <source>If you want to contribute to translate into your language, plese join in:</source>
-    <target></target>
+    <target>Se vuoi contribuire alla traduzione unisciti al</target>
 </phrase>
 <phrase>
     <source>Translation service</source>
-    <target></target>
+    <target>team traduttori</target>
 </phrase>
 <phrase>
     <source>Donations</source>
-    <target></target>
+    <target>Donazioni</target>
 </phrase>
 <phrase>
     <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
@@ -82,7 +86,7 @@
 </phrase>
 <phrase>
     <source>* Tap on magnifying glass to set Regexp search on/off.</source>
-    <target></target>
+    <target>* Clicca sulla lente d&apos;ingrandimento per abilitare/disabilitare la ricerca Regexp.</target>
 </phrase>
 <phrase>
     <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
@@ -122,35 +126,35 @@
 </phrase>
 <phrase>
     <source>Regular expressions (Regexp)</source>
-    <target></target>
+    <target>Espressioni regolari (Regexp)</target>
 </phrase>
 <phrase>
     <source>Regexp is a powerful tool for finding complex text patterns.</source>
-    <target></target>
+    <target>Regexp è uno strumento molto potente per la ricerca di schemi di testo complessi.</target>
 </phrase>
 <phrase>
     <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
-    <target></target>
+    <target>Quest&apos;app utilizza il tipo &apos;QRegularExpression&apos;, che implementa espressioni regolari (PCRE) compatibili con Perl.</target>
 </phrase>
 <phrase>
     <source>There are some rules used here:</source>
-    <target></target>
+    <target>Ecco alcune regole utilizzate:</target>
 </phrase>
 <phrase>
     <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
-    <target></target>
+    <target>* La ricerca è case sensitive. Puoi cambiare questa impostazione nello schema Regexp (ad esempio &apos;(?i)hello&apos;).</target>
 </phrase>
 <phrase>
     <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
-    <target></target>
+    <target>* Sono utilizzate le proprietà Unicode come impostazione predefinita. Le classi di caratteri (ad esempio \w \d) sono compabili con Unicode.</target>
 </phrase>
 <phrase>
     <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
-    <target></target>
+    <target>* La ricerca è avviene SEMPRE su righe a prescindere dallo schema Regexp impostato. Questo significa che Regexp non è mai applicato all&apos;intero file, ma alle singole righe.</target>
 </phrase>
 <phrase>
     <source>Reference:</source>
-    <target></target>
+    <target>Riferimento:</target>
 </phrase>
 <phrase>
     <source>Applications section (experimental)</source>
@@ -542,11 +546,11 @@
 </phrase>
 <phrase>
     <source>Enable regular expressions</source>
-    <target></target>
+    <target>Espressioni regolari</target>
 </phrase>
 <phrase>
     <source>Enables regular expressions in searched text</source>
-    <target></target>
+    <target>Abilita le espressioni regolari nel testo cercato</target>
 </phrase>
 <phrase>
     <source>Search hidden files</source>
@@ -618,11 +622,11 @@
 </phrase>
 <phrase>
     <source>Run apps directly</source>
-    <target></target>
+    <target>Avvia app</target>
 </phrase>
 <phrase>
     <source>Enables direct app launch from APPS section on the search page</source>
-    <target></target>
+    <target>Abilita l&apos;avvio diretto dell&apos;app dalla pagina di ricerca</target>
 </phrase>
 <phrase>
     <source>Enable SQLITE section</source>
@@ -1126,7 +1130,7 @@
 </phrase>
 <phrase>
     <source>View</source>
-    <target></target>
+    <target>Vedi</target>
 </phrase>
 <phrase>
     <source>Run</source>
