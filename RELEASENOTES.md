@@ -1,15 +1,16 @@
 
 # SearchNemo Release Notes
 
+## Version 0.4.1 (2017-08-02)
+* Added Spanish translation
 
-## Version 0.4.0 (2017-07-18)
+## Version 0.4.0 (2017-07-18) (Jolla Store 2017-07-25)
 NOTE: Since ver.0.4.0 this app is compiled for SailfishOS 2.1 and newer. It will not run on previous system versions.
 
 * Added option: Regular expression search
 * Some improvements for search engine
 * Fixed bug with results list refreshing
 * Small fixes to adapt to system version 2.1.0
-
 
 ## Version 0.3.3 (2017-07-05) (Jolla Store 2017-07-06)
 * Added option: Run apps directly
