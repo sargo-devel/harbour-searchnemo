@@ -53,7 +53,6 @@ Page {
     SearchEngine {
         id: searchEngine
         profilename: page.profilename
-        pixelRatio: Theme.pixelRatio
         property var categoryTab: { "NOTES":0, "TXT":1, "HTML":2, "PDF":3, "SRC":4, "SQLITE":5, "APPS":6, "FILE":7, "DIR":8 }
         property var ord: [0, 0, 0, 0, 0, 0, 0, 0, 0]
         property var backord: [0, 0, 0, 0, 0, 0, 0, 0, 0]

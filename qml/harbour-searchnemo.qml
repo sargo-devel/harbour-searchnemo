@@ -27,18 +27,6 @@ ApplicationWindow
     property string startProfilename: ""
     property int remorseTimeout: 3000
 
-    Component.onCompleted: {
-        console.log("Screen=",Screen.sizeCategory )
-        console.log("Screen.Small:",Screen.Small)
-        console.log("Screen.Medium:",Screen.Medium)
-        console.log("Screen.Large:",Screen.Large)
-        console.log("Screen.ExLarge:",Screen.ExtraLarge)
-        console.log("Screen.WidthRatio=",Screen.widthRatio)
-        console.log("Screen.width=",Screen.width)
-        console.log("Screen.height=",Screen.height)
-        console.log("Theme.pixelRatio=",Theme.pixelRatio)
-    }
-
     initialPage: Component { SearchPage { profilename: startProfilename } }
     cover: Qt.resolvedUrl("cover/CoverPage.qml")
 

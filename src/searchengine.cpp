@@ -28,9 +28,6 @@ SearchEngine::SearchEngine(QObject *parent) :
     connect(m_searchWorker, SIGNAL(profileSettingsChanged()), this, SLOT(emitEnableAppsRunDirect()));
     connect(m_searchWorker, SIGNAL(profileSettingsChanged()), this, SLOT(emitEnableRegEx()));
     connect(m_searchWorker, SIGNAL(profileNameChanged()), this, SIGNAL(profilenameChanged()));
-
-    //for icons recognition
-    //connect(this, SIGNAL(pixelRatioChanged()), this, SLOT(createIconPathList()));
 }
 
 SearchEngine::~SearchEngine()
@@ -118,30 +115,10 @@ void SearchEngine::emitMatchFound(QString fullpath, QString searchtype, QString 
 
 QString SearchEngine::getIconPath(QString name)
 {
-//    QString path;
     QFileInfo check(name);
 
     if(check.exists()) return name;
     return "image://theme/"+name;
-/*
-    foreach(QString dir, m_iconPathList) {
-        path = dir+name+".png";
-        QFileInfo file(path);
-        if (file.exists()) return path;
-    }
-    return "image://theme/icon-m-sailfish";
-*/
-}
 
-void SearchEngine::createIconPathList()
-{
-//    QString size="z1.0";
-//    if(m_pixelRatio==1.25) size="z1.25";
-//    if(m_pixelRatio==1.5)  size="z1.5-large";
-//    if(m_pixelRatio==1.75) size="z1.75";
-//    m_iconPathList.clear();
-    m_iconPathList.append("/usr/share/icons/hicolor/86x86/apps/");
-//    m_iconPathList.append("/usr/share/themes/jolla-ambient/meegotouch/"+size+"/icons/");
-//    m_iconPathList.append("/usr/share/themes/sailfish-default/meegotouch/"+size+"/icons/");
-    m_iconPathList.append("/var/lib/apkd/");
+    //return "image://theme/icon-m-sailfish";
 }
