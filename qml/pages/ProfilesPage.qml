@@ -220,16 +220,15 @@ Page {
                 anchors.left: parent.left
                 anchors.top: columnProfile.top
                 anchors.leftMargin: Theme.paddingLarge
-                color: Theme.highlightColor
                 gradient: Gradient {
                     GradientStop {
-                        position: 0.00; color: Theme.highlightDimmerColor
+                        position: 0.00; color: itemProfile.highlighted ? Theme.highlightColor: Theme.highlightDimmerColor
                     }
                     GradientStop {
-                        position: 0.50; color: Theme.highlightColor
+                        position: 0.50; color: itemProfile.highlighted ? Theme.highlightDimmerColor : Theme.primaryColor
                     }
                     GradientStop {
-                        position: 1.00; color: Theme.highlightDimmerColor
+                        position: 1.00; color: itemProfile.highlighted ? Theme.highlightColor : Theme.highlightDimmerColor
                     }
                 }
             }
@@ -247,6 +246,7 @@ Page {
                     width: parent.width
                     truncationMode: TruncationMode.Fade
                     text: profilename
+                    color: itemProfile.highlighted ? Theme.highlightColor : Theme.primaryColor
                     font.pixelSize: Theme.fontSizeLarge
                     //font.pixelSize: Theme.fontSizeMedium
                 }
@@ -256,6 +256,7 @@ Page {
                     height: text === "" ? 0 : profileNameDescription.implicitHeight
                     truncationMode: TruncationMode.Fade
                     text: profiledescription
+                    color: itemProfile.highlighted ? Theme.highlightColor : Theme.primaryColor
                     font.pixelSize: Theme.fontSizeSmall
                     //font.pixelSize: Theme.fontSizeTiny
                 }

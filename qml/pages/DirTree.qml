@@ -145,6 +145,10 @@ Dialog {
                 id: delegate
                 width: parent.width
                 menu: wbContextMenu
+                property color blackColor: highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor
+                property color whiteColor: highlighted ? Theme.secondaryHighlightColor : Theme.highlightColor
+                property color normalColorS: highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor
+                property color normalColorP: highlighted ? Theme.highlightColor : Theme.primaryColor
 
                 Image {
                     id: folderIcon
@@ -152,11 +156,8 @@ Dialog {
                     anchors.left: parent.left
                     anchors.leftMargin: Theme.horizontalPageMargin
                     anchors.verticalCenter: parent.verticalCenter
-                    source: wblistModel.isInWhiteList(path) ?
-                                "image://theme/icon-m-folder" + "?" + Theme.highlightColor
-                              : wblistModel.isInBlackList(path) ?
-                                    "image://theme/icon-m-folder" + "?" + Theme.secondaryHighlightColor
-                                  : "image://theme/icon-m-folder" + "?" + Theme.secondaryColor
+                    source: "image://theme/icon-m-folder" + "?" + (wblistModel.isInWhiteList(path) ? whiteColor
+                              : ( wblistModel.isInBlackList(path) ? blackColor : normalColorS ))
                     Behavior on opacity { NumberAnimation { duration: 250; easing.type: Easing.InOutQuad } }
                 }
 
@@ -166,7 +167,7 @@ Dialog {
                     //anchors.leftMargin: Theme.paddingSmall
                     anchors.leftMargin: Theme.horizontalPageMargin
                     anchors.verticalCenter: parent.verticalCenter
-                    source: "image://theme/icon-m-acknowledge"
+                    source: "image://theme/icon-m-acknowledge" + "?" + normalColorP
                     opacity: wblistModel.isInWhiteList(path) ? 1 : 0
                     Behavior on opacity { NumberAnimation { duration: 250; easing.type: Easing.InOutQuad } }
                 }
@@ -177,7 +178,7 @@ Dialog {
                     //anchors.leftMargin: Theme.paddingSmall
                     anchors.leftMargin: Theme.horizontalPageMargin
                     anchors.verticalCenter: parent.verticalCenter
-                    source: "image://theme/icon-m-dismiss"
+                    source: "image://theme/icon-m-dismiss" + "?" + normalColorP
                     opacity: wblistModel.isInBlackList(path) ? 1 : 0
                     Behavior on opacity { NumberAnimation { duration: 250; easing.type: Easing.InOutQuad } }
                 }
@@ -191,8 +192,8 @@ Dialog {
                     anchors.verticalCenter: parent.verticalCenter
                     truncationMode: TruncationMode.Fade
                     text: name
-                    color: wblistModel.isInWhiteList(path) ? Theme.highlightColor :
-                          (wblistModel.isInBlackList(path) ? Theme.secondaryHighlightColor : Theme.primaryColor)
+                    color: wblistModel.isInWhiteList(path) ? whiteColor :
+                          (wblistModel.isInBlackList(path) ? blackColor : normalColorP)
                 }
 
                 onClicked: {
@@ -211,12 +212,20 @@ Dialog {
                         MenuItem {
                             visible: wblistModel.isInWhiteList(model.path) ? false : true
                             text: qsTr("Add to whitelist")
-                            onClicked: wblistModel.addDir(model.path, true)
+                            onClicked: {
+                                if (wblistModel.isInBlackList(model.path))
+                                  wblistModel.removeDirName(model.path)
+                                wblistModel.addDir(model.path, true)
+                            }
                         }
                         MenuItem {
                             visible: wblistModel.isInBlackList(model.path) ? false : true
                             text: qsTr("Add to blacklist")
-                            onClicked: wblistModel.addDir(model.path, false)
+                            onClicked: {
+                                if (wblistModel.isInWhiteList(model.path))
+                                  wblistModel.removeDirName(model.path)
+                                wblistModel.addDir(model.path, false)
+                            }
                         }
                         MenuItem {
                             visible: (wblistModel.isInWhiteList(model.path) || wblistModel.isInBlackList(model.path)) ? true : false

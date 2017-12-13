@@ -227,6 +227,7 @@ Page {
             height: searchField.height+Theme.paddingSmall+selectProfile.height
             SearchField {
                 id: searchField
+                //color: Theme.primaryColor
                 anchors.left: parent.left
                 anchors.right: cancelSearchButton.left
                 y: Theme.paddingSmall
@@ -297,6 +298,7 @@ Page {
                 horizontalAlignment: Text.AlignHCenter
                 verticalAlignment: Text.AlignVCenter
                 font.pixelSize: Theme.fontSizeSmall
+                color: searchField.highlighted ? Theme.primaryColor : Theme.highlightColor
                 text: "R"
                 MouseArea {
                     anchors.fill: parent
@@ -498,11 +500,10 @@ Page {
                 anchors.left: parent.left
                 anchors.leftMargin: Theme.paddingLarge
                 anchors.verticalCenter: parent.verticalCenter
-                source: "image://theme/icon-m-forward" // + "?" + Theme.highlightColor
+                source: "image://theme/icon-m-forward"  + "?" + (sectionItem.highlighted ? Theme.highlightColor : Theme.primaryColor)
                 rotation:  openSection ? 90 : 0
                 Behavior on rotation { NumberAnimation { duration: 250; easing.type: Easing.OutBack } }
             }
-
             Label {
                 id: sectionCountLabel
                 anchors.left: sectionIcon.right
@@ -512,7 +513,7 @@ Page {
                 text: qsTr("%n hit(s)", "", searchEngine.backord [ searchEngine.categoryTab[section] ] )
                 textFormat: Text.PlainText
                 font.pixelSize: Theme.fontSizeTiny
-                color: Theme.secondaryColor
+                color: sectionItem.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor
             }
             SectionHeader {
                         id: sectionLabel

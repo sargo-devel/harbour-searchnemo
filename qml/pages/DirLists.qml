@@ -162,6 +162,7 @@ Page {
                 anchors.verticalCenter: parent.verticalCenter
                 wrapMode: Text.Wrap
                 text: dirname
+                color: itemDir.highlighted ? Theme.highlightColor : Theme.primaryColor
                 //font.pixelSize: Theme.fontSizeSmall
             }
 

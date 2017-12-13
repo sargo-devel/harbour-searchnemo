@@ -96,7 +96,7 @@ Page {
                         anchors.left: parent.left
                         anchors.top: parent.top
                         anchors.leftMargin: Theme.paddingSmall
-                        source: "image://theme/icon-m-acknowledge" // + "?" + Theme.highlightColor
+                        source: "image://theme/icon-m-acknowledge" + "?" + (profLists.highlighted ? Theme.highlightColor : Theme.primaryColor)
                     }
                     Label {
                         id: profWhite
@@ -106,6 +106,7 @@ Page {
                         anchors.left: whiteIcon.right
                         anchors.right: parent.right
                         anchors.rightMargin: Theme.horizontalPageMargin
+                        color: profLists.highlighted ? Theme.highlightColor : Theme.primaryColor
                         //text: qsTr("Whitelist directories:")+" "+profile.countWhiteList()
                     }
                     Image {
@@ -113,7 +114,7 @@ Page {
                         anchors.left: parent.left
                         anchors.top: whiteIcon.bottom
                         anchors.leftMargin: Theme.paddingSmall
-                        source: "image://theme/icon-m-dismiss" // + "?" + Theme.secondaryHighlightColor
+                        source: "image://theme/icon-m-dismiss" + "?" + (profLists.highlighted ? Theme.highlightColor : Theme.primaryColor)
                     }
                     Label {
                         id: profBlack
@@ -123,6 +124,7 @@ Page {
                         anchors.left: blackIcon.right
                         anchors.right: parent.right
                         anchors.rightMargin: Theme.horizontalPageMargin
+                        color: profLists.highlighted ? Theme.highlightColor : Theme.primaryColor
                         //text: qsTr("Blacklist directories:")+" "+profile.countBlackList()
                     }
                 }
