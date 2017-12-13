@@ -341,7 +341,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+27"/>
         <source>Removing directory from list</source>
         <translation type="unfinished"></translation>
     </message>
@@ -439,17 +439,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+88"/>
         <source>Add to whitelist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+9"/>
         <source>Add to blacklist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+10"/>
         <source>Remove from lists</source>
         <translation type="unfinished"></translation>
     </message>
@@ -711,13 +711,13 @@
     </message>
     <message>
         <location line="+11"/>
-        <location line="+154"/>
+        <location line="+156"/>
         <source>Whitelist directories:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-153"/>
-        <location line="+154"/>
+        <location line="-155"/>
+        <location line="+156"/>
         <source>Blacklist directories:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -881,18 +881,18 @@
     </message>
     <message>
         <location line="+8"/>
-        <location line="+179"/>
+        <location line="+180"/>
         <source>Add default set</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-168"/>
-        <location line="+125"/>
+        <location line="-169"/>
+        <location line="+126"/>
         <source>Add profile</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-107"/>
+        <location line="-108"/>
         <source>Set as current</source>
         <translation type="unfinished"></translation>
     </message>
@@ -912,7 +912,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+61"/>
+        <location line="+62"/>
         <source>Deleting profile</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1376,7 +1376,7 @@
 <context>
     <name>SearchEngine</name>
     <message>
-        <location filename="../src/searchengine.cpp" line="+112"/>
+        <location filename="../src/searchengine.cpp" line="+110"/>
         <source>Application</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1440,8 +1440,8 @@
     </message>
     <message numerus="yes">
         <location line="+2"/>
-        <location line="+211"/>
-        <location line="+196"/>
+        <location line="+213"/>
+        <location line="+197"/>
         <source>%n hit(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -1449,7 +1449,7 @@
         </translation>
     </message>
     <message>
-        <location line="-319"/>
+        <location line="-322"/>
         <source>Searching</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1474,17 +1474,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+18"/>
         <source>Search %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+103"/>
+        <location line="+104"/>
         <source>Profile:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+122"/>
+        <location line="+124"/>
         <source>View</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1509,7 +1509,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+124"/>
+        <location line="+123"/>
         <source>SearchNemo</source>
         <translation type="unfinished"></translation>
     </message>

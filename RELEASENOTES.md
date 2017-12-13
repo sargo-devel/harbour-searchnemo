@@ -1,7 +1,11 @@
 
 # SearchNemo Release Notes
 
-## Version 0.4.1 (2017-08-02)
+## Version 0.4.2 (2017-12-13)
+* Adaptation to SailfishX and hi-res devices
+* Fixed theme
+
+## Version 0.4.1 (2017-08-02) (Jolla Store 2017-08-03)
 * Added Spanish translation
 
 ## Version 0.4.0 (2017-07-18) (Jolla Store 2017-07-25)
