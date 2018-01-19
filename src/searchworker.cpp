@@ -18,6 +18,8 @@
 #include <QSettings>
 #include <QRegularExpression>
 #include <QRegularExpressionMatch>
+#include <QMimeDatabase>
+#include <QMimeType>
 //#include <QDebug>
 #include "globals.h"
 #include "dbsqlite.h"
@@ -107,13 +109,16 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
     bool hiddenSetting = m_profile.getBoolOption(Profile::SearchHiddenFiles);
     bool enableSymlinks = m_profile.getBoolOption(Profile::EnableSymlinks);
     bool singleMatchSetting = m_profile.getBoolOption(Profile::SingleMatchSetting);
-    bool enableTxt = m_profile.getBoolOption(Profile::EnableTxt);
-    bool enableHtml = m_profile.getBoolOption(Profile::EnableHtml);
-    bool enableSrc = m_profile.getBoolOption(Profile::EnableSrc);
-    bool enableApps = m_profile.getBoolOption(Profile::EnableApps);
-    bool enableSqlite = m_profile.getBoolOption(Profile::EnableSqlite);
     bool enableNotes = m_profile.getBoolOption(Profile::EnableNotes);
     bool enableFileDir = m_profile.getBoolOption(Profile::EnableFileDir);
+    
+    QHash<SearchWorker::WorkSet, bool> enabler;
+    enabler[SearchWorker::EnableMimeType] = true; //m_profile.getBoolOption(Profile::EnableMimeType);
+    enabler[SearchWorker::EnableTxt] = m_profile.getBoolOption(Profile::EnableTxt);
+    enabler[SearchWorker::EnableHtml] = m_profile.getBoolOption(Profile::EnableHtml);
+    enabler[SearchWorker::EnableSrc] = m_profile.getBoolOption(Profile::EnableSrc);
+    enabler[SearchWorker::EnableApps] = m_profile.getBoolOption(Profile::EnableApps);
+    enabler[SearchWorker::EnableSqlite] = m_profile.getBoolOption(Profile::EnableSqlite);
 
     //prepare for regEx
     const QRegularExpression searchExpr(searchTerm, QRegularExpression::UseUnicodePropertiesOption);
@@ -170,26 +175,29 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
                 emit matchFound(fullpath, searchtype, "", matchline, 0);
         }
     }
+    
+    // create table of file lists qualified for search
+    QHash<SearchWorker::WorkSet, QStringList> filesTab = createFileTable(dir,hidden,enabler);
 
     // search inside filtered files (*.txt)
-    if (enableTxt)
-        if ( addSearchTXT("TXT", searchTerm, dir, hidden, singleMatchSetting) == QString() ) return QString();
+    if (enabler[SearchWorker::EnableTxt])
+        if ( addSearchTXT("TXT", searchTerm, dir, filesTab, singleMatchSetting) == QString() ) return QString();
 
     // search inside filtered files (*.html)
-    if (enableHtml)
-        if ( addSearchTXT("HTML", searchTerm, dir, hidden, singleMatchSetting) == QString() ) return QString();
+    if (enabler[SearchWorker::EnableHtml])
+        if ( addSearchTXT("HTML", searchTerm, dir, filesTab, singleMatchSetting) == QString() ) return QString();
 
     // search inside filtered files (*.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js)
-    if (enableSrc)
-        if ( addSearchTXT("SRC", searchTerm, dir, hidden, singleMatchSetting) == QString() ) return QString();
+    if (enabler[SearchWorker::EnableSrc])
+        if ( addSearchTXT("SRC", searchTerm, dir, filesTab, singleMatchSetting) == QString() ) return QString();
 
     // search inside filtered files (*.desktop)
-    if (enableApps)
-        if ( addSearchTXT("APPS", searchTerm, dir, hidden, singleMatchSetting) == QString() ) return QString();
+    if (enabler[SearchWorker::EnableApps])
+        if ( addSearchTXT("APPS", searchTerm, dir, filesTab, singleMatchSetting) == QString() ) return QString();
 
     // search inside raw sqlite files (*.sqlite, *.sqlite3, *db)
-    if (enableSqlite)
-        if ( addSearchSqlite("SQLITE", searchTerm, dir, hidden, singleMatchSetting) == QString() ) return QString();
+    if (enabler[SearchWorker::EnableSqlite])
+        if ( addSearchSqlite("SQLITE", searchTerm, dir, filesTab, singleMatchSetting) == QString() ) return QString();
 
     // search inside Notes sqlite db
 
@@ -202,19 +210,74 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
     return QString();
 }
 
-// additional search module for searchRecursively (TXT,HTML,SRC,APPS)
-QString SearchWorker::addSearchTXT(QString searchtype, QString searchTerm, QDir dir, QDir::Filter hidden, bool singleMatch)
+// create table of file lists qualified for search
+QHash<SearchWorker::WorkSet, QStringList> SearchWorker::createFileTable(QDir dir, QDir::Filter hidden, QHash<SearchWorker::WorkSet, bool> enabler)
 {
-
+    QHash<SearchWorker::WorkSet, QStringList> wtab;
     QStringList filetypefilters;
 
-    if (searchtype == "HTML") filetypefilters << "*.html" << "*.htm";
-    if (searchtype == "TXT") filetypefilters << "*.txt";
-    //if (searchtype == "PDF") filetypefilters << "*.pdf";
-    if (searchtype == "SRC") filetypefilters << "*.cpp" << "*.c" << "*.h" << "*.py" << "*.sh" << "*.qml" << "*.js";
-    if (searchtype == "APPS") filetypefilters << "*.desktop";
+    if (!enabler[SearchWorker::EnableMimeType]) {
+        if (enabler[SearchWorker::EnableTxt]) {
+            filetypefilters.clear();
+            filetypefilters << "*.txt";
+            wtab[SearchWorker::EnableTxt] = dir.entryList(filetypefilters, QDir::Files | hidden);
+        }
+        if (enabler[SearchWorker::EnableHtml]) {
+            filetypefilters.clear();
+            filetypefilters << "*.html" << "*.htm";
+            wtab[SearchWorker::EnableHtml] = dir.entryList(filetypefilters, QDir::Files | hidden);
+        }
+        if (enabler[SearchWorker::EnableSrc]) {
+            filetypefilters.clear();
+            filetypefilters << "*.cpp" << "*.c" << "*.h" << "*.py" << "*.sh" << "*.qml" << "*.js";
+            wtab[SearchWorker::EnableSrc] = dir.entryList(filetypefilters, QDir::Files | hidden);
+        }
+        if (enabler[SearchWorker::EnableApps]) {
+            filetypefilters.clear();
+            filetypefilters << "*.desktop";
+            wtab[SearchWorker::EnableApps] = dir.entryList(filetypefilters, QDir::Files | hidden);
+        }
+        if (enabler[SearchWorker::EnableSqlite]) {
+            filetypefilters.clear();
+            filetypefilters << "*.sqlite" << "*.sqlite3" << "*.db";
+            wtab[SearchWorker::EnableSqlite] = dir.entryList(filetypefilters, QDir::Files | hidden);
+        }
+    }
 
-    QStringList names = dir.entryList(filetypefilters, QDir::Files | hidden);
+    if (enabler[SearchWorker::EnableMimeType]) {
+        filetypefilters.clear();
+        QStringList names = dir.entryList(filetypefilters, QDir::Files | hidden);
+        QMimeDatabase db;
+        for (int i = 0 ; i < names.count() ; ++i) {
+            QString fullpath = dir.absoluteFilePath(names.at(i));
+            QMimeType mime = db.mimeTypeForFile(fullpath);
+            if ( mime.inherits("application/x-sqlite3") ) {
+                if (enabler[SearchWorker::EnableSqlite]) wtab[SearchWorker::EnableSqlite].append(names.at(i)); }
+            else if ( mime.inherits("application/x-desktop") ) {
+                if (enabler[SearchWorker::EnableApps]) wtab[SearchWorker::EnableApps].append(names.at(i)); }
+            else if ( mime.inherits("text/html") ) {
+                if (enabler[SearchWorker::EnableHtml]) wtab[SearchWorker::EnableHtml].append(names.at(i)); }
+            else if ( mime.inherits("text/x-csrc") || mime.inherits("application/x-shellscript")
+                   || mime.inherits("text/x-python") || mime.inherits("text/x-qml") ) {
+                if (enabler[SearchWorker::EnableSrc]) wtab[SearchWorker::EnableSrc].append(names.at(i)); }
+            else if ( mime.inherits("text/plain") ) {
+                if (enabler[SearchWorker::EnableTxt]) wtab[SearchWorker::EnableTxt].append(names.at(i)); }
+        }
+    }
+    return wtab;
+}
+
+    
+// additional search module for searchRecursively (TXT,HTML,SRC,APPS)
+QString SearchWorker::addSearchTXT(QString searchtype, QString searchTerm, QDir dir, QHash<SearchWorker::WorkSet, QStringList> filesTab, bool singleMatch)
+{
+    QStringList names;
+
+    if (searchtype == "HTML") names = filesTab[SearchWorker::EnableHtml];
+    if (searchtype == "TXT")  names = filesTab[SearchWorker::EnableTxt];
+    if (searchtype == "SRC")  names = filesTab[SearchWorker::EnableSrc];
+    if (searchtype == "APPS") names = filesTab[SearchWorker::EnableApps];
+
     for (int i = 0 ; i < names.count() ; ++i) {
         // stop if cancelled
         if (m_cancelled.loadAcquire() == Cancelled) return QString();
@@ -257,14 +320,14 @@ QString SearchWorker::addSearchNotes(QString searchtype, QString searchTerm, boo
 }
 
 // additional search module for searchRecursively (SQLITE)
-QString SearchWorker::addSearchSqlite(QString searchtype, QString searchTerm, QDir dir, QDir::Filter hidden, bool singleMatch)
+QString SearchWorker::addSearchSqlite(QString searchtype, QString searchTerm, QDir dir, QHash<SearchWorker::WorkSet, QStringList> filesTab, bool singleMatch)
 {
     QString displabel = "";
-    QStringList filetypefilters;
+    QStringList names;
 
-    if (searchtype == "SQLITE") filetypefilters << "*.sqlite" << "*.sqlite3" << "*.db";
-    QStringList names = dir.entryList(filetypefilters, QDir::Files | hidden);
+    if (searchtype == "SQLITE") names = filesTab[SearchWorker::EnableSqlite];
     QString notesfullpath = DbSqlite::findNotesFileName();
+
     for (int i = 0 ; i < names.count(); ++i) {
 
         //count elapsed time

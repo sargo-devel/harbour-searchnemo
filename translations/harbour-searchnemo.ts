@@ -1527,7 +1527,7 @@
 <context>
     <name>SearchWorker</name>
     <message>
-        <location filename="../src/searchworker.cpp" line="+50"/>
+        <location filename="../src/searchworker.cpp" line="+52"/>
         <source>Search already in progress</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1547,7 +1547,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+192"/>
+        <location line="+253"/>
         <source>Note nr</source>
         <translation type="unfinished"></translation>
     </message>

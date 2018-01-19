@@ -4,6 +4,7 @@
 #include <QThread>
 #include <QDir>
 #include <QTextStream>
+#include <QHash>
 #include "profile.h"
 
 /**
@@ -48,11 +49,21 @@ private:
     enum CancelStatus {
         Cancelled = 0, NotCancelled = 1
     };
-
+    enum WorkSet {
+        EnableTxt,
+        EnableHtml,
+        EnableSrc,
+        EnableApps,
+        EnableSqlite,
+        EnableNotes,
+        EnableFileDir,
+        EnableMimeType
+    };
     QString searchRecursively(QString directory, QString searchTerm);
-    QString addSearchTXT(QString searchtype, QString searchTerm, QDir dir, QDir::Filter hidden, bool singleMatch);
+    QHash<SearchWorker::WorkSet, QStringList> createFileTable(QDir dir, QDir::Filter hidden, QHash<SearchWorker::WorkSet, bool> enabler);
+    QString addSearchTXT(QString searchtype, QString searchTerm, QDir dir, QHash<SearchWorker::WorkSet, QStringList> filesTab, bool singleMatch);
     QString addSearchNotes(QString searchtype, QString searchTerm, bool singleMatch);
-    QString addSearchSqlite(QString searchtype, QString searchTerm, QDir dir, QDir::Filter hidden, bool singleMatch);
+    QString addSearchSqlite(QString searchtype, QString searchTerm, QDir dir, QHash<SearchWorker::WorkSet, QStringList> filesTab, bool singleMatch);
     bool searchTxtLoop(QTextStream *intxt, QString searchtype, QString searchTerm, bool singleMatch, QString fullpath, QString displabel);
     QString prepareForApps(QTextStream *stream);
     bool m_alreadySearchedNotes;
