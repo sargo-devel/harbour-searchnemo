@@ -160,6 +160,36 @@
     </message>
     <message>
         <location line="+11"/>
+        <source>File type (MIME)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>MIME type is a standard of description of the nature and format of a document.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>It is a two-part identifier, e.g. text/plain.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Search engine has an option to identify file type by its MIME desription.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>It uses QMimeDatabase class from Qt library, which by default uses both the file name and content to make the recognition.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>It means that change in the filename extension influences final file type identification.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
         <source>Regular expressions (Regexp)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -711,18 +741,18 @@
     </message>
     <message>
         <location line="+11"/>
-        <location line="+156"/>
+        <location line="+174"/>
         <source>Whitelist directories:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-155"/>
-        <location line="+156"/>
+        <location line="-173"/>
+        <location line="+174"/>
         <source>Blacklist directories:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-113"/>
+        <location line="-131"/>
         <source>Search options</source>
         <translation type="unfinished"></translation>
     </message>
@@ -778,12 +808,32 @@
     </message>
     <message>
         <location line="+7"/>
+        <source>File type options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Automatic file type recognition</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enables automatic recognition of file type by both filename extension and content. File is assigned to a section by its MIME type. See details in &apos;About&apos; menu.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Result sections</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Enable TXT section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Enables searching inside files of type: text/plain and its derivatives</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -797,6 +847,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+2"/>
+        <source>Enables searching inside files of type: text/html and its derivatives</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+1"/>
         <source>Enables searching inside *.html, *.htm files</source>
         <translation type="unfinished"></translation>
@@ -807,6 +862,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+2"/>
+        <source>Enables searching inside files of type: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml and their derivatives</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+1"/>
         <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
         <translation type="unfinished"></translation>
@@ -814,6 +874,11 @@
     <message>
         <location line="+6"/>
         <source>Enable APPS section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Enables searching inside files of type: application/x-desktop. This is an experimental feature. See details in &apos;About&apos; menu.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -834,6 +899,11 @@
     <message>
         <location line="+6"/>
         <source>Enable SQLITE section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Enables searching inside files of type: application/x-sqlite3 and its derivatives</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

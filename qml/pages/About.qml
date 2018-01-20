@@ -202,6 +202,30 @@ Page {
                 textFormat: Text.StyledText
                 wrapMode: Text.Wrap
                 color: parent.color
+                text: "<u>" + qsTr("File type (MIME)") + "</u>"
+            }
+            Label {
+                anchors.left: parent.left
+                anchors.right: parent.right
+                font.pixelSize: Theme.fontSizeSmall
+                horizontalAlignment: Text.AlignJustify
+                wrapMode: Text.Wrap
+                color: parent.color
+                text: qsTr("MIME type is a standard of description of the nature and format of a document.") + " "
+                      + qsTr("It is a two-part identifier, e.g. text/plain.") + "\n"
+                      + qsTr("Search engine has an option to identify file type by its MIME desription.") + " "
+                      + qsTr("It uses QMimeDatabase class from Qt library, which by default uses both the file name and content to make the recognition.") + " "
+                      + qsTr("It means that change in the filename extension influences final file type identification.")
+                      + "\n"
+            }
+            Label {
+                anchors.left: parent.left
+                anchors.right: parent.right
+                font.pixelSize: Theme.fontSizeSmall
+                horizontalAlignment: Text.AlignLeft
+                textFormat: Text.StyledText
+                wrapMode: Text.Wrap
+                color: parent.color
                 text: "<u>" + qsTr("Regular expressions (Regexp)") + "</u>"
             }
             Label {

@@ -17,6 +17,7 @@ public:
         SearchHiddenFiles,
         EnableSymlinks,
         SingleMatchSetting,
+        EnableMimeType,
         EnableTxt,
         EnableHtml,
         EnableSrc,
@@ -67,6 +68,7 @@ private:
     bool m_enableSymlinks;      //enable/disable follow symlinks
     bool m_singleMatchSetting;  //enable/disable cumulative (single) results match
     int m_maxResultsPerSection; //sets max nr of results in each section
+    bool m_enableMimeType;      //enable/disable auto file type recognition (by MIME type)
     bool m_enableTxt;           //enable/disable TXT section
     bool m_enableHtml;          //enable/disable HTML section
     bool m_enableSrc;           //enable/disable SRC section

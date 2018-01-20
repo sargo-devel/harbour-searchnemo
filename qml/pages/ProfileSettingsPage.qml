@@ -175,32 +175,48 @@ Page {
                     }
                 }
 
+                SectionHeader { text: qsTr("File type options") }
+                TextSwitch {
+                    id: enableMimeType
+                    text: qsTr("Automatic file type recognition")
+                    description: qsTr("Enables automatic recognition of file type by both filename extension and content. File is assigned to a section by its MIME type. See details in 'About' menu.")
+                    onClicked: profile.setOption(Profile.EnableMimeType, checked)
+                }
+
                 SectionHeader { text: qsTr("Result sections") }
                 TextSwitch {
                     id: enableTxtSection
                     text: qsTr("Enable TXT section")
-                    description: qsTr("Enables searching inside *.txt files")
+                    description: enableMimeType.checked ?
+                                     qsTr("Enables searching inside files of type: text/plain and its derivatives")
+                                   : qsTr("Enables searching inside *.txt files")
                     onClicked: profile.setOption(Profile.EnableTxt, checked)
                 }
 
                 TextSwitch {
                     id: enableHtmlSection
                     text: qsTr("Enable HTML section")
-                    description: qsTr("Enables searching inside *.html, *.htm files")
+                    description: enableMimeType.checked ?
+                                     qsTr("Enables searching inside files of type: text/html and its derivatives")
+                                   : qsTr("Enables searching inside *.html, *.htm files")
                     onClicked: profile.setOption(Profile.EnableHtml, checked)
                 }
 
                 TextSwitch {
                     id: enableSrcSection
                     text: qsTr("Enable SRC section")
-                    description: qsTr("Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files")
+                    description: enableMimeType.checked ?
+                                     qsTr("Enables searching inside files of type: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml and their derivatives")
+                                   : qsTr("Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files")
                     onClicked: profile.setOption(Profile.EnableSrc, checked)
                 }
 
                 TextSwitch {
                     id: enableAppsSection
                     text: qsTr("Enable APPS section")
-                    description: qsTr("Enables special searching inside *.desktop files. This is an experimental feature. See details in 'About' menu.")
+                    description: enableMimeType.checked ?
+                                     qsTr("Enables searching inside files of type: application/x-desktop. This is an experimental feature. See details in 'About' menu.")
+                                   : qsTr("Enables special searching inside *.desktop files. This is an experimental feature. See details in 'About' menu.")
                     onClicked: profile.setOption(Profile.EnableApps, checked)
                 }
 
@@ -216,7 +232,9 @@ Page {
                 TextSwitch {
                     id: enableSqliteSection
                     text: qsTr("Enable SQLITE section")
-                    description: qsTr("Enables searching inside *.sqlite, *.sqlite3, *.db files")
+                    description: enableMimeType.checked ?
+                                     qsTr("Enables searching inside files of type: application/x-sqlite3 and its derivatives")
+                                   : qsTr("Enables searching inside *.sqlite, *.sqlite3, *.db files")
                     onClicked: profile.setOption(Profile.EnableSqlite, checked)
                 }
 
@@ -250,6 +268,7 @@ Page {
             enableSymlinks.checked = profile.getBoolOption(Profile.EnableSymlinks)
             showOnlyFirstMatch.checked = profile.getBoolOption(Profile.SingleMatchSetting)
             maxResultsPerSection.value = profile.getIntOption(Profile.MaxResultsPerSection)
+            enableMimeType.checked = profile.getBoolOption(Profile.EnableMimeType)
             enableTxtSection.checked = profile.getBoolOption(Profile.EnableTxt)
             enableHtmlSection.checked = profile.getBoolOption(Profile.EnableHtml)
             enableSrcSection.checked = profile.getBoolOption(Profile.EnableSrc)

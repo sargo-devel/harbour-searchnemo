@@ -113,7 +113,7 @@ QString SearchWorker::searchRecursively(QString directory, QString searchTerm)
     bool enableFileDir = m_profile.getBoolOption(Profile::EnableFileDir);
     
     QHash<SearchWorker::WorkSet, bool> enabler;
-    enabler[SearchWorker::EnableMimeType] = true; //m_profile.getBoolOption(Profile::EnableMimeType);
+    enabler[SearchWorker::EnableMimeType] = m_profile.getBoolOption(Profile::EnableMimeType);
     enabler[SearchWorker::EnableTxt] = m_profile.getBoolOption(Profile::EnableTxt);
     enabler[SearchWorker::EnableHtml] = m_profile.getBoolOption(Profile::EnableHtml);
     enabler[SearchWorker::EnableSrc] = m_profile.getBoolOption(Profile::EnableSrc);

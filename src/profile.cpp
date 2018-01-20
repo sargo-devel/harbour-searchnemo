@@ -126,6 +126,7 @@ void Profile::readOptions()
     m_enableSymlinks = settings.read(m_name+" Options/enableSymlinks", false);
     m_singleMatchSetting = settings.read(m_name+" Options/showOnlyFirstMatch", true);
     m_maxResultsPerSection = settings.read(m_name+" Options/maxResultsPerSection", 50);
+    m_enableMimeType = settings.read(m_name+" Options/enableMimeType", true);
     m_enableTxt = settings.read(m_name+" Sections/enableTxtSection", true);
     m_enableHtml = settings.read(m_name+" Sections/enableHtmlSection", true);
     m_enableSrc = settings.read(m_name+" Sections/enableSrcSection", true);
@@ -147,6 +148,7 @@ void Profile::writeOptions()
     settings.write(m_name+" Options/enableSymlinks", m_enableSymlinks);
     settings.write(m_name+" Options/showOnlyFirstMatch", m_singleMatchSetting);
     settings.write(m_name+" Options/maxResultsPerSection", m_maxResultsPerSection);
+    settings.write(m_name+" Options/enableMimeType", m_enableMimeType);
     settings.write(m_name+" Sections/enableTxtSection", m_enableTxt);
     settings.write(m_name+" Sections/enableHtmlSection", m_enableHtml);
     settings.write(m_name+" Sections/enableSrcSection", m_enableSrc);
@@ -183,6 +185,9 @@ bool Profile::getBoolOption(Options key)
         break;
     case SingleMatchSetting:
         return m_singleMatchSetting;
+        break;
+    case EnableMimeType:
+        return m_enableMimeType;
         break;
     case EnableTxt:
         return m_enableTxt;
@@ -247,6 +252,10 @@ void Profile::setOption(Options key, bool value)
         break;
     case SingleMatchSetting:
         m_singleMatchSetting=value;
+        m_unsaved=true;
+        break;
+    case EnableMimeType:
+        m_enableMimeType=value;
         m_unsaved=true;
         break;
     case EnableTxt:

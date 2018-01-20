@@ -183,6 +183,30 @@
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
         <translation>* Może to być użyteczne, np.: wyszukiwanie &apos;=&apos; zwróci wszystkie znalezione aplikacje, wyszukiwanie &apos;jolla&apos; poda wszystkie aplikacje stworzone przez Jolla</translation>
     </message>
+    <message>
+        <source>File type (MIME)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MIME type is a standard of description of the nature and format of a document.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It is a two-part identifier, e.g. text/plain.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search engine has an option to identify file type by its MIME desription.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It uses QMimeDatabase class from Qt library, which by default uses both the file name and content to make the recognition.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It means that change in the filename extension influences final file type identification.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AnimatedHeader</name>
@@ -693,6 +717,38 @@
     <message>
         <source>Enables searching for file and directory names</source>
         <translation>Zezwala na wyszukiwanie nazw plików i katalogów</translation>
+    </message>
+    <message>
+        <source>File type options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Automatic file type recognition</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables searching inside files of type: text/plain and its derivatives</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables searching inside files of type: text/html and its derivatives</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables searching inside files of type: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml and their derivatives</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables searching inside files of type: application/x-desktop. This is an experimental feature. See details in &apos;About&apos; menu.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables searching inside files of type: application/x-sqlite3 and its derivatives</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enables automatic recognition of file type by both filename extension and content. File is assigned to a section by its MIME type. See details in &apos;About&apos; menu.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
