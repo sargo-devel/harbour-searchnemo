@@ -23,7 +23,7 @@ Page {
     SilicaFlickable {
         id: aboutFlick
         anchors.fill: parent
-        contentHeight: aboutColumn.height + Theme.paddingLarge
+        contentHeight: aboutColumn.height + extendedColumn.height + Theme.paddingLarge
         VerticalScrollDecorator { flickable: aboutFlick }
 
         Column {
@@ -169,112 +169,103 @@ Page {
                       + qsTr("* Choosing profile via 'Profiles list' doesn't delete search results.")
                       + "\n"
             }
-            Label {
-                anchors.left: parent.left
-                anchors.right: parent.right
-                font.pixelSize: Theme.fontSizeSmall
-                horizontalAlignment: Text.AlignLeft
-                textFormat: Text.StyledText
-                wrapMode: Text.Wrap
-                color: parent.color
-                text: "<u>" + qsTr("Profiles") + "</u>"
+        }
+        Column {
+            id: extendedColumn
+//            spacing: Theme.paddingMedium
+            anchors.top: aboutColumn.bottom
+            anchors.left: parent.left
+            anchors.right: parent.right
+            ExpandingSection {
+                title: qsTr("Profiles")
+                content.sourceComponent: Label {
+                    anchors.left: parent.left
+                    anchors.right: parent.right
+                    anchors.leftMargin: Theme.horizontalPageMargin
+                    anchors.rightMargin: Theme.horizontalPageMargin
+                    font.pixelSize: Theme.fontSizeSmall
+                    horizontalAlignment: Text.AlignJustify
+                    wrapMode: Text.Wrap
+                    //color: parent.color
+                    text: qsTr("Profiles give possibility to keep different search options under one short name.") + " "
+                          + qsTr("Each profile may contain different search paths groupped as whitelist or blacklist of directories.") + "\n"
+                          + qsTr("* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.") + "\n"
+                          + qsTr("* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.") + "\n"
+                          + qsTr("This gives a huge flexibility of creating own complex search paths.") + " "
+                          + qsTr("Some example profiles are available in 'Profiles list' menu.")
+                          + "\n"
+                }
             }
-            Label {
-                anchors.left: parent.left
-                anchors.right: parent.right
-                font.pixelSize: Theme.fontSizeSmall
-                horizontalAlignment: Text.AlignJustify
-                wrapMode: Text.Wrap
-                color: parent.color
-                text: qsTr("Profiles give possibility to keep different search options under one short name.") + " "
-                      + qsTr("Each profile may contain different search paths groupped as whitelist or blacklist of directories.") + "\n"
-                      + qsTr("* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.") + "\n"
-                      + qsTr("* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.") + "\n"
-                      + qsTr("This gives a huge flexibility of creating own complex search paths.") + " "
-                      + qsTr("Some example profiles are available in 'Profiles list' menu.")
-                      + "\n"
+            ExpandingSection {
+                title: qsTr("File type (MIME)")
+                content.sourceComponent: Label {
+                    anchors.left: parent.left
+                    anchors.right: parent.right
+                    anchors.leftMargin: Theme.horizontalPageMargin
+                    anchors.rightMargin: Theme.horizontalPageMargin
+                    font.pixelSize: Theme.fontSizeSmall
+                    horizontalAlignment: Text.AlignJustify
+                    wrapMode: Text.Wrap
+                    //color: parent.color
+                    text: qsTr("MIME type is a standard of description of the nature and format of a document.") + " "
+                          + qsTr("It is a two-part identifier, e.g. text/plain.") + "\n"
+                          + qsTr("Search engine has an option to identify file type by its MIME desription.") + " "
+                          + qsTr("It uses QMimeDatabase class from Qt library, which by default uses both the file name and content to make the recognition.") + " "
+                          + qsTr("It means that change in the filename extension influences final file type identification.")
+                          + "\n"
+                }
             }
-            Label {
-                anchors.left: parent.left
-                anchors.right: parent.right
-                font.pixelSize: Theme.fontSizeSmall
-                horizontalAlignment: Text.AlignLeft
-                textFormat: Text.StyledText
-                wrapMode: Text.Wrap
-                color: parent.color
-                text: "<u>" + qsTr("File type (MIME)") + "</u>"
+            ExpandingSection {
+                title: qsTr("Regular expressions (Regexp)")
+                content.sourceComponent: Column {
+                    Label {
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+                        anchors.leftMargin: Theme.horizontalPageMargin
+                        anchors.rightMargin: Theme.horizontalPageMargin
+                        font.pixelSize: Theme.fontSizeSmall
+                        horizontalAlignment: Text.AlignJustify
+                        wrapMode: Text.Wrap
+                        //color: parent.color
+                        text: qsTr("Regexp is a powerful tool for finding complex text patterns.") + " "
+                              + qsTr("Engine in this app uses 'QRegularExpression' type which implements Perl-compatible (PCRE) regular expressions.") + "\n"
+                              + qsTr("There are some rules used here:") + "\n"
+                              + qsTr("* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. '(?i)hello').") + "\n"
+                              + qsTr("* Unicode properties are set by default. Character classes (e.g. \\w \\d) are unicode compatible.") + "\n"
+                              + qsTr("* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.") + "\n"
+                              + qsTr("Reference:")
+                    }
+                    Label {
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+                        anchors.leftMargin: Theme.horizontalPageMargin
+                        anchors.rightMargin: Theme.horizontalPageMargin
+                        font.pixelSize: Theme.fontSizeTiny
+                        textFormat: Text.StyledText
+                        linkColor: Theme.highlightColor
+                        //color: parent.color
+                        text: "<a href=\"http://doc.qt.io/qt-5/qregularexpression.html#details\">http://doc.qt.io/qt-5/qregularexpression.html</a><br><br>"
+                        onLinkActivated: { console.log(link);Qt.openUrlExternally(link) }
+                    }
+                }
             }
-            Label {
-                anchors.left: parent.left
-                anchors.right: parent.right
-                font.pixelSize: Theme.fontSizeSmall
-                horizontalAlignment: Text.AlignJustify
-                wrapMode: Text.Wrap
-                color: parent.color
-                text: qsTr("MIME type is a standard of description of the nature and format of a document.") + " "
-                      + qsTr("It is a two-part identifier, e.g. text/plain.") + "\n"
-                      + qsTr("Search engine has an option to identify file type by its MIME desription.") + " "
-                      + qsTr("It uses QMimeDatabase class from Qt library, which by default uses both the file name and content to make the recognition.") + " "
-                      + qsTr("It means that change in the filename extension influences final file type identification.")
-                      + "\n"
-            }
-            Label {
-                anchors.left: parent.left
-                anchors.right: parent.right
-                font.pixelSize: Theme.fontSizeSmall
-                horizontalAlignment: Text.AlignLeft
-                textFormat: Text.StyledText
-                wrapMode: Text.Wrap
-                color: parent.color
-                text: "<u>" + qsTr("Regular expressions (Regexp)") + "</u>"
-            }
-            Label {
-                anchors.left: parent.left
-                anchors.right: parent.right
-                font.pixelSize: Theme.fontSizeSmall
-                horizontalAlignment: Text.AlignJustify
-                wrapMode: Text.Wrap
-                color: parent.color
-                text: qsTr("Regexp is a powerful tool for finding complex text patterns.") + " "
-                      + qsTr("Engine in this app uses 'QRegularExpression' type which implements Perl-compatible (PCRE) regular expressions.") + "\n"
-                      + qsTr("There are some rules used here:") + "\n"
-                      + qsTr("* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. '(?i)hello').") + "\n"
-                      + qsTr("* Unicode properties are set by default. Character classes (e.g. \\w \\d) are unicode compatible.") + "\n"
-                      + qsTr("* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.") + "\n"
-                      + qsTr("Reference:")
-            }
-            Label {
-                anchors.left: parent.left
-                anchors.right: parent.right
-                font.pixelSize: Theme.fontSizeTiny
-                textFormat: Text.StyledText
-                linkColor: Theme.highlightColor
-                color: parent.color
-                text: "<a href=\"http://doc.qt.io/qt-5/qregularexpression.html#details\">http://doc.qt.io/qt-5/qregularexpression.html</a><br><br>"
-                onLinkActivated: { console.log(link);Qt.openUrlExternally(link) }
-            }
-            Label {
-                anchors.left: parent.left
-                anchors.right: parent.right
-                font.pixelSize: Theme.fontSizeSmall
-                horizontalAlignment: Text.AlignLeft
-                textFormat: Text.StyledText
-                wrapMode: Text.Wrap
-                color: parent.color
-                text: "<u>" + qsTr("Applications section (experimental)") + "</u>"
-            }
-            Label {
-                anchors.left: parent.left
-                anchors.right: parent.right
-                font.pixelSize: Theme.fontSizeSmall
-                horizontalAlignment: Text.AlignJustify
-                wrapMode: Text.Wrap
-                color: parent.color
-                text: qsTr("To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.") + " "
-                      + qsTr("This fact has some implications:") + "\n"
-                      + qsTr("* It gives only original (English) names unless it finds localized names there.") + "\n"
-                      + qsTr("* It can give results not expected by user, because it checks the entire text in these files.") + "\n"
-                      + qsTr("* This can be useful, for example: searching for '=' will return all found apps, searching for 'jolla' will give all apps created by Jolla") + "\n"
+            ExpandingSection {
+                title: qsTr("Applications section (experimental)")
+                content.sourceComponent: Label {
+                    anchors.left: parent.left
+                    anchors.right: parent.right
+                    anchors.leftMargin: Theme.horizontalPageMargin
+                    anchors.rightMargin: Theme.horizontalPageMargin
+                    font.pixelSize: Theme.fontSizeSmall
+                    horizontalAlignment: Text.AlignJustify
+                    wrapMode: Text.Wrap
+                    //color: parent.color
+                    text: qsTr("To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.") + " "
+                          + qsTr("This fact has some implications:") + "\n"
+                          + qsTr("* It gives only original (English) names unless it finds localized names there.") + "\n"
+                          + qsTr("* It can give results not expected by user, because it checks the entire text in these files.") + "\n"
+                          + qsTr("* This can be useful, for example: searching for '=' will return all found apps, searching for 'jolla' will give all apps created by Jolla") + "\n"
+                }
             }
         }
     }

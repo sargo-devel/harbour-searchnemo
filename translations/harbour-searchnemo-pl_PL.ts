@@ -184,10 +184,6 @@
         <translation>* Może to być użyteczne, np.: wyszukiwanie &apos;=&apos; zwróci wszystkie znalezione aplikacje, wyszukiwanie &apos;jolla&apos; poda wszystkie aplikacje stworzone przez Jolla</translation>
     </message>
     <message>
-        <source>File type (MIME)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>MIME type is a standard of description of the nature and format of a document.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -205,6 +201,10 @@
     </message>
     <message>
         <source>It means that change in the filename extension influences final file type identification.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>File type (MIME)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

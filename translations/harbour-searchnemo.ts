@@ -129,7 +129,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+10"/>
         <source>Profiles give possibility to keep different search options under one short name.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -159,12 +159,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+5"/>
         <source>File type (MIME)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+10"/>
         <source>MIME type is a standard of description of the nature and format of a document.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -189,12 +189,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+5"/>
         <source>Regular expressions (Regexp)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+11"/>
         <source>Regexp is a powerful tool for finding complex text patterns.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -229,12 +229,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+20"/>
+        <location line="+17"/>
         <source>Applications section (experimental)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+10"/>
         <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
         <translation type="unfinished"></translation>
     </message>
