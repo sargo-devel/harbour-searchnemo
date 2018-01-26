@@ -129,7 +129,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+11"/>
         <source>Profiles give possibility to keep different search options under one short name.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -159,12 +159,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>File type (MIME)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+11"/>
         <source>MIME type is a standard of description of the nature and format of a document.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -189,7 +189,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Regular expressions (Regexp)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -234,7 +234,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+11"/>
         <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -741,13 +741,13 @@
     </message>
     <message>
         <location line="+11"/>
-        <location line="+174"/>
+        <location line="+176"/>
         <source>Whitelist directories:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-173"/>
-        <location line="+174"/>
+        <location line="-175"/>
+        <location line="+176"/>
         <source>Blacklist directories:</source>
         <translation type="unfinished"></translation>
     </message>

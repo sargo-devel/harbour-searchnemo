@@ -128,6 +128,30 @@
         <translation>Det finns några profilexempel i menyn &apos;Profillista&apos;.</translation>
     </message>
     <message>
+        <source>File type (MIME)</source>
+        <translation>Filtyp (MIME)</translation>
+    </message>
+    <message>
+        <source>MIME type is a standard of description of the nature and format of a document.</source>
+        <translation>MIME-typ är en standard för beskrivning av natur och format för ett dokument.</translation>
+    </message>
+    <message>
+        <source>It is a two-part identifier, e.g. text/plain.</source>
+        <translation>Det är en tvådelad identifierare, t.ex. text/plain.</translation>
+    </message>
+    <message>
+        <source>Search engine has an option to identify file type by its MIME desription.</source>
+        <translation>Sökmotorn har ett alternativ för att identifiera filtyper efter MIME-beskrivning.</translation>
+    </message>
+    <message>
+        <source>It uses QMimeDatabase class from Qt library, which by default uses both the file name and content to make the recognition.</source>
+        <translation>Den använder QMimeDatabasklass från Qt-biblioteket, vilken som standard använder både filnamn och innehåll för igenkänning.</translation>
+    </message>
+    <message>
+        <source>It means that change in the filename extension influences final file type identification.</source>
+        <translation>Det innebär att ändring i filnamnstillägget, påverkar den slutliga filtypsidentifieringen.</translation>
+    </message>
+    <message>
         <source>Regular expressions (Regexp)</source>
         <translation>Regular expressions (Regexp)</translation>
     </message>
@@ -182,30 +206,6 @@
     <message>
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
         <translation>* Detta kan vara användbart, då t.ex. sökning på &apos;=&apos; visar alla hittade appar och sökning på &apos;jolla&apos;, visar alla appar skapade av Jolla.</translation>
-    </message>
-    <message>
-        <source>MIME type is a standard of description of the nature and format of a document.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>It is a two-part identifier, e.g. text/plain.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Search engine has an option to identify file type by its MIME desription.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>It uses QMimeDatabase class from Qt library, which by default uses both the file name and content to make the recognition.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>It means that change in the filename extension influences final file type identification.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>File type (MIME)</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -651,12 +651,28 @@
         <translation>max antal resultat per sektion</translation>
     </message>
     <message>
+        <source>File type options</source>
+        <translation>Filtypsalternativ</translation>
+    </message>
+    <message>
+        <source>Automatic file type recognition</source>
+        <translation>Automatisk filtypsidentifiering</translation>
+    </message>
+    <message>
+        <source>Enables automatic recognition of file type by both filename extension and content. File is assigned to a section by its MIME type. See details in &apos;About&apos; menu.</source>
+        <translation>Aktiverar automatisk igenkänning av filtyp, efter både filnamnstillägg och innehåll. Filen anvisas till en sektion efter dess MIME-typ. Se detaljerad info under &quot;Om&quot; i menyn.</translation>
+    </message>
+    <message>
         <source>Result sections</source>
         <translation>Resultatsektioner</translation>
     </message>
     <message>
         <source>Enable TXT section</source>
         <translation>Aktivera TXT-sektion</translation>
+    </message>
+    <message>
+        <source>Enables searching inside files of type: text/plain and its derivatives</source>
+        <translation>Aktiverar sökning i filer av typen: text/plain och dess derivat</translation>
     </message>
     <message>
         <source>Enables searching inside *.txt files</source>
@@ -667,6 +683,10 @@
         <translation>Aktivera HTML-sektion</translation>
     </message>
     <message>
+        <source>Enables searching inside files of type: text/html and its derivatives</source>
+        <translation>Aktiverar sökning i filer av typen: text/html och dess derivat</translation>
+    </message>
+    <message>
         <source>Enables searching inside *.html, *.htm files</source>
         <translation>Aktiverar sökning i *.html-, *.htm-filer</translation>
     </message>
@@ -675,12 +695,20 @@
         <translation>Aktivera SRC-sektion</translation>
     </message>
     <message>
+        <source>Enables searching inside files of type: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml and their derivatives</source>
+        <translation>Aktiverar sökning i filer av typen: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml och dess derivat</translation>
+    </message>
+    <message>
         <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
         <translation>Aktiverar sökning i *.cpp-, *.c-, *.h-, *.py-, *.sh-, *.qml-, *.js-filer</translation>
     </message>
     <message>
         <source>Enable APPS section</source>
         <translation>Aktivera APP-sektion</translation>
+    </message>
+    <message>
+        <source>Enables searching inside files of type: application/x-desktop. This is an experimental feature. See details in &apos;About&apos; menu.</source>
+        <translation>Aktiverar sökning i filer av typen: application/x-desktop. Detta är en experimentell funktion. Se detaljerad info under &quot;Om&quot; i menyn.</translation>
     </message>
     <message>
         <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
@@ -697,6 +725,10 @@
     <message>
         <source>Enable SQLITE section</source>
         <translation>Aktivera SQLITE-sektion</translation>
+    </message>
+    <message>
+        <source>Enables searching inside files of type: application/x-sqlite3 and its derivatives</source>
+        <translation>Aktiverar sökning i filer av typen: application/x-sqlite3 och dess derivat</translation>
     </message>
     <message>
         <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
@@ -717,38 +749,6 @@
     <message>
         <source>Enables searching for file and directory names</source>
         <translation>Aktiverar sökning efter fil- och mappnamn</translation>
-    </message>
-    <message>
-        <source>File type options</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Automatic file type recognition</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables searching inside files of type: text/plain and its derivatives</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables searching inside files of type: text/html and its derivatives</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables searching inside files of type: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml and their derivatives</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables searching inside files of type: application/x-desktop. This is an experimental feature. See details in &apos;About&apos; menu.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables searching inside files of type: application/x-sqlite3 and its derivatives</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables automatic recognition of file type by both filename extension and content. File is assigned to a section by its MIME type. See details in &apos;About&apos; menu.</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
