@@ -1,7 +1,11 @@
 
 # SearchNemo Release Notes
 
-## Version 0.4.2 (2017-12-13)
+## Version 0.5.0 (2018-01-26)
+* Added option: automatic file type recognition (by MIME type or by filename extension)
+* Modified About page
+
+## Version 0.4.2 (2017-12-13) (Jolla Store 2017-12-14)
 * Adaptation to SailfishX and hi-res devices
 * Fixed theme
 

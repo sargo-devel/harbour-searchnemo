@@ -9,6 +9,7 @@ It can also find file and directory names containing searched text.
  * It is possible to search for a plain text or regular expression
  * Selectable search paths with white- and blacklisted directiories
  * Customization of search by quickly selectable profiles (selection of search paths, file types, max. nr of displayed search results)
+ * Searched files are recognized by their MIME type or by filename extension
  * Currently supported search targets: Notes app database, files (text, html, [sqlite](https://www.sqlite.org/)), applications, filenames, directory names
  * Special search inside Notes app database (with indication of note number containing searched text)
  * Searched text is always case insensitive
