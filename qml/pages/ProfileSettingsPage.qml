@@ -105,6 +105,7 @@ Page {
                         verticalAlignment: Text.AlignVCenter
                         anchors.left: whiteIcon.right
                         anchors.right: parent.right
+                        anchors.leftMargin: Theme.paddingSmall
                         anchors.rightMargin: Theme.horizontalPageMargin
                         color: profLists.highlighted ? Theme.highlightColor : Theme.primaryColor
                         //text: qsTr("Whitelist directories:")+" "+profile.countWhiteList()
@@ -123,6 +124,7 @@ Page {
                         verticalAlignment: Text.AlignVCenter
                         anchors.left: blackIcon.right
                         anchors.right: parent.right
+                        anchors.leftMargin: Theme.paddingSmall
                         anchors.rightMargin: Theme.horizontalPageMargin
                         color: profLists.highlighted ? Theme.highlightColor : Theme.primaryColor
                         //text: qsTr("Blacklist directories:")+" "+profile.countBlackList()
