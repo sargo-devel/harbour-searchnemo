@@ -178,41 +178,45 @@ Page {
             anchors.right: parent.right
             ExpandingSection {
                 title: qsTr("Profiles")
-                content.sourceComponent: Label {
-                    anchors.left: parent.left
-                    anchors.right: parent.right
-                    anchors.leftMargin: Theme.horizontalPageMargin
-                    anchors.rightMargin: Theme.horizontalPageMargin
-                    font.pixelSize: Theme.fontSizeSmall
-                    horizontalAlignment: Text.AlignJustify
-                    wrapMode: Text.Wrap
-                    //color: parent.color
-                    text: qsTr("Profiles give possibility to keep different search options under one short name.") + " "
-                          + qsTr("Each profile may contain different search paths groupped as whitelist or blacklist of directories.") + "\n"
-                          + qsTr("* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.") + "\n"
-                          + qsTr("* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.") + "\n"
-                          + qsTr("This gives a huge flexibility of creating own complex search paths.") + " "
-                          + qsTr("Some example profiles are available in 'Profiles list' menu.")
-                          + "\n"
+                content.sourceComponent: Column {
+                    Label {
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+                        anchors.leftMargin: Theme.horizontalPageMargin
+                        anchors.rightMargin: Theme.horizontalPageMargin
+                        font.pixelSize: Theme.fontSizeSmall
+                        horizontalAlignment: Text.AlignJustify
+                        wrapMode: Text.Wrap
+                        //color: parent.color
+                        text: qsTr("Profiles give possibility to keep different search options under one short name.") + " "
+                              + qsTr("Each profile may contain different search paths groupped as whitelist or blacklist of directories.") + "\n"
+                              + qsTr("* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.") + "\n"
+                              + qsTr("* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.") + "\n"
+                              + qsTr("This gives a huge flexibility of creating own complex search paths.") + " "
+                              + qsTr("Some example profiles are available in 'Profiles list' menu.")
+                              + "\n"
+                    }
                 }
             }
             ExpandingSection {
                 title: qsTr("File type (MIME)")
-                content.sourceComponent: Label {
-                    anchors.left: parent.left
-                    anchors.right: parent.right
-                    anchors.leftMargin: Theme.horizontalPageMargin
-                    anchors.rightMargin: Theme.horizontalPageMargin
-                    font.pixelSize: Theme.fontSizeSmall
-                    horizontalAlignment: Text.AlignJustify
-                    wrapMode: Text.Wrap
-                    //color: parent.color
-                    text: qsTr("MIME type is a standard of description of the nature and format of a document.") + " "
-                          + qsTr("It is a two-part identifier, e.g. text/plain.") + "\n"
-                          + qsTr("Search engine has an option to identify file type by its MIME desription.") + " "
-                          + qsTr("It uses QMimeDatabase class from Qt library, which by default uses both the file name and content to make the recognition.") + " "
-                          + qsTr("It means that change in the filename extension influences final file type identification.")
-                          + "\n"
+                content.sourceComponent: Column {
+                    Label {
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+                        anchors.leftMargin: Theme.horizontalPageMargin
+                        anchors.rightMargin: Theme.horizontalPageMargin
+                        font.pixelSize: Theme.fontSizeSmall
+                        horizontalAlignment: Text.AlignJustify
+                        wrapMode: Text.Wrap
+                        //color: parent.color
+                        text: qsTr("MIME type is a standard of description of the nature and format of a document.") + " "
+                              + qsTr("It is a two-part identifier, e.g. text/plain.") + "\n"
+                              + qsTr("Search engine has an option to identify file type by its MIME desription.") + " "
+                              + qsTr("It uses QMimeDatabase class from Qt library, which by default uses both the file name and content to make the recognition.") + " "
+                              + qsTr("It means that change in the filename extension influences final file type identification.")
+                              + "\n"
+                    }
                 }
             }
             ExpandingSection {
@@ -251,20 +255,22 @@ Page {
             }
             ExpandingSection {
                 title: qsTr("Applications section (experimental)")
-                content.sourceComponent: Label {
-                    anchors.left: parent.left
-                    anchors.right: parent.right
-                    anchors.leftMargin: Theme.horizontalPageMargin
-                    anchors.rightMargin: Theme.horizontalPageMargin
-                    font.pixelSize: Theme.fontSizeSmall
-                    horizontalAlignment: Text.AlignJustify
-                    wrapMode: Text.Wrap
-                    //color: parent.color
-                    text: qsTr("To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.") + " "
-                          + qsTr("This fact has some implications:") + "\n"
-                          + qsTr("* It gives only original (English) names unless it finds localized names there.") + "\n"
-                          + qsTr("* It can give results not expected by user, because it checks the entire text in these files.") + "\n"
-                          + qsTr("* This can be useful, for example: searching for '=' will return all found apps, searching for 'jolla' will give all apps created by Jolla") + "\n"
+                content.sourceComponent: Column {
+                    Label {
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+                        anchors.leftMargin: Theme.horizontalPageMargin
+                        anchors.rightMargin: Theme.horizontalPageMargin
+                        font.pixelSize: Theme.fontSizeSmall
+                        horizontalAlignment: Text.AlignJustify
+                        wrapMode: Text.Wrap
+                        //color: parent.color
+                        text: qsTr("To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.") + " "
+                              + qsTr("This fact has some implications:") + "\n"
+                              + qsTr("* It gives only original (English) names unless it finds localized names there.") + "\n"
+                              + qsTr("* It can give results not expected by user, because it checks the entire text in these files.") + "\n"
+                              + qsTr("* This can be useful, for example: searching for '=' will return all found apps, searching for 'jolla' will give all apps created by Jolla") + "\n"
+                    }
                 }
             }
         }
