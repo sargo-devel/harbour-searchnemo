@@ -133,7 +133,7 @@
     </message>
     <message>
         <source>MIME type is a standard of description of the nature and format of a document.</source>
-        <translation>Tup MIME jest standardem opisu formatu i zawartości dokumentu.</translation>
+        <translation>Typ MIME jest standardem opisu formatu i zawartości dokumentu.</translation>
     </message>
     <message>
         <source>It is a two-part identifier, e.g. text/plain.</source>
