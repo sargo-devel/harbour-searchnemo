@@ -44,6 +44,7 @@ Page {
         languages.append({ name: "English (US)",  lang: "en_US" })
         languages.append({ name: "Español",  lang: "es_ES" })
         languages.append({ name: "Italiano",  lang: "it_IT" })
+        languages.append({ name: "Magyar",  lang: "hu_HU" })
         languages.append({ name: "Nederlands",  lang: "nl_NL" })
         languages.append({ name: "Polski",  lang: "pl_PL" })
         languages.append({ name: "Svenska",  lang: "sv_SE" })

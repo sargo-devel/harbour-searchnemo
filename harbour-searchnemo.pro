@@ -64,6 +64,7 @@ TRANSLATIONS += translations/harbour-searchnemo-sv_SE.ts
 TRANSLATIONS += translations/harbour-searchnemo-it_IT.ts
 TRANSLATIONS += translations/harbour-searchnemo-es_ES.ts
 TRANSLATIONS += translations/harbour-searchnemo-nl_NL.ts
+TRANSLATIONS += translations/harbour-searchnemo-hu_HU.ts
 
 #translations.files = translations/*.qm
 #translations.path = /usr/share/$${TARGET}

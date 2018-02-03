@@ -1,342 +1,275 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="en">
+<TS version="2.1" language="hu_HU">
 <context>
     <name>About</name>
     <message>
-        <location filename="../qml/pages/About.qml" line="+38"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Névjegy</translation>
     </message>
     <message>
-        <location line="+17"/>
         <source>version:</source>
-        <translation type="unfinished"></translation>
+        <translation>verzió:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Text and files search tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Szöveg- és fájlkereső eszköz</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>Leírás</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>This program searches for a text in files stored locally on the device</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez az alkalmazás egy szöveget keres a készüléken tárolt fájlokban</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>and presents results in a possibly useful form.</source>
-        <translation type="unfinished"></translation>
+        <translation>és használható formában jeleníti meg az eredményeket.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Licenc</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>License: GPL v3</source>
-        <translation type="unfinished"></translation>
+        <translation>Licenc: GPL v3</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Source code:</source>
-        <translation type="unfinished"></translation>
+        <translation>Forráskód:</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>Translations</source>
-        <translation type="unfinished"></translation>
+        <translation>Fordítások</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Special thanks for translators:</source>
-        <translation type="unfinished"></translation>
+        <translation>Külön köszönet a fordítóknak:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Swedish</source>
-        <translation type="unfinished"></translation>
+        <translation>Svéd</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Spanish</source>
-        <translation type="unfinished"></translation>
+        <translation>Spanyol</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Italian</source>
-        <translation type="unfinished"></translation>
+        <translation>Olasz</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+1"/>
-        <source>Dutch</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Hungarian</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+11"/>
         <source>If you want to contribute to translate into your language, plese join in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha szeretnél közreműködni a saját nyelvedre fordításban, kérlek csatlakozz:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Translation service</source>
-        <translation type="unfinished"></translation>
+        <translation>Fordítási szolgáltató</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Donations</source>
-        <translation type="unfinished"></translation>
+        <translation>Adományok</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+23"/>
         <source>Help and Tips</source>
-        <translation type="unfinished"></translation>
+        <translation>Segítség és tippek</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>* Tap on section label with arrow to expand/collapse section.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>* Tap on magnifying glass to set Regexp search on/off.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>* Choosing profile via &apos;Profiles list&apos; doesn&apos;t delete search results.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Profiles</source>
-        <translation type="unfinished"></translation>
+        <translation>Profilok</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Profiles give possibility to keep different search options under one short name.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This gives a huge flexibility of creating own complex search paths.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Some example profiles are available in &apos;Profiles list&apos; menu.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>File type (MIME)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>MIME type is a standard of description of the nature and format of a document.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>It is a two-part identifier, e.g. text/plain.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Search engine has an option to identify file type by its MIME desription.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>It uses QMimeDatabase class from Qt library, which by default uses both the file name and content to make the recognition.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>It means that change in the filename extension influences final file type identification.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Regular expressions (Regexp)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Regexp is a powerful tool for finding complex text patterns.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>There are some rules used here:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Reference:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+17"/>
         <source>Applications section (experimental)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This fact has some implications:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>* It gives only original (English) names unless it finds localized names there.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dutch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hungarian</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>AnimatedHeader</name>
     <message>
-        <location filename="../qml/pages/viewadds/AnimatedHeader.qml" line="+29"/>
         <source>File info</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Fájl infó</translation>
     </message>
 </context>
 <context>
     <name>ConsModel</name>
     <message>
-        <location filename="../qml/pages/ConsModel.qml" line="+13"/>
         <source>Install launched</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>If nothing happens, then the package is probably faulty.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Open successful</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Sometimes the application stays in the background</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Internal error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>File not found</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>No application to open the file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>xdg-open found no preferred application</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Action failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>xdg-open not found</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>xdg-open crash?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>xdg-open error</source>
         <translation type="unfinished"></translation>
     </message>
@@ -344,17 +277,14 @@
 <context>
     <name>ConsoleModel</name>
     <message>
-        <location filename="../src/consolemodel.cpp" line="+101"/>
         <source>** crashed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>** error: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>** error</source>
         <translation type="unfinished"></translation>
     </message>
@@ -362,37 +292,30 @@
 <context>
     <name>DirLists</name>
     <message>
-        <location filename="../qml/pages/DirLists.qml" line="+118"/>
         <source>List of directories</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Profile</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Add/modify directories</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+17"/>
         <source>Remove from list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Removing directory from list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Whitelist directories</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Blacklist directories</source>
         <translation type="unfinished"></translation>
     </message>
@@ -400,325 +323,263 @@
 <context>
     <name>DirPopup</name>
     <message>
-        <location filename="../qml/components/DirPopup.qml" line="+22"/>
         <source>Root (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Root</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>SD Card (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>SD Card</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">SD kártya</translation>
     </message>
     <message>
-        <location line="+46"/>
         <source>Android Storage not found</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>SD Card not found</source>
-        <translation type="unfinished"></translation>
+        <translation>Nem található SD kártya</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Home</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Android Storage</source>
-        <translation type="unfinished"></translation>
+        <translation>Android tárhely</translation>
     </message>
 </context>
 <context>
     <name>DirTree</name>
     <message>
-        <location filename="../qml/pages/DirTree.qml" line="+72"/>
         <source>Main tree</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <location line="+7"/>
         <source>Show hidden directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Rejtett mappák megjelenítése</translation>
     </message>
     <message>
-        <location line="-7"/>
-        <location line="+3"/>
         <source>Hide hidden directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Rejtett mappák elrejtése</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>Accept</source>
-        <translation type="unfinished"></translation>
+        <translation>Elfogadás</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Elvetés</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>Select directories by long press</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>Path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Útvonal:</translation>
     </message>
     <message>
-        <location line="+88"/>
         <source>Add to whitelist</source>
-        <translation type="unfinished"></translation>
+        <translation>Hozzáadás a fehérlistához</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Add to blacklist</source>
-        <translation type="unfinished"></translation>
+        <translation>Hozzáadás a feketelistához</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Remove from lists</source>
-        <translation type="unfinished"></translation>
+        <translation>Eltávolítás a listákról</translation>
     </message>
 </context>
 <context>
     <name>DirtreeModel</name>
     <message>
-        <location filename="../src/dirtreemodel.cpp" line="+58"/>
         <source>Home</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>SD card</source>
-        <translation type="unfinished"></translation>
+        <translation>SD kártya</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Android storage</source>
-        <translation type="unfinished"></translation>
+        <translation>Android tárhely</translation>
     </message>
     <message>
-        <location line="+65"/>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Kijelölés</translation>
     </message>
 </context>
 <context>
     <name>FileData</name>
     <message>
-        <location filename="../src/filedata.cpp" line="+102"/>
         <source>File does not exist</source>
-        <translation type="unfinished"></translation>
+        <translation>A fájl nem létezik</translation>
     </message>
     <message>
-        <location line="+34"/>
         <source>block device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>character device</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>pipe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>socket</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>folder</source>
-        <translation type="unfinished"></translation>
+        <translation>mappa</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>ismeretlen</translation>
     </message>
     <message>
-        <location line="+23"/>
         <source>Image Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Képméret</translation>
     </message>
 </context>
 <context>
     <name>FileInfoColumn</name>
     <message>
-        <location filename="../qml/pages/viewadds/FileInfoColumn.qml" line="+33"/>
         <source>File name</source>
-        <translation type="unfinished"></translation>
+        <translation>Fájlnév</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Location</source>
-        <translation type="unfinished"></translation>
+        <translation>Hely</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Típus</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Link to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hivatkozás ide %1</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Méret</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Permissions</source>
-        <translation type="unfinished"></translation>
+        <translation>Engedélyek</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Owner</source>
-        <translation type="unfinished"></translation>
+        <translation>Tulajdonos</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Csoport</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Last modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Legutóbb módosított</translation>
     </message>
 </context>
 <context>
     <name>FileView</name>
     <message>
-        <location filename="../qml/pages/FileView.qml" line="+49"/>
         <source>Install</source>
-        <translation type="unfinished"></translation>
+        <translation>Telepítés</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation>Megnyitás</translation>
     </message>
     <message>
-        <location line="+23"/>
         <source>File info</source>
-        <translation type="unfinished"></translation>
+        <translation>Fájl infó</translation>
     </message>
     <message>
-        <location line="+109"/>
         <source>Location</source>
-        <translation type="unfinished"></translation>
+        <translation>Hely</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Típus</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Link to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hivatkozás ide %1</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Méret</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Permissions</source>
-        <translation type="unfinished"></translation>
+        <translation>Engedélyek</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Owner</source>
-        <translation type="unfinished"></translation>
+        <translation>Tulajdonos</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Csoport</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Last modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Legutóbb módosított</translation>
     </message>
     <message>
-        <location line="+41"/>
         <source>File can&apos;t be opened</source>
-        <translation type="unfinished"></translation>
+        <translation>A fájl nem nyitható meg</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This type of file can&apos;t be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez a fájltípus nem nyitható meg.</translation>
     </message>
 </context>
 <context>
     <name>HtmlView</name>
     <message>
-        <location filename="../qml/pages/HtmlView.qml" line="+58"/>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation>Megnyitás</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>File can&apos;t be opened</source>
-        <translation type="unfinished"></translation>
+        <translation>A fájl nem nyitható meg</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This type of file can&apos;t be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez a fájltípus nem nyitható meg.</translation>
     </message>
 </context>
 <context>
     <name>NotesView</name>
     <message>
-        <location filename="../qml/pages/NotesView.qml" line="+45"/>
         <source>Text not found.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">A szöveg nem található.</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>Open Notes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>File can&apos;t be opened</source>
-        <translation type="unfinished"></translation>
+        <translation>A fájl nem nyitható meg</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This type of file can&apos;t be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez a fájltípus nem nyitható meg.</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Note nr</source>
         <translation type="unfinished"></translation>
     </message>
@@ -726,219 +587,174 @@
 <context>
     <name>ProfileSettingsPage</name>
     <message>
-        <location filename="../qml/pages/ProfileSettingsPage.qml" line="+46"/>
         <source>Profile settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Profil beállítások</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Név</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>Leírás</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Profile description</source>
-        <translation type="unfinished"></translation>
+        <translation>Profil leírás</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Search directories lists</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+11"/>
-        <location line="+176"/>
         <source>Whitelist directories:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-175"/>
-        <location line="+176"/>
         <source>Blacklist directories:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-131"/>
         <source>Search options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Enable regular expressions</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Enables regular expressions in searched text</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Search hidden files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Enables searching inside hidden files and hidden directories</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Follow symbolic links</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Show cumulative search results</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Search results</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>max. nr of results per section</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>File type options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Automatic file type recognition</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Enables automatic recognition of file type by both filename extension and content. File is assigned to a section by its MIME type. See details in &apos;About&apos; menu.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Result sections</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Enable TXT section</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Enables searching inside files of type: text/plain and its derivatives</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Enables searching inside *.txt files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Enable HTML section</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Enables searching inside files of type: text/html and its derivatives</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Enables searching inside *.html, *.htm files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Enable SRC section</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Enables searching inside files of type: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml and their derivatives</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
-        <translation type="unfinished"></translation>
+        <translation>Engedélyezi a *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js fájlokban való keresést</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Enable APPS section</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Enables searching inside files of type: application/x-desktop. This is an experimental feature. See details in &apos;About&apos; menu.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Run apps directly</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Enables direct app launch from APPS section on the search page</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Enable SQLITE section</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Enables searching inside files of type: application/x-sqlite3 and its derivatives</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Enable NOTES section</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Enables searching inside Notes application database</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Enable Files and Directories sections</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Enables searching for file and directory names</source>
         <translation type="unfinished"></translation>
     </message>
@@ -946,106 +762,82 @@
 <context>
     <name>ProfilesPage</name>
     <message>
-        <location filename="../qml/pages/ProfilesPage.qml" line="+141"/>
         <source>Profile name error!</source>
-        <translation type="unfinished"></translation>
+        <translation>Profilnév hiba!</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Name exists. Try another one...</source>
-        <translation type="unfinished"></translation>
+        <translation>A név létezik. Próbálj egy másikat...</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Profiles list</source>
-        <translation type="unfinished"></translation>
+        <translation>Profillista</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <location line="+180"/>
         <source>Add default set</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-169"/>
-        <location line="+126"/>
         <source>Add profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Profil hozzáadása</translation>
     </message>
     <message>
-        <location line="-108"/>
         <source>Set as current</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>Átnevezés</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Rename profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Profil átnevezése</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Törlés</translation>
     </message>
     <message>
-        <location line="+62"/>
         <source>Deleting profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Profil törlése</translation>
     </message>
     <message>
-        <location line="+20"/>
-        <location line="+43"/>
         <source>Accept</source>
-        <translation type="unfinished"></translation>
+        <translation>Elfogadás</translation>
     </message>
     <message>
-        <location line="-42"/>
-        <location line="+43"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Elvetés</translation>
     </message>
     <message>
-        <location line="-30"/>
         <source>Profile name</source>
-        <translation type="unfinished"></translation>
+        <translation>Profilnév</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Profile description</source>
-        <translation type="unfinished"></translation>
+        <translation>Profil leírás</translation>
     </message>
     <message>
-        <location line="+39"/>
         <source>The following profiles will be created:</source>
-        <translation type="unfinished"></translation>
+        <translation>A következő profilok lesznek létrehozva:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Home dir</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>SD Card</source>
-        <translation type="unfinished"></translation>
+        <translation>SD kártya</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Alkalmazások</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Entire tree</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>If such profiles exist, they will be overwritten.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1053,582 +845,464 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/globals.cpp" line="+47"/>
         <source>%1 bytes</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 bájt</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>%1 kB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 kB</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>%1 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 MB</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>%1 GB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 GB</translation>
     </message>
     <message>
-        <location filename="../src/jhead/jhead-api.cpp" line="+119"/>
         <source>Make:%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Model:%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Date/Time:%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Orientation:%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Color/BW:Black and White</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>(Strobe light not detected)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>(Strobe light detected) </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>(Manual)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>(Manual, return light not detected)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>(Manual, return light detected)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+18"/>
         <source>(Auto)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-17"/>
         <source>(Auto, return light not detected)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>(Auto, return light detected)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>(Red eye reduction mode)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>(Red eye reduction mode return light not detected)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>(Red eye reduction mode return light detected)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>(Manual, red eye reduction mode)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>(Manual, red eye reduction mode, return light not detected)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>(Red eye reduction mode, return light detected)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>(Auto, red eye reduction mode)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>(Auto, red eye reduction mode, return light not detected)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>(Auto, red eye reduction mode, return light detected)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Flash:Yes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Flash:No</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Focal Length:%1mm</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>(35mm equivalent: %1mm)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Digital Zoom:%1x</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>CCD Width:%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
-        <location line="+2"/>
         <source>Exposure Time:%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>(1/%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Aperture:f/%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Focus Distance:Infinite</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Focus Distance:%1m</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>ISO Equivalent:%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Exposure Bias:%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>White Balance:Manual</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>White Balance:Auto</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Light Source:Daylight</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Light Source:Fluorescent</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Light Source:Incandescent</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Light Source:Flash</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Light Source:Fine weather</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Light Source:Shade</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Metering Mode:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Average</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Center weighted average</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Spot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Multi spot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Pattern</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Partial</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Other</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Más</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Unknown (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Exposure Program:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Manual</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Program (auto)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Aperture priority (semi-auto)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Shutter priority (semi-auto)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Creative Program (based towards depth of field)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Action program (based towards fast shutter speed)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Portrait mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Portré mód</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Landscape mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Tájkép mód</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Exposure Mode:Manual</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Exposure Mode:Auto bracketing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Focus Range:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Macro</source>
-        <translation type="unfinished"></translation>
+        <translation>Makró</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Bezárás</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Distant</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>JPEG Process:Unknown</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>JPEG Process:%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Latitude:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Szélesség:%1</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Longitude:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hosszúság:%1</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Altitude:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Magasság:%1</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>JPEG Quality:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>JPEG minőség:%1</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <location line="+11"/>
         <source>Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>Megjegyzés:</translation>
     </message>
 </context>
 <context>
     <name>SearchButtons</name>
     <message>
-        <location filename="../qml/pages/viewadds/SearchButtons.qml" line="+34"/>
         <source>Found text:</source>
-        <translation type="unfinished"></translation>
+        <translation>Megtalált szöveg:</translation>
     </message>
 </context>
 <context>
     <name>SearchEngine</name>
     <message>
-        <location filename="../src/searchengine.cpp" line="+110"/>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Alkalmazás</translation>
     </message>
 </context>
 <context>
     <name>SearchPage</name>
     <message>
-        <location filename="../qml/pages/SearchPage.qml" line="+68"/>
         <source>Notes</source>
-        <translation type="unfinished"></translation>
+        <translation>Jegyzetek</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>TXT files content</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>HTML files content</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>PDF files content</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>SRC files content</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>SQLITE files content</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Alkalmazások</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Filenames</source>
-        <translation type="unfinished"></translation>
+        <translation>Fájlnevek</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Directory names</source>
-        <translation type="unfinished"></translation>
+        <translation>Mappanevek</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Other</source>
-        <translation type="unfinished"></translation>
+        <translation>Más</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>Search finished:</source>
-        <translation type="unfinished"></translation>
+        <translation>Keresés befejezve:</translation>
     </message>
     <message numerus="yes">
-        <location line="+2"/>
-        <location line="+213"/>
-        <location line="+197"/>
         <source>%n hit(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n találat</numerusform>
         </translation>
     </message>
     <message>
-        <location line="-322"/>
         <source>Searching</source>
-        <translation type="unfinished"></translation>
+        <translation>Keresés</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Névjegy</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>General options</source>
-        <translation type="unfinished"></translation>
+        <translation>Általános lehetőségek</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Profiles list</source>
-        <translation type="unfinished"></translation>
+        <translation>Profillista</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Current profile setup</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+18"/>
         <source>Search %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Keresés %1</translation>
     </message>
     <message>
-        <location line="+104"/>
         <source>Profile:</source>
-        <translation type="unfinished"></translation>
+        <translation>Profil:</translation>
     </message>
     <message>
-        <location line="+124"/>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>Megjelenítés</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Run</source>
-        <translation type="unfinished"></translation>
+        <translation>Futtatás</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation>Megnyitás</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Remove from search results</source>
-        <translation type="unfinished"></translation>
+        <translation>Eltávolítás a keresési eredményekből</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Removing from search results</source>
-        <translation type="unfinished"></translation>
+        <translation>Eltávolítás a keresési eredményekből</translation>
     </message>
     <message>
-        <location line="+123"/>
         <source>SearchNemo</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>File can&apos;t be opened</source>
-        <translation type="unfinished"></translation>
+        <translation>A fájl nem nyitható meg</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This type of file can&apos;t be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez a fájltípus nem nyitható meg.</translation>
     </message>
 </context>
 <context>
     <name>SearchWorker</name>
     <message>
-        <location filename="../src/searchworker.cpp" line="+52"/>
         <source>Search already in progress</source>
-        <translation type="unfinished"></translation>
+        <translation>A keresés már folyamatban van</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Bad search parameters</source>
-        <translation type="unfinished"></translation>
+        <translation>Rossz keresési paraméterek</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Profile configuration error!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Check profile whitelist...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+253"/>
         <source>Note nr</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1636,7 +1310,6 @@
 <context>
     <name>SelectCopy</name>
     <message>
-        <location filename="../qml/pages/SelectCopy.qml" line="+24"/>
         <source>Select and Copy</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1644,42 +1317,34 @@
 <context>
     <name>Settings</name>
     <message>
-        <location filename="../src/settings.cpp" line="+33"/>
         <source>Home dir</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Entire home directory with hidden files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>SD card</source>
-        <translation type="unfinished"></translation>
+        <translation>SD kártya</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Entire SD card with hidden files</source>
-        <translation type="unfinished"></translation>
+        <translation>Teljes SD kártya rejtett fájlokkal</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Alkalmazások</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>All installed applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Minden telepített alkalmazás</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Entire tree</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Entire dir tree. Warning: very long search</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1687,32 +1352,26 @@
 <context>
     <name>SettingsPage</name>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="+42"/>
         <source>default</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+24"/>
         <source>General options</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Általános lehetőségek</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Default profile:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This profile will be used on the application startup</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+18"/>
         <source>Language:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nyelv:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Note: Change of this parameter requires restart of the application</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1720,7 +1379,6 @@
 <context>
     <name>SqlRecordView</name>
     <message>
-        <location filename="../qml/pages/SqlRecordView.qml" line="+40"/>
         <source>Record</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1728,32 +1386,26 @@
 <context>
     <name>SqlView</name>
     <message>
-        <location filename="../qml/pages/SqlView.qml" line="+45"/>
         <source>Text not found.</source>
-        <translation type="unfinished"></translation>
+        <translation>A szöveg nem található.</translation>
     </message>
     <message>
-        <location line="+17"/>
         <source>Open </source>
-        <translation type="unfinished"></translation>
+        <translation>Megnyitás</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>File can&apos;t be opened</source>
-        <translation type="unfinished"></translation>
+        <translation>A fájl nem nyitható meg</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This type of file can&apos;t be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez a fájltípus nem nyitható meg.</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Show complete record</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>db:table:column:row</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1761,10 +1413,8 @@
 <context>
     <name>TxtFileView</name>
     <message numerus="yes">
-        <location filename="../src/txtfileview.cpp" line="+120"/>
         <source>&lt;b&gt;[%1/%n hit(s)]&lt;/b&gt;&lt;br&gt;</source>
         <translation type="unfinished">
-            <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
@@ -1772,24 +1422,20 @@
 <context>
     <name>TxtView</name>
     <message>
-        <location filename="../qml/pages/TxtView.qml" line="+43"/>
         <source>Text not found.</source>
-        <translation type="unfinished"></translation>
+        <translation>A szöveg nem található.</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation>Megnyitás</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>File can&apos;t be opened</source>
-        <translation type="unfinished"></translation>
+        <translation>A fájl nem nyitható meg</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This type of file can&apos;t be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez a fájltípus nem nyitható meg.</translation>
     </message>
 </context>
 </TS>

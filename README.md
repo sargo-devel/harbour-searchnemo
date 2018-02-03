@@ -46,6 +46,7 @@ Currently supported languages:
  * Polish
  * Dutch (translation made by Nathan Follens, Michiel Pater)
  * German (partially, not maintained)
+ * Hungarian (translation made by Szabó G.)
  * Italian (translation made by fravaccaro)
  * Spanish (translation made by Carmen Fernández B.) 
  * Swedish (translation made by Åke Engelbrektson)

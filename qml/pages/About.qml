@@ -107,7 +107,8 @@ Page {
                       + "Carmen Fernández B. (carmenfdezb) - " + qsTr("Spanish") + "\n   "
                       + "fravaccaro (ghostofasmile) - " + qsTr("Italian") + "\n   "
                       + "Nathan Follens (pljmn) - " + qsTr("Dutch") + "\n   "
-                      + "Michiel Pater (curryfun) - " + qsTr("Dutch")
+                      + "Michiel Pater (curryfun) - " + qsTr("Dutch") + "\n   "
+                      + "Szabó G. (leoka) - " + qsTr("Hungarian")
             }
 
             Label {
