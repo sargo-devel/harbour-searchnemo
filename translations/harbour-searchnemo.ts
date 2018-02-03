@@ -74,6 +74,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+1"/>
+        <location line="+1"/>
+        <source>Dutch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+11"/>
         <source>If you want to contribute to translate into your language, plese join in:</source>
         <translation type="unfinished"></translation>
@@ -1681,7 +1687,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location line="+23"/>
         <source>General options</source>
         <translation type="unfinished"></translation>
     </message>

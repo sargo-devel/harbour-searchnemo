@@ -105,7 +105,9 @@ Page {
                 text: qsTr("Special thanks for translators:") + "\n   "
                       + "Åke Engelbrektson (eson) - " + qsTr("Swedish") + "\n   "
                       + "Carmen Fernández B. (carmenfdezb) - " + qsTr("Spanish") + "\n   "
-                      + "fravaccaro (ghostofasmile) - " + qsTr("Italian")
+                      + "fravaccaro (ghostofasmile) - " + qsTr("Italian") + "\n   "
+                      + "Nathan Follens (pljmn) - " + qsTr("Dutch") + "\n   "
+                      + "Michiel Pater (curryfun) - " + qsTr("Dutch")
             }
 
             Label {
