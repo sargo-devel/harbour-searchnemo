@@ -60,6 +60,14 @@
         <translation>Italiaans</translation>
     </message>
     <message>
+        <source>Dutch</source>
+        <translation>Nederlands</translation>
+    </message>
+    <message>
+        <source>Hungarian</source>
+        <translation>Hongaars</translation>
+    </message>
+    <message>
         <source>If you want to contribute to translate into your language, plese join in:</source>
         <translation>Als je wil bijdragen aan een vertaling in je eigen taal, kan je hier meedoen:</translation>
     </message>
@@ -206,10 +214,6 @@
     <message>
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
         <translation>* Dit kan nuttig zijn, bijvoorbeeld: zoeken naar ‘=’ zal alle gevonden apps weergeven, zoeken naar ‘jolla’ zal alle apps gemaakt door Jolla weergeven</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

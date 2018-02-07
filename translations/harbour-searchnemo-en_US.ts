@@ -207,6 +207,14 @@
         <source>File type (MIME)</source>
         <translation>File type (MIME)</translation>
     </message>
+    <message>
+        <source>Dutch</source>
+        <translation>Dutch</translation>
+    </message>
+    <message>
+        <source>Hungarian</source>
+        <translation>Hungarian</translation>
+    </message>
 </context>
 <context>
     <name>AnimatedHeader</name>

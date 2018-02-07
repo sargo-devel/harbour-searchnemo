@@ -1,804 +1,804 @@
 <!DOCTYPE QPH>
-<QPH language="pl_PL">
+<QPH language="nl_NL">
 <phrase>
     <source>About</source>
-    <target>O programie</target>
+    <target>Over</target>
 </phrase>
 <phrase>
     <source>version:</source>
-    <target>wersja:</target>
+    <target>Versie:</target>
 </phrase>
 <phrase>
     <source>Text and files search tool</source>
-    <target>Narzędzie wyszukiwania tekstu i plików</target>
+    <target>Zoekhulpmiddel voor tekst en bestanden</target>
 </phrase>
 <phrase>
     <source>Description</source>
-    <target>Opis</target>
+    <target>Beschrijving</target>
 </phrase>
 <phrase>
     <source>This program searches for a text in files stored locally on the device</source>
-    <target>Program wyszukuje tekst w plikach przechowywanych lokalnie w urządzeniu</target>
+    <target>Dit programma zoekt naar tekst in lokaal opgeslagen bestanden op het apparaat</target>
 </phrase>
 <phrase>
     <source>and presents results in a possibly useful form.</source>
-    <target>i przedstawia wyniki w możliwie użytecznej formie.</target>
+    <target>en toont resultaten op een mogelijk nuttige manier.</target>
 </phrase>
 <phrase>
     <source>License</source>
-    <target>Licencja</target>
+    <target>Licentie</target>
 </phrase>
 <phrase>
     <source>License: GPL v3</source>
-    <target>Licencja: GPL v3</target>
+    <target>Licentie: GPLv3</target>
 </phrase>
 <phrase>
     <source>Source code:</source>
-    <target>Kod źródłowy:</target>
+    <target>Broncode:</target>
 </phrase>
 <phrase>
     <source>Translations</source>
-    <target>Tłumaczenia</target>
+    <target>Vertalingen</target>
 </phrase>
 <phrase>
     <source>Special thanks for translators:</source>
-    <target>Specjalne podziękowania dla tłumaczy:</target>
+    <target>Met dank aan de vertalers:</target>
 </phrase>
 <phrase>
     <source>Swedish</source>
-    <target>szwedzki</target>
+    <target>Zweeds</target>
 </phrase>
 <phrase>
     <source>Spanish</source>
-    <target>hiszpański</target>
+    <target>Spaan</target>
 </phrase>
 <phrase>
     <source>Italian</source>
-    <target>włoski</target>
+    <target>Italiaans</target>
 </phrase>
 <phrase>
     <source>Dutch</source>
-    <target>holenderski</target>
+    <target>Nederlands</target>
 </phrase>
 <phrase>
     <source>Hungarian</source>
-    <target>węgierski</target>
+    <target>Hongaars</target>
 </phrase>
 <phrase>
     <source>If you want to contribute to translate into your language, plese join in:</source>
-    <target>Jeśli chcesz przyczynić się do tłumaczenia na Twój język, przyłącz się, proszę:</target>
+    <target>Als je wil bijdragen aan een vertaling in je eigen taal, kan je hier meedoen:</target>
 </phrase>
 <phrase>
     <source>Translation service</source>
-    <target>Strona z tłumaczeniami</target>
+    <target>Vertalingsdienst</target>
 </phrase>
 <phrase>
     <source>Donations</source>
-    <target>Dotacje</target>
+    <target>Donaties</target>
 </phrase>
 <phrase>
     <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
-    <target>Jeśli używanie tej apki sprawia Ci tyle radości, co mi, kiedy ją tworzyłem, rozważ proszę dotację, aby uczynić nas oboje bardziej zadowolymi z dobrze wykonanej roboty.</target>
+    <target>Als je evenveel plezier beleeft aan het gebruiken van deze app als ik bij het ontwikkelen ervan, overweeg dan een donatie om ons allebei gelukkiger te maken met een fraai stukje werk.</target>
 </phrase>
 <phrase>
     <source>Help and Tips</source>
-    <target>Pomoc i wskazówki</target>
+    <target>Hulp en tips</target>
 </phrase>
 <phrase>
     <source>* Tap on section label with arrow to expand/collapse section.</source>
-    <target>* Dotknij etykietę sekcji ze strzałką by rozwinąć/zwinąć sekcję.</target>
+    <target>* Tik op een sectielabel met pijl om de sectie open/dicht te vouwen.</target>
 </phrase>
 <phrase>
     <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
-    <target>* Dotknij tekst w widoku szczegółowym by wejść na stronę &apos;Wybierz i kopiuj&apos;.</target>
+    <target>* Tik op tekst in het detailoverzicht om de pagina ‘Selecteren en kopiëren’ te openen.</target>
 </phrase>
 <phrase>
     <source>* Tap on magnifying glass to set Regexp search on/off.</source>
-    <target>* Dotknij lupę w celu włączenia/wyłączenia wyrażeń regularnych.</target>
+    <target>* Tik op het vergrootglas om zoeken met reguliere expressies in/uit te schakelen.</target>
 </phrase>
 <phrase>
     <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
-    <target>* Naciśnij i przytrzymaj na pustym polu wyszukiwania lub wybierz inny profil aby wyczyścić wyniki wyszukiwania.</target>
+    <target>* Hou ingedrukt op een leeg zoekveld of kies een ander profiel om de zoekresultaten te wissen.</target>
 </phrase>
 <phrase>
     <source>* Choosing profile via &apos;Profiles list&apos; doesn&apos;t delete search results.</source>
-    <target>* Wybór profilu w &apos;Lista profili&apos; nie usuwa wyników wyszukiwania.</target>
+    <target>* Een profiel kiezen via de ‘Profiellijst’ verwijdert de zoekresultaten niet.</target>
 </phrase>
 <phrase>
     <source>Profiles</source>
-    <target>Profile</target>
+    <target>Profielen</target>
 </phrase>
 <phrase>
     <source>Profiles give possibility to keep different search options under one short name.</source>
-    <target>Profile dają możliwość przechowywania różnych opcji wyszukiwania pod jedną krótką nazwą.</target>
+    <target>Profielen bieden de mogelijkheid om verschillende zoekopdrachten onder één korte naam bij te houden.</target>
 </phrase>
 <phrase>
     <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
-    <target>Każdy profil może zawierać różne ścieżki wyszukiwania pogrupowane w białej lub czarnej liście katalogów.</target>
+    <target>Elk profiel kan verschillende zoekpaden bevatten, gegroepeerd als witte lijsten of zwarte lijsten van mappen.</target>
 </phrase>
 <phrase>
     <source>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</source>
-    <target>* Wyszukiwanie zaczyna się zawsze w katalogu należącym do białej listy i pomija w drzewie niepotrzebne podkatalogi z czarnej listy.</target>
+    <target>* Het zoeken begint altijd in een map op de witte lijst, en slaat onnodige submappen binnen de subboom op de zwarte lijst over.</target>
 </phrase>
 <phrase>
     <source>* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.</source>
-    <target>* Biała i czarna lista są niezależne, oznacza to, że jeśli następny katalog z białej listy jest podkatalogiem jednego z katalogów z czarnej listy, to program rozpocznie tam wyszukiwanie.</target>
+    <target>* De witte en zwarte lijst zijn onafhankelijk. Dit betekent dat, als de volgende map van de witte lijst een submap van een van de mappen op de zwarte lijst is, het programma daar zal beginnen zoeken.</target>
 </phrase>
 <phrase>
     <source>This gives a huge flexibility of creating own complex search paths.</source>
-    <target>Daje to ogromną elastycznosć w tworzeniu złożonych ścieżek wyszukiwania.</target>
+    <target>Dit biedt een grote flexibiliteit om je eigen complexe zoekpaden te maken.</target>
 </phrase>
 <phrase>
     <source>Some example profiles are available in &apos;Profiles list&apos; menu.</source>
-    <target>Kilka przykładowych profili jest dostępnych w menu &apos;Lista profili&apos;.</target>
+    <target>Enkele voorbeeldprofielen zijn beschikbaar in het menu ‘Profiellijst’.</target>
 </phrase>
 <phrase>
     <source>File type (MIME)</source>
-    <target>Typ pliku (MIME)</target>
+    <target>Bestandstype (MIME)</target>
 </phrase>
 <phrase>
     <source>MIME type is a standard of description of the nature and format of a document.</source>
-    <target>Typ MIME jest standardem opisu formatu i zawartości dokumentu.</target>
+    <target>MIME-type is een standaardbeschrijving van de eigenschappen en het formaat van een document.</target>
 </phrase>
 <phrase>
     <source>It is a two-part identifier, e.g. text/plain.</source>
-    <target>Jest to dwuczęściowy identyfikator, np. text/plain.</target>
+    <target>Het is een tweedelige identificatie, bv. text/plain.</target>
 </phrase>
 <phrase>
     <source>Search engine has an option to identify file type by its MIME desription.</source>
-    <target>Silnik wyszukiwania posiada opcję pozwalającą na identyfikację typu pliku według opisu MIME.</target>
+    <target>De zoekmachine heeft een optie om het bestandstype te identificeren aan de hand van de MIME-beschrijving.</target>
 </phrase>
 <phrase>
     <source>It uses QMimeDatabase class from Qt library, which by default uses both the file name and content to make the recognition.</source>
-    <target>Używa on klasy QMimeDatabase z biblioteki Qt, która domyślnie rozpoznaje typ pliku na podstawie jego nazwy i zawartości.</target>
+    <target>Dit maakt gebruik van de QMimeDatabase-klasse uit de Qt-bibliotheek, dat standaard zowel de bestandsnaam als de inhoud gebruikt om het bestandstype te herkennen.</target>
 </phrase>
 <phrase>
     <source>It means that change in the filename extension influences final file type identification.</source>
-    <target>Oznacza to, że zmiana rozszerzenia nazwy pliku wpływa na ostateczną identyfikację jego typu.</target>
+    <target>Dit betekent dat een wijziging in de bestandsextensie de uiteindelijke identificatie van het bestandstype beïnvloedt.</target>
 </phrase>
 <phrase>
     <source>Regular expressions (Regexp)</source>
-    <target>Wyrażenia regularne (Regexp)</target>
+    <target>Reguliere expressies (regexp)</target>
 </phrase>
 <phrase>
     <source>Regexp is a powerful tool for finding complex text patterns.</source>
-    <target>Regexp to potężne narzędzie do znajdowania złożonych wzorców tekstowych.</target>
+    <target>Reguliere expressies zijn een krachtig hulpmiddel voor het zoeken van complexe tekstpatronen.</target>
 </phrase>
 <phrase>
     <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
-    <target>Silnik tej aplikacji używa typu &apos;QRegularExpression&apos;, który implementuje wyrażenia regularne Perl-kompatybilne (PCRE).</target>
+    <target>De zoekmachine in deze app maakt gebruik van het type ‘QRegularExpression’, dat reguliere expressies compatibel met Perl implementeert (PCRE).</target>
 </phrase>
 <phrase>
     <source>There are some rules used here:</source>
-    <target>Oto kilka obowiązujących tu zasad:</target>
+    <target>Hier zijn enkele gebruikte regels:</target>
 </phrase>
 <phrase>
     <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
-    <target>* Wyszukiwanie domyślnie rozróżnia wielkość liter. Można to zmienić we wzorcu Regexp (np. &apos;(?i)hello&apos;).</target>
+    <target>* Zoeken is standaard hoofdlettergevoelig. Dit kan gewijzigd worden binnen het regexp-patroon (bv. &apos;(?i)hallo&apos;).</target>
 </phrase>
 <phrase>
     <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
-    <target>* Właściwości unikodu są domyślnie włączone. Klasy znaków (np. \w \d) są kompatybilne z unikodem.</target>
+    <target>* Unicode-eigenschappen zijn standaard ingeschakeld. Tekenklassen (bv. \w \d) zijn compatibel met Unicode.</target>
 </phrase>
 <phrase>
     <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
-    <target>* Wyszukiwanie jest ZAWSZE według linii niezależnie od ustawień Regexp. Oznacza to, że Regexp nigdy nie jest stosowane do całego pliku, operuje na pojedynczych liniach.</target>
+    <target>* Zoeken is ALTIJD regelgeoriënteerd, ongeacht de regexp-patrooninstellingen. Dit betekent dat regexp nooit op het volledige bestand toegepast wordt, enkel op aparte regels.</target>
 </phrase>
 <phrase>
     <source>Reference:</source>
-    <target>Odnośnik:</target>
+    <target>Referentie:</target>
 </phrase>
 <phrase>
     <source>Applications section (experimental)</source>
-    <target>Sekcja aplikacji (eksperymentalne)</target>
+    <target>Toepassingensectie (experimenteel)</target>
 </phrase>
 <phrase>
     <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
-    <target>W celu znalezienia aplikacji program przeszukuje pliki .desktop w katalogu podanym w białej liście i potrafi znaleźć tylko tekst zawarty w tych plikach.</target>
+    <target>Om een toepassing te vinden, zoekt het programma door .desktop-bestanden in een map opgegeven door de witte lijst, en het kan enkel tekst in deze bestanden vinden.</target>
 </phrase>
 <phrase>
     <source>This fact has some implications:</source>
-    <target>Ten fakt ma pewne konsekwencje:</target>
+    <target>Dit heeft enkele gevolgen:</target>
 </phrase>
 <phrase>
     <source>* It gives only original (English) names unless it finds localized names there.</source>
-    <target>* Podaje tylko oryginalne (angielskie) nazwy, o ile nie znajdzie tam przetłumaczonych nazw.</target>
+    <target>* Het geeft enkel de oorspronkelijke (Engelse) namen weer, tenzij het gelokaliseerde namen vindt.</target>
 </phrase>
 <phrase>
     <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
-    <target>* Może podać wyniki niespodziewane dla użytkownika, ponieważ sprawdza cały tekst w tych plikach.</target>
+    <target>* Dit kan voor de gebruiker onverwachte resultaten weergeven, omdat het de volledige tekst in deze bestanden controleert.</target>
 </phrase>
 <phrase>
     <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
-    <target>* Może to być użyteczne, np.: wyszukiwanie &apos;=&apos; zwróci wszystkie znalezione aplikacje, wyszukiwanie &apos;jolla&apos; poda wszystkie aplikacje stworzone przez Jolla</target>
+    <target>* Dit kan nuttig zijn, bijvoorbeeld: zoeken naar ‘=’ zal alle gevonden apps weergeven, zoeken naar ‘jolla’ zal alle apps gemaakt door Jolla weergeven</target>
 </phrase>
 <phrase>
     <source>File info</source>
-    <target>Info o pliku</target>
+    <target>Bestandsinformatie</target>
 </phrase>
 <phrase>
     <source>Install launched</source>
-    <target>Instalacja uruchomiona</target>
+    <target>Installatie gestart</target>
 </phrase>
 <phrase>
     <source>If nothing happens, then the package is probably faulty.</source>
-    <target>Jeśli nic się nie stanie, pakiet może być uszkodzony.</target>
+    <target>Als er niets gebeurt, is het pakket waarschijnlijk beschadigd.</target>
 </phrase>
 <phrase>
     <source>Open successful</source>
-    <target>Otwarte prawidłowo</target>
+    <target>Geopend</target>
 </phrase>
 <phrase>
     <source>Sometimes the application stays in the background</source>
-    <target>Czasami aplikacja pozostaje w tle</target>
+    <target>Soms blijft de app in de achtergrond</target>
 </phrase>
 <phrase>
     <source>Internal error</source>
-    <target>Błąd wewnętrzny</target>
+    <target>Interne fout</target>
 </phrase>
 <phrase>
     <source>File not found</source>
-    <target>Plik nie znaleziony</target>
+    <target>Bestand niet gevonden</target>
 </phrase>
 <phrase>
     <source>No application to open the file</source>
-    <target>Brak aplikacji do otwarcia pliku</target>
+    <target>Geen toepassing om het bestand mee te openen</target>
 </phrase>
 <phrase>
     <source>xdg-open found no preferred application</source>
-    <target>xdg-open nie znalazł odpowiedniej aplikacji</target>
+    <target>xdg-open kon geen voorkeurstoepassing vinden</target>
 </phrase>
 <phrase>
     <source>Action failed</source>
-    <target>Akcja nieudana</target>
+    <target>Actie mislukt</target>
 </phrase>
 <phrase>
     <source>xdg-open not found</source>
-    <target>xdg-open nie znaleziony</target>
+    <target>xdg-open niet gevonden</target>
 </phrase>
 <phrase>
     <source>xdg-open crash?</source>
-    <target>xdg-open zatrzymany?</target>
+    <target>xdg-open crash?</target>
 </phrase>
 <phrase>
     <source>xdg-open error</source>
-    <target>błąd xdg-open</target>
+    <target>xdg-open fout</target>
 </phrase>
 <phrase>
     <source>** crashed</source>
-    <target>** zatrzymanie</target>
+    <target>** gecrasht</target>
 </phrase>
 <phrase>
     <source>** error: %1</source>
-    <target>** błąd: %1</target>
+    <target>** fout: %1</target>
 </phrase>
 <phrase>
     <source>** error</source>
-    <target>** błąd</target>
+    <target>** fout</target>
 </phrase>
 <phrase>
     <source>List of directories</source>
-    <target>Lista katalogów</target>
+    <target>Lijst van mappen</target>
 </phrase>
 <phrase>
     <source>Profile</source>
-    <target>Profil</target>
+    <target>Profiel</target>
 </phrase>
 <phrase>
     <source>Add/modify directories</source>
-    <target>Dodaj/modyfikuj katalogi</target>
+    <target>Mappen toevoegen/bewerken</target>
 </phrase>
 <phrase>
     <source>Remove from list</source>
-    <target>Usuń z listy</target>
+    <target>Verwijderen uit lijst</target>
 </phrase>
 <phrase>
     <source>Removing directory from list</source>
-    <target>Usuń katalog z listy</target>
+    <target>Map wordt verwijderd uit lijst</target>
 </phrase>
 <phrase>
     <source>Whitelist directories</source>
-    <target>Katalogi białej listy</target>
+    <target>Mappen op witte lijst</target>
 </phrase>
 <phrase>
     <source>Blacklist directories</source>
-    <target>Katalogi czarnej listy</target>
+    <target>Mappen op zwarte lijst</target>
 </phrase>
 <phrase>
     <source>Root (%1)</source>
-    <target>Katalog główny (%1)</target>
+    <target>Root (%1)</target>
 </phrase>
 <phrase>
     <source>Root</source>
-    <target>Katalog główny</target>
+    <target>Root</target>
 </phrase>
 <phrase>
     <source>SD Card (%1)</source>
-    <target>Karta SD (%1)</target>
+    <target>SD-kaart (%1)</target>
 </phrase>
 <phrase>
     <source>SD Card</source>
-    <target>Karta SD</target>
+    <target>SD-kaart</target>
 </phrase>
 <phrase>
     <source>Android Storage not found</source>
-    <target>Katalog Android nie znaleziony</target>
+    <target>Android-opslag niet gevonden</target>
 </phrase>
 <phrase>
     <source>SD Card not found</source>
-    <target>Karta SD nie znaleziona</target>
+    <target>SD-kaart niet gevonden</target>
 </phrase>
 <phrase>
     <source>Home</source>
-    <target>Katalog domowy</target>
+    <target>Persoonlijke map</target>
 </phrase>
 <phrase>
     <source>Android Storage</source>
-    <target>Katalog Android</target>
+    <target>Android-opslag</target>
 </phrase>
 <phrase>
     <source>Main tree</source>
-    <target>Drzewo główne</target>
+    <target>Hoofdboom</target>
 </phrase>
 <phrase>
     <source>Show hidden directories</source>
-    <target>Pokaż ukryte katalogi</target>
+    <target>Verborgen mappen tonen</target>
 </phrase>
 <phrase>
     <source>Hide hidden directories</source>
-    <target>Schowaj ukryte katalogi</target>
+    <target>Verborgen mappen verbergen</target>
 </phrase>
 <phrase>
     <source>Accept</source>
-    <target>Akceptuj</target>
+    <target>Aanvaarden</target>
 </phrase>
 <phrase>
     <source>Cancel</source>
-    <target>Anuluj</target>
+    <target>Annuleren</target>
 </phrase>
 <phrase>
     <source>Select directories by long press</source>
-    <target>Wybierz katalogi przez długie naciśnięcie</target>
+    <target>Selecteer mappen door er lang op te drukken</target>
 </phrase>
 <phrase>
     <source>Path:</source>
-    <target>Ścieżka:</target>
+    <target>Pad:</target>
 </phrase>
 <phrase>
     <source>Add to whitelist</source>
-    <target>Dodaj do białej listy</target>
+    <target>Toevoegen aan witte lijst</target>
 </phrase>
 <phrase>
     <source>Add to blacklist</source>
-    <target>Dodaj do czarnej listy</target>
+    <target>Toevoegen aan zwarte lijst</target>
 </phrase>
 <phrase>
     <source>Remove from lists</source>
-    <target>Usuń z list</target>
+    <target>Verwijderen uit lijsten</target>
 </phrase>
 <phrase>
     <source>Home</source>
-    <target>Katalog domowy</target>
+    <target>Persoonlijke map</target>
 </phrase>
 <phrase>
     <source>SD card</source>
-    <target>Karta SD</target>
+    <target>SD-kaart</target>
 </phrase>
 <phrase>
     <source>Android storage</source>
-    <target>Katalog Android</target>
+    <target>Android-opslag</target>
 </phrase>
 <phrase>
     <source>Select</source>
-    <target>Wybierz</target>
+    <target>Selecteren</target>
 </phrase>
 <phrase>
     <source>File does not exist</source>
-    <target>Plik nie istnieje</target>
+    <target>Bestand bestaat niet</target>
 </phrase>
 <phrase>
     <source>block device</source>
-    <target>urządzenie blokowe</target>
+    <target>blokapparaat</target>
 </phrase>
 <phrase>
     <source>character device</source>
-    <target>urządzenie znakowe</target>
+    <target>tekenapparaat</target>
 </phrase>
 <phrase>
     <source>pipe</source>
-    <target>kolejka</target>
+    <target>pijp</target>
 </phrase>
 <phrase>
     <source>socket</source>
-    <target>gniazdo</target>
+    <target>socket</target>
 </phrase>
 <phrase>
     <source>folder</source>
-    <target>katalog</target>
+    <target>map</target>
 </phrase>
 <phrase>
     <source>unknown</source>
-    <target>nieznany</target>
+    <target>onbekend</target>
 </phrase>
 <phrase>
     <source>Image Size</source>
-    <target>Rozmiar Obrazu</target>
+    <target>Afbeeldingsgrootte</target>
 </phrase>
 <phrase>
     <source>File name</source>
-    <target>Nazwa pliku</target>
+    <target>Bestandsnaam</target>
 </phrase>
 <phrase>
     <source>Location</source>
-    <target>Położenie</target>
+    <target>Locatie</target>
 </phrase>
 <phrase>
     <source>Type</source>
-    <target>Typ</target>
+    <target>Type</target>
 </phrase>
 <phrase>
     <source>Link to %1</source>
-    <target>Link do %1</target>
+    <target>Verwijzing naar %1</target>
 </phrase>
 <phrase>
     <source>Size</source>
-    <target>Rozmiar</target>
+    <target>Grootte</target>
 </phrase>
 <phrase>
     <source>Permissions</source>
-    <target>Uprawnienia</target>
+    <target>Toestemmingen</target>
 </phrase>
 <phrase>
     <source>Owner</source>
-    <target>Właściciel</target>
+    <target>Eigenaar</target>
 </phrase>
 <phrase>
     <source>Group</source>
-    <target>Grupa</target>
+    <target>Groep</target>
 </phrase>
 <phrase>
     <source>Last modified</source>
-    <target>Ostatnio zmodyfikowany</target>
+    <target>Laatst aangepast</target>
 </phrase>
 <phrase>
     <source>Install</source>
-    <target>Instaluj</target>
+    <target>Installeren</target>
 </phrase>
 <phrase>
     <source>Open</source>
-    <target>Otwórz</target>
+    <target>Openen</target>
 </phrase>
 <phrase>
     <source>File info</source>
-    <target>Info o pliku</target>
+    <target>Bestandsinformatie</target>
 </phrase>
 <phrase>
     <source>Location</source>
-    <target>Położenie</target>
+    <target>Locatie</target>
 </phrase>
 <phrase>
     <source>Type</source>
-    <target>Typ</target>
+    <target>Type</target>
 </phrase>
 <phrase>
     <source>Link to %1</source>
-    <target>Link do %1</target>
+    <target>Verwijzing naar %1</target>
 </phrase>
 <phrase>
     <source>Size</source>
-    <target>Rozmiar</target>
+    <target>Grootte</target>
 </phrase>
 <phrase>
     <source>Permissions</source>
-    <target>Uprawnienia</target>
+    <target>Toestemmingen</target>
 </phrase>
 <phrase>
     <source>Owner</source>
-    <target>Właściciel</target>
+    <target>Eigenaar</target>
 </phrase>
 <phrase>
     <source>Group</source>
-    <target>Grupa</target>
+    <target>Groep</target>
 </phrase>
 <phrase>
     <source>Last modified</source>
-    <target>Ostatnio zmodyfikowany</target>
+    <target>Laatst aangepast</target>
 </phrase>
 <phrase>
     <source>File can&apos;t be opened</source>
-    <target>Plik nie może być otwarty</target>
+    <target>Bestand kan niet geopend worden</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
-    <target>Ten typ pliku nie może być otwarty.</target>
+    <target>Dit type bestand kan niet geopend worden.</target>
 </phrase>
 <phrase>
     <source>Open</source>
-    <target>Otwórz</target>
+    <target>Openen</target>
 </phrase>
 <phrase>
     <source>File can&apos;t be opened</source>
-    <target>Plik nie może być otwarty</target>
+    <target>Bestand kan niet geopend worden</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
-    <target>Ten typ pliku nie może być otwarty.</target>
+    <target>Dit type bestand kan niet geopend worden.</target>
 </phrase>
 <phrase>
     <source>Text not found.</source>
-    <target>Tekst nie znaleziony.</target>
+    <target>Tekst niet gevonden</target>
 </phrase>
 <phrase>
     <source>Open Notes</source>
-    <target>Otwórz Notatki</target>
+    <target>Notities openen</target>
 </phrase>
 <phrase>
     <source>File can&apos;t be opened</source>
-    <target>Plik nie może być otwarty</target>
+    <target>Bestand kan niet geopend worden</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
-    <target>Ten typ pliku nie może być otwarty.</target>
+    <target>Dit type bestand kan niet geopend worden</target>
 </phrase>
 <phrase>
     <source>Note nr</source>
-    <target>Notatka nr</target>
+    <target>Notitienummer</target>
 </phrase>
 <phrase>
     <source>Profile settings</source>
-    <target>Ustawienia profilu</target>
+    <target>Profielinstellingen</target>
 </phrase>
 <phrase>
     <source>Name</source>
-    <target>Nazwa</target>
+    <target>Naam</target>
 </phrase>
 <phrase>
     <source>Description</source>
-    <target>Opis</target>
+    <target>Beschrijving</target>
 </phrase>
 <phrase>
     <source>Profile description</source>
-    <target>Opis profilu</target>
+    <target>Profielbeschrijving</target>
 </phrase>
 <phrase>
     <source>Search directories lists</source>
-    <target>Listy przeszukiwanych katalogów</target>
+    <target>Lijsten met zoekmappen</target>
 </phrase>
 <phrase>
     <source>Whitelist directories:</source>
-    <target>Katalogi białej listy:</target>
+    <target>Mappen op witte lijst:</target>
 </phrase>
 <phrase>
     <source>Blacklist directories:</source>
-    <target>Katalogi czarnej listy:</target>
+    <target>Mappen op zwarte lijst:</target>
 </phrase>
 <phrase>
     <source>Search options</source>
-    <target>Opcje wyszukiwania</target>
+    <target>Zoekopties</target>
 </phrase>
 <phrase>
     <source>Enable regular expressions</source>
-    <target>Włącz wyrażenia regularne</target>
+    <target>Reguliere expressies inschakelen</target>
 </phrase>
 <phrase>
     <source>Enables regular expressions in searched text</source>
-    <target>Zezwala na wyrażenia regularne w wyszukiwanym tekście</target>
+    <target>Schakelt regulier expressies in in doorzochte tekst</target>
 </phrase>
 <phrase>
     <source>Search hidden files</source>
-    <target>Przeszukuj ukryte pliki</target>
+    <target>Verborgen bestanden zoeken</target>
 </phrase>
 <phrase>
     <source>Enables searching inside hidden files and hidden directories</source>
-    <target>Pozwala na wyszukiwanie wewnątrz ukrytych plików i ukrytych katalogów</target>
+    <target>Schakelt zoeken binnen verborgen bestanden en mappen in</target>
 </phrase>
 <phrase>
     <source>Follow symbolic links</source>
-    <target>Podążaj za dowiązaniami symbolicznymi</target>
+    <target>Symbolische verwijzingen volgen</target>
 </phrase>
 <phrase>
     <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
-    <target>Gdy włączone, maksymalna głębokość podkatalogów wynosi 20. Jest to zabezpieczenie przed nieskończonymi pętlami.</target>
+    <target>Indien ingeschakeld is de maximale diepte van submappen gelijk aan 20. Dit om oneindige lussen te voorkomen.</target>
 </phrase>
 <phrase>
     <source>Show cumulative search results</source>
-    <target>Pokazuj skumulowane wyniki wyszukiwania</target>
+    <target>Cumulatieve zoekresultaten tonen</target>
 </phrase>
 <phrase>
     <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
-    <target>Pokazuje tylko pierwsze znalezienie tekstu w pliku i wyświetla liczbę wszystkich trafień w nawiasach [ ]. Wszystkie wyniki mogą być oglądane w widoku szczegółowym</target>
+    <target>Toont enkel eerste voorkomen van gevonden tekst in een bestand en toont totaal aantal voorkomens in [ ]-haakjes. Alle resultaten zijn beschikbaar in het detailoverzicht</target>
 </phrase>
 <phrase>
     <source>Search results</source>
-    <target>Wyniki wyszukiwania</target>
+    <target>Zoekresultaten</target>
 </phrase>
 <phrase>
     <source>max. nr of results per section</source>
-    <target>Maks. liczba wyników w sekcji</target>
+    <target>max. aantal resultaten per sectie</target>
 </phrase>
 <phrase>
     <source>File type options</source>
-    <target>Opcje typu pliku</target>
+    <target>Bestandstypeopties</target>
 </phrase>
 <phrase>
     <source>Automatic file type recognition</source>
-    <target>Automatyczne rozpoznawanie typu pliku</target>
+    <target>Automatische bestandstypeherkenning</target>
 </phrase>
 <phrase>
     <source>Enables automatic recognition of file type by both filename extension and content. File is assigned to a section by its MIME type. See details in &apos;About&apos; menu.</source>
-    <target>Zezwala na automatyczne rozpoznawanie typu pliku na podstawie rozszerzenia nazwy i zawartości. Plik jest przypisany do sekcji na podstawie jego typu MIME. Szczegóły - patrz menu &apos;About&apos;.</target>
+    <target>Schakelt automatische herkenning van bestandstype op basis van bestandsextensie en -inhoud in. Bestanden worden op basis van MIME-inhoud aan een sectie toegewezen. Bekijk het menu ‘Over’ voor meer informatie.</target>
 </phrase>
 <phrase>
     <source>Result sections</source>
-    <target>Sekcje wyników</target>
+    <target>Resultaatsecties</target>
 </phrase>
 <phrase>
     <source>Enable TXT section</source>
-    <target>Włącz sekcję TXT</target>
+    <target>TXT-sectie inschakelen</target>
 </phrase>
 <phrase>
     <source>Enables searching inside files of type: text/plain and its derivatives</source>
-    <target>Zezwala na wyszukiwanie wewnątrz plików typu: text/plain i jego pochodnych</target>
+    <target>Schakelt zoeken in binnen bestanden van type: text/plain en afgeleiden daarvan</target>
 </phrase>
 <phrase>
     <source>Enables searching inside *.txt files</source>
-    <target>Zezwala na wyszukiwanie wewnątrz plików *.txt</target>
+    <target>Schakelt zoeken binnen *.txt-bestanden in</target>
 </phrase>
 <phrase>
     <source>Enable HTML section</source>
-    <target>Włącz sekcję HTML</target>
+    <target>HTML-sectie inschakelen</target>
 </phrase>
 <phrase>
     <source>Enables searching inside files of type: text/html and its derivatives</source>
-    <target>Zezwala na wyszukiwanie wewnątrz plików typu: text/html i jego pochodnych</target>
+    <target>Schakelt zoeken in binnen bestanden van type: text/html en afgeleiden daarvan</target>
 </phrase>
 <phrase>
     <source>Enables searching inside *.html, *.htm files</source>
-    <target>Zezwala na wyszukiwanie wewnątrz plików *.html, *.htm</target>
+    <target>Schakelt zoeken binnen *.html- en *.htm-bestanden in</target>
 </phrase>
 <phrase>
     <source>Enable SRC section</source>
-    <target>Włącz sekcję SRC</target>
+    <target>SRC-sectie inschakelen</target>
 </phrase>
 <phrase>
     <source>Enables searching inside files of type: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml and their derivatives</source>
-    <target>Zezwala na wyszukiwanie wewnątrz plików typu: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml i ich pochodnych</target>
+    <target>Schakelt zoeken in binnen bestanden van type: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml en afgeleiden daarvan</target>
 </phrase>
 <phrase>
     <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
-    <target>Zezwala na wyszukiwanie wewnątrz plików *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js</target>
+    <target>Schakelt zoeken binnen *.cpp-, *.c-, *.h-, *.py-, *.sh-, *.qml- en *.js-bestanden in</target>
 </phrase>
 <phrase>
     <source>Enable APPS section</source>
-    <target>Włącz sekcję APPS</target>
+    <target>APPS-sectie inschakelen</target>
 </phrase>
 <phrase>
     <source>Enables searching inside files of type: application/x-desktop. This is an experimental feature. See details in &apos;About&apos; menu.</source>
-    <target>Zezwala na wyszukiwanie wewnątrz plików typu: application/x-desktop. Jest to opcja eksperymentalna. Szczegóły - patrz menu &apos;About&apos;.</target>
+    <target>Schakelt zoeken in binnen bestanden van type: application/x-desktop. Dit is een experimentele functie. Bekijk het menu ‘Over’ voor meer informatie.</target>
 </phrase>
 <phrase>
     <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
-    <target>Zezwala na specjalne wyszukiwanie wewnątrz plików *.desktop. Jest to opcja eksperymentalna. Szczegóły - patrz menu &apos;About&apos;.</target>
+    <target>Schakelt speciaal zoeken binnen *.desktop-bestanden in. Dit is een experimentele functie. Bekijk het menu ‘Over’ voor meer informatie.</target>
 </phrase>
 <phrase>
     <source>Run apps directly</source>
-    <target>Uruchamiaj aplikacje bezpośrednio</target>
+    <target>Apps rechtstreeks uitvoeren</target>
 </phrase>
 <phrase>
     <source>Enables direct app launch from APPS section on the search page</source>
-    <target>Pozwala na bezpośrednie uruchamianie aplikacji w sekcji APPS na stronie wyszukiwania</target>
+    <target>Schakelt rechtstreeks opstarten van apps via de APPS-sectie op de zoekpagina in</target>
 </phrase>
 <phrase>
     <source>Enable SQLITE section</source>
-    <target>Włącz sekcję SQLITE</target>
+    <target>SQLITE-sectie inschakelen</target>
 </phrase>
 <phrase>
     <source>Enables searching inside files of type: application/x-sqlite3 and its derivatives</source>
-    <target>Zezwala na wyszukiwanie wewnątrz plików typu: application/x-sqlite3 i jego pochodnych</target>
+    <target>Schakelt zoeken in binnen bestanden van type: application/x-sqlite3 en afgeleiden daarvan</target>
 </phrase>
 <phrase>
     <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
-    <target>Zezwala na wyszukiwanie wewnątrz plików *.sqlite, *.sqlite3, *.db</target>
+    <target>Schakelt zoeken binnen *.sqlite-, *.sqlite3- en *.db-bestanden in</target>
 </phrase>
 <phrase>
     <source>Enable NOTES section</source>
-    <target>Włącz sekcję NOTES</target>
+    <target>NOTITIES-sectie inschakelen</target>
 </phrase>
 <phrase>
     <source>Enables searching inside Notes application database</source>
-    <target>Zezwala na wyszukiwanie wewnątrz bazy danych aplikacji Notatki</target>
+    <target>Schakelen zoeken binnen database van Notities in</target>
 </phrase>
 <phrase>
     <source>Enable Files and Directories sections</source>
-    <target>Włącz sekcje Pliki i Katalogi</target>
+    <target>Bestanden- en Mappen-secties inschakelen</target>
 </phrase>
 <phrase>
     <source>Enables searching for file and directory names</source>
-    <target>Zezwala na wyszukiwanie nazw plików i katalogów</target>
+    <target>Schakelt zoeken naar bestands- en mapnamen in</target>
 </phrase>
 <phrase>
     <source>Profile name error!</source>
-    <target>Błąd nazwy profilu!</target>
+    <target>Profielnaamfout!</target>
 </phrase>
 <phrase>
     <source>Name exists. Try another one...</source>
-    <target>Nazwa istnieje. Spróbuj inną...</target>
+    <target>Naam bestaat al. Probeer er een andere…</target>
 </phrase>
 <phrase>
     <source>Profiles list</source>
-    <target>Lista profili</target>
+    <target>Profiellijst</target>
 </phrase>
 <phrase>
     <source>Add default set</source>
-    <target>Dodaj domyślny zestaw</target>
+    <target>Standaardset toevoegen</target>
 </phrase>
 <phrase>
     <source>Add profile</source>
-    <target>Dodaj profil</target>
+    <target>Profiel toevoegen</target>
 </phrase>
 <phrase>
     <source>Set as current</source>
-    <target>Ustaw jako bieżący</target>
+    <target>Instellen als huidig</target>
 </phrase>
 <phrase>
     <source>Rename</source>
-    <target>Zmień nazwę</target>
+    <target>Hernoemen</target>
 </phrase>
 <phrase>
     <source>Rename profile</source>
-    <target>Zmień nazwę profilu</target>
+    <target>Profiel hernoemen</target>
 </phrase>
 <phrase>
     <source>Delete</source>
-    <target>Usuń</target>
+    <target>Verwijderen</target>
 </phrase>
 <phrase>
     <source>Deleting profile</source>
-    <target>Usuwanie profilu</target>
+    <target>Profiel wordt verwijderd</target>
 </phrase>
 <phrase>
     <source>Accept</source>
-    <target>Akceptuj</target>
+    <target>Aanvaarden</target>
 </phrase>
 <phrase>
     <source>Cancel</source>
-    <target>Anuluj</target>
+    <target>Annuleren</target>
 </phrase>
 <phrase>
     <source>Profile name</source>
-    <target>Nazwa profilu</target>
+    <target>Profielnaam</target>
 </phrase>
 <phrase>
     <source>Profile description</source>
-    <target>Opis profilu</target>
+    <target>Profielbeschrijving</target>
 </phrase>
 <phrase>
     <source>The following profiles will be created:</source>
-    <target>Zostaną utworzone następujące profile:</target>
+    <target>Volgende profielen zullen aangemaakt worden:</target>
 </phrase>
 <phrase>
     <source>Home dir</source>
-    <target>Katalog domowy</target>
+    <target>Persoonlijke map</target>
 </phrase>
 <phrase>
     <source>SD Card</source>
-    <target>Karta SD</target>
+    <target>SD-kaart</target>
 </phrase>
 <phrase>
     <source>Applications</source>
-    <target>Aplikacje</target>
+    <target>Toepassingen</target>
 </phrase>
 <phrase>
     <source>Entire tree</source>
-    <target>Całe drzewo</target>
+    <target>Volledige boom</target>
 </phrase>
 <phrase>
     <source>If such profiles exist, they will be overwritten.</source>
-    <target>Jeśli takie profile istnieją, zostaną usunięte.</target>
+    <target>Indien zulke profielen al bestaan, worden ze overschreven.</target>
 </phrase>
 <phrase>
     <source>%1 bytes</source>
-    <target>%1 bajtów</target>
+    <target>%1 bytes</target>
 </phrase>
 <phrase>
     <source>%1 kB</source>
@@ -814,119 +814,119 @@
 </phrase>
 <phrase>
     <source>Make:%1</source>
-    <target>Marka:%1</target>
+    <target>Merk: %1</target>
 </phrase>
 <phrase>
     <source>Model:%1</source>
-    <target>Model:%1</target>
+    <target>Model: %1</target>
 </phrase>
 <phrase>
     <source>Date/Time:%1</source>
-    <target>Data/Czas:%1</target>
+    <target>Datum/tijd: %1</target>
 </phrase>
 <phrase>
     <source>Orientation:%1</source>
-    <target>Orientacja:%1</target>
+    <target>Oriëntatie: %1</target>
 </phrase>
 <phrase>
     <source>Color/BW:Black and White</source>
-    <target>Kolor/BW:Czarnobiały</target>
+    <target>Kleur/grijswaarden: zwart-wit</target>
 </phrase>
 <phrase>
     <source>(Strobe light not detected)</source>
-    <target>(Lampa błyskowa nie wykryta)</target>
+    <target>(Stroboscoop niet gedetecteerd)</target>
 </phrase>
 <phrase>
     <source>(Strobe light detected) </source>
-    <target>(Lampa błyskowa wykryta)</target>
+    <target>(Stroboscoop gedetecteerd)</target>
 </phrase>
 <phrase>
     <source>(Manual)</source>
-    <target>(Ręczny)</target>
+    <target>(Handmatig)</target>
 </phrase>
 <phrase>
     <source>(Manual, return light not detected)</source>
-    <target>(Ręczny, światło odbite nie wykryte)</target>
+    <target>(Handmatig, teruglicht niet gedetecteerd)</target>
 </phrase>
 <phrase>
     <source>(Manual, return light detected)</source>
-    <target>(Ręczny, światło odbite wykryte)</target>
+    <target>(Handmatig, teruglicht gedetecteerd)</target>
 </phrase>
 <phrase>
     <source>(Auto)</source>
-    <target>(Auto)</target>
+    <target>(Automatisch)</target>
 </phrase>
 <phrase>
     <source>(Auto, return light not detected)</source>
-    <target>(Auto, światło odbite nie wykryte)</target>
+    <target>(Automatisch, teruglicht niet gedetecteerd)</target>
 </phrase>
 <phrase>
     <source>(Auto, return light detected)</source>
-    <target>(Auto, światło odbite wykryte)</target>
+    <target>(Automatisch, teruglicht gedetecteerd)</target>
 </phrase>
 <phrase>
     <source>(Red eye reduction mode)</source>
-    <target>(Tryb redukcji czerwonych oczu)</target>
+    <target>(Rode-ogenreductiemodus)</target>
 </phrase>
 <phrase>
     <source>(Red eye reduction mode return light not detected)</source>
-    <target>(Tryb redukcji czerwonych oczu światło odbite nie wykryte)</target>
+    <target>(Rode-ogenreductiemodus, teruglicht niet gedetecteerd)</target>
 </phrase>
 <phrase>
     <source>(Red eye reduction mode return light detected)</source>
-    <target>(Tryb redukcji czerwonych oczu światło odbite wykryte)</target>
+    <target>(Rode-ogenreductiemodus, teruglicht gedetecteerd)</target>
 </phrase>
 <phrase>
     <source>(Manual, red eye reduction mode)</source>
-    <target>(Manualny, tryb redukcji czerwonych oczu)</target>
+    <target>(Handmatig, rode-ogenreductiemodus)</target>
 </phrase>
 <phrase>
     <source>(Manual, red eye reduction mode, return light not detected)</source>
-    <target>(Manualny, tryb redukcji czerwonych oczu, światło odbite nie wykryte)</target>
+    <target>(Handmatig, rode-ogenreductiemodus, teruglicht niet gedetecteerd)</target>
 </phrase>
 <phrase>
     <source>(Red eye reduction mode, return light detected)</source>
-    <target>(Tryb redukcji czerwonych oczu, światło odbite wykryte)</target>
+    <target>(Rode-ogenreductiemodus, teruglicht gedetecteerd)</target>
 </phrase>
 <phrase>
     <source>(Auto, red eye reduction mode)</source>
-    <target>(Auto, tryb redukcji czerwonych oczu)</target>
+    <target>(Automatisch, rode-ogenreductiemodus)</target>
 </phrase>
 <phrase>
     <source>(Auto, red eye reduction mode, return light not detected)</source>
-    <target>(Auto, tryb redukcji czerwonych oczu, światło odbite nie wykryte)</target>
+    <target>(Automatisch, rode-ogenreductiemodus, teruglicht niet gedetecteerd)</target>
 </phrase>
 <phrase>
     <source>(Auto, red eye reduction mode, return light detected)</source>
-    <target>(Auto, tryb redukcji czerwonych oczu, światło odbite wykryte)</target>
+    <target>(Automatisch, rode-ogenreductiemodus, teruglicht niet gedetecteerd)</target>
 </phrase>
 <phrase>
     <source>Flash:Yes</source>
-    <target>Lampa błysk.: Tak</target>
+    <target>Flits: ja</target>
 </phrase>
 <phrase>
     <source>Flash:No</source>
-    <target>Lampa błysk.:Nie</target>
+    <target>Flits: nee</target>
 </phrase>
 <phrase>
     <source>Focal Length:%1mm</source>
-    <target>Ogniskowa:%1mm</target>
+    <target>Focuslengte: %1mm</target>
 </phrase>
 <phrase>
     <source>(35mm equivalent: %1mm)</source>
-    <target>(odpowiednik 35mm: %1mm)</target>
+    <target>(35mm-waarde: %1mm)</target>
 </phrase>
 <phrase>
     <source>Digital Zoom:%1x</source>
-    <target>Cyfrowe powiększenie:%1x</target>
+    <target>Digitale zoom: %1x</target>
 </phrase>
 <phrase>
     <source>CCD Width:%1</source>
-    <target>CCD Szer.:%1</target>
+    <target>CCD-breedte: %1</target>
 </phrase>
 <phrase>
     <source>Exposure Time:%1</source>
-    <target>Czas ekspozycji:%1</target>
+    <target>Blootstellingstijd: %1</target>
 </phrase>
 <phrase>
     <source>(1/%1)</source>
@@ -934,422 +934,422 @@
 </phrase>
 <phrase>
     <source>Aperture:f/%1</source>
-    <target>Przesłona:f/%1</target>
+    <target>Opening: f/%1</target>
 </phrase>
 <phrase>
     <source>Focus Distance:Infinite</source>
-    <target>Ostrość: nieskończoność</target>
+    <target>Focusafstand: oneindig</target>
 </phrase>
 <phrase>
     <source>Focus Distance:%1m</source>
-    <target>Ostrość:%1m</target>
+    <target>Focusafstand: %1m</target>
 </phrase>
 <phrase>
     <source>ISO Equivalent:%1</source>
-    <target>ISO:%1</target>
+    <target>ISO-waarde: %1</target>
 </phrase>
 <phrase>
     <source>Exposure Bias:%1</source>
-    <target>Odchylenie ekspozycji:%1</target>
+    <target>Blootstellingsbias: %1</target>
 </phrase>
 <phrase>
     <source>White Balance:Manual</source>
-    <target>Balans bieli:Ręczny</target>
+    <target>Witbalans: handmatig</target>
 </phrase>
 <phrase>
     <source>White Balance:Auto</source>
-    <target>Balans bieli:Auto</target>
+    <target>Witbalans: automatisch</target>
 </phrase>
 <phrase>
     <source>Light Source:Daylight</source>
-    <target>Światło:Dzienne</target>
+    <target>Lichtbron: daglicht</target>
 </phrase>
 <phrase>
     <source>Light Source:Fluorescent</source>
-    <target>Światło:Świetlówki</target>
+    <target>Lichtbron: tl-lamp</target>
 </phrase>
 <phrase>
     <source>Light Source:Incandescent</source>
-    <target>Światło:Żarówka</target>
+    <target>Lichtbron: gloeilamp</target>
 </phrase>
 <phrase>
     <source>Light Source:Flash</source>
-    <target>Światło:Lampa błyskowa</target>
+    <target>Lichtbron: flits</target>
 </phrase>
 <phrase>
     <source>Light Source:Fine weather</source>
-    <target>Światło:Słoneczny dzień</target>
+    <target>Lichtbron: mooi weer</target>
 </phrase>
 <phrase>
     <source>Light Source:Shade</source>
-    <target>Światło:Cień</target>
+    <target>Lichtbron: schaduw</target>
 </phrase>
 <phrase>
     <source>Metering Mode:</source>
-    <target>Tryb ostrości:</target>
+    <target>Metingsmodus:</target>
 </phrase>
 <phrase>
     <source>Average</source>
-    <target>Uśredniony</target>
+    <target>Gemiddeld</target>
 </phrase>
 <phrase>
     <source>Center weighted average</source>
-    <target>Centralnie ważony uśredniony</target>
+    <target>Centraal gewogen gemiddelde</target>
 </phrase>
 <phrase>
     <source>Spot</source>
-    <target>Punktowy</target>
+    <target>Spot</target>
 </phrase>
 <phrase>
     <source>Multi spot</source>
-    <target>Wielopunktowy</target>
+    <target>Multispot</target>
 </phrase>
 <phrase>
     <source>Pattern</source>
-    <target>Szablon</target>
+    <target>Patroon</target>
 </phrase>
 <phrase>
     <source>Partial</source>
-    <target>Częściowy</target>
+    <target>Deels</target>
 </phrase>
 <phrase>
     <source>Other</source>
-    <target>Inny</target>
+    <target>Overige</target>
 </phrase>
 <phrase>
     <source>Unknown (%1)</source>
-    <target>Nieznany (%1)</target>
+    <target>Onbekend (%1)</target>
 </phrase>
 <phrase>
     <source>Exposure Program:</source>
-    <target>Program ekspozycji:</target>
+    <target>Blootstellingsprogramma:</target>
 </phrase>
 <phrase>
     <source>Manual</source>
-    <target>Ręczny</target>
+    <target>Handmatig</target>
 </phrase>
 <phrase>
     <source>Program (auto)</source>
-    <target>Programowy (auto)</target>
+    <target>Programma (automatisch)</target>
 </phrase>
 <phrase>
     <source>Aperture priority (semi-auto)</source>
-    <target>Preselekcja przysłony (półauto.)</target>
+    <target>Openingsprioriteit (semi-automatisch)</target>
 </phrase>
 <phrase>
     <source>Shutter priority (semi-auto)</source>
-    <target>Preselekcja czasu (półauto,)</target>
+    <target>Sluiterprioriteit (semi-automatisch)</target>
 </phrase>
 <phrase>
     <source>Creative Program (based towards depth of field)</source>
-    <target>Tryb tematyczny (głębia)</target>
+    <target>Creatief programma (gebaseerd op scherptediepte)</target>
 </phrase>
 <phrase>
     <source>Action program (based towards fast shutter speed)</source>
-    <target>Tryb aktywny (czas migawki)</target>
+    <target>Actieprogramma (gebaseerd op snelle sluitertijd)</target>
 </phrase>
 <phrase>
     <source>Portrait mode</source>
-    <target>Tryb portretowy</target>
+    <target>Portretmodus</target>
 </phrase>
 <phrase>
     <source>Landscape mode</source>
-    <target>Tryb krajobrazowy</target>
+    <target>Landschapsmodus</target>
 </phrase>
 <phrase>
     <source>Exposure Mode:Manual</source>
-    <target>Tryb ekspozycji:ręczny</target>
+    <target>Blootstellingsmodus: handmatig</target>
 </phrase>
 <phrase>
     <source>Exposure Mode:Auto bracketing</source>
-    <target>Tryb ekspozycji:auto winietowanie</target>
+    <target>Blootstellingsmodus: autobracketing</target>
 </phrase>
 <phrase>
     <source>Focus Range:</source>
-    <target>Zakres ostrości:</target>
+    <target>Focusbereik:</target>
 </phrase>
 <phrase>
     <source>Macro</source>
-    <target>Makro</target>
+    <target>Macro</target>
 </phrase>
 <phrase>
     <source>Close</source>
-    <target>Bliski</target>
+    <target>Dicht</target>
 </phrase>
 <phrase>
     <source>Distant</source>
-    <target>Odległy</target>
+    <target>Ver</target>
 </phrase>
 <phrase>
     <source>JPEG Process:Unknown</source>
-    <target>Przetwarzanie JPEG:Nieznane</target>
+    <target>JPEG-proces: onbekend</target>
 </phrase>
 <phrase>
     <source>JPEG Process:%1</source>
-    <target>Przetwarzanie JPEG:%1</target>
+    <target>JPEG-proces: %1</target>
 </phrase>
 <phrase>
     <source>Latitude:%1</source>
-    <target>Szerokość geogr.:%1</target>
+    <target>Breedtegraad: %1</target>
 </phrase>
 <phrase>
     <source>Longitude:%1</source>
-    <target>Długość geogr.:%1</target>
+    <target>Lengtegraad: %1</target>
 </phrase>
 <phrase>
     <source>Altitude:%1</source>
-    <target>Wysokość:%1</target>
+    <target>Hoogte: %1</target>
 </phrase>
 <phrase>
     <source>JPEG Quality:%1</source>
-    <target>Jakość JPEG:%1</target>
+    <target>JPEG-kwaliteit: %1</target>
 </phrase>
 <phrase>
     <source>Comment:</source>
-    <target>Komentarz:</target>
+    <target>Commentaar:</target>
 </phrase>
 <phrase>
     <source>Found text:</source>
-    <target>Znaleziony tekst:</target>
+    <target>Gevonden tekst:</target>
 </phrase>
 <phrase>
     <source>Application</source>
-    <target>Aplikacja</target>
+    <target>Toepassing</target>
 </phrase>
 <phrase>
     <source>Notes</source>
-    <target>Notatki</target>
+    <target>Notities</target>
 </phrase>
 <phrase>
     <source>TXT files content</source>
-    <target>zawartość plików TXT</target>
+    <target>TXT-bestandsinhoud</target>
 </phrase>
 <phrase>
     <source>HTML files content</source>
-    <target>zawartość plików HTML</target>
+    <target>HTML-bestandsinhoud</target>
 </phrase>
 <phrase>
     <source>PDF files content</source>
-    <target>zawartość plików PDF</target>
+    <target>PDF-bestandsinhoud</target>
 </phrase>
 <phrase>
     <source>SRC files content</source>
-    <target>zawartość plików SRC</target>
+    <target>SRC-bestandsinhoud</target>
 </phrase>
 <phrase>
     <source>SQLITE files content</source>
-    <target>zawartość plików SQLITE</target>
+    <target>SQLITE-bestandsinhoud</target>
 </phrase>
 <phrase>
     <source>Applications</source>
-    <target>Aplikacje</target>
+    <target>Toepassingen</target>
 </phrase>
 <phrase>
     <source>Filenames</source>
-    <target>Nazwy plików</target>
+    <target>Bestandsnamen</target>
 </phrase>
 <phrase>
     <source>Directory names</source>
-    <target>Nazwy katalogów</target>
+    <target>Mapnamen</target>
 </phrase>
 <phrase>
     <source>Other</source>
-    <target>Inne</target>
+    <target>Overige</target>
 </phrase>
 <phrase>
     <source>Search finished:</source>
-    <target>Wyszukiwanie zakończone:</target>
+    <target>Zoeken voltooid:</target>
 </phrase>
 <phrase>
     <source>%n hit(s)</source>
-    <target>%n trafienie@%n trafienia@%n trafień</target>
+    <target>%n resultaat@%n resultaten</target>
 </phrase>
 <phrase>
     <source>Searching</source>
-    <target>Wyszukiwanie</target>
+    <target>Bezig met zoeken</target>
 </phrase>
 <phrase>
     <source>About</source>
-    <target>O programie</target>
+    <target>Over</target>
 </phrase>
 <phrase>
     <source>General options</source>
-    <target>Opcje ogólne</target>
+    <target>Algemene opties</target>
 </phrase>
 <phrase>
     <source>Profiles list</source>
-    <target>Lista profili</target>
+    <target>Profiellijst</target>
 </phrase>
 <phrase>
     <source>Current profile setup</source>
-    <target>Ustawienia bieżącego profilu</target>
+    <target>Huidige profielinstellingen</target>
 </phrase>
 <phrase>
     <source>Search %1</source>
-    <target>Przeszukaj %1</target>
+    <target>Zoeken naar %1</target>
 </phrase>
 <phrase>
     <source>Profile:</source>
-    <target>Profil:</target>
+    <target>Profiel:</target>
 </phrase>
 <phrase>
     <source>View</source>
-    <target>Podgląd</target>
+    <target>Bekijken</target>
 </phrase>
 <phrase>
     <source>Run</source>
-    <target>Uruchom</target>
+    <target>Uitvoeren</target>
 </phrase>
 <phrase>
     <source>Open</source>
-    <target>Otwórz</target>
+    <target>Openen</target>
 </phrase>
 <phrase>
     <source>Remove from search results</source>
-    <target>Usuń z wyników wyszukiwania</target>
+    <target>Verwijderen uit zoekresultaten</target>
 </phrase>
 <phrase>
     <source>Removing from search results</source>
-    <target>Usuwanie z wyników wyszukiwania</target>
+    <target>Wordt verwijderd uit zoekresultaten</target>
 </phrase>
 <phrase>
     <source>SearchNemo</source>
-    <target>SearchNemo</target>
+    <target>ZoekNemo</target>
 </phrase>
 <phrase>
     <source>File can&apos;t be opened</source>
-    <target>Plik nie może być otwarty</target>
+    <target>Bestand kan niet geopend worden</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
-    <target>Ten typ pliku nie może być otwarty.</target>
+    <target>Dit type bestand kan niet geopend worden.</target>
 </phrase>
 <phrase>
     <source>Search already in progress</source>
-    <target>Wyszukiwanie nadal trwa</target>
+    <target>Zoekopdracht al in verwerking</target>
 </phrase>
 <phrase>
     <source>Bad search parameters</source>
-    <target>Nieprawidłowe parametry wyszukiwania</target>
+    <target>Verkeerde zoekparameters</target>
 </phrase>
 <phrase>
     <source>Profile configuration error!</source>
-    <target>Błąd konfiguracji profilu!</target>
+    <target>Profielconfiguratiefout!</target>
 </phrase>
 <phrase>
     <source>Check profile whitelist...</source>
-    <target>Sprawdź białą listę profilu...</target>
+    <target>Witte lijst van profiel controleren…</target>
 </phrase>
 <phrase>
     <source>Note nr</source>
-    <target>Notatka nr</target>
+    <target>Notitienummer</target>
 </phrase>
 <phrase>
     <source>Select and Copy</source>
-    <target>Zaznacz i kopiuj</target>
+    <target>Selecteren en kopiëren</target>
 </phrase>
 <phrase>
     <source>Home dir</source>
-    <target>Katalog domowy</target>
+    <target>Persoonlijke map</target>
 </phrase>
 <phrase>
     <source>Entire home directory with hidden files</source>
-    <target>Cały katalog domowy z ukrytymi plikami</target>
+    <target>Volledige persoonlijke map incl. verborgen bestanden</target>
 </phrase>
 <phrase>
     <source>SD card</source>
-    <target>Karta SD</target>
+    <target>SD-kaart</target>
 </phrase>
 <phrase>
     <source>Entire SD card with hidden files</source>
-    <target>Cała karta SD z ukrytymi plikami</target>
+    <target>Volledige SD-kaart incl. verborgen bestanden</target>
 </phrase>
 <phrase>
     <source>Applications</source>
-    <target>Aplikacje</target>
+    <target>Toepassingen</target>
 </phrase>
 <phrase>
     <source>All installed applications</source>
-    <target>Wszystkie zainstalowane aplikacje</target>
+    <target>Alle geïnstalleerde toepassingen</target>
 </phrase>
 <phrase>
     <source>Entire tree</source>
-    <target>Całe drzewo</target>
+    <target>Volledige boom</target>
 </phrase>
 <phrase>
     <source>Entire dir tree. Warning: very long search</source>
-    <target>Całe drzewo katalogów. Uwaga: bardzo długie wyszukiwanie</target>
+    <target>Volledige mapboom. Waarschuwing: zeer lange zoekopdracht</target>
 </phrase>
 <phrase>
     <source>default</source>
-    <target>domyślny</target>
+    <target>standaard</target>
 </phrase>
 <phrase>
     <source>General options</source>
-    <target>Opcje ogólne</target>
+    <target>Algemene opties</target>
 </phrase>
 <phrase>
     <source>Default profile:</source>
-    <target>Profil domyślny:</target>
+    <target>Standaardprofiel:</target>
 </phrase>
 <phrase>
     <source>This profile will be used on the application startup</source>
-    <target>Ten profil będzie użyty przy starcie aplikacji</target>
+    <target>Dit profiel zal gebruikt worden bij het opstarten van de toepassing</target>
 </phrase>
 <phrase>
     <source>Language:</source>
-    <target>Język:</target>
+    <target>Taal:</target>
 </phrase>
 <phrase>
     <source>Note: Change of this parameter requires restart of the application</source>
-    <target>Uwaga: Zmiana tego parametru wymaga restartu aplikacji</target>
+    <target>Let op: de toepassing moet herstart worden om deze wijziging door te voeren</target>
 </phrase>
 <phrase>
     <source>Record</source>
-    <target>Rekord</target>
+    <target>Opname</target>
 </phrase>
 <phrase>
     <source>Text not found.</source>
-    <target>Tekst nie znaleziony.</target>
+    <target>Tekst niet gevonden.</target>
 </phrase>
 <phrase>
     <source>Open </source>
-    <target>Otwórz </target>
+    <target>Openen</target>
 </phrase>
 <phrase>
     <source>File can&apos;t be opened</source>
-    <target>Plik nie może być otwarty</target>
+    <target>Bestand kan niet geopend worden</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
-    <target>Ten typ pliku nie może być otwarty.</target>
+    <target>Dit type bestand kan niet geopend worden.</target>
 </phrase>
 <phrase>
     <source>Show complete record</source>
-    <target>Pokaż cały rekord</target>
+    <target>Volledige opname tonen</target>
 </phrase>
 <phrase>
     <source>db:table:column:row</source>
-    <target>db:tabela:kolumna:rząd</target>
+    <target>db:tabel:kolom:rij</target>
 </phrase>
 <phrase>
     <source>&lt;b&gt;[%1/%n hit(s)]&lt;/b&gt;&lt;br&gt;</source>
-    <target>&lt;b&gt;[%1/%n trafienie]&lt;/b&gt;&lt;br&gt;@&lt;b&gt;[%1/%n trafienia]&lt;/b&gt;&lt;br&gt;@&lt;b&gt;[%1/%n trafień]&lt;/b&gt;&lt;br&gt;</target>
+    <target>&lt;b&gt;[%1/%n resultaat]&lt;/b&gt;&lt;br&gt;@&lt;b&gt;[%1/%n resultaten]&lt;/b&gt;&lt;br&gt;</target>
 </phrase>
 <phrase>
     <source>Text not found.</source>
-    <target>Tekst nie znaleziony.</target>
+    <target>Tekst niet gevonden.</target>
 </phrase>
 <phrase>
     <source>Open</source>
-    <target>Otwórz</target>
+    <target>Openen</target>
 </phrase>
 <phrase>
     <source>File can&apos;t be opened</source>
-    <target>Plik nie może być otwarty</target>
+    <target>Bestand kan niet geopend worden</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
-    <target>Ten typ pliku nie może być otwarty.</target>
+    <target>Dit type bestand kan niet geopend worden.</target>
 </phrase>
 </QPH>
