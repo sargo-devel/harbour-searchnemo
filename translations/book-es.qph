@@ -57,6 +57,14 @@
     <target>Italiano</target>
 </phrase>
 <phrase>
+    <source>Dutch</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Hungarian</source>
+    <target></target>
+</phrase>
+<phrase>
     <source>If you want to contribute to translate into your language, plese join in:</source>
     <target>Si quieres colaborar en la traducción, por favor, participa:</target>
 </phrase>
@@ -125,6 +133,30 @@
     <target>Algunos ejemplos de perfiles están disponibles en &apos;Lista de perfiles&apos;.</target>
 </phrase>
 <phrase>
+    <source>File type (MIME)</source>
+    <target>Tipo de fichero (MIME)</target>
+</phrase>
+<phrase>
+    <source>MIME type is a standard of description of the nature and format of a document.</source>
+    <target>El tipo MIME es un estándar de descripción de la naturaleza y formato de un documento.</target>
+</phrase>
+<phrase>
+    <source>It is a two-part identifier, e.g. text/plain.</source>
+    <target>Es un identificador de dos partes, p.ej. texto/plano.</target>
+</phrase>
+<phrase>
+    <source>Search engine has an option to identify file type by its MIME desription.</source>
+    <target>El motor de búsqueda tiene una opción para identificar el tipo de fichero por su descripción MIME.</target>
+</phrase>
+<phrase>
+    <source>It uses QMimeDatabase class from Qt library, which by default uses both the file name and content to make the recognition.</source>
+    <target>Usa la clase QMimeDatabase de la librería Qt, la cuál utiliza por defecto tanto el nombre del fichero como el contenido para el reconocimiento.</target>
+</phrase>
+<phrase>
+    <source>It means that change in the filename extension influences final file type identification.</source>
+    <target>Significa que cambiar la extensión del nombre de fichero influye en la identificación final del tipo de fichero.</target>
+</phrase>
+<phrase>
     <source>Regular expressions (Regexp)</source>
     <target>Expresiones regulares (Regexp)</target>
 </phrase>
@@ -170,7 +202,7 @@
 </phrase>
 <phrase>
     <source>* It gives only original (English) names unless it finds localized names there.</source>
-    <target>* Sólo devuelve nombres originales (en inglés) a menos que encuentre nombres ubicados allí. </target>
+    <target>* Sólo devuelve nombres originales (en inglés) a menos que encuentre nombres ubicados allí.</target>
 </phrase>
 <phrase>
     <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
@@ -538,7 +570,7 @@
 </phrase>
 <phrase>
     <source>Blacklist directories:</source>
-    <target>Directorios en lista negra</target>
+    <target>Directorios en lista negra:</target>
 </phrase>
 <phrase>
     <source>Search options</source>
@@ -585,12 +617,28 @@
     <target>núm. máx. de resultados por sección</target>
 </phrase>
 <phrase>
+    <source>File type options</source>
+    <target>Opciones del tipo de fichero</target>
+</phrase>
+<phrase>
+    <source>Automatic file type recognition</source>
+    <target>Reconocimiento automático del tipo de fichero</target>
+</phrase>
+<phrase>
+    <source>Enables automatic recognition of file type by both filename extension and content. File is assigned to a section by its MIME type. See details in &apos;About&apos; menu.</source>
+    <target>Permite el reconocimiento automático del tipo de fichero tanto por la extensión como por el contenido. El fichero se asigna a una sección por su tipo de MIME. Consulta detalles en el menú &apos;Acerca de&apos;.</target>
+</phrase>
+<phrase>
     <source>Result sections</source>
     <target>Secciones de resultados</target>
 </phrase>
 <phrase>
     <source>Enable TXT section</source>
     <target>Activar sección TXT</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside files of type: text/plain and its derivatives</source>
+    <target>Permite la búsqueda dentro de ficheros de tipo: texto/plano y sus derivados</target>
 </phrase>
 <phrase>
     <source>Enables searching inside *.txt files</source>
@@ -601,6 +649,10 @@
     <target>Activar sección HTML</target>
 </phrase>
 <phrase>
+    <source>Enables searching inside files of type: text/html and its derivatives</source>
+    <target>Permite la búsqueda dentro de ficheros de tipo: texto/html y sus derivados</target>
+</phrase>
+<phrase>
     <source>Enables searching inside *.html, *.htm files</source>
     <target>Permite la búsqueda en ficheros *.html, *.htm</target>
 </phrase>
@@ -609,12 +661,20 @@
     <target>Activar sección SRC</target>
 </phrase>
 <phrase>
+    <source>Enables searching inside files of type: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml and their derivatives</source>
+    <target>Permite la búsqueda dentro de ficheros de tipo: texto/x-csrc, texto/x-python, aplicación/x-shellscript, texto/x-qml y sus derivados</target>
+</phrase>
+<phrase>
     <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
     <target>Permite la búsqueda en ficheros *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js</target>
 </phrase>
 <phrase>
     <source>Enable APPS section</source>
     <target>Activar sección Aplicaciones</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside files of type: application/x-desktop. This is an experimental feature. See details in &apos;About&apos; menu.</source>
+    <target>Permite la búsqueda dentro de ficheros tipo: aplicación/x-desktop. Esta es una funcionalidad experimental. Consulta los detalles en &apos;Acerca de&apos;.</target>
 </phrase>
 <phrase>
     <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
@@ -631,6 +691,10 @@
 <phrase>
     <source>Enable SQLITE section</source>
     <target>Activar sección SQLITE</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside files of type: application/x-sqlite3 and its derivatives</source>
+    <target>Permite la búsqueda dentro de ficheros de tipo: aplicación/x-sqlite3 y sus derivados</target>
 </phrase>
 <phrase>
     <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>

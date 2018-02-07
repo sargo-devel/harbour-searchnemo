@@ -60,6 +60,14 @@
         <translation>Italiano</translation>
     </message>
     <message>
+        <source>Dutch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hungarian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>If you want to contribute to translate into your language, plese join in:</source>
         <translation>Si quieres colaborar en la traducción, por favor, participa:</translation>
     </message>

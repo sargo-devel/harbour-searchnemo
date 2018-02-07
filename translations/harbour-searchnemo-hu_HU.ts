@@ -60,6 +60,14 @@
         <translation>Olasz</translation>
     </message>
     <message>
+        <source>Dutch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hungarian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>If you want to contribute to translate into your language, plese join in:</source>
         <translation>Ha szeretnél közreműködni a saját nyelvedre fordításban, kérlek csatlakozz:</translation>
     </message>
@@ -205,14 +213,6 @@
     </message>
     <message>
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

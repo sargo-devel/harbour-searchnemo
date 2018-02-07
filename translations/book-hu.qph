@@ -1,60 +1,60 @@
 <!DOCTYPE QPH>
-<QPH language="it_IT">
+<QPH language="hu_HU">
 <phrase>
     <source>About</source>
-    <target>Info</target>
+    <target>Névjegy</target>
 </phrase>
 <phrase>
     <source>version:</source>
-    <target>versione:</target>
+    <target>verzió:</target>
 </phrase>
 <phrase>
     <source>Text and files search tool</source>
-    <target>Strumento di ricerca file</target>
+    <target>Szöveg- és fájlkereső eszköz</target>
 </phrase>
 <phrase>
     <source>Description</source>
-    <target>Descrizione</target>
+    <target>Leírás</target>
 </phrase>
 <phrase>
     <source>This program searches for a text in files stored locally on the device</source>
-    <target>Questo programma cerca testo nei file salvati localmente sul dispositivo</target>
+    <target>Ez az alkalmazás egy szöveget keres a készüléken tárolt fájlokban</target>
 </phrase>
 <phrase>
     <source>and presents results in a possibly useful form.</source>
-    <target>e presenta i risultati ordinatamente.</target>
+    <target>és használható formában jeleníti meg az eredményeket.</target>
 </phrase>
 <phrase>
     <source>License</source>
-    <target>Licenza</target>
+    <target>Licenc</target>
 </phrase>
 <phrase>
     <source>License: GPL v3</source>
-    <target>Licenza: GPLv3</target>
+    <target>Licenc: GPL v3</target>
 </phrase>
 <phrase>
     <source>Source code:</source>
-    <target>Sorgenti:</target>
+    <target>Forráskód:</target>
 </phrase>
 <phrase>
     <source>Translations</source>
-    <target>Traduzioni</target>
+    <target>Fordítások</target>
 </phrase>
 <phrase>
     <source>Special thanks for translators:</source>
-    <target>Un grazie particolare ai traduttori:</target>
+    <target>Külön köszönet a fordítóknak:</target>
 </phrase>
 <phrase>
     <source>Swedish</source>
-    <target>Svedese</target>
+    <target>Svéd</target>
 </phrase>
 <phrase>
     <source>Spanish</source>
-    <target>Spagnolo</target>
+    <target>Spanyol</target>
 </phrase>
 <phrase>
     <source>Italian</source>
-    <target>Italiano</target>
+    <target>Olasz</target>
 </phrase>
 <phrase>
     <source>Dutch</source>
@@ -66,71 +66,71 @@
 </phrase>
 <phrase>
     <source>If you want to contribute to translate into your language, plese join in:</source>
-    <target>Se vuoi contribuire alla traduzione unisciti al</target>
+    <target>Ha szeretnél közreműködni a saját nyelvedre fordításban, kérlek csatlakozz:</target>
 </phrase>
 <phrase>
     <source>Translation service</source>
-    <target>team traduttori</target>
+    <target>Fordítási szolgáltató</target>
 </phrase>
 <phrase>
     <source>Donations</source>
-    <target>Donazioni</target>
+    <target>Adományok</target>
 </phrase>
 <phrase>
     <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
-    <target>Se usare l&apos;app per te è piacevole come è stato per me crearla, considera una donazione</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Help and Tips</source>
-    <target>Aiuto e scorciatoie</target>
+    <target>Segítség és tippek</target>
 </phrase>
 <phrase>
     <source>* Tap on section label with arrow to expand/collapse section.</source>
-    <target>* Tocca la freccia nel nome della sezione per ridurre/espandere la sezione.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
-    <target>* Tocca il testo nella pagina dettagli per accedere alla pagina di selezione e copia.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>* Tap on magnifying glass to set Regexp search on/off.</source>
-    <target>* Clicca sulla lente d&apos;ingrandimento per abilitare/disabilitare la ricerca Regexp.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
-    <target>* Tieni premuto sul campo di ricerca vuoto o scegli un altro profilo per pulire i risultati della ricerca.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>* Choosing profile via &apos;Profiles list&apos; doesn&apos;t delete search results.</source>
-    <target>* La scelta di un profilo nella lista profili non pulisce i risultati della ricerca.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Profiles</source>
-    <target>Profili</target>
+    <target>Profilok</target>
 </phrase>
 <phrase>
     <source>Profiles give possibility to keep different search options under one short name.</source>
-    <target>I profili permettono di utilizzare differenti opzioni di ricerca velocemente.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
-    <target>Ciascun profilo contiene differenti percorsi e opzioni di ricerca.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</source>
-    <target>* La ricerca avviene nelle cartelle incluse e non include le cartelle escluse.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.</source>
-    <target>* È possibile cercare all&apos;interno di una cartella anche se essa è una sottocartella di una cartella esclusa.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>This gives a huge flexibility of creating own complex search paths.</source>
-    <target>Ciò offre ampie possibilità di personalizzare i percorsi di ricerca.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Some example profiles are available in &apos;Profiles list&apos; menu.</source>
-    <target>Alcuni profili di esempio sono disponibili nel menu &apos;Lista profili&apos;.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>File type (MIME)</source>
@@ -158,463 +158,463 @@
 </phrase>
 <phrase>
     <source>Regular expressions (Regexp)</source>
-    <target>Espressioni regolari (Regexp)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Regexp is a powerful tool for finding complex text patterns.</source>
-    <target>Regexp è uno strumento molto potente per la ricerca di schemi di testo complessi.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
-    <target>Quest&apos;app utilizza il tipo &apos;QRegularExpression&apos;, che implementa espressioni regolari (PCRE) compatibili con Perl.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>There are some rules used here:</source>
-    <target>Ecco alcune regole utilizzate:</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
-    <target>* La ricerca è case sensitive. Puoi cambiare questa impostazione nello schema Regexp (ad esempio &apos;(?i)hello&apos;).</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
-    <target>* Sono utilizzate le proprietà Unicode come impostazione predefinita. Le classi di caratteri (ad esempio \w \d) sono compabili con Unicode.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
-    <target>* La ricerca è avviene SEMPRE su righe a prescindere dallo schema Regexp impostato. Questo significa che Regexp non è mai applicato all&apos;intero file, ma alle singole righe.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Reference:</source>
-    <target>Riferimento:</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Applications section (experimental)</source>
-    <target>Sezione applicazioni (sperimentale)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
-    <target>Cerca un&apos;applicazione all&apos;interno delle cartelle incluse, attraverso la ricerca nei file .desktop.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>This fact has some implications:</source>
-    <target>Note:</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>* It gives only original (English) names unless it finds localized names there.</source>
-    <target>* Viene presentato il nome originale, a meno che non il nome localizzato non sia presente all&apos;interno del file.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
-    <target>* Potrebbe dare alcuni risultati non aspettati, perché cerca all&apos;interno dell&apos;intero file.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
-    <target>* Ciò potrebbe rivelarsi utile, ad esempio cercando &apos;=&apos; verranno mostrate tutte le app installate o cercando &apos;jolla&apos; verranno mostrate tutte le app create da Jolla</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>File info</source>
-    <target>Info file</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Install launched</source>
-    <target>Installazione avviata</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>If nothing happens, then the package is probably faulty.</source>
-    <target>Se non succede nulla, probabilmente il pacchetto è danneggiato.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Open successful</source>
-    <target>Aperto</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Sometimes the application stays in the background</source>
-    <target>Di tanto in tanto l&apos;app rimane in background</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Internal error</source>
-    <target>Errore interno</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>File not found</source>
-    <target>File non trovato</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>No application to open the file</source>
-    <target>Nessuna app apre il file</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>xdg-open found no preferred application</source>
-    <target>xdg-open non ha impostato nessuna app</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Action failed</source>
-    <target>Azione fallita</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>xdg-open not found</source>
-    <target>xdg-open non trovato</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>xdg-open crash?</source>
-    <target>Crash di xdg-open?</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>xdg-open error</source>
-    <target>Errore di xdg-open</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>** crashed</source>
-    <target>Crash di **</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>** error: %1</source>
-    <target>Errore di **: %1</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>** error</source>
-    <target>Errore di **</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>List of directories</source>
-    <target>Cartelle</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Profile</source>
-    <target>Profilo</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Add/modify directories</source>
-    <target>Aggiungi/modifica cartelle</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Remove from list</source>
-    <target>Rimuovi dalla lista</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Removing directory from list</source>
-    <target>Rimozione della cartella dalla lista</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Whitelist directories</source>
-    <target>Cartelle incluse</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Blacklist directories</source>
-    <target>Cartelle escluse</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Root (%1)</source>
-    <target>/ (%1)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Root</source>
-    <target>/</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>SD Card (%1)</source>
-    <target>Scheda SD (%1)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>SD Card</source>
-    <target>Scheda SD</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Android Storage not found</source>
-    <target>Memoria Android non trovata</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>SD Card not found</source>
-    <target>Scheda SD non trovata</target>
+    <target>Nem található SD kártya</target>
 </phrase>
 <phrase>
     <source>Home</source>
-    <target>Home</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Android Storage</source>
-    <target>Memoria Android</target>
+    <target>Android tárhely</target>
 </phrase>
 <phrase>
     <source>Main tree</source>
-    <target>Lista principale</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Show hidden directories</source>
-    <target>Mostra cartelle nascoste</target>
+    <target>Rejtett mappák megjelenítése</target>
 </phrase>
 <phrase>
     <source>Hide hidden directories</source>
-    <target>Nascondi cartelle nascoste</target>
+    <target>Rejtett mappák elrejtése</target>
 </phrase>
 <phrase>
     <source>Accept</source>
-    <target>Ok</target>
+    <target>Elfogadás</target>
 </phrase>
 <phrase>
     <source>Cancel</source>
-    <target>Annulla</target>
+    <target>Elvetés</target>
 </phrase>
 <phrase>
     <source>Select directories by long press</source>
-    <target>Seleziona cartelle con un tap lungo</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Path:</source>
-    <target>Percorso:</target>
+    <target>Útvonal:</target>
 </phrase>
 <phrase>
     <source>Add to whitelist</source>
-    <target>Aggiungi a cartelle incluse</target>
+    <target>Hozzáadás a fehérlistához</target>
 </phrase>
 <phrase>
     <source>Add to blacklist</source>
-    <target>Aggiungi a cartelle escluse</target>
+    <target>Hozzáadás a feketelistához</target>
 </phrase>
 <phrase>
     <source>Remove from lists</source>
-    <target>Rimuovi dalla lista</target>
+    <target>Eltávolítás a listákról</target>
 </phrase>
 <phrase>
     <source>Home</source>
-    <target>Home</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>SD card</source>
-    <target>Scheda SD</target>
+    <target>SD kártya</target>
 </phrase>
 <phrase>
     <source>Android storage</source>
-    <target>Memoria Android</target>
+    <target>Android tárhely</target>
 </phrase>
 <phrase>
     <source>Select</source>
-    <target>Seleziona</target>
+    <target>Kijelölés</target>
 </phrase>
 <phrase>
     <source>File does not exist</source>
-    <target>Il file non esiste</target>
+    <target>A fájl nem létezik</target>
 </phrase>
 <phrase>
     <source>block device</source>
-    <target>block device</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>character device</source>
-    <target>character device</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>pipe</source>
-    <target>pipe</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>socket</source>
-    <target>socket</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>folder</source>
-    <target>cartella</target>
+    <target>mappa</target>
 </phrase>
 <phrase>
     <source>unknown</source>
-    <target>sconosciuto</target>
+    <target>ismeretlen</target>
 </phrase>
 <phrase>
     <source>Image Size</source>
-    <target>Dimensione</target>
+    <target>Képméret</target>
 </phrase>
 <phrase>
     <source>File name</source>
-    <target>Nome file</target>
+    <target>Fájlnév</target>
 </phrase>
 <phrase>
     <source>Location</source>
-    <target>Posizione</target>
+    <target>Hely</target>
 </phrase>
 <phrase>
     <source>Type</source>
-    <target>Tipo</target>
+    <target>Típus</target>
 </phrase>
 <phrase>
     <source>Link to %1</source>
-    <target>Link a %1</target>
+    <target>Hivatkozás ide %1</target>
 </phrase>
 <phrase>
     <source>Size</source>
-    <target>Dim.</target>
+    <target>Méret</target>
 </phrase>
 <phrase>
     <source>Permissions</source>
-    <target>Permessi</target>
+    <target>Engedélyek</target>
 </phrase>
 <phrase>
     <source>Owner</source>
-    <target>Proprietario</target>
+    <target>Tulajdonos</target>
 </phrase>
 <phrase>
     <source>Group</source>
-    <target>Gruppo</target>
+    <target>Csoport</target>
 </phrase>
 <phrase>
     <source>Last modified</source>
-    <target>Ultima modifica</target>
+    <target>Legutóbb módosított</target>
 </phrase>
 <phrase>
     <source>Install</source>
-    <target>Installa</target>
+    <target>Telepítés</target>
 </phrase>
 <phrase>
     <source>Open</source>
-    <target>Apri</target>
+    <target>Megnyitás</target>
 </phrase>
 <phrase>
     <source>File info</source>
-    <target>Info file</target>
+    <target>Fájl infó</target>
 </phrase>
 <phrase>
     <source>Location</source>
-    <target>Posizione</target>
+    <target>Hely</target>
 </phrase>
 <phrase>
     <source>Type</source>
-    <target>Tipo</target>
+    <target>Típus</target>
 </phrase>
 <phrase>
     <source>Link to %1</source>
-    <target>Link a %1</target>
+    <target>Hivatkozás ide %1</target>
 </phrase>
 <phrase>
     <source>Size</source>
-    <target>Dimensione</target>
+    <target>Méret</target>
 </phrase>
 <phrase>
     <source>Permissions</source>
-    <target>Permessi</target>
+    <target>Engedélyek</target>
 </phrase>
 <phrase>
     <source>Owner</source>
-    <target>Proprietario</target>
+    <target>Tulajdonos</target>
 </phrase>
 <phrase>
     <source>Group</source>
-    <target>Gruppo</target>
+    <target>Csoport</target>
 </phrase>
 <phrase>
     <source>Last modified</source>
-    <target>Ultima modifica</target>
+    <target>Legutóbb módosított</target>
 </phrase>
 <phrase>
     <source>File can&apos;t be opened</source>
-    <target>Il file non può essere aperto</target>
+    <target>A fájl nem nyitható meg</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
-    <target>Questo tipo di file non può essere aperto.</target>
+    <target>Ez a fájltípus nem nyitható meg.</target>
 </phrase>
 <phrase>
     <source>Open</source>
-    <target>Apri</target>
+    <target>Megnyitás</target>
 </phrase>
 <phrase>
     <source>File can&apos;t be opened</source>
-    <target>Il file non può essere aperto</target>
+    <target>A fájl nem nyitható meg</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
-    <target>Questo tipo di file non può essere aperto.</target>
+    <target>Ez a fájltípus nem nyitható meg.</target>
 </phrase>
 <phrase>
     <source>Text not found.</source>
-    <target>Testo non trovato.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Open Notes</source>
-    <target>Apri Note</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>File can&apos;t be opened</source>
-    <target>Il file non può essere aperto</target>
+    <target>A fájl nem nyitható meg</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
-    <target>Questo tipo di file non può essere aperto.</target>
+    <target>Ez a fájltípus nem nyitható meg.</target>
 </phrase>
 <phrase>
     <source>Note nr</source>
-    <target>Nota num</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Profile settings</source>
-    <target>Impostazioni profilo</target>
+    <target>Profil beállítások</target>
 </phrase>
 <phrase>
     <source>Name</source>
-    <target>Nome</target>
+    <target>Név</target>
 </phrase>
 <phrase>
     <source>Description</source>
-    <target>Descrizione</target>
+    <target>Leírás</target>
 </phrase>
 <phrase>
     <source>Profile description</source>
-    <target>Descrizione profilo</target>
+    <target>Profil leírás</target>
 </phrase>
 <phrase>
     <source>Search directories lists</source>
-    <target>Lista cartelle di ricerca</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Whitelist directories:</source>
-    <target>Cartelle incluse:</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Blacklist directories:</source>
-    <target>Cartelle escluse:</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Search options</source>
-    <target>Opzioni ricerca</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Enable regular expressions</source>
-    <target>Espressioni regolari</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Enables regular expressions in searched text</source>
-    <target>Abilita le espressioni regolari nel testo cercato</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Search hidden files</source>
-    <target>Cerca file nascosti</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Enables searching inside hidden files and hidden directories</source>
-    <target>Abilita la ricerca all&apos;interno di file e cartelle nascoste</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Follow symbolic links</source>
-    <target>Segui link simbolici</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
-    <target>Quando abilitato, la profondità massima delle sottocartelle è 20, per prevenire loop.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Show cumulative search results</source>
-    <target>Raggruppa risultati</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
-    <target>Mostra solo il primo risultato trovato nel file e il numero di ricorrenze totali, che potranno essere visualizzate nella vista dettagli</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Search results</source>
-    <target>Risultati ricerca</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>max. nr of results per section</source>
-    <target>numero massimo di risultati per sezione</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>File type options</source>
@@ -630,11 +630,11 @@
 </phrase>
 <phrase>
     <source>Result sections</source>
-    <target>Sezioni risultati</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Enable TXT section</source>
-    <target>Sezione TXT</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Enables searching inside files of type: text/plain and its derivatives</source>
@@ -642,11 +642,11 @@
 </phrase>
 <phrase>
     <source>Enables searching inside *.txt files</source>
-    <target>Abilita la ricerca all&apos;interno di file *.txt</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Enable HTML section</source>
-    <target>Sezione HTML</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Enables searching inside files of type: text/html and its derivatives</source>
@@ -654,11 +654,11 @@
 </phrase>
 <phrase>
     <source>Enables searching inside *.html, *.htm files</source>
-    <target>Abilita la ricerca all&apos;interno di file *.html e *.htm</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Enable SRC section</source>
-    <target>Sezione SRC</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Enables searching inside files of type: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml and their derivatives</source>
@@ -666,11 +666,11 @@
 </phrase>
 <phrase>
     <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
-    <target>Abilita la ricerca all&apos;interno di file *.cpp, *.c, *.h, *.py, *.sh, *.qml e *.js</target>
+    <target>Engedélyezi a *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js fájlokban való keresést</target>
 </phrase>
 <phrase>
     <source>Enable APPS section</source>
-    <target>Sezione APP</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Enables searching inside files of type: application/x-desktop. This is an experimental feature. See details in &apos;About&apos; menu.</source>
@@ -678,19 +678,19 @@
 </phrase>
 <phrase>
     <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
-    <target>Abilita la ricerca di app. Questa è una funzione sperimentale.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Run apps directly</source>
-    <target>Avvia app</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Enables direct app launch from APPS section on the search page</source>
-    <target>Abilita l&apos;avvio diretto dell&apos;app dalla pagina di ricerca</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Enable SQLITE section</source>
-    <target>Sezione SQLITE</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Enables searching inside files of type: application/x-sqlite3 and its derivatives</source>
@@ -698,107 +698,107 @@
 </phrase>
 <phrase>
     <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
-    <target>Abilita la ricerca all&apos;interno di file *.sqlite, *.sqlite3 e *.db</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Enable NOTES section</source>
-    <target>Sezione NOTE</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Enables searching inside Notes application database</source>
-    <target>Abilita la ricerca all&apos;interno dell&apos;app Note</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Enable Files and Directories sections</source>
-    <target>File e cartelle</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Enables searching for file and directory names</source>
-    <target>Abilita la ricerca di nomi di file e cartelle</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Profile name error!</source>
-    <target>Errore nome profilo!</target>
+    <target>Profilnév hiba!</target>
 </phrase>
 <phrase>
     <source>Name exists. Try another one...</source>
-    <target>Il nome esiste. Inseriscine un altro...</target>
+    <target>A név létezik. Próbálj egy másikat...</target>
 </phrase>
 <phrase>
     <source>Profiles list</source>
-    <target>Lista profili</target>
+    <target>Profillista</target>
 </phrase>
 <phrase>
     <source>Add default set</source>
-    <target>Aggiungi set predefinito</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Add profile</source>
-    <target>Aggiungi profilo</target>
+    <target>Profil hozzáadása</target>
 </phrase>
 <phrase>
     <source>Set as current</source>
-    <target>Attiva</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Rename</source>
-    <target>Rinomina</target>
+    <target>Átnevezés</target>
 </phrase>
 <phrase>
     <source>Rename profile</source>
-    <target>Rinomina profilo</target>
+    <target>Profil átnevezése</target>
 </phrase>
 <phrase>
     <source>Delete</source>
-    <target>Elimina</target>
+    <target>Törlés</target>
 </phrase>
 <phrase>
     <source>Deleting profile</source>
-    <target>Eliminazione profilo</target>
+    <target>Profil törlése</target>
 </phrase>
 <phrase>
     <source>Accept</source>
-    <target>Ok</target>
+    <target>Elfogadás</target>
 </phrase>
 <phrase>
     <source>Cancel</source>
-    <target>Annulla</target>
+    <target>Elvetés</target>
 </phrase>
 <phrase>
     <source>Profile name</source>
-    <target>Nome profilo</target>
+    <target>Profilnév</target>
 </phrase>
 <phrase>
     <source>Profile description</source>
-    <target>Descrizione profilo</target>
+    <target>Profil leírás</target>
 </phrase>
 <phrase>
     <source>The following profiles will be created:</source>
-    <target>I seguenti profili saranno creati:</target>
+    <target>A következő profilok lesznek létrehozva:</target>
 </phrase>
 <phrase>
     <source>Home dir</source>
-    <target>Cartella home</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>SD Card</source>
-    <target>Scheda SD</target>
+    <target>SD kártya</target>
 </phrase>
 <phrase>
     <source>Applications</source>
-    <target>Applicazioni</target>
+    <target>Alkalmazások</target>
 </phrase>
 <phrase>
     <source>Entire tree</source>
-    <target>Cartella /</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>If such profiles exist, they will be overwritten.</source>
-    <target>Se il profilo esiste già, sarà sovrascritto.</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>%1 bytes</source>
-    <target>%1 byte</target>
+    <target>%1 bájt</target>
 </phrase>
 <phrase>
     <source>%1 kB</source>
@@ -814,542 +814,542 @@
 </phrase>
 <phrase>
     <source>Make:%1</source>
-    <target>Make: %1</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Model:%1</source>
-    <target>Model: %1</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Date/Time:%1</source>
-    <target>Data: %1</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Orientation:%1</source>
-    <target>Orientamento: %1</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Color/BW:Black and White</source>
-    <target>Colore: Bianco e nero</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(Strobe light not detected)</source>
-    <target>(Flash non rilevato)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(Strobe light detected) </source>
-    <target>(Flash rilevato)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(Manual)</source>
-    <target>(Manuale)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(Manual, return light not detected)</source>
-    <target>(Manuale, riverbero non rilevato)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(Manual, return light detected)</source>
-    <target>(Manuale, riverbero rilevato)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(Auto)</source>
-    <target>(Automatico)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(Auto, return light not detected)</source>
-    <target>(Auromatico, riverbero non rilevato)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(Auto, return light detected)</source>
-    <target>(Automatico, riverbero rilevato)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(Red eye reduction mode)</source>
-    <target>(Riduzione occhi rossi)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(Red eye reduction mode return light not detected)</source>
-    <target>(Riduzione occhi rossi, riverbero non rilevato)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(Red eye reduction mode return light detected)</source>
-    <target>(Riduzione occhi rossi, riverbero rilevato)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(Manual, red eye reduction mode)</source>
-    <target>(Manuale, riduzione occhi rossi)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(Manual, red eye reduction mode, return light not detected)</source>
-    <target>(Manuale, riduzione occhi rossi, riverbero non rilevato)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(Red eye reduction mode, return light detected)</source>
-    <target>(Riduzione occhi rossi, riverbero rilevato)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(Auto, red eye reduction mode)</source>
-    <target>(Automatico, riduzione occhi rossi)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(Auto, red eye reduction mode, return light not detected)</source>
-    <target>(Automatico, riduzione occhi rossi, riverbero non rilevato)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(Auto, red eye reduction mode, return light detected)</source>
-    <target>(Automatico, riduzione occhi rossi, riverbero rilevato)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Flash:Yes</source>
-    <target>Flash: Sì</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Flash:No</source>
-    <target>Flash: No</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Focal Length:%1mm</source>
-    <target>Lunghezza focale: %1mm</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(35mm equivalent: %1mm)</source>
-    <target>(35mm equivalente: %1mm)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Digital Zoom:%1x</source>
-    <target>Zoom digitale: %1x</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>CCD Width:%1</source>
-    <target>Larghezza CCD: %1</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Exposure Time:%1</source>
-    <target>Tempo di esposizione: %1</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>(1/%1)</source>
-    <target>(1/ %1)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Aperture:f/%1</source>
-    <target>Apertura: f/%1</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Focus Distance:Infinite</source>
-    <target>Distanza fuoco: infinita</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Focus Distance:%1m</source>
-    <target>Distanza fuoco: %1m</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>ISO Equivalent:%1</source>
-    <target>ISO equivalente: %1</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Exposure Bias:%1</source>
-    <target>Compensazione esposizione: %1</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>White Balance:Manual</source>
-    <target>Bilanciamento del bianco: manuale</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>White Balance:Auto</source>
-    <target>Bilanciamento del bianco: automatico</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Light Source:Daylight</source>
-    <target>Luce: giorno</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Light Source:Fluorescent</source>
-    <target>Luce: fluorescente</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Light Source:Incandescent</source>
-    <target>Luce: incandescente</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Light Source:Flash</source>
-    <target>Luce: flash</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Light Source:Fine weather</source>
-    <target>Luce: sereno</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Light Source:Shade</source>
-    <target>Luce: ombra</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Metering Mode:</source>
-    <target>Misurazione: </target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Average</source>
-    <target>Media</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Center weighted average</source>
-    <target>Media ponderata</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Spot</source>
-    <target>Punto luce</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Multi spot</source>
-    <target>Multispot</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Pattern</source>
-    <target>Modello</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Partial</source>
-    <target>Parziale</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Other</source>
-    <target>Altro</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Unknown (%1)</source>
-    <target>Sconosciuto (%1)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Exposure Program:</source>
-    <target>Esposizione: </target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Manual</source>
-    <target>Manuale</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Program (auto)</source>
-    <target>Automatico</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Aperture priority (semi-auto)</source>
-    <target>Priorità apertura (semiautomatico)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Shutter priority (semi-auto)</source>
-    <target>Priorità otturatore (semiautomatico)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Creative Program (based towards depth of field)</source>
-    <target>Creativo (basato sulla profondità di campo)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Action program (based towards fast shutter speed)</source>
-    <target>Azione (basato sulla rapidità dell&apos;otturatore)</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Portrait mode</source>
-    <target>Ritratto</target>
+    <target>Portré mód</target>
 </phrase>
 <phrase>
     <source>Landscape mode</source>
-    <target>Panoramica</target>
+    <target>Tájkép mód</target>
 </phrase>
 <phrase>
     <source>Exposure Mode:Manual</source>
-    <target>Esposizione: manuale</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Exposure Mode:Auto bracketing</source>
-    <target>Esposizione: autobracketing</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Focus Range:</source>
-    <target>Messa a fuoco: </target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Macro</source>
-    <target>Macro</target>
+    <target>Makró</target>
 </phrase>
 <phrase>
     <source>Close</source>
-    <target>Vicina</target>
+    <target>Bezárás</target>
 </phrase>
 <phrase>
     <source>Distant</source>
-    <target>Distante</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>JPEG Process:Unknown</source>
-    <target>Processo JPEG: sconosciuto</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>JPEG Process:%1</source>
-    <target>Processo JPEG: %1</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Latitude:%1</source>
-    <target>Latitudine: %1</target>
+    <target>Szélesség:%1</target>
 </phrase>
 <phrase>
     <source>Longitude:%1</source>
-    <target>Longitudine: %1</target>
+    <target>Hosszúság:%1</target>
 </phrase>
 <phrase>
     <source>Altitude:%1</source>
-    <target>Altitudine: %1</target>
+    <target>Magasság:%1</target>
 </phrase>
 <phrase>
     <source>JPEG Quality:%1</source>
-    <target>Qualità JPEG: %1</target>
+    <target>JPEG minőség:%1</target>
 </phrase>
 <phrase>
     <source>Comment:</source>
-    <target>Commento:</target>
+    <target>Megjegyzés:</target>
 </phrase>
 <phrase>
     <source>Found text:</source>
-    <target>Testo trovato:</target>
+    <target>Megtalált szöveg:</target>
 </phrase>
 <phrase>
     <source>Application</source>
-    <target>Applicazione</target>
+    <target>Alkalmazás</target>
 </phrase>
 <phrase>
     <source>Notes</source>
-    <target>Note</target>
+    <target>Jegyzetek</target>
 </phrase>
 <phrase>
     <source>TXT files content</source>
-    <target>Contenuto file TXT</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>HTML files content</source>
-    <target>Contenuto file HTML</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>PDF files content</source>
-    <target>Contenuto file PDF</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>SRC files content</source>
-    <target>Contenuto file SRC</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>SQLITE files content</source>
-    <target>Contenuto file SQLITE</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Applications</source>
-    <target>Applicazioni</target>
+    <target>Alkalmazások</target>
 </phrase>
 <phrase>
     <source>Filenames</source>
-    <target>Nomi file</target>
+    <target>Fájlnevek</target>
 </phrase>
 <phrase>
     <source>Directory names</source>
-    <target>Nomi cartelle</target>
+    <target>Mappanevek</target>
 </phrase>
 <phrase>
     <source>Other</source>
-    <target>Altro</target>
+    <target>Más</target>
 </phrase>
 <phrase>
     <source>Search finished:</source>
-    <target>Ricerca completata:</target>
+    <target>Keresés befejezve:</target>
 </phrase>
 <phrase>
     <source>%n hit(s)</source>
-    <target>%n risultato@%n risultati</target>
+    <target>%n találat</target>
 </phrase>
 <phrase>
     <source>Searching</source>
-    <target>Ricerca in corso</target>
+    <target>Keresés</target>
 </phrase>
 <phrase>
     <source>About</source>
-    <target>Info</target>
+    <target>Névjegy</target>
 </phrase>
 <phrase>
     <source>General options</source>
-    <target>Opzioni generali</target>
+    <target>Általános lehetőségek</target>
 </phrase>
 <phrase>
     <source>Profiles list</source>
-    <target>Lista profili</target>
+    <target>Profillista</target>
 </phrase>
 <phrase>
     <source>Current profile setup</source>
-    <target>Impostazioni profilo attivo</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Search %1</source>
-    <target>Cerca %1</target>
+    <target>Keresés %1</target>
 </phrase>
 <phrase>
     <source>Profile:</source>
-    <target>Profilo:</target>
+    <target>Profil:</target>
 </phrase>
 <phrase>
     <source>View</source>
-    <target>Vedi</target>
+    <target>Megjelenítés</target>
 </phrase>
 <phrase>
     <source>Run</source>
-    <target>Lancia</target>
+    <target>Futtatás</target>
 </phrase>
 <phrase>
     <source>Open</source>
-    <target>Apri</target>
+    <target>Megnyitás</target>
 </phrase>
 <phrase>
     <source>Remove from search results</source>
-    <target>Rimuovi dai risultati</target>
+    <target>Eltávolítás a keresési eredményekből</target>
 </phrase>
 <phrase>
     <source>Removing from search results</source>
-    <target>Rimozione dai risultati</target>
+    <target>Eltávolítás a keresési eredményekből</target>
 </phrase>
 <phrase>
     <source>SearchNemo</source>
-    <target>SearchNemo</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>File can&apos;t be opened</source>
-    <target>Il file non può essere aperto</target>
+    <target>A fájl nem nyitható meg</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
-    <target>Questo tipo di file non può essere aperto.</target>
+    <target>Ez a fájltípus nem nyitható meg.</target>
 </phrase>
 <phrase>
     <source>Search already in progress</source>
-    <target>Ricerca già in corso</target>
+    <target>A keresés már folyamatban van</target>
 </phrase>
 <phrase>
     <source>Bad search parameters</source>
-    <target>Parametri di ricerca errati</target>
+    <target>Rossz keresési paraméterek</target>
 </phrase>
 <phrase>
     <source>Profile configuration error!</source>
-    <target>Errore configurazione profilo!</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Check profile whitelist...</source>
-    <target>Controlla le cartelle incluse nel profilo...</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Note nr</source>
-    <target>Nota num</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Select and Copy</source>
-    <target>Seleziona e copia</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Home dir</source>
-    <target>Cartella home</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Entire home directory with hidden files</source>
-    <target>Intera cartella home con file nascosti</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>SD card</source>
-    <target>Scheda SD</target>
+    <target>SD kártya</target>
 </phrase>
 <phrase>
     <source>Entire SD card with hidden files</source>
-    <target>Intera scheda SD con file nascosti</target>
+    <target>Teljes SD kártya rejtett fájlokkal</target>
 </phrase>
 <phrase>
     <source>Applications</source>
-    <target>Applicazioni</target>
+    <target>Alkalmazások</target>
 </phrase>
 <phrase>
     <source>All installed applications</source>
-    <target>Tutte le applicazioni installate</target>
+    <target>Minden telepített alkalmazás</target>
 </phrase>
 <phrase>
     <source>Entire tree</source>
-    <target>Cartella /</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Entire dir tree. Warning: very long search</source>
-    <target>L&apos;intero dispositivo. Attenzione: ricerca molto lunga</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>default</source>
-    <target>predefinito</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>General options</source>
-    <target>Opzioni generali</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Default profile:</source>
-    <target>Profilo predefinito:</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>This profile will be used on the application startup</source>
-    <target>Questo profilo sarà usato all&apos;avvio dell&apos;applicazione</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Language:</source>
-    <target>Lingua:</target>
+    <target>Nyelv:</target>
 </phrase>
 <phrase>
     <source>Note: Change of this parameter requires restart of the application</source>
-    <target>Nota: questa impostazione richiede il riavvio dell&apos;applicazione</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Record</source>
-    <target>Record</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Text not found.</source>
-    <target>Testo non trovato.</target>
+    <target>A szöveg nem található.</target>
 </phrase>
 <phrase>
     <source>Open </source>
-    <target>Apri</target>
+    <target>Megnyitás</target>
 </phrase>
 <phrase>
     <source>File can&apos;t be opened</source>
-    <target>Il file non può essere aperto</target>
+    <target>A fájl nem nyitható meg</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
-    <target>Questo tipo di file non può essere aperto.</target>
+    <target>Ez a fájltípus nem nyitható meg.</target>
 </phrase>
 <phrase>
     <source>Show complete record</source>
-    <target>Mostra record completo</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>db:table:column:row</source>
-    <target>db:table:column:row</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>&lt;b&gt;[%1/%n hit(s)]&lt;/b&gt;&lt;br&gt;</source>
-    <target>&lt;b&gt;[%1/%n risultato]&lt;/b&gt;&lt;br&gt;@&lt;b&gt;[%1/%n risultati]&lt;/b&gt;&lt;br&gt;</target>
+    <target></target>
 </phrase>
 <phrase>
     <source>Text not found.</source>
-    <target>Testo non trovato.</target>
+    <target>A szöveg nem található.</target>
 </phrase>
 <phrase>
     <source>Open</source>
-    <target>Apri</target>
+    <target>Megnyitás</target>
 </phrase>
 <phrase>
     <source>File can&apos;t be opened</source>
-    <target>Il file non può essere aperto</target>
+    <target>A fájl nem nyitható meg</target>
 </phrase>
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
-    <target>Questo tipo di file non può essere aperto.</target>
+    <target>Ez a fájltípus nem nyitható meg.</target>
 </phrase>
 </QPH>
