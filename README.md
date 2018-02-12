@@ -1,6 +1,6 @@
 # SearchNemo
 
-A simple text search tool for [Sailfish OS](https://sailfishos.org/) and [Jolla phone](http://jolla.com/) devices.
+A simple yet powerful text search tool for [Sailfish OS](https://sailfishos.org/) and [Jolla phone](http://jolla.com/) devices.
 It searches local directories for a given text inside various file types.
 It can also find file and directory names containing searched text.
 
