@@ -58,11 +58,11 @@
 </phrase>
 <phrase>
     <source>Dutch</source>
-    <target></target>
+    <target>Holland</target>
 </phrase>
 <phrase>
     <source>Hungarian</source>
-    <target></target>
+    <target>Magyar</target>
 </phrase>
 <phrase>
     <source>If you want to contribute to translate into your language, plese join in:</source>
@@ -78,7 +78,7 @@
 </phrase>
 <phrase>
     <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
-    <target></target>
+    <target>Ha legalább annyira élvezed használni az alkalmazást, amennyire én élveztem a készítését, kérlek vedd fontolóra az adományozást, így mindketten örülhetünk a jól végzett munkának.</target>
 </phrase>
 <phrase>
     <source>Help and Tips</source>
@@ -214,35 +214,35 @@
 </phrase>
 <phrase>
     <source>File info</source>
-    <target></target>
+    <target>Fájl infó</target>
 </phrase>
 <phrase>
     <source>Install launched</source>
-    <target></target>
+    <target>Telepítés elindítva</target>
 </phrase>
 <phrase>
     <source>If nothing happens, then the package is probably faulty.</source>
-    <target></target>
+    <target>Ha semmi sem történik, a csomag valószínűleg hibás.</target>
 </phrase>
 <phrase>
     <source>Open successful</source>
-    <target></target>
+    <target>A megnyitás sikeres</target>
 </phrase>
 <phrase>
     <source>Sometimes the application stays in the background</source>
-    <target></target>
+    <target>Az alkalmazás néha a háttérben marad</target>
 </phrase>
 <phrase>
     <source>Internal error</source>
-    <target></target>
+    <target>Belső hiba</target>
 </phrase>
 <phrase>
     <source>File not found</source>
-    <target></target>
+    <target>A fájl nem található</target>
 </phrase>
 <phrase>
     <source>No application to open the file</source>
-    <target></target>
+    <target>Nincs mivel megnyitni a fájlt</target>
 </phrase>
 <phrase>
     <source>xdg-open found no preferred application</source>
@@ -250,7 +250,7 @@
 </phrase>
 <phrase>
     <source>Action failed</source>
-    <target></target>
+    <target>A művelet sikertelen</target>
 </phrase>
 <phrase>
     <source>xdg-open not found</source>
@@ -266,35 +266,35 @@
 </phrase>
 <phrase>
     <source>** crashed</source>
-    <target></target>
+    <target>** összeomlott</target>
 </phrase>
 <phrase>
     <source>** error: %1</source>
-    <target></target>
+    <target>** hiba: %1</target>
 </phrase>
 <phrase>
     <source>** error</source>
-    <target></target>
+    <target>** hiba</target>
 </phrase>
 <phrase>
     <source>List of directories</source>
-    <target></target>
+    <target>Mappalista</target>
 </phrase>
 <phrase>
     <source>Profile</source>
-    <target></target>
+    <target>Profil</target>
 </phrase>
 <phrase>
     <source>Add/modify directories</source>
-    <target></target>
+    <target>Mappák hozzáadása/módosítása</target>
 </phrase>
 <phrase>
     <source>Remove from list</source>
-    <target></target>
+    <target>Eltávolítás a listáról</target>
 </phrase>
 <phrase>
     <source>Removing directory from list</source>
-    <target></target>
+    <target>Mappa eltávolítása a listáról</target>
 </phrase>
 <phrase>
     <source>Whitelist directories</source>
@@ -314,15 +314,15 @@
 </phrase>
 <phrase>
     <source>SD Card (%1)</source>
-    <target></target>
+    <target>SD kártya (%1)</target>
 </phrase>
 <phrase>
     <source>SD Card</source>
-    <target></target>
+    <target>SD kártya</target>
 </phrase>
 <phrase>
     <source>Android Storage not found</source>
-    <target></target>
+    <target>Az Android tárhely nem található</target>
 </phrase>
 <phrase>
     <source>SD Card not found</source>
@@ -526,7 +526,7 @@
 </phrase>
 <phrase>
     <source>Text not found.</source>
-    <target></target>
+    <target>A szöveg nem található</target>
 </phrase>
 <phrase>
     <source>Open Notes</source>
@@ -574,7 +574,7 @@
 </phrase>
 <phrase>
     <source>Search options</source>
-    <target></target>
+    <target>Keresési beállítások</target>
 </phrase>
 <phrase>
     <source>Enable regular expressions</source>
@@ -586,11 +586,11 @@
 </phrase>
 <phrase>
     <source>Search hidden files</source>
-    <target></target>
+    <target>Rejtett fájlok keresése</target>
 </phrase>
 <phrase>
     <source>Enables searching inside hidden files and hidden directories</source>
-    <target></target>
+    <target>Engedélyezi a keresést a rejtett fájlok és mappák belsejében</target>
 </phrase>
 <phrase>
     <source>Follow symbolic links</source>
@@ -610,7 +610,7 @@
 </phrase>
 <phrase>
     <source>Search results</source>
-    <target></target>
+    <target>Keresési eredmények</target>
 </phrase>
 <phrase>
     <source>max. nr of results per section</source>
@@ -618,11 +618,11 @@
 </phrase>
 <phrase>
     <source>File type options</source>
-    <target></target>
+    <target>Fájltípus beállítások</target>
 </phrase>
 <phrase>
     <source>Automatic file type recognition</source>
-    <target></target>
+    <target>Automatikus fájltípus-felismerés</target>
 </phrase>
 <phrase>
     <source>Enables automatic recognition of file type by both filename extension and content. File is assigned to a section by its MIME type. See details in &apos;About&apos; menu.</source>
@@ -1014,23 +1014,23 @@
 </phrase>
 <phrase>
     <source>Other</source>
-    <target></target>
+    <target>Más</target>
 </phrase>
 <phrase>
     <source>Unknown (%1)</source>
-    <target></target>
+    <target>Ismeretlen (%1)</target>
 </phrase>
 <phrase>
     <source>Exposure Program:</source>
-    <target></target>
+    <target>Expozíciós program</target>
 </phrase>
 <phrase>
     <source>Manual</source>
-    <target></target>
+    <target>Kézi</target>
 </phrase>
 <phrase>
     <source>Program (auto)</source>
-    <target></target>
+    <target>Program (auto)</target>
 </phrase>
 <phrase>
     <source>Aperture priority (semi-auto)</source>
@@ -1066,7 +1066,7 @@
 </phrase>
 <phrase>
     <source>Focus Range:</source>
-    <target></target>
+    <target>Fókusztartomány: </target>
 </phrase>
 <phrase>
     <source>Macro</source>
@@ -1078,15 +1078,15 @@
 </phrase>
 <phrase>
     <source>Distant</source>
-    <target></target>
+    <target>Távoli</target>
 </phrase>
 <phrase>
     <source>JPEG Process:Unknown</source>
-    <target></target>
+    <target>JPEG folyamat:Ismeretlen</target>
 </phrase>
 <phrase>
     <source>JPEG Process:%1</source>
-    <target></target>
+    <target>JPEG folyamat:%1</target>
 </phrase>
 <phrase>
     <source>Latitude:%1</source>
@@ -1122,23 +1122,23 @@
 </phrase>
 <phrase>
     <source>TXT files content</source>
-    <target></target>
+    <target>TXT fájltartalom</target>
 </phrase>
 <phrase>
     <source>HTML files content</source>
-    <target></target>
+    <target>HTML fájltartalom</target>
 </phrase>
 <phrase>
     <source>PDF files content</source>
-    <target></target>
+    <target>PDF fájltartalom</target>
 </phrase>
 <phrase>
     <source>SRC files content</source>
-    <target></target>
+    <target>SRC fájltartalom</target>
 </phrase>
 <phrase>
     <source>SQLITE files content</source>
-    <target></target>
+    <target>SQLITE fájltartalom</target>
 </phrase>
 <phrase>
     <source>Applications</source>
@@ -1246,7 +1246,7 @@
 </phrase>
 <phrase>
     <source>Select and Copy</source>
-    <target></target>
+    <target>Kijelölés és másolás</target>
 </phrase>
 <phrase>
     <source>Home dir</source>
@@ -1282,19 +1282,19 @@
 </phrase>
 <phrase>
     <source>default</source>
-    <target></target>
+    <target>alapértelmezett</target>
 </phrase>
 <phrase>
     <source>General options</source>
-    <target></target>
+    <target>Általános beállítások</target>
 </phrase>
 <phrase>
     <source>Default profile:</source>
-    <target></target>
+    <target>Alapértelmezett profil: </target>
 </phrase>
 <phrase>
     <source>This profile will be used on the application startup</source>
-    <target></target>
+    <target>Ez a profil lesz használatban az alkalmazás indításakor</target>
 </phrase>
 <phrase>
     <source>Language:</source>
@@ -1302,7 +1302,7 @@
 </phrase>
 <phrase>
     <source>Note: Change of this parameter requires restart of the application</source>
-    <target></target>
+    <target>Megjegyzés: Ennek a paraméternek a megváltoztatásához szükség van az alkalmazás újraindítására</target>
 </phrase>
 <phrase>
     <source>Record</source>

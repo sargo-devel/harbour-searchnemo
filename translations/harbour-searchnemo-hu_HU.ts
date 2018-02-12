@@ -61,11 +61,11 @@
     </message>
     <message>
         <source>Dutch</source>
-        <translation type="unfinished"></translation>
+        <translation>Holland</translation>
     </message>
     <message>
         <source>Hungarian</source>
-        <translation type="unfinished"></translation>
+        <translation>Magyar</translation>
     </message>
     <message>
         <source>If you want to contribute to translate into your language, plese join in:</source>
@@ -81,7 +81,7 @@
     </message>
     <message>
         <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha legalább annyira élvezed használni az alkalmazást, amennyire én élveztem a készítését, kérlek vedd fontolóra az adományozást, így mindketten örülhetünk a jól végzett munkának.</translation>
     </message>
     <message>
         <source>Help and Tips</source>
@@ -220,38 +220,38 @@
     <name>AnimatedHeader</name>
     <message>
         <source>File info</source>
-        <translation type="unfinished">Fájl infó</translation>
+        <translation>Fájl infó</translation>
     </message>
 </context>
 <context>
     <name>ConsModel</name>
     <message>
         <source>Install launched</source>
-        <translation type="unfinished"></translation>
+        <translation>Telepítés elindítva</translation>
     </message>
     <message>
         <source>If nothing happens, then the package is probably faulty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha semmi sem történik, a csomag valószínűleg hibás.</translation>
     </message>
     <message>
         <source>Open successful</source>
-        <translation type="unfinished"></translation>
+        <translation>A megnyitás sikeres</translation>
     </message>
     <message>
         <source>Sometimes the application stays in the background</source>
-        <translation type="unfinished"></translation>
+        <translation>Az alkalmazás néha a háttérben marad</translation>
     </message>
     <message>
         <source>Internal error</source>
-        <translation type="unfinished"></translation>
+        <translation>Belső hiba</translation>
     </message>
     <message>
         <source>File not found</source>
-        <translation type="unfinished"></translation>
+        <translation>A fájl nem található</translation>
     </message>
     <message>
         <source>No application to open the file</source>
-        <translation type="unfinished"></translation>
+        <translation>Nincs mivel megnyitni a fájlt</translation>
     </message>
     <message>
         <source>xdg-open found no preferred application</source>
@@ -259,7 +259,7 @@
     </message>
     <message>
         <source>Action failed</source>
-        <translation type="unfinished"></translation>
+        <translation>A művelet sikertelen</translation>
     </message>
     <message>
         <source>xdg-open not found</source>
@@ -278,38 +278,38 @@
     <name>ConsoleModel</name>
     <message>
         <source>** crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>** összeomlott</translation>
     </message>
     <message>
         <source>** error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>** hiba: %1</translation>
     </message>
     <message>
         <source>** error</source>
-        <translation type="unfinished"></translation>
+        <translation>** hiba</translation>
     </message>
 </context>
 <context>
     <name>DirLists</name>
     <message>
         <source>List of directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Mappalista</translation>
     </message>
     <message>
         <source>Profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Profil</translation>
     </message>
     <message>
         <source>Add/modify directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Mappák hozzáadása/módosítása</translation>
     </message>
     <message>
         <source>Remove from list</source>
-        <translation type="unfinished"></translation>
+        <translation>Eltávolítás a listáról</translation>
     </message>
     <message>
         <source>Removing directory from list</source>
-        <translation type="unfinished"></translation>
+        <translation>Mappa eltávolítása a listáról</translation>
     </message>
     <message>
         <source>Whitelist directories</source>
@@ -332,15 +332,15 @@
     </message>
     <message>
         <source>SD Card (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>SD kártya (%1)</translation>
     </message>
     <message>
         <source>SD Card</source>
-        <translation type="unfinished">SD kártya</translation>
+        <translation>SD kártya</translation>
     </message>
     <message>
         <source>Android Storage not found</source>
-        <translation type="unfinished"></translation>
+        <translation>Az Android tárhely nem található</translation>
     </message>
     <message>
         <source>SD Card not found</source>
@@ -565,7 +565,7 @@
     <name>NotesView</name>
     <message>
         <source>Text not found.</source>
-        <translation type="unfinished">A szöveg nem található.</translation>
+        <translation>A szöveg nem található</translation>
     </message>
     <message>
         <source>Open Notes</source>
@@ -616,7 +616,7 @@
     </message>
     <message>
         <source>Search options</source>
-        <translation type="unfinished"></translation>
+        <translation>Keresési beállítások</translation>
     </message>
     <message>
         <source>Enable regular expressions</source>
@@ -628,11 +628,11 @@
     </message>
     <message>
         <source>Search hidden files</source>
-        <translation type="unfinished"></translation>
+        <translation>Rejtett fájlok keresése</translation>
     </message>
     <message>
         <source>Enables searching inside hidden files and hidden directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Engedélyezi a keresést a rejtett fájlok és mappák belsejében</translation>
     </message>
     <message>
         <source>Follow symbolic links</source>
@@ -652,7 +652,7 @@
     </message>
     <message>
         <source>Search results</source>
-        <translation type="unfinished"></translation>
+        <translation>Keresési eredmények</translation>
     </message>
     <message>
         <source>max. nr of results per section</source>
@@ -660,11 +660,11 @@
     </message>
     <message>
         <source>File type options</source>
-        <translation type="unfinished"></translation>
+        <translation>Fájltípus beállítások</translation>
     </message>
     <message>
         <source>Automatic file type recognition</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatikus fájltípus-felismerés</translation>
     </message>
     <message>
         <source>Enables automatic recognition of file type by both filename extension and content. File is assigned to a section by its MIME type. See details in &apos;About&apos; menu.</source>
@@ -1062,23 +1062,23 @@
     </message>
     <message>
         <source>Other</source>
-        <translation type="unfinished">Más</translation>
+        <translation>Más</translation>
     </message>
     <message>
         <source>Unknown (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ismeretlen (%1)</translation>
     </message>
     <message>
         <source>Exposure Program:</source>
-        <translation type="unfinished"></translation>
+        <translation>Expozíciós program</translation>
     </message>
     <message>
         <source>Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>Kézi</translation>
     </message>
     <message>
         <source>Program (auto)</source>
-        <translation type="unfinished"></translation>
+        <translation>Program (auto)</translation>
     </message>
     <message>
         <source>Aperture priority (semi-auto)</source>
@@ -1114,7 +1114,7 @@
     </message>
     <message>
         <source>Focus Range:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fókusztartomány: </translation>
     </message>
     <message>
         <source>Macro</source>
@@ -1126,15 +1126,15 @@
     </message>
     <message>
         <source>Distant</source>
-        <translation type="unfinished"></translation>
+        <translation>Távoli</translation>
     </message>
     <message>
         <source>JPEG Process:Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>JPEG folyamat:Ismeretlen</translation>
     </message>
     <message>
         <source>JPEG Process:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>JPEG folyamat:%1</translation>
     </message>
     <message>
         <source>Latitude:%1</source>
@@ -1179,23 +1179,23 @@
     </message>
     <message>
         <source>TXT files content</source>
-        <translation type="unfinished"></translation>
+        <translation>TXT fájltartalom</translation>
     </message>
     <message>
         <source>HTML files content</source>
-        <translation type="unfinished"></translation>
+        <translation>HTML fájltartalom</translation>
     </message>
     <message>
         <source>PDF files content</source>
-        <translation type="unfinished"></translation>
+        <translation>PDF fájltartalom</translation>
     </message>
     <message>
         <source>SRC files content</source>
-        <translation type="unfinished"></translation>
+        <translation>SRC fájltartalom</translation>
     </message>
     <message>
         <source>SQLITE files content</source>
-        <translation type="unfinished"></translation>
+        <translation>SQLITE fájltartalom</translation>
     </message>
     <message>
         <source>Applications</source>
@@ -1311,7 +1311,7 @@
     <name>SelectCopy</name>
     <message>
         <source>Select and Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Kijelölés és másolás</translation>
     </message>
 </context>
 <context>
@@ -1353,19 +1353,19 @@
     <name>SettingsPage</name>
     <message>
         <source>default</source>
-        <translation type="unfinished"></translation>
+        <translation>alapértelmezett</translation>
     </message>
     <message>
         <source>General options</source>
-        <translation type="unfinished">Általános lehetőségek</translation>
+        <translation>Általános beállítások</translation>
     </message>
     <message>
         <source>Default profile:</source>
-        <translation type="unfinished"></translation>
+        <translation>Alapértelmezett profil: </translation>
     </message>
     <message>
         <source>This profile will be used on the application startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Ez a profil lesz használatban az alkalmazás indításakor</translation>
     </message>
     <message>
         <source>Language:</source>
@@ -1373,7 +1373,7 @@
     </message>
     <message>
         <source>Note: Change of this parameter requires restart of the application</source>
-        <translation type="unfinished"></translation>
+        <translation>Megjegyzés: Ennek a paraméternek a megváltoztatásához szükség van az alkalmazás újraindítására</translation>
     </message>
 </context>
 <context>
