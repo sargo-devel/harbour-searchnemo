@@ -1,8 +1,8 @@
 
 # SearchNemo Release Notes
 
-## Version 0.5.1 (2018-02-12)
-* Added tarnslations: Dutch, Hungarian
+## Version 0.5.1 (2018-02-12) (Jolla Store 2018-02-13)
+* Added translations: Dutch, Hungarian
 
 ## Version 0.5.0 (2018-01-26) (Jolla Store 2018-01-29)
 * Added option: automatic file type recognition (by MIME type or by filename extension)
