@@ -5,111 +5,203 @@
     <name>About</name>
     <message>
         <source>About</source>
-        <translation>Über das Programm</translation>
-    </message>
-    <message>
-        <source>Description</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>and presents results in a possibly useful form.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>License</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Source code:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Special thanks for translators:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Help and Tips</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="unfinished"></translation>
+        <translation>Info</translation>
     </message>
     <message>
         <source>version:</source>
-        <translation type="unfinished"></translation>
+        <translation>Version:</translation>
     </message>
     <message>
         <source>Text and files search tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Text- und Dateisuchmaschine</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Beschreibung</translation>
     </message>
     <message>
         <source>This program searches for a text in files stored locally on the device</source>
-        <translation type="unfinished"></translation>
+        <translation>Dieses Programm sucht nach einem Text in Dateien, die lokal auf dem Gerät gespeichert sind</translation>
+    </message>
+    <message>
+        <source>and presents results in a possibly useful form.</source>
+        <translation>und präsentiert die Ergebnisse in einer möglicherweise nützlichen Form.</translation>
+    </message>
+    <message>
+        <source>License</source>
+        <translation>Lizenz</translation>
     </message>
     <message>
         <source>License: GPL v3</source>
-        <translation type="unfinished"></translation>
+        <translation>Lizenz: GPL v3</translation>
+    </message>
+    <message>
+        <source>Source code:</source>
+        <translation>Quellcode:</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Übersetzung</translation>
+    </message>
+    <message>
+        <source>Special thanks for translators:</source>
+        <translation>Besonderer Dank an die Übersetzer:</translation>
+    </message>
+    <message>
+        <source>Swedish</source>
+        <translation>Schwedisch</translation>
+    </message>
+    <message>
+        <source>Spanish</source>
+        <translation>Spanisch</translation>
+    </message>
+    <message>
+        <source>Italian</source>
+        <translation>Italienisch</translation>
+    </message>
+    <message>
+        <source>Dutch</source>
+        <translation>Niederländisch</translation>
+    </message>
+    <message>
+        <source>Hungarian</source>
+        <translation>Ungarisch</translation>
+    </message>
+    <message>
+        <source>If you want to contribute to translate into your language, plese join in:</source>
+        <translation>Wenn Sie dazu beitragen wollen, in Ihre Sprache zu übersetzen, dann machen Sie mit:</translation>
+    </message>
+    <message>
+        <source>Translation service</source>
+        <translation>Übersetzungsservice</translation>
+    </message>
+    <message>
+        <source>Donations</source>
+        <translation>Spenden</translation>
+    </message>
+    <message>
+        <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
+        <translation>Wenn Sie genauso viel Spaß mit der App haben wie ich, als ich sie erstellt habe, dann denken Sie bitte darüber nach, uns beide mit einer Spende zufrieden zu machen.</translation>
+    </message>
+    <message>
+        <source>Help and Tips</source>
+        <translation>Hilfe und Tipps</translation>
     </message>
     <message>
         <source>* Tap on section label with arrow to expand/collapse section.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Tippen Sie auf das Abschnittsetikett mit Pfeil, um den Abschnitt zu vergrößern/verkleinern.</translation>
     </message>
     <message>
         <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Tippen Sie auf den Text in der Detailansicht, um die Seite &quot;Auswählen und kopieren&quot; aufzurufen.</translation>
+    </message>
+    <message>
+        <source>* Tap on magnifying glass to set Regexp search on/off.</source>
+        <translation>* Tippen Sie auf die Lupe, um die Regexp-Suche ein- und auszuschalten.</translation>
     </message>
     <message>
         <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Halten Sie das leere Suchfeld gedrückt oder wählen Sie ein anderes Profil, um die Suchergebnisse zu löschen.</translation>
     </message>
     <message>
         <source>* Choosing profile via &apos;Profiles list&apos; doesn&apos;t delete search results.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Die Auswahl des Profils über die Profil-Liste löscht die Suchergebnisse nicht.</translation>
     </message>
     <message>
         <source>Profiles</source>
-        <translation type="unfinished"></translation>
+        <translation>Profile</translation>
     </message>
     <message>
         <source>Profiles give possibility to keep different search options under one short name.</source>
-        <translation type="unfinished"></translation>
+        <translation>Profile bieten die Möglichkeit, verschiedene Suchoptionen unter einem Kurznamen zu speichern.</translation>
+    </message>
+    <message>
+        <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
+        <translation>Jedes Profil kann verschiedene Suchpfade enthalten, die als Whitelist oder Blacklist von Verzeichnissen gruppiert sind.</translation>
     </message>
     <message>
         <source>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Die Suche beginnt immer in einem Verzeichnis, das zur Whitelist gehört, und überspringt nicht benötigte Unterverzeichnisse auf der schwarzen Liste aus dem Teilbaum.</translation>
     </message>
     <message>
         <source>* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Die Whitelist und die Blacklist sind unabhängig voneinander, d.h. wenn das nächste Verzeichnis aus der Whitelist ein Unterverzeichnis eines der Verzeichnisse aus der Blacklist ist, wird das Programm beginnen, dort zu suchen.</translation>
     </message>
     <message>
         <source>This gives a huge flexibility of creating own complex search paths.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dies ermöglicht eine enorme Flexibilität bei der Erstellung eigener komplexer Suchpfade.</translation>
     </message>
     <message>
         <source>Some example profiles are available in &apos;Profiles list&apos; menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Einige Beispielprofile finden Sie im Menü &quot;Liste der Profile&quot;.</translation>
+    </message>
+    <message>
+        <source>File type (MIME)</source>
+        <translation>Datei-Typ (MIMW)</translation>
+    </message>
+    <message>
+        <source>MIME type is a standard of description of the nature and format of a document.</source>
+        <translation>Der MIME-Datei-Typ ist ein Standard für die Beschreibung der Art und des Formats eines Dokuments.</translation>
+    </message>
+    <message>
+        <source>It is a two-part identifier, e.g. text/plain.</source>
+        <translation>Es ist ein zweiteiliger Bezeichner, z.B. text/plain.</translation>
+    </message>
+    <message>
+        <source>Search engine has an option to identify file type by its MIME desription.</source>
+        <translation>Die Suchmaschine hat die Möglichkeit, den Dateityp anhand der MIME-Beschreibung zu identifizieren.</translation>
+    </message>
+    <message>
+        <source>It uses QMimeDatabase class from Qt library, which by default uses both the file name and content to make the recognition.</source>
+        <translation>Es verwendet QMimeDatabase Klasse aus der Qt-Bibliothek, die standardmäßig sowohl den Dateinamen als auch den Inhalt verwendet, um die Erkennung zu ermöglichen.</translation>
+    </message>
+    <message>
+        <source>It means that change in the filename extension influences final file type identification.</source>
+        <translation>Das bedeutet, dass die Änderung der Dateinamenerweiterung die endgültige Identifizierung des Dateityps beeinflusst.</translation>
+    </message>
+    <message>
+        <source>Regular expressions (Regexp)</source>
+        <translation>Reguläre Ausdrücke (Regexp)</translation>
+    </message>
+    <message>
+        <source>Regexp is a powerful tool for finding complex text patterns.</source>
+        <translation>Regexp ist ein mächtiges Werkzeug, um komplexe Textmuster zu finden.</translation>
+    </message>
+    <message>
+        <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
+        <translation>Die Engine in dieser Anwendung verwendet den Typ &apos;QRegularExpression&apos;, der Perl-kompatible (PCRE) reguläre Ausdrücke implementiert.</translation>
+    </message>
+    <message>
+        <source>There are some rules used here:</source>
+        <translation>Es gibt einige Regeln, die hier verwendet werden:</translation>
+    </message>
+    <message>
+        <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
+        <translation>* Bei der Suche wird standardmäßig zwischen Groß- und Kleinschreibung unterschieden. Dies kann innerhalb des Regexp-Pattern geändert werden (z.B. &apos;(?i)hello&apos;).</translation>
+    </message>
+    <message>
+        <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
+        <translation>Die Unicode-Eigenschaften sind standardmäßig eingestellt. Zeichenklassen (z.B. \w \d) sind unicode-kompatibel.</translation>
+    </message>
+    <message>
+        <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
+        <translation>* Die Suche ist IMMER zeilenorientiert, unabhängig von den Regexp Pattern-Einstellungen. Das bedeutet, dass Regexp niemals auf die gesamte Datei angewendet wird, sondern nur auf einzelne Zeilen.</translation>
+    </message>
+    <message>
+        <source>Reference:</source>
+        <translation>Referenz:</translation>
     </message>
     <message>
         <source>Applications section (experimental)</source>
-        <translation type="unfinished"></translation>
+        <translation>Anwendungsbereich (experimentell)</translation>
     </message>
     <message>
         <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Um eine Anwendung zu finden, durchsucht das Programm .desktop-Dateien in einem Verzeichnis, das in der Whitelist angegeben ist, und kann nur einen Text finden, der in diesen Dateien enthalten ist.</translation>
     </message>
     <message>
         <source>This fact has some implications:</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Tatsache hat einige Bedeutungen:</translation>
     </message>
     <message>
         <source>* It gives only original (English) names unless it finds localized names there.</source>
@@ -123,104 +215,12 @@
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>* Tap on magnifying glass to set Regexp search on/off.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Regular expressions (Regexp)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Regexp is a powerful tool for finding complex text patterns.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>There are some rules used here:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reference:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>If you want to contribute to translate into your language, plese join in:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Translation service</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Donations</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Spanish</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>MIME type is a standard of description of the nature and format of a document.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>It is a two-part identifier, e.g. text/plain.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Search engine has an option to identify file type by its MIME desription.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>It uses QMimeDatabase class from Qt library, which by default uses both the file name and content to make the recognition.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>It means that change in the filename extension influences final file type identification.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>File type (MIME)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>AnimatedHeader</name>
     <message>
         <source>File info</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateiinformation </translation>
     </message>
 </context>
 <context>
@@ -231,27 +231,27 @@
     </message>
     <message>
         <source>If nothing happens, then the package is probably faulty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn nichts passiert, dann ist das Paket wahrscheinlich defekt.</translation>
     </message>
     <message>
         <source>Open successful</source>
-        <translation type="unfinished"></translation>
+        <translation>Erfolgreich geöffnet</translation>
     </message>
     <message>
         <source>Sometimes the application stays in the background</source>
-        <translation type="unfinished"></translation>
+        <translation>Manchmal bleibt die Anwendung im Hintergrund.</translation>
     </message>
     <message>
         <source>Internal error</source>
-        <translation type="unfinished"></translation>
+        <translation>Interner Fehler</translation>
     </message>
     <message>
         <source>File not found</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei nicht gefunden</translation>
     </message>
     <message>
         <source>No application to open the file</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine Anwendung zum Öffnen der Datei</translation>
     </message>
     <message>
         <source>xdg-open found no preferred application</source>
@@ -259,7 +259,7 @@
     </message>
     <message>
         <source>Action failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktion fehlgeschlagen</translation>
     </message>
     <message>
         <source>xdg-open not found</source>
@@ -282,146 +282,146 @@
     </message>
     <message>
         <source>** error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>** Fehler: %1</translation>
     </message>
     <message>
         <source>** error</source>
-        <translation type="unfinished"></translation>
+        <translation>** Fehler</translation>
     </message>
 </context>
 <context>
     <name>DirLists</name>
     <message>
-        <source>Profile</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Remove from list</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Removing directory from list</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>List of directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Liste der Verzeichnisse</translation>
+    </message>
+    <message>
+        <source>Profile</source>
+        <translation>Profile</translation>
     </message>
     <message>
         <source>Add/modify directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Verzeichnis Hinzufügen/Ändern </translation>
+    </message>
+    <message>
+        <source>Remove from list</source>
+        <translation>Von Liste entfernen</translation>
+    </message>
+    <message>
+        <source>Removing directory from list</source>
+        <translation>Verzeichnis von Liste entfernen</translation>
     </message>
     <message>
         <source>Whitelist directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Whitelist Verzeichnisse</translation>
     </message>
     <message>
         <source>Blacklist directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Blacklist Verzeichnisse</translation>
     </message>
 </context>
 <context>
     <name>DirPopup</name>
     <message>
         <source>Root (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Root (%1)</translation>
     </message>
     <message>
         <source>Root</source>
-        <translation type="unfinished"></translation>
+        <translation>Root</translation>
     </message>
     <message>
         <source>SD Card (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>SD Karte (%1)</translation>
     </message>
     <message>
         <source>SD Card</source>
-        <translation type="unfinished"></translation>
+        <translation>SD Karte</translation>
     </message>
     <message>
         <source>Android Storage not found</source>
-        <translation type="unfinished"></translation>
+        <translation>Android Storage nicht gefunden</translation>
     </message>
     <message>
         <source>SD Card not found</source>
-        <translation type="unfinished"></translation>
+        <translation>SD Karte nicht gefunden</translation>
     </message>
     <message>
         <source>Home</source>
-        <translation type="unfinished"></translation>
+        <translation>Home</translation>
     </message>
     <message>
         <source>Android Storage</source>
-        <translation type="unfinished"></translation>
+        <translation>Android Storage</translation>
     </message>
 </context>
 <context>
     <name>DirTree</name>
     <message>
-        <source>Add to whitelist</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Add to blacklist</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Accept</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Path:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Main tree</source>
-        <translation type="unfinished"></translation>
+        <translation>Hauptbaum</translation>
     </message>
     <message>
         <source>Show hidden directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Versteckte Verzeichnisse anzeigen</translation>
     </message>
     <message>
         <source>Hide hidden directories</source>
-        <translation type="unfinished"></translation>
+        <translation>Versteckte Verzeichnisse ausblenden</translation>
+    </message>
+    <message>
+        <source>Accept</source>
+        <translation>Übernehmen</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Abbrechen</translation>
     </message>
     <message>
         <source>Select directories by long press</source>
-        <translation type="unfinished"></translation>
+        <translation>Verzeichnisse durch langes Drücken auswählen</translation>
+    </message>
+    <message>
+        <source>Path:</source>
+        <translation>Pfad:</translation>
+    </message>
+    <message>
+        <source>Add to whitelist</source>
+        <translation>Zur Whitelist hinzugefügt</translation>
+    </message>
+    <message>
+        <source>Add to blacklist</source>
+        <translation>Zur Blacklist hinzugefügt</translation>
     </message>
     <message>
         <source>Remove from lists</source>
-        <translation type="unfinished"></translation>
+        <translation>Von Liste entfernt</translation>
     </message>
 </context>
 <context>
     <name>DirtreeModel</name>
     <message>
         <source>Home</source>
-        <translation type="unfinished"></translation>
+        <translation>Home</translation>
     </message>
     <message>
         <source>SD card</source>
-        <translation type="unfinished"></translation>
+        <translation>SD Karte</translation>
     </message>
     <message>
         <source>Android storage</source>
-        <translation type="unfinished"></translation>
+        <translation>Android Storage</translation>
     </message>
     <message>
         <source>Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswählen</translation>
     </message>
 </context>
 <context>
     <name>FileData</name>
     <message>
         <source>File does not exist</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei existiert nicht</translation>
     </message>
     <message>
         <source>block device</source>
@@ -441,11 +441,11 @@
     </message>
     <message>
         <source>folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordner</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>unbekannt</translation>
     </message>
     <message>
         <source>Image Size</source>
@@ -456,7 +456,7 @@
     <name>FileInfoColumn</name>
     <message>
         <source>File name</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateiname</translation>
     </message>
     <message>
         <source>Location</source>
@@ -464,7 +464,7 @@
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Link to %1</source>
@@ -472,34 +472,38 @@
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Größe</translation>
     </message>
     <message>
         <source>Permissions</source>
-        <translation type="unfinished"></translation>
+        <translation>Berechtigung</translation>
     </message>
     <message>
         <source>Owner</source>
-        <translation type="unfinished"></translation>
+        <translation>Besitzer</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Gruppe</translation>
     </message>
     <message>
         <source>Last modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Änderungsdatum</translation>
     </message>
 </context>
 <context>
     <name>FileView</name>
     <message>
         <source>Install</source>
-        <translation type="unfinished"></translation>
+        <translation>Installieren</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Öffne</translation>
+        <translation>Öffnen</translation>
+    </message>
+    <message>
+        <source>File info</source>
+        <translation>Dateiinformation </translation>
     </message>
     <message>
         <source>Location</source>
@@ -507,7 +511,7 @@
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Link to %1</source>
@@ -515,96 +519,112 @@
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Größe</translation>
     </message>
     <message>
         <source>Permissions</source>
-        <translation type="unfinished"></translation>
+        <translation>Berechtigungen</translation>
     </message>
     <message>
         <source>Owner</source>
-        <translation type="unfinished"></translation>
+        <translation>Besitzer</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Gruppe</translation>
     </message>
     <message>
         <source>Last modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Änderungsdatum</translation>
     </message>
     <message>
         <source>File can&apos;t be opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei kann nicht geöffnet werden</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>File info</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateityp kann nicht geöffnet werden.</translation>
     </message>
 </context>
 <context>
     <name>HtmlView</name>
     <message>
         <source>Open</source>
-        <translation>Öffne</translation>
+        <translation>Öffnen</translation>
     </message>
     <message>
         <source>File can&apos;t be opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei kann nicht geöffnet werden</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateityp kann nicht geöffnet werden.</translation>
     </message>
 </context>
 <context>
     <name>NotesView</name>
     <message>
         <source>Text not found.</source>
-        <translation>Der Text nicht gefunden.</translation>
+        <translation>Text nicht gefunden.</translation>
     </message>
     <message>
         <source>Open Notes</source>
-        <translation type="unfinished"></translation>
+        <translation>Öffne Notizen</translation>
     </message>
     <message>
         <source>File can&apos;t be opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei kann nicht geöffnet werden</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateityp kann nicht geöffnet werden.</translation>
     </message>
     <message>
         <source>Note nr</source>
-        <translation type="unfinished"></translation>
+        <translation>Notizen-Nr.</translation>
     </message>
 </context>
 <context>
     <name>ProfileSettingsPage</name>
     <message>
+        <source>Profile settings</source>
+        <translation>Profileinstellungen</translation>
+    </message>
+    <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Name</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished"></translation>
+        <translation>Beschreibung</translation>
     </message>
     <message>
         <source>Profile description</source>
-        <translation type="unfinished"></translation>
+        <translation>Profilbeschreibung</translation>
     </message>
     <message>
         <source>Search directories lists</source>
-        <translation type="unfinished"></translation>
+        <translation>Verzeichnislisten durchsuchen</translation>
+    </message>
+    <message>
+        <source>Whitelist directories:</source>
+        <translation>Whitelist Verzeichnisse:</translation>
+    </message>
+    <message>
+        <source>Blacklist directories:</source>
+        <translation>Blacklist Verzeichnisse:</translation>
     </message>
     <message>
         <source>Search options</source>
         <translation>Suchoptionen</translation>
+    </message>
+    <message>
+        <source>Enable regular expressions</source>
+        <translation>Aktiviere Reguläre Ausdrücke</translation>
+    </message>
+    <message>
+        <source>Enables regular expressions in searched text</source>
+        <translation>Aktiviere Reguläre Ausdrücke im Suchtext</translation>
     </message>
     <message>
         <source>Search hidden files</source>
@@ -620,15 +640,15 @@
     </message>
     <message>
         <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
-        <translation>Wenn es aktiviert ist, maximale Tiefe der Unterverzeichnisse ist 20. Das ist, um endlose Schleifen zu verhindern.</translation>
+        <translation>Wenn aktiviert, ist die maximale Tiefe der Unterverzeichnisse 20. Dies dient dazu, Endlosschleifen zu vermeiden.</translation>
     </message>
     <message>
         <source>Show cumulative search results</source>
-        <translation>Zeige kumulative Suchergebnisse</translation>
+        <translation>Kumulierte Suchergebnisse anzeigen</translation>
     </message>
     <message>
         <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
-        <translation>Zeigt nur die erste Partie der gefundenen Text in einer Datei und zeigt Anzahl aller Treffer in eckigen Klammern [ ]. Alle Ergebnisse können in der Detailansicht angezeigt werden</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Search results</source>
@@ -636,142 +656,122 @@
     </message>
     <message>
         <source>max. nr of results per section</source>
-        <translation>Max. Anzahl der Ergebnisse pro Abschnitt</translation>
-    </message>
-    <message>
-        <source>Result sections</source>
-        <translation>Ergebnis Abschnitte</translation>
-    </message>
-    <message>
-        <source>Enable TXT section</source>
-        <translation>Aktiviere TXT Abschnitt</translation>
-    </message>
-    <message>
-        <source>Enables searching inside *.txt files</source>
-        <translation>Ermöglicht innen *.txt-Dateien suchen</translation>
-    </message>
-    <message>
-        <source>Enable HTML section</source>
-        <translation>Aktiviere HTML Abschnitt</translation>
-    </message>
-    <message>
-        <source>Enables searching inside *.html, *.htm files</source>
-        <translation>Ermöglicht innen *.html-, *.htm-Dateien suchen</translation>
-    </message>
-    <message>
-        <source>Enable SRC section</source>
-        <translation>Aktiviere SRC Abschnitt</translation>
-    </message>
-    <message>
-        <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
-        <translation>Ermöglicht innen *.cpp-, *.c-, *.h-, *.py-, *.sh-, *.qml-, *.js-Dateien suchen</translation>
-    </message>
-    <message>
-        <source>Enable APPS section</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enable SQLITE section</source>
-        <translation>Aktiviere SQLITE Abschnitt</translation>
-    </message>
-    <message>
-        <source>Enable NOTES section</source>
-        <translation>Aktiviere NOTES Abschnitt</translation>
-    </message>
-    <message>
-        <source>Enables searching inside Notes application database</source>
-        <translation>Ermöglicht innen Notes-Application-Datenbank durchsuchen</translation>
-    </message>
-    <message>
-        <source>Enable Files and Directories sections</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables searching for file and directory names</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Whitelist directories:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Blacklist directories:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Profile settings</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
-        <translation>Ermöglicht innen *.sqlite-, *.sqlite3-, *.db-Dateien suchen</translation>
-    </message>
-    <message>
-        <source>Run apps directly</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables direct app launch from APPS section on the search page</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enable regular expressions</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables regular expressions in searched text</source>
-        <translation type="unfinished"></translation>
+        <translation>max. Anzahl der Ergebnisse pro Bereich</translation>
     </message>
     <message>
         <source>File type options</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei-Typ Optionen</translation>
     </message>
     <message>
         <source>Automatic file type recognition</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables searching inside files of type: text/plain and its derivatives</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables searching inside files of type: text/html and its derivatives</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables searching inside files of type: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml and their derivatives</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables searching inside files of type: application/x-desktop. This is an experimental feature. See details in &apos;About&apos; menu.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enables searching inside files of type: application/x-sqlite3 and its derivatives</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatische Dateityperkennung</translation>
     </message>
     <message>
         <source>Enables automatic recognition of file type by both filename extension and content. File is assigned to a section by its MIME type. See details in &apos;About&apos; menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ermöglicht die automatische Erkennung des Dateityps anhand der Dateinamenerweiterung und des Inhalts. Die Datei wird über ihren MIME-Typ einem Abschnitt zugeordnet. Siehe Details im Menü &quot;Info&quot;.</translation>
+    </message>
+    <message>
+        <source>Result sections</source>
+        <translation>Suchergebnisse</translation>
+    </message>
+    <message>
+        <source>Enable TXT section</source>
+        <translation>TXT-Abschnitt aktivieren</translation>
+    </message>
+    <message>
+        <source>Enables searching inside files of type: text/plain and its derivatives</source>
+        <translation>Ermöglicht die Suche in Dateien vom Typ: text/plain und deren Ableitungen.</translation>
+    </message>
+    <message>
+        <source>Enables searching inside *.txt files</source>
+        <translation>Ermöglicht die Suche in *.txt-Dateien</translation>
+    </message>
+    <message>
+        <source>Enable HTML section</source>
+        <translation>HTML-Abschnitt aktivieren</translation>
+    </message>
+    <message>
+        <source>Enables searching inside files of type: text/html and its derivatives</source>
+        <translation>Ermöglicht die Suche in Dateien vom Typ: text/html und seinen Ableitungen.</translation>
+    </message>
+    <message>
+        <source>Enables searching inside *.html, *.htm files</source>
+        <translation>Ermöglicht die Suche in *.html- &amp; *.htm-Dateien</translation>
+    </message>
+    <message>
+        <source>Enable SRC section</source>
+        <translation>SRC-Abschnitt aktivieren</translation>
+    </message>
+    <message>
+        <source>Enables searching inside files of type: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml and their derivatives</source>
+        <translation>Ermöglicht die Suche in Dateien vom Typ: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml und deren Ableitungen.</translation>
+    </message>
+    <message>
+        <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
+        <translation>Ermöglicht die Suche innerhalb von *.cpp, *.c, *.c, *.h, *.py, *.sh, *.qml, *.js Dateien</translation>
+    </message>
+    <message>
+        <source>Enable APPS section</source>
+        <translation>APPS-Abschnitt aktivieren</translation>
+    </message>
+    <message>
+        <source>Enables searching inside files of type: application/x-desktop. This is an experimental feature. See details in &apos;About&apos; menu.</source>
+        <translation>Ermöglicht die Suche in Dateien vom Typ: application/x-desktop. Dies ist ein experimentelles Feature. Siehe Details im Menü &quot;Info&quot;.</translation>
+    </message>
+    <message>
+        <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
+        <translation>Ermöglicht eine spezielle Suche in *.desktop-Dateien. Dies ist ein experimentelles Feature. Siehe Details im Menü &quot;Info&quot;.</translation>
+    </message>
+    <message>
+        <source>Run apps directly</source>
+        <translation>Apps direkt ausführen</translation>
+    </message>
+    <message>
+        <source>Enables direct app launch from APPS section on the search page</source>
+        <translation>Ermöglicht den direkten App-Start aus dem APPS-Abschnitt auf der Suchseite.</translation>
+    </message>
+    <message>
+        <source>Enable SQLITE section</source>
+        <translation>SQLITE-Abschnitt aktivieren</translation>
+    </message>
+    <message>
+        <source>Enables searching inside files of type: application/x-sqlite3 and its derivatives</source>
+        <translation>Ermöglicht die Suche in Dateien vom Typ application/x-sqlite3 und seinen Ableitungen.</translation>
+    </message>
+    <message>
+        <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
+        <translation>Ermöglicht die Suche innerhalb von *.sqlite, *.sqlite3, *.db Dateien.</translation>
+    </message>
+    <message>
+        <source>Enable NOTES section</source>
+        <translation>NOTIZ-Abschnitt aktivieren</translation>
+    </message>
+    <message>
+        <source>Enables searching inside Notes application database</source>
+        <translation>Ermöglicht die Suche in der Notizen-Anwendungsdatenbank</translation>
+    </message>
+    <message>
+        <source>Enable Files and Directories sections</source>
+        <translation>Aktivieren der Abschnitte Dateien und Verzeichnisse</translation>
+    </message>
+    <message>
+        <source>Enables searching for file and directory names</source>
+        <translation>Ermöglicht die Suche nach Datei- und Verzeichnisnamen</translation>
     </message>
 </context>
 <context>
     <name>ProfilesPage</name>
     <message>
         <source>Profile name error!</source>
-        <translation type="unfinished"></translation>
+        <translation>Profilname Fehler!</translation>
     </message>
     <message>
         <source>Name exists. Try another one...</source>
-        <translation type="unfinished"></translation>
+        <translation>Name existiert bereits. Probieren Sie einen anderen....</translation>
     </message>
     <message>
         <source>Profiles list</source>
-        <translation type="unfinished"></translation>
+        <translation>Liste der Profile</translation>
     </message>
     <message>
         <source>Add default set</source>
@@ -779,7 +779,7 @@
     </message>
     <message>
         <source>Add profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Profil hinzufügen</translation>
     </message>
     <message>
         <source>Set as current</source>
@@ -787,47 +787,51 @@
     </message>
     <message>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>Umbenennen</translation>
+    </message>
+    <message>
+        <source>Rename profile</source>
+        <translation>Profil umbenennen</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Löschen</translation>
     </message>
     <message>
         <source>Deleting profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Profil löschen</translation>
     </message>
     <message>
         <source>Accept</source>
-        <translation type="unfinished"></translation>
+        <translation>Übernehmen</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Abbrechen</translation>
     </message>
     <message>
         <source>Profile name</source>
-        <translation type="unfinished"></translation>
+        <translation>Profilname</translation>
     </message>
     <message>
         <source>Profile description</source>
-        <translation type="unfinished"></translation>
+        <translation>Profilbeschreibung</translation>
     </message>
     <message>
         <source>The following profiles will be created:</source>
-        <translation type="unfinished"></translation>
+        <translation>Die folgenden Profile werden erstellt:</translation>
     </message>
     <message>
         <source>Home dir</source>
-        <translation type="unfinished"></translation>
+        <translation>Home Verzeichnis</translation>
     </message>
     <message>
         <source>SD Card</source>
-        <translation type="unfinished"></translation>
+        <translation>SD Karte</translation>
     </message>
     <message>
         <source>Applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Anwendungen</translation>
     </message>
     <message>
         <source>Entire tree</source>
@@ -837,28 +841,24 @@
         <source>If such profiles exist, they will be overwritten.</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>Rename profile</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>%1 bytes</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Bytes</translation>
     </message>
     <message>
         <source>%1 kB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 kB</translation>
     </message>
     <message>
         <source>%1 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 MB</translation>
     </message>
     <message>
         <source>%1 GB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <source>Make:%1</source>
@@ -890,7 +890,7 @@
     </message>
     <message>
         <source>(Manual)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Handbuch)</translation>
     </message>
     <message>
         <source>(Manual, return light not detected)</source>
@@ -1062,7 +1062,7 @@
     </message>
     <message>
         <source>Other</source>
-        <translation type="unfinished">Andere</translation>
+        <translation>Andere</translation>
     </message>
     <message>
         <source>Unknown (%1)</source>
@@ -1074,7 +1074,7 @@
     </message>
     <message>
         <source>Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>Handbuch</translation>
     </message>
     <message>
         <source>Program (auto)</source>
@@ -1098,11 +1098,11 @@
     </message>
     <message>
         <source>Portrait mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Hochformat</translation>
     </message>
     <message>
         <source>Landscape mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Querformat</translation>
     </message>
     <message>
         <source>Exposure Mode:Manual</source>
@@ -1122,7 +1122,7 @@
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Schließen</translation>
     </message>
     <message>
         <source>Distant</source>
@@ -1154,7 +1154,7 @@
     </message>
     <message>
         <source>Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommentar:</translation>
     </message>
 </context>
 <context>
@@ -1168,7 +1168,7 @@
     <name>SearchEngine</name>
     <message>
         <source>Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Anwendung</translation>
     </message>
 </context>
 <context>
@@ -1198,6 +1198,10 @@
         <translation>SQLITE-Dateien Inhalt</translation>
     </message>
     <message>
+        <source>Applications</source>
+        <translation>Anwendungen</translation>
+    </message>
+    <message>
         <source>Filenames</source>
         <translation>Dateinamen</translation>
     </message>
@@ -1215,9 +1219,9 @@
     </message>
     <message numerus="yes">
         <source>%n hit(s)</source>
-        <translation>
-            <numerusform>%n Treffer</numerusform>
-            <numerusform>%n Treffer</numerusform>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -1229,8 +1233,32 @@
         <translation>Über das Programm</translation>
     </message>
     <message>
+        <source>General options</source>
+        <translation>Allgemeine Optionen</translation>
+    </message>
+    <message>
+        <source>Profiles list</source>
+        <translation>Liste der Profile</translation>
+    </message>
+    <message>
+        <source>Current profile setup</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Search %1</source>
         <translation>Suche %1</translation>
+    </message>
+    <message>
+        <source>Profile:</source>
+        <translation>Profile:</translation>
+    </message>
+    <message>
+        <source>View</source>
+        <translation>Ansicht</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ausführen</translation>
     </message>
     <message>
         <source>Open</source>
@@ -1238,11 +1266,11 @@
     </message>
     <message>
         <source>Remove from search results</source>
-        <translation type="unfinished"></translation>
+        <translation>Aus den Suchergebnissen entfernen</translation>
     </message>
     <message>
         <source>Removing from search results</source>
-        <translation type="unfinished"></translation>
+        <translation>Wird aus den Suchergebnissen entfernt</translation>
     </message>
     <message>
         <source>SearchNemo</source>
@@ -1250,96 +1278,68 @@
     </message>
     <message>
         <source>File can&apos;t be opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei kann nicht geöffnet werden</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Applications</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>General options</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Profiles list</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Current profile setup</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Profile:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Run</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateityp kann nicht geöffnet werden.</translation>
     </message>
 </context>
 <context>
     <name>SearchWorker</name>
     <message>
         <source>Search already in progress</source>
-        <translation type="unfinished"></translation>
+        <translation>Suche wird bereits ausgeführt</translation>
     </message>
     <message>
         <source>Bad search parameters</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Note nr</source>
-        <translation type="unfinished"></translation>
+        <translation>Schlechte Suchparameter</translation>
     </message>
     <message>
         <source>Profile configuration error!</source>
-        <translation type="unfinished"></translation>
+        <translation>Profilkonfigurationsproblem</translation>
     </message>
     <message>
         <source>Check profile whitelist...</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Note nr</source>
+        <translation>Notizen-Nr.</translation>
     </message>
 </context>
 <context>
     <name>SelectCopy</name>
     <message>
         <source>Select and Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswählen und Kopieren</translation>
     </message>
 </context>
 <context>
     <name>Settings</name>
     <message>
         <source>Home dir</source>
-        <translation type="unfinished"></translation>
+        <translation>Home Verzeichnis</translation>
     </message>
     <message>
         <source>Entire home directory with hidden files</source>
-        <translation type="unfinished"></translation>
+        <translation>Komplettes Home-Verzeichnis mit versteckten Dateien</translation>
     </message>
     <message>
         <source>SD card</source>
-        <translation type="unfinished"></translation>
+        <translation>SD Karte</translation>
     </message>
     <message>
         <source>Entire SD card with hidden files</source>
-        <translation type="unfinished"></translation>
+        <translation>Komplette SD-Karte mit versteckten Dateien</translation>
     </message>
     <message>
         <source>Applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Anwendungen</translation>
     </message>
     <message>
         <source>All installed applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle installierten Anwendungen</translation>
     </message>
     <message>
         <source>Entire tree</source>
@@ -1357,23 +1357,23 @@
         <translation>default</translation>
     </message>
     <message>
+        <source>General options</source>
+        <translation>Allgemeine Optionen</translation>
+    </message>
+    <message>
+        <source>Default profile:</source>
+        <translation>Standardprofil:</translation>
+    </message>
+    <message>
+        <source>This profile will be used on the application startup</source>
+        <translation>Um eine Anwendung zu finden, durchsucht das Programm .desktop-Dateien in einem Verzeichnis, das in der Whitelist angegeben ist, und kann nur einen Text finden, der in diesen Dateien enthalten ist.</translation>
+    </message>
+    <message>
         <source>Language:</source>
         <translation>Sprache:</translation>
     </message>
     <message>
-        <source>Default profile:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This profile will be used on the application startup</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Note: Change of this parameter requires restart of the application</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>General options</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1396,15 +1396,15 @@
     </message>
     <message>
         <source>File can&apos;t be opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei kann nicht geöffnet werden</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateityp kann nicht geöffnet werden.</translation>
     </message>
     <message>
         <source>Show complete record</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeige komplette Einträge</translation>
     </message>
     <message>
         <source>db:table:column:row</source>
@@ -1425,19 +1425,19 @@
     <name>TxtView</name>
     <message>
         <source>Text not found.</source>
-        <translation>Der Text nicht gefunden.</translation>
+        <translation>Text nicht gefunden.</translation>
     </message>
     <message>
         <source>Open</source>
-        <translation>Öffne</translation>
+        <translation>Öffnen</translation>
     </message>
     <message>
         <source>File can&apos;t be opened</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei kann nicht geöffnet werden</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateityp kann nicht geöffnet werden.</translation>
     </message>
 </context>
 </TS>

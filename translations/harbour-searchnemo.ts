@@ -85,6 +85,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>German</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+11"/>
         <source>If you want to contribute to translate into your language, plese join in:</source>
         <translation type="unfinished"></translation>

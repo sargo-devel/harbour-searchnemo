@@ -40,7 +40,7 @@ Page {
 
     Component.onCompleted: {
         languages.append({ name: qsTr("default"),  lang: "default" })
-        languages.append({ name: "Deutsch - incomplete",  lang: "de_DE" })
+        languages.append({ name: "Deutsch",  lang: "de_DE" })
         languages.append({ name: "English (US)",  lang: "en_US" })
         languages.append({ name: "Español",  lang: "es_ES" })
         languages.append({ name: "Italiano",  lang: "it_IT" })

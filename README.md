@@ -45,7 +45,7 @@ Currently supported languages:
  * English
  * Polish
  * Dutch (translation made by Nathan Follens, Michiel Pater)
- * German (partially, not maintained)
+ * German (translation made by Unreasonable_Behaviour)
  * Hungarian (translation made by Szabó G.)
  * Italian (translation made by fravaccaro)
  * Spanish (translation made by Carmen Fernández B.) 

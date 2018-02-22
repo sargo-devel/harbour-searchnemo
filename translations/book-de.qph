@@ -2,35 +2,587 @@
 <QPH language="de_DE">
 <phrase>
     <source>About</source>
-    <target>über das Programm</target>
+    <target>Info</target>
 </phrase>
 <phrase>
-    <source>Version: alpha </source>
-    <target>Version: alpha </target>
+    <source>version:</source>
+    <target>Version:</target>
 </phrase>
 <phrase>
-    <source>This program searches for text in different file types.</source>
-    <target>Das Programm sucht nach text in verschiedenen Filesorten</target>
+    <source>Text and files search tool</source>
+    <target>Text- und Dateisuchmaschine</target>
 </phrase>
 <phrase>
-    <source>File Info </source>
-    <target>File Info </target>
+    <source>Description</source>
+    <target>Beschreibung</target>
+</phrase>
+<phrase>
+    <source>This program searches for a text in files stored locally on the device</source>
+    <target>Dieses Programm sucht nach einem Text in Dateien, die lokal auf dem Gerät gespeichert sind</target>
+</phrase>
+<phrase>
+    <source>and presents results in a possibly useful form.</source>
+    <target>und präsentiert die Ergebnisse in einer möglicherweise nützlichen Form.</target>
+</phrase>
+<phrase>
+    <source>License</source>
+    <target>Lizenz</target>
+</phrase>
+<phrase>
+    <source>License: GPL v3</source>
+    <target>Lizenz: GPL v3</target>
+</phrase>
+<phrase>
+    <source>Source code:</source>
+    <target>Quellcode:</target>
+</phrase>
+<phrase>
+    <source>Translations</source>
+    <target>Übersetzung</target>
+</phrase>
+<phrase>
+    <source>Special thanks for translators:</source>
+    <target>Besonderer Dank an die Übersetzer:</target>
+</phrase>
+<phrase>
+    <source>Swedish</source>
+    <target>Schwedisch</target>
+</phrase>
+<phrase>
+    <source>Spanish</source>
+    <target>Spanisch</target>
+</phrase>
+<phrase>
+    <source>Italian</source>
+    <target>Italienisch</target>
+</phrase>
+<phrase>
+    <source>Dutch</source>
+    <target>Niederländisch</target>
+</phrase>
+<phrase>
+    <source>Hungarian</source>
+    <target>Ungarisch</target>
+</phrase>
+<phrase>
+    <source>If you want to contribute to translate into your language, plese join in:</source>
+    <target>Wenn Sie dazu beitragen wollen, in Ihre Sprache zu übersetzen, dann machen Sie mit:</target>
+</phrase>
+<phrase>
+    <source>Translation service</source>
+    <target>Übersetzungsservice</target>
+</phrase>
+<phrase>
+    <source>Donations</source>
+    <target>Spenden</target>
+</phrase>
+<phrase>
+    <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
+    <target>Wenn Sie genauso viel Spaß mit der App haben wie ich, als ich sie erstellt habe, dann denken Sie bitte darüber nach, uns beide mit einer Spende zufrieden zu machen.</target>
+</phrase>
+<phrase>
+    <source>Help and Tips</source>
+    <target>Hilfe und Tipps</target>
+</phrase>
+<phrase>
+    <source>* Tap on section label with arrow to expand/collapse section.</source>
+    <target>* Tippen Sie auf das Abschnittsetikett mit Pfeil, um den Abschnitt zu vergrößern/verkleinern.</target>
+</phrase>
+<phrase>
+    <source>* Tap on text in detailed view to enter &apos;Select and copy&apos; page.</source>
+    <target>* Tippen Sie auf den Text in der Detailansicht, um die Seite &quot;Auswählen und kopieren&quot; aufzurufen.</target>
+</phrase>
+<phrase>
+    <source>* Tap on magnifying glass to set Regexp search on/off.</source>
+    <target>* Tippen Sie auf die Lupe, um die Regexp-Suche ein- und auszuschalten.</target>
+</phrase>
+<phrase>
+    <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
+    <target>* Halten Sie das leere Suchfeld gedrückt oder wählen Sie ein anderes Profil, um die Suchergebnisse zu löschen.</target>
+</phrase>
+<phrase>
+    <source>* Choosing profile via &apos;Profiles list&apos; doesn&apos;t delete search results.</source>
+    <target>* Die Auswahl des Profils über die Profil-Liste löscht die Suchergebnisse nicht.</target>
+</phrase>
+<phrase>
+    <source>Profiles</source>
+    <target>Profile</target>
+</phrase>
+<phrase>
+    <source>Profiles give possibility to keep different search options under one short name.</source>
+    <target>Profile bieten die Möglichkeit, verschiedene Suchoptionen unter einem Kurznamen zu speichern.</target>
+</phrase>
+<phrase>
+    <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
+    <target>Jedes Profil kann verschiedene Suchpfade enthalten, die als Whitelist oder Blacklist von Verzeichnissen gruppiert sind.</target>
+</phrase>
+<phrase>
+    <source>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</source>
+    <target>* Die Suche beginnt immer in einem Verzeichnis, das zur Whitelist gehört, und überspringt nicht benötigte Unterverzeichnisse auf der schwarzen Liste aus dem Teilbaum.</target>
+</phrase>
+<phrase>
+    <source>* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.</source>
+    <target>* Die Whitelist und die Blacklist sind unabhängig voneinander, d.h. wenn das nächste Verzeichnis aus der Whitelist ein Unterverzeichnis eines der Verzeichnisse aus der Blacklist ist, wird das Programm beginnen, dort zu suchen.</target>
+</phrase>
+<phrase>
+    <source>This gives a huge flexibility of creating own complex search paths.</source>
+    <target>Dies ermöglicht eine enorme Flexibilität bei der Erstellung eigener komplexer Suchpfade.</target>
+</phrase>
+<phrase>
+    <source>Some example profiles are available in &apos;Profiles list&apos; menu.</source>
+    <target>Einige Beispielprofile finden Sie im Menü &quot;Liste der Profile&quot;.</target>
+</phrase>
+<phrase>
+    <source>File type (MIME)</source>
+    <target>Datei-Typ (MIMW)</target>
+</phrase>
+<phrase>
+    <source>MIME type is a standard of description of the nature and format of a document.</source>
+    <target>Der MIME-Datei-Typ ist ein Standard für die Beschreibung der Art und des Formats eines Dokuments.</target>
+</phrase>
+<phrase>
+    <source>It is a two-part identifier, e.g. text/plain.</source>
+    <target>Es ist ein zweiteiliger Bezeichner, z.B. text/plain.</target>
+</phrase>
+<phrase>
+    <source>Search engine has an option to identify file type by its MIME desription.</source>
+    <target>Die Suchmaschine hat die Möglichkeit, den Dateityp anhand der MIME-Beschreibung zu identifizieren.</target>
+</phrase>
+<phrase>
+    <source>It uses QMimeDatabase class from Qt library, which by default uses both the file name and content to make the recognition.</source>
+    <target>Es verwendet QMimeDatabase Klasse aus der Qt-Bibliothek, die standardmäßig sowohl den Dateinamen als auch den Inhalt verwendet, um die Erkennung zu ermöglichen.</target>
+</phrase>
+<phrase>
+    <source>It means that change in the filename extension influences final file type identification.</source>
+    <target>Das bedeutet, dass die Änderung der Dateinamenerweiterung die endgültige Identifizierung des Dateityps beeinflusst.</target>
+</phrase>
+<phrase>
+    <source>Regular expressions (Regexp)</source>
+    <target>Reguläre Ausdrücke (Regexp)</target>
+</phrase>
+<phrase>
+    <source>Regexp is a powerful tool for finding complex text patterns.</source>
+    <target>Regexp ist ein mächtiges Werkzeug, um komplexe Textmuster zu finden.</target>
+</phrase>
+<phrase>
+    <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
+    <target>Die Engine in dieser Anwendung verwendet den Typ &apos;QRegularExpression&apos;, der Perl-kompatible (PCRE) reguläre Ausdrücke implementiert.</target>
+</phrase>
+<phrase>
+    <source>There are some rules used here:</source>
+    <target>Es gibt einige Regeln, die hier verwendet werden:</target>
+</phrase>
+<phrase>
+    <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
+    <target>* Bei der Suche wird standardmäßig zwischen Groß- und Kleinschreibung unterschieden. Dies kann innerhalb des Regexp-Pattern geändert werden (z.B. &apos;(?i)hello&apos;).</target>
+</phrase>
+<phrase>
+    <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
+    <target>Die Unicode-Eigenschaften sind standardmäßig eingestellt. Zeichenklassen (z.B. \w \d) sind unicode-kompatibel.</target>
+</phrase>
+<phrase>
+    <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
+    <target>* Die Suche ist IMMER zeilenorientiert, unabhängig von den Regexp Pattern-Einstellungen. Das bedeutet, dass Regexp niemals auf die gesamte Datei angewendet wird, sondern nur auf einzelne Zeilen.</target>
+</phrase>
+<phrase>
+    <source>Reference:</source>
+    <target>Referenz:</target>
+</phrase>
+<phrase>
+    <source>Applications section (experimental)</source>
+    <target>Anwendungsbereich (experimentell)</target>
+</phrase>
+<phrase>
+    <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
+    <target>Um eine Anwendung zu finden, durchsucht das Programm .desktop-Dateien in einem Verzeichnis, das in der Whitelist angegeben ist, und kann nur einen Text finden, der in diesen Dateien enthalten ist.</target>
+</phrase>
+<phrase>
+    <source>This fact has some implications:</source>
+    <target>Diese Tatsache hat einige Bedeutungen:</target>
+</phrase>
+<phrase>
+    <source>* It gives only original (English) names unless it finds localized names there.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>File info</source>
+    <target>Dateiinformation </target>
 </phrase>
 <phrase>
     <source>Install launched</source>
     <target>Installation wurde gestartet</target>
 </phrase>
 <phrase>
-    <source>This program searches for text in different file types.</source>
-    <target>Das Programm sucht nach text in verschiedenen Filesorten.</target>
+    <source>If nothing happens, then the package is probably faulty.</source>
+    <target>Wenn nichts passiert, dann ist das Paket wahrscheinlich defekt.</target>
 </phrase>
 <phrase>
-    <source>Settings</source>
-    <target>Einstellungen</target>
+    <source>Open successful</source>
+    <target>Erfolgreich geöffnet</target>
 </phrase>
 <phrase>
-    <source>default</source>
-    <target>default</target>
+    <source>Sometimes the application stays in the background</source>
+    <target>Manchmal bleibt die Anwendung im Hintergrund.</target>
+</phrase>
+<phrase>
+    <source>Internal error</source>
+    <target>Interner Fehler</target>
+</phrase>
+<phrase>
+    <source>File not found</source>
+    <target>Datei nicht gefunden</target>
+</phrase>
+<phrase>
+    <source>No application to open the file</source>
+    <target>Keine Anwendung zum Öffnen der Datei</target>
+</phrase>
+<phrase>
+    <source>xdg-open found no preferred application</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Action failed</source>
+    <target>Aktion fehlgeschlagen</target>
+</phrase>
+<phrase>
+    <source>xdg-open not found</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>xdg-open crash?</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>xdg-open error</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>** crashed</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>** error: %1</source>
+    <target>** Fehler: %1</target>
+</phrase>
+<phrase>
+    <source>** error</source>
+    <target>** Fehler</target>
+</phrase>
+<phrase>
+    <source>List of directories</source>
+    <target>Liste der Verzeichnisse</target>
+</phrase>
+<phrase>
+    <source>Profile</source>
+    <target>Profile</target>
+</phrase>
+<phrase>
+    <source>Add/modify directories</source>
+    <target>Verzeichnis Hinzufügen/Ändern </target>
+</phrase>
+<phrase>
+    <source>Remove from list</source>
+    <target>Von Liste entfernen</target>
+</phrase>
+<phrase>
+    <source>Removing directory from list</source>
+    <target>Verzeichnis von Liste entfernen</target>
+</phrase>
+<phrase>
+    <source>Whitelist directories</source>
+    <target>Whitelist Verzeichnisse</target>
+</phrase>
+<phrase>
+    <source>Blacklist directories</source>
+    <target>Blacklist Verzeichnisse</target>
+</phrase>
+<phrase>
+    <source>Root (%1)</source>
+    <target>Root (%1)</target>
+</phrase>
+<phrase>
+    <source>Root</source>
+    <target>Root</target>
+</phrase>
+<phrase>
+    <source>SD Card (%1)</source>
+    <target>SD Karte (%1)</target>
+</phrase>
+<phrase>
+    <source>SD Card</source>
+    <target>SD Karte</target>
+</phrase>
+<phrase>
+    <source>Android Storage not found</source>
+    <target>Android Storage nicht gefunden</target>
+</phrase>
+<phrase>
+    <source>SD Card not found</source>
+    <target>SD Karte nicht gefunden</target>
+</phrase>
+<phrase>
+    <source>Home</source>
+    <target>Home</target>
+</phrase>
+<phrase>
+    <source>Android Storage</source>
+    <target>Android Storage</target>
+</phrase>
+<phrase>
+    <source>Main tree</source>
+    <target>Hauptbaum</target>
+</phrase>
+<phrase>
+    <source>Show hidden directories</source>
+    <target>Versteckte Verzeichnisse anzeigen</target>
+</phrase>
+<phrase>
+    <source>Hide hidden directories</source>
+    <target>Versteckte Verzeichnisse ausblenden</target>
+</phrase>
+<phrase>
+    <source>Accept</source>
+    <target>Übernehmen</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Abbrechen</target>
+</phrase>
+<phrase>
+    <source>Select directories by long press</source>
+    <target>Verzeichnisse durch langes Drücken auswählen</target>
+</phrase>
+<phrase>
+    <source>Path:</source>
+    <target>Pfad:</target>
+</phrase>
+<phrase>
+    <source>Add to whitelist</source>
+    <target>Zur Whitelist hinzugefügt</target>
+</phrase>
+<phrase>
+    <source>Add to blacklist</source>
+    <target>Zur Blacklist hinzugefügt</target>
+</phrase>
+<phrase>
+    <source>Remove from lists</source>
+    <target>Von Liste entfernt</target>
+</phrase>
+<phrase>
+    <source>Home</source>
+    <target>Home</target>
+</phrase>
+<phrase>
+    <source>SD card</source>
+    <target>SD Karte</target>
+</phrase>
+<phrase>
+    <source>Android storage</source>
+    <target>Android Storage</target>
+</phrase>
+<phrase>
+    <source>Select</source>
+    <target>Auswählen</target>
+</phrase>
+<phrase>
+    <source>File does not exist</source>
+    <target>Datei existiert nicht</target>
+</phrase>
+<phrase>
+    <source>block device</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>character device</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>pipe</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>socket</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>folder</source>
+    <target>Ordner</target>
+</phrase>
+<phrase>
+    <source>unknown</source>
+    <target>unbekannt</target>
+</phrase>
+<phrase>
+    <source>Image Size</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>File name</source>
+    <target>Dateiname</target>
+</phrase>
+<phrase>
+    <source>Location</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Type</source>
+    <target>Typ</target>
+</phrase>
+<phrase>
+    <source>Link to %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Size</source>
+    <target>Größe</target>
+</phrase>
+<phrase>
+    <source>Permissions</source>
+    <target>Berechtigung</target>
+</phrase>
+<phrase>
+    <source>Owner</source>
+    <target>Besitzer</target>
+</phrase>
+<phrase>
+    <source>Group</source>
+    <target>Gruppe</target>
+</phrase>
+<phrase>
+    <source>Last modified</source>
+    <target>Änderungsdatum</target>
+</phrase>
+<phrase>
+    <source>Install</source>
+    <target>Installieren</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Öffnen</target>
+</phrase>
+<phrase>
+    <source>File info</source>
+    <target>Dateiinformation </target>
+</phrase>
+<phrase>
+    <source>Location</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Type</source>
+    <target>Typ</target>
+</phrase>
+<phrase>
+    <source>Link to %1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Size</source>
+    <target>Größe</target>
+</phrase>
+<phrase>
+    <source>Permissions</source>
+    <target>Berechtigungen</target>
+</phrase>
+<phrase>
+    <source>Owner</source>
+    <target>Besitzer</target>
+</phrase>
+<phrase>
+    <source>Group</source>
+    <target>Gruppe</target>
+</phrase>
+<phrase>
+    <source>Last modified</source>
+    <target>Änderungsdatum</target>
+</phrase>
+<phrase>
+    <source>File can&apos;t be opened</source>
+    <target>Datei kann nicht geöffnet werden</target>
+</phrase>
+<phrase>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Dateityp kann nicht geöffnet werden.</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Öffnen</target>
+</phrase>
+<phrase>
+    <source>File can&apos;t be opened</source>
+    <target>Datei kann nicht geöffnet werden</target>
+</phrase>
+<phrase>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Dateityp kann nicht geöffnet werden.</target>
+</phrase>
+<phrase>
+    <source>Text not found.</source>
+    <target>Text nicht gefunden.</target>
+</phrase>
+<phrase>
+    <source>Open Notes</source>
+    <target>Öffne Notizen</target>
+</phrase>
+<phrase>
+    <source>File can&apos;t be opened</source>
+    <target>Datei kann nicht geöffnet werden</target>
+</phrase>
+<phrase>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Dateityp kann nicht geöffnet werden.</target>
+</phrase>
+<phrase>
+    <source>Note nr</source>
+    <target>Notizen-Nr.</target>
+</phrase>
+<phrase>
+    <source>Profile settings</source>
+    <target>Profileinstellungen</target>
+</phrase>
+<phrase>
+    <source>Name</source>
+    <target>Name</target>
+</phrase>
+<phrase>
+    <source>Description</source>
+    <target>Beschreibung</target>
+</phrase>
+<phrase>
+    <source>Profile description</source>
+    <target>Profilbeschreibung</target>
+</phrase>
+<phrase>
+    <source>Search directories lists</source>
+    <target>Verzeichnislisten durchsuchen</target>
+</phrase>
+<phrase>
+    <source>Whitelist directories:</source>
+    <target>Whitelist Verzeichnisse:</target>
+</phrase>
+<phrase>
+    <source>Blacklist directories:</source>
+    <target>Blacklist Verzeichnisse:</target>
+</phrase>
+<phrase>
+    <source>Search options</source>
+    <target>Suchoptionen</target>
+</phrase>
+<phrase>
+    <source>Enable regular expressions</source>
+    <target>Aktiviere Reguläre Ausdrücke</target>
+</phrase>
+<phrase>
+    <source>Enables regular expressions in searched text</source>
+    <target>Aktiviere Reguläre Ausdrücke im Suchtext</target>
 </phrase>
 <phrase>
     <source>Search hidden files</source>
@@ -41,176 +593,532 @@
     <target>Ermöglicht innerhalb versteckte Dateien und Verzeichnisse suchen</target>
 </phrase>
 <phrase>
+    <source>Follow symbolic links</source>
+    <target>Die symbolischen Links folgen</target>
+</phrase>
+<phrase>
+    <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
+    <target>Wenn aktiviert, ist die maximale Tiefe der Unterverzeichnisse 20. Dies dient dazu, Endlosschleifen zu vermeiden.</target>
+</phrase>
+<phrase>
+    <source>Show cumulative search results</source>
+    <target>Kumulierte Suchergebnisse anzeigen</target>
+</phrase>
+<phrase>
+    <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
+    <target></target>
+</phrase>
+<phrase>
     <source>Search results</source>
     <target>Suchergebnisse</target>
 </phrase>
 <phrase>
     <source>max. nr of results per section</source>
-    <target>Max. Anzahl der Ergebnisse pro Abschnitt</target>
+    <target>max. Anzahl der Ergebnisse pro Bereich</target>
 </phrase>
 <phrase>
-    <source>This program searches for text in different file types.</source>
-    <target>Das Programm sucht nach text in verschiedenen Filesorten.</target>
+    <source>File type options</source>
+    <target>Datei-Typ Optionen</target>
 </phrase>
 <phrase>
-    <source>File info </source>
-    <target>Dateiinformation </target>
+    <source>Automatic file type recognition</source>
+    <target>Automatische Dateityperkennung</target>
 </phrase>
 <phrase>
-    <source>Show cumulative search results</source>
-    <target>Zeige kumulative Suchergebnisse</target>
-</phrase>
-<phrase>
-    <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
-    <target>Zeigt nur die erste Partie der gefundenen Text in einer Datei und zeigt Anzahl aller Treffer in eckigen Klammern [ ]. Alle Ergebnisse können in der Detailansicht angezeigt werden</target>
+    <source>Enables automatic recognition of file type by both filename extension and content. File is assigned to a section by its MIME type. See details in &apos;About&apos; menu.</source>
+    <target>Ermöglicht die automatische Erkennung des Dateityps anhand der Dateinamenerweiterung und des Inhalts. Die Datei wird über ihren MIME-Typ einem Abschnitt zugeordnet. Siehe Details im Menü &quot;Info&quot;.</target>
 </phrase>
 <phrase>
     <source>Result sections</source>
-    <target>Ergebnis Abschnitte</target>
+    <target>Suchergebnisse</target>
 </phrase>
 <phrase>
     <source>Enable TXT section</source>
-    <target>Aktiviere TXT Abschnitt</target>
+    <target>TXT-Abschnitt aktivieren</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside files of type: text/plain and its derivatives</source>
+    <target>Ermöglicht die Suche in Dateien vom Typ: text/plain und deren Ableitungen.</target>
 </phrase>
 <phrase>
     <source>Enables searching inside *.txt files</source>
-    <target>Ermöglicht innen *.txt-Dateien suchen</target>
+    <target>Ermöglicht die Suche in *.txt-Dateien</target>
 </phrase>
 <phrase>
     <source>Enable HTML section</source>
-    <target>Aktiviere HTML Abschnitt</target>
+    <target>HTML-Abschnitt aktivieren</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside files of type: text/html and its derivatives</source>
+    <target>Ermöglicht die Suche in Dateien vom Typ: text/html und seinen Ableitungen.</target>
 </phrase>
 <phrase>
     <source>Enables searching inside *.html, *.htm files</source>
-    <target>Ermöglicht innen *.html-, *.htm-Dateien suchen</target>
+    <target>Ermöglicht die Suche in *.html- &amp; *.htm-Dateien</target>
 </phrase>
 <phrase>
     <source>Enable SRC section</source>
-    <target>Aktiviere SRC Abschnitt</target>
+    <target>SRC-Abschnitt aktivieren</target>
 </phrase>
 <phrase>
-    <source>Enables searching inside *.cpp, *.c, *.py, *.sh files</source>
-    <target>Ermöglicht innen *.cpp-, *.c-, *.py-, *.sh-Dateien suchen</target>
+    <source>Enables searching inside files of type: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml and their derivatives</source>
+    <target>Ermöglicht die Suche in Dateien vom Typ: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml und deren Ableitungen.</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
+    <target>Ermöglicht die Suche innerhalb von *.cpp, *.c, *.c, *.h, *.py, *.sh, *.qml, *.js Dateien</target>
+</phrase>
+<phrase>
+    <source>Enable APPS section</source>
+    <target>APPS-Abschnitt aktivieren</target>
+</phrase>
+<phrase>
+    <source>Enables searching inside files of type: application/x-desktop. This is an experimental feature. See details in &apos;About&apos; menu.</source>
+    <target>Ermöglicht die Suche in Dateien vom Typ: application/x-desktop. Dies ist ein experimentelles Feature. Siehe Details im Menü &quot;Info&quot;.</target>
+</phrase>
+<phrase>
+    <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
+    <target>Ermöglicht eine spezielle Suche in *.desktop-Dateien. Dies ist ein experimentelles Feature. Siehe Details im Menü &quot;Info&quot;.</target>
+</phrase>
+<phrase>
+    <source>Run apps directly</source>
+    <target>Apps direkt ausführen</target>
+</phrase>
+<phrase>
+    <source>Enables direct app launch from APPS section on the search page</source>
+    <target>Ermöglicht den direkten App-Start aus dem APPS-Abschnitt auf der Suchseite.</target>
 </phrase>
 <phrase>
     <source>Enable SQLITE section</source>
-    <target>Aktiviere SQLITE Abschnitt</target>
+    <target>SQLITE-Abschnitt aktivieren</target>
 </phrase>
 <phrase>
-    <source>Enables searching inside *.sqlite, *.db files</source>
-    <target>Ermöglicht innen *.sqlite-, *.db-Dateien suchen</target>
+    <source>Enables searching inside files of type: application/x-sqlite3 and its derivatives</source>
+    <target>Ermöglicht die Suche in Dateien vom Typ application/x-sqlite3 und seinen Ableitungen.</target>
 </phrase>
 <phrase>
     <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
-    <target>Ermöglicht innen *.sqlite-, *.sqlite3-, *.db-Dateien suchen</target>
+    <target>Ermöglicht die Suche innerhalb von *.sqlite, *.sqlite3, *.db Dateien.</target>
 </phrase>
 <phrase>
     <source>Enable NOTES section</source>
-    <target>Aktiviere NOTES Abschnitt</target>
-</phrase>
-<phrase>
-    <source>Enables searching inside *.txt files</source>
-    <target>Ermöglicht innen *.txt-Dateien durchsuchen</target>
-</phrase>
-<phrase>
-    <source>Enables searching inside *.html, *.htm files</source>
-    <target>Ermöglicht innen *.html-, *.htm-Dateien durchsuchen</target>
-</phrase>
-<phrase>
-    <source>Enables searching inside *.cpp, *.c, *.py, *.sh files</source>
-    <target>Ermöglicht innen *.cpp-, *.c-, *.py-, *.sh-Dateien durchsuchen</target>
-</phrase>
-<phrase>
-    <source>Enables searching inside *.sqlite, *.db files</source>
-    <target>Ermöglicht innen *.sqlite-, *.db-Dateien durchsuchen</target>
+    <target>NOTIZ-Abschnitt aktivieren</target>
 </phrase>
 <phrase>
     <source>Enables searching inside Notes application database</source>
-    <target>Ermöglicht innen Notes-Application-Datenbank durchsuchen</target>
+    <target>Ermöglicht die Suche in der Notizen-Anwendungsdatenbank</target>
+</phrase>
+<phrase>
+    <source>Enable Files and Directories sections</source>
+    <target>Aktivieren der Abschnitte Dateien und Verzeichnisse</target>
+</phrase>
+<phrase>
+    <source>Enables searching for file and directory names</source>
+    <target>Ermöglicht die Suche nach Datei- und Verzeichnisnamen</target>
+</phrase>
+<phrase>
+    <source>Profile name error!</source>
+    <target>Profilname Fehler!</target>
+</phrase>
+<phrase>
+    <source>Name exists. Try another one...</source>
+    <target>Name existiert bereits. Probieren Sie einen anderen....</target>
+</phrase>
+<phrase>
+    <source>Profiles list</source>
+    <target>Liste der Profile</target>
+</phrase>
+<phrase>
+    <source>Add default set</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Add profile</source>
+    <target>Profil hinzufügen</target>
+</phrase>
+<phrase>
+    <source>Set as current</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Rename</source>
+    <target>Umbenennen</target>
+</phrase>
+<phrase>
+    <source>Rename profile</source>
+    <target>Profil umbenennen</target>
+</phrase>
+<phrase>
+    <source>Delete</source>
+    <target>Löschen</target>
+</phrase>
+<phrase>
+    <source>Deleting profile</source>
+    <target>Profil löschen</target>
+</phrase>
+<phrase>
+    <source>Accept</source>
+    <target>Übernehmen</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Abbrechen</target>
+</phrase>
+<phrase>
+    <source>Profile name</source>
+    <target>Profilname</target>
+</phrase>
+<phrase>
+    <source>Profile description</source>
+    <target>Profilbeschreibung</target>
+</phrase>
+<phrase>
+    <source>The following profiles will be created:</source>
+    <target>Die folgenden Profile werden erstellt:</target>
+</phrase>
+<phrase>
+    <source>Home dir</source>
+    <target>Home Verzeichnis</target>
+</phrase>
+<phrase>
+    <source>SD Card</source>
+    <target>SD Karte</target>
+</phrase>
+<phrase>
+    <source>Applications</source>
+    <target>Anwendungen</target>
+</phrase>
+<phrase>
+    <source>Entire tree</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>If such profiles exist, they will be overwritten.</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>%1 bytes</source>
+    <target>%1 Bytes</target>
+</phrase>
+<phrase>
+    <source>%1 kB</source>
+    <target>%1 kB</target>
+</phrase>
+<phrase>
+    <source>%1 MB</source>
+    <target>%1 MB</target>
+</phrase>
+<phrase>
+    <source>%1 GB</source>
+    <target>%1 GB</target>
+</phrase>
+<phrase>
+    <source>Make:%1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Model:%1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Date/Time:%1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Orientation:%1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Color/BW:Black and White</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(Strobe light not detected)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(Strobe light detected) </source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(Manual)</source>
+    <target>(Handbuch)</target>
+</phrase>
+<phrase>
+    <source>(Manual, return light not detected)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(Manual, return light detected)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(Auto)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(Auto, return light not detected)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(Auto, return light detected)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(Red eye reduction mode)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(Red eye reduction mode return light not detected)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(Red eye reduction mode return light detected)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(Manual, red eye reduction mode)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(Manual, red eye reduction mode, return light not detected)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(Red eye reduction mode, return light detected)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(Auto, red eye reduction mode)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(Auto, red eye reduction mode, return light not detected)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(Auto, red eye reduction mode, return light detected)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Flash:Yes</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Flash:No</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Focal Length:%1mm</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(35mm equivalent: %1mm)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Digital Zoom:%1x</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>CCD Width:%1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Exposure Time:%1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>(1/%1)</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Aperture:f/%1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Focus Distance:Infinite</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Focus Distance:%1m</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>ISO Equivalent:%1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Exposure Bias:%1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>White Balance:Manual</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>White Balance:Auto</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Light Source:Daylight</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Light Source:Fluorescent</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Light Source:Incandescent</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Light Source:Flash</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Light Source:Fine weather</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Light Source:Shade</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Metering Mode:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Average</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Center weighted average</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Spot</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Multi spot</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Pattern</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Partial</source>
+    <target></target>
 </phrase>
 <phrase>
     <source>Other</source>
     <target>Andere</target>
 </phrase>
 <phrase>
-    <source>Other</source>
-    <target>Andere</target>
+    <source>Unknown (%1)</source>
+    <target></target>
 </phrase>
 <phrase>
-    <source>Language:</source>
-    <target>Sprache:</target>
+    <source>Exposure Program:</source>
+    <target></target>
 </phrase>
 <phrase>
-    <source>Language:</source>
-    <target>Sprache:</target>
+    <source>Manual</source>
+    <target>Handbuch</target>
 </phrase>
 <phrase>
-    <source>Note: Change of this parameter requires restart of an application</source>
-    <target>Hinweis: Die Änderung dieses Parameters Neustart einer Anwendung erfordert</target>
+    <source>Program (auto)</source>
+    <target></target>
 </phrase>
 <phrase>
-    <source>Search hidden files</source>
-    <target>Suche versteckte Dateien durch</target>
+    <source>Aperture priority (semi-auto)</source>
+    <target></target>
 </phrase>
 <phrase>
-    <source>Enables searching inside hidden files and hidden directories</source>
-    <target>Es ermöglicht versteckte Dateien und Verzeichnisse durchsuchen</target>
+    <source>Shutter priority (semi-auto)</source>
+    <target></target>
 </phrase>
 <phrase>
-    <source>Enables searching inside *.txt files</source>
-    <target>Es ermöglicht innen *.txt-Dateien durchsuchen</target>
+    <source>Creative Program (based towards depth of field)</source>
+    <target></target>
 </phrase>
 <phrase>
-    <source>Enables searching inside *.txt files</source>
-    <target>Es ermöglicht *.txt-Dateien durchsuchen</target>
+    <source>Action program (based towards fast shutter speed)</source>
+    <target></target>
 </phrase>
 <phrase>
-    <source>Enables searching inside *.html, *.htm files</source>
-    <target>Es ermöglicht *.html-, *.htm-Dateien durchsuchen</target>
+    <source>Portrait mode</source>
+    <target>Hochformat</target>
 </phrase>
 <phrase>
-    <source>Enables searching inside *.cpp, *.c, *.py, *.sh files</source>
-    <target>Es ermöglicht *.cpp-, *.c-, *.py-, *.sh-Dateien durchsuchen</target>
+    <source>Landscape mode</source>
+    <target>Querformat</target>
 </phrase>
 <phrase>
-    <source>Enables searching inside *.sqlite, *.db files</source>
-    <target>Es ermöglicht *.sqlite-, *.db-Dateien durchsuchen</target>
+    <source>Exposure Mode:Manual</source>
+    <target></target>
 </phrase>
 <phrase>
-    <source>Enables searching inside Notes application database</source>
-    <target>Es ermöglicht Notes-Application-Datenbank durchsuchen</target>
+    <source>Exposure Mode:Auto bracketing</source>
+    <target></target>
 </phrase>
 <phrase>
-    <source>Note: Change of this parameter requires restart of an application</source>
-    <target>Hinweis: Die Änderung dieses Parameters Neustart der Application erfordert</target>
+    <source>Focus Range:</source>
+    <target></target>
 </phrase>
 <phrase>
-    <source>Search %1</source>
-    <target>Suche %1</target>
+    <source>Macro</source>
+    <target></target>
 </phrase>
 <phrase>
-    <source>Enables searching inside Notes application database</source>
-    <target>Es ermöglicht Notizen-Application-Datenbank durchsuchen</target>
+    <source>Close</source>
+    <target>Schließen</target>
 </phrase>
 <phrase>
-    <source>Search options</source>
-    <target>Suchoptionen</target>
+    <source>Distant</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>JPEG Process:Unknown</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>JPEG Process:%1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Latitude:%1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Longitude:%1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Altitude:%1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>JPEG Quality:%1</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Comment:</source>
+    <target>Kommentar:</target>
+</phrase>
+<phrase>
+    <source>Found text:</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Application</source>
+    <target>Anwendung</target>
 </phrase>
 <phrase>
     <source>Notes</source>
     <target>Notizen</target>
-</phrase>
-<phrase>
-    <source>Enable NOTES section</source>
-    <target>Aktiviere NOTIZEN Abschnitt</target>
-</phrase>
-<phrase>
-    <source>%n hit(s)</source>
-    <target>%n Treffer</target>
-</phrase>
-<phrase>
-    <source>Searching</source>
-    <target>Suche</target>
 </phrase>
 <phrase>
     <source>TXT files content</source>
@@ -233,6 +1141,10 @@
     <target>SQLITE-Dateien Inhalt</target>
 </phrase>
 <phrase>
+    <source>Applications</source>
+    <target>Anwendungen</target>
+</phrase>
+<phrase>
     <source>Filenames</source>
     <target>Dateinamen</target>
 </phrase>
@@ -241,28 +1153,156 @@
     <target>Verzeichnisnamen</target>
 </phrase>
 <phrase>
+    <source>Other</source>
+    <target>Andere</target>
+</phrase>
+<phrase>
     <source>Search finished:</source>
     <target>Suche abgeschlossen:</target>
 </phrase>
 <phrase>
-    <source>The search begins in the start directory and continues in its subdirectories. If it is empty or incorrect then the home directory is the start directory.</source>
-    <target>Die Suche beginnt in Startverzeichnis und setzt in Unterverzeichnissen fort. Wenn es leer oder falsch ist, das Home-Verzeichnis wird das Startverzeichnis.</target>
+    <source>%n hit(s)</source>
+    <target>@</target>
 </phrase>
 <phrase>
-    <source>Enter start directory...</source>
-    <target>Das Startverzeichniseingabe...</target>
+    <source>Searching</source>
+    <target>Suche</target>
 </phrase>
 <phrase>
-    <source>Start directory</source>
-    <target>Das Startverzeichnis</target>
+    <source>About</source>
+    <target>Über das Programm</target>
 </phrase>
 <phrase>
-    <source>Follow symbolic links</source>
-    <target>Die symbolischen Links folgen</target>
+    <source>General options</source>
+    <target>Allgemeine Optionen</target>
 </phrase>
 <phrase>
-    <source>When enabled, the maximum depth of subdirectories is 20. This is to prevent endless loops.</source>
-    <target>Wenn es aktiviert ist, maximale Tiefe der Unterverzeichnisse ist 20. Das ist, um endlose Schleifen zu verhindern.</target>
+    <source>Profiles list</source>
+    <target>Liste der Profile</target>
+</phrase>
+<phrase>
+    <source>Current profile setup</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Search %1</source>
+    <target>Suche %1</target>
+</phrase>
+<phrase>
+    <source>Profile:</source>
+    <target>Profile:</target>
+</phrase>
+<phrase>
+    <source>View</source>
+    <target>Ansicht</target>
+</phrase>
+<phrase>
+    <source>Run</source>
+    <target>Ausführen</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Öffne</target>
+</phrase>
+<phrase>
+    <source>Remove from search results</source>
+    <target>Aus den Suchergebnissen entfernen</target>
+</phrase>
+<phrase>
+    <source>Removing from search results</source>
+    <target>Wird aus den Suchergebnissen entfernt</target>
+</phrase>
+<phrase>
+    <source>SearchNemo</source>
+    <target>SearchNemo</target>
+</phrase>
+<phrase>
+    <source>File can&apos;t be opened</source>
+    <target>Datei kann nicht geöffnet werden</target>
+</phrase>
+<phrase>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Dateityp kann nicht geöffnet werden.</target>
+</phrase>
+<phrase>
+    <source>Search already in progress</source>
+    <target>Suche wird bereits ausgeführt</target>
+</phrase>
+<phrase>
+    <source>Bad search parameters</source>
+    <target>Schlechte Suchparameter</target>
+</phrase>
+<phrase>
+    <source>Profile configuration error!</source>
+    <target>Profilkonfigurationsproblem</target>
+</phrase>
+<phrase>
+    <source>Check profile whitelist...</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Note nr</source>
+    <target>Notizen-Nr.</target>
+</phrase>
+<phrase>
+    <source>Select and Copy</source>
+    <target>Auswählen und Kopieren</target>
+</phrase>
+<phrase>
+    <source>Home dir</source>
+    <target>Home Verzeichnis</target>
+</phrase>
+<phrase>
+    <source>Entire home directory with hidden files</source>
+    <target>Komplettes Home-Verzeichnis mit versteckten Dateien</target>
+</phrase>
+<phrase>
+    <source>SD card</source>
+    <target>SD Karte</target>
+</phrase>
+<phrase>
+    <source>Entire SD card with hidden files</source>
+    <target>Komplette SD-Karte mit versteckten Dateien</target>
+</phrase>
+<phrase>
+    <source>Applications</source>
+    <target>Anwendungen</target>
+</phrase>
+<phrase>
+    <source>All installed applications</source>
+    <target>Alle installierten Anwendungen</target>
+</phrase>
+<phrase>
+    <source>Entire tree</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Entire dir tree. Warning: very long search</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>default</source>
+    <target>default</target>
+</phrase>
+<phrase>
+    <source>General options</source>
+    <target>Allgemeine Optionen</target>
+</phrase>
+<phrase>
+    <source>Default profile:</source>
+    <target>Standardprofil:</target>
+</phrase>
+<phrase>
+    <source>This profile will be used on the application startup</source>
+    <target>Um eine Anwendung zu finden, durchsucht das Programm .desktop-Dateien in einem Verzeichnis, das in der Whitelist angegeben ist, und kann nur einen Text finden, der in diesen Dateien enthalten ist.</target>
+</phrase>
+<phrase>
+    <source>Language:</source>
+    <target>Sprache:</target>
+</phrase>
+<phrase>
+    <source>Note: Change of this parameter requires restart of the application</source>
+    <target></target>
 </phrase>
 <phrase>
     <source>Record</source>
@@ -277,23 +1317,39 @@
     <target>Öffne </target>
 </phrase>
 <phrase>
+    <source>File can&apos;t be opened</source>
+    <target>Datei kann nicht geöffnet werden</target>
+</phrase>
+<phrase>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Dateityp kann nicht geöffnet werden.</target>
+</phrase>
+<phrase>
+    <source>Show complete record</source>
+    <target>Zeige komplette Einträge</target>
+</phrase>
+<phrase>
+    <source>db:table:column:row</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>&lt;b&gt;[%1/%n hit(s)]&lt;/b&gt;&lt;br&gt;</source>
+    <target>@</target>
+</phrase>
+<phrase>
+    <source>Text not found.</source>
+    <target>Text nicht gefunden.</target>
+</phrase>
+<phrase>
     <source>Open</source>
-    <target>Öffne</target>
+    <target>Öffnen</target>
 </phrase>
 <phrase>
-    <source>SearchNemo</source>
-    <target>SearchNemo</target>
+    <source>File can&apos;t be opened</source>
+    <target>Datei kann nicht geöffnet werden</target>
 </phrase>
 <phrase>
-    <source>About</source>
-    <target>Über das Programm</target>
-</phrase>
-<phrase>
-    <source>About</source>
-    <target>Über das Programm</target>
-</phrase>
-<phrase>
-    <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
-    <target>Ermöglicht innen *.cpp-, *.c-, *.h-, *.py-, *.sh-, *.qml-, *.js-Dateien suchen</target>
+    <source>This type of file can&apos;t be opened.</source>
+    <target>Dateityp kann nicht geöffnet werden.</target>
 </phrase>
 </QPH>

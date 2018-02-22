@@ -108,7 +108,8 @@ Page {
                       + "fravaccaro (ghostofasmile) - " + qsTr("Italian") + "\n   "
                       + "Nathan Follens (pljmn) - " + qsTr("Dutch") + "\n   "
                       + "Michiel Pater (curryfun) - " + qsTr("Dutch") + "\n   "
-                      + "Szabó G. (leoka) - " + qsTr("Hungarian")
+                      + "Szabó G. (leoka) - " + qsTr("Hungarian") + "\n   "
+                      + "Unreasonable_Behaviour - " + qsTr("German")
             }
 
             Label {
