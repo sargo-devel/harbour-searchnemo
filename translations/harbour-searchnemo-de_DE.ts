@@ -68,6 +68,10 @@
         <translation>Ungarisch</translation>
     </message>
     <message>
+        <source>German</source>
+        <translation>Deutsch</translation>
+    </message>
+    <message>
         <source>If you want to contribute to translate into your language, plese join in:</source>
         <translation>Wenn Sie dazu beitragen wollen, in Ihre Sprache zu übersetzen, dann machen Sie mit:</translation>
     </message>
@@ -205,15 +209,15 @@
     </message>
     <message>
         <source>* It gives only original (English) names unless it finds localized names there.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Es werden nur originale (englische) Namen angegeben, es sei denn, es wird eine Übersetzung gefunden.</translation>
     </message>
     <message>
         <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Es können Ergebnisse geliefert werden, die vom Benutzer nicht erwartet werden, da der gesamten Text der Dateien überprüft wird.</translation>
     </message>
     <message>
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
-        <translation type="unfinished"></translation>
+        <translation>Dies kann nützlich sein, z.B.: die Suche nach &apos;=&apos; gibt alle gefundenen Apps zurück, die Suche nach &apos;jolla&apos; liefert alle Apps, die von Jolla erstellt wurden.</translation>
     </message>
 </context>
 <context>
@@ -255,7 +259,7 @@
     </message>
     <message>
         <source>xdg-open found no preferred application</source>
-        <translation type="unfinished"></translation>
+        <translation>blockiertes Gerät</translation>
     </message>
     <message>
         <source>Action failed</source>
@@ -263,22 +267,22 @@
     </message>
     <message>
         <source>xdg-open not found</source>
-        <translation type="unfinished"></translation>
+        <translation>xdg-open nicht gefunden</translation>
     </message>
     <message>
         <source>xdg-open crash?</source>
-        <translation type="unfinished"></translation>
+        <translation>xdg-open abgestürzt?</translation>
     </message>
     <message>
         <source>xdg-open error</source>
-        <translation type="unfinished"></translation>
+        <translation>xdg-open Fehler</translation>
     </message>
 </context>
 <context>
     <name>ConsoleModel</name>
     <message>
         <source>** crashed</source>
-        <translation type="unfinished"></translation>
+        <translation>** Abgestürzt</translation>
     </message>
     <message>
         <source>** error: %1</source>
@@ -425,19 +429,19 @@
     </message>
     <message>
         <source>block device</source>
-        <translation type="unfinished"></translation>
+        <translation>Gerät gesperrt</translation>
     </message>
     <message>
         <source>character device</source>
-        <translation type="unfinished"></translation>
+        <translation>zeichenorientiertes Gerät</translation>
     </message>
     <message>
         <source>pipe</source>
-        <translation type="unfinished"></translation>
+        <translation>Pipe</translation>
     </message>
     <message>
         <source>socket</source>
-        <translation type="unfinished"></translation>
+        <translation>Steckplatz</translation>
     </message>
     <message>
         <source>folder</source>
@@ -449,7 +453,7 @@
     </message>
     <message>
         <source>Image Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Bild-Größe</translation>
     </message>
 </context>
 <context>
@@ -460,7 +464,7 @@
     </message>
     <message>
         <source>Location</source>
-        <translation type="unfinished"></translation>
+        <translation>Speicherort</translation>
     </message>
     <message>
         <source>Type</source>
@@ -468,7 +472,7 @@
     </message>
     <message>
         <source>Link to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Verlinkung zu %1</translation>
     </message>
     <message>
         <source>Size</source>
@@ -507,7 +511,7 @@
     </message>
     <message>
         <source>Location</source>
-        <translation type="unfinished"></translation>
+        <translation>Speicherort</translation>
     </message>
     <message>
         <source>Type</source>
@@ -515,7 +519,7 @@
     </message>
     <message>
         <source>Link to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Verlinkung zu %1</translation>
     </message>
     <message>
         <source>Size</source>
@@ -648,7 +652,7 @@
     </message>
     <message>
         <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeigt nur die erste Übereinstimmung des gefundenen Textes in einer Datei und zeigt die Anzahl aller Treffer in Klammern [ ] an. Alle Ergebnisse können in der Detailansicht betrachtet werden.</translation>
     </message>
     <message>
         <source>Search results</source>
@@ -775,7 +779,7 @@
     </message>
     <message>
         <source>Add default set</source>
-        <translation type="unfinished"></translation>
+        <translation>Standardeinstellungen setzen</translation>
     </message>
     <message>
         <source>Add profile</source>
@@ -783,7 +787,7 @@
     </message>
     <message>
         <source>Set as current</source>
-        <translation type="unfinished"></translation>
+        <translation>aktuelle Einstellung setzen</translation>
     </message>
     <message>
         <source>Rename</source>
@@ -835,11 +839,11 @@
     </message>
     <message>
         <source>Entire tree</source>
-        <translation type="unfinished"></translation>
+        <translation>Verzeichnisstruktur</translation>
     </message>
     <message>
         <source>If such profiles exist, they will be overwritten.</source>
-        <translation type="unfinished"></translation>
+        <translation>Existierende Profile, werden sie überschrieben.</translation>
     </message>
 </context>
 <context>
@@ -862,31 +866,31 @@
     </message>
     <message>
         <source>Make:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Fabrikat:%1</translation>
     </message>
     <message>
         <source>Model:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Modell:%1</translation>
     </message>
     <message>
         <source>Date/Time:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Datum/Uhrzeit:%1</translation>
     </message>
     <message>
         <source>Orientation:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Orientierung:%1</translation>
     </message>
     <message>
         <source>Color/BW:Black and White</source>
-        <translation type="unfinished"></translation>
+        <translation>Farbe/SW:Schwarz-Weiß</translation>
     </message>
     <message>
         <source>(Strobe light not detected)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Blitzlicht wird nicht erkannt)</translation>
     </message>
     <message>
         <source>(Strobe light detected) </source>
-        <translation type="unfinished"></translation>
+        <translation>(Blitzlicht wird erkannt)</translation>
     </message>
     <message>
         <source>(Manual)</source>
@@ -894,171 +898,171 @@
     </message>
     <message>
         <source>(Manual, return light not detected)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Manuell, Gegenlicht nicht erkannt)</translation>
     </message>
     <message>
         <source>(Manual, return light detected)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Manuell, Gegenlicht erkannt)</translation>
     </message>
     <message>
         <source>(Auto)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Automatisch)</translation>
     </message>
     <message>
         <source>(Auto, return light not detected)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Auto, Gegenlicht nicht erkannt)</translation>
     </message>
     <message>
         <source>(Auto, return light detected)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Auto, Gegenlicht erkannt)</translation>
     </message>
     <message>
         <source>(Red eye reduction mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Rote-Augen-Reduzierung)</translation>
     </message>
     <message>
         <source>(Red eye reduction mode return light not detected)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Rote-Augen-Reduzierungsmodus Gegenlicht nicht erkannt)</translation>
     </message>
     <message>
         <source>(Red eye reduction mode return light detected)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Rote-Augen-Reduktionsmodus Gegenlicht erkannt)</translation>
     </message>
     <message>
         <source>(Manual, red eye reduction mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Manuell, Rote-Augen-Reduzierung)</translation>
     </message>
     <message>
         <source>(Manual, red eye reduction mode, return light not detected)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Manuell, Rote-Augen-Reduzierung, Gegenlicht nicht erkannt)</translation>
     </message>
     <message>
         <source>(Red eye reduction mode, return light detected)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Rote-Augen-Reduktionsmodus, Gegenlicht erkannt)</translation>
     </message>
     <message>
         <source>(Auto, red eye reduction mode)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Auto, Rote-Augen-Reduzierung)</translation>
     </message>
     <message>
         <source>(Auto, red eye reduction mode, return light not detected)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Auto, Rote-Augen-Reduzierung, Gegenlicht nicht erkannt)</translation>
     </message>
     <message>
         <source>(Auto, red eye reduction mode, return light detected)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Auto, Rote-Augen-Reduktionsmodus, Gegenlicht erkannt)</translation>
     </message>
     <message>
         <source>Flash:Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Blitz: Ja</translation>
     </message>
     <message>
         <source>Flash:No</source>
-        <translation type="unfinished"></translation>
+        <translation>Blitz: Nein</translation>
     </message>
     <message>
         <source>Focal Length:%1mm</source>
-        <translation type="unfinished"></translation>
+        <translation>Brennweite:%1mm</translation>
     </message>
     <message>
         <source>(35mm equivalent: %1mm)</source>
-        <translation type="unfinished"></translation>
+        <translation>(35mm Äquivalent: %1mm)</translation>
     </message>
     <message>
         <source>Digital Zoom:%1x</source>
-        <translation type="unfinished"></translation>
+        <translation>Digitaler Zoom:%1x</translation>
     </message>
     <message>
         <source>CCD Width:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>CCD Breite:%1</translation>
     </message>
     <message>
         <source>Exposure Time:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Belichtungszeit:%1</translation>
     </message>
     <message>
         <source>(1/%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>(1/%1)</translation>
     </message>
     <message>
         <source>Aperture:f/%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Blende:f/%1</translation>
     </message>
     <message>
         <source>Focus Distance:Infinite</source>
-        <translation type="unfinished"></translation>
+        <translation>Fokus Entfernung:Unendlich</translation>
     </message>
     <message>
         <source>Focus Distance:%1m</source>
-        <translation type="unfinished"></translation>
+        <translation>Fokus Entfernung:%1m</translation>
     </message>
     <message>
         <source>ISO Equivalent:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>ISO-Äquivalenz:%1</translation>
     </message>
     <message>
         <source>Exposure Bias:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Belichtungs-Vorspannung:%1</translation>
     </message>
     <message>
         <source>White Balance:Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>Weißabgleich:Manuell</translation>
     </message>
     <message>
         <source>White Balance:Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>White Balance:Auto</translation>
     </message>
     <message>
         <source>Light Source:Daylight</source>
-        <translation type="unfinished"></translation>
+        <translation>Lichtquelle:Tageslicht</translation>
     </message>
     <message>
         <source>Light Source:Fluorescent</source>
-        <translation type="unfinished"></translation>
+        <translation>Lichtquelle:Leuchtstofflampen</translation>
     </message>
     <message>
         <source>Light Source:Incandescent</source>
-        <translation type="unfinished"></translation>
+        <translation>Lichtquelle:Glühlampe</translation>
     </message>
     <message>
         <source>Light Source:Flash</source>
-        <translation type="unfinished"></translation>
+        <translation>Lichtquelle:Blitzlicht</translation>
     </message>
     <message>
         <source>Light Source:Fine weather</source>
-        <translation type="unfinished"></translation>
+        <translation>Lichtquelle:Schönes Wetter</translation>
     </message>
     <message>
         <source>Light Source:Shade</source>
-        <translation type="unfinished"></translation>
+        <translation>Lichtquelle:Bewölkt</translation>
     </message>
     <message>
         <source>Metering Mode:</source>
-        <translation type="unfinished"></translation>
+        <translation>Belichtungsmessung:</translation>
     </message>
     <message>
         <source>Average</source>
-        <translation type="unfinished"></translation>
+        <translation>Durchschnitt</translation>
     </message>
     <message>
         <source>Center weighted average</source>
-        <translation type="unfinished"></translation>
+        <translation>gewichteter Durchschnitt</translation>
     </message>
     <message>
         <source>Spot</source>
-        <translation type="unfinished"></translation>
+        <translation>Punkt</translation>
     </message>
     <message>
         <source>Multi spot</source>
-        <translation type="unfinished"></translation>
+        <translation>Mehrpunkt</translation>
     </message>
     <message>
         <source>Pattern</source>
-        <translation type="unfinished"></translation>
+        <translation>Muster</translation>
     </message>
     <message>
         <source>Partial</source>
-        <translation type="unfinished"></translation>
+        <translation>Partiell</translation>
     </message>
     <message>
         <source>Other</source>
@@ -1066,11 +1070,11 @@
     </message>
     <message>
         <source>Unknown (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Unbekannt (%1)</translation>
     </message>
     <message>
         <source>Exposure Program:</source>
-        <translation type="unfinished"></translation>
+        <translation>Belichtungsprogramm:</translation>
     </message>
     <message>
         <source>Manual</source>
@@ -1078,23 +1082,23 @@
     </message>
     <message>
         <source>Program (auto)</source>
-        <translation type="unfinished"></translation>
+        <translation>Programm (auto)</translation>
     </message>
     <message>
         <source>Aperture priority (semi-auto)</source>
-        <translation type="unfinished"></translation>
+        <translation>Blendenpriorität (halbautomatisch)</translation>
     </message>
     <message>
         <source>Shutter priority (semi-auto)</source>
-        <translation type="unfinished"></translation>
+        <translation>Auslösepriorität (halbautomatisch)</translation>
     </message>
     <message>
         <source>Creative Program (based towards depth of field)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kreativprogramm (basierend auf der Tiefenschärfe)</translation>
     </message>
     <message>
         <source>Action program (based towards fast shutter speed)</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktionsprogramm (basierend auf einer kurzen Auslösezeit)</translation>
     </message>
     <message>
         <source>Portrait mode</source>
@@ -1106,19 +1110,19 @@
     </message>
     <message>
         <source>Exposure Mode:Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>Belichtungsart:Manuell</translation>
     </message>
     <message>
         <source>Exposure Mode:Auto bracketing</source>
-        <translation type="unfinished"></translation>
+        <translation>Belichtungsart:Automatische Belichtung</translation>
     </message>
     <message>
         <source>Focus Range:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fokussierbereich:</translation>
     </message>
     <message>
         <source>Macro</source>
-        <translation type="unfinished"></translation>
+        <translation>Makro</translation>
     </message>
     <message>
         <source>Close</source>
@@ -1126,31 +1130,31 @@
     </message>
     <message>
         <source>Distant</source>
-        <translation type="unfinished"></translation>
+        <translation>Entferung</translation>
     </message>
     <message>
         <source>JPEG Process:Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>JPEG-Prozess:Unbekannt</translation>
     </message>
     <message>
         <source>JPEG Process:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>JPEG-Prozess: %1</translation>
     </message>
     <message>
         <source>Latitude:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Breitengrad:%1</translation>
     </message>
     <message>
         <source>Longitude:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Längengrad:%1</translation>
     </message>
     <message>
         <source>Altitude:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Höhenlage:%1</translation>
     </message>
     <message>
         <source>JPEG Quality:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>JPEG-Qualität:%1</translation>
     </message>
     <message>
         <source>Comment:</source>
@@ -1161,7 +1165,7 @@
     <name>SearchButtons</name>
     <message>
         <source>Found text:</source>
-        <translation type="unfinished"></translation>
+        <translation>Text gefunden:</translation>
     </message>
 </context>
 <context>
@@ -1219,9 +1223,9 @@
     </message>
     <message numerus="yes">
         <source>%n hit(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n Treffer</numerusform>
+            <numerusform>%n Treffer</numerusform>
         </translation>
     </message>
     <message>
@@ -1242,7 +1246,7 @@
     </message>
     <message>
         <source>Current profile setup</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuelle Profileinstellungen</translation>
     </message>
     <message>
         <source>Search %1</source>
@@ -1301,7 +1305,7 @@
     </message>
     <message>
         <source>Check profile whitelist...</source>
-        <translation type="unfinished"></translation>
+        <translation>Profil-Whitelist prüfen....</translation>
     </message>
     <message>
         <source>Note nr</source>
@@ -1343,11 +1347,11 @@
     </message>
     <message>
         <source>Entire tree</source>
-        <translation type="unfinished"></translation>
+        <translation>Verzeichnisstruktur</translation>
     </message>
     <message>
         <source>Entire dir tree. Warning: very long search</source>
-        <translation type="unfinished"></translation>
+        <translation>Verzeichnisstruktur. Warnung: sehr lange Suche</translation>
     </message>
 </context>
 <context>
@@ -1374,7 +1378,7 @@
     </message>
     <message>
         <source>Note: Change of this parameter requires restart of the application</source>
-        <translation type="unfinished"></translation>
+        <translation>Hinweis: Die Änderung dieses Parameters erfordert einen Neustart der Anwendung.</translation>
     </message>
 </context>
 <context>
@@ -1408,16 +1412,16 @@
     </message>
     <message>
         <source>db:table:column:row</source>
-        <translation type="unfinished"></translation>
+        <translation>db:table:column:row</translation>
     </message>
 </context>
 <context>
     <name>TxtFileView</name>
     <message numerus="yes">
         <source>&lt;b&gt;[%1/%n hit(s)]&lt;/b&gt;&lt;br&gt;</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>&lt;b&gt;[%1/%n Treffer]&lt;/b&gt;&lt;br&gt; </numerusform>
+            <numerusform>&lt;b&gt;[%1/%n Treffer]&lt;/b&gt;&lt;br&gt; </numerusform>
         </translation>
     </message>
 </context>

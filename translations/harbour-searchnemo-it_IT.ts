@@ -68,6 +68,10 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>German</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>If you want to contribute to translate into your language, plese join in:</source>
         <translation>Se vuoi contribuire alla traduzione unisciti al</translation>
     </message>

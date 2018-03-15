@@ -215,6 +215,10 @@
         <source>Hungarian</source>
         <translation>Hungarian</translation>
     </message>
+    <message>
+        <source>German</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AnimatedHeader</name>

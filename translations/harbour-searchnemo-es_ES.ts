@@ -61,11 +61,15 @@
     </message>
     <message>
         <source>Dutch</source>
-        <translation type="unfinished"></translation>
+        <translation>Holandés</translation>
     </message>
     <message>
         <source>Hungarian</source>
-        <translation type="unfinished"></translation>
+        <translation>Húngaro</translation>
+    </message>
+    <message>
+        <source>German</source>
+        <translation>Alemán</translation>
     </message>
     <message>
         <source>If you want to contribute to translate into your language, plese join in:</source>

@@ -68,6 +68,10 @@
         <translation>Magyar</translation>
     </message>
     <message>
+        <source>German</source>
+        <translation>Német</translation>
+    </message>
+    <message>
         <source>If you want to contribute to translate into your language, plese join in:</source>
         <translation>Ha szeretnél közreműködni a saját nyelvedre fordításban, kérlek csatlakozz:</translation>
     </message>
@@ -137,7 +141,7 @@
     </message>
     <message>
         <source>File type (MIME)</source>
-        <translation type="unfinished"></translation>
+        <translation>Fájltípus (MIME)</translation>
     </message>
     <message>
         <source>MIME type is a standard of description of the nature and format of a document.</source>

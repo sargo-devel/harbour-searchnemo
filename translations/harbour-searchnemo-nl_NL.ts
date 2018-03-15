@@ -68,6 +68,10 @@
         <translation>Hongaars</translation>
     </message>
     <message>
+        <source>German</source>
+        <translation>Duits</translation>
+    </message>
+    <message>
         <source>If you want to contribute to translate into your language, plese join in:</source>
         <translation>Als je wil bijdragen aan een vertaling in je eigen taal, kan je hier meedoen:</translation>
     </message>

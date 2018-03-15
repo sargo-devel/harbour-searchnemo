@@ -68,6 +68,10 @@
         <translation>węgierski</translation>
     </message>
     <message>
+        <source>German</source>
+        <translation>niemiecki</translation>
+    </message>
+    <message>
         <source>If you want to contribute to translate into your language, plese join in:</source>
         <translation>Jeśli chcesz przyczynić się do tłumaczenia na Twój język, przyłącz się, proszę:</translation>
     </message>
