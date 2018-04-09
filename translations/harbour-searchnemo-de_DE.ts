@@ -1370,7 +1370,7 @@
     </message>
     <message>
         <source>This profile will be used on the application startup</source>
-        <translation>Um eine Anwendung zu finden, durchsucht das Programm .desktop-Dateien in einem Verzeichnis, das in der Whitelist angegeben ist, und kann nur einen Text finden, der in diesen Dateien enthalten ist.</translation>
+        <translation> Dieses Profil wird beim Start der Anwendung verwendet.</translation>
     </message>
     <message>
         <source>Language:</source>

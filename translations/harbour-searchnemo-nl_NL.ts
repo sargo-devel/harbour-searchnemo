@@ -53,7 +53,7 @@
     </message>
     <message>
         <source>Spanish</source>
-        <translation>Spaan</translation>
+        <translation>Spaans</translation>
     </message>
     <message>
         <source>Italian</source>
