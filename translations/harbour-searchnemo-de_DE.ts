@@ -219,6 +219,14 @@
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
         <translation>Dies kann nützlich sein, z.B.: die Suche nach &apos;=&apos; gibt alle gefundenen Apps zurück, die Suche nach &apos;jolla&apos; liefert alle Apps, die von Jolla erstellt wurden.</translation>
     </message>
+    <message>
+        <source>Russian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dutch (Belgium)</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AnimatedHeader</name>

@@ -48,6 +48,7 @@ Currently supported languages:
  * German (translation made by Unreasonable_Behaviour)
  * Hungarian (translation made by Szabó G.)
  * Italian (translation made by fravaccaro)
+ * Russian (translation made by Вячеслав Диконов)
  * Spanish (translation made by Carmen Fernández B.) 
  * Swedish (translation made by Åke Engelbrektson)
 

@@ -65,6 +65,11 @@
     </message>
     <message>
         <location line="+1"/>
+        <source>Russian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Spanish</source>
         <translation type="unfinished"></translation>
     </message>
@@ -80,7 +85,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-1"/>
+        <source>Dutch (Belgium)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Hungarian</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1697,7 +1707,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+26"/>
         <source>General options</source>
         <translation type="unfinished"></translation>
     </message>

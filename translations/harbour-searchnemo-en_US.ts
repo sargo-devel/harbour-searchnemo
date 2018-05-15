@@ -217,7 +217,15 @@
     </message>
     <message>
         <source>German</source>
-        <translation type="unfinished"></translation>
+        <translation>German</translation>
+    </message>
+    <message>
+        <source>Russian</source>
+        <translation>Russian</translation>
+    </message>
+    <message>
+        <source>Dutch (Belgium)</source>
+        <translation>Dutch (Belgium)</translation>
     </message>
 </context>
 <context>

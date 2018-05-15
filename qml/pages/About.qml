@@ -104,9 +104,10 @@ Page {
                 color: parent.color
                 text: qsTr("Special thanks for translators:") + "\n   "
                       + "Åke Engelbrektson (eson) - " + qsTr("Swedish") + "\n   "
+                      + "Вячеслав Диконов (dikonov) - " + qsTr("Russian") + "\n   "
                       + "Carmen Fernández B. (carmenfdezb) - " + qsTr("Spanish") + "\n   "
                       + "fravaccaro (ghostofasmile) - " + qsTr("Italian") + "\n   "
-                      + "Nathan Follens (pljmn) - " + qsTr("Dutch") + "\n   "
+                      + "Nathan Follens (pljmn) - " + qsTr("Dutch") + ", " + qsTr("Dutch (Belgium)") + "\n   "
                       + "Michiel Pater (curryfun) - " + qsTr("Dutch") + "\n   "
                       + "Szabó G. (leoka) - " + qsTr("Hungarian") + "\n   "
                       + "Unreasonable_Behaviour - " + qsTr("German")

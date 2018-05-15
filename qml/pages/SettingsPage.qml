@@ -46,8 +46,10 @@ Page {
         languages.append({ name: "Italiano",  lang: "it_IT" })
         languages.append({ name: "Magyar",  lang: "hu_HU" })
         languages.append({ name: "Nederlands",  lang: "nl_NL" })
+        languages.append({ name: "Nederlands (België)",  lang: "nl_BE" })
         languages.append({ name: "Polski",  lang: "pl_PL" })
         languages.append({ name: "Svenska",  lang: "sv_SE" })
+        languages.append({ name: "Pусский",  lang: "ru_RU" })
         profiles.reload()
     }
 
