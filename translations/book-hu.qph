@@ -49,6 +49,10 @@
     <target>Svéd</target>
 </phrase>
 <phrase>
+    <source>Russian</source>
+    <target></target>
+</phrase>
+<phrase>
     <source>Spanish</source>
     <target>Spanyol</target>
 </phrase>
@@ -61,8 +65,16 @@
     <target>Holland</target>
 </phrase>
 <phrase>
+    <source>Dutch (Belgium)</source>
+    <target></target>
+</phrase>
+<phrase>
     <source>Hungarian</source>
     <target>Magyar</target>
+</phrase>
+<phrase>
+    <source>German</source>
+    <target>Német</target>
 </phrase>
 <phrase>
     <source>If you want to contribute to translate into your language, plese join in:</source>
@@ -134,7 +146,7 @@
 </phrase>
 <phrase>
     <source>File type (MIME)</source>
-    <target></target>
+    <target>Fájltípus (MIME)</target>
 </phrase>
 <phrase>
     <source>MIME type is a standard of description of the nature and format of a document.</source>

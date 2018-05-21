@@ -52,6 +52,10 @@
         <translation>szwedzki</translation>
     </message>
     <message>
+        <source>Russian</source>
+        <translation>rosyjski</translation>
+    </message>
+    <message>
         <source>Spanish</source>
         <translation>hiszpański</translation>
     </message>
@@ -61,7 +65,11 @@
     </message>
     <message>
         <source>Dutch</source>
-        <translation>holenderski</translation>
+        <translation>niderlandzki</translation>
+    </message>
+    <message>
+        <source>Dutch (Belgium)</source>
+        <translation>niderlandzki (Belgia)</translation>
     </message>
     <message>
         <source>Hungarian</source>
@@ -85,7 +93,7 @@
     </message>
     <message>
         <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
-        <translation>Jeśli używanie tej apki sprawia Ci tyle radości, co mi, kiedy ją tworzyłem, rozważ proszę dotację, aby uczynić nas oboje bardziej zadowolymi z dobrze wykonanej roboty.</translation>
+        <translation>Jeśli używanie tej apki sprawia Ci tyle radości, co mi, kiedy ją tworzyłem, proszę rozważ wsparcie, żebyśmy oboje mieli większe poczucie dobrze wypełnionego zadania.</translation>
     </message>
     <message>
         <source>Help and Tips</source>
@@ -218,14 +226,6 @@
     <message>
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
         <translation>* Może to być użyteczne, np.: wyszukiwanie &apos;=&apos; zwróci wszystkie znalezione aplikacje, wyszukiwanie &apos;jolla&apos; poda wszystkie aplikacje stworzone przez Jolla</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Dutch (Belgium)</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -52,6 +52,10 @@
         <translation>Svéd</translation>
     </message>
     <message>
+        <source>Russian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Spanish</source>
         <translation>Spanyol</translation>
     </message>
@@ -62,6 +66,10 @@
     <message>
         <source>Dutch</source>
         <translation>Holland</translation>
+    </message>
+    <message>
+        <source>Dutch (Belgium)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hungarian</source>
@@ -217,14 +225,6 @@
     </message>
     <message>
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Dutch (Belgium)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

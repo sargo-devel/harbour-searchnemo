@@ -213,6 +213,18 @@
     <target>Hungarian</target>
 </phrase>
 <phrase>
+    <source>German</source>
+    <target>German</target>
+</phrase>
+<phrase>
+    <source>Russian</source>
+    <target>Russian</target>
+</phrase>
+<phrase>
+    <source>Dutch (Belgium)</source>
+    <target>Dutch (Belgium)</target>
+</phrase>
+<phrase>
     <source>File info</source>
     <target>File info</target>
 </phrase>

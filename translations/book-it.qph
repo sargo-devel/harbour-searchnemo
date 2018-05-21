@@ -49,6 +49,10 @@
     <target>Svedese</target>
 </phrase>
 <phrase>
+    <source>Russian</source>
+    <target></target>
+</phrase>
+<phrase>
     <source>Spanish</source>
     <target>Spagnolo</target>
 </phrase>
@@ -61,7 +65,15 @@
     <target></target>
 </phrase>
 <phrase>
+    <source>Dutch (Belgium)</source>
+    <target></target>
+</phrase>
+<phrase>
     <source>Hungarian</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>German</source>
     <target></target>
 </phrase>
 <phrase>

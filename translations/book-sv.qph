@@ -49,6 +49,10 @@
     <target>Svenska</target>
 </phrase>
 <phrase>
+    <source>Russian</source>
+    <target>Ryska</target>
+</phrase>
+<phrase>
     <source>Spanish</source>
     <target>Spanska</target>
 </phrase>
@@ -61,8 +65,16 @@
     <target>Holländska</target>
 </phrase>
 <phrase>
+    <source>Dutch (Belgium)</source>
+    <target>Nederländska (Belgium)</target>
+</phrase>
+<phrase>
     <source>Hungarian</source>
     <target>Ungerska</target>
+</phrase>
+<phrase>
+    <source>German</source>
+    <target>Tyska</target>
 </phrase>
 <phrase>
     <source>If you want to contribute to translate into your language, plese join in:</source>

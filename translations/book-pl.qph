@@ -49,6 +49,10 @@
     <target>szwedzki</target>
 </phrase>
 <phrase>
+    <source>Russian</source>
+    <target>rosyjski</target>
+</phrase>
+<phrase>
     <source>Spanish</source>
     <target>hiszpański</target>
 </phrase>
@@ -58,11 +62,19 @@
 </phrase>
 <phrase>
     <source>Dutch</source>
-    <target>holenderski</target>
+    <target>niderlandzki</target>
+</phrase>
+<phrase>
+    <source>Dutch (Belgium)</source>
+    <target>niderlandzki (Belgia)</target>
 </phrase>
 <phrase>
     <source>Hungarian</source>
     <target>węgierski</target>
+</phrase>
+<phrase>
+    <source>German</source>
+    <target>niemiecki</target>
 </phrase>
 <phrase>
     <source>If you want to contribute to translate into your language, plese join in:</source>

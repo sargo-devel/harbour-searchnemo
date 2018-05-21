@@ -52,6 +52,10 @@
         <translation>Zweeds</translation>
     </message>
     <message>
+        <source>Russian</source>
+        <translation>Russisch</translation>
+    </message>
+    <message>
         <source>Spanish</source>
         <translation>Spaans</translation>
     </message>
@@ -62,6 +66,10 @@
     <message>
         <source>Dutch</source>
         <translation>Nederlands</translation>
+    </message>
+    <message>
+        <source>Dutch (Belgium)</source>
+        <translation>Vlaams</translation>
     </message>
     <message>
         <source>Hungarian</source>
@@ -218,14 +226,6 @@
     <message>
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
         <translation>* Dit kan nuttig zijn, bijvoorbeeld: zoeken naar ‘=’ gaad alle gevonden apps weergeven, zoeken naar ‘jolla’ gaad alle apps gemaakt door Jolla weergeven</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Dutch (Belgium)</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

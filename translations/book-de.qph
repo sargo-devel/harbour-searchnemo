@@ -49,6 +49,10 @@
     <target>Schwedisch</target>
 </phrase>
 <phrase>
+    <source>Russian</source>
+    <target></target>
+</phrase>
+<phrase>
     <source>Spanish</source>
     <target>Spanisch</target>
 </phrase>
@@ -61,8 +65,16 @@
     <target>Niederländisch</target>
 </phrase>
 <phrase>
+    <source>Dutch (Belgium)</source>
+    <target></target>
+</phrase>
+<phrase>
     <source>Hungarian</source>
     <target>Ungarisch</target>
+</phrase>
+<phrase>
+    <source>German</source>
+    <target>Deutsch</target>
 </phrase>
 <phrase>
     <source>If you want to contribute to translate into your language, plese join in:</source>
@@ -202,15 +214,15 @@
 </phrase>
 <phrase>
     <source>* It gives only original (English) names unless it finds localized names there.</source>
-    <target></target>
+    <target>* Es werden nur originale (englische) Namen angegeben, es sei denn, es wird eine Übersetzung gefunden.</target>
 </phrase>
 <phrase>
     <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
-    <target></target>
+    <target>* Es können Ergebnisse geliefert werden, die vom Benutzer nicht erwartet werden, da der gesamten Text der Dateien überprüft wird.</target>
 </phrase>
 <phrase>
     <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
-    <target></target>
+    <target>Dies kann nützlich sein, z.B.: die Suche nach &apos;=&apos; gibt alle gefundenen Apps zurück, die Suche nach &apos;jolla&apos; liefert alle Apps, die von Jolla erstellt wurden.</target>
 </phrase>
 <phrase>
     <source>File info</source>
@@ -246,7 +258,7 @@
 </phrase>
 <phrase>
     <source>xdg-open found no preferred application</source>
-    <target></target>
+    <target>blockiertes Gerät</target>
 </phrase>
 <phrase>
     <source>Action failed</source>
@@ -254,19 +266,19 @@
 </phrase>
 <phrase>
     <source>xdg-open not found</source>
-    <target></target>
+    <target>xdg-open nicht gefunden</target>
 </phrase>
 <phrase>
     <source>xdg-open crash?</source>
-    <target></target>
+    <target>xdg-open abgestürzt?</target>
 </phrase>
 <phrase>
     <source>xdg-open error</source>
-    <target></target>
+    <target>xdg-open Fehler</target>
 </phrase>
 <phrase>
     <source>** crashed</source>
-    <target></target>
+    <target>** Abgestürzt</target>
 </phrase>
 <phrase>
     <source>** error: %1</source>
@@ -398,19 +410,19 @@
 </phrase>
 <phrase>
     <source>block device</source>
-    <target></target>
+    <target>Gerät gesperrt</target>
 </phrase>
 <phrase>
     <source>character device</source>
-    <target></target>
+    <target>zeichenorientiertes Gerät</target>
 </phrase>
 <phrase>
     <source>pipe</source>
-    <target></target>
+    <target>Pipe</target>
 </phrase>
 <phrase>
     <source>socket</source>
-    <target></target>
+    <target>Steckplatz</target>
 </phrase>
 <phrase>
     <source>folder</source>
@@ -422,7 +434,7 @@
 </phrase>
 <phrase>
     <source>Image Size</source>
-    <target></target>
+    <target>Bild-Größe</target>
 </phrase>
 <phrase>
     <source>File name</source>
@@ -430,7 +442,7 @@
 </phrase>
 <phrase>
     <source>Location</source>
-    <target></target>
+    <target>Speicherort</target>
 </phrase>
 <phrase>
     <source>Type</source>
@@ -438,7 +450,7 @@
 </phrase>
 <phrase>
     <source>Link to %1</source>
-    <target></target>
+    <target>Verlinkung zu %1</target>
 </phrase>
 <phrase>
     <source>Size</source>
@@ -474,7 +486,7 @@
 </phrase>
 <phrase>
     <source>Location</source>
-    <target></target>
+    <target>Speicherort</target>
 </phrase>
 <phrase>
     <source>Type</source>
@@ -482,7 +494,7 @@
 </phrase>
 <phrase>
     <source>Link to %1</source>
-    <target></target>
+    <target>Verlinkung zu %1</target>
 </phrase>
 <phrase>
     <source>Size</source>
@@ -606,7 +618,7 @@
 </phrase>
 <phrase>
     <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
-    <target></target>
+    <target>Zeigt nur die erste Übereinstimmung des gefundenen Textes in einer Datei und zeigt die Anzahl aller Treffer in Klammern [ ] an. Alle Ergebnisse können in der Detailansicht betrachtet werden.</target>
 </phrase>
 <phrase>
     <source>Search results</source>
@@ -730,7 +742,7 @@
 </phrase>
 <phrase>
     <source>Add default set</source>
-    <target></target>
+    <target>Standardeinstellungen setzen</target>
 </phrase>
 <phrase>
     <source>Add profile</source>
@@ -738,7 +750,7 @@
 </phrase>
 <phrase>
     <source>Set as current</source>
-    <target></target>
+    <target>aktuelle Einstellung setzen</target>
 </phrase>
 <phrase>
     <source>Rename</source>
@@ -790,11 +802,11 @@
 </phrase>
 <phrase>
     <source>Entire tree</source>
-    <target></target>
+    <target>Verzeichnisstruktur</target>
 </phrase>
 <phrase>
     <source>If such profiles exist, they will be overwritten.</source>
-    <target></target>
+    <target>Existierende Profile, werden sie überschrieben.</target>
 </phrase>
 <phrase>
     <source>%1 bytes</source>
@@ -814,31 +826,31 @@
 </phrase>
 <phrase>
     <source>Make:%1</source>
-    <target></target>
+    <target>Fabrikat:%1</target>
 </phrase>
 <phrase>
     <source>Model:%1</source>
-    <target></target>
+    <target>Modell:%1</target>
 </phrase>
 <phrase>
     <source>Date/Time:%1</source>
-    <target></target>
+    <target>Datum/Uhrzeit:%1</target>
 </phrase>
 <phrase>
     <source>Orientation:%1</source>
-    <target></target>
+    <target>Orientierung:%1</target>
 </phrase>
 <phrase>
     <source>Color/BW:Black and White</source>
-    <target></target>
+    <target>Farbe/SW:Schwarz-Weiß</target>
 </phrase>
 <phrase>
     <source>(Strobe light not detected)</source>
-    <target></target>
+    <target>(Blitzlicht wird nicht erkannt)</target>
 </phrase>
 <phrase>
     <source>(Strobe light detected) </source>
-    <target></target>
+    <target>(Blitzlicht wird erkannt)</target>
 </phrase>
 <phrase>
     <source>(Manual)</source>
@@ -846,171 +858,171 @@
 </phrase>
 <phrase>
     <source>(Manual, return light not detected)</source>
-    <target></target>
+    <target>(Manuell, Gegenlicht nicht erkannt)</target>
 </phrase>
 <phrase>
     <source>(Manual, return light detected)</source>
-    <target></target>
+    <target>(Manuell, Gegenlicht erkannt)</target>
 </phrase>
 <phrase>
     <source>(Auto)</source>
-    <target></target>
+    <target>(Automatisch)</target>
 </phrase>
 <phrase>
     <source>(Auto, return light not detected)</source>
-    <target></target>
+    <target>(Auto, Gegenlicht nicht erkannt)</target>
 </phrase>
 <phrase>
     <source>(Auto, return light detected)</source>
-    <target></target>
+    <target>(Auto, Gegenlicht erkannt)</target>
 </phrase>
 <phrase>
     <source>(Red eye reduction mode)</source>
-    <target></target>
+    <target>(Rote-Augen-Reduzierung)</target>
 </phrase>
 <phrase>
     <source>(Red eye reduction mode return light not detected)</source>
-    <target></target>
+    <target>(Rote-Augen-Reduzierungsmodus Gegenlicht nicht erkannt)</target>
 </phrase>
 <phrase>
     <source>(Red eye reduction mode return light detected)</source>
-    <target></target>
+    <target>(Rote-Augen-Reduktionsmodus Gegenlicht erkannt)</target>
 </phrase>
 <phrase>
     <source>(Manual, red eye reduction mode)</source>
-    <target></target>
+    <target>(Manuell, Rote-Augen-Reduzierung)</target>
 </phrase>
 <phrase>
     <source>(Manual, red eye reduction mode, return light not detected)</source>
-    <target></target>
+    <target>(Manuell, Rote-Augen-Reduzierung, Gegenlicht nicht erkannt)</target>
 </phrase>
 <phrase>
     <source>(Red eye reduction mode, return light detected)</source>
-    <target></target>
+    <target>(Rote-Augen-Reduktionsmodus, Gegenlicht erkannt)</target>
 </phrase>
 <phrase>
     <source>(Auto, red eye reduction mode)</source>
-    <target></target>
+    <target>(Auto, Rote-Augen-Reduzierung)</target>
 </phrase>
 <phrase>
     <source>(Auto, red eye reduction mode, return light not detected)</source>
-    <target></target>
+    <target>(Auto, Rote-Augen-Reduzierung, Gegenlicht nicht erkannt)</target>
 </phrase>
 <phrase>
     <source>(Auto, red eye reduction mode, return light detected)</source>
-    <target></target>
+    <target>(Auto, Rote-Augen-Reduktionsmodus, Gegenlicht erkannt)</target>
 </phrase>
 <phrase>
     <source>Flash:Yes</source>
-    <target></target>
+    <target>Blitz: Ja</target>
 </phrase>
 <phrase>
     <source>Flash:No</source>
-    <target></target>
+    <target>Blitz: Nein</target>
 </phrase>
 <phrase>
     <source>Focal Length:%1mm</source>
-    <target></target>
+    <target>Brennweite:%1mm</target>
 </phrase>
 <phrase>
     <source>(35mm equivalent: %1mm)</source>
-    <target></target>
+    <target>(35mm Äquivalent: %1mm)</target>
 </phrase>
 <phrase>
     <source>Digital Zoom:%1x</source>
-    <target></target>
+    <target>Digitaler Zoom:%1x</target>
 </phrase>
 <phrase>
     <source>CCD Width:%1</source>
-    <target></target>
+    <target>CCD Breite:%1</target>
 </phrase>
 <phrase>
     <source>Exposure Time:%1</source>
-    <target></target>
+    <target>Belichtungszeit:%1</target>
 </phrase>
 <phrase>
     <source>(1/%1)</source>
-    <target></target>
+    <target>(1/%1)</target>
 </phrase>
 <phrase>
     <source>Aperture:f/%1</source>
-    <target></target>
+    <target>Blende:f/%1</target>
 </phrase>
 <phrase>
     <source>Focus Distance:Infinite</source>
-    <target></target>
+    <target>Fokus Entfernung:Unendlich</target>
 </phrase>
 <phrase>
     <source>Focus Distance:%1m</source>
-    <target></target>
+    <target>Fokus Entfernung:%1m</target>
 </phrase>
 <phrase>
     <source>ISO Equivalent:%1</source>
-    <target></target>
+    <target>ISO-Äquivalenz:%1</target>
 </phrase>
 <phrase>
     <source>Exposure Bias:%1</source>
-    <target></target>
+    <target>Belichtungs-Vorspannung:%1</target>
 </phrase>
 <phrase>
     <source>White Balance:Manual</source>
-    <target></target>
+    <target>Weißabgleich:Manuell</target>
 </phrase>
 <phrase>
     <source>White Balance:Auto</source>
-    <target></target>
+    <target>White Balance:Auto</target>
 </phrase>
 <phrase>
     <source>Light Source:Daylight</source>
-    <target></target>
+    <target>Lichtquelle:Tageslicht</target>
 </phrase>
 <phrase>
     <source>Light Source:Fluorescent</source>
-    <target></target>
+    <target>Lichtquelle:Leuchtstofflampen</target>
 </phrase>
 <phrase>
     <source>Light Source:Incandescent</source>
-    <target></target>
+    <target>Lichtquelle:Glühlampe</target>
 </phrase>
 <phrase>
     <source>Light Source:Flash</source>
-    <target></target>
+    <target>Lichtquelle:Blitzlicht</target>
 </phrase>
 <phrase>
     <source>Light Source:Fine weather</source>
-    <target></target>
+    <target>Lichtquelle:Schönes Wetter</target>
 </phrase>
 <phrase>
     <source>Light Source:Shade</source>
-    <target></target>
+    <target>Lichtquelle:Bewölkt</target>
 </phrase>
 <phrase>
     <source>Metering Mode:</source>
-    <target></target>
+    <target>Belichtungsmessung:</target>
 </phrase>
 <phrase>
     <source>Average</source>
-    <target></target>
+    <target>Durchschnitt</target>
 </phrase>
 <phrase>
     <source>Center weighted average</source>
-    <target></target>
+    <target>gewichteter Durchschnitt</target>
 </phrase>
 <phrase>
     <source>Spot</source>
-    <target></target>
+    <target>Punkt</target>
 </phrase>
 <phrase>
     <source>Multi spot</source>
-    <target></target>
+    <target>Mehrpunkt</target>
 </phrase>
 <phrase>
     <source>Pattern</source>
-    <target></target>
+    <target>Muster</target>
 </phrase>
 <phrase>
     <source>Partial</source>
-    <target></target>
+    <target>Partiell</target>
 </phrase>
 <phrase>
     <source>Other</source>
@@ -1018,11 +1030,11 @@
 </phrase>
 <phrase>
     <source>Unknown (%1)</source>
-    <target></target>
+    <target>Unbekannt (%1)</target>
 </phrase>
 <phrase>
     <source>Exposure Program:</source>
-    <target></target>
+    <target>Belichtungsprogramm:</target>
 </phrase>
 <phrase>
     <source>Manual</source>
@@ -1030,23 +1042,23 @@
 </phrase>
 <phrase>
     <source>Program (auto)</source>
-    <target></target>
+    <target>Programm (auto)</target>
 </phrase>
 <phrase>
     <source>Aperture priority (semi-auto)</source>
-    <target></target>
+    <target>Blendenpriorität (halbautomatisch)</target>
 </phrase>
 <phrase>
     <source>Shutter priority (semi-auto)</source>
-    <target></target>
+    <target>Auslösepriorität (halbautomatisch)</target>
 </phrase>
 <phrase>
     <source>Creative Program (based towards depth of field)</source>
-    <target></target>
+    <target>Kreativprogramm (basierend auf der Tiefenschärfe)</target>
 </phrase>
 <phrase>
     <source>Action program (based towards fast shutter speed)</source>
-    <target></target>
+    <target>Aktionsprogramm (basierend auf einer kurzen Auslösezeit)</target>
 </phrase>
 <phrase>
     <source>Portrait mode</source>
@@ -1058,19 +1070,19 @@
 </phrase>
 <phrase>
     <source>Exposure Mode:Manual</source>
-    <target></target>
+    <target>Belichtungsart:Manuell</target>
 </phrase>
 <phrase>
     <source>Exposure Mode:Auto bracketing</source>
-    <target></target>
+    <target>Belichtungsart:Automatische Belichtung</target>
 </phrase>
 <phrase>
     <source>Focus Range:</source>
-    <target></target>
+    <target>Fokussierbereich:</target>
 </phrase>
 <phrase>
     <source>Macro</source>
-    <target></target>
+    <target>Makro</target>
 </phrase>
 <phrase>
     <source>Close</source>
@@ -1078,31 +1090,31 @@
 </phrase>
 <phrase>
     <source>Distant</source>
-    <target></target>
+    <target>Entferung</target>
 </phrase>
 <phrase>
     <source>JPEG Process:Unknown</source>
-    <target></target>
+    <target>JPEG-Prozess:Unbekannt</target>
 </phrase>
 <phrase>
     <source>JPEG Process:%1</source>
-    <target></target>
+    <target>JPEG-Prozess: %1</target>
 </phrase>
 <phrase>
     <source>Latitude:%1</source>
-    <target></target>
+    <target>Breitengrad:%1</target>
 </phrase>
 <phrase>
     <source>Longitude:%1</source>
-    <target></target>
+    <target>Längengrad:%1</target>
 </phrase>
 <phrase>
     <source>Altitude:%1</source>
-    <target></target>
+    <target>Höhenlage:%1</target>
 </phrase>
 <phrase>
     <source>JPEG Quality:%1</source>
-    <target></target>
+    <target>JPEG-Qualität:%1</target>
 </phrase>
 <phrase>
     <source>Comment:</source>
@@ -1110,7 +1122,7 @@
 </phrase>
 <phrase>
     <source>Found text:</source>
-    <target></target>
+    <target>Text gefunden:</target>
 </phrase>
 <phrase>
     <source>Application</source>
@@ -1162,7 +1174,7 @@
 </phrase>
 <phrase>
     <source>%n hit(s)</source>
-    <target>@</target>
+    <target>%n Treffer@%n Treffer</target>
 </phrase>
 <phrase>
     <source>Searching</source>
@@ -1182,7 +1194,7 @@
 </phrase>
 <phrase>
     <source>Current profile setup</source>
-    <target></target>
+    <target>Aktuelle Profileinstellungen</target>
 </phrase>
 <phrase>
     <source>Search %1</source>
@@ -1238,7 +1250,7 @@
 </phrase>
 <phrase>
     <source>Check profile whitelist...</source>
-    <target></target>
+    <target>Profil-Whitelist prüfen....</target>
 </phrase>
 <phrase>
     <source>Note nr</source>
@@ -1274,11 +1286,11 @@
 </phrase>
 <phrase>
     <source>Entire tree</source>
-    <target></target>
+    <target>Verzeichnisstruktur</target>
 </phrase>
 <phrase>
     <source>Entire dir tree. Warning: very long search</source>
-    <target></target>
+    <target>Verzeichnisstruktur. Warnung: sehr lange Suche</target>
 </phrase>
 <phrase>
     <source>default</source>
@@ -1294,7 +1306,7 @@
 </phrase>
 <phrase>
     <source>This profile will be used on the application startup</source>
-    <target>Um eine Anwendung zu finden, durchsucht das Programm .desktop-Dateien in einem Verzeichnis, das in der Whitelist angegeben ist, und kann nur einen Text finden, der in diesen Dateien enthalten ist.</target>
+    <target> Dieses Profil wird beim Start der Anwendung verwendet.</target>
 </phrase>
 <phrase>
     <source>Language:</source>
@@ -1302,7 +1314,7 @@
 </phrase>
 <phrase>
     <source>Note: Change of this parameter requires restart of the application</source>
-    <target></target>
+    <target>Hinweis: Die Änderung dieses Parameters erfordert einen Neustart der Anwendung.</target>
 </phrase>
 <phrase>
     <source>Record</source>
@@ -1330,11 +1342,11 @@
 </phrase>
 <phrase>
     <source>db:table:column:row</source>
-    <target></target>
+    <target>db:table:column:row</target>
 </phrase>
 <phrase>
     <source>&lt;b&gt;[%1/%n hit(s)]&lt;/b&gt;&lt;br&gt;</source>
-    <target>@</target>
+    <target>&lt;b&gt;[%1/%n Treffer]&lt;/b&gt;&lt;br&gt; @&lt;b&gt;[%1/%n Treffer]&lt;/b&gt;&lt;br&gt; </target>
 </phrase>
 <phrase>
     <source>Text not found.</source>

@@ -49,8 +49,12 @@
     <target>Zweeds</target>
 </phrase>
 <phrase>
+    <source>Russian</source>
+    <target>Russisch</target>
+</phrase>
+<phrase>
     <source>Spanish</source>
-    <target>Spaan</target>
+    <target>Spaans</target>
 </phrase>
 <phrase>
     <source>Italian</source>
@@ -61,8 +65,16 @@
     <target>Nederlands</target>
 </phrase>
 <phrase>
+    <source>Dutch (Belgium)</source>
+    <target>Vlaams</target>
+</phrase>
+<phrase>
     <source>Hungarian</source>
     <target>Hongaars</target>
+</phrase>
+<phrase>
+    <source>German</source>
+    <target>Duits</target>
 </phrase>
 <phrase>
     <source>If you want to contribute to translate into your language, plese join in:</source>
