@@ -1,6 +1,9 @@
 
 # SearchNemo Release Notes
 
+## Version 0.5.3 (2018-05-21)
+* Added translations: Dutch (Belgium), Russian
+
 ## Version 0.5.2 (2018-03-15) (Jolla Store 2018-03-19)
 * Added translation: German
 
