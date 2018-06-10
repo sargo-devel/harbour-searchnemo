@@ -153,34 +153,45 @@ void DirtreeModel::cd(const QString& path)
 QString DirtreeModel::sdcardPath()
 {
     // get sdcard dir candidates
-    QDir dir("/media/sdcard");
-    if (!dir.exists())
-        return QString();
-    dir.setFilter(QDir::AllDirs | QDir::NoDotAndDotDot);
-    QStringList sdcards = dir.entryList();
-    if (sdcards.isEmpty())
-        return QString();
+    QStringList baseList;
+    baseList.append("/run/media/nemo");
+    baseList.append("/media/sdcard");
 
-    // remove all directories which are not mount points
-    QStringList mps = mountPoints();
-    QMutableStringListIterator i(sdcards);
-    while (i.hasNext()) {
-        QString dirname = i.next();
-        QString abspath = dir.absoluteFilePath(dirname);
-        if (!mps.contains(abspath))
-            i.remove();
+    QMutableStringListIterator list(baseList);
+    while(list.hasNext()) {
+
+        QDir dir(list.next());
+        if (!dir.exists())
+            continue;
+
+        dir.setFilter(QDir::AllDirs | QDir::NoDotAndDotDot);
+        QStringList sdcards = dir.entryList();
+        if (sdcards.isEmpty())
+            continue;
+
+        // remove all directories which are not mount points
+        QStringList mps = mountPoints();
+        QMutableStringListIterator i(sdcards);
+        while (i.hasNext()) {
+            QString dirname = i.next();
+            QString abspath = dir.absoluteFilePath(dirname);
+            if (!mps.contains(abspath))
+                i.remove();
+        }
+
+        // none found, return empty string
+        if (sdcards.isEmpty())
+            continue;
+
+        // if only one directory, then return it
+        if (sdcards.count() == 1)
+            return dir.absoluteFilePath(sdcards.first());
+
+        // if multiple directories, then return the parent for them
+        return dir.absolutePath();
     }
 
-    // none found, return empty string
-    if (sdcards.isEmpty())
-        return QString();
-
-    // if only one directory, then return it
-    if (sdcards.count() == 1)
-        return dir.absoluteFilePath(sdcards.first());
-
-    // if multiple directories, then return "/media/sdcard", which is the parent for them
-    return "/media/sdcard";
+    return QString();
 }
 
 QStringList DirtreeModel::mountPoints()
