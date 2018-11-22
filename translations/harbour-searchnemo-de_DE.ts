@@ -53,7 +53,7 @@
     </message>
     <message>
         <source>Russian</source>
-        <translation type="unfinished"></translation>
+        <translation>Russisch</translation>
     </message>
     <message>
         <source>Spanish</source>
@@ -69,7 +69,7 @@
     </message>
     <message>
         <source>Dutch (Belgium)</source>
-        <translation type="unfinished"></translation>
+        <translation>Niederländisch (Belgien)</translation>
     </message>
     <message>
         <source>Hungarian</source>
