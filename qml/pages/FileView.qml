@@ -50,6 +50,11 @@ Page {
                 visible: !fileData.isDir
                 onClicked: openXdg()
             }
+            MenuItem {
+                text: qsTr("Open with File manager")
+                visible: fileData.isDir
+                onClicked: pageStack.push( Qt.resolvedUrl("DirectoryPage.qml"),{homePath: page.file} )
+            }
         }
 
         Column {
@@ -108,8 +113,8 @@ Page {
                     id: openButton
                     width: parent.width
                     height: openArea.height
-                    onClicked: openXdg() //Vfunc.quickView()
-
+                    onClicked: fileData.isDir ? pageStack.push( Qt.resolvedUrl("DirectoryPage.qml"),{homePath: page.file} )
+                                              : openXdg() //Vfunc.quickView()
                     Column {
                         id: openArea
                         width: parent.width

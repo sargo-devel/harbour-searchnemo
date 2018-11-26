@@ -460,7 +460,9 @@ Page {
                  ContextMenu {
                      MenuItem {
                          text: ((model.searchtype === "APPS") && searchEngine.enableAppsRunDirect) ? qsTr("View") :
-                                 ( (model.searchtype === "APPS") ? qsTr("Run") : qsTr("Open") )
+                                 ( (model.searchtype === "APPS") ? qsTr("Run") :
+                                   ( (model.searchtype === "DIR") ? qsTr("Open with File manager") : qsTr("Open"))
+                                 )
                          onClicked: {
                              if ((model.searchtype === "APPS") && searchEngine.enableAppsRunDirect)
                                  openViewPage(searchtype, fullname, (matchcount<0)?-matchcount:matchcount, displabel)
@@ -606,6 +608,9 @@ Page {
     // used by delegate submenu
     function delegateMenuOpen(filename) {
         fileData.file = filename
+        if (fileData.isDir) {
+            pageStack.push( Qt.resolvedUrl("DirectoryPage.qml"),{homePath: filename} )
+        }
         if (!fileData.isSafeToOpen()) {
             notificationPanel.showTextWithTimer(qsTr("File can't be opened"),
                                                 qsTr("This type of file can't be opened."));
