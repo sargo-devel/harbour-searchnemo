@@ -171,7 +171,8 @@ Page {
                       + qsTr("* Tap on text in detailed view to enter 'Select and copy' page.") + "\n"
                       + qsTr("* Tap on magnifying glass to set Regexp search on/off.") + "\n"
                       + qsTr("* Press and hold on empty search field or choose another profile to clear search results.") + "\n"
-                      + qsTr("* Choosing profile via 'Profiles list' doesn't delete search results.")
+                      + qsTr("* Choosing profile via 'Profiles list' doesn't delete search results.") + "\n"
+                      + qsTr("* Press and hold on search result to share a file.")
                       + "\n"
             }
         }
@@ -275,6 +276,46 @@ Page {
                               + qsTr("* It gives only original (English) names unless it finds localized names there.") + "\n"
                               + qsTr("* It can give results not expected by user, because it checks the entire text in these files.") + "\n"
                               + qsTr("* This can be useful, for example: searching for '=' will return all found apps, searching for 'jolla' will give all apps created by Jolla") + "\n"
+                    }
+                }
+            }
+            ExpandingSection {
+                title: qsTr("Search tips")
+                content.sourceComponent: Column {
+                    Label {
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+                        anchors.leftMargin: Theme.horizontalPageMargin
+                        anchors.rightMargin: Theme.horizontalPageMargin
+                        font.pixelSize: Theme.fontSizeSmall
+                        horizontalAlignment: Text.AlignJustify
+                        wrapMode: Text.Wrap
+                        //color: parent.color
+                        text: qsTr("There are some possibilities to extend search functionality of this application by creating or expanding search profiles:") + "\n"
+                            + "1. " + qsTr("To search for SMS messages enable SQLITE section and add the following directory to the whitelist:") + "\n"
+                            + qsTr("/home/nemo/.local/share/commhistory")+ "\n"
+                            + "2. " + qsTr("To search for e-mail messages enable TXT section, switch on the Automatic file type recognition option and add the following directory to the whitelist:") + "\n"
+                            + qsTr("/home/nemo/.qmf")+ "\n"
+                    }
+                }
+            }
+            ExpandingSection {
+                title: qsTr("Limitations")
+                content.sourceComponent: Column {
+                    Label {
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+                        anchors.leftMargin: Theme.horizontalPageMargin
+                        anchors.rightMargin: Theme.horizontalPageMargin
+                        font.pixelSize: Theme.fontSizeSmall
+                        horizontalAlignment: Text.AlignJustify
+                        wrapMode: Text.Wrap
+                        //color: parent.color
+                        text: qsTr("SearchNemo runs with user nemo privileges and therefore has some limitations.") + " "
+                            + qsTr("It has no access to any directories and files to which the nemo user has no access, especially:") + "\n"      
+                            + "1. " + qsTr("It has no access to Contacts database") + "\n"
+                            + "2. " + qsTr("It has no access to Calendar database") + "\n"
+                            + "3. " + qsTr("The share file option also has no access to Contacts database") + "\n"
                     }
                 }
             }
