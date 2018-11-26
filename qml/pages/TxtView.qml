@@ -67,6 +67,14 @@ Page {
                     consoleModel.executeCommand("xdg-open", [ page.file ])
                 }
             }
+            MenuItem {
+                text: qsTr("Share")
+                visible: !fileData.isDir
+                onClicked: pageStack.push(Qt.resolvedUrl("SharePage.qml"), {
+                                              source: Qt.resolvedUrl(page.file),
+                                              mimeType: "text/plain",
+                                          })
+            }
         }
 
         DetailsView {

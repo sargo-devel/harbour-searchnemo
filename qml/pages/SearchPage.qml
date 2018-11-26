@@ -469,7 +469,12 @@ Page {
                              else
                                  delegateMenuOpen(model.fullname)
                          }
-                     }                     
+                     }
+                     MenuItem {
+                         text: qsTr("Share")
+                         visible: (model.searchtype === "DIR") ? false : true
+                         onClicked: delegateMenuShare(model.fullname)
+                     }
                      MenuItem {
                          text: qsTr("Remove from search results")
                          onClicked: delegateMenuDelete(index)
@@ -606,6 +611,13 @@ Page {
     }
 
     // used by delegate submenu
+    function delegateMenuShare (filename) {
+        pageStack.push(Qt.resolvedUrl("SharePage.qml"), {
+            source: Qt.resolvedUrl(filename),
+            mimeType: "image/jpeg",
+        })
+    }
+
     function delegateMenuOpen(filename) {
         fileData.file = filename
         if (fileData.isDir) {

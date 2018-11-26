@@ -55,6 +55,14 @@ Page {
                 visible: fileData.isDir
                 onClicked: pageStack.push( Qt.resolvedUrl("DirectoryPage.qml"),{homePath: page.file} )
             }
+            MenuItem {
+                text: qsTr("Share")
+                visible: !fileData.isDir
+                onClicked: pageStack.push(Qt.resolvedUrl("SharePage.qml"), {
+                                              source: Qt.resolvedUrl(page.file),
+                                              mimeType: "image/jpeg",
+                                          })
+            }
         }
 
         Column {
