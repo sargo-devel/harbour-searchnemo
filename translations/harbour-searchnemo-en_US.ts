@@ -227,6 +227,58 @@
         <source>Dutch (Belgium)</source>
         <translation>Dutch (Belgium)</translation>
     </message>
+    <message>
+        <source>* Press and hold on search result to share a file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search tips</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>There are some possibilities to extend search functionality of this application by creating or expanding search profiles:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To search for SMS messages enable SQLITE section and add the following directory to the whitelist:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>/home/nemo/.local/share/commhistory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To search for e-mail messages enable TXT section, switch on the Automatic file type recognition option and add the following directory to the whitelist:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>/home/nemo/.qmf</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Limitations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SearchNemo runs with user nemo privileges and therefore has some limitations.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It has no access to any directories and files to which the nemo user has no access, especially:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It has no access to Contacts database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It has no access to Calendar database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The share file option also has no access to Contacts database</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AnimatedHeader</name>
@@ -556,6 +608,14 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>This type of file can&apos;t be opened.</translation>
+    </message>
+    <message>
+        <source>Open with File manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1296,6 +1356,14 @@
         <source>This type of file can&apos;t be opened.</source>
         <translation>This type of file can&apos;t be opened.</translation>
     </message>
+    <message>
+        <source>Open with File manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SearchWorker</name>
@@ -1450,6 +1518,10 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>This type of file can&apos;t be opened.</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

@@ -150,6 +150,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>* Press and hold on search result to share a file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+11"/>
         <source>Profiles</source>
         <translation type="unfinished"></translation>
@@ -282,6 +287,66 @@
     <message>
         <location line="+1"/>
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Search tips</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>There are some possibilities to extend search functionality of this application by creating or expanding search profiles:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>To search for SMS messages enable SQLITE section and add the following directory to the whitelist:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>/home/nemo/.local/share/commhistory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>To search for e-mail messages enable TXT section, switch on the Automatic file type recognition option and add the following directory to the whitelist:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>/home/nemo/.qmf</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Limitations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>SearchNemo runs with user nemo privileges and therefore has some limitations.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>It has no access to any directories and files to which the nemo user has no access, especially:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>It has no access to Contacts database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>It has no access to Calendar database</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The share file option also has no access to Contacts database</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -637,7 +702,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+5"/>
+        <source>Open with File manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Share</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+26"/>
         <source>File info</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1537,7 +1612,7 @@
     <message numerus="yes">
         <location line="+2"/>
         <location line="+213"/>
-        <location line="+197"/>
+        <location line="+204"/>
         <source>%n hit(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -1545,7 +1620,7 @@
         </translation>
     </message>
     <message>
-        <location line="-322"/>
+        <location line="-329"/>
         <source>Searching</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1590,12 +1665,22 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>Open with File manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+0"/>
         <source>Open</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+10"/>
+        <source>Share</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Remove from search results</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1610,7 +1695,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+17"/>
         <source>File can&apos;t be opened</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1804,6 +1889,11 @@
     <message>
         <location line="+1"/>
         <source>This type of file can&apos;t be opened.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Share</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
