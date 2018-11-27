@@ -293,9 +293,9 @@ Page {
                         //color: parent.color
                         text: qsTr("There are some possibilities to extend search functionality of this application by creating or expanding search profiles:") + "\n"
                             + "1. " + qsTr("To search for SMS messages enable SQLITE section and add the following directory to the whitelist:") + "\n"
-                            + qsTr("/home/nemo/.local/share/commhistory")+ "\n"
+                            + "/home/nemo/.local/share/commhistory" + "\n"
                             + "2. " + qsTr("To search for e-mail messages enable TXT section, switch on the Automatic file type recognition option and add the following directory to the whitelist:") + "\n"
-                            + qsTr("/home/nemo/.qmf")+ "\n"
+                            + "/home/nemo/.qmf" + "\n"
                     }
                 }
             }
