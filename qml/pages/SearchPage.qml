@@ -612,16 +612,17 @@ Page {
 
     // used by delegate submenu
     function delegateMenuShare (filename) {
-        pageStack.push(Qt.resolvedUrl("SharePage.qml"), {
+        pageStack.push("Sailfish.TransferEngine.SharePage", {
             source: Qt.resolvedUrl(filename),
             mimeType: "image/jpeg",
+            showAddAccount: false
         })
     }
 
     function delegateMenuOpen(filename) {
         fileData.file = filename
         if (fileData.isDir) {
-            pageStack.push( Qt.resolvedUrl("DirectoryPage.qml"),{homePath: filename} )
+            pageStack.push("Sailfish.FileManager.DirectoryPage", {homePath: filename} )
         }
         if (!fileData.isSafeToOpen()) {
             notificationPanel.showTextWithTimer(qsTr("File can't be opened"),

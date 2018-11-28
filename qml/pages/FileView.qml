@@ -53,14 +53,15 @@ Page {
             MenuItem {
                 text: qsTr("Open with File manager")
                 visible: fileData.isDir
-                onClicked: pageStack.push( Qt.resolvedUrl("DirectoryPage.qml"),{homePath: page.file} )
+                onClicked: pageStack.push("Sailfish.FileManager.DirectoryPage",{homePath: page.file} )
             }
             MenuItem {
                 text: qsTr("Share")
                 visible: !fileData.isDir
-                onClicked: pageStack.push(Qt.resolvedUrl("SharePage.qml"), {
+                onClicked: pageStack.push("Sailfish.TransferEngine.SharePage", {
                                               source: Qt.resolvedUrl(page.file),
                                               mimeType: "image/jpeg",
+                                              showAddAccount: false
                                           })
             }
         }
@@ -121,7 +122,7 @@ Page {
                     id: openButton
                     width: parent.width
                     height: openArea.height
-                    onClicked: fileData.isDir ? pageStack.push( Qt.resolvedUrl("DirectoryPage.qml"),{homePath: page.file} )
+                    onClicked: fileData.isDir ? pageStack.push("Sailfish.FileManager.DirectoryPage", {homePath: page.file} )
                                               : openXdg() //Vfunc.quickView()
                     Column {
                         id: openArea

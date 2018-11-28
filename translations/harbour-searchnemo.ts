@@ -702,7 +702,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+27"/>
         <source>File info</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1685,7 +1685,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+18"/>
         <source>File can&apos;t be opened</source>
         <translation type="unfinished"></translation>
     </message>

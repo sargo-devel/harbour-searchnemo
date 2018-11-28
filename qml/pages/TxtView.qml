@@ -70,9 +70,10 @@ Page {
             MenuItem {
                 text: qsTr("Share")
                 visible: !fileData.isDir
-                onClicked: pageStack.push(Qt.resolvedUrl("SharePage.qml"), {
+                onClicked: pageStack.push("Sailfish.TransferEngine.SharePage", {
                                               source: Qt.resolvedUrl(page.file),
                                               mimeType: "text/plain",
+                                              showAddAccount: false
                                           })
             }
         }
