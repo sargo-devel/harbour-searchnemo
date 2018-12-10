@@ -72,7 +72,7 @@ Page {
                 visible: !fileData.isDir
                 onClicked: pageStack.push("Sailfish.TransferEngine.SharePage", {
                                               source: Qt.resolvedUrl(page.file),
-                                              mimeType: "text/plain",
+                                              mimeType: fileData.mimeType,
                                               showAddAccount: false
                                           })
             }

@@ -472,7 +472,7 @@ Page {
                      }
                      MenuItem {
                          text: qsTr("Share")
-                         visible: (model.searchtype === "DIR") ? false : true
+                         visible: ((model.searchtype === "DIR") || (model.searchtype === "NOTES")) ? false : true
                          onClicked: delegateMenuShare(model.fullname)
                      }
                      MenuItem {
@@ -612,9 +612,10 @@ Page {
 
     // used by delegate submenu
     function delegateMenuShare (filename) {
+        fileData.file = filename
         pageStack.push("Sailfish.TransferEngine.SharePage", {
             source: Qt.resolvedUrl(filename),
-            mimeType: "image/jpeg",
+            mimeType: fileData.mimeType,
             showAddAccount: false
         })
     }
@@ -623,11 +624,12 @@ Page {
         fileData.file = filename
         if (fileData.isDir) {
             pageStack.push("Sailfish.FileManager.DirectoryPage", {homePath: filename} )
+            return
         }
         if (!fileData.isSafeToOpen()) {
             notificationPanel.showTextWithTimer(qsTr("File can't be opened"),
-                                                qsTr("This type of file can't be opened."));
-            return;
+                                                qsTr("This type of file can't be opened."))
+            return
         }
         consoleModel.executeCommand("xdg-open", [ filename ])
     }
