@@ -120,6 +120,10 @@
         <translation>* Een profiel kiezen via de ‘Profiellijst’ verwijderd de zoekresultaten nie.</translation>
     </message>
     <message>
+        <source>* Press and hold on search result to share a file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Profiles</source>
         <translation>Profielen</translation>
     </message>
@@ -228,10 +232,6 @@
         <translation>* Dit kan nuttig zijn, bijvoorbeeld: zoeken naar ‘=’ gaad alle gevonden apps weergeven, zoeken naar ‘jolla’ gaad alle apps gemaakt door Jolla weergeven</translation>
     </message>
     <message>
-        <source>* Press and hold on search result to share a file.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Search tips</source>
         <translation type="unfinished"></translation>
     </message>
@@ -244,15 +244,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>/home/nemo/.local/share/commhistory</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>To search for e-mail messages enable TXT section, switch on the Automatic file type recognition option and add the following directory to the whitelist:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>/home/nemo/.qmf</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -566,6 +558,14 @@
         <translation>Openen</translation>
     </message>
     <message>
+        <source>Open with File manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>File info</source>
         <translation>Bestandsinformatie</translation>
     </message>
@@ -608,14 +608,6 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Dit type bestand kan nie worden g’opend.</translation>
-    </message>
-    <message>
-        <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Share</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1333,8 +1325,16 @@
         <translation>Uitvoeren</translation>
     </message>
     <message>
+        <source>Open with File manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Open</source>
         <translation>Openen</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Remove from search results</source>
@@ -1355,14 +1355,6 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Dit type bestand kan nie worden g’opend.</translation>
-    </message>
-    <message>
-        <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Share</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

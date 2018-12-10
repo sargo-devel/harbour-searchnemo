@@ -1685,7 +1685,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+20"/>
         <source>File can&apos;t be opened</source>
         <translation type="unfinished"></translation>
     </message>

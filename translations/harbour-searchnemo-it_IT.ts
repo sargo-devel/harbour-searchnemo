@@ -120,6 +120,10 @@
         <translation>* La scelta di un profilo nella lista profili non pulisce i risultati della ricerca.</translation>
     </message>
     <message>
+        <source>* Press and hold on search result to share a file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Profiles</source>
         <translation>Profili</translation>
     </message>
@@ -228,10 +232,6 @@
         <translation>* Ciò potrebbe rivelarsi utile, ad esempio cercando &apos;=&apos; verranno mostrate tutte le app installate o cercando &apos;jolla&apos; verranno mostrate tutte le app create da Jolla</translation>
     </message>
     <message>
-        <source>* Press and hold on search result to share a file.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Search tips</source>
         <translation type="unfinished"></translation>
     </message>
@@ -244,15 +244,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>/home/nemo/.local/share/commhistory</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>To search for e-mail messages enable TXT section, switch on the Automatic file type recognition option and add the following directory to the whitelist:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>/home/nemo/.qmf</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -566,6 +558,14 @@
         <translation>Apri</translation>
     </message>
     <message>
+        <source>Open with File manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>File info</source>
         <translation>Info file</translation>
     </message>
@@ -608,14 +608,6 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Questo tipo di file non può essere aperto.</translation>
-    </message>
-    <message>
-        <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Share</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1333,8 +1325,16 @@
         <translation>Lancia</translation>
     </message>
     <message>
+        <source>Open with File manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Open</source>
         <translation>Apri</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Remove from search results</source>
@@ -1355,14 +1355,6 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Questo tipo di file non può essere aperto.</translation>
-    </message>
-    <message>
-        <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Share</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

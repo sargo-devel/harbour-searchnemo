@@ -120,6 +120,10 @@
         <translation>* Al cambiar el perfil desde la &apos;Lista de perfiles&apos; no se borran los resultados de la búsqueda.</translation>
     </message>
     <message>
+        <source>* Press and hold on search result to share a file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Profiles</source>
         <translation>Perfiles</translation>
     </message>
@@ -228,10 +232,6 @@
         <translation>* Esto podría ser útil, por ejemplo: al buscar &apos;=&apos; devuelve todas las aplicaciones instaladas, al buscar &apos;jolla&apos; devuelve todas las aplicaciones creadas por Jolla</translation>
     </message>
     <message>
-        <source>* Press and hold on search result to share a file.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Search tips</source>
         <translation type="unfinished"></translation>
     </message>
@@ -244,15 +244,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>/home/nemo/.local/share/commhistory</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>To search for e-mail messages enable TXT section, switch on the Automatic file type recognition option and add the following directory to the whitelist:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>/home/nemo/.qmf</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -566,6 +558,14 @@
         <translation>Abrir</translation>
     </message>
     <message>
+        <source>Open with File manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>File info</source>
         <translation>Info del fichero</translation>
     </message>
@@ -608,14 +608,6 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Este tipo de fichero no se puede abrir.</translation>
-    </message>
-    <message>
-        <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Share</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1333,8 +1325,16 @@
         <translation>Ejecutar</translation>
     </message>
     <message>
+        <source>Open with File manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Open</source>
         <translation>Abrir</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Remove from search results</source>
@@ -1355,14 +1355,6 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Este tipo de fichero no se puede abrir.</translation>
-    </message>
-    <message>
-        <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Share</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
