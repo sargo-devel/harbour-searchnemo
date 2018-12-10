@@ -90,7 +90,7 @@
 </phrase>
 <phrase>
     <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
-    <target>Jeśli używanie tej apki sprawia Ci tyle radości, co mi, kiedy ją tworzyłem, rozważ proszę dotację, aby uczynić nas oboje bardziej zadowolymi z dobrze wykonanej roboty.</target>
+    <target>Jeśli używanie tej apki sprawia Ci tyle radości, co mi, kiedy ją tworzyłem, proszę rozważ wsparcie, żebyśmy oboje mieli większe poczucie dobrze wypełnionego zadania.</target>
 </phrase>
 <phrase>
     <source>Help and Tips</source>
@@ -115,6 +115,10 @@
 <phrase>
     <source>* Choosing profile via &apos;Profiles list&apos; doesn&apos;t delete search results.</source>
     <target>* Wybór profilu w &apos;Lista profili&apos; nie usuwa wyników wyszukiwania.</target>
+</phrase>
+<phrase>
+    <source>* Press and hold on search result to share a file.</source>
+    <target>* Naciśnij i przytrzymaj na wyniku wyszukiwania aby udostępnić plik.</target>
 </phrase>
 <phrase>
     <source>Profiles</source>
@@ -223,6 +227,46 @@
 <phrase>
     <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
     <target>* Może to być użyteczne, np.: wyszukiwanie &apos;=&apos; zwróci wszystkie znalezione aplikacje, wyszukiwanie &apos;jolla&apos; poda wszystkie aplikacje stworzone przez Jolla</target>
+</phrase>
+<phrase>
+    <source>Search tips</source>
+    <target>Wskazówki wyszukiwania</target>
+</phrase>
+<phrase>
+    <source>There are some possibilities to extend search functionality of this application by creating or expanding search profiles:</source>
+    <target>W tej aplikacji są różne mozliwości rozszerzenia funkcjonalności wyszukiwania poprzez tworzenie lub rozbudowywanie profili wyszukiwania:</target>
+</phrase>
+<phrase>
+    <source>To search for SMS messages enable SQLITE section and add the following directory to the whitelist:</source>
+    <target>Aby przeszukiwać wiadomości SMS włącz sekcję SQLITE i dodaj następujący katalog do białej listy:</target>
+</phrase>
+<phrase>
+    <source>To search for e-mail messages enable TXT section, switch on the Automatic file type recognition option and add the following directory to the whitelist:</source>
+    <target>Aby przeszukiwać wiadomości e-mail włącz sekcję TXT, włącz opcję Automatyczne rozpoznawanie typu pliku i dodaj następujący katalog do białej listy:</target>
+</phrase>
+<phrase>
+    <source>Limitations</source>
+    <target>Ograniczenia</target>
+</phrase>
+<phrase>
+    <source>SearchNemo runs with user nemo privileges and therefore has some limitations.</source>
+    <target>SearchNemo działa z uprawnieniami użytkownika nemo i ma w zwązku z tym pewne ograniczenia.</target>
+</phrase>
+<phrase>
+    <source>It has no access to any directories and files to which the nemo user has no access, especially:</source>
+    <target>Nie ma dostępu do katalogów i plików, do których nie ma dostępu użytkownik nemo, w szczególności:</target>
+</phrase>
+<phrase>
+    <source>It has no access to Contacts database</source>
+    <target>Nie ma dostępu do bazy Kontaktów</target>
+</phrase>
+<phrase>
+    <source>It has no access to Calendar database</source>
+    <target>Nie ma dostępu do bazy Kalendarza</target>
+</phrase>
+<phrase>
+    <source>The share file option also has no access to Contacts database</source>
+    <target>Opcja udostępniania pliku również nie ma dostępu do bazy Kontaktów</target>
 </phrase>
 <phrase>
     <source>File info</source>
@@ -479,6 +523,14 @@
 <phrase>
     <source>Open</source>
     <target>Otwórz</target>
+</phrase>
+<phrase>
+    <source>Open with File manager</source>
+    <target>Otwórz w Menadżerze plików</target>
+</phrase>
+<phrase>
+    <source>Share</source>
+    <target>Udostępnij</target>
 </phrase>
 <phrase>
     <source>File info</source>
@@ -1213,8 +1265,16 @@
     <target>Uruchom</target>
 </phrase>
 <phrase>
+    <source>Open with File manager</source>
+    <target>Otwórz w Menadżerze plików</target>
+</phrase>
+<phrase>
     <source>Open</source>
     <target>Otwórz</target>
+</phrase>
+<phrase>
+    <source>Share</source>
+    <target>Udostępnij</target>
 </phrase>
 <phrase>
     <source>Remove from search results</source>
@@ -1363,5 +1423,9 @@
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
     <target>Ten typ pliku nie może być otwarty.</target>
+</phrase>
+<phrase>
+    <source>Share</source>
+    <target>Udostępnij</target>
 </phrase>
 </QPH>

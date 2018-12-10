@@ -120,6 +120,10 @@
         <translation>* Wybór profilu w &apos;Lista profili&apos; nie usuwa wyników wyszukiwania.</translation>
     </message>
     <message>
+        <source>* Press and hold on search result to share a file.</source>
+        <translation>* Naciśnij i przytrzymaj na wyniku wyszukiwania aby udostępnić plik.</translation>
+    </message>
+    <message>
         <source>Profiles</source>
         <translation>Profile</translation>
     </message>
@@ -228,56 +232,44 @@
         <translation>* Może to być użyteczne, np.: wyszukiwanie &apos;=&apos; zwróci wszystkie znalezione aplikacje, wyszukiwanie &apos;jolla&apos; poda wszystkie aplikacje stworzone przez Jolla</translation>
     </message>
     <message>
-        <source>* Press and hold on search result to share a file.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Search tips</source>
-        <translation type="unfinished"></translation>
+        <translation>Wskazówki wyszukiwania</translation>
     </message>
     <message>
         <source>There are some possibilities to extend search functionality of this application by creating or expanding search profiles:</source>
-        <translation type="unfinished"></translation>
+        <translation>W tej aplikacji są różne mozliwości rozszerzenia funkcjonalności wyszukiwania poprzez tworzenie lub rozbudowywanie profili wyszukiwania:</translation>
     </message>
     <message>
         <source>To search for SMS messages enable SQLITE section and add the following directory to the whitelist:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>/home/nemo/.local/share/commhistory</source>
-        <translation type="unfinished"></translation>
+        <translation>Aby przeszukiwać wiadomości SMS włącz sekcję SQLITE i dodaj następujący katalog do białej listy:</translation>
     </message>
     <message>
         <source>To search for e-mail messages enable TXT section, switch on the Automatic file type recognition option and add the following directory to the whitelist:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>/home/nemo/.qmf</source>
-        <translation type="unfinished"></translation>
+        <translation>Aby przeszukiwać wiadomości e-mail włącz sekcję TXT, włącz opcję Automatyczne rozpoznawanie typu pliku i dodaj następujący katalog do białej listy:</translation>
     </message>
     <message>
         <source>Limitations</source>
-        <translation type="unfinished"></translation>
+        <translation>Ograniczenia</translation>
     </message>
     <message>
         <source>SearchNemo runs with user nemo privileges and therefore has some limitations.</source>
-        <translation type="unfinished"></translation>
+        <translation>SearchNemo działa z uprawnieniami użytkownika nemo i ma w zwązku z tym pewne ograniczenia.</translation>
     </message>
     <message>
         <source>It has no access to any directories and files to which the nemo user has no access, especially:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie ma dostępu do katalogów i plików, do których nie ma dostępu użytkownik nemo, w szczególności:</translation>
     </message>
     <message>
         <source>It has no access to Contacts database</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie ma dostępu do bazy Kontaktów</translation>
     </message>
     <message>
         <source>It has no access to Calendar database</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie ma dostępu do bazy Kalendarza</translation>
     </message>
     <message>
         <source>The share file option also has no access to Contacts database</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcja udostępniania pliku również nie ma dostępu do bazy Kontaktów</translation>
     </message>
 </context>
 <context>
@@ -566,6 +558,14 @@
         <translation>Otwórz</translation>
     </message>
     <message>
+        <source>Open with File manager</source>
+        <translation>Otwórz w Menadżerze plików</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation>Udostępnij</translation>
+    </message>
+    <message>
         <source>File info</source>
         <translation>Info o pliku</translation>
     </message>
@@ -608,14 +608,6 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Ten typ pliku nie może być otwarty.</translation>
-    </message>
-    <message>
-        <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Share</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1334,8 +1326,16 @@
         <translation>Uruchom</translation>
     </message>
     <message>
+        <source>Open with File manager</source>
+        <translation>Otwórz w Menadżerze plików</translation>
+    </message>
+    <message>
         <source>Open</source>
         <translation>Otwórz</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation>Udostępnij</translation>
     </message>
     <message>
         <source>Remove from search results</source>
@@ -1356,14 +1356,6 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Ten typ pliku nie może być otwarty.</translation>
-    </message>
-    <message>
-        <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Share</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1523,7 +1515,7 @@
     </message>
     <message>
         <source>Share</source>
-        <translation type="unfinished"></translation>
+        <translation>Udostępnij</translation>
     </message>
 </context>
 </TS>

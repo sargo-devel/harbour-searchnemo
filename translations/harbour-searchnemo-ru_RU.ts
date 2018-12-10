@@ -120,6 +120,10 @@
         <translation>* При выборе профиля через &quot;Список профилей&quot; результаты поиска сохраняются.</translation>
     </message>
     <message>
+        <source>* Press and hold on search result to share a file.</source>
+        <translation>* Нажмите и удерживайте строку в результатах поиска, чтобы поделиться файлом.</translation>
+    </message>
+    <message>
         <source>Profiles</source>
         <translation>Профили</translation>
     </message>
@@ -228,56 +232,44 @@
         <translation>* Эта особенность может оказаться полезной, например поиск &quot;=&quot; выдаст полный список установленных приложений, поиск &quot;jolla&quot; покажет список приложений от фирмы Jolla</translation>
     </message>
     <message>
-        <source>* Press and hold on search result to share a file.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Search tips</source>
-        <translation type="unfinished"></translation>
+        <translation>Подсказки</translation>
     </message>
     <message>
         <source>There are some possibilities to extend search functionality of this application by creating or expanding search profiles:</source>
-        <translation type="unfinished"></translation>
+        <translation>Возможности поиска можно расширить путем создания и расширения профилей поиска:</translation>
     </message>
     <message>
         <source>To search for SMS messages enable SQLITE section and add the following directory to the whitelist:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>/home/nemo/.local/share/commhistory</source>
-        <translation type="unfinished"></translation>
+        <translation>Для поиска по СМС включите секцию SQLITE и добавьте в белый список следующий каталог:</translation>
     </message>
     <message>
         <source>To search for e-mail messages enable TXT section, switch on the Automatic file type recognition option and add the following directory to the whitelist:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>/home/nemo/.qmf</source>
-        <translation type="unfinished"></translation>
+        <translation>Для поиска в электронной почте включите секцию TXT, активируйте автоматическое распознавание типов файлов и добавьте в белый список следующий каталог: </translation>
     </message>
     <message>
         <source>Limitations</source>
-        <translation type="unfinished"></translation>
+        <translation>Ограничения</translation>
     </message>
     <message>
         <source>SearchNemo runs with user nemo privileges and therefore has some limitations.</source>
-        <translation type="unfinished"></translation>
+        <translation>SearchNemo работает с уровнем доступа пользователя nemo, что налагает некоторые ограничения.</translation>
     </message>
     <message>
         <source>It has no access to any directories and files to which the nemo user has no access, especially:</source>
-        <translation type="unfinished"></translation>
+        <translation>Программа не может искать в каталогах и файлах, которые недоступны пользователю nemo. В частности:</translation>
     </message>
     <message>
         <source>It has no access to Contacts database</source>
-        <translation type="unfinished"></translation>
+        <translation>нет доступа к базе данных о контактах</translation>
     </message>
     <message>
         <source>It has no access to Calendar database</source>
-        <translation type="unfinished"></translation>
+        <translation>нет доступа к календарю</translation>
     </message>
     <message>
         <source>The share file option also has no access to Contacts database</source>
-        <translation type="unfinished"></translation>
+        <translation>Список контактов недоступен для функции общего доступа к файлу.</translation>
     </message>
 </context>
 <context>
@@ -566,6 +558,14 @@
         <translation>Открыть</translation>
     </message>
     <message>
+        <source>Open with File manager</source>
+        <translation>Открыть в менеджере файлов</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation>Поделиться</translation>
+    </message>
+    <message>
         <source>File info</source>
         <translation>Информация о файле</translation>
     </message>
@@ -608,14 +608,6 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Файлы этого типа нельзя открыть.</translation>
-    </message>
-    <message>
-        <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Share</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1334,8 +1326,16 @@
         <translation>Запустить</translation>
     </message>
     <message>
+        <source>Open with File manager</source>
+        <translation>Открыть в менеджере файлов</translation>
+    </message>
+    <message>
         <source>Open</source>
         <translation>Открыть</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation>Поделиться</translation>
     </message>
     <message>
         <source>Remove from search results</source>
@@ -1356,14 +1356,6 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Файлы этого типа нельзя открыть.</translation>
-    </message>
-    <message>
-        <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Share</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1523,7 +1515,7 @@
     </message>
     <message>
         <source>Share</source>
-        <translation type="unfinished"></translation>
+        <translation>Поделиться</translation>
     </message>
 </context>
 </TS>

@@ -117,6 +117,10 @@
     <target>* Att välja profil via menyn &apos;Profillista&apos;, rensar inte sökresultaten.</target>
 </phrase>
 <phrase>
+    <source>* Press and hold on search result to share a file.</source>
+    <target>* Långtryck på sökresultat för att dela fil.</target>
+</phrase>
+<phrase>
     <source>Profiles</source>
     <target>Profiler</target>
 </phrase>
@@ -223,6 +227,46 @@
 <phrase>
     <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
     <target>* Detta kan vara användbart, då t.ex. sökning på &apos;=&apos; visar alla hittade appar och sökning på &apos;jolla&apos;, visar alla appar skapade av Jolla.</target>
+</phrase>
+<phrase>
+    <source>Search tips</source>
+    <target>Söktips</target>
+</phrase>
+<phrase>
+    <source>There are some possibilities to extend search functionality of this application by creating or expanding search profiles:</source>
+    <target>Det finns möjlighet till utökad sökfunktionalitet i den här appen, genom att skapa eller utöka sökprofiler:</target>
+</phrase>
+<phrase>
+    <source>To search for SMS messages enable SQLITE section and add the following directory to the whitelist:</source>
+    <target>Aktivera SQLITE-sektionen och lägg till följande mapp i vitlistan, för att söka efter SMS-meddelanden:</target>
+</phrase>
+<phrase>
+    <source>To search for e-mail messages enable TXT section, switch on the Automatic file type recognition option and add the following directory to the whitelist:</source>
+    <target>Aktivera TXT-sektionen, slå på automatisk filtypsidentifiering och lägg till följande mapp i vitlistan, för att söka efter e-postmeddelanden:</target>
+</phrase>
+<phrase>
+    <source>Limitations</source>
+    <target>Begränsningar</target>
+</phrase>
+<phrase>
+    <source>SearchNemo runs with user nemo privileges and therefore has some limitations.</source>
+    <target>SearchNemo körs med användarbehörighet och har därför vissa begränsningar.</target>
+</phrase>
+<phrase>
+    <source>It has no access to any directories and files to which the nemo user has no access, especially:</source>
+    <target>Den har ingen åtkomst till mappar och filer som användare nemo inte har tillgång till, speciellt:</target>
+</phrase>
+<phrase>
+    <source>It has no access to Contacts database</source>
+    <target>Den har inte tillgång till kontaktdatabasen</target>
+</phrase>
+<phrase>
+    <source>It has no access to Calendar database</source>
+    <target>Den har inte tillgång till kalenderdatabasen</target>
+</phrase>
+<phrase>
+    <source>The share file option also has no access to Contacts database</source>
+    <target>Fildelningsalternativet har inte heller tillgång till kontaktdatabasen</target>
 </phrase>
 <phrase>
     <source>File info</source>
@@ -479,6 +523,14 @@
 <phrase>
     <source>Open</source>
     <target>Öppna</target>
+</phrase>
+<phrase>
+    <source>Open with File manager</source>
+    <target>Öppna med filhanteraren</target>
+</phrase>
+<phrase>
+    <source>Share</source>
+    <target>Dela</target>
 </phrase>
 <phrase>
     <source>File info</source>
@@ -1213,8 +1265,16 @@
     <target>Kör</target>
 </phrase>
 <phrase>
+    <source>Open with File manager</source>
+    <target>Öppna med filhanteraren</target>
+</phrase>
+<phrase>
     <source>Open</source>
     <target>Öppna</target>
+</phrase>
+<phrase>
+    <source>Share</source>
+    <target>Dela</target>
 </phrase>
 <phrase>
     <source>Remove from search results</source>
@@ -1363,5 +1423,9 @@
 <phrase>
     <source>This type of file can&apos;t be opened.</source>
     <target>Denna filtyp kan inte öppnas.</target>
+</phrase>
+<phrase>
+    <source>Share</source>
+    <target>Dela</target>
 </phrase>
 </QPH>

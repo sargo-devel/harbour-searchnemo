@@ -120,6 +120,10 @@
         <translation>* Att välja profil via menyn &apos;Profillista&apos;, rensar inte sökresultaten.</translation>
     </message>
     <message>
+        <source>* Press and hold on search result to share a file.</source>
+        <translation>* Långtryck på sökresultat för att dela fil.</translation>
+    </message>
+    <message>
         <source>Profiles</source>
         <translation>Profiler</translation>
     </message>
@@ -228,56 +232,44 @@
         <translation>* Detta kan vara användbart, då t.ex. sökning på &apos;=&apos; visar alla hittade appar och sökning på &apos;jolla&apos;, visar alla appar skapade av Jolla.</translation>
     </message>
     <message>
-        <source>* Press and hold on search result to share a file.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Search tips</source>
-        <translation type="unfinished"></translation>
+        <translation>Söktips</translation>
     </message>
     <message>
         <source>There are some possibilities to extend search functionality of this application by creating or expanding search profiles:</source>
-        <translation type="unfinished"></translation>
+        <translation>Det finns möjlighet till utökad sökfunktionalitet i den här appen, genom att skapa eller utöka sökprofiler:</translation>
     </message>
     <message>
         <source>To search for SMS messages enable SQLITE section and add the following directory to the whitelist:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>/home/nemo/.local/share/commhistory</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera SQLITE-sektionen och lägg till följande mapp i vitlistan, för att söka efter SMS-meddelanden:</translation>
     </message>
     <message>
         <source>To search for e-mail messages enable TXT section, switch on the Automatic file type recognition option and add the following directory to the whitelist:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>/home/nemo/.qmf</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera TXT-sektionen, slå på automatisk filtypsidentifiering och lägg till följande mapp i vitlistan, för att söka efter e-postmeddelanden:</translation>
     </message>
     <message>
         <source>Limitations</source>
-        <translation type="unfinished"></translation>
+        <translation>Begränsningar</translation>
     </message>
     <message>
         <source>SearchNemo runs with user nemo privileges and therefore has some limitations.</source>
-        <translation type="unfinished"></translation>
+        <translation>SearchNemo körs med användarbehörighet och har därför vissa begränsningar.</translation>
     </message>
     <message>
         <source>It has no access to any directories and files to which the nemo user has no access, especially:</source>
-        <translation type="unfinished"></translation>
+        <translation>Den har ingen åtkomst till mappar och filer som användare nemo inte har tillgång till, speciellt:</translation>
     </message>
     <message>
         <source>It has no access to Contacts database</source>
-        <translation type="unfinished"></translation>
+        <translation>Den har inte tillgång till kontaktdatabasen</translation>
     </message>
     <message>
         <source>It has no access to Calendar database</source>
-        <translation type="unfinished"></translation>
+        <translation>Den har inte tillgång till kalenderdatabasen</translation>
     </message>
     <message>
         <source>The share file option also has no access to Contacts database</source>
-        <translation type="unfinished"></translation>
+        <translation>Fildelningsalternativet har inte heller tillgång till kontaktdatabasen</translation>
     </message>
 </context>
 <context>
@@ -566,6 +558,14 @@
         <translation>Öppna</translation>
     </message>
     <message>
+        <source>Open with File manager</source>
+        <translation>Öppna med filhanteraren</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation>Dela</translation>
+    </message>
+    <message>
         <source>File info</source>
         <translation>Filinformation</translation>
     </message>
@@ -608,14 +608,6 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Denna filtyp kan inte öppnas.</translation>
-    </message>
-    <message>
-        <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Share</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1333,8 +1325,16 @@
         <translation>Kör</translation>
     </message>
     <message>
+        <source>Open with File manager</source>
+        <translation>Öppna med filhanteraren</translation>
+    </message>
+    <message>
         <source>Open</source>
         <translation>Öppna</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation>Dela</translation>
     </message>
     <message>
         <source>Remove from search results</source>
@@ -1355,14 +1355,6 @@
     <message>
         <source>This type of file can&apos;t be opened.</source>
         <translation>Denna filtyp kan inte öppnas.</translation>
-    </message>
-    <message>
-        <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Share</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1521,7 +1513,7 @@
     </message>
     <message>
         <source>Share</source>
-        <translation type="unfinished"></translation>
+        <translation>Dela</translation>
     </message>
 </context>
 </TS>
