@@ -1,7 +1,11 @@
 
 # SearchNemo Release Notes
 
-## Version 0.5.4 (2018-06-10)
+## Version 0.6.0 (2018-12-10)
+* Share files with bluetooth, MMS, e-mail etc. (depending on MIME type)
+* Open directories with File manager (using os build-in manager)
+
+## Version 0.5.4 (2018-06-10) (Jolla Store 2018-06-11)
 * Fixed SD card path recognition in SFOS 2.2
 
 ## Version 0.5.3 (2018-05-21) (Jolla Store 2018-05-22)

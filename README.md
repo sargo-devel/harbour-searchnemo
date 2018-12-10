@@ -25,6 +25,8 @@ It can also find file and directory names containing searched text.
  * Preview html files
  * Open app to which found database belongs to
  * Open files (if xdg-open finds a preferred application)
+ * Share files with bluetooth, MMS, e-mail etc. (depending on MIME type)
+ * Open directories with File manager (using os build-in manager)
  * Open found applications
  * Preview JPEG, PNG and GIF files
  * Play back WAV, MP3, OGG and FLAC audio
@@ -60,7 +62,7 @@ Since I kept a lot of txt and html files locally on device, I needed a tool whic
 It is always possible to do the same task using find program in command line, but ... do we have to always use command line tools having so pretty graphical os?
 
 As a starting point I took very good app: File Browser (see Acknowledgements) and adopted search function to my needs.
-Current developement state suites me well for simple tasks, but it can be just a starting point for further development.
+Current developement state suites me well, but it can be just a starting point for further development.
 Any comments, new ideas and pull requests are very welcome.
 
 Plans:
