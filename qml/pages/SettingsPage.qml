@@ -41,15 +41,15 @@ Page {
     Component.onCompleted: {
         languages.append({ name: qsTr("default"),  lang: "default" })
         languages.append({ name: "Deutsch",  lang: "de_DE" })
-        languages.append({ name: "English (US)",  lang: "en_US" })
-        languages.append({ name: "Español",  lang: "es_ES" })
-        languages.append({ name: "Italiano",  lang: "it_IT" })
-        languages.append({ name: "Magyar",  lang: "hu_HU" })
-        languages.append({ name: "Nederlands",  lang: "nl_NL" })
+        languages.append({ name: "English",  lang: "en" })
+        languages.append({ name: "Español",  lang: "es" })
+        languages.append({ name: "Italiano",  lang: "it" })
+        languages.append({ name: "Magyar",  lang: "hu" })
+        languages.append({ name: "Nederlands",  lang: "nl" })
         languages.append({ name: "Nederlands (België)",  lang: "nl_BE" })
         languages.append({ name: "Polski",  lang: "pl_PL" })
         languages.append({ name: "Svenska",  lang: "sv_SE" })
-        languages.append({ name: "Pусский",  lang: "ru_RU" })
+        languages.append({ name: "Pусский",  lang: "ru" })
         profiles.reload()
     }
 

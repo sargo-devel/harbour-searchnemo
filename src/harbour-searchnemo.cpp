@@ -52,25 +52,31 @@ int main(int argc, char *argv[])
     QScopedPointer<QGuiApplication> app(SailfishApp::application(argc, argv));
 
     QTranslator defaultTranslator;
-    QString locale = "en_US";
-    if(!defaultTranslator.load("harbour-searchnemo-" + locale, SailfishApp::pathTo("translations").toLocalFile())) {
-        qDebug() << "Couldn't load translation for locale "<< locale << " from " << SailfishApp::pathTo("translations").toLocalFile();
+    QString locale = "en";
+    QString appname = "harbour-searchnemo";
+    QString translationsDir = SailfishApp::pathTo("translations").toLocalFile();
+    if(defaultTranslator.load(appname+"_"+locale, translationsDir)) {
+        qDebug() << "Successfuly loaded default locale "<< locale << " from " << translationsDir;
+        app->installTranslator(&defaultTranslator);
     }
-    app->installTranslator(&defaultTranslator);
+    else
+        qDebug() << "Couldn't load translation for default locale "<< locale << " from " << translationsDir;
 
     QSettings settings;
     QString langSet = settings.value("langSetting", "default").toString();
     QTranslator translator;
-    locale = langSet;
-    qDebug() << "get locale=" <<locale;
-    if (locale == "default") locale = QLocale::system().name();
-    qDebug() << "set locale=" <<locale;
-    qDebug() << "lang=" << QLocale::languageToString(QLocale::system().language());
-    qDebug() << "country=" << QLocale::countryToString(QLocale::system().country());
-    if(!translator.load("harbour-searchnemo-" + locale, SailfishApp::pathTo("translations").toLocalFile())) {
-        qDebug() << "Couldn't load translation for locale "<< locale << " from " << SailfishApp::pathTo("translations").toLocalFile();
+    qDebug() << "get locale from config=" <<langSet;
+    if (langSet == "default") locale = QLocale::system().name();
+    else locale = langSet;
+    qDebug() << "set app locale=" <<locale;
+    qDebug() << "system lang=" << QLocale::languageToString(QLocale::system().language());
+    qDebug() << "system country=" << QLocale::countryToString(QLocale::system().country());
+    if(translator.load(appname+"_"+locale, translationsDir)) {
+        qDebug() << "Successfuly loaded translation for locale "<< locale << " from " << translationsDir;
+        app->installTranslator(&translator);
     }
-    app->installTranslator(&translator);
+    else
+        qDebug() << "Couldn't load translation for locale "<< locale << " from " << translationsDir;
 
     qmlRegisterType<SearchEngine>("harbour.searchnemo.SearchEngine", 1, 0, "SearchEngine");
     qmlRegisterType<FileData>("harbour.searchnemo.FileData", 1, 0, "FileData");

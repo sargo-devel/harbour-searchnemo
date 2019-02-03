@@ -57,16 +57,16 @@ CONFIG += sailfishapp_i18n
 # planning to localize your app, remember to comment out the
 # following TRANSLATIONS line. And also do not forget to
 # modify the localized app name in the the .desktop file.
-TRANSLATIONS += translations/harbour-searchnemo-de_DE.ts
-TRANSLATIONS += translations/harbour-searchnemo-pl_PL.ts
-TRANSLATIONS += translations/harbour-searchnemo-en_US.ts
-TRANSLATIONS += translations/harbour-searchnemo-sv_SE.ts
-TRANSLATIONS += translations/harbour-searchnemo-it_IT.ts
-TRANSLATIONS += translations/harbour-searchnemo-es.ts
-TRANSLATIONS += translations/harbour-searchnemo-nl_NL.ts
-TRANSLATIONS += translations/harbour-searchnemo-nl_BE.ts
-TRANSLATIONS += translations/harbour-searchnemo-hu_HU.ts
-TRANSLATIONS += translations/harbour-searchnemo-ru_RU.ts
+TRANSLATIONS += translations/harbour-searchnemo_de_DE.ts
+TRANSLATIONS += translations/harbour-searchnemo_pl_PL.ts
+TRANSLATIONS += translations/harbour-searchnemo_en.ts
+TRANSLATIONS += translations/harbour-searchnemo_sv_SE.ts
+TRANSLATIONS += translations/harbour-searchnemo_it.ts
+TRANSLATIONS += translations/harbour-searchnemo_es.ts
+TRANSLATIONS += translations/harbour-searchnemo_nl.ts
+TRANSLATIONS += translations/harbour-searchnemo_nl_BE.ts
+TRANSLATIONS += translations/harbour-searchnemo_hu.ts
+TRANSLATIONS += translations/harbour-searchnemo_ru.ts
 
 #translations.files = translations/*.qm
 #translations.path = /usr/share/$${TARGET}
