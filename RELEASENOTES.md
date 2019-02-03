@@ -1,7 +1,11 @@
 
 # SearchNemo Release Notes
 
-## Version 0.6.0 (2018-12-10)
+## Version 0.6.1 (2019-02-03)
+* Updated translations: German, Spanish, Dutch, Dutch (Belgium)
+* Improved translations handling
+
+## Version 0.6.0 (2018-12-10) (Jolla Store 2018-12-10)
 * Share files with bluetooth, MMS, e-mail etc. (depending on MIME type)
 * Open directories with File manager (using os build-in manager)
 
