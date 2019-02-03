@@ -121,7 +121,7 @@
     </message>
     <message>
         <source>* Press and hold on search result to share a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Halten Sie das Suchergebnis gedrückt, um eine Datei zu teilen.</translation>
     </message>
     <message>
         <source>Profiles</source>
@@ -233,43 +233,43 @@
     </message>
     <message>
         <source>Search tips</source>
-        <translation type="unfinished"></translation>
+        <translation>Hinweise zur Suche</translation>
     </message>
     <message>
         <source>There are some possibilities to extend search functionality of this application by creating or expanding search profiles:</source>
-        <translation type="unfinished"></translation>
+        <translation>Es gibt einige Möglichkeiten, die Suchfunktionalität dieser Anwendung zu erweitern, indem Sie Suchprofile erstellen oder erweitern:</translation>
     </message>
     <message>
         <source>To search for SMS messages enable SQLITE section and add the following directory to the whitelist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Um nach SMS-Nachrichten zu suchen, aktivieren Sie den Abschnitt SQLITE und fügen Sie das folgende Verzeichnis zur Whitelist hinzu:</translation>
     </message>
     <message>
         <source>To search for e-mail messages enable TXT section, switch on the Automatic file type recognition option and add the following directory to the whitelist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Um nach E-Mail-Nachrichten zu suchen, aktivieren Sie den Abschnitt TXT, aktivieren Sie die Option Automatische Dateityperkennung und fügen Sie das folgende Verzeichnis zur Whitelist hinzu:</translation>
     </message>
     <message>
         <source>Limitations</source>
-        <translation type="unfinished"></translation>
+        <translation>Einschränkungen</translation>
     </message>
     <message>
         <source>SearchNemo runs with user nemo privileges and therefore has some limitations.</source>
-        <translation type="unfinished"></translation>
+        <translation>SearchNemo läuft mit Benutzer-Nemo-Rechten und hat daher einige Einschränkungen.</translation>
     </message>
     <message>
         <source>It has no access to any directories and files to which the nemo user has no access, especially:</source>
-        <translation type="unfinished"></translation>
+        <translation>Es hat keinen Zugriff auf Verzeichnisse und Dateien, auf die der nemo-Benutzer insbesondere keinen Zugriff hat:</translation>
     </message>
     <message>
         <source>It has no access to Contacts database</source>
-        <translation type="unfinished"></translation>
+        <translation>Es hat keinen Zugriff auf die Kontaktdatenbank.</translation>
     </message>
     <message>
         <source>It has no access to Calendar database</source>
-        <translation type="unfinished"></translation>
+        <translation>Es hat keinen Zugriff auf die Kalenderdatenbank.</translation>
     </message>
     <message>
         <source>The share file option also has no access to Contacts database</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Option Dateifreigabe hat auch keinen Zugriff auf die Datenbank der Kontakte.</translation>
     </message>
 </context>
 <context>
@@ -559,11 +559,11 @@
     </message>
     <message>
         <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Öffnen mit Dateimanager</translation>
     </message>
     <message>
         <source>Share</source>
-        <translation type="unfinished"></translation>
+        <translation>Teilen</translation>
     </message>
     <message>
         <source>File info</source>
@@ -1326,7 +1326,7 @@
     </message>
     <message>
         <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Öffnen mit Dateimanager</translation>
     </message>
     <message>
         <source>Open</source>
@@ -1334,7 +1334,7 @@
     </message>
     <message>
         <source>Share</source>
-        <translation type="unfinished"></translation>
+        <translation>Teilen</translation>
     </message>
     <message>
         <source>Remove from search results</source>
@@ -1513,7 +1513,7 @@
     </message>
     <message>
         <source>Share</source>
-        <translation type="unfinished"></translation>
+        <translation>Teilen</translation>
     </message>
 </context>
 </TS>

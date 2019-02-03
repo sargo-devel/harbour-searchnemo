@@ -121,7 +121,7 @@
     </message>
     <message>
         <source>* Press and hold on search result to share a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hou ingedrukt op een zoekresultaat om een bestand te delen.</translation>
     </message>
     <message>
         <source>Profiles</source>
@@ -233,43 +233,43 @@
     </message>
     <message>
         <source>Search tips</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoektips</translation>
     </message>
     <message>
         <source>There are some possibilities to extend search functionality of this application by creating or expanding search profiles:</source>
-        <translation type="unfinished"></translation>
+        <translation>Er zijn enkele mogelijkheden om de zoekfunctionaliteit van deze app uit te breiden door gebruik te maken van zoekprofielen:</translation>
     </message>
     <message>
         <source>To search for SMS messages enable SQLITE section and add the following directory to the whitelist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Om te zoeken naar sms-berichten, schakel je de SQLITE-sectie in en voeg je volgende map toe aan de witte lijst:</translation>
     </message>
     <message>
         <source>To search for e-mail messages enable TXT section, switch on the Automatic file type recognition option and add the following directory to the whitelist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Om naar e-mailberichten te zoeken, schakel je de TXT-sectie in, schakel je Automatische bestandstypeherkenning in en voeg je volgende map toe aan de witte lijst:</translation>
     </message>
     <message>
         <source>Limitations</source>
-        <translation type="unfinished"></translation>
+        <translation>Beperkingen</translation>
     </message>
     <message>
         <source>SearchNemo runs with user nemo privileges and therefore has some limitations.</source>
-        <translation type="unfinished"></translation>
+        <translation>ZoekNemo wordt uitgevoerd met de gebruikersrechten van gebruiker nemo en heeft dus enkele beperkingen.</translation>
     </message>
     <message>
         <source>It has no access to any directories and files to which the nemo user has no access, especially:</source>
-        <translation type="unfinished"></translation>
+        <translation>Het heeft geen toegang tot mappen en bestanden waartoe de gebruiker nemo geen toegang heeft, in het bijzonder:</translation>
     </message>
     <message>
         <source>It has no access to Contacts database</source>
-        <translation type="unfinished"></translation>
+        <translation>Het heeft geen toegang tot de Contactendatabase</translation>
     </message>
     <message>
         <source>It has no access to Calendar database</source>
-        <translation type="unfinished"></translation>
+        <translation>Het heeft geen toegang tot de Agendadatabase</translation>
     </message>
     <message>
         <source>The share file option also has no access to Contacts database</source>
-        <translation type="unfinished"></translation>
+        <translation>De optie voor bestanden delen heeft evenmin toegang tot de Contactendatabase</translation>
     </message>
 </context>
 <context>
@@ -559,11 +559,11 @@
     </message>
     <message>
         <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Openen met bestandsbeheerder</translation>
     </message>
     <message>
         <source>Share</source>
-        <translation type="unfinished"></translation>
+        <translation>Delen</translation>
     </message>
     <message>
         <source>File info</source>
@@ -1326,7 +1326,7 @@
     </message>
     <message>
         <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Openen met bestandsbeheerder</translation>
     </message>
     <message>
         <source>Open</source>
@@ -1334,7 +1334,7 @@
     </message>
     <message>
         <source>Share</source>
-        <translation type="unfinished"></translation>
+        <translation>Delen</translation>
     </message>
     <message>
         <source>Remove from search results</source>
@@ -1513,7 +1513,7 @@
     </message>
     <message>
         <source>Share</source>
-        <translation type="unfinished"></translation>
+        <translation>Delen</translation>
     </message>
 </context>
 </TS>

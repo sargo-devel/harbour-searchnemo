@@ -21,11 +21,11 @@
     </message>
     <message>
         <source>This program searches for a text in files stored locally on the device</source>
-        <translation>Dit programma zoekt naar tekst in lokaal opgeslagen bestanden op het apparaat</translation>
+        <translation>Dit programma zoekt achter tekst in lokaal opgeslagen bestanden op het apparaat</translation>
     </message>
     <message>
         <source>and presents results in a possibly useful form.</source>
-        <translation>en toond resultaten op een mogelijks nuttige manier.</translation>
+        <translation>en toont resultaten op een mogelijks nuttige manier.</translation>
     </message>
     <message>
         <source>License</source>
@@ -45,7 +45,7 @@
     </message>
     <message>
         <source>Special thanks for translators:</source>
-        <translation>Me’ dank aan de vertalers:</translation>
+        <translation>Met dank aan de vertalers:</translation>
     </message>
     <message>
         <source>Swedish</source>
@@ -65,7 +65,7 @@
     </message>
     <message>
         <source>Dutch</source>
-        <translation>Nederlands</translation>
+        <translation>Hollands</translation>
     </message>
     <message>
         <source>Dutch (Belgium)</source>
@@ -81,7 +81,7 @@
     </message>
     <message>
         <source>If you want to contribute to translate into your language, plese join in:</source>
-        <translation>Als ge wild bijdragen aan een vertaling in uw eigen taal, kunde hier meedoen:</translation>
+        <translation>Als ge wilt bijdragen aan een vertaling in uw eigen taal, kunde hier meedoen:</translation>
     </message>
     <message>
         <source>Translation service</source>
@@ -93,7 +93,7 @@
     </message>
     <message>
         <source>If you have as much fun using the app as I had when I created it, please consider donating to make us both happier with a well done job.</source>
-        <translation>Als ge evenveel plezier beleefd aan het gebruik van dezen app als ik bij ’t ontwikkelen ervan, overweegd dan een donatie voor ons allebei gelukkiger te maken met een schoon stukske werk.</translation>
+        <translation>Als ge evenveel plezier beleeft aan het gebruik van dezen app als ik bij het ontwikkelen ervan, overweegt dan een donatie voor ons allebei gelukkiger te maken met een schoon stukske werk.</translation>
     </message>
     <message>
         <source>Help and Tips</source>
@@ -113,15 +113,15 @@
     </message>
     <message>
         <source>* Press and hold on empty search field or choose another profile to clear search results.</source>
-        <translation>* Houd ingedrukt op een leeg zoekveld of kiesd een ander profiel voor de zoekresultaten te wissen.</translation>
+        <translation>* Houdt ingedrukt op een leeg zoekveld of kiest een ander profiel voor de zoekresultaten te wissen.</translation>
     </message>
     <message>
         <source>* Choosing profile via &apos;Profiles list&apos; doesn&apos;t delete search results.</source>
-        <translation>* Een profiel kiezen via de ‘Profiellijst’ verwijderd de zoekresultaten nie.</translation>
+        <translation>* Een profiel kiezen via de ‘Profiellijst’ verwijdert de zoekresultaten niet.</translation>
     </message>
     <message>
         <source>* Press and hold on search result to share a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Houdt ingedrukt op een zoekresultaat voor een bestand te delen.</translation>
     </message>
     <message>
         <source>Profiles</source>
@@ -129,23 +129,23 @@
     </message>
     <message>
         <source>Profiles give possibility to keep different search options under one short name.</source>
-        <translation>Profielen bieden de mogelijkheid voor verschillende zoekopdrachten onder ene korte naam bij t’houden.</translation>
+        <translation>Profielen bieden de mogelijkheid voor verschillende zoekopdrachten onder ene korte naam bij te houden.</translation>
     </message>
     <message>
         <source>Each profile may contain different search paths groupped as whitelist or blacklist of directories.</source>
-        <translation>Elk profiel kan verschillende zoekpaden bevatten, gegroepeerd als witte lijsten of zwarte lijsten van mappen.</translation>
+        <translation>Ieder profiel kan verschillende zoekpaden bevatten, gegroepeerd als witte lijsten of zwarte lijsten van mappen.</translation>
     </message>
     <message>
         <source>* The search always begins in a directory belonging to the whitelist and skips unneeded blacklisted subdirectories from the subtree.</source>
-        <translation>* ’t Zoeken begind altijd in een map op de witte lijst, en slaad onnodige submappen binnen de subboom op de zwarte lijst over.</translation>
+        <translation>* Het zoeken begint altijd in een map op de witte lijst, en slaat onnodige submappen binnen de subboom op de zwarte lijst over.</translation>
     </message>
     <message>
         <source>* The whitelist and the blacklist are independent, it means if the next directory from the whitelist is a subdirectory of one of dirs from the blacklist, the program will start to search there.</source>
-        <translation>* De witte en zwarte lijst zijn onafhankelijk. Dit betekent dat, als de volgende map van de witte lijst een submap van een van de mappen op de zwarte lijst is, het programma daar ga beginnen zoeken.</translation>
+        <translation>* De witte en zwarte lijst zijn onafhankelijk. Dit betekent dat, als de volgende map van de witte lijst een submap van een van de mappen op de zwarte lijst is, het programma daar gaat beginnen zoeken.</translation>
     </message>
     <message>
         <source>This gives a huge flexibility of creating own complex search paths.</source>
-        <translation>Dit bied een grote flexibiliteit voor uw eigen complexe zoekpaden te maken.</translation>
+        <translation>Dit biedt een grote flexibiliteit voor uw eigen complexe zoekpaden te maken.</translation>
     </message>
     <message>
         <source>Some example profiles are available in &apos;Profiles list&apos; menu.</source>
@@ -157,23 +157,23 @@
     </message>
     <message>
         <source>MIME type is a standard of description of the nature and format of a document.</source>
-        <translation>MIME-type is een standaardbeschrijving van d’eigenschappen en ’t formaat van een document.</translation>
+        <translation>MIME-type is een standaardbeschrijving van de eigenschappen en het formaat van een document.</translation>
     </message>
     <message>
         <source>It is a two-part identifier, e.g. text/plain.</source>
-        <translation>’t Is een tweedelige identificatie, bv. text/plain.</translation>
+        <translation>Het is een tweedelige identificatie, bv. text/plain.</translation>
     </message>
     <message>
         <source>Search engine has an option to identify file type by its MIME desription.</source>
-        <translation>De zoekmachine heefd een optie voor het bestandstype t’identificeren aan d’hand van de MIME-beschrijving.</translation>
+        <translation>De zoekmachine heeft een optie voor het bestandstype te identificeren aan de hand van de MIME-beschrijving.</translation>
     </message>
     <message>
         <source>It uses QMimeDatabase class from Qt library, which by default uses both the file name and content to make the recognition.</source>
-        <translation>Dit maakt gebruik van de QMimeDatabase-klasse uit de Qt-bibliotheek, die standaard zowel den bestandsnaam als den inhoud gebruikt voor het bestandstype t’herkennen.</translation>
+        <translation>Dit maakt gebruik van de QMimeDatabase-klasse uit de Qt-bibliotheek, die dat standaard zowel den bestandsnaam als den inhoud gebruikt voor het bestandstype te herkennen.</translation>
     </message>
     <message>
         <source>It means that change in the filename extension influences final file type identification.</source>
-        <translation>Dit betekend dat een wijziging in de bestandsextensie d’uiteindelijke identificatie van het bestandstype b’invloed.</translation>
+        <translation>Dit betekent dat een wijziging in de bestandsextensie de uiteindelijke identificatie van het bestandstype beïnvloedt.</translation>
     </message>
     <message>
         <source>Regular expressions (Regexp)</source>
@@ -185,7 +185,7 @@
     </message>
     <message>
         <source>Engine in this app uses &apos;QRegularExpression&apos; type which implements Perl-compatible (PCRE) regular expressions.</source>
-        <translation>Het zoekmachien in dezen app maakt gebruik van het type ‘QRegularExpression’, dat reguliere expressies compatibel met Perl implementeerd (PCRE).</translation>
+        <translation>Het zoekmachien in dezen app maakt gebruik van het type ‘QRegularExpression’, dat reguliere expressies compatibel met Perl implementeert (PCRE).</translation>
     </message>
     <message>
         <source>There are some rules used here:</source>
@@ -193,7 +193,7 @@
     </message>
     <message>
         <source>* Search is case sensitive by default. This can be changed inside Regexp pattern (e.g. &apos;(?i)hello&apos;).</source>
-        <translation>* Zoeken is standaard hoofdlettergevoelig. Dit kan worden gewijzigd binnen het regexp-patroon (bv. &apos;(?i)hallo&apos;).</translation>
+        <translation>* Zoeken is standaard hoofdlettergevoelig. Dit kan gewijzigd worden binnen het regexp-patroon (bv. &apos;(?i)hallo&apos;).</translation>
     </message>
     <message>
         <source>* Unicode properties are set by default. Character classes (e.g. \w \d) are unicode compatible.</source>
@@ -201,7 +201,7 @@
     </message>
     <message>
         <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
-        <translation>* Zoeken is ALTIJD regelg’oriënteerd, ong’acht de regexp-patrooninstellingen. Dit betekend dat regexp nooit op het ganse bestand word toegepast, enkel op aparte regels.</translation>
+        <translation>* Zoeken is ALTIJD regelgeoriënteerd, ongeacht de regexp-patrooninstellingen. Dit betekend dat regexp nooit op het ganse bestand wordt toegepast, enkel op aparte regels.</translation>
     </message>
     <message>
         <source>Reference:</source>
@@ -217,59 +217,59 @@
     </message>
     <message>
         <source>This fact has some implications:</source>
-        <translation>Dit heefd een aantal gevolgen:</translation>
+        <translation>Dit heeft een aantal gevolgen:</translation>
     </message>
     <message>
         <source>* It gives only original (English) names unless it finds localized names there.</source>
-        <translation>* Het geefd enkel d’oorspronkelijke (Engelse) namen weer, tenzij dat het gelokaliseerde namen vind.</translation>
+        <translation>* Het geeft enkel de oorspronkelijke (Engelse) namen weer, tenzij dat het gelokaliseerde namen vindt.</translation>
     </message>
     <message>
         <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
-        <translation>* Dit kan voor de gebruiker onverwachte resultaten weergeven, omdat het de volledigen tekst in deze bestanden controleerd.</translation>
+        <translation>* Dit kan voor de gebruiker onverwachte resultaten weergeven, omdat het de volledigen tekst in deze bestanden controleert.</translation>
     </message>
     <message>
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
-        <translation>* Dit kan nuttig zijn, bijvoorbeeld: zoeken naar ‘=’ gaad alle gevonden apps weergeven, zoeken naar ‘jolla’ gaad alle apps gemaakt door Jolla weergeven</translation>
+        <translation>* Dit kan nuttig zijn, bijvoorbeeld: zoeken achter ‘=’ gaat alle gevonden apps weergeven, zoeken achter ‘jolla’ gaat alle apps gemaakt door Jolla weergeven</translation>
     </message>
     <message>
         <source>Search tips</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoektips</translation>
     </message>
     <message>
         <source>There are some possibilities to extend search functionality of this application by creating or expanding search profiles:</source>
-        <translation type="unfinished"></translation>
+        <translation>Der zijn enkele mogelijkheden voor de zoekfunctionaliteit van dezen app uit te breiden door middel van zoekprofielen:</translation>
     </message>
     <message>
         <source>To search for SMS messages enable SQLITE section and add the following directory to the whitelist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Voor te zoeken achter sms-berichten, schakelt ge de SQLITE-sectie in en voegt ge volgende map toe aan de witte lijst:</translation>
     </message>
     <message>
         <source>To search for e-mail messages enable TXT section, switch on the Automatic file type recognition option and add the following directory to the whitelist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Voor te zoeken achter e-mailberichten, schakelt ge de TXT-sectie in, schakelt ge Automatische bestandstypeherkenning in en voegt ge volgende map toe aan de witte lijst:</translation>
     </message>
     <message>
         <source>Limitations</source>
-        <translation type="unfinished"></translation>
+        <translation>Beperkingen</translation>
     </message>
     <message>
         <source>SearchNemo runs with user nemo privileges and therefore has some limitations.</source>
-        <translation type="unfinished"></translation>
+        <translation>ZoekNemo wordt uitgevoerd met gebruikersprivileges van de gebruiker nemo, en heeft dus een aantal beperkingen.</translation>
     </message>
     <message>
         <source>It has no access to any directories and files to which the nemo user has no access, especially:</source>
-        <translation type="unfinished"></translation>
+        <translation>Het heeft geen toegang tot mappen en bestanden waartoe dat de gebruiker nemo geen toegang heeft, in het bijzonder:</translation>
     </message>
     <message>
         <source>It has no access to Contacts database</source>
-        <translation type="unfinished"></translation>
+        <translation>Het heeft geen toegang tot de Contactendatabank</translation>
     </message>
     <message>
         <source>It has no access to Calendar database</source>
-        <translation type="unfinished"></translation>
+        <translation>Het heeft geen toegang tot de Agendadatabank</translation>
     </message>
     <message>
         <source>The share file option also has no access to Contacts database</source>
-        <translation type="unfinished"></translation>
+        <translation>De optie voor bestanden delen heeft evenmin toegang tot de Contactendatabank</translation>
     </message>
 </context>
 <context>
@@ -287,7 +287,7 @@
     </message>
     <message>
         <source>If nothing happens, then the package is probably faulty.</source>
-        <translation>Als der niets gebeurd, is het pakket waarschijnlijk beschadigd.</translation>
+        <translation>Als der niets gebeurt, is het pakket waarschijnlijk beschadigd.</translation>
     </message>
     <message>
         <source>Open successful</source>
@@ -295,7 +295,7 @@
     </message>
     <message>
         <source>Sometimes the application stays in the background</source>
-        <translation>Soms blijfd den app in den achtergrond</translation>
+        <translation>Soms blijft den app in den achtergrond</translation>
     </message>
     <message>
         <source>Internal error</source>
@@ -303,15 +303,15 @@
     </message>
     <message>
         <source>File not found</source>
-        <translation>Bestand nie’ gevonden</translation>
+        <translation>Bestand niet gevonden</translation>
     </message>
     <message>
         <source>No application to open the file</source>
-        <translation>Geen app voor het bestand mee t’openen</translation>
+        <translation>Genen app voor het bestand mee te openen</translation>
     </message>
     <message>
         <source>xdg-open found no preferred application</source>
-        <translation>xdg-open kon geen voorkeursapp vinden</translation>
+        <translation>xdg-open kon gene voorkeursapp vinden</translation>
     </message>
     <message>
         <source>Action failed</source>
@@ -319,7 +319,7 @@
     </message>
     <message>
         <source>xdg-open not found</source>
-        <translation>xdg-open nie’ gevonden</translation>
+        <translation>xdg-open niet gevonden</translation>
     </message>
     <message>
         <source>xdg-open crash?</source>
@@ -365,7 +365,7 @@
     </message>
     <message>
         <source>Removing directory from list</source>
-        <translation>Map word verwijderd uit lijst</translation>
+        <translation>Map wordt verwijderd uit lijst</translation>
     </message>
     <message>
         <source>Whitelist directories</source>
@@ -396,11 +396,11 @@
     </message>
     <message>
         <source>Android Storage not found</source>
-        <translation>Android-opslag nie’ gevonden</translation>
+        <translation>Android-opslag niet gevonden</translation>
     </message>
     <message>
         <source>SD Card not found</source>
-        <translation>SD-kaart nie’ gevonden</translation>
+        <translation>SD-kaart niet gevonden</translation>
     </message>
     <message>
         <source>Home</source>
@@ -435,7 +435,7 @@
     </message>
     <message>
         <source>Select directories by long press</source>
-        <translation>Selecteerd mappen door der lang op te drukken</translation>
+        <translation>Selecteert mappen door der lang op te drukken</translation>
     </message>
     <message>
         <source>Path:</source>
@@ -477,7 +477,7 @@
     <name>FileData</name>
     <message>
         <source>File does not exist</source>
-        <translation>Bestand besta nie</translation>
+        <translation>Bestand bestaat niet</translation>
     </message>
     <message>
         <source>block device</source>
@@ -559,11 +559,11 @@
     </message>
     <message>
         <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Openen met bestandsbeheerder</translation>
     </message>
     <message>
         <source>Share</source>
-        <translation type="unfinished"></translation>
+        <translation>Delen</translation>
     </message>
     <message>
         <source>File info</source>
@@ -603,11 +603,11 @@
     </message>
     <message>
         <source>File can&apos;t be opened</source>
-        <translation>Bestand kan nie worden g’opend</translation>
+        <translation>Bestand kan niet geopend worden</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
-        <translation>Dit type bestand kan nie worden g’opend.</translation>
+        <translation>Dit type bestand kan niet geopend worden.</translation>
     </message>
 </context>
 <context>
@@ -618,18 +618,18 @@
     </message>
     <message>
         <source>File can&apos;t be opened</source>
-        <translation>Bestand kan nie worden g’opend</translation>
+        <translation>Bestand kan niet geopend worden</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
-        <translation>Dit type bestand kan nie worden g’opend.</translation>
+        <translation>Dit type bestand kan niet geopend worden.</translation>
     </message>
 </context>
 <context>
     <name>NotesView</name>
     <message>
         <source>Text not found.</source>
-        <translation>Tekst nie’ gevonden</translation>
+        <translation>Tekst niet gevonden</translation>
     </message>
     <message>
         <source>Open Notes</source>
@@ -637,11 +637,11 @@
     </message>
     <message>
         <source>File can&apos;t be opened</source>
-        <translation>Bestand kan nie worden g’opend</translation>
+        <translation>Bestand kan niet geopend worden</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
-        <translation>Dit type bestand kan nie worden g’opend.</translation>
+        <translation>Dit type bestand kan niet geopend worden.</translation>
     </message>
     <message>
         <source>Note nr</source>
@@ -668,7 +668,7 @@
     </message>
     <message>
         <source>Search directories lists</source>
-        <translation>Lijsten me’ zoekmappen</translation>
+        <translation>Lijsten met zoekmappen</translation>
     </message>
     <message>
         <source>Whitelist directories:</source>
@@ -688,7 +688,7 @@
     </message>
     <message>
         <source>Enables regular expressions in searched text</source>
-        <translation>Schakeld regulierd expressies in in doorzochten tekst</translation>
+        <translation>Schakelt regulierd expressies in in doorzochten tekst</translation>
     </message>
     <message>
         <source>Search hidden files</source>
@@ -696,7 +696,7 @@
     </message>
     <message>
         <source>Enables searching inside hidden files and hidden directories</source>
-        <translation>Schakeld zoeken binnen verborgen bestanden en mappen in</translation>
+        <translation>Schakelt zoeken binnen verborgen bestanden en mappen in</translation>
     </message>
     <message>
         <source>Follow symbolic links</source>
@@ -712,7 +712,7 @@
     </message>
     <message>
         <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
-        <translation>Toond enkel het eerste voorkomen van de gevonden tekst in een bestand en toond totaal aantal voorkomens tussen [ ]-haakjes. Alle resultaten zijn beschikbaar in het detailoverzicht</translation>
+        <translation>Toont enkel het eerste voorkomen van de gevonden tekst in een bestand en toont totaal aantal voorkomens tussen [ ]-haakjes. Alle resultaten zijn beschikbaar in het detailoverzicht</translation>
     </message>
     <message>
         <source>Search results</source>
@@ -732,7 +732,7 @@
     </message>
     <message>
         <source>Enables automatic recognition of file type by both filename extension and content. File is assigned to a section by its MIME type. See details in &apos;About&apos; menu.</source>
-        <translation>Schakeld automatische herkenning van bestandstype op basis van bestandsextensie en -inhoud in. Bestanden worden op basis van MIME-inhoud aan een sectie toegewezen. Bekijkt het menu ‘Over’ voor meer informatie.</translation>
+        <translation>Schakelt automatische herkenning van bestandstype op basis van bestandsextensie en -inhoud in. Bestanden worden op basis van MIME-inhoud aan een sectie toegewezen. Bekijkt het menu ‘Over’ voor meer informatie.</translation>
     </message>
     <message>
         <source>Result sections</source>
@@ -744,11 +744,11 @@
     </message>
     <message>
         <source>Enables searching inside files of type: text/plain and its derivatives</source>
-        <translation>Schakeld zoeken in binnen bestanden van type: text/plain en afgeleiden daarvan</translation>
+        <translation>Schakelt zoeken in binnen bestanden van type: text/plain en afgeleiden daarvan</translation>
     </message>
     <message>
         <source>Enables searching inside *.txt files</source>
-        <translation>Schakeld zoeken binnen *.txt-bestanden in</translation>
+        <translation>Schakelt zoeken binnen *.txt-bestanden in</translation>
     </message>
     <message>
         <source>Enable HTML section</source>
@@ -756,11 +756,11 @@
     </message>
     <message>
         <source>Enables searching inside files of type: text/html and its derivatives</source>
-        <translation>Schakeld zoeken in binnen bestanden van type: text/html en afgeleiden daarvan</translation>
+        <translation>Schakelt zoeken in binnen bestanden van type: text/html en afgeleiden daarvan</translation>
     </message>
     <message>
         <source>Enables searching inside *.html, *.htm files</source>
-        <translation>Schakeld zoeken binnen *.html- en *.htm-bestanden in</translation>
+        <translation>Schakelt zoeken binnen *.html- en *.htm-bestanden in</translation>
     </message>
     <message>
         <source>Enable SRC section</source>
@@ -768,11 +768,11 @@
     </message>
     <message>
         <source>Enables searching inside files of type: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml and their derivatives</source>
-        <translation>Schakeld zoeken in binnen bestanden van type: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml en afgeleiden daarvan</translation>
+        <translation>Schakelt zoeken in binnen bestanden van type: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml en afgeleiden daarvan</translation>
     </message>
     <message>
         <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
-        <translation>Schakeld zoeken binnen *.cpp-, *.c-, *.h-, *.py-, *.sh-, *.qml- en *.js-bestanden in</translation>
+        <translation>Schakelt zoeken binnen *.cpp-, *.c-, *.h-, *.py-, *.sh-, *.qml- en *.js-bestanden in</translation>
     </message>
     <message>
         <source>Enable APPS section</source>
@@ -780,11 +780,11 @@
     </message>
     <message>
         <source>Enables searching inside files of type: application/x-desktop. This is an experimental feature. See details in &apos;About&apos; menu.</source>
-        <translation>Schakeld zoeken in binnen bestanden van type: application/x-desktop. Dit is een experimentele functie. Bekijkt het menu ‘Over’ voor meer informatie.</translation>
+        <translation>Schakelt zoeken in binnen bestanden van type: application/x-desktop. Dit is een experimentele functie. Bekijkt het menu ‘Over’ voor meer informatie.</translation>
     </message>
     <message>
         <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
-        <translation>Schakeld speciaal zoeken binnen *.desktop-bestanden in. Dit is een experimentele functie. Bekijkt het menu ‘Over’ voor meer informatie.</translation>
+        <translation>Schakelt speciaal zoeken binnen *.desktop-bestanden in. Dit is een experimentele functie. Bekijkt het menu ‘Over’ voor meer informatie.</translation>
     </message>
     <message>
         <source>Run apps directly</source>
@@ -792,7 +792,7 @@
     </message>
     <message>
         <source>Enables direct app launch from APPS section on the search page</source>
-        <translation>Schakeld rechtstreeks opstarten van apps via de APPS-sectie op de zoekpagina in</translation>
+        <translation>Schakelt rechtstreeks opstarten van apps via de APPS-sectie op de zoekpagina in</translation>
     </message>
     <message>
         <source>Enable SQLITE section</source>
@@ -800,11 +800,11 @@
     </message>
     <message>
         <source>Enables searching inside files of type: application/x-sqlite3 and its derivatives</source>
-        <translation>Schakeld zoeken in binnen bestanden van type: application/x-sqlite3 en afgeleiden daarvan</translation>
+        <translation>Schakelt zoeken in binnen bestanden van type: application/x-sqlite3 en afgeleiden daarvan</translation>
     </message>
     <message>
         <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
-        <translation>Schakeld zoeken binnen *.sqlite-, *.sqlite3- en *.db-bestanden in</translation>
+        <translation>Schakelt zoeken binnen *.sqlite-, *.sqlite3- en *.db-bestanden in</translation>
     </message>
     <message>
         <source>Enable NOTES section</source>
@@ -812,7 +812,7 @@
     </message>
     <message>
         <source>Enables searching inside Notes application database</source>
-        <translation>Schakeld zoeken binnen database van Notities in</translation>
+        <translation>Schakelt zoeken binnen database van Notities in</translation>
     </message>
     <message>
         <source>Enable Files and Directories sections</source>
@@ -820,7 +820,7 @@
     </message>
     <message>
         <source>Enables searching for file and directory names</source>
-        <translation>Schakeld zoeken naar bestands- en mapnamen in</translation>
+        <translation>Schakelt zoeken achter bestands- en mapnamen in</translation>
     </message>
 </context>
 <context>
@@ -831,7 +831,7 @@
     </message>
     <message>
         <source>Name exists. Try another one...</source>
-        <translation>Naam bestaad al. Probeerd der nen anderen…</translation>
+        <translation>Naam bestaat al. Probeert der nen anderen…</translation>
     </message>
     <message>
         <source>Profiles list</source>
@@ -863,7 +863,7 @@
     </message>
     <message>
         <source>Deleting profile</source>
-        <translation>Profiel word verwijderd</translation>
+        <translation>Profiel wordt verwijderd</translation>
     </message>
     <message>
         <source>Accept</source>
@@ -903,7 +903,7 @@
     </message>
     <message>
         <source>If such profiles exist, they will be overwritten.</source>
-        <translation>Indien zulke profielen al bestaan, worden ze overschreven.</translation>
+        <translation>Indien dat zo’n profielen al bestaan, worden ze overschreven.</translation>
     </message>
 </context>
 <context>
@@ -946,7 +946,7 @@
     </message>
     <message>
         <source>(Strobe light not detected)</source>
-        <translation>(Stroboscoop nie’ gedetecteerd)</translation>
+        <translation>(Stroboscoop niet gedetecteerd)</translation>
     </message>
     <message>
         <source>(Strobe light detected) </source>
@@ -958,7 +958,7 @@
     </message>
     <message>
         <source>(Manual, return light not detected)</source>
-        <translation>(Handmatig, teruglicht nie’ gedetecteerd)</translation>
+        <translation>(Handmatig, teruglicht niet gedetecteerd)</translation>
     </message>
     <message>
         <source>(Manual, return light detected)</source>
@@ -970,7 +970,7 @@
     </message>
     <message>
         <source>(Auto, return light not detected)</source>
-        <translation>(Automatisch, teruglicht nie’ gedetecteerd)</translation>
+        <translation>(Automatisch, teruglicht niet gedetecteerd)</translation>
     </message>
     <message>
         <source>(Auto, return light detected)</source>
@@ -982,7 +982,7 @@
     </message>
     <message>
         <source>(Red eye reduction mode return light not detected)</source>
-        <translation>(Rode-ogenreductiemodus, teruglicht nie’ gedetecteerd)</translation>
+        <translation>(Rode-ogenreductiemodus, teruglicht niet gedetecteerd)</translation>
     </message>
     <message>
         <source>(Red eye reduction mode return light detected)</source>
@@ -994,7 +994,7 @@
     </message>
     <message>
         <source>(Manual, red eye reduction mode, return light not detected)</source>
-        <translation>(Handmatig, rode-ogenreductiemodus, teruglicht nie’ gedetecteerd)</translation>
+        <translation>(Handmatig, rode-ogenreductiemodus, teruglicht niet gedetecteerd)</translation>
     </message>
     <message>
         <source>(Red eye reduction mode, return light detected)</source>
@@ -1006,7 +1006,7 @@
     </message>
     <message>
         <source>(Auto, red eye reduction mode, return light not detected)</source>
-        <translation>(Automatisch, rode-ogenreductiemodus, teruglicht nie’ gedetecteerd)</translation>
+        <translation>(Automatisch, rode-ogenreductiemodus, teruglicht niet gedetecteerd)</translation>
     </message>
     <message>
         <source>(Auto, red eye reduction mode, return light detected)</source>
@@ -1290,7 +1290,7 @@
     </message>
     <message>
         <source>Searching</source>
-        <translation>Bezig me’ zoeken</translation>
+        <translation>Bezig met zoeken</translation>
     </message>
     <message>
         <source>About</source>
@@ -1310,7 +1310,7 @@
     </message>
     <message>
         <source>Search %1</source>
-        <translation>Zoeken naar %1</translation>
+        <translation>Zoeken achter %1</translation>
     </message>
     <message>
         <source>Profile:</source>
@@ -1326,7 +1326,7 @@
     </message>
     <message>
         <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Openen met bestandsbeheerder</translation>
     </message>
     <message>
         <source>Open</source>
@@ -1334,7 +1334,7 @@
     </message>
     <message>
         <source>Share</source>
-        <translation type="unfinished"></translation>
+        <translation>Delen</translation>
     </message>
     <message>
         <source>Remove from search results</source>
@@ -1342,7 +1342,7 @@
     </message>
     <message>
         <source>Removing from search results</source>
-        <translation>Word verwijderd uit zoekresultaten</translation>
+        <translation>Wordt verwijderd uit zoekresultaten</translation>
     </message>
     <message>
         <source>SearchNemo</source>
@@ -1350,11 +1350,11 @@
     </message>
     <message>
         <source>File can&apos;t be opened</source>
-        <translation>Bestand kan nie worden g’opend</translation>
+        <translation>Bestand kan niet geopend worden</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
-        <translation>Dit type bestand kan nie worden g’opend.</translation>
+        <translation>Dit type bestand kan niet geopend worden</translation>
     </message>
 </context>
 <context>
@@ -1411,7 +1411,7 @@
     </message>
     <message>
         <source>All installed applications</source>
-        <translation>Alle g’installeerde apps</translation>
+        <translation>Alle geïnstalleerde apps</translation>
     </message>
     <message>
         <source>Entire tree</source>
@@ -1419,7 +1419,7 @@
     </message>
     <message>
         <source>Entire dir tree. Warning: very long search</source>
-        <translation>Volledige mapboom. Waarschuwing: zeer lange zoekopdracht</translation>
+        <translation>Volledige mapboom. Waarschuwing: vree lange zoekopdracht</translation>
     </message>
 </context>
 <context>
@@ -1438,7 +1438,7 @@
     </message>
     <message>
         <source>This profile will be used on the application startup</source>
-        <translation>Dit profiel ga worden gebruikt bij het opstarten van den app</translation>
+        <translation>Dit profiel gaat gebruikt worden bij het opstarten van den app</translation>
     </message>
     <message>
         <source>Language:</source>
@@ -1446,7 +1446,7 @@
     </message>
     <message>
         <source>Note: Change of this parameter requires restart of the application</source>
-        <translation>Let op: den app moet worden herstart voor deze wijziging door te voeren</translation>
+        <translation>Let op: den app moet herstart worden voor deze wijziging door te voeren</translation>
     </message>
 </context>
 <context>
@@ -1460,7 +1460,7 @@
     <name>SqlView</name>
     <message>
         <source>Text not found.</source>
-        <translation>Tekst nie’ gevonden.</translation>
+        <translation>Tekst niet gevonden.</translation>
     </message>
     <message>
         <source>Open </source>
@@ -1468,11 +1468,11 @@
     </message>
     <message>
         <source>File can&apos;t be opened</source>
-        <translation>Bestand kan nie worden g’opend</translation>
+        <translation>Bestand kan niet geopend worden</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
-        <translation>Dit type bestand kan nie worden g’opend.</translation>
+        <translation>Dit type bestand kan niet geopend worden</translation>
     </message>
     <message>
         <source>Show complete record</source>
@@ -1497,7 +1497,7 @@
     <name>TxtView</name>
     <message>
         <source>Text not found.</source>
-        <translation>Tekst nie’ gevonden</translation>
+        <translation>Tekst niet gevonden</translation>
     </message>
     <message>
         <source>Open</source>
@@ -1505,15 +1505,15 @@
     </message>
     <message>
         <source>File can&apos;t be opened</source>
-        <translation>Bestand kan nie worden g’opend</translation>
+        <translation>Bestand kan niet geopend worden</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
-        <translation>Dit type bestand kan nie worden g’opend.</translation>
+        <translation>Dit type bestand kan niet geopend worden</translation>
     </message>
     <message>
         <source>Share</source>
-        <translation type="unfinished"></translation>
+        <translation>Delen</translation>
     </message>
 </context>
 </TS>

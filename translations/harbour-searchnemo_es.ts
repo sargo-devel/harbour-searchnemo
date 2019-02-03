@@ -13,7 +13,7 @@
     </message>
     <message>
         <source>Text and files search tool</source>
-        <translation>Herramienta para buscar texto y ficheros</translation>
+        <translation>Herramienta para buscar texto y archivos</translation>
     </message>
     <message>
         <source>Description</source>
@@ -21,7 +21,7 @@
     </message>
     <message>
         <source>This program searches for a text in files stored locally on the device</source>
-        <translation>Este programa busca texto en los ficheros almacenados localmente en el dispositivo</translation>
+        <translation>Este programa busca texto en los archivos almacenados localmente en el dispositivo</translation>
     </message>
     <message>
         <source>and presents results in a possibly useful form.</source>
@@ -53,7 +53,7 @@
     </message>
     <message>
         <source>Russian</source>
-        <translation type="unfinished"></translation>
+        <translation>Ruso</translation>
     </message>
     <message>
         <source>Spanish</source>
@@ -69,7 +69,7 @@
     </message>
     <message>
         <source>Dutch (Belgium)</source>
-        <translation type="unfinished"></translation>
+        <translation>Holandés (Bélgica)</translation>
     </message>
     <message>
         <source>Hungarian</source>
@@ -121,7 +121,7 @@
     </message>
     <message>
         <source>* Press and hold on search result to share a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Mantén pulsado en buscar resultado para compartir un archivo.</translation>
     </message>
     <message>
         <source>Profiles</source>
@@ -153,7 +153,7 @@
     </message>
     <message>
         <source>File type (MIME)</source>
-        <translation>Tipo de fichero (MIME)</translation>
+        <translation>Tipo de archivo (MIME)</translation>
     </message>
     <message>
         <source>MIME type is a standard of description of the nature and format of a document.</source>
@@ -165,15 +165,15 @@
     </message>
     <message>
         <source>Search engine has an option to identify file type by its MIME desription.</source>
-        <translation>El motor de búsqueda tiene una opción para identificar el tipo de fichero por su descripción MIME.</translation>
+        <translation>El motor de búsqueda tiene una opción para identificar el tipo de archivo por su descripción MIME.</translation>
     </message>
     <message>
         <source>It uses QMimeDatabase class from Qt library, which by default uses both the file name and content to make the recognition.</source>
-        <translation>Usa la clase QMimeDatabase de la librería Qt, la cuál utiliza por defecto tanto el nombre del fichero como el contenido para el reconocimiento.</translation>
+        <translation>Usa la clase QMimeDatabase de la librería Qt, la cuál utiliza por defecto tanto el nombre del archivo como el contenido para el reconocimiento.</translation>
     </message>
     <message>
         <source>It means that change in the filename extension influences final file type identification.</source>
-        <translation>Significa que cambiar la extensión del nombre de fichero influye en la identificación final del tipo de fichero.</translation>
+        <translation>Significa que cambiar la extensión del nombre de archivo influye en la identificación final del tipo de archivo.</translation>
     </message>
     <message>
         <source>Regular expressions (Regexp)</source>
@@ -201,7 +201,7 @@
     </message>
     <message>
         <source>* Search is ALWAYS line oriented regardless Regexp pattern settings. It means that Regexp is never applied to entire file, it operates on single lines.</source>
-        <translation>* La búsqueda SIEMPRE está orientada a la línea con independencia de la configuración del patrón Regexp. Esto significa que Regexp nunca se va a aplicar al fichero completo, sólo a líneas individuales.</translation>
+        <translation>* La búsqueda SIEMPRE está orientada a la línea con independencia de la configuración del patrón Regexp. Esto significa que Regexp nunca se va a aplicar al archivo completo, sólo a líneas individuales.</translation>
     </message>
     <message>
         <source>Reference:</source>
@@ -213,7 +213,7 @@
     </message>
     <message>
         <source>To find an application the program searches through .desktop files in a directory given by the whitelist and it can only find a text included in these files.</source>
-        <translation>Para buscar una aplicación el programa analiza los ficheros .desktop de un directorio de la lista blanca y sólo puede buscar texto incluido en estos archivos.</translation>
+        <translation>Para buscar una aplicación el programa analiza los archivos .desktop de un directorio de la lista blanca y sólo puede buscar texto incluido en estos archivos.</translation>
     </message>
     <message>
         <source>This fact has some implications:</source>
@@ -225,7 +225,7 @@
     </message>
     <message>
         <source>* It can give results not expected by user, because it checks the entire text in these files.</source>
-        <translation>* Puede devolver resultados inesperados porque comprueba el texto completo en estos ficheros.</translation>
+        <translation>* Puede devolver resultados inesperados porque comprueba el texto completo en estos archivos.</translation>
     </message>
     <message>
         <source>* This can be useful, for example: searching for &apos;=&apos; will return all found apps, searching for &apos;jolla&apos; will give all apps created by Jolla</source>
@@ -233,50 +233,50 @@
     </message>
     <message>
         <source>Search tips</source>
-        <translation type="unfinished"></translation>
+        <translation>Consejos de búsqueda</translation>
     </message>
     <message>
         <source>There are some possibilities to extend search functionality of this application by creating or expanding search profiles:</source>
-        <translation type="unfinished"></translation>
+        <translation>Es posible extender la funcionalidad de búsqueda en esta aplicación creando o ampliación perfiles:</translation>
     </message>
     <message>
         <source>To search for SMS messages enable SQLITE section and add the following directory to the whitelist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Para buscar mensajes SMS activa la sección SQLITE y añade el siguiente directorio a la lista blanca:</translation>
     </message>
     <message>
         <source>To search for e-mail messages enable TXT section, switch on the Automatic file type recognition option and add the following directory to the whitelist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Para buscar correos activa la sección TXT, cambia a automático la opción de reconocimiento de tipo de archivo y añade el siguiente directorio a la lista blanca:</translation>
     </message>
     <message>
         <source>Limitations</source>
-        <translation type="unfinished"></translation>
+        <translation>Limitaciones</translation>
     </message>
     <message>
         <source>SearchNemo runs with user nemo privileges and therefore has some limitations.</source>
-        <translation type="unfinished"></translation>
+        <translation>SearchNemo se ejecuta con privilegios de usuario nemo y por tanto, tiene limitaciones.</translation>
     </message>
     <message>
         <source>It has no access to any directories and files to which the nemo user has no access, especially:</source>
-        <translation type="unfinished"></translation>
+        <translation>No tiene acceso a ningún directorio o archivo a los que el usuario nemo no tiene acceso, especialmente:</translation>
     </message>
     <message>
         <source>It has no access to Contacts database</source>
-        <translation type="unfinished"></translation>
+        <translation>No tiene acceso a la base de datos Contactos</translation>
     </message>
     <message>
         <source>It has no access to Calendar database</source>
-        <translation type="unfinished"></translation>
+        <translation>No tiene acceso a la base de datos Calendario</translation>
     </message>
     <message>
         <source>The share file option also has no access to Contacts database</source>
-        <translation type="unfinished"></translation>
+        <translation>La opción compartir archivo tampoco tiene acceso a la base de datos Contactos</translation>
     </message>
 </context>
 <context>
     <name>AnimatedHeader</name>
     <message>
         <source>File info</source>
-        <translation>Info fichero</translation>
+        <translation>Info archivo</translation>
     </message>
 </context>
 <context>
@@ -303,11 +303,11 @@
     </message>
     <message>
         <source>File not found</source>
-        <translation>Fichero no encontrado</translation>
+        <translation>Archivo no encontrado</translation>
     </message>
     <message>
         <source>No application to open the file</source>
-        <translation>No existe aplicación para abrir el fichero</translation>
+        <translation>No existe aplicación para abrir el archivo</translation>
     </message>
     <message>
         <source>xdg-open found no preferred application</source>
@@ -477,7 +477,7 @@
     <name>FileData</name>
     <message>
         <source>File does not exist</source>
-        <translation>El fichero no existe</translation>
+        <translation>El archivo no existe</translation>
     </message>
     <message>
         <source>block device</source>
@@ -512,7 +512,7 @@
     <name>FileInfoColumn</name>
     <message>
         <source>File name</source>
-        <translation>Nombre de fichero</translation>
+        <translation>Nombre de archivo</translation>
     </message>
     <message>
         <source>Location</source>
@@ -559,15 +559,15 @@
     </message>
     <message>
         <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir con gestor de archivos</translation>
     </message>
     <message>
         <source>Share</source>
-        <translation type="unfinished"></translation>
+        <translation>Compartir</translation>
     </message>
     <message>
         <source>File info</source>
-        <translation>Info del fichero</translation>
+        <translation>Info del archivo</translation>
     </message>
     <message>
         <source>Location</source>
@@ -603,11 +603,11 @@
     </message>
     <message>
         <source>File can&apos;t be opened</source>
-        <translation>No se puede abrir el fichero</translation>
+        <translation>No se puede abrir el archivo</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
-        <translation>Este tipo de fichero no se puede abrir.</translation>
+        <translation>Este tipo de archivo no se puede abrir.</translation>
     </message>
 </context>
 <context>
@@ -618,11 +618,11 @@
     </message>
     <message>
         <source>File can&apos;t be opened</source>
-        <translation>No se puede abrir el fichero</translation>
+        <translation>No se puede abrir el archivo</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
-        <translation>Este tipo de fichero no se puede abrir.</translation>
+        <translation>Este tipo de archivo no se puede abrir.</translation>
     </message>
 </context>
 <context>
@@ -637,11 +637,11 @@
     </message>
     <message>
         <source>File can&apos;t be opened</source>
-        <translation>No se puede abrir el fichero</translation>
+        <translation>No se puede abrir el archivo</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
-        <translation>Este tipo de fichero no se puede abrir.</translation>
+        <translation>Este tipo de archivo no se puede abrir.</translation>
     </message>
     <message>
         <source>Note nr</source>
@@ -692,11 +692,11 @@
     </message>
     <message>
         <source>Search hidden files</source>
-        <translation>Buscar en ficheros ocultos</translation>
+        <translation>Buscar en archivos ocultos</translation>
     </message>
     <message>
         <source>Enables searching inside hidden files and hidden directories</source>
-        <translation>Permite la búsqueda dentro de ficheros y directorios ocultos</translation>
+        <translation>Permite la búsqueda dentro de archivos y directorios ocultos</translation>
     </message>
     <message>
         <source>Follow symbolic links</source>
@@ -712,7 +712,7 @@
     </message>
     <message>
         <source>Shows only first match of found text in a file and displays number of all hits in [ ] brackets. All results can be viewed in detailed view</source>
-        <translation>Sólo muestra la primera coincidencia del texto encontrado en el fichero y entre corchetes [] el número de coincidencias. En la vista detallada se muestran todos los resultados</translation>
+        <translation>Sólo muestra la primera coincidencia del texto encontrado en el archivo y entre corchetes [] el número de coincidencias. En la vista detallada se muestran todos los resultados</translation>
     </message>
     <message>
         <source>Search results</source>
@@ -724,15 +724,15 @@
     </message>
     <message>
         <source>File type options</source>
-        <translation>Opciones del tipo de fichero</translation>
+        <translation>Opciones del tipo de archivo</translation>
     </message>
     <message>
         <source>Automatic file type recognition</source>
-        <translation>Reconocimiento automático del tipo de fichero</translation>
+        <translation>Reconocimiento automático del tipo de archivo</translation>
     </message>
     <message>
         <source>Enables automatic recognition of file type by both filename extension and content. File is assigned to a section by its MIME type. See details in &apos;About&apos; menu.</source>
-        <translation>Permite el reconocimiento automático del tipo de fichero tanto por la extensión como por el contenido. El fichero se asigna a una sección por su tipo de MIME. Consulta detalles en el menú &apos;Acerca de&apos;.</translation>
+        <translation>Permite el reconocimiento automático del tipo de archivo tanto por la extensión como por el contenido. El archivo se asigna a una sección por su tipo de MIME. Consulta detalles en el menú &apos;Acerca de&apos;.</translation>
     </message>
     <message>
         <source>Result sections</source>
@@ -744,11 +744,11 @@
     </message>
     <message>
         <source>Enables searching inside files of type: text/plain and its derivatives</source>
-        <translation>Permite la búsqueda dentro de ficheros de tipo: texto/plano y sus derivados</translation>
+        <translation>Permite la búsqueda dentro de archivos de tipo: texto/plano y sus derivados</translation>
     </message>
     <message>
         <source>Enables searching inside *.txt files</source>
-        <translation>Permite la búsqueda dentro de ficheros *.txt</translation>
+        <translation>Permite la búsqueda dentro de archivos *.txt</translation>
     </message>
     <message>
         <source>Enable HTML section</source>
@@ -756,11 +756,11 @@
     </message>
     <message>
         <source>Enables searching inside files of type: text/html and its derivatives</source>
-        <translation>Permite la búsqueda dentro de ficheros de tipo: texto/html y sus derivados</translation>
+        <translation>Permite la búsqueda dentro de archivos de tipo: texto/html y sus derivados</translation>
     </message>
     <message>
         <source>Enables searching inside *.html, *.htm files</source>
-        <translation>Permite la búsqueda en ficheros *.html, *.htm</translation>
+        <translation>Permite la búsqueda en archivos *.html, *.htm</translation>
     </message>
     <message>
         <source>Enable SRC section</source>
@@ -768,11 +768,11 @@
     </message>
     <message>
         <source>Enables searching inside files of type: text/x-csrc, text/x-python, application/x-shellscript, text/x-qml and their derivatives</source>
-        <translation>Permite la búsqueda dentro de ficheros de tipo: texto/x-csrc, texto/x-python, aplicación/x-shellscript, texto/x-qml y sus derivados</translation>
+        <translation>Permite la búsqueda dentro de archivos de tipo: texto/x-csrc, texto/x-python, aplicación/x-shellscript, texto/x-qml y sus derivados</translation>
     </message>
     <message>
         <source>Enables searching inside *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js files</source>
-        <translation>Permite la búsqueda en ficheros *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js</translation>
+        <translation>Permite la búsqueda en archivos *.cpp, *.c, *.h, *.py, *.sh, *.qml, *.js</translation>
     </message>
     <message>
         <source>Enable APPS section</source>
@@ -780,11 +780,11 @@
     </message>
     <message>
         <source>Enables searching inside files of type: application/x-desktop. This is an experimental feature. See details in &apos;About&apos; menu.</source>
-        <translation>Permite la búsqueda dentro de ficheros tipo: aplicación/x-desktop. Esta es una funcionalidad experimental. Consulta los detalles en &apos;Acerca de&apos;.</translation>
+        <translation>Permite la búsqueda dentro de archivos tipo: aplicación/x-desktop. Esta es una funcionalidad experimental. Consulta los detalles en &apos;Acerca de&apos;.</translation>
     </message>
     <message>
         <source>Enables special searching inside *.desktop files. This is an experimental feature. See details in &apos;About&apos; menu.</source>
-        <translation>Permite una búsqueda especial dentro de ficheros *.desktop. Esta es una funcionalidad experimental. Consulta los detalles en &apos;Acerca de&apos;.</translation>
+        <translation>Permite una búsqueda especial dentro de archivos *.desktop. Esta es una funcionalidad experimental. Consulta los detalles en &apos;Acerca de&apos;.</translation>
     </message>
     <message>
         <source>Run apps directly</source>
@@ -800,11 +800,11 @@
     </message>
     <message>
         <source>Enables searching inside files of type: application/x-sqlite3 and its derivatives</source>
-        <translation>Permite la búsqueda dentro de ficheros de tipo: aplicación/x-sqlite3 y sus derivados</translation>
+        <translation>Permite la búsqueda dentro de archivos de tipo: aplicación/x-sqlite3 y sus derivados</translation>
     </message>
     <message>
         <source>Enables searching inside *.sqlite, *.sqlite3, *.db files</source>
-        <translation>Permite la búsqueda en ficheros *.sqlite, *.sqlite3, *.db</translation>
+        <translation>Permite la búsqueda en archivos *.sqlite, *.sqlite3, *.db</translation>
     </message>
     <message>
         <source>Enable NOTES section</source>
@@ -820,7 +820,7 @@
     </message>
     <message>
         <source>Enables searching for file and directory names</source>
-        <translation>Permite la búsqueda de nombres de ficheros y directorios</translation>
+        <translation>Permite la búsqueda de nombres de archivos y directorios</translation>
     </message>
 </context>
 <context>
@@ -1243,23 +1243,23 @@
     </message>
     <message>
         <source>TXT files content</source>
-        <translation>Contenido de ficheros TXT</translation>
+        <translation>Contenido de archivos TXT</translation>
     </message>
     <message>
         <source>HTML files content</source>
-        <translation>Contenido de ficheros HTML</translation>
+        <translation>Contenido de archivos HTML</translation>
     </message>
     <message>
         <source>PDF files content</source>
-        <translation>Contenido de ficheros PDF</translation>
+        <translation>Contenido de archivos PDF</translation>
     </message>
     <message>
         <source>SRC files content</source>
-        <translation>Contenido de ficheros SRC</translation>
+        <translation>Contenido de archivos SRC</translation>
     </message>
     <message>
         <source>SQLITE files content</source>
-        <translation>Contenido de ficheros SQLITE</translation>
+        <translation>Contenido de archivos SQLITE</translation>
     </message>
     <message>
         <source>Applications</source>
@@ -1267,7 +1267,7 @@
     </message>
     <message>
         <source>Filenames</source>
-        <translation>Nombres de fichero</translation>
+        <translation>Nombres de archivo</translation>
     </message>
     <message>
         <source>Directory names</source>
@@ -1326,7 +1326,7 @@
     </message>
     <message>
         <source>Open with File manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir con gestor de archivos</translation>
     </message>
     <message>
         <source>Open</source>
@@ -1334,7 +1334,7 @@
     </message>
     <message>
         <source>Share</source>
-        <translation type="unfinished"></translation>
+        <translation>Compartir</translation>
     </message>
     <message>
         <source>Remove from search results</source>
@@ -1350,11 +1350,11 @@
     </message>
     <message>
         <source>File can&apos;t be opened</source>
-        <translation>No se puede abrir el fichero</translation>
+        <translation>No se puede abrir el archivo</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
-        <translation>Este tipo de fichero no se puede abrir.</translation>
+        <translation>Este tipo de archivo no se puede abrir.</translation>
     </message>
 </context>
 <context>
@@ -1395,7 +1395,7 @@
     </message>
     <message>
         <source>Entire home directory with hidden files</source>
-        <translation>Directorio home completo con ficheros ocultos</translation>
+        <translation>Directorio home completo con archivos ocultos</translation>
     </message>
     <message>
         <source>SD card</source>
@@ -1403,7 +1403,7 @@
     </message>
     <message>
         <source>Entire SD card with hidden files</source>
-        <translation>Tarjeta SD completa con ficheros ocultos</translation>
+        <translation>Tarjeta SD completa con archivos ocultos</translation>
     </message>
     <message>
         <source>Applications</source>
@@ -1468,11 +1468,11 @@
     </message>
     <message>
         <source>File can&apos;t be opened</source>
-        <translation>No se puede abrir el fichero</translation>
+        <translation>No se puede abrir el archivo</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
-        <translation>Este tipo de fichero no se puede abrir.</translation>
+        <translation>Este tipo de archivo no se puede abrir.</translation>
     </message>
     <message>
         <source>Show complete record</source>
@@ -1505,15 +1505,15 @@
     </message>
     <message>
         <source>File can&apos;t be opened</source>
-        <translation>No se puede abrir el fichero</translation>
+        <translation>No se puede abrir el archivo</translation>
     </message>
     <message>
         <source>This type of file can&apos;t be opened.</source>
-        <translation>Este tipo de fichero no se puede abrir.</translation>
+        <translation>Este tipo de archivo no se puede abrir.</translation>
     </message>
     <message>
         <source>Share</source>
-        <translation type="unfinished"></translation>
+        <translation>Compartir</translation>
     </message>
 </context>
 </TS>
