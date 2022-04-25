@@ -20,7 +20,7 @@
 #include <QDebug>
 #include "dbsqlite.h"
 
-#define M_NOTESDBPATH ".local/share/jolla-notes/QML/OfflineStorage/Databases/"
+#define M_NOTESDBPATH ".local/share/com.jolla/notes/QML/OfflineStorage/Databases/"
 #define M_LOCALSHARE ".local/share/"
 
 DbSqlite::DbSqlite(const QString &path)
