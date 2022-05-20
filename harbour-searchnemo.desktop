@@ -15,6 +15,4 @@ Comment[de]=Text- und Dateisuchmaschine
 Comment[ru]=Инструмент поиска текста и файлов
 
 [X-Sailjail]
-OrganizationName=searchnemo
-ApplicationName=searchnemo
-Permissions=UserDirs;RemovableMedia;Calendar;Contacts;Messages;Accounts;Email;Privileged;Synchronization
+Sandboxing=Disabled
