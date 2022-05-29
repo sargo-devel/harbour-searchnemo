@@ -13,3 +13,6 @@ Comment[nl]=Zoekhulpmiddel voor tekst en bestanden
 Comment[hu]=Szöveg- és fájlkereső eszköz
 Comment[de]=Text- und Dateisuchmaschine
 Comment[ru]=Инструмент поиска текста и файлов
+
+[X-Sailjail]
+Sandboxing=Disabled
