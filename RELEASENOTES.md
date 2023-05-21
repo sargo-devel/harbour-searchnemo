@@ -1,6 +1,10 @@
 
 # SearchNemo Release Notes
 
+## Version 0.6.2 (2023-03-28) (Chum)
+* Updated with fixes to run with latest version
+* Changed harbour-searchnemo.spec to be chum compatible
+
 ## Version 0.6.1 (2019-02-03)
 * Updated translations: German, Spanish, Dutch, Dutch (Belgium)
 * Improved translations handling

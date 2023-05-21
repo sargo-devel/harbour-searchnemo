@@ -13,7 +13,7 @@ Name:       harbour-searchnemo
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Search text in Sailfish resources
-Version:    0.6.1
+Version:    0.6.2
 Release:    1
 Group:      Qt/Qt
 License:    GPLv3
@@ -26,11 +26,30 @@ BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
 BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  desktop-file-utils
+BuildRequires:  qt5-qttools-linguist
 
 %description
 Searches text in files stored locally on the Sailfish OS device.
 
-
+# This description section includes metadata for SailfishOS:Chum, see
+# https://github.com/sailfishos-chum/main/blob/main/Metadata.md
+%if 0%{?_chum}
+PackageName: Search Nemo
+Type: desktop-application
+DeveloperName: SargoDevel
+Categories:
+ - Utils
+Custom:
+  Repo: https://github.com/piggz/harbour-advanced-camera
+Icon: https://github.com/piggz/harbour-advanced-camera/raw/master/harbour-advanced-camera.svg
+Screenshots:
+ - https://openrepos.net/sites/default/files/packages/2895/screenshot-01v032.jpg
+ - https://openrepos.net/sites/default/files/packages/2895/screenshot-02v032.jpg
+ - https://openrepos.net/sites/default/files/packages/2895/screenshot-03v05.jpg
+Url:
+  Homepage: https://github.com/sargo-devel/harbour-searchnemo
+  Bugtracker: https://github.com/sargo-devel/harbour-searchnemo/issues
+%endif
 %prep
 %setup -q -n %{name}-%{version}
 
